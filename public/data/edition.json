@@ -1,0 +1,1102 @@
+{
+  "version": 1,
+  "publishedAt": "2026-10-28T19:09:00-04:00",
+  "checkedAt": "2026-10-28T19:09:00-04:00",
+  "nextRunAt": "2026-10-28T21:38:00-04:00",
+  "brief": {
+    "title": "The Fed holds but leans toward a hike, oil sits near $115, and Big Tech's AI bill comes due.",
+    "bullets": [
+      "**Fed:** held at 3.75%–4.00% in a 10–2 vote, with both dissenters wanting a hike. Warsh won't pre-commit, and December is ~82% priced for a hike.",
+      "**Oil:** Brent ~$115 with Hormuz flows ~60% of normal, and reports of US strikes on Iran resuming after the midterms. Energy is the inflation story.",
+      "**Bonds:** the 10-year is back at ~5.02% after an October round trip. The driver is term premium (deficits, supply, inflation risk).",
+      "**Earnings:** Alphabet fell ~10% after hours on −$9B free cash flow; Microsoft rose on 48% Azure growth. Amazon reports Thursday.",
+      "**Thursday:** PCE + Q3 GDP at 8:30 AM ET, then the ECB. The BoJ follows overnight."
+    ],
+    "mood": "Stocks grind higher into earnings while bonds and oil keep stagflation risk on the table."
+  },
+  "mustKnow": [
+    "fed-holds-october-2026",
+    "oil-brent-115-hormuz",
+    "alphabet-microsoft-earnings-q3-2026"
+  ],
+  "calendar": [
+    {
+      "date": "2026-10-29",
+      "time": "8:30 AM ET",
+      "label": "September PCE + Q3 GDP (advance)",
+      "why": "Consensus core PCE ~3.1% y/y. A hot print cements a December hike."
+    },
+    {
+      "date": "2026-10-29",
+      "time": "Morning ET",
+      "label": "ECB decision",
+      "why": "A hold at 2.5% is expected. Watch for a December-hike signal and any comment on French spreads."
+    },
+    {
+      "date": "2026-10-29",
+      "time": "After close",
+      "label": "Amazon Q3 earnings",
+      "why": "AWS growth versus capex: the next test after Alphabet's cash-flow scare."
+    },
+    {
+      "date": "2026-10-29",
+      "time": "Overnight",
+      "label": "Bank of Japan decision",
+      "why": "A hold at 1.25% is expected. A declaration that the inflation goal is met would signal more hikes, which is yen-positive."
+    },
+    {
+      "date": "2026-11-03",
+      "label": "US midterm elections",
+      "why": "Prediction markets see a Democratic House. The Senate is the swing. Reported post-election Iran strikes make it an oil event too."
+    },
+    {
+      "date": "2026-11-06",
+      "time": "8:30 AM ET",
+      "label": "October jobs report",
+      "why": "The last payrolls print before the Dec. 8–9 FOMC."
+    },
+    {
+      "date": "2026-12-09",
+      "time": "2:00 PM ET",
+      "label": "FOMC decision + dot plot",
+      "why": "About 82% priced for a 25bp hike after today's two dissents."
+    }
+  ],
+  "stories": [
+    {
+      "id": "fed-holds-october-2026",
+      "beat": "fed-macro",
+      "headline": "Fed holds at 3.75%–4.00% in a 10–2 vote, with two dissents for a hike",
+      "dek": "Cook and Hammack wanted another quarter-point hike. Warsh refused to pre-commit to December, and futures still put the odds of a hike there above 80%.",
+      "importance": 5,
+      "depth": "full",
+      "developing": false,
+      "publishedAt": "2026-10-28T19:09:00-04:00",
+      "updatedAt": "2026-10-28T19:09:00-04:00",
+      "readMinutes": 5,
+      "tldr": [
+        "The Fed left rates at **3.75%–4.00%**, one meeting after September's quarter-point hike, its first increase in more than three years.",
+        "Two officials, Governor Lisa Cook and Cleveland Fed President Beth Hammack, dissented because they wanted to hike again *now*.",
+        "Chair Kevin Warsh gave no hint on December. Futures still price roughly an **82%** chance of a hike there."
+      ],
+      "whatHappened": [
+        "The FOMC kept its target for the [[fed funds rate]] at **3.75%–4.00%** on Wednesday. The vote was **10–2**, and both dissenters wanted a 25 [[bp|basis point]] hike: Governor Lisa Cook and Cleveland Fed President Beth Hammack. CNN reports it was Cook's first policy dissent since she joined the Board in 2022.",
+        "The statement still calls inflation elevated and says the Committee wants more data before moving again. Call it a [[hawkish hold]]: nothing changed today, but the argument in the room is about *whether to hike again*, not when to cut.",
+        "At the press conference, Warsh said politics played no role, a point worth making with the midterms six days away. He also repeated that he doesn't believe in [[forward guidance]] outside of a crisis, and he wouldn't say what December brings.",
+        "This wasn't a projection meeting, so there's no new [[dot plot]]. The last one, in September, had the median official pencilling in one more quarter-point hike before the end of 2026."
+      ],
+      "marketReaction": [
+        {
+          "asset": "2Y Treasury",
+          "move": "4.79% → 4.69% intraday",
+          "direction": "down"
+        },
+        {
+          "asset": "10Y Treasury",
+          "move": "5.02% (from 4.99%)",
+          "direction": "up"
+        },
+        {
+          "asset": "S&P 500",
+          "move": "+0.28% to 7,743.98",
+          "direction": "up"
+        },
+        {
+          "asset": "Nasdaq",
+          "move": "+0.27% to 26,549.85",
+          "direction": "up"
+        },
+        {
+          "asset": "Dec. hike odds",
+          "move": "~82% (CME FedWatch)",
+          "direction": "up"
+        }
+      ],
+      "background": [
+        "A year ago the Fed was *cutting*: three straight quarter-point cuts in late 2025 brought the range down to 3.50%–3.75%. Then came the 2026 energy shock. The war with Iran, which began on Feb. 28, has repeatedly choked shipping through the Strait of Hormuz, and Brent now trades well above $100. Gasoline jumped 9.1% in September alone, pushing headline CPI to **3.7%**.",
+        "Oil-driven inflation is the classic central-bank dilemma. The textbook says to look through a supply shock, because higher rates don't produce more oil. The fear is [[second-round effects]]: once businesses and workers *expect* higher prices, they build them into wages and pricing, and a one-off shock becomes entrenched. Core CPI (excluding food and energy) rose to 2.6% in September from 2.4%, and core PCE, the Fed's preferred gauge, has run around 3% all year. That combination is why September's hike was unanimous.",
+        "Warsh became chair in May and has been rewiring how the Fed talks to markets (see the separate story on fewer meetings). His dislike of guidance matters for trading. With less signaling from the Fed, each data release does more of the work, and that tends to mean bigger moves on data days."
+      ],
+      "grandLine": {
+        "title": "The Log Pose only points to the next island",
+        "body": "Warsh's Fed sails like a Grand Line crew: no published route, and no promises about the voyage after the next stop. A Log Pose only locks onto the next island after it has sat on this one long enough. The Fed will only 'set' on December after it has spent time with PCE, payrolls and CPI. Meanwhile two officers on deck, Cook and Hammack, are channeling a bit of Akainu's Absolute Justice: stamp out the inflation threat now, even if it costs some growth."
+      },
+      "whyItMatters": [
+        "The 2-year Treasury is the market's running bet on the Fed's path. It whipsawed from about 4.70% to 4.79% and back down to 4.69%. Traders read Warsh's refusal to commit as a little *less* hawkish than the two dissents suggested.",
+        "December is still live. CME FedWatch showed roughly an 82% chance of a hike after the decision, so a hike is mostly [[priced in]] and the real surprise risk is now a *skip*. If Thursday's PCE or the Nov. 6 jobs report runs hot, expect the debate to shift to whether one more hike is enough.",
+        "For stocks, higher-for-longer rates squeeze the long-duration growth names, which are exactly the AI-heavy megacaps reporting earnings this week."
+      ],
+      "views": [
+        {
+          "camp": "The hawks",
+          "thesis": "Hike again in December, and maybe beyond.",
+          "argument": "Headline inflation at 3.7% and core PCE near 3% are far above the 2% target. An oil shock that lasts most of a year stops being 'transitory': it leaks into airfares, shipping, wages and expectations. Two dissents at a meeting where the Fed held is a loud signal, because dissenters often show where the committee goes next.",
+          "who": "Dissenters Cook and Hammack. Goldman Sachs Asset Management expects the Fed to resume hikes in December."
+        },
+        {
+          "camp": "The patient majority",
+          "thesis": "Don't keep tightening into a supply shock.",
+          "argument": "Rate hikes can't reopen a shipping lane. The inflation problem is mostly energy, and core CPI at 2.6% doesn't scream overheating. Expensive oil already works like a tax on consumers, so hiking on top of it risks overtightening just as the war (and reports of renewed US strikes after the midterms) adds uncertainty. Waiting a meeting costs little when the Fed can still move in December.",
+          "who": "The 10 who voted to hold. Morgan Stanley's Michael Gapen framed the split as inflation data pointing to urgency versus FOMC members favoring patience."
+        },
+        {
+          "camp": "The bond market",
+          "thesis": "The next 25bp matters less than the term premium.",
+          "argument": "The 10-year sits near 5% mainly because investors demand more to hold long-term debt: a deficit near $1.9 trillion, heavy issuance, and murky inflation. That's not about one more Fed move. A December hike might barely nudge long yields, and the bigger trade is the *shape* of the curve."
+        }
+      ],
+      "interview": {
+        "question": "The Fed just held but two members dissented for a hike. Is December a done deal?",
+        "answer": "Not a done deal, but it's the base case, and futures have it around 80%. I think they hike in December. Two dissents at a hold meeting show you where the center of gravity is moving. And with headline CPI at 3.7% on an oil shock that's lasted most of the year, the risk of [[second-round effects]] is rising. What would change my mind is a soft core PCE print plus a weak payrolls number on November 6, or a real de-escalation with Iran that takes Brent back under $100. Warsh won't give [[forward guidance]], so those data points carry more weight than usual.",
+        "followUp": {
+          "question": "If the hike is 80% priced, how do you make money being right?",
+          "answer": "You don't make much on the December meeting itself. The payoff is in what comes after. If you think the Fed has to keep going into early 2027, you'd look at what's priced for the first half of next year, or express it as a [[bear flattener]], where the 2-year rises more than the 10-year. Being right about something fully priced is worth little. The money is in being right about what isn't priced."
+        }
+      },
+      "trade": {
+        "idea": "2s10s bear flattener",
+        "expression": "Short 2Y / long 10Y Treasuries, DV01-neutral (or pay 2Y, receive 10Y in swaps)",
+        "rationale": "If the Fed hikes in December and signals more, the 2-year should sell off harder than the 10-year, because the 2-year tracks the expected policy path while the 10-year is already loaded with term premium. The gap between them narrows. That's a 'bear' move (yields up) that 'flattens' the curve. Sizing it DV01-neutral means you're betting on the curve's *shape*, not its overall level.",
+        "risks": [
+          "An oil spike or a sloppy Treasury auction pushes long yields up faster than short ones. That's a bear *steepener*, and the trade loses.",
+          "A ceasefire or a weak jobs report gets hikes priced out. The 2-year rallies hard and the curve steepens.",
+          "With ~82% already priced for December, the 2-year has limited room to reprice before the meeting."
+        ]
+      },
+      "keyTerms": [
+        {
+          "term": "fed funds rate",
+          "definition": "The overnight rate banks charge each other for reserves. The Fed sets a target range for it, currently 3.75%–4.00%, and it anchors short-term borrowing costs across the economy.",
+          "example": "A 25bp hike in December would move the range to 4.00%–4.25%."
+        },
+        {
+          "term": "basis point",
+          "definition": "One hundredth of a percentage point (0.01%). Desks quote rate moves and spreads in 'bp' or 'bips'.",
+          "example": "The 2-year falling from 4.79% to 4.69% is a 10bp rally."
+        },
+        {
+          "term": "hawkish hold",
+          "definition": "Leaving rates unchanged while signaling that the next move is more likely up than down.",
+          "example": "Holding at 3.75%–4.00% with two dissents in favor of a hike."
+        },
+        {
+          "term": "forward guidance",
+          "definition": "A central bank telling markets what it expects to do in the future, to shape expectations today. Warsh says he doesn't believe in it outside of crises."
+        },
+        {
+          "term": "dot plot",
+          "definition": "A chart of each FOMC official's projection for the fed funds rate, published at the four 'projection' meetings a year.",
+          "example": "September's median dot showed one more quarter-point hike in 2026."
+        },
+        {
+          "term": "second-round effects",
+          "definition": "When a one-off price shock (like oil) spreads into wages and other prices because people start expecting higher inflation. It's the main reason central banks don't simply ignore supply shocks."
+        },
+        {
+          "term": "priced in",
+          "definition": "Already reflected in market prices, so it won't move markets when it happens. Prices move on the gap between outcome and expectation.",
+          "example": "With ~82% odds, a December hike is mostly priced in, so a skip would be the bigger surprise."
+        },
+        {
+          "term": "bear flattener",
+          "definition": "Yields rise ('bear'), with short-dated yields rising more than long-dated ones, so the yield curve flattens. It's typical when markets price in more Fed hikes."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Thu 8:30 AM ET",
+          "what": "September PCE and the first estimate of Q3 GDP. Consensus has core PCE around 3.1% year over year."
+        },
+        {
+          "when": "Fri Nov 6",
+          "what": "October jobs report, the last payrolls print before December."
+        },
+        {
+          "when": "Nov 18",
+          "what": "Minutes of this meeting, which will show how many officials leaned toward the dissenters."
+        },
+        {
+          "when": "Dec 8–9",
+          "what": "Next FOMC meeting, with a fresh dot plot."
+        }
+      ],
+      "sources": [
+        {
+          "name": "CNBC: Fed holds rates steady",
+          "url": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html"
+        },
+        {
+          "name": "CNN: Two officials dissented for a hike",
+          "url": "https://www.cnn.com/2026/10/28/business/live-news/federal-reserve-interest-rate-october"
+        },
+        {
+          "name": "AP via BNN Bloomberg: Bonds swing, stocks steady",
+          "url": "https://www.bnnbloomberg.ca/markets/2026/10/28/us-stocks-remains-steady-after-fed-says-it-wont-raise-interest-rates/"
+        },
+        {
+          "name": "Yahoo Finance: Markets live, Oct. 28",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-28-dow-sp-500-nasdaq-fed-meeting-decision-big-tech-earnings-130508769.html"
+        },
+        {
+          "name": "CNBC: September CPI report",
+          "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+        }
+      ]
+    },
+    {
+      "id": "oil-brent-115-hormuz",
+      "beat": "policy",
+      "headline": "Brent settles near $115 as Hormuz shipping runs at about 60% of normal",
+      "dek": "Oil climbed on reports of renewed US strikes on Iran after the midterms. Energy is the main engine of US inflation, and so of the Fed's hikes.",
+      "importance": 5,
+      "depth": "full",
+      "developing": true,
+      "publishedAt": "2026-10-28T19:09:00-04:00",
+      "updatedAt": "2026-10-28T19:09:00-04:00",
+      "readMinutes": 5,
+      "tldr": [
+        "Brent settled around **$115.32 (+1.3%)** and WTI at **$102.78 (+2.9%)** on Wednesday.",
+        "Tanker traffic through the Strait of Hormuz is running at roughly 60% of normal, per ANZ Research.",
+        "Gasoline accounted for more than half of September's CPI jump. Oil is the main reason the Fed is hiking."
+      ],
+      "whatHappened": [
+        "Oil rose for a second session as traders priced a longer conflict. President Trump said the war with Iran would end on his terms and that Tehran must be kept from nuclear weapons. There were also reports that the US is preparing to resume strikes on Iran *after* next Tuesday's midterm elections.",
+        "Houthi forces claimed a ballistic-missile strike on Saudi Aramco's Ras Tanura refinery. Saudi authorities have **not confirmed** a direct hit, so treat it as unverified. Brent briefly topped $117 earlier this week before dipping on Tuesday, when Saudi, Turkish and Pakistani diplomacy with Iran briefly raised hopes of a deal.",
+        "UBS expects Brent around $110 by year-end, arguing the market is undersupplied and that Gulf flows remain below prewar levels."
+      ],
+      "marketReaction": [
+        {
+          "asset": "Brent",
+          "move": "$115.32 (+1.3%)",
+          "direction": "up"
+        },
+        {
+          "asset": "WTI",
+          "move": "$102.78 (+2.9%)",
+          "direction": "up"
+        },
+        {
+          "asset": "Hormuz transits",
+          "move": "~60% of normal",
+          "direction": "down"
+        },
+        {
+          "asset": "10Y Treasury",
+          "move": "5.02% (+3bp), partly oil",
+          "direction": "up"
+        }
+      ],
+      "background": [
+        "Timeline in 60 seconds:",
+        "- **Feb. 28:** US and Israeli strikes on Iran start the war, and Iran shuts the Strait of Hormuz to foreign shipping.\n- **April:** A Pakistan-brokered ceasefire briefly reopens traffic. Talks in Islamabad fail, and the US blockades Iranian ports from mid-April to late May.\n- **June:** A US–Iran memorandum is signed to formally end the conflict.\n- **July 8:** The ceasefire collapses when Iran starts attacking commercial ships.\n- **Since then:** Mediation (Qatar among others) has been on and off, and Iran's president calls the talks meaningless.",
+        "Why it's so big: before the war, roughly a quarter of the world's seaborne oil and a fifth of its LNG went through Hormuz. It's the ultimate [[chokepoint]]. When flows run at 60%, the barrels physically can't reach buyers, and prices carry a hefty war [[risk premium]] on top of the actual shortage.",
+        "This is a textbook [[supply shock]]. Prices rise because supply is squeezed, not because demand is booming, and that's why it's so awkward for central banks: it pushes inflation up *and* growth down at the same time."
+      ],
+      "grandLine": {
+        "title": "The Red Line crossing",
+        "body": "There are only two ways to get a ship across the Red Line: through Mary Geoise with the World Government's permission, or down through Fish-Man Island. Control those passages and you control trade between the seas. Hormuz is the oil world's Red Line crossing. How much oil exists on the far side barely matters. What matters is how much can get through, and right now that's about 60%."
+      },
+      "whyItMatters": [
+        "The [[pass-through]] to inflation is fast and visible: gasoline rose 9.1% in September and accounted for more than half of the CPI increase. That's what turned the Fed from cutting in 2025 to hiking in September.",
+        "Across assets: energy producers win; airlines, shippers and consumer names lose. Inflation [[breakevens]] rise, and long-term Treasury yields get an upward nudge. The big macro fear is [[stagflation]]: a central bank hiking into an energy shock that is already slowing the consumer.",
+        "Event risk now clusters around the midterms. If the reports of post-election strikes are right, the first week of November could bring another leg up in oil."
+      ],
+      "views": [
+        {
+          "camp": "Higher for longer",
+          "thesis": "The market is genuinely short of oil, and the premium is justified.",
+          "argument": "Flows are still well below prewar levels, inventories are being drawn down, and every diplomatic breakthrough has unraveled. Escalation (post-midterm strikes, attacks on Saudi infrastructure) remains plausible.",
+          "who": "UBS, which sees ~$110 Brent at year-end."
+        },
+        {
+          "camp": "Headline-driven, so fade spikes",
+          "thesis": "A deal or demand destruction could deflate the premium quickly.",
+          "argument": "Prices whip around with every diplomatic headline (Tuesday's drop shows how fast hope gets priced). Above $100, consumers cut back and the economy slows. The US administration has repeatedly called the war 'essentially over'. If shipping normalizes, much of the risk premium can come out fast."
+        },
+        {
+          "camp": "Watch the central banks",
+          "thesis": "The bigger risk is central banks overtightening into a supply shock.",
+          "argument": "Oil at $115 is painful, but the danger for markets is the Fed (and ECB, and BoJ, which all hiked in September) tightening into an energy shock. That's how supply shocks turn into recessions, as in the 1970s and 2008."
+        }
+      ],
+      "interview": {
+        "question": "How does a war in the Middle East end up in US interest rates?",
+        "answer": "Through oil, then inflation, then the Fed. Hormuz is a [[chokepoint]] for about a quarter of seaborne oil. With flows at about 60%, Brent is around $115, and gasoline drove more than half of September's 3.7% CPI. Normally the Fed would look through a [[supply shock]], but after most of a year of high energy prices it's worried about second-round effects, so it hiked in September and markets price another in December. That lifts the 2-year directly and adds inflation risk premium to the 10-year. What would reverse it is a credible deal that reopens the strait.",
+        "followUp": {
+          "question": "Why doesn't the Fed just 'look through' an oil shock?",
+          "answer": "It can if the shock is short and expectations stay anchored. This one has lasted most of the year, core inflation is creeping up, and the risk is that higher prices get built into wages and expectations. At that point waiting is more expensive than acting. The Fed's credibility is the asset it's protecting."
+        }
+      },
+      "trade": {
+        "idea": "Long 5-year inflation breakevens",
+        "expression": "Buy 5Y TIPS / sell 5Y nominal Treasuries (long the 5Y breakeven)",
+        "rationale": "[[breakevens|Breakevens]] measure the inflation rate markets expect. If energy stays tight and pass-through keeps showing up in CPI, inflation expectations rise and TIPS outperform nominal Treasuries. Owning the spread isolates the inflation view without taking a big bet on the level of rates.",
+        "risks": [
+          "A real ceasefire reopens Hormuz and oil collapses, taking breakevens with it.",
+          "Demand destruction or recession knocks inflation expectations down.",
+          "Aggressive Fed hikes restore credibility and compress breakevens even while oil stays high."
+        ]
+      },
+      "keyTerms": [
+        {
+          "term": "chokepoint",
+          "definition": "A narrow passage that a big share of global trade must go through, such as Hormuz, Suez or Malacca. Disruption there hits supply far beyond the region."
+        },
+        {
+          "term": "risk premium",
+          "definition": "The extra price (or yield) markets charge for uncertainty, on top of fundamentals. In oil, it's the 'war premium' that can vanish on a peace deal."
+        },
+        {
+          "term": "supply shock",
+          "definition": "A sudden drop in the supply of something important (here, oil) that raises prices and slows growth at the same time. It's hard for central banks, because the cure for inflation worsens the slowdown."
+        },
+        {
+          "term": "pass-through",
+          "definition": "How much and how fast a cost change (oil, tariffs, the dollar) shows up in consumer prices.",
+          "example": "Gasoline up 9.1% in September drove over half of the CPI gain."
+        },
+        {
+          "term": "breakevens",
+          "definition": "The inflation rate at which TIPS and regular Treasuries return the same: the nominal yield minus the TIPS (real) yield. It's the market's inflation expectation."
+        },
+        {
+          "term": "stagflation",
+          "definition": "High inflation plus weak growth. It's the 1970s nightmare, and the toughest backdrop for both stocks and bonds."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Tue Nov 3",
+          "what": "Midterms. Reports suggest renewed US strikes could follow."
+        },
+        {
+          "when": "Daily",
+          "what": "Hormuz transit data and any confirmation (or denial) of damage at Ras Tanura."
+        },
+        {
+          "when": "Thu 8:30 AM ET",
+          "what": "PCE shows how much energy is bleeding into broader prices."
+        }
+      ],
+      "sources": [
+        {
+          "name": "CNBC: Oil price today, WTI and Brent rise",
+          "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html"
+        },
+        {
+          "name": "OilPrice.com: UBS sees $110 Brent by year-end",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/UBS-Sees-110-Brent-by-Year-End-as-Gulf-Flows-Stay-Below-Prewar-Levels.html"
+        },
+        {
+          "name": "Congressional Research Service: Strait of Hormuz",
+          "url": "https://www.congress.gov/crs-product/R45281"
+        },
+        {
+          "name": "Wikipedia: 2026 Iran war (timeline)",
+          "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+        },
+        {
+          "name": "CBS News: September CPI, energy costs soar",
+          "url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+        }
+      ]
+    },
+    {
+      "id": "alphabet-microsoft-earnings-q3-2026",
+      "beat": "markets",
+      "headline": "Alphabet falls ~10% after hours on a cash-flow miss while Microsoft rises on 48% Azure growth",
+      "dek": "AI spending is now hitting Big Tech's cash flow. Investors rewarded Microsoft, which showed the revenue, and punished Alphabet, which missed on profit and burned cash.",
+      "importance": 4,
+      "depth": "full",
+      "developing": true,
+      "publishedAt": "2026-10-28T19:09:00-04:00",
+      "updatedAt": "2026-10-28T19:09:00-04:00",
+      "readMinutes": 5,
+      "tldr": [
+        "Microsoft: revenue about **$92.3B (+19%)** beat estimates, Azure grew **48%**, and the stock rose roughly 2–4% after hours.",
+        "Alphabet: revenue about **$127.6B**, slightly light; EPS missed; free cash flow was **−$9.07B**; the stock fell roughly 9–10% after hours.",
+        "It's the same theme as Meta last week: AI capex is outrunning cash generation, and the market has started to care."
+      ],
+      "whatHappened": [
+        "**Microsoft** (fiscal Q1 2027) beat on the top and bottom line. Revenue came in around $92.3 billion versus roughly $90.7 billion expected, and its Azure cloud business grew 48%. Shares rose in extended trading; reports range from about 2% to 4.5%.",
+        "**Alphabet** (Q3 2026) posted what CNBC called its first top- and bottom-line miss in nearly four years. Revenue was about $127.6 billion versus $128.2 billion expected, and adjusted EPS of $2.67 missed the $3.02 consensus. The killer was [[free cash flow]]: **negative $9.07 billion**, far worse than analysts expected. Google Cloud more than doubled, to $30.7 billion in revenue, but search revenue of $63.35 billion fell short.",
+        "Q3 [[capex]] was $51.36 billion, and Alphabet kept its 2026 range at **$195–205 billion**, saying capex will rise 'significantly' again in 2027. Management blamed part of the cash drain on building inventory for its TPU chip sales and a $5.2 billion payment for a 2018 EU fine.",
+        "Context: on Oct. 22 Meta fell about 7% after its own release showed quarterly capex of $34.91 billion topping operating cash flow of $32.79 billion. That left free cash flow at roughly −$2.1 billion, versus +$10.6 billion a year earlier. Chip stocks led that day's selloff."
+      ],
+      "marketReaction": [
+        {
+          "asset": "Alphabet (after hours)",
+          "move": "≈ −9% to −10%",
+          "direction": "down"
+        },
+        {
+          "asset": "Microsoft (after hours)",
+          "move": "≈ +2% to +4%",
+          "direction": "up"
+        },
+        {
+          "asset": "Meta (Oct. 22)",
+          "move": "≈ −7%",
+          "direction": "down"
+        }
+      ],
+      "background": [
+        "The [[hyperscalers|hyperscaler]] (Microsoft, Alphabet, Amazon, Meta) are in an arms race to build AI data centers: chips, power, buildings. The bet is that AI revenue eventually justifies hundreds of billions in spending a year. For most of the cycle, investors cheered every capex increase as proof of ambition.",
+        "What changed is the cash. Free cash flow is operating cash flow minus capex, the money left after paying for the build-out. When capex exceeds what the business generates, FCF goes negative, and the company has to fund the gap from its cash pile, debt or new equity. Meta also announced a new class of non-voting shares, which gives it a route to raise equity.",
+        "When the market decides spending won't pay back as fast as hoped, it doesn't just cut earnings estimates. It pays less for each dollar of earnings. That's [[multiple compression]], and for megacaps a small change in the multiple moves hundreds of billions in market cap."
+      ],
+      "grandLine": {
+        "title": "Checking the bubble mid-dive",
+        "body": "A Sabaody coating lets a ship dive to depths it could never reach alone. That's the promise of AI capex. But the coating only holds if the descent is controlled. This quarter, the market checked the bubble halfway down. Google Cloud doubling says the coating is holding; a $9 billion cash burn says the pressure is building. Microsoft got rewarded because it's visibly surfacing with treasure (Azure +48%)."
+      },
+      "whyItMatters": [
+        "These names are a huge share of the S&P 500 and Nasdaq, so their after-hours moves set the tone for Thursday's open. Amazon reports Thursday after the close, and AWS growth and its capex plans are the next test of the same question.",
+        "It's also a rates story. With the 10-year near 5%, the hurdle for spending money today on payoffs years away is higher, and long-duration growth stocks are the most exposed to higher discount rates."
+      ],
+      "views": [
+        {
+          "camp": "Capex bubble",
+          "thesis": "The spending is getting ahead of the payoff.",
+          "argument": "Two of the biggest, most profitable companies on earth now burn cash because of AI capex, and they're guiding to *more* in 2027. Meta is setting up ways to raise equity. If revenue growth doesn't catch up, multiples have further to compress, and the suppliers (chips, power, data-center builders) are exposed too."
+        },
+        {
+          "camp": "Build-out phase",
+          "thesis": "Negative FCF is the cost of capacity that demand is already filling.",
+          "argument": "Google Cloud revenue doubled and Azure grew 48%. That's demand outrunning supply, not a lack of customers. Part of Alphabet's cash drain is inventory for chip sales and a one-off fine. Cash flow dips during build-outs and recovers as capacity comes online, and the market is punishing timing, not strategy."
+        }
+      ],
+      "interview": {
+        "question": "Alphabet's cloud business doubled, but the stock fell 10%. Why?",
+        "answer": "Because the market's focus has shifted from growth to cash. Cloud doubling was great, but Alphabet missed on EPS, search came in light, and [[free cash flow]] swung to minus $9 billion as [[capex]] ran ahead of operating cash. After Meta's similar quarter, investors are asking when AI spending pays back, and the answer they got was 'more spending in 2027'. Microsoft rose on the same day because Azure growing 48% shows the revenue side. So it's a relative story: the market is paying for monetization and selling cash burn.",
+        "followUp": {
+          "question": "Why does it matter whether spending shows up as capex or opex?",
+          "answer": "Opex hits the income statement right away and reduces earnings. Capex is capitalized and depreciated over years, so earnings can look fine while cash pours out. That's why investors are watching free cash flow, not just EPS, for the AI build-out."
+        }
+      },
+      "trade": {
+        "idea": "Long Microsoft / short Alphabet pair",
+        "expression": "Buy MSFT, sell GOOGL in equal dollar amounts (or [[beta]]-adjusted)",
+        "rationale": "A [[pair trade]] isolates the relative view, that the market keeps paying for visible AI monetization (Azure) over cash burn, while largely hedging out the overall market and the 'AI trade' as a whole. If tech rallies or sells off broadly, the legs offset and you're left with the spread.",
+        "risks": [
+          "After-hours moves often overshoot, and Alphabet could recover as analysts digest the cloud strength.",
+          "Microsoft's own capex and margins become the next worry at its next report.",
+          "Single-stock news (regulation, buybacks, guidance) can swamp the thesis."
+        ]
+      },
+      "keyTerms": [
+        {
+          "term": "free cash flow",
+          "definition": "Operating cash flow minus capital expenditures: the cash a business generates after paying for its investments. Negative FCF means it's funding growth from savings, debt or new equity.",
+          "example": "Alphabet's Q3 FCF was −$9.07B."
+        },
+        {
+          "term": "capex",
+          "definition": "Capital expenditures: spending on long-lived assets like data centers and chips. It's capitalized and depreciated over years rather than expensed right away."
+        },
+        {
+          "term": "hyperscaler",
+          "definition": "The giant cloud providers (Amazon AWS, Microsoft Azure, Google Cloud, plus Meta for its own AI) that build data centers at massive scale."
+        },
+        {
+          "term": "multiple compression",
+          "definition": "A stock's valuation multiple (like P/E) shrinking, so the price falls even if earnings hold up. It happens when investors become less willing to pay for future growth."
+        },
+        {
+          "term": "pair trade",
+          "definition": "Buying one asset and selling a related one, betting on the relative move rather than the market's direction."
+        },
+        {
+          "term": "beta",
+          "definition": "How much a stock moves with the market. A beta of 1.2 means it tends to move 1.2% for every 1% market move. Beta-adjusting a pair sizes the legs so market moves cancel."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Thu after close",
+          "what": "Amazon Q3 earnings, with AWS growth and capex plans."
+        },
+        {
+          "when": "Thu open",
+          "what": "Whether the Alphabet drop drags the Nasdaq and the chip stocks."
+        }
+      ],
+      "sources": [
+        {
+          "name": "CNBC: Alphabet Q3 2026 earnings",
+          "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html"
+        },
+        {
+          "name": "CNBC: Microsoft rises on cloud beat",
+          "url": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html"
+        },
+        {
+          "name": "CNBC: Biggest after-hours movers",
+          "url": "https://www.cnbc.com/2026/10/28/stocks-making-the-biggest-moves-after-hours-googl-msft-cmg-now.html"
+        },
+        {
+          "name": "Investing.com: Alphabet Q3 slides",
+          "url": "https://www.investing.com/news/company-news/alphabet-q3-2026-slides-128b-revenue-overshadowed-by-profit-miss-93CH-4981067"
+        },
+        {
+          "name": "Meta: Q3 2026 results release",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+        }
+      ]
+    },
+    {
+      "id": "treasury-10-year-near-5-percent",
+      "beat": "markets",
+      "headline": "The 10-year Treasury yield is back above 5% after its biggest swings in years",
+      "dek": "The benchmark yield ended near 5.02%. It peaked around 5.35% in early October, its highest since 2002, then had its biggest one-day drop since 2023. The driver is mostly term premium, not the Fed.",
+      "importance": 4,
+      "depth": "full",
+      "developing": false,
+      "publishedAt": "2026-10-28T19:09:00-04:00",
+      "updatedAt": "2026-10-28T19:09:00-04:00",
+      "readMinutes": 4,
+      "tldr": [
+        "The 10-year ended Wednesday around **5.02%**. It peaked near 5.35% on Oct. 7, the highest level since 2002.",
+        "On Oct. 22 it fell about 19bp in one session, the biggest drop since March 2023, as an AI-stock selloff sent money into bonds.",
+        "The core story is [[term premium]]: investors demanding more to hold long debt amid big deficits, heavy issuance and oil-driven inflation risk."
+      ],
+      "whatHappened": [
+        "The 10-year Treasury yield rose to about **5.02%** on Wednesday from 4.99%, an upward nudge from higher oil prices on a Fed day. The 2-year did most of the moving, swinging between about 4.69% and 4.79% around the decision.",
+        "Zoom out and October has been a roller coaster. The 10-year hit roughly **5.35%** on Oct. 7 (sources put the peak at 5.34%–5.36%), its highest since 2002. Then on Oct. 22 it dropped about **19bp** in a single session to around 4.95%, the largest one-day fall since March 2023, as a selloff in AI stocks sent investors running to government bonds. It has since drifted back above 5%."
+      ],
+      "marketReaction": [
+        {
+          "asset": "10Y yield (Oct. 28)",
+          "move": "≈5.02%",
+          "direction": "up"
+        },
+        {
+          "asset": "10Y peak (Oct. 7)",
+          "move": "≈5.35%, highest since 2002",
+          "direction": "up"
+        },
+        {
+          "asset": "10Y on Oct. 22",
+          "move": "−19bp in one day",
+          "direction": "down"
+        },
+        {
+          "asset": "2Y on Fed day",
+          "move": "4.79% → 4.69%",
+          "direction": "down"
+        }
+      ],
+      "background": [
+        "A 10-year yield is two things added together: what markets expect short-term rates to average over the next decade, plus a [[term premium]], the extra yield investors demand for locking money up that long instead of rolling short-term bills.",
+        "Term premium is what blew out this year. Forbes, citing government figures, puts the fiscal 2026 deficit around **$1.9 trillion, about 5.8% of GDP**, which means relentless Treasury issuance. Add oil-driven inflation uncertainty and a Fed that won't publish its route, and long bonds look riskier, so buyers want paying. Stress elsewhere (French yields above 5%, for example) adds to the global pressure.",
+        "When long yields rise faster than short ones, the [[yield curve]] steepens. When that happens because long bonds are selling off, it's a [[bear steepener]], the signature move of a term-premium scare as opposed to a Fed scare."
+      ],
+      "grandLine": {
+        "title": "Hazard pay for the long voyage",
+        "body": "Term premium is Grand Line hazard pay. Hopping to the next island is predictable. Signing on all the way into the New World, with unknown weather and Emperor-controlled waters, is another thing, and the crew wants a lot more Berries to commit. A 10-year bond is that long voyage. Deficits, oil shocks and a navigator (the Fed) who won't show the map make the weather harder to read, so investors demand extra yield to sign on."
+      },
+      "whyItMatters": [
+        "The 10-year is the world's discount rate. It sets mortgage rates, corporate borrowing costs and the bar every stock has to clear. A 5% risk-free yield competes directly with equities, especially long-duration tech, where most of the value sits far in the future.",
+        "The Oct. 22 rally was a reminder that Treasuries still work as a [[flight to safety]] asset when stocks crack, even in an inflationary year. That matters for anyone deciding whether to own bonds at 5%."
+      ],
+      "views": [
+        {
+          "camp": "Bond bears",
+          "thesis": "5% is a waypoint, not a ceiling.",
+          "argument": "Deficits aren't shrinking, issuance keeps coming, the Fed is still hiking, and oil keeps feeding inflation. Term premium was compressed for a decade by QE and low inflation, and normalizing it could take long yields well past the early-October high."
+        },
+        {
+          "camp": "Duration buyers",
+          "thesis": "5% is a gift, so lock it in.",
+          "argument": "You're paid handsomely to wait, and the Oct. 22 rally showed bonds still hedge risk-off days. An oil shock plus Fed hikes is exactly the mix that slows growth, and slowdowns pull long yields down. At these levels the asymmetry favors owning duration."
+        }
+      ],
+      "interview": {
+        "question": "Where do you think the 10-year goes from here?",
+        "answer": "I'd lean toward a range around 5% with risk skewed slightly lower over the next few months, but I'd hold that view loosely. The move up this year has been mostly [[term premium]] (deficits, issuance, inflation uncertainty), and those don't fade fast. Still, the Fed tightening into an oil shock is a growth negative, and October 22 showed Treasuries still rally when risk assets crack. What would make me more bearish on bonds is another hot inflation print or a weak auction at the November refunding.",
+        "followUp": {
+          "question": "What's the difference between a bear steepener and a bull steepener?",
+          "answer": "Both mean the curve steepens. A [[bear steepener]] is yields *rising*, with the long end rising more. That's a term-premium or inflation scare, like early October. A bull steepener is yields *falling*, with the front end falling more. That usually happens when markets start pricing Fed cuts, like in a growth scare."
+        }
+      },
+      "trade": {
+        "idea": "Own 10-year duration at 5% as a hedge",
+        "expression": "Long 10Y Treasury futures (TY) or cash 10s, sized by DV01",
+        "rationale": "At 5% you earn strong [[carry]] while you wait, and Treasuries showed on Oct. 22 that they still rally when equities sell off. If the oil shock and Fed hikes slow the economy, long yields should fall. [[DV01]] tells you how much the position makes or loses per basis point, which is how desks size and compare rates trades.",
+        "risks": [
+          "Oil re-accelerates inflation and the Fed hikes more than the one move priced for December.",
+          "Supply: weak demand at Treasury auctions, or a bigger-than-expected refunding, pushes term premium higher.",
+          "Stocks and bonds sell off *together* (a 2022-style inflation scare), so the hedge doesn't hedge."
+        ]
+      },
+      "keyTerms": [
+        {
+          "term": "term premium",
+          "definition": "The extra yield investors demand for holding a long bond instead of rolling short-term bills, as compensation for inflation risk, supply and uncertainty.",
+          "example": "Most of the 10-year's climb to ~5% this year is term premium, not Fed pricing."
+        },
+        {
+          "term": "yield curve",
+          "definition": "Yields plotted across maturities, from short (2Y) to long (10Y, 30Y). Desks trade its slope, e.g. '2s10s' is the 10-year yield minus the 2-year yield."
+        },
+        {
+          "term": "bear steepener",
+          "definition": "Yields rise, with long-dated yields rising more than short-dated ones, so the curve steepens. It's typical of a term-premium or inflation scare."
+        },
+        {
+          "term": "flight to safety",
+          "definition": "Investors dumping risky assets (stocks, credit) for safe ones (Treasuries, often gold or the dollar) during stress, which pushes bond yields down.",
+          "example": "The 19bp drop in the 10-year on Oct. 22 as AI stocks sold off."
+        },
+        {
+          "term": "carry",
+          "definition": "What you earn just from holding a position if prices don't move. For a bond, it's roughly its yield minus your funding cost."
+        },
+        {
+          "term": "DV01",
+          "definition": "Dollar value of one basis point: how much a position gains or loses when yields move 1bp. It's used to size and hedge rates trades."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Thu 8:30 AM ET",
+          "what": "PCE and Q3 GDP, the next inflation test for the long end."
+        },
+        {
+          "when": "Early Nov.",
+          "what": "Treasury's quarterly refunding announcement, the supply outlook for long bonds."
+        },
+        {
+          "when": "Fri Nov 6",
+          "what": "October payrolls."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Forbes: Why the 10-year hit a 24-year high",
+          "url": "https://www.forbes.com/sites/garthfriesen/2026/10/07/why-the-10-year-treasury-yield-just-hit-a-24-year-high/"
+        },
+        {
+          "name": "Quartz: 10-year yield highest since 2002",
+          "url": "https://qz.com/us-treasury-yield-highest-since-2002-bond-selloff-100126"
+        },
+        {
+          "name": "AP via BNN Bloomberg: Bond market swings on Fed day",
+          "url": "https://www.bnnbloomberg.ca/markets/2026/10/28/us-stocks-remains-steady-after-fed-says-it-wont-raise-interest-rates/"
+        },
+        {
+          "name": "Trading Economics: US 10-year yield",
+          "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+        }
+      ]
+    },
+    {
+      "id": "pce-gdp-preview-october-29",
+      "beat": "fed-macro",
+      "headline": "Thursday's PCE and GDP data are the next test for a December hike",
+      "dek": "September PCE and the first look at Q3 GDP land at 8:30 AM ET. Consensus has core PCE at about 3.1%, up from 3.0%, after a hot, energy-driven CPI.",
+      "importance": 4,
+      "depth": "brief",
+      "developing": false,
+      "publishedAt": "2026-10-28T19:09:00-04:00",
+      "updatedAt": "2026-10-28T19:09:00-04:00",
+      "readMinutes": 2,
+      "tldr": [
+        "Consensus for September: headline PCE around **3.7%** year over year, core around **3.1%** (August core was 3.0%).",
+        "September CPI already came in at 3.7% headline and 2.6% core, both a touch hotter than expected."
+      ],
+      "whatHappened": [
+        "The Commerce Department publishes September's personal income and spending report, including [[PCE inflation]], and the advance estimate of Q3 GDP on Thursday at 8:30 AM ET. Previews put the [[consensus]] at about 3.7% for headline PCE and 3.1% for core. These are forecasts, not results.",
+        "The backdrop: September CPI rose 3.7% from a year earlier (0.6% on the month) as gasoline jumped 9.1%. Core CPI was 2.6% year over year and 0.3% on the month, slightly above forecasts."
+      ],
+      "background": [
+        "The Fed targets 2% on PCE, not CPI. PCE covers a broader basket and weights things differently (housing counts for less, healthcare for more), so the two can tell different stories. Desks focus on core, which strips out volatile food and energy to show the underlying trend.",
+        "Because CPI and PPI come out first, economists can estimate most of PCE in advance. The *surprise* versus consensus is what moves markets."
+      ],
+      "whyItMatters": [
+        "With no forward guidance from Warsh, data does the talking. A core print at or above 3.1% strengthens the December hike case, which is already ~82% priced, and could start pulling 2027 hikes forward. A soft print would hit the 2-year hardest."
+      ],
+      "views": [
+        {
+          "camp": "Hot-print risk",
+          "thesis": "Energy is leaking into core.",
+          "argument": "Shipping, airfares and other energy-sensitive services feed into core with a lag. After CPI's upside surprise, risks skew toward a firm core PCE."
+        },
+        {
+          "camp": "Look at the trend",
+          "thesis": "Core is steady, and it's headline doing the damage.",
+          "argument": "Core PCE was 3.0% in August, softer than expected, and core CPI at 2.6% isn't accelerating dramatically. Strip out energy and the picture is sticky but not spiraling."
+        }
+      ],
+      "interview": {
+        "question": "What number are you watching Thursday, and why?",
+        "answer": "Core PCE month over month. It's the Fed's preferred gauge and the cleanest read on underlying inflation, since it strips out the energy shock. Consensus is around 3.1% year over year. A 0.3% or higher monthly print would back the December hike that's mostly priced and push the market to price more in 2027. A soft print would rally the 2-year. GDP matters too, because strong growth plus sticky core is the hawkish combination.",
+        "followUp": {
+          "question": "Why does the Fed prefer PCE to CPI?",
+          "answer": "PCE covers a broader range of spending, including what's paid on your behalf like employer health insurance. It also adjusts as people substitute between goods, so the Fed sees it as a better measure of what households actually experience."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "PCE inflation",
+          "definition": "Inflation measured by the Personal Consumption Expenditures price index. It's the Fed's preferred gauge, and its 2% target is defined on PCE. 'Core' excludes food and energy.",
+          "example": "Core PCE was 3.0% y/y in August; consensus for September is ~3.1%."
+        },
+        {
+          "term": "consensus",
+          "definition": "The median economist forecast for a data release. Markets react to the surprise versus consensus, not the number itself."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Thu 8:30 AM ET",
+          "what": "PCE, personal spending and Q3 GDP (advance)."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Morningstar: September PCE expected to show rising inflation",
+          "url": "https://www.morningstar.com/economy/september-pce-expected-show-rising-inflation"
+        },
+        {
+          "name": "Morningstar: August PCE report",
+          "url": "https://www.morningstar.com/economy/august-pce-report-pce-inflation-index-up-34-softer-than-expected"
+        },
+        {
+          "name": "CNBC: September CPI report",
+          "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+        }
+      ]
+    },
+    {
+      "id": "warsh-fed-meeting-overhaul",
+      "beat": "fed-macro",
+      "headline": "Warsh is cutting the Fed's rate-setting meetings next year to make room for strategy sessions",
+      "dek": "From 2027, one of the eight FOMC meetings will be strategy-only, with no rate decision. A balance-sheet task force reports to the Committee early next year.",
+      "importance": 3,
+      "depth": "brief",
+      "developing": false,
+      "publishedAt": "2026-10-28T19:09:00-04:00",
+      "updatedAt": "2026-10-28T19:09:00-04:00",
+      "readMinutes": 2,
+      "tldr": [
+        "The FOMC still meets eight times a year, but in 2027 one meeting (two in 2028) will cover broad strategy, with no rate vote or statement expected.",
+        "A task force on the Fed's balance sheet will present recommendations early in 2027, though the timing could slip."
+      ],
+      "whatHappened": [
+        "Alongside Wednesday's decision, Warsh said the Fed will start setting aside one of its eight scheduled meetings next year, and two in 2028, for big-picture strategy. He said those sessions won't include a fed funds vote or a policy statement. What gets disclosed from them is still being decided.",
+        "He also said the Committee will start weighing a task force's recommendations on the [[balance sheet]] in the new year, likely early in the first quarter. Reports put the Fed's holdings around **$6.8 trillion**."
+      ],
+      "background": [
+        "Warsh was a Fed governor from 2006 to 2011 and has long argued that the Fed talks too much and owns too many bonds. He thinks constant signaling boxes policymakers in, and that a giant portfolio distorts markets.",
+        "The Fed stopped [[quantitative tightening]] at the end of 2025 after signs that bank reserves were getting scarce and money-market rates were spiking. That's the constraint the task force runs into: shrink the balance sheet much further and you risk [[reserve scarcity]] again."
+      ],
+      "whyItMatters": [
+        "Fewer decision meetings mean fewer scheduled chances to move. Each remaining one carries more weight, and the data between them matters more.",
+        "The balance sheet is a long-end story. If the Fed shrinks its holdings or tilts them toward short-term bills, private investors have to absorb more long-dated bonds. That's more pressure on term premium just as the 10-year sits near 5%."
+      ],
+      "views": [
+        {
+          "camp": "Reformers",
+          "thesis": "Less talk, more credibility.",
+          "argument": "Markets have grown dependent on Fed hand-holding. Fewer signals force investors to do their own homework, and a dedicated strategy session lets the Committee think beyond the next meeting instead of re-arguing it eight times a year."
+        },
+        {
+          "camp": "Skeptics",
+          "thesis": "Less guidance means more volatility.",
+          "argument": "Take away the anchor and every CPI print becomes a coin flip. A meeting with no statement and an undecided disclosure policy is a step back on transparency. And balance-sheet changes could push long yields higher when they're already near 5%."
+        }
+      ],
+      "interview": {
+        "question": "What's the market impact of the Fed holding fewer rate-setting meetings?",
+        "answer": "Mostly higher volatility around data. With fewer meetings and no forward guidance, the market has to infer the path from CPI, PCE and payrolls, so implied vol around those releases should stay elevated. The bigger long-run story is the [[balance sheet]]. If the task force pushes for a smaller portfolio, that's more duration for private buyers to absorb and upward pressure on term premium. I'd watch what they decide early next year more than the calendar change itself.",
+        "followUp": {
+          "question": "Why can't the Fed just keep shrinking its balance sheet?",
+          "answer": "Because the banking system needs a minimum level of reserves to run smoothly. When reserves get too low, overnight funding rates spike, which is what pushed the Fed to end QT in late 2025. The real question is how close to that floor the Fed is willing to run."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "balance sheet",
+          "definition": "Everything the Fed owns (mostly Treasuries and mortgage bonds) and owes (mostly bank reserves and currency). It ballooned during QE and is around $6.8 trillion now.",
+          "example": "A smaller Fed balance sheet means more bonds that private investors have to hold."
+        },
+        {
+          "term": "quantitative tightening",
+          "definition": "QT: shrinking the Fed's bond holdings by letting them mature without reinvesting. It drains reserves from the banking system and is the opposite of QE."
+        },
+        {
+          "term": "reserve scarcity",
+          "definition": "When banks' reserves at the Fed get low enough that short-term funding markets start to strain. A telltale sign is overnight rates jumping above the Fed's target range."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Early 2027",
+          "what": "Balance-sheet task force recommendations go to the FOMC."
+        },
+        {
+          "when": "Dec 8–9",
+          "what": "The last meeting of 2026, and a live one for a hike."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters via Investing.com: Fed to weigh balance sheet early next year",
+          "url": "https://www.investing.com/news/economy-news/feds-policy-committee-to-weigh-balance-sheet-issues-early-next-year-warsh-says-4980804"
+        },
+        {
+          "name": "Yahoo Finance: Warsh announces changes to FOMC meetings",
+          "url": "https://finance.yahoo.com/economy/policy/articles/feds-warsh-announces-changes-future-204428262.html"
+        },
+        {
+          "name": "CNBC: Warsh's regime change at the Fed",
+          "url": "https://www.cnbc.com/2026/09/25/kevin-warsh-fed-interest-rates-balance-sheet.html"
+        }
+      ]
+    },
+    {
+      "id": "ecb-boj-decisions-this-week",
+      "beat": "fed-macro",
+      "headline": "The ECB and Bank of Japan are both expected to hold this week after hiking in September",
+      "dek": "The ECB decides Thursday, with a hike expected in December. The BoJ decides Friday, with yen-intervention jitters in the background.",
+      "importance": 3,
+      "depth": "brief",
+      "developing": false,
+      "publishedAt": "2026-10-28T19:09:00-04:00",
+      "updatedAt": "2026-10-28T19:09:00-04:00",
+      "readMinutes": 2,
+      "tldr": [
+        "ECB (Thu): expected to hold its deposit rate at **2.5%**. In a Reuters poll, 70 of 73 economists see a hold and 64 expect a hike in December.",
+        "BoJ (Fri): expected to hold at **1.25%** after September's hike. It may declare its 2% underlying-inflation goal met, which would signal more hikes ahead."
+      ],
+      "whatHappened": [
+        "This is a central-bank 'superweek': the Fed on Wednesday, the ECB on Thursday, the BoJ on Friday. All three hiked in September as the energy shock lifted inflation, and all three are expected to pause this week while signaling they're not done.",
+        "In Japan, officials have repeated that they're ready to take decisive action in currency markets. That's [[verbal intervention]], aimed at stopping a slide in the yen."
+      ],
+      "background": [
+        "The ECB raised its [[deposit facility rate]] by 25bp to 2.5% in September. It faces the same energy shock as the Fed, plus a regional problem: French government bond yields above 5%, which complicates tightening.",
+        "The BoJ is the odd one out historically. After decades near zero, it's now hiking at roughly a quarterly pace, and Reuters-polled analysts expect 1.5% in December."
+      ],
+      "whyItMatters": [
+        "Synchronized global tightening means less help from abroad for US bonds. Higher yields in Europe and Japan make their own bonds more attractive to domestic investors who used to buy Treasuries. A BoJ that signals more hikes is a yen-positive, Treasury-negative risk worth knowing."
+      ],
+      "views": [
+        {
+          "camp": "Coordinated hawks",
+          "thesis": "Everyone hikes again in December.",
+          "argument": "Energy inflation is global, so central banks that pause too long risk losing credibility. The polls already point to December hikes at both the ECB and the BoJ."
+        },
+        {
+          "camp": "Growth breaks first",
+          "thesis": "Europe can't take many more hikes.",
+          "argument": "With French borrowing costs at multi-year highs and energy hitting growth, the ECB may find December harder to deliver than the polls imply."
+        }
+      ],
+      "interview": {
+        "question": "Why should a US rates trader care about the Bank of Japan?",
+        "answer": "Because Japanese investors are among the biggest holders of Treasuries. As Japanese yields rise, the incentive to keep money at home grows, which can mean less demand for US bonds and higher term premium here. A BoJ that declares its inflation goal met is signaling more hikes, so watch the yen and the long end of the Treasury curve together.",
+        "followUp": {
+          "question": "What's the difference between verbal and actual FX intervention?",
+          "answer": "Verbal intervention is officials warning they're ready to act, hoping the words alone stop the move. Actual intervention is the finance ministry buying or selling currency, for Japan usually by selling dollar reserves to buy yen."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "deposit facility rate",
+          "definition": "The rate the ECB pays banks on overnight deposits. It's the ECB's main policy rate, now 2.5%."
+        },
+        {
+          "term": "verbal intervention",
+          "definition": "Officials talking a currency up or down by warning markets they're ready to act, before (or instead of) actually trading."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Thu morning ET",
+          "what": "ECB decision and press conference: any December signal?"
+        },
+        {
+          "when": "Thu night ET",
+          "what": "BoJ decision, including whether it says the underlying-inflation goal is met."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters via Investing.com: BoJ's hawkish pause",
+          "url": "https://www.investing.com/news/economy-news/bank-of-japans-hawkish-pause-to-leave-scope-for-december-hike-4971365"
+        },
+        {
+          "name": "Asia Business Daily: Rate superweek begins",
+          "url": "https://www.asiae.co.kr/en/article/2026102607433987612"
+        },
+        {
+          "name": "Tradingpedia: Intervention jitters lift the yen",
+          "url": "https://www.tradingpedia.com/2026/10/28/eur-jpy-drops-as-intervention-jitters-and-boj-lift-yen/"
+        }
+      ]
+    },
+    {
+      "id": "midterms-2026-market-odds",
+      "beat": "policy",
+      "headline": "Six days to the midterms: prediction markets see a Democratic House and lean toward a Democratic Senate",
+      "dek": "Kalshi puts Democrats around 91% to take the House and about 65% for the Senate. Strategists argue inflation and earnings matter more for stocks than who wins.",
+      "importance": 3,
+      "depth": "brief",
+      "developing": false,
+      "publishedAt": "2026-10-28T19:09:00-04:00",
+      "updatedAt": "2026-10-28T19:09:00-04:00",
+      "readMinutes": 2,
+      "tldr": [
+        "As of Oct. 27, Kalshi traders gave Democrats roughly a **91%** chance of the House and **65%** of the Senate. Polymarket is similar.",
+        "Morgan Stanley calls the Senate a toss-up with a slight Democratic edge and expects inflation, growth and earnings to drive markets more than the result."
+      ],
+      "whatHappened": [
+        "Election day is Tuesday, Nov. 3. [[prediction markets|Prediction markets]] and polls agree Democrats are favored to win the House. The Senate is much closer and hinges on a handful of competitive races in Republican-leaning states.",
+        "There's a market-specific wrinkle: reports say the US is preparing to resume strikes on Iran *after* the vote, which makes election week an oil event too."
+      ],
+      "background": [
+        "Midterms usually go against the president's party. A split Congress means [[gridlock]]: big new fiscal packages or tax changes become hard to pass, which markets have historically tended to tolerate. Carson Group's Ryan Detrick argues the data show that common assumptions about election outcomes moving stocks are largely wrong."
+      ],
+      "whyItMatters": [
+        "For rates, the question is fiscal. A divided government makes big new deficit-financed packages less likely, which at the margin helps the term-premium story. Tariff and foreign policy stay mostly with the White House either way, so oil and trade risks don't go away.",
+        "Short-term, close races or slow counts can bring a few volatile sessions, but strategists broadly expect the macro picture (Fed, oil, earnings) to dominate within days."
+      ],
+      "views": [
+        {
+          "camp": "Gridlock is good",
+          "thesis": "A split government caps fiscal surprises.",
+          "argument": "If Democrats take one or both chambers, sweeping legislation stalls. Less fiscal expansion means less extra Treasury supply, which is a small positive for bonds in a year when deficits pushed the 10-year to 5%."
+        },
+        {
+          "camp": "Noise, not signal",
+          "thesis": "Trade the Fed and oil, not the election.",
+          "argument": "Election outcomes are mostly priced by prediction markets already. With inflation at 3.7% and a war affecting oil, the macro forces are far bigger than any shift in Congress.",
+          "who": "Morgan Stanley and Carson Group's Ryan Detrick, broadly."
+        }
+      ],
+      "interview": {
+        "question": "How would you position for the midterms?",
+        "answer": "Lightly. The House result looks [[priced|priced in]] at around 90% odds in prediction markets, so the only real surprise is the Senate. The bigger market risk that week is oil, given reports of renewed US strikes on Iran after the vote. A divided Congress is a mild positive for the long end because it limits new fiscal expansion, but I'd keep the focus on the Fed and on energy.",
+        "followUp": {
+          "question": "Why might gridlock be good for bonds?",
+          "answer": "It makes big deficit-financed bills harder to pass. That means less new Treasury issuance than otherwise, and less pressure on term premium."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "prediction markets",
+          "definition": "Exchanges like Kalshi and Polymarket where traders buy contracts that pay out if an event happens. Prices read as rough probabilities."
+        },
+        {
+          "term": "gridlock",
+          "definition": "When the White House and Congress (or the two chambers) are controlled by different parties, so little major legislation passes."
+        },
+        {
+          "term": "priced in",
+          "definition": "Already reflected in market prices, so it won't move markets when it happens."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Tue Nov 3",
+          "what": "Election night. Watch the Senate toss-ups and how fast results come in."
+        },
+        {
+          "when": "Nov 4 onward",
+          "what": "Any follow-through on reported US strikes on Iran."
+        }
+      ],
+      "sources": [
+        {
+          "name": "CNBC: Prediction markets favor Democratic sweep",
+          "url": "https://www.cnbc.com/2026/10/27/2026-midterms-prediction-markets-democrats-congress.html"
+        },
+        {
+          "name": "E*TRADE (Morgan Stanley): Midterms investor Q&A",
+          "url": "https://us.etrade.com/knowledge/library/perspectives/market-happenings/us-midterm-elections-2026-market-impact"
+        },
+        {
+          "name": "CNBC: How the midterms could affect stocks",
+          "url": "https://www.cnbc.com/amp/make-it/2026/10/09/midterm-elections-stock-market.html"
+        }
+      ]
+    },
+    {
+      "id": "france-bond-spread-2011-high",
+      "beat": "policy",
+      "headline": "France's 10-year yield topped 5% and its spread to Germany hit its widest since 2011",
+      "dek": "France's budget fight in a fractured parliament pushed the OAT–Bund spread to euro-crisis-era levels last week. It has eased since Moody's affirmed the rating.",
+      "importance": 3,
+      "depth": "brief",
+      "developing": false,
+      "publishedAt": "2026-10-28T19:09:00-04:00",
+      "updatedAt": "2026-10-28T19:09:00-04:00",
+      "readMinutes": 2,
+      "tldr": [
+        "On Oct. 22 the French 10-year yield rose above 5% (about 5.1% at the peak), its highest since 2002.",
+        "The spread over German Bunds hit roughly 160–175bp depending on the source, the widest since 2011. It was back near 156bp by Oct. 26."
+      ],
+      "whatHappened": [
+        "French government bonds (OATs) sold off as investors doubted that a fragmented parliament will pass a budget that reduces a deficit forecast around 5.4% of GDP. Rejected spending measures reportedly erased about €10 billion of planned savings. The [[sovereign spread]] over Germany blew out because Bund yields were *falling* (a flight to safety) at the same time.",
+        "Yields eased after Moody's affirmed France's rating, then partly rebounded. For reference, the 2011 peak in the spread was about 225bp."
+      ],
+      "background": [
+        "France has no currency of its own to devalue, so its bond yields reflect pure fiscal credibility. Investors watch for a [[doom loop]], where falling government bond prices hurt the banks that hold them, which weakens the economy and the government's finances further. That was the dynamic at the core of the 2011 euro crisis."
+      ],
+      "whyItMatters": [
+        "It's part of a *global* term-premium story, from Paris to Washington: big deficits, fragile politics and inflation risk mean investors demand more to lend long. It also boxes in the ECB, because hiking into widening spreads risks stress in the weaker sovereigns. Italian spreads have been widening too."
+      ],
+      "views": [
+        {
+          "camp": "Contained",
+          "thesis": "This is a budget fight, not a crisis.",
+          "argument": "The spread retreated after the Moody's affirmation, and it's still well below the 2011 peak. The ECB has tools to stop disorderly widening."
+        },
+        {
+          "camp": "Contagion risk",
+          "thesis": "France is the canary for euro-area fiscal stress.",
+          "argument": "A 5% French yield, political paralysis and a 2027 presidential race make the budget a recurring flashpoint, and Italy is already widening in sympathy."
+        }
+      ],
+      "interview": {
+        "question": "Why would a French budget fight matter to US markets?",
+        "answer": "Two channels. First, it's part of the global term-premium story: when one big sovereign gets punished for fiscal slippage, investors reprice the rest, and the US deficit is around 5.8% of GDP. Second, European stress can trigger flight-to-safety flows into Bunds and Treasuries, which is part of why yields swing so violently. I'd watch the [[OAT–Bund spread|sovereign spread]] as a stress gauge.",
+        "followUp": {
+          "question": "What tools does the ECB have if spreads blow out?",
+          "answer": "It has a bond-buying backstop (the Transmission Protection Instrument) designed to counter 'disorderly' spread widening. But it's conditional on countries following EU fiscal rules, which is awkward if the stress comes from fiscal slippage."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "sovereign spread",
+          "definition": "The extra yield one government pays over a benchmark borrower, in Europe usually Germany. A wider spread means investors see more risk.",
+          "example": "OAT–Bund at ~160–175bp, the widest since 2011."
+        },
+        {
+          "term": "doom loop",
+          "definition": "A feedback loop where a government's falling bond prices hurt the domestic banks that hold them, which worsens the economy and the government's finances."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Coming weeks",
+          "what": "French budget votes in parliament and any further rating actions."
+        }
+      ],
+      "sources": [
+        {
+          "name": "MarketScreener: French yields jump, spread widens",
+          "url": "https://www.marketscreener.com/news/french-government-bond-yields-jump-spread-widens-as-treasury-yields-fall-update-ce785cded98df227"
+        },
+        {
+          "name": "EFG International: French debt crisis explained",
+          "url": "https://www.efginternational.com/insights/2026/french_debt_crisis_causes_repercussions_and_risks.html"
+        },
+        {
+          "name": "Disruption Banking: French yields cross 5%",
+          "url": "https://www.disruptionbanking.com/2026/10/22/french-yields-cross-5-spread-widest-since-2011/"
+        }
+      ]
+    }
+  ]
+}

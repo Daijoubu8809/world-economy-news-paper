@@ -1,0 +1,79 @@
+{
+  "topics": [
+    {
+      "id": "fed-macro",
+      "label": "Fed & Macro",
+      "enabled": true,
+      "color": "#C15F3C",
+      "covers": "The Fed (decisions, minutes, speeches by the Chair, governors and regional presidents, balance sheet), other major central banks when they move markets (ECB, BoJ, BoE), and the US data calendar: CPI, PCE, payrolls/unemployment, GDP, retail sales, ISM, jobless claims, consumer sentiment and inflation expectations.",
+      "lens": "How a rates desk reads it: what was expected vs. what happened, what it does to the path of policy (what futures now price), and what it means for the front end of the curve and the dollar.",
+      "queries": [
+        "Federal Reserve today",
+        "Fed official speech rates outlook",
+        "CME FedWatch December odds",
+        "US economic data today CPI PCE jobs report",
+        "ECB Bank of Japan Bank of England decision"
+      ]
+    },
+    {
+      "id": "markets",
+      "label": "Markets & Earnings",
+      "enabled": true,
+      "color": "#3D6B8C",
+      "covers": "Cross-asset moves of the day: Treasuries and the yield curve, equities (S&P 500, Nasdaq, sectors), credit spreads, the dollar and major FX pairs, oil and gold as macro assets, volatility (VIX/MOVE). Market-moving earnings (megacap tech, big banks, bellwethers) and the themes behind them (AI capex, consumer health).",
+      "lens": "What moved, why, and whether the move is signal or noise. Always connect a price move to a driver; note positioning and what's priced in.",
+      "queries": [
+        "stock market today close S&P 500 Nasdaq",
+        "Treasury yields today 2-year 10-year",
+        "earnings after the bell today",
+        "dollar yen euro FX today",
+        "credit spreads high yield investment grade"
+      ]
+    },
+    {
+      "id": "policy",
+      "label": "Policy & Geopolitics",
+      "enabled": true,
+      "color": "#6B5B95",
+      "covers": "Fiscal policy and Treasury issuance, tariffs and trade, elections, regulation that hits markets (bank capital, SEC), sovereign debt stress abroad, wars, sanctions and shipping chokepoints — only through the market-impact lens.",
+      "lens": "Skip the politics-as-sport. Ask: what does this change for growth, inflation, deficits, risk premia or a specific asset? Who wins and who loses in markets?",
+      "queries": [
+        "tariffs trade policy markets today",
+        "Treasury refunding auction deficit",
+        "Iran Strait of Hormuz oil shipping latest",
+        "midterm elections markets",
+        "sovereign bond yields France UK Japan"
+      ]
+    },
+    {
+      "id": "energy",
+      "label": "Energy",
+      "enabled": false,
+      "color": "#B8862B",
+      "covers": "Sector coverage: OPEC+ decisions, oil majors and E&Ps, refiners and crack spreads, natural gas and LNG, power demand from data centers, utilities, energy M&A and capex, the energy transition as a market story.",
+      "lens": "How an energy-sector analyst or commodities trader reads it: supply/demand balance, inventories, curve structure (backwardation/contango), and which equities or credits are exposed.",
+      "queries": [
+        "oil prices OPEC today",
+        "natural gas LNG prices today",
+        "energy stocks Exxon Chevron news",
+        "refining margins crack spread",
+        "data center power demand utilities"
+      ]
+    },
+    {
+      "id": "industrials",
+      "label": "Industrials",
+      "enabled": false,
+      "color": "#5B7A55",
+      "covers": "Sector coverage: aerospace and defense, machinery, transports (rails, trucking, airlines), building products, the industrial cycle (ISM, orders, capex), reshoring and tariffs as they hit supply chains, and industrials earnings.",
+      "lens": "Where we are in the industrial cycle and who's exposed: order books, margins, pricing power, and how macro (rates, tariffs, defense budgets) flows through to the sector.",
+      "queries": [
+        "industrial stocks news today",
+        "ISM manufacturing new orders",
+        "aerospace defense earnings Boeing",
+        "rail trucking freight volumes",
+        "tariffs supply chain manufacturers"
+      ]
+    }
+  ]
+}
