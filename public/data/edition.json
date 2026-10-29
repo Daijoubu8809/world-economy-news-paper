@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "publishedAt": "2026-10-29T11:53:00-04:00",
-  "checkedAt": "2026-10-29T11:53:00-04:00",
-  "nextRunAt": "2026-10-29T13:38:00-04:00",
+  "publishedAt": "2026-10-29T13:40:00-04:00",
+  "checkedAt": "2026-10-29T13:40:00-04:00",
+  "nextRunAt": "2026-10-29T15:38:00-04:00",
   "brief": {
     "title": "Alphabet heads for its worst day ever as the US grows 3.4% and Lagarde says she's leaving the ECB.",
     "bullets": [
-      "**Tech:** Alphabet is down ~13% on −$9B free cash flow, a near-$500B wipeout; the Nasdaq is off ~1.3%. Amazon reports after the close.",
+      "**Tech:** Alphabet is down ~12–13% on −$9B free cash flow, a near-$500B wipeout. The S&P 500 is only modestly lower as small caps rally. Amazon reports after the close.",
       "**Data:** Q3 GDP +3.4% (vs ~3.1% expected); September core PCE +0.3% m/m, 3.1% y/y, in line. It backs a December Fed hike (~80–86% priced).",
       "**Bonds and oil:** the 10-year is ~5.01% and the 2-year ~4.69%, both down ~3bp. Brent is ~$113 (−1.7%) on reported US outreach to Iran.",
       "**ECB:** held at 2.5% and flagged energy risks. Lagarde leaves Feb. 7; Knot and Hernández de Cos lead the succession race.",
       "**Tonight:** the BoJ decides around 11 PM ET; a hold at 1.25% is expected."
     ],
-    "mood": "Risk-off in megacap tech; bonds and lower oil cushion the rest of the tape."
+    "mood": "A rotation, not a rout: megacap AI is being sold, small caps bought, and bonds and lower oil cushion the tape."
   },
   "mustKnow": [
     "alphabet-microsoft-earnings-q3-2026",
@@ -557,30 +557,30 @@
     {
       "id": "alphabet-microsoft-earnings-q3-2026",
       "beat": "markets",
-      "headline": "Alphabet falls ~13%, on track for its worst day ever, as AI spending swamps cash flow",
+      "headline": "Alphabet falls ~12%, on track for its worst day ever, as AI spending swamps cash flow",
       "dek": "About $500 billion of market value is evaporating as investors punish negative free cash flow. Microsoft, which showed the revenue, is holding steady.",
       "importance": 4,
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-29T11:53:00-04:00",
+      "updatedAt": "2026-10-29T13:40:00-04:00",
       "readMinutes": 5,
       "tldr": [
-        "Alphabet is down roughly **13%** in Thursday trading, on track for its worst session since its 2004 IPO and a market-value loss near **$500 billion**.",
+        "Alphabet is down roughly **12–13%** in Thursday trading, on track for its worst session since its 2004 IPO and a market-value loss near **$500 billion**.",
         "The trigger: a rare revenue and EPS miss plus free cash flow of **−$9.07B** as capex ($51.4B in the quarter) outran operating cash.",
-        "Microsoft (Azure **+48%**) is roughly flat after an after-hours pop; the Nasdaq is down about 1.3% and the S&P 500 about 0.4%."
+        "Microsoft (Azure **+48%**) is roughly flat. The damage is concentrated: the S&P 500 is down only ~0.2–0.4% while small caps rally."
       ],
       "whatHappened": [
         "**Microsoft** (fiscal Q1 2027) beat on the top and bottom line. Revenue came in around $92.3 billion versus roughly $90.7 billion expected, and its Azure cloud business grew 48%. Shares rose in extended trading; reports range from about 2% to 4.5%.",
         "**Alphabet** (Q3 2026) posted what CNBC called its first top- and bottom-line miss in nearly four years. Revenue was about $127.6 billion versus $128.2 billion expected, and adjusted EPS of $2.67 missed the $3.02 consensus. The killer was [[free cash flow]]: **negative $9.07 billion**, far worse than analysts expected. Google Cloud more than doubled, to $30.7 billion in revenue, but search revenue of $63.35 billion fell short.",
         "Q3 [[capex]] was $51.36 billion, and Alphabet kept its 2026 range at **$195–205 billion**, saying capex will rise 'significantly' again in 2027. Management blamed part of the cash drain on building inventory for its TPU chip sales and a $5.2 billion payment for a 2018 EU fine.",
         "Context: on Oct. 22 Meta fell about 7% after its own release showed quarterly capex of $34.91 billion topping operating cash flow of $32.79 billion. That left free cash flow at roughly −$2.1 billion, versus +$10.6 billion a year earlier. Chip stocks led that day's selloff.",
-        "**Thursday's session:** Alphabet opened sharply lower and was down about 13% in morning trade, per CNBC and Yahoo Finance. That would be its worst day since listing in 2004. Its previous record market-value drop was about $275 billion in July. Microsoft gave back its after-hours gain and was roughly flat. The Nasdaq fell about 1.3%, the S&P 500 and Dow about 0.4%, with software and other AI-linked names also lower. Overnight, Korea's Kospi fell about 2.5% after Wednesday's surge. The read: the market is now trading the hyperscalers' *cash flow*, not just their capex plans."
+        "**Thursday's session:** Alphabet opened sharply lower and was down about 13% in morning trade, per CNBC and Yahoo Finance. That would be its worst day since listing in 2004. Its previous record market-value drop was about $275 billion in July. Microsoft gave back its after-hours gain and was roughly flat. By midday the Nasdaq 100 was down about 1% and the S&P 500 only 0.2–0.3%, while the small-cap Russell 2000 was up about 1.2%, per Benzinga: a rotation out of megacap AI and into the rest of the market after a strong GDP print. CNBC also flagged Caterpillar falling after its results. Overnight, Korea's Kospi fell about 2.5% after Wednesday's surge. The read: the market is now trading the hyperscalers' *cash flow*, not just their capex plans."
       ],
       "marketReaction": [
         {
           "asset": "Alphabet (Thu intraday)",
-          "move": "≈ −13%",
+          "move": "≈ −12% to −13%",
           "direction": "down"
         },
         {
@@ -594,19 +594,19 @@
           "direction": "flat"
         },
         {
-          "asset": "Nasdaq Composite (intraday)",
-          "move": "≈ −1.3%",
+          "asset": "Nasdaq 100 (midday)",
+          "move": "≈ −1%",
           "direction": "down"
         },
         {
-          "asset": "S&P 500 (intraday)",
-          "move": "≈ −0.4%",
+          "asset": "S&P 500 (midday)",
+          "move": "≈ −0.2% to −0.3%",
           "direction": "down"
         },
         {
-          "asset": "Kospi (Thu)",
-          "move": "≈ −2.5% after a ~6.6% surge",
-          "direction": "down"
+          "asset": "Russell 2000 (midday)",
+          "move": "≈ +1.2%",
+          "direction": "up"
         }
       ],
       "background": [
@@ -699,6 +699,10 @@
           "url": "https://finance.yahoo.com/markets/article/alphabet-heads-for-a-500-billion-drop-in-market-value-the-biggest-in-its-history-134824763.html"
         },
         {
+          "name": "Benzinga: Alphabet sinks 11.8%, small caps rally",
+          "url": "https://www.benzinga.com/markets/equities/26/10/62706774/stock-market-today-alphabet-sinks-small-caps-rally-gdp-rotation"
+        },
+        {
           "name": "Reuters Morning Bid: In the AI alphabet, cash is king",
           "url": "https://www.investing.com/news/economy-news/morning-bid-in-the-ai-alphabet-cash-is-king-4981514"
         },
@@ -725,13 +729,9 @@
         {
           "name": "CNBC: Nasdaq-100 futures dip as Alphabet sells off (live)",
           "url": "https://www.cnbc.com/2026/10/28/stock-market-today-live-updates.html"
-        },
-        {
-          "name": "Investing.com: US futures drop as Alphabet slides",
-          "url": "https://uk.investing.com/news/stock-market-news/us-stock-futures-drop-as-alphabet-slides-on-soft-earnings-microsoft-firms-4939623"
         }
       ],
-      "updateNote": "Cash session: Alphabet down about 13% intraday, heading for its biggest one-day drop and market-value loss on record; Nasdaq ~−1.3%."
+      "updateNote": "Midday: Alphabet holding a 12–13% loss; the S&P 500 is only modestly lower as small caps rally (Russell 2000 about +1.2%)."
     },
     {
       "id": "treasury-10-year-near-5-percent",
