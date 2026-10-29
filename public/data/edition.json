@@ -1,31 +1,25 @@
 {
   "version": 1,
-  "publishedAt": "2026-10-29T15:38:00-04:00",
-  "checkedAt": "2026-10-29T15:38:00-04:00",
-  "nextRunAt": "2026-10-29T17:38:00-04:00",
+  "publishedAt": "2026-10-29T17:40:00-04:00",
+  "checkedAt": "2026-10-29T17:40:00-04:00",
+  "nextRunAt": "2026-10-29T19:38:00-04:00",
   "brief": {
-    "title": "Alphabet heads for its worst day ever as the US grows 3.4% and Lagarde says she's leaving the ECB.",
+    "title": "Alphabet has its worst day ever, Amazon slides after hours, and a 3.4% GDP print keeps the Fed on hike watch.",
     "bullets": [
-      "**Tech:** Alphabet is down ~12–13% on −$9B free cash flow, a near-$500B wipeout. The S&P 500 is ~0.6% lower and the Nasdaq ~1.5%; small caps are up. Amazon reports after the close.",
-      "**Data:** Q3 GDP +3.4% (vs ~3.1% expected); September core PCE +0.3% m/m, 3.1% y/y, in line. It backs a December Fed hike (~80–86% priced).",
-      "**Bonds and oil:** the 10-year is ~5.01% and the 2-year ~4.69%, both down ~3bp. Brent is ~$113 (−1.7%) on reported US outreach to Iran.",
-      "**ECB:** held at 2.5% and flagged energy risks. Lagarde leaves Feb. 7; Knot and Hernández de Cos lead the succession race.",
+      "**Alphabet:** −12.6%, its worst day since listing, on −$9B free cash flow. The Nasdaq fell 1.38% and the S&P 500 0.3%, though four in five S&P stocks rose.",
+      "**Amazon:** AWS grew 39%, but EPS missed and trailing free cash flow hit −$42B; shares are ~7% lower after hours.",
+      "**Data:** Q3 GDP +3.4% (vs ~3.1% expected); core PCE 3.1% y/y, in line. It backs a December Fed hike (~80–86% priced).",
+      "**ECB:** held at 2.5%; Lagarde leaves Feb. 7. **Oil:** Brent ~$113 as the US reportedly pursues talks and strike plans at once.",
       "**Tonight:** the BoJ decides around 11 PM ET; a hold at 1.25% is expected."
     ],
-    "mood": "Megacap AI is being sold and the selling broadened into the afternoon; small caps, health care and bonds hold up."
+    "mood": "The market is punishing AI cash burn, not the economy: megacaps down, most stocks up."
   },
   "mustKnow": [
     "alphabet-microsoft-earnings-q3-2026",
-    "pce-gdp-preview-october-29",
-    "lagarde-resigns-ecb-president"
+    "amazon-q3-2026-earnings",
+    "pce-gdp-preview-october-29"
   ],
   "calendar": [
-    {
-      "date": "2026-10-29",
-      "time": "After close",
-      "label": "Amazon Q3 earnings",
-      "why": "AWS growth versus capex: the next test after Alphabet's cash-flow scare."
-    },
     {
       "date": "2026-10-29",
       "time": "~11 PM ET",
@@ -254,6 +248,138 @@
       "updateNote": "Updated December hike odds: CNBC's read of CME FedWatch was 85.7%."
     },
     {
+      "id": "amazon-q3-2026-earnings",
+      "beat": "markets",
+      "headline": "Amazon falls about 7% after hours as AWS grows 39% but EPS misses and cash flow turns negative",
+      "dek": "The fastest AWS growth in nearly five years wasn't enough. Like Alphabet, Amazon is being judged on whether AI spending leaves any cash behind.",
+      "importance": 4,
+      "depth": "full",
+      "developing": true,
+      "publishedAt": "2026-10-29T17:40:00-04:00",
+      "updatedAt": "2026-10-29T17:40:00-04:00",
+      "readMinutes": 4,
+      "tldr": [
+        "AWS revenue rose **39%** to about **$46B**, its fastest in nearly five years and above ~38% expected. Jassy said he expects AWS to top 40% growth in 2027 and 2028.",
+        "But EPS of **$1.89** missed $1.97, revenue of **$201.9B** (+12%) was just light, and trailing-12-month free cash flow was **−$42.4B** versus +$14.8B a year ago.",
+        "Shares fell about **7%** after hours, after already closing down 4.3% at $243.79. Amazon kept its 2026 capex plan at about **$220B**."
+      ],
+      "whatHappened": [
+        "Amazon reported third-quarter results after the close on Thursday. The bright spot was AWS: revenue up 39% to roughly $46 billion, accelerating from 37% in Q2 and beating the ~38% StreetAccount expectation. CEO Andy Jassy said he expects AWS growth above 40% in 2027 and 2028.",
+        "The rest disappointed. EPS of $1.89 missed the $1.97 consensus; revenue of $201.9 billion was just below estimates; advertising revenue of about $19.6 billion trailed the ~$20.8 billion forecast. Trailing-12-month [[free cash flow]] swung to −$42.4 billion from +$14.8 billion a year earlier, driven by AI infrastructure spending, and Amazon reaffirmed [[capex]] of about $220 billion for 2026.",
+        "Guidance: Q4 revenue of $240–247 billion. The stock, already down 4.3% in the regular session on Alphabet's spillover, fell roughly 7% in extended trading (reports range from about 6% to 8%)."
+      ],
+      "marketReaction": [
+        {
+          "asset": "Amazon (after hours)",
+          "move": "≈ −7% (≈$227)",
+          "direction": "down"
+        },
+        {
+          "asset": "Amazon (regular close)",
+          "move": "−4.3% to $243.79",
+          "direction": "down"
+        },
+        {
+          "asset": "AWS growth",
+          "move": "39% (from 37% in Q2)",
+          "direction": "up"
+        }
+      ],
+      "background": [
+        "AWS is Amazon's profit engine and the world's biggest cloud provider. Investors had worried it was losing ground to Microsoft Azure (48% growth this week) and Google Cloud (which more than doubled), so an acceleration to 39% answers the competitive question.",
+        "The problem is the bill. Amazon, Alphabet, Microsoft and Meta are spending hundreds of billions on data centers and chips. When capex outruns operating cash flow, free cash flow goes negative and the companies fund growth from their balance sheets or debt. This week the market decided that matters."
+      ],
+      "grandLine": {
+        "title": "Coup de Burst, every quarter",
+        "body": "The Sunny's Coup de Burst burns barrels of cola for a huge jump, and it works: AWS just leapt to 39% growth. But you can't fire it every day, because the cola runs out. Hyperscalers are firing it quarter after quarter, and the market is now asking how many barrels are left before the jump has to pay for itself."
+      },
+      "whyItMatters": [
+        "For equities, this confirms the week's regime change: the market is paying for AI *returns* and cash, not AI *spending*. Microsoft, which showed revenue and positive free cash flow, held up; Alphabet and Amazon, which showed cash burn, were punished. Expect pressure on the 'Mag 7' weighting and on multiples, i.e. [[multiple compression]], even if earnings hold.",
+        "Second-order: the chip and power supply chain (Nvidia, memory, data-center equipment) has been priced on hyperscaler capex going up forever. Nobody cut capex this week, which supports suppliers' revenue, but investors' patience with the spenders is thinning.",
+        "For credit, negative free cash flow at megacaps means more bond issuance to fund data centers, which adds IG supply."
+      ],
+      "views": [
+        {
+          "camp": "Buy the cloud",
+          "thesis": "AWS accelerating to 39% is the story; cash flow is a timing issue.",
+          "argument": "Capacity is sold out and growth is accelerating. Capex today is booked revenue tomorrow, and Jassy is guiding to 40%+ growth for two more years. Selling the best cloud franchise on a capex-heavy quarter is short-termism."
+        },
+        {
+          "camp": "Show me the cash",
+          "thesis": "Negative free cash flow at a $2T+ company changes the valuation math.",
+          "argument": "−$42B of trailing free cash flow means investors are funding an arms race with uncertain returns. Until capex growth slows or revenue catches up, the stock deserves a lower multiple."
+        },
+        {
+          "camp": "Rotate, don't panic",
+          "thesis": "Sell the spenders, buy the beneficiaries and the rest of the market.",
+          "argument": "Thursday's breadth (four in five S&P stocks up) says money is moving, not leaving. The trade is out of megacap capex-heavy names into small caps, health care and the companies selling picks and shovels."
+        }
+      ],
+      "interview": {
+        "question": "AWS grew 39%, its fastest in five years, and Amazon still fell 7%. Why?",
+        "answer": "Because the market has moved from rewarding AI spending to demanding AI cash. AWS was great, but EPS missed, ads missed, and trailing free cash flow went to minus 42 billion while capex stays at 220 billion. After Alphabet's 12.6% drop, investors are pricing these as capital-intensive businesses, which means lower multiples. I'd separate the franchise from the stock: AWS looks stronger, but the multiple compresses until capex growth slows. What would change my mind is evidence that AI revenue is catching up with spending, like AWS sustaining 40%+ with margins expanding.",
+        "followUp": {
+          "question": "How would you trade the AI capex theme now?",
+          "answer": "I'd prefer a relative-value expression over outright direction: long the suppliers that get paid regardless, short the spenders whose cash flow is negative, or simply equal-weight versus cap-weight S&P to bet the rotation continues."
+        }
+      },
+      "trade": {
+        "idea": "Equal-weight over cap-weight S&P 500",
+        "expression": "Long RSP (equal-weight S&P 500 ETF) / short SPY, beta-neutral",
+        "rationale": "Thursday showed the setup: megacaps fell on capex fears while most stocks rose on a 3.4% GDP print. If the market keeps punishing cash-burning hyperscalers while the economy stays strong, the equal-weight index outperforms the cap-weighted one.",
+        "risks": [
+          "A strong AI-revenue surprise (e.g., from Nvidia or Apple) could reignite megacap leadership.",
+          "A growth scare hits small and mid caps harder than megacaps.",
+          "Higher long yields (10-year above 5%) weigh on the rate-sensitive mid caps that dominate equal-weight."
+        ]
+      },
+      "keyTerms": [
+        {
+          "term": "free cash flow",
+          "definition": "Operating cash flow minus capital expenditure: the cash left after funding the business. Negative means the company spends more than it generates.",
+          "example": "Amazon trailing-12-month FCF: −$42.4B vs +$14.8B a year earlier."
+        },
+        {
+          "term": "capex",
+          "definition": "Capital expenditure: spending on long-lived assets like data centers and chips. It hits cash flow now and earnings gradually via depreciation.",
+          "example": "Amazon is holding 2026 capex at about $220B."
+        },
+        {
+          "term": "multiple compression",
+          "definition": "A falling price-to-earnings (or similar) multiple: the stock falls even if earnings hold because investors pay less for each dollar of profit.",
+          "example": "Investors repricing hyperscalers as capital-intensive businesses compresses their multiples."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Fri open",
+          "what": "Whether Amazon's after-hours drop holds and spreads to the AI supply chain."
+        },
+        {
+          "when": "Q4 report",
+          "what": "AWS growth vs. Jassy's 40%+ ambition, and any change to capex plans."
+        }
+      ],
+      "sources": [
+        {
+          "name": "GeekWire: AWS growth hits 39% as Amazon misses on earnings",
+          "url": "https://www.geekwire.com/2026/aws-growth-hits-39-its-fastest-in-nearly-five-years-as-amazon-misses-on-earnings/"
+        },
+        {
+          "name": "Benzinga: Amazon delivers Q3 double miss, AWS accelerates",
+          "url": "https://www.benzinga.com/markets/earnings/26/10/62719400/amazon-delivers-q3-double-miss-aws-growth-accelerates-shares-drop"
+        },
+        {
+          "name": "Motley Fool: AWS jumps 39% as Amazon's cash flow sinks",
+          "url": "https://www.fool.com/investing/2026/10/29/aws-jumps-39-as-amazons-cash-flow-sinks-rapid-earn/"
+        },
+        {
+          "name": "CNBC: Amazon Q3 preview, AI spend under scrutiny",
+          "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html"
+        }
+      ]
+    },
+    {
       "id": "oil-brent-115-hormuz",
       "beat": "policy",
       "headline": "Brent slips to about $113 on reports of renewed US–Iran outreach, after settling near $115",
@@ -262,15 +388,15 @@
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-29T11:53:00-04:00",
+      "updatedAt": "2026-10-29T17:40:00-04:00",
       "readMinutes": 5,
       "tldr": [
         "Brent fell about **1.7% to ~$113.3** and WTI about **2% to ~$100.7** Thursday, per CNBC, after settling at **$115.32** and **$102.78** on Wednesday.",
-        "Trigger: the WSJ reported Vice President JD Vance wrote to Iranian official Mohsen Rezaei to try to restart peace talks.",
+        "Trigger: the WSJ reported Vice President JD Vance wrote to Iranian official Mohsen Rezaei to restart talks. Trump later said he hadn't instructed Vance to contact Iran.",
         "Brent is still up roughly 17% in October. Gasoline drove more than half of September's CPI jump, so oil remains the Fed's problem."
       ],
       "whatHappened": [
-        "**Thursday:** oil gave back Wednesday's gain after the Wall Street Journal reported that Vice President JD Vance had sent a letter to Mohsen Rezaei, a senior Iranian security official, to try to restart peace negotiations. CNBC had Brent down 1.73% at $113.32 and WTI down 2.06% at $100.66. Houthi attacks on Saudi infrastructure and the risk to Hormuz shipping still underpin prices.",
+        "**Thursday:** oil gave back Wednesday's gain after the Wall Street Journal reported that Vice President JD Vance had sent a letter to Mohsen Rezaei, a senior Iranian security official, to try to restart peace negotiations. CNBC had Brent down 1.73% at $113.32 and WTI down 2.06% at $100.66. Houthi attacks on Saudi infrastructure and the risk to Hormuz shipping still underpin prices. Later, President Trump told reporters he had not instructed Vance to contact the Iranians, and the WSJ reported the US had told several Gulf states to be ready for a short, intense campaign against Iran. The market is pricing two tracks at once: talks and strikes.",
         "Oil rose for a second session as traders priced a longer conflict. President Trump said the war with Iran would end on his terms and that Tehran must be kept from nuclear weapons. There were also reports that the US is preparing to resume strikes on Iran *after* next Tuesday's midterm elections.",
         "Houthi forces claimed a ballistic-missile strike on Saudi Aramco's Ras Tanura refinery. Saudi authorities have **not confirmed** a direct hit, so treat it as unverified. Brent briefly topped $117 earlier this week before dipping on Tuesday, when Saudi, Turkish and Pakistani diplomacy with Iran briefly raised hopes of a deal.",
         "UBS expects Brent around $110 by year-end, arguing the market is undersupplied and that Gulf flows remain below prewar levels."
@@ -399,6 +525,10 @@
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Vance-Moves-to-Restart-Iran-Peace-Talks.html"
         },
         {
+          "name": "The National: Oil prices decline after diplomatic push in Iran war",
+          "url": "https://www.thenationalnews.com/business/energy/2026/10/29/oil-prices-decline-after-diplomatic-push-in-iran-war/"
+        },
+        {
           "name": "CNBC: Oil price today, WTI and Brent rise",
           "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html"
         },
@@ -419,7 +549,7 @@
           "url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
         }
       ],
-      "updateNote": "Thursday: Brent down about 1.7% to ~$113 and WTI ~$100.7 after a WSJ report on Vance contacting Tehran."
+      "updateNote": "Trump said he didn't direct Vance's outreach; the WSJ reported the US told Gulf states to prepare for a short, intense campaign against Iran."
     },
     {
       "id": "lagarde-resigns-ecb-president",
@@ -557,30 +687,30 @@
     {
       "id": "alphabet-microsoft-earnings-q3-2026",
       "beat": "markets",
-      "headline": "Alphabet falls ~12%, on track for its worst day ever, as AI spending swamps cash flow",
-      "dek": "About $500 billion of market value is evaporating as investors punish negative free cash flow. Microsoft, which showed the revenue, is holding steady.",
+      "headline": "Alphabet sinks 12.6% in its worst day since listing as AI spending swamps cash flow",
+      "dek": "Roughly $500 billion of market value vanished. The S&P 500 fell only 0.3% because four in five of its stocks rose: this was a megacap AI selloff, not a market rout.",
       "importance": 4,
       "depth": "full",
-      "developing": true,
+      "developing": false,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-29T15:38:00-04:00",
+      "updatedAt": "2026-10-29T17:40:00-04:00",
       "readMinutes": 5,
       "tldr": [
-        "Alphabet is down roughly **12–13%** in Thursday trading, on track for its worst session since its 2004 IPO and a market-value loss near **$500 billion**.",
-        "The trigger: a rare revenue and EPS miss plus free cash flow of **−$9.07B** as capex ($51.4B in the quarter) outran operating cash.",
-        "Microsoft (Azure **+48%**) is roughly flat. By mid-afternoon the S&P 500 was down ~0.6% and the Nasdaq ~1.4–1.7%, while small caps held gains."
+        "Alphabet Class A shares closed down **12.6%**, their worst day since listing more than 20 years ago (AP), erasing roughly **$500 billion** of value.",
+        "The trigger: a rare revenue and EPS miss plus free cash flow of **−$9.07B** as quarterly capex ($51.4B) outran operating cash.",
+        "Breadth was *positive*: about four in five S&P 500 stocks rose, yet the index fell 0.3% and the Nasdaq 1.38%. That's index concentration in action."
       ],
       "whatHappened": [
         "**Microsoft** (fiscal Q1 2027) beat on the top and bottom line. Revenue came in around $92.3 billion versus roughly $90.7 billion expected, and its Azure cloud business grew 48%. Shares rose in extended trading; reports range from about 2% to 4.5%.",
         "**Alphabet** (Q3 2026) posted what CNBC called its first top- and bottom-line miss in nearly four years. Revenue was about $127.6 billion versus $128.2 billion expected, and adjusted EPS of $2.67 missed the $3.02 consensus. The killer was [[free cash flow]]: **negative $9.07 billion**, far worse than analysts expected. Google Cloud more than doubled, to $30.7 billion in revenue, but search revenue of $63.35 billion fell short.",
         "Q3 [[capex]] was $51.36 billion, and Alphabet kept its 2026 range at **$195–205 billion**, saying capex will rise 'significantly' again in 2027. Management blamed part of the cash drain on building inventory for its TPU chip sales and a $5.2 billion payment for a 2018 EU fine.",
         "Context: on Oct. 22 Meta fell about 7% after its own release showed quarterly capex of $34.91 billion topping operating cash flow of $32.79 billion. That left free cash flow at roughly −$2.1 billion, versus +$10.6 billion a year earlier. Chip stocks led that day's selloff.",
-        "**Thursday's session:** Alphabet opened sharply lower and was down about 13% in morning trade, per CNBC and Yahoo Finance. That would be its worst day since listing in 2004. Its previous record market-value drop was about $275 billion in July. Microsoft gave back its after-hours gain and was roughly flat. By midday the Nasdaq 100 was down about 1% and the S&P 500 only 0.2–0.3%, while the small-cap Russell 2000 was up about 1.2%, per Benzinga: a rotation out of megacap AI and into the rest of the market after a strong GDP print. CNBC also flagged Caterpillar falling after its results. Into the afternoon the selling broadened: Yahoo Finance snapshots had the S&P 500 down about 0.6% near 7,699 and the Nasdaq down 1.4–1.7%, while Eli Lilly's beat lifted health care. Overnight, Korea's Kospi fell about 2.5% after Wednesday's surge. The read: the market is now trading the hyperscalers' *cash flow*, not just their capex plans."
+        "**The close:** Alphabet's Class A shares fell 12.6%, their worst day since trading began more than 20 years ago, per AP. The Nasdaq Composite fell 1.38% to 26,184.72 and the S&P 500 about 0.3%, its first loss in four days. Yet about four out of five S&P 500 stocks rose, and AP noted the index would have been higher without Alphabet. Small caps and health care (on Eli Lilly's beat) rallied. Microsoft ended roughly flat. After the bell, Amazon fell about 7% on its own cash-flow squeeze: see the Amazon story."
       ],
       "marketReaction": [
         {
-          "asset": "Alphabet (Thu intraday)",
-          "move": "≈ −12% to −13%",
+          "asset": "Alphabet (close)",
+          "move": "−12.6% (≈$283.8)",
           "direction": "down"
         },
         {
@@ -589,30 +719,31 @@
           "direction": "down"
         },
         {
-          "asset": "Microsoft (Thu intraday)",
+          "asset": "Nasdaq Composite (close)",
+          "move": "−1.38% to 26,184.72",
+          "direction": "down"
+        },
+        {
+          "asset": "S&P 500 (close)",
+          "move": "≈ −0.3%, first loss in four days",
+          "direction": "down"
+        },
+        {
+          "asset": "Microsoft (Thu)",
           "move": "≈ flat",
           "direction": "flat"
         },
         {
-          "asset": "Nasdaq Composite (afternoon)",
-          "move": "≈ −1.4% to −1.7%",
+          "asset": "Amazon (after hours)",
+          "move": "≈ −7%",
           "direction": "down"
-        },
-        {
-          "asset": "S&P 500 (afternoon)",
-          "move": "≈ −0.6% (≈7,699)",
-          "direction": "down"
-        },
-        {
-          "asset": "Russell 2000 (afternoon)",
-          "move": "≈ +0.7% to +1.2%",
-          "direction": "up"
         }
       ],
       "background": [
         "The [[hyperscalers|hyperscaler]] (Microsoft, Alphabet, Amazon, Meta) are in an arms race to build AI data centers: chips, power, buildings. The bet is that AI revenue eventually justifies hundreds of billions in spending a year. For most of the cycle, investors cheered every capex increase as proof of ambition.",
         "What changed is the cash. Free cash flow is operating cash flow minus capex, the money left after paying for the build-out. When capex exceeds what the business generates, FCF goes negative, and the company has to fund the gap from its cash pile, debt or new equity. Meta also announced a new class of non-voting shares, which gives it a route to raise equity.",
-        "When the market decides spending won't pay back as fast as hoped, it doesn't just cut earnings estimates. It pays less for each dollar of earnings. That's [[multiple compression]], and for megacaps a small change in the multiple moves hundreds of billions in market cap."
+        "When the market decides spending won't pay back as fast as hoped, it doesn't just cut earnings estimates. It pays less for each dollar of earnings. That's [[multiple compression]], and for megacaps a small change in the multiple moves hundreds of billions in market cap.",
+        "Why one stock can sink the index: the S&P 500 is *cap-weighted*, so the largest companies dominate it. When a megacap falls 12% and the median stock rises, you get a falling index with positive [[breadth]], a sign the selling is about one theme, not the economy."
       ],
       "grandLine": {
         "title": "Checking the bubble mid-dive",
@@ -677,19 +808,32 @@
         {
           "term": "beta",
           "definition": "How much a stock moves with the market. A beta of 1.2 means it tends to move 1.2% for every 1% market move. Beta-adjusting a pair sizes the legs so market moves cancel."
+        },
+        {
+          "term": "breadth",
+          "definition": "How many stocks are rising versus falling. Positive breadth with a falling index means a few heavyweights are dragging it down.",
+          "example": "Oct. 29: ~80% of S&P 500 stocks rose, but the index fell 0.3% on Alphabet."
         }
       ],
       "watchNext": [
         {
-          "when": "Thu after close",
-          "what": "Amazon Q3. Q2 AWS growth was 37%; the test is whether it holds there while capex stays on its ~$220B 2026 plan. Options imply about a 7% move either way."
+          "when": "Fri open",
+          "what": "Whether Amazon's ~7% after-hours drop extends the megacap selloff or the rotation into the rest of the market continues."
         },
         {
-          "when": "Thu 4:00 PM ET",
-          "what": "Whether Alphabet closes below its −9.77% post-earnings record and how much of the Nasdaq drop sticks into Amazon's report."
+          "when": "Next week",
+          "what": "Analyst capex and cash-flow revisions for the hyperscalers; Nvidia and the chip suppliers are the second-order trade."
         }
       ],
       "sources": [
+        {
+          "name": "AP via BNN Bloomberg: A historic drop for Alphabet's stock drags the market lower",
+          "url": "https://bnnbloomberg.ca/markets/2026/10/29/world-shares-and-us-futures-are-mixed-after-google-parent-alphabets-earnings-disappoint"
+        },
+        {
+          "name": "Reuters via Yahoo Finance: Wall Street ends lower as Alphabet revives AI capex jitters",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-slide-mixed-big-083556706.html"
+        },
         {
           "name": "CNBC: Alphabet drops 13% while Microsoft rises",
           "url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html"
@@ -715,23 +859,15 @@
           "url": "https://cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html"
         },
         {
-          "name": "Reuters via Yahoo Finance: Nasdaq futures slide as Big Tech results test AI trade",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-slide-mixed-big-083556706.html"
-        },
-        {
           "name": "CNBC: Alphabet Q3 2026 earnings",
           "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html"
         },
         {
           "name": "CNBC: Microsoft rises on cloud beat",
           "url": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html"
-        },
-        {
-          "name": "CNBC: Biggest after-hours movers",
-          "url": "https://www.cnbc.com/2026/10/28/stocks-making-the-biggest-moves-after-hours-googl-msft-cmg-now.html"
         }
       ],
-      "updateNote": "Afternoon: selling broadened. The S&P 500 slipped to about −0.6% and the Nasdaq about −1.5%; small caps still up."
+      "updateNote": "Closing numbers: Alphabet −12.6% (worst day since its 2004 IPO, per AP), Nasdaq −1.38%, S&P 500 −0.3% despite broad gains."
     },
     {
       "id": "treasury-10-year-near-5-percent",
