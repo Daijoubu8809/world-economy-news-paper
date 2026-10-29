@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "publishedAt": "2026-10-28T21:39:00-04:00",
-  "checkedAt": "2026-10-28T21:39:00-04:00",
-  "nextRunAt": "2026-10-28T23:38:00-04:00",
+  "publishedAt": "2026-10-28T23:39:00-04:00",
+  "checkedAt": "2026-10-28T23:39:00-04:00",
+  "nextRunAt": "2026-10-29T05:38:00-04:00",
   "brief": {
     "title": "The Fed holds but leans toward a hike, oil sits near $115, and Big Tech's AI bill comes due.",
     "bullets": [
@@ -12,7 +12,7 @@
       "**Earnings:** Alphabet fell ~10% after hours on −$9B free cash flow and dragged Nasdaq-100 futures down ~1.2%; Microsoft rose on 48% Azure growth. Amazon reports Thursday.",
       "**Thursday:** PCE + Q3 GDP at 8:30 AM ET, then the ECB. The BoJ follows overnight."
     ],
-    "mood": "Stocks closed higher on Fed day, but Alphabet has Nasdaq futures lower overnight while bonds and oil keep stagflation risk on the table."
+    "mood": "Stocks closed higher on Fed day, but Alphabet has Nasdaq futures and Korean chips lower overnight; bonds and oil keep stagflation risk alive."
   },
   "mustKnow": [
     "fed-holds-october-2026",
@@ -410,7 +410,7 @@
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-28T21:39:00-04:00",
+      "updatedAt": "2026-10-28T23:39:00-04:00",
       "readMinutes": 5,
       "tldr": [
         "Microsoft: revenue about **$92.3B (+19%)** beat estimates, Azure grew **48%**, and the stock rose roughly 2–4% after hours.",
@@ -422,7 +422,7 @@
         "**Alphabet** (Q3 2026) posted what CNBC called its first top- and bottom-line miss in nearly four years. Revenue was about $127.6 billion versus $128.2 billion expected, and adjusted EPS of $2.67 missed the $3.02 consensus. The killer was [[free cash flow]]: **negative $9.07 billion**, far worse than analysts expected. Google Cloud more than doubled, to $30.7 billion in revenue, but search revenue of $63.35 billion fell short.",
         "Q3 [[capex]] was $51.36 billion, and Alphabet kept its 2026 range at **$195–205 billion**, saying capex will rise 'significantly' again in 2027. Management blamed part of the cash drain on building inventory for its TPU chip sales and a $5.2 billion payment for a 2018 EU fine.",
         "Context: on Oct. 22 Meta fell about 7% after its own release showed quarterly capex of $34.91 billion topping operating cash flow of $32.79 billion. That left free cash flow at roughly −$2.1 billion, versus +$10.6 billion a year earlier. Chip stocks led that day's selloff.",
-        "**The overnight read:** by about 7:40 p.m. ET, Nasdaq-100 futures were down roughly 1.2% and S&P 500 futures about 0.5%, per Investing.com and CNBC's live blog. That's after a cash session where the S&P 500 closed up 0.28% at 7,743.98. Alphabet is a big enough weight that a ~10% drop alone shaves meaningful points off the indexes, so the futures move is mostly Alphabet, not a broad de-risking (yet)."
+        "**The overnight read:** by about 7:40 p.m. ET, Nasdaq-100 futures were down roughly 1.2% and S&P 500 futures about 0.5%, per Investing.com and CNBC, after a cash session where the S&P 500 closed up 0.28% at 7,743.98. Asia picked it up Thursday: reports put Korea's Kospi down about 2.5–2.6% (Samsung Electronics off more than 4%), giving back part of Wednesday's ~6.6% SK Hynix-led surge. The Nikkei 225 was roughly flat and MSCI's Asia-Pacific ex-Japan index fell about 0.7%. These are early reports, so treat the levels as preliminary. The read: the AI-hardware trade is now trading the hyperscalers' *cash flow*, not just their capex plans."
       ],
       "marketReaction": [
         {
@@ -443,6 +443,11 @@
         {
           "asset": "S&P 500 futures (evening)",
           "move": "≈ −0.5%",
+          "direction": "down"
+        },
+        {
+          "asset": "Kospi (Thu)",
+          "move": "≈ −2.5% after a ~6.6% surge",
           "direction": "down"
         },
         {
@@ -524,7 +529,7 @@
       "watchNext": [
         {
           "when": "Thu after close",
-          "what": "Amazon Q3 earnings, with AWS growth and capex plans."
+          "what": "Amazon Q3. Q2 AWS growth was 37%; the test is whether it holds there while capex stays on its ~$220B 2026 plan. Options imply about a 7% move either way."
         },
         {
           "when": "Thu open",
@@ -559,9 +564,17 @@
         {
           "name": "Meta: Q3 2026 results release",
           "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+        },
+        {
+          "name": "Finwire: Asian shares fall as Alphabet miss drags futures",
+          "url": "https://finwire.io/news/economy-news/asian-shares-fall-as-alphabet-earnings-miss-drags-wall-st-futures-lower"
+        },
+        {
+          "name": "S&P Global: Amazon post-Q2, AWS reaccelerates",
+          "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/08/amazon-postq-aws-reaccelerates-as-ai-investment-pushes-capex-higher"
         }
       ],
-      "updateNote": "Added the overnight futures reaction: Nasdaq-100 futures down about 1.2% on Alphabet."
+      "updateNote": "Added the Asia session: Kospi slid about 2.5% and the Nikkei was flat as Alphabet's miss hit chip and AI names."
     },
     {
       "id": "treasury-10-year-near-5-percent",
