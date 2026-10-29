@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "publishedAt": "2026-10-28T23:39:00-04:00",
-  "checkedAt": "2026-10-28T23:39:00-04:00",
-  "nextRunAt": "2026-10-29T05:38:00-04:00",
+  "publishedAt": "2026-10-29T05:40:00-04:00",
+  "checkedAt": "2026-10-29T05:40:00-04:00",
+  "nextRunAt": "2026-10-29T07:38:00-04:00",
   "brief": {
-    "title": "The Fed holds but leans toward a hike, oil sits near $115, and Big Tech's AI bill comes due.",
+    "title": "Alphabet's cash burn drags Nasdaq futures lower as PCE and the ECB test a hawkish Fed.",
     "bullets": [
-      "**Fed:** held at 3.75%–4.00% in a 10–2 vote, with both dissenters wanting a hike. Warsh won't pre-commit, and December is ~82% priced for a hike.",
-      "**Oil:** Brent ~$115 with Hormuz flows ~60% of normal, and reports of US strikes on Iran resuming after the midterms. Energy is the inflation story.",
-      "**Bonds:** the 10-year is back at ~5.02% after an October round trip. The driver is term premium (deficits, supply, inflation risk).",
-      "**Earnings:** Alphabet fell ~10% after hours on −$9B free cash flow and dragged Nasdaq-100 futures down ~1.2%; Microsoft rose on 48% Azure growth. Amazon reports Thursday.",
-      "**Thursday:** PCE + Q3 GDP at 8:30 AM ET, then the ECB. The BoJ follows overnight."
+      "**Tech:** Nasdaq-100 futures are down ~1.2–1.4% after Alphabet's −$9B free cash flow; Dow futures are up on Microsoft. Amazon reports after the close.",
+      "**8:30 AM ET:** September PCE (core consensus +0.3% m/m, ~3.1% y/y) and Q3 GDP (~3%). A hot core print locks in a December hike.",
+      "**Fed:** held at 3.75%–4.00% with two dissents for a hike. December is ~82–86% priced.",
+      "**Oil:** Brent ~$115 with Hormuz flows ~60% of normal. Energy is the inflation story.",
+      "**Central banks:** the ECB decides at 9:15 AM ET (hold at 2.5% expected); the BoJ around 11 PM ET tonight (hold at 1.25% expected)."
     ],
-    "mood": "Stocks closed higher on Fed day, but Alphabet has Nasdaq futures and Korean chips lower overnight; bonds and oil keep stagflation risk alive."
+    "mood": "Risk-off in tech before the open; bonds steady ahead of PCE with the 10-year near 5%."
   },
   "mustKnow": [
     "fed-holds-october-2026",
@@ -28,9 +28,9 @@
     },
     {
       "date": "2026-10-29",
-      "time": "Morning ET",
+      "time": "9:15 AM ET",
       "label": "ECB decision",
-      "why": "A hold at 2.5% is expected. Watch for a December-hike signal and any comment on French spreads."
+      "why": "A hold at 2.5% is expected. Lagarde speaks at 9:45: watch for a December-hike signal and any comment on French spreads."
     },
     {
       "date": "2026-10-29",
@@ -40,9 +40,9 @@
     },
     {
       "date": "2026-10-29",
-      "time": "Overnight",
+      "time": "~11 PM ET",
       "label": "Bank of Japan decision",
-      "why": "A hold at 1.25% is expected. A declaration that the inflation goal is met would signal more hikes, which is yen-positive."
+      "why": "A hold at 1.25% is expected (Fri noon Tokyo). The tone on a December hike matters for the yen and for Japanese demand for Treasuries."
     },
     {
       "date": "2026-11-03",
@@ -59,7 +59,7 @@
       "date": "2026-12-09",
       "time": "2:00 PM ET",
       "label": "FOMC decision + dot plot",
-      "why": "About 82% priced for a 25bp hike after today's two dissents."
+      "why": "Roughly 82–86% priced for a 25bp hike after this week's two dissents."
     }
   ],
   "stories": [
@@ -72,12 +72,12 @@
       "depth": "full",
       "developing": false,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-28T19:09:00-04:00",
+      "updatedAt": "2026-10-29T05:40:00-04:00",
       "readMinutes": 5,
       "tldr": [
         "The Fed left rates at **3.75%–4.00%**, one meeting after September's quarter-point hike, its first increase in more than three years.",
         "Two officials, Governor Lisa Cook and Cleveland Fed President Beth Hammack, dissented because they wanted to hike again *now*.",
-        "Chair Kevin Warsh gave no hint on December. Futures still price roughly an **82%** chance of a hike there."
+        "Chair Kevin Warsh gave no hint on December. Futures price roughly an **82–86%** chance of a hike there, depending on the snapshot."
       ],
       "whatHappened": [
         "The FOMC kept its target for the [[fed funds rate]] at **3.75%–4.00%** on Wednesday. The vote was **10–2**, and both dissenters wanted a 25 [[bp|basis point]] hike: Governor Lisa Cook and Cleveland Fed President Beth Hammack. CNN reports it was Cook's first policy dissent since she joined the Board in 2022.",
@@ -240,8 +240,13 @@
         {
           "name": "CNBC: September CPI report",
           "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+        },
+        {
+          "name": "CNBC: 10-year creeps higher as Fed holds",
+          "url": "https://www.cnbc.com/2026/10/28/us-treasurys-bonds-yields-federal-reserve.html"
         }
-      ]
+      ],
+      "updateNote": "Updated December hike odds: CNBC's read of CME FedWatch was 85.7%."
     },
     {
       "id": "oil-brent-115-hormuz",
@@ -410,7 +415,7 @@
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-28T23:39:00-04:00",
+      "updatedAt": "2026-10-29T05:40:00-04:00",
       "readMinutes": 5,
       "tldr": [
         "Microsoft: revenue about **$92.3B (+19%)** beat estimates, Azure grew **48%**, and the stock rose roughly 2–4% after hours.",
@@ -422,7 +427,7 @@
         "**Alphabet** (Q3 2026) posted what CNBC called its first top- and bottom-line miss in nearly four years. Revenue was about $127.6 billion versus $128.2 billion expected, and adjusted EPS of $2.67 missed the $3.02 consensus. The killer was [[free cash flow]]: **negative $9.07 billion**, far worse than analysts expected. Google Cloud more than doubled, to $30.7 billion in revenue, but search revenue of $63.35 billion fell short.",
         "Q3 [[capex]] was $51.36 billion, and Alphabet kept its 2026 range at **$195–205 billion**, saying capex will rise 'significantly' again in 2027. Management blamed part of the cash drain on building inventory for its TPU chip sales and a $5.2 billion payment for a 2018 EU fine.",
         "Context: on Oct. 22 Meta fell about 7% after its own release showed quarterly capex of $34.91 billion topping operating cash flow of $32.79 billion. That left free cash flow at roughly −$2.1 billion, versus +$10.6 billion a year earlier. Chip stocks led that day's selloff.",
-        "**The overnight read:** by about 7:40 p.m. ET, Nasdaq-100 futures were down roughly 1.2% and S&P 500 futures about 0.5%, per Investing.com and CNBC, after a cash session where the S&P 500 closed up 0.28% at 7,743.98. Asia picked it up Thursday: reports put Korea's Kospi down about 2.5–2.6% (Samsung Electronics off more than 4%), giving back part of Wednesday's ~6.6% SK Hynix-led surge. The Nikkei 225 was roughly flat and MSCI's Asia-Pacific ex-Japan index fell about 0.7%. These are early reports, so treat the levels as preliminary. The read: the AI-hardware trade is now trading the hyperscalers' *cash flow*, not just their capex plans."
+        "**The overnight read:** the damage held overnight. Thursday morning Nasdaq-100 futures were down about 1.2–1.4% and S&P 500 futures 0.4–0.5%, while Dow futures were up about 0.3% (Microsoft is in the Dow; Alphabet isn't). That came after a cash session where the S&P 500 closed up 0.28% at 7,743.98. Asia picked it up Thursday: reports put Korea's Kospi down about 2.5–2.6% (Samsung Electronics off more than 4%), giving back part of Wednesday's ~6.6% SK Hynix-led surge. The Nikkei 225 was roughly flat and MSCI's Asia-Pacific ex-Japan index fell about 0.7%. In Europe the Stoxx 600 opened roughly flat, with tech down about 0.7%. The Asia levels are early reports, so treat them as preliminary. The read: the AI-hardware trade is now trading the hyperscalers' *cash flow*, not just their capex plans."
       ],
       "marketReaction": [
         {
@@ -436,13 +441,13 @@
           "direction": "up"
         },
         {
-          "asset": "Nasdaq-100 futures (evening)",
-          "move": "≈ −1.2%",
+          "asset": "Nasdaq-100 futures (Thu a.m.)",
+          "move": "≈ −1.2% to −1.4%",
           "direction": "down"
         },
         {
-          "asset": "S&P 500 futures (evening)",
-          "move": "≈ −0.5%",
+          "asset": "S&P 500 futures (Thu a.m.)",
+          "move": "≈ −0.4% to −0.5%",
           "direction": "down"
         },
         {
@@ -538,6 +543,10 @@
       ],
       "sources": [
         {
+          "name": "Reuters Morning Bid: In the AI alphabet, cash is king",
+          "url": "https://www.investing.com/news/economy-news/morning-bid-in-the-ai-alphabet-cash-is-king-4981514"
+        },
+        {
           "name": "CNBC: Alphabet Q3 2026 earnings",
           "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html"
         },
@@ -574,7 +583,7 @@
           "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/08/amazon-postq-aws-reaccelerates-as-ai-investment-pushes-capex-higher"
         }
       ],
-      "updateNote": "Added the Asia session: Kospi slid about 2.5% and the Nikkei was flat as Alphabet's miss hit chip and AI names."
+      "updateNote": "Added the premarket picture: Nasdaq futures down about 1.2–1.4%, Dow futures up, Europe's tech sector lower."
     },
     {
       "id": "treasury-10-year-near-5-percent",
@@ -725,20 +734,21 @@
     {
       "id": "pce-gdp-preview-october-29",
       "beat": "fed-macro",
-      "headline": "Thursday's PCE and GDP data are the next test for a December hike",
-      "dek": "September PCE and the first look at Q3 GDP land at 8:30 AM ET. Consensus has core PCE at about 3.1%, up from 3.0%, after a hot, energy-driven CPI.",
+      "headline": "PCE and Q3 GDP at 8:30 AM ET are the next test for a December Fed hike",
+      "dek": "Consensus has core PCE up 0.3% in September (3.1% y/y) and Q3 GDP near 3%. A hot core print would cement a December hike.",
       "importance": 4,
       "depth": "brief",
       "developing": false,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-28T19:09:00-04:00",
-      "readMinutes": 2,
+      "updatedAt": "2026-10-29T05:40:00-04:00",
+      "readMinutes": 3,
       "tldr": [
-        "Consensus for September: headline PCE around **3.7%** year over year, core around **3.1%** (August core was 3.0%).",
-        "September CPI already came in at 3.7% headline and 2.6% core, both a touch hotter than expected."
+        "Consensus for September: core PCE **+0.3% m/m, ~3.1% y/y** (from 3.0%); headline about **+0.5% m/m, ~3.7% y/y**.",
+        "Q3 GDP is expected around **3%** annualized versus 2.2% in Q2; individual forecasts run roughly 2.5–3.5%.",
+        "The 2-year is the instrument to watch: it's the one most tied to whether December's hike happens."
       ],
       "whatHappened": [
-        "The Commerce Department publishes September's personal income and spending report, including [[PCE inflation]], and the advance estimate of Q3 GDP on Thursday at 8:30 AM ET. Previews put the [[consensus]] at about 3.7% for headline PCE and 3.1% for core. These are forecasts, not results.",
+        "The Commerce Department publishes September's personal income and spending report, including [[PCE inflation]], and the advance estimate of Q3 GDP at 8:30 AM ET. The [[consensus]] (FactSet, via Morningstar) is core PCE up 0.3% on the month and 3.1% on the year, with headline up about 0.5% and 3.7%. Q3 GDP previews cluster around 3% annualized, after 2.2% in Q2. These are forecasts, not results.",
         "The backdrop: September CPI rose 3.7% from a year earlier (0.6% on the month) as gasoline jumped 9.1%. Core CPI was 2.6% year over year and 0.3% on the month, slightly above forecasts."
       ],
       "background": [
@@ -746,7 +756,7 @@
         "Because CPI and PPI come out first, economists can estimate most of PCE in advance. The *surprise* versus consensus is what moves markets."
       ],
       "whyItMatters": [
-        "With no forward guidance from Warsh, data does the talking. A core print at or above 3.1% strengthens the December hike case, which is already ~82% priced, and could start pulling 2027 hikes forward. A soft print would hit the 2-year hardest."
+        "With no forward guidance from Warsh, data does the talking. December is about 82–86% priced for a hike depending on the snapshot. A core print of 0.4% or more would make it a lock and start pulling 2027 hikes forward; a 0.2% would reopen the debate and rally the 2-year hardest. GDP near or above 3% with sticky core is the hawkish combination: no growth excuse to wait."
       ],
       "views": [
         {
@@ -777,12 +787,21 @@
         {
           "term": "consensus",
           "definition": "The median economist forecast for a data release. Markets react to the surprise versus consensus, not the number itself."
+        },
+        {
+          "term": "DV01",
+          "definition": "Dollar value of a basis point: how much a position gains or loses for a 1bp move in yield. Desks size trades by DV01, not notional.",
+          "example": "Shorting $10M of 2-year notes has a far smaller DV01 than $10M of 10-years."
         }
       ],
       "watchNext": [
         {
           "when": "Thu 8:30 AM ET",
-          "what": "PCE, personal spending and Q3 GDP (advance)."
+          "what": "PCE, personal spending and Q3 GDP (advance). Watch core m/m first."
+        },
+        {
+          "when": "Fri Nov 6",
+          "what": "October jobs report, the last payrolls before the Dec. 8–9 FOMC."
         }
       ],
       "sources": [
@@ -797,8 +816,23 @@
         {
           "name": "CNBC: September CPI report",
           "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+        },
+        {
+          "name": "Continuum Economics: Q3 GDP preview",
+          "url": "https://continuumeconomics.com/a/1140701f/preview-due-october-29-us-q3-gdp-stronger-growth-slower-inflation"
         }
-      ]
+      ],
+      "updateNote": "Added the monthly consensus (core +0.3%, headline +0.5%), the GDP forecast range and a trade idea.",
+      "trade": {
+        "idea": "Short the 2-year into PCE (hawkish skew)",
+        "expression": "Short 2Y Treasury futures (TU), sized by [[DV01]]; or pay Dec-26/Mar-27 SOFR futures",
+        "rationale": "If core PCE prints 0.3% or hotter on top of a hot CPI, the market prices December as done and adds 2027 hikes, so front-end yields rise. The 2-year moves most for each repricing of the Fed path.",
+        "risks": [
+          "A soft 0.2% core print would rally the front end hard against you.",
+          "Much of December is already priced, so the asymmetry is limited on an in-line print.",
+          "A risk-off equity move (Alphabet, AI capex) could send money into short Treasuries regardless of data."
+        ]
+      }
     },
     {
       "id": "warsh-fed-meeting-overhaul",
@@ -896,7 +930,7 @@
       "depth": "brief",
       "developing": false,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-28T19:09:00-04:00",
+      "updatedAt": "2026-10-29T05:40:00-04:00",
       "readMinutes": 2,
       "tldr": [
         "ECB (Thu): expected to hold its deposit rate at **2.5%**. In a Reuters poll, 70 of 73 economists see a hold and 64 expect a hike in December.",
@@ -904,7 +938,8 @@
       ],
       "whatHappened": [
         "This is a central-bank 'superweek': the Fed on Wednesday, the ECB on Thursday, the BoJ on Friday. All three hiked in September as the energy shock lifted inflation, and all three are expected to pause this week while signaling they're not done.",
-        "In Japan, officials have repeated that they're ready to take decisive action in currency markets. That's [[verbal intervention]], aimed at stopping a slide in the yen."
+        "In Japan, officials have repeated that they're ready to take decisive action in currency markets. That's [[verbal intervention]], aimed at stopping a slide in the yen.",
+        "Timing: the ECB announces at 9:15 AM ET Thursday, with Lagarde's press conference at 9:45. The BoJ's two-day meeting ends Friday in Tokyo, around 11 PM ET Thursday. Bloomberg reported this month that BoJ officials lean against a rare back-to-back hike in October while keeping December open."
       ],
       "background": [
         "The ECB raised its [[deposit facility rate]] by 25bp to 2.5% in September. It faces the same energy shock as the Fed, plus a regional problem: French government bond yields above 5%, which complicates tightening.",
@@ -945,12 +980,12 @@
       ],
       "watchNext": [
         {
-          "when": "Thu morning ET",
-          "what": "ECB decision and press conference: any December signal?"
+          "when": "Thu 9:15 AM ET",
+          "what": "ECB decision; Lagarde's press conference at 9:45 AM ET. Any December signal or comment on French spreads?"
         },
         {
-          "when": "Thu night ET",
-          "what": "BoJ decision, including whether it says the underlying-inflation goal is met."
+          "when": "Thu ~11 PM ET",
+          "what": "BoJ decision (Fri ~noon Tokyo). Bloomberg reported officials lean against a back-to-back hike, so the tone on December is the news."
         }
       ],
       "sources": [
@@ -965,8 +1000,14 @@
         {
           "name": "Tradingpedia: Intervention jitters lift the yen",
           "url": "https://www.tradingpedia.com/2026/10/28/eur-jpy-drops-as-intervention-jitters-and-boj-lift-yen/"
+        },
+        {
+          "name": "Bloomberg: BoJ said to lean against back-to-back hike",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-13/boj-is-said-to-lean-against-back-to-back-rate-hike-in-october",
+          "paywalled": true
         }
-      ]
+      ],
+      "updateNote": "Added exact timing: ECB at 9:15 AM ET today; BoJ around 11 PM ET tonight (noon Friday in Tokyo)."
     },
     {
       "id": "midterms-2026-market-odds",
