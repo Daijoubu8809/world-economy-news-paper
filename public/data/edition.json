@@ -1,22 +1,22 @@
 {
   "version": 1,
-  "publishedAt": "2026-10-29T10:02:00-04:00",
-  "checkedAt": "2026-10-29T10:02:00-04:00",
-  "nextRunAt": "2026-10-29T11:38:00-04:00",
+  "publishedAt": "2026-10-29T11:53:00-04:00",
+  "checkedAt": "2026-10-29T11:53:00-04:00",
+  "nextRunAt": "2026-10-29T13:38:00-04:00",
   "brief": {
-    "title": "The US grew 3.4% with core inflation stuck at 3.1%, Alphabet sinks, and Lagarde says she's leaving the ECB.",
+    "title": "Alphabet heads for its worst day ever as the US grows 3.4% and Lagarde says she's leaving the ECB.",
     "bullets": [
+      "**Tech:** Alphabet is down ~13% on −$9B free cash flow, a near-$500B wipeout; the Nasdaq is off ~1.3%. Amazon reports after the close.",
       "**Data:** Q3 GDP +3.4% (vs ~3.1% expected); September core PCE +0.3% m/m, 3.1% y/y, in line. It backs a December Fed hike (~80–86% priced).",
-      "**Tech:** Alphabet was ~10% lower premarket on −$9B free cash flow; Microsoft up ~4%. Amazon reports after the close.",
-      "**ECB:** held at 2.5% and flagged energy risks. Lagarde will leave Feb. 7; Knot and Hernández de Cos lead the succession race.",
-      "**Oil and bonds:** Brent ~$115 with Hormuz flows ~60% of normal; the 10-year sits near 5%.",
+      "**Bonds and oil:** the 10-year is ~5.01% and the 2-year ~4.69%, both down ~3bp. Brent is ~$113 (−1.7%) on reported US outreach to Iran.",
+      "**ECB:** held at 2.5% and flagged energy risks. Lagarde leaves Feb. 7; Knot and Hernández de Cos lead the succession race.",
       "**Tonight:** the BoJ decides around 11 PM ET; a hold at 1.25% is expected."
     ],
-    "mood": "Strong growth and sticky inflation keep the hawks in charge; tech is paying for AI capex."
+    "mood": "Risk-off in megacap tech; bonds and lower oil cushion the rest of the tape."
   },
   "mustKnow": [
-    "pce-gdp-preview-october-29",
     "alphabet-microsoft-earnings-q3-2026",
+    "pce-gdp-preview-october-29",
     "lagarde-resigns-ecb-president"
   ],
   "calendar": [
@@ -256,44 +256,45 @@
     {
       "id": "oil-brent-115-hormuz",
       "beat": "policy",
-      "headline": "Brent settles near $115 as Hormuz shipping runs at about 60% of normal",
-      "dek": "Oil climbed on reports of renewed US strikes on Iran after the midterms. Energy is the main engine of US inflation, and so of the Fed's hikes.",
+      "headline": "Brent slips to about $113 on reports of renewed US–Iran outreach, after settling near $115",
+      "dek": "The Wall Street Journal reported Vice President Vance reached out to Iran to restart talks. Hormuz flows are still well below normal, and oil remains the main engine of US inflation.",
       "importance": 5,
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-28T19:09:00-04:00",
+      "updatedAt": "2026-10-29T11:53:00-04:00",
       "readMinutes": 5,
       "tldr": [
-        "Brent settled around **$115.32 (+1.3%)** and WTI at **$102.78 (+2.9%)** on Wednesday.",
-        "Tanker traffic through the Strait of Hormuz is running at roughly 60% of normal, per ANZ Research.",
-        "Gasoline accounted for more than half of September's CPI jump. Oil is the main reason the Fed is hiking."
+        "Brent fell about **1.7% to ~$113.3** and WTI about **2% to ~$100.7** Thursday, per CNBC, after settling at **$115.32** and **$102.78** on Wednesday.",
+        "Trigger: the WSJ reported Vice President JD Vance wrote to Iranian official Mohsen Rezaei to try to restart peace talks.",
+        "Brent is still up roughly 17% in October. Gasoline drove more than half of September's CPI jump, so oil remains the Fed's problem."
       ],
       "whatHappened": [
+        "**Thursday:** oil gave back Wednesday's gain after the Wall Street Journal reported that Vice President JD Vance had sent a letter to Mohsen Rezaei, a senior Iranian security official, to try to restart peace negotiations. CNBC had Brent down 1.73% at $113.32 and WTI down 2.06% at $100.66. Houthi attacks on Saudi infrastructure and the risk to Hormuz shipping still underpin prices.",
         "Oil rose for a second session as traders priced a longer conflict. President Trump said the war with Iran would end on his terms and that Tehran must be kept from nuclear weapons. There were also reports that the US is preparing to resume strikes on Iran *after* next Tuesday's midterm elections.",
         "Houthi forces claimed a ballistic-missile strike on Saudi Aramco's Ras Tanura refinery. Saudi authorities have **not confirmed** a direct hit, so treat it as unverified. Brent briefly topped $117 earlier this week before dipping on Tuesday, when Saudi, Turkish and Pakistani diplomacy with Iran briefly raised hopes of a deal.",
         "UBS expects Brent around $110 by year-end, arguing the market is undersupplied and that Gulf flows remain below prewar levels."
       ],
       "marketReaction": [
         {
-          "asset": "Brent",
-          "move": "$115.32 (+1.3%)",
-          "direction": "up"
+          "asset": "Brent (Thu)",
+          "move": "≈ $113.3 (−1.7%)",
+          "direction": "down"
         },
         {
-          "asset": "WTI",
-          "move": "$102.78 (+2.9%)",
+          "asset": "WTI (Thu)",
+          "move": "≈ $100.7 (−2.1%)",
+          "direction": "down"
+        },
+        {
+          "asset": "Brent (Wed settle)",
+          "move": "$115.32 (+1.3%)",
           "direction": "up"
         },
         {
           "asset": "Hormuz transits",
           "move": "~60% of normal",
           "direction": "down"
-        },
-        {
-          "asset": "10Y Treasury",
-          "move": "5.02% (+3bp), partly oil",
-          "direction": "up"
         }
       ],
       "background": [
@@ -390,6 +391,14 @@
       ],
       "sources": [
         {
+          "name": "CNBC: Oil price today, Oct. 29",
+          "url": "https://www.cnbc.com/amp/2026/10/29/oil-price-today-wti-brent.html"
+        },
+        {
+          "name": "OilPrice.com: Oil falls as Vance moves to restart Iran talks",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Vance-Moves-to-Restart-Iran-Peace-Talks.html"
+        },
+        {
           "name": "CNBC: Oil price today, WTI and Brent rise",
           "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html"
         },
@@ -409,7 +418,8 @@
           "name": "CBS News: September CPI, energy costs soar",
           "url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
         }
-      ]
+      ],
+      "updateNote": "Thursday: Brent down about 1.7% to ~$113 and WTI ~$100.7 after a WSJ report on Vance contacting Tehran."
     },
     {
       "id": "lagarde-resigns-ecb-president",
@@ -547,55 +557,55 @@
     {
       "id": "alphabet-microsoft-earnings-q3-2026",
       "beat": "markets",
-      "headline": "Alphabet falls ~10% after hours on a cash-flow miss while Microsoft rises on 48% Azure growth",
-      "dek": "AI spending is now hitting Big Tech's cash flow. Investors rewarded Microsoft, which showed the revenue, and punished Alphabet, which missed on profit and burned cash.",
+      "headline": "Alphabet falls ~13%, on track for its worst day ever, as AI spending swamps cash flow",
+      "dek": "About $500 billion of market value is evaporating as investors punish negative free cash flow. Microsoft, which showed the revenue, is holding steady.",
       "importance": 4,
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-29T07:39:00-04:00",
+      "updatedAt": "2026-10-29T11:53:00-04:00",
       "readMinutes": 5,
       "tldr": [
-        "Microsoft: revenue about **$92.3B (+19%)** beat estimates, Azure grew **48%**, and the stock is up roughly 3–4% premarket.",
-        "Alphabet: revenue about **$127.6B**, slightly light; EPS missed; free cash flow was **−$9.07B**; the stock is down roughly 10% premarket.",
-        "It's the same theme as Meta last week: AI capex is outrunning cash generation, and the market has started to care."
+        "Alphabet is down roughly **13%** in Thursday trading, on track for its worst session since its 2004 IPO and a market-value loss near **$500 billion**.",
+        "The trigger: a rare revenue and EPS miss plus free cash flow of **−$9.07B** as capex ($51.4B in the quarter) outran operating cash.",
+        "Microsoft (Azure **+48%**) is roughly flat after an after-hours pop; the Nasdaq is down about 1.3% and the S&P 500 about 0.4%."
       ],
       "whatHappened": [
         "**Microsoft** (fiscal Q1 2027) beat on the top and bottom line. Revenue came in around $92.3 billion versus roughly $90.7 billion expected, and its Azure cloud business grew 48%. Shares rose in extended trading; reports range from about 2% to 4.5%.",
         "**Alphabet** (Q3 2026) posted what CNBC called its first top- and bottom-line miss in nearly four years. Revenue was about $127.6 billion versus $128.2 billion expected, and adjusted EPS of $2.67 missed the $3.02 consensus. The killer was [[free cash flow]]: **negative $9.07 billion**, far worse than analysts expected. Google Cloud more than doubled, to $30.7 billion in revenue, but search revenue of $63.35 billion fell short.",
         "Q3 [[capex]] was $51.36 billion, and Alphabet kept its 2026 range at **$195–205 billion**, saying capex will rise 'significantly' again in 2027. Management blamed part of the cash drain on building inventory for its TPU chip sales and a $5.2 billion payment for a 2018 EU fine.",
         "Context: on Oct. 22 Meta fell about 7% after its own release showed quarterly capex of $34.91 billion topping operating cash flow of $32.79 billion. That left free cash flow at roughly −$2.1 billion, versus +$10.6 billion a year earlier. Chip stocks led that day's selloff.",
-        "**The overnight read:** the damage held overnight. Thursday morning Nasdaq-100 futures were down about 1.2–1.4% and S&P 500 futures 0.4–0.5%, while Dow futures were up about 0.3% (Microsoft is in the Dow; Alphabet isn't). That came after a cash session where the S&P 500 closed up 0.28% at 7,743.98. Asia picked it up Thursday: reports put Korea's Kospi down about 2.5–2.6% (Samsung Electronics off more than 4%), giving back part of Wednesday's ~6.6% SK Hynix-led surge. The Nikkei 225 was roughly flat and MSCI's Asia-Pacific ex-Japan index fell about 0.7%. In Europe the Stoxx 600 opened roughly flat, with tech down about 0.7%. The Asia levels are early reports, so treat them as preliminary. The read: the AI-hardware trade is now trading the hyperscalers' *cash flow*, not just their capex plans."
+        "**Thursday's session:** Alphabet opened sharply lower and was down about 13% in morning trade, per CNBC and Yahoo Finance. That would be its worst day since listing in 2004. Its previous record market-value drop was about $275 billion in July. Microsoft gave back its after-hours gain and was roughly flat. The Nasdaq fell about 1.3%, the S&P 500 and Dow about 0.4%, with software and other AI-linked names also lower. Overnight, Korea's Kospi fell about 2.5% after Wednesday's surge. The read: the market is now trading the hyperscalers' *cash flow*, not just their capex plans."
       ],
       "marketReaction": [
         {
-          "asset": "Alphabet (premarket Thu)",
-          "move": "≈ −10%",
+          "asset": "Alphabet (Thu intraday)",
+          "move": "≈ −13%",
           "direction": "down"
         },
         {
-          "asset": "Microsoft (premarket Thu)",
-          "move": "≈ +3% to +4%",
-          "direction": "up"
-        },
-        {
-          "asset": "Nasdaq-100 futures (Thu a.m.)",
-          "move": "≈ −1.2% to −1.4%",
+          "asset": "Alphabet market value",
+          "move": "≈ −$500B",
           "direction": "down"
         },
         {
-          "asset": "S&P 500 futures (Thu a.m.)",
-          "move": "≈ −0.4% to −0.5%",
+          "asset": "Microsoft (Thu intraday)",
+          "move": "≈ flat",
+          "direction": "flat"
+        },
+        {
+          "asset": "Nasdaq Composite (intraday)",
+          "move": "≈ −1.3%",
+          "direction": "down"
+        },
+        {
+          "asset": "S&P 500 (intraday)",
+          "move": "≈ −0.4%",
           "direction": "down"
         },
         {
           "asset": "Kospi (Thu)",
           "move": "≈ −2.5% after a ~6.6% surge",
-          "direction": "down"
-        },
-        {
-          "asset": "Meta (Oct. 22)",
-          "move": "≈ −7%",
           "direction": "down"
         }
       ],
@@ -675,11 +685,19 @@
           "what": "Amazon Q3. Q2 AWS growth was 37%; the test is whether it holds there while capex stays on its ~$220B 2026 plan. Options imply about a 7% move either way."
         },
         {
-          "when": "Thu 9:30 AM ET",
-          "what": "Alphabet's cash open. A close below −9.77% would be its worst post-earnings reaction ever, per CNBC; watch whether chips and the hyperscaler suppliers follow it down."
+          "when": "Thu 4:00 PM ET",
+          "what": "Whether Alphabet closes below its −9.77% post-earnings record and how much of the Nasdaq drop sticks into Amazon's report."
         }
       ],
       "sources": [
+        {
+          "name": "CNBC: Alphabet drops 13% while Microsoft rises",
+          "url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html"
+        },
+        {
+          "name": "Yahoo Finance: Alphabet heads for a $500 billion drop in market value",
+          "url": "https://finance.yahoo.com/markets/article/alphabet-heads-for-a-500-billion-drop-in-market-value-the-biggest-in-its-history-134824763.html"
+        },
         {
           "name": "Reuters Morning Bid: In the AI alphabet, cash is king",
           "url": "https://www.investing.com/news/economy-news/morning-bid-in-the-ai-alphabet-cash-is-king-4981514"
@@ -711,17 +729,9 @@
         {
           "name": "Investing.com: US futures drop as Alphabet slides",
           "url": "https://uk.investing.com/news/stock-market-news/us-stock-futures-drop-as-alphabet-slides-on-soft-earnings-microsoft-firms-4939623"
-        },
-        {
-          "name": "Investing.com: Alphabet Q3 slides",
-          "url": "https://www.investing.com/news/company-news/alphabet-q3-2026-slides-128b-revenue-overshadowed-by-profit-miss-93CH-4981067"
-        },
-        {
-          "name": "Meta: Q3 2026 results release",
-          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
         }
       ],
-      "updateNote": "Premarket: Alphabet about −10%, Microsoft up nearly 4%. A close worse than −9.77% would be Alphabet's worst post-earnings day on record."
+      "updateNote": "Cash session: Alphabet down about 13% intraday, heading for its biggest one-day drop and market-value loss on record; Nasdaq ~−1.3%."
     },
     {
       "id": "treasury-10-year-near-5-percent",
@@ -732,21 +742,32 @@
       "depth": "full",
       "developing": false,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-28T19:09:00-04:00",
+      "updatedAt": "2026-10-29T11:53:00-04:00",
       "readMinutes": 4,
       "tldr": [
-        "The 10-year ended Wednesday around **5.02%**. It peaked near 5.35% on Oct. 7, the highest level since 2002.",
+        "The 10-year is around **5.01%** Thursday (−3bp) after a strong GDP print and in-line PCE. It peaked near 5.35% on Oct. 7, the highest since 2002.",
         "On Oct. 22 it fell about 19bp in one session, the biggest drop since March 2023, as an AI-stock selloff sent money into bonds.",
         "The core story is [[term premium]]: investors demanding more to hold long debt amid big deficits, heavy issuance and oil-driven inflation risk."
       ],
       "whatHappened": [
         "The 10-year Treasury yield rose to about **5.02%** on Wednesday from 4.99%, an upward nudge from higher oil prices on a Fed day. The 2-year did most of the moving, swinging between about 4.69% and 4.79% around the decision.",
-        "Zoom out and October has been a roller coaster. The 10-year hit roughly **5.35%** on Oct. 7 (sources put the peak at 5.34%–5.36%), its highest since 2002. Then on Oct. 22 it dropped about **19bp** in a single session to around 4.95%, the largest one-day fall since March 2023, as a selloff in AI stocks sent investors running to government bonds. It has since drifted back above 5%."
+        "Zoom out and October has been a roller coaster. The 10-year hit roughly **5.35%** on Oct. 7 (sources put the peak at 5.34%–5.36%), its highest since 2002. Then on Oct. 22 it dropped about **19bp** in a single session to around 4.95%, the largest one-day fall since March 2023, as a selloff in AI stocks sent investors running to government bonds. It has since drifted back above 5%.",
+        "Thursday morning, after GDP (3.4%) and PCE (in line), CNBC had the 10-year at about 5.01% and the 2-year at about 4.69%, both down roughly 3bp, with the 30-year near 5.33%. Lower oil and a tech selloff helped the bid. The 2s10s spread had already widened to about 38bp on Wednesday from 29bp, per FRED data."
       ],
       "marketReaction": [
         {
-          "asset": "10Y yield (Oct. 28)",
-          "move": "≈5.02%",
+          "asset": "10Y yield (Thu a.m.)",
+          "move": "≈5.01% (−3bp)",
+          "direction": "down"
+        },
+        {
+          "asset": "2Y yield (Thu a.m.)",
+          "move": "≈4.69% (−3bp)",
+          "direction": "down"
+        },
+        {
+          "asset": "2s10s curve (Oct. 28)",
+          "move": "≈38bp, from 29bp",
           "direction": "up"
         },
         {
@@ -852,6 +873,10 @@
       ],
       "sources": [
         {
+          "name": "CNBC: 10-year hovers above 5% after strong GDP",
+          "url": "https://www.cnbc.com/2026/10/29/treasury-yields-federal-reserve-rates.html"
+        },
+        {
           "name": "Forbes: Why the 10-year hit a 24-year high",
           "url": "https://www.forbes.com/sites/garthfriesen/2026/10/07/why-the-10-year-treasury-yield-just-hit-a-24-year-high/"
         },
@@ -866,8 +891,13 @@
         {
           "name": "Trading Economics: US 10-year yield",
           "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+        },
+        {
+          "name": "FRED: 10-year minus 2-year (T10Y2Y)",
+          "url": "https://fred.stlouisfed.org/series/T10Y2Y"
         }
-      ]
+      ],
+      "updateNote": "After GDP/PCE: 10-year ~5.01% and 2-year ~4.69%, both down about 3bp; the curve stays steep."
     },
     {
       "id": "pce-gdp-preview-october-29",
