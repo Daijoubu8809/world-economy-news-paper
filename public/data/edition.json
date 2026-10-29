@@ -1,37 +1,25 @@
 {
   "version": 1,
-  "publishedAt": "2026-10-29T07:39:00-04:00",
-  "checkedAt": "2026-10-29T07:39:00-04:00",
-  "nextRunAt": "2026-10-29T09:38:00-04:00",
+  "publishedAt": "2026-10-29T10:02:00-04:00",
+  "checkedAt": "2026-10-29T10:02:00-04:00",
+  "nextRunAt": "2026-10-29T11:38:00-04:00",
   "brief": {
-    "title": "Alphabet's cash burn drags Nasdaq futures lower as PCE and the ECB test a hawkish Fed.",
+    "title": "The US grew 3.4% with core inflation stuck at 3.1%, Alphabet sinks, and Lagarde says she's leaving the ECB.",
     "bullets": [
-      "**Tech:** Alphabet is ~10% lower premarket on −$9B free cash flow and Nasdaq-100 futures are down ~1.2%; Microsoft is up ~4%. Amazon reports after the close.",
-      "**8:30 AM ET:** September PCE (core consensus +0.3% m/m, ~3.1% y/y) and Q3 GDP (~3%). A hot core print locks in a December hike.",
-      "**Fed:** held at 3.75%–4.00% with two dissents for a hike. December is ~82–86% priced.",
-      "**Oil:** Brent ~$115 with Hormuz flows ~60% of normal. Energy is the inflation story.",
-      "**Central banks:** the ECB decides at 9:15 AM ET (hold at 2.5% expected); the BoJ around 11 PM ET tonight (hold at 1.25% expected)."
+      "**Data:** Q3 GDP +3.4% (vs ~3.1% expected); September core PCE +0.3% m/m, 3.1% y/y, in line. It backs a December Fed hike (~80–86% priced).",
+      "**Tech:** Alphabet was ~10% lower premarket on −$9B free cash flow; Microsoft up ~4%. Amazon reports after the close.",
+      "**ECB:** held at 2.5% and flagged energy risks. Lagarde will leave Feb. 7; Knot and Hernández de Cos lead the succession race.",
+      "**Oil and bonds:** Brent ~$115 with Hormuz flows ~60% of normal; the 10-year sits near 5%.",
+      "**Tonight:** the BoJ decides around 11 PM ET; a hold at 1.25% is expected."
     ],
-    "mood": "Risk-off in tech before the open; bonds steady ahead of PCE with the 10-year near 5%."
+    "mood": "Strong growth and sticky inflation keep the hawks in charge; tech is paying for AI capex."
   },
   "mustKnow": [
-    "fed-holds-october-2026",
-    "oil-brent-115-hormuz",
-    "alphabet-microsoft-earnings-q3-2026"
+    "pce-gdp-preview-october-29",
+    "alphabet-microsoft-earnings-q3-2026",
+    "lagarde-resigns-ecb-president"
   ],
   "calendar": [
-    {
-      "date": "2026-10-29",
-      "time": "8:30 AM ET",
-      "label": "September PCE + Q3 GDP (advance)",
-      "why": "Consensus core PCE ~3.1% y/y. A hot print cements a December hike."
-    },
-    {
-      "date": "2026-10-29",
-      "time": "9:15 AM ET",
-      "label": "ECB decision",
-      "why": "A hold at 2.5% is expected. Lagarde speaks at 9:45: watch for a December-hike signal and any comment on French spreads."
-    },
     {
       "date": "2026-10-29",
       "time": "After close",
@@ -42,12 +30,12 @@
       "date": "2026-10-29",
       "time": "~11 PM ET",
       "label": "Bank of Japan decision",
-      "why": "A hold at 1.25% is expected (Fri noon Tokyo). The tone on a December hike matters for the yen and for Japanese demand for Treasuries."
+      "why": "A hold at 1.25% is expected (Fri noon Tokyo). The tone on December matters for the yen and Japanese demand for Treasuries."
     },
     {
       "date": "2026-11-03",
       "label": "US midterm elections",
-      "why": "Prediction markets see a Democratic House. The Senate is the swing. Reported post-election Iran strikes make it an oil event too."
+      "why": "Prediction markets see a Democratic House; the Senate is the swing. Reported post-election Iran strikes make it an oil event too."
     },
     {
       "date": "2026-11-06",
@@ -56,10 +44,27 @@
       "why": "The last payrolls print before the Dec. 8–9 FOMC."
     },
     {
+      "date": "2026-11-18",
+      "time": "2:00 PM ET",
+      "label": "FOMC minutes (October meeting)",
+      "why": "How many officials leaned toward the two hawkish dissenters."
+    },
+    {
+      "date": "2026-11-25",
+      "time": "8:30 AM ET",
+      "label": "Q3 GDP, second estimate",
+      "why": "Checks whether the 3.4% advance print holds up."
+    },
+    {
       "date": "2026-12-09",
       "time": "2:00 PM ET",
       "label": "FOMC decision + dot plot",
-      "why": "Roughly 82–86% priced for a 25bp hike after this week's two dissents."
+      "why": "Roughly 80–86% priced for a 25bp hike."
+    },
+    {
+      "date": "2026-12-17",
+      "label": "EU leaders' summit (Dec. 17–18)",
+      "why": "Leaders aim to settle Lagarde's successor and two other ECB board seats as a package."
     }
   ],
   "stories": [
@@ -407,6 +412,139 @@
       ]
     },
     {
+      "id": "lagarde-resigns-ecb-president",
+      "beat": "fed-macro",
+      "headline": "Lagarde will step down as ECB president on Feb. 7, nine months early",
+      "dek": "Her exit opens a three-seat reshuffle at the top of the ECB just as it fights an energy-driven inflation spike and a French bond selloff.",
+      "importance": 4,
+      "depth": "full",
+      "developing": true,
+      "publishedAt": "2026-10-29T10:02:00-04:00",
+      "updatedAt": "2026-10-29T10:02:00-04:00",
+      "readMinutes": 4,
+      "tldr": [
+        "Christine Lagarde announced Thursday she will leave on **Feb. 7, 2027**, nearly nine months before her term ends in October 2027.",
+        "Combined with Isabel Schnabel leaving in January and Philip Lane's term ending May 31, three of six Executive Board seats turn over within months.",
+        "Klaas Knot (backed by the Netherlands) and Pablo Hernández de Cos (backed by Spain) are seen as frontrunners. Markets shrugged: Danske Bank said it 'won't matter too much.'"
+      ],
+      "whatHappened": [
+        "Lagarde announced her resignation on Thursday morning, hours before the ECB's rate decision, ending months of speculation. She's only the second ECB president to leave early in the bank's 28-year history. Reports tie the timing to France's 2027 presidential election: leaving in February lets her successor be chosen under the current French government.",
+        "European Council President António Costa said the selection process would start immediately. Leaders are expected to negotiate a package covering all three vacancies (president, Schnabel's seat and Lane's chief-economist seat) and are aiming for a deal before the Dec. 17–18 EU summit.",
+        "The frontrunners are **Klaas Knot**, former head of the Dutch central bank, and **Pablo Hernández de Cos**, former Bank of Spain governor and now general manager of the BIS. Danske Bank's Piet Haines Christiansen said both are 'very competent, well-established central bankers, so for markets, it won't matter too much.'",
+        "Market reaction was muted. Reuters reported the euro and euro-area yields edging lower as energy prices dipped, while the French–German 10-year spread was around 153.5bp, down from almost 178bp last week."
+      ],
+      "marketReaction": [
+        {
+          "asset": "OAT–Bund 10Y spread",
+          "move": "≈153.5bp (from ~178bp peak last week)",
+          "direction": "down"
+        },
+        {
+          "asset": "ECB deposit rate",
+          "move": "2.5%, unchanged",
+          "direction": "flat"
+        }
+      ],
+      "background": [
+        "The ECB's six-member **Executive Board** runs the bank day to day and sits on the 26-member **Governing Council** that sets rates. Board members get non-renewable eight-year terms, and EU leaders choose them by political bargaining among big countries, so nationality and the balance of hawks and doves are always in play.",
+        "Lagarde, a former French finance minister and IMF chief, took over in 2019. Her term spanned negative rates, the pandemic, the 2022–23 inflation surge and this year's energy shock, which pushed the ECB to hike again in September.",
+        "Why France matters: French yields have been the euro area's stress point. The ECB's [[TPI]] (Transmission Protection Instrument) lets it buy a country's bonds if spreads widen in a way it judges 'unwarranted.' Who chairs the Council shapes how readily that tool would be used."
+      ],
+      "grandLine": {
+        "title": "Punk Hazard, by committee",
+        "body": "After Marineford, the Fleet Admiral seat was settled by Akainu and Aokiji fighting for ten days on Punk Hazard, and the winner's philosophy set the Marines' direction. Europe settles it by negotiation instead, but the question is the same: does the next chief lean toward Absolute Justice on inflation, or toward discretion when a member's bonds come under attack? Markets shrugged because both frontrunners look like career officers, not either extreme."
+      },
+      "whyItMatters": [
+        "Near term, very little: the Governing Council sets policy by committee, a December hike is still the base case, and both frontrunners are mainstream. That's why markets barely moved.",
+        "Medium term, it's about the [[reaction function]] in a crisis. The next president decides how fast the ECB would deploy [[TPI]] if French spreads blew out again, and whether the bank leans hawkish (fight energy inflation) or protective (cap spreads). A perceived hawk would mean a firmer euro and wider periphery spreads; a perceived dove the reverse.",
+        "Watch the package, not just the top job. If the chief-economist seat goes to a hawk, that offsets a softer president, and vice versa."
+      ],
+      "views": [
+        {
+          "camp": "Non-event",
+          "thesis": "Institutions, not individuals, set ECB policy.",
+          "argument": "The Governing Council votes by consensus, both frontrunners are orthodox central bankers, and the rate path is driven by energy-led inflation. Markets have already said it doesn't matter.",
+          "who": "Danske Bank's Piet Haines Christiansen: 'for markets, it won't matter too much.'"
+        },
+        {
+          "camp": "Spread-risk premium",
+          "thesis": "Uncertainty over the crisis backstop adds risk premium to France and Italy.",
+          "argument": "A leadership vacuum through February, three seats in play and a French election ahead make it less certain how hard the ECB would defend spreads. Investors may demand more to hold OATs until the package is settled."
+        },
+        {
+          "camp": "Hawkish drift",
+          "thesis": "The reshuffle could tilt the board hawkish.",
+          "argument": "With inflation running above target on energy, governments in the north may push for leadership that prioritizes price stability over spread control, a mix that would support the euro and weigh on periphery bonds."
+        }
+      ],
+      "interview": {
+        "question": "Lagarde just resigned. Does that matter for euro rates?",
+        "answer": "Not much for the next move. Policy is set by the 26-member Governing Council, a December hike is still the base case, and the reported frontrunners, Knot and Hernández de Cos, are mainstream central bankers, which is why the market barely reacted. Where it matters is tail risk: the next president shapes how aggressively the ECB would use its TPI backstop if French spreads blew out again. So I'd watch the OAT–Bund spread and the full three-seat package. A board seen as hawkish would mean a firmer euro but wider periphery spreads.",
+        "followUp": {
+          "question": "What's TPI and has it been used?",
+          "answer": "The Transmission Protection Instrument lets the ECB buy a member's bonds if spreads widen in ways not justified by fundamentals. It was created in 2022 as a deterrent; the point is that markets believe it, so the person deciding when to use it matters."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "TPI",
+          "definition": "Transmission Protection Instrument: the ECB's tool to buy a country's government bonds if its spread widens in an 'unwarranted, disorderly' way, so policy works evenly across the euro area.",
+          "example": "With the OAT–Bund spread near 153bp, TPI is the backstop markets have in mind for France."
+        },
+        {
+          "term": "reaction function",
+          "definition": "How a central bank responds to data and shocks: what moves it, how fast, and how hard. Traders price the reaction function, not just the next decision.",
+          "example": "A new ECB president may change how fast the bank reacts to a spread blowout."
+        }
+      ],
+      "trade": {
+        "idea": "Long Bunds vs. OATs (spread widener) as a hedge",
+        "expression": "Buy 10Y Bund futures (FGBL) / sell 10Y OAT futures (FOAT), DV01-neutral",
+        "rationale": "If the succession drags on into a French budget fight and a 2027 election, uncertainty over how hard the ECB would defend spreads adds risk premium to OATs relative to Bunds. The spread has already come in from ~178bp to ~153bp, so the entry is better than last week.",
+        "risks": [
+          "A credible, early package deal with a president seen as ready to use TPI would compress the spread.",
+          "A French budget compromise would remove the main driver.",
+          "Negative carry if OATs keep yielding much more than Bunds while you wait."
+        ]
+      },
+      "watchNext": [
+        {
+          "when": "Before Dec 17–18",
+          "what": "EU leaders' package for president, Schnabel's seat and Lane's seat."
+        },
+        {
+          "when": "December",
+          "what": "The ECB's December meeting, where a hike is widely expected."
+        },
+        {
+          "when": "Feb 7, 2027",
+          "what": "Lagarde's last day."
+        }
+      ],
+      "sources": [
+        {
+          "name": "CNN: Lagarde resigns as ECB President",
+          "url": "https://www.cnn.com/2026/10/29/business/christine-lagarde-ecb-president-resigns-intl"
+        },
+        {
+          "name": "CNBC: Lagarde to step down; who's tipped to replace her",
+          "url": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html"
+        },
+        {
+          "name": "AP via KSAT: Lagarde will resign Feb. 7",
+          "url": "https://www.ksat.com/business/2026/10/29/european-central-bank-president-christine-lagarde-will-resign-feb-7-ahead-of-term/"
+        },
+        {
+          "name": "Irish Times: Lagarde to step down nine months early",
+          "url": "https://www.irishtimes.com/business/2026/10/29/christine-lagarde-to-step-down-as-ecb-president-in-february/"
+        },
+        {
+          "name": "Reuters via Devdiscourse: European bonds hold gains as Lagarde confirms exit",
+          "url": "https://www.devdiscourse.com/article/international/3998938-global-markets-european-bonds-and-stocks-hold-gains-ecb-meeting-in-focus-as-lagarde-confirms-early-exit"
+        }
+      ]
+    },
+    {
       "id": "alphabet-microsoft-earnings-q3-2026",
       "beat": "markets",
       "headline": "Alphabet falls ~10% after hours on a cash-flow miss while Microsoft rises on 48% Azure growth",
@@ -734,55 +872,62 @@
     {
       "id": "pce-gdp-preview-october-29",
       "beat": "fed-macro",
-      "headline": "PCE and Q3 GDP at 8:30 AM ET are the next test for a December Fed hike",
-      "dek": "Consensus has core PCE up 0.3% in September (3.1% y/y) and Q3 GDP near 3%. A hot core print would cement a December hike.",
+      "headline": "Q3 GDP grows 3.4%, beating forecasts, while core PCE inflation holds at 3.1%",
+      "dek": "The economy accelerated from 2.2% in Q2, and September core PCE matched consensus. Strong growth plus sticky inflation keeps a December Fed hike on track.",
       "importance": 4,
       "depth": "brief",
       "developing": false,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-29T05:40:00-04:00",
+      "updatedAt": "2026-10-29T10:02:00-04:00",
       "readMinutes": 3,
       "tldr": [
-        "Consensus for September: core PCE **+0.3% m/m, ~3.1% y/y** (from 3.0%); headline about **+0.5% m/m, ~3.7% y/y**.",
-        "Q3 GDP is expected around **3%** annualized versus 2.2% in Q2; individual forecasts run roughly 2.5–3.5%.",
-        "The 2-year is the instrument to watch: it's the one most tied to whether December's hike happens."
+        "Q3 GDP grew **3.4%** annualized (advance estimate), above the ~3.1% Dow Jones consensus and up from 2.2% in Q2.",
+        "September core PCE rose **0.3% m/m and 3.1% y/y** (from 3.0%), in line. Headline PCE was **+0.5% m/m, 3.6% y/y**.",
+        "No growth excuse to wait: the data supports the ~80–86% priced December hike rather than pushing it to certain."
       ],
       "whatHappened": [
-        "The Commerce Department publishes September's personal income and spending report, including [[PCE inflation]], and the advance estimate of Q3 GDP at 8:30 AM ET. The [[consensus]] (FactSet, via Morningstar) is core PCE up 0.3% on the month and 3.1% on the year, with headline up about 0.5% and 3.7%. Q3 GDP previews cluster around 3% annualized, after 2.2% in Q2. These are forecasts, not results.",
-        "The backdrop: September CPI rose 3.7% from a year earlier (0.6% on the month) as gasoline jumped 9.1%. Core CPI was 2.6% year over year and 0.3% on the month, slightly above forecasts."
+        "The Bureau of Economic Analysis said real GDP grew at a **3.4%** annual rate in the third quarter, its advance estimate, up from 2.2% in Q2. CNBC cited a Dow Jones [[consensus]] of 3.1%. Final sales to private domestic purchasers, the cleanest read on underlying demand, rose 4.9% after 4.6%. Investment, consumer spending and government spending all contributed; exports fell.",
+        "September [[PCE inflation]] was in line: core rose 0.3% on the month and 3.1% on the year, up from 3.0% in August (after revisions). Headline rose 0.5% and 3.6%, a touch below the 3.7% some previews expected, with energy doing the damage. Core services excluding housing reportedly hit 3.6% year over year, a multi-year high.",
+        "Don't confuse the quarterly numbers: the Q3 PCE price index rose at a 2.1% annualized pace (core 2.5%) for the quarter as a whole. The September year-over-year numbers are what the Fed watches for the trend."
       ],
       "background": [
-        "The Fed targets 2% on PCE, not CPI. PCE covers a broader basket and weights things differently (housing counts for less, healthcare for more), so the two can tell different stories. Desks focus on core, which strips out volatile food and energy to show the underlying trend.",
-        "Because CPI and PPI come out first, economists can estimate most of PCE in advance. The *surprise* versus consensus is what moves markets."
+        "The Fed targets 2% on PCE, not CPI. PCE covers a broader basket and weights things differently (housing counts for less, healthcare for more). Desks focus on core, which strips out food and energy.",
+        "Because CPI and PPI come out first, economists can estimate most of PCE in advance, so an in-line PCE is common. The GDP number carried today's surprise."
       ],
       "whyItMatters": [
-        "With no forward guidance from Warsh, data does the talking. December is about 82–86% priced for a hike depending on the snapshot. A core print of 0.4% or more would make it a lock and start pulling 2027 hikes forward; a 0.2% would reopen the debate and rally the 2-year hardest. GDP near or above 3% with sticky core is the hawkish combination: no growth excuse to wait."
+        "This is the hawkish combination without a shock. Growth above 3% with core stuck at 3.1% (and services ex-housing firming) removes the 'the economy is cracking' argument for waiting in December. But an in-line core print doesn't force the Fed's hand either, so the December odds (~80–86% before the data) shouldn't move dramatically.",
+        "The bigger risk for bonds is the long end: strong nominal growth plus 3%+ inflation is exactly the mix that keeps term premium high and the 10-year pinned near 5%. I couldn't confirm the post-data Treasury move by publication time."
       ],
       "views": [
         {
-          "camp": "Hot-print risk",
-          "thesis": "Energy is leaking into core.",
-          "argument": "Shipping, airfares and other energy-sensitive services feed into core with a lag. After CPI's upside surprise, risks skew toward a firm core PCE."
+          "camp": "December is done",
+          "thesis": "3.4% growth and 3.1% core leave the Fed no reason to wait.",
+          "argument": "Two hawkish dissents on Wednesday, core firming for a second month, and an economy accelerating. A Fed that just said it hasn't achieved price stability can't skip December with this data."
         },
         {
-          "camp": "Look at the trend",
-          "thesis": "Core is steady, and it's headline doing the damage.",
-          "argument": "Core PCE was 3.0% in August, softer than expected, and core CPI at 2.6% isn't accelerating dramatically. Strip out energy and the picture is sticky but not spiraling."
+          "camp": "In line isn't hot",
+          "thesis": "Core matched forecasts; the Fed can still slow down.",
+          "argument": "Core PCE at 0.3% was expected, headline came in a touch soft, and the quarterly core pace was 2.5% annualized. October jobs (Nov. 6) and October CPI matter more for December than a print the market already had."
+        },
+        {
+          "camp": "Growth is the flag",
+          "thesis": "The GDP beat is front-loaded and may not last.",
+          "argument": "Advance GDP gets revised, and an oil shock plus 5% long yields are headwinds that show up with a lag. Strong Q3 can coexist with a slowing Q4."
         }
       ],
       "interview": {
-        "question": "What number are you watching Thursday, and why?",
-        "answer": "Core PCE month over month. It's the Fed's preferred gauge and the cleanest read on underlying inflation, since it strips out the energy shock. Consensus is around 3.1% year over year. A 0.3% or higher monthly print would back the December hike that's mostly priced and push the market to price more in 2027. A soft print would rally the 2-year. GDP matters too, because strong growth plus sticky core is the hawkish combination.",
+        "question": "GDP just printed 3.4% and core PCE 3.1%. Does that change your view on the Fed?",
+        "answer": "It reinforces it rather than changing it. Core PCE was in line at 0.3% on the month, so there's no inflation shock, but growth above 3% takes away the main argument for waiting. With two hawkish dissents this week, I'd lean toward a December hike being delivered, and I'd expect the curve to stay steep because the long end is pricing persistent inflation risk, not just the next move. What would change my mind is a soft October payrolls report on Nov. 6 or a big drop in oil.",
         "followUp": {
-          "question": "Why does the Fed prefer PCE to CPI?",
-          "answer": "PCE covers a broader range of spending, including what's paid on your behalf like employer health insurance. It also adjusts as people substitute between goods, so the Fed sees it as a better measure of what households actually experience."
+          "question": "Why does the market care about 'final sales to private domestic purchasers'?",
+          "answer": "It strips out the noisy pieces of GDP: trade, inventories and government. At 4.9% it says private demand is genuinely strong, which is what matters for inflation pressure."
         }
       },
       "keyTerms": [
         {
           "term": "PCE inflation",
           "definition": "Inflation measured by the Personal Consumption Expenditures price index. It's the Fed's preferred gauge, and its 2% target is defined on PCE. 'Core' excludes food and energy.",
-          "example": "Core PCE was 3.0% y/y in August; consensus for September is ~3.1%."
+          "example": "September core PCE: +0.3% m/m, 3.1% y/y."
         },
         {
           "term": "consensus",
@@ -796,41 +941,49 @@
       ],
       "watchNext": [
         {
-          "when": "Thu 8:30 AM ET",
-          "what": "PCE, personal spending and Q3 GDP (advance). Watch core m/m first."
+          "when": "Thu after close",
+          "what": "Amazon Q3: AWS growth versus capex."
         },
         {
           "when": "Fri Nov 6",
           "what": "October jobs report, the last payrolls before the Dec. 8–9 FOMC."
+        },
+        {
+          "when": "Nov 25",
+          "what": "Second estimate of Q3 GDP."
         }
       ],
       "sources": [
+        {
+          "name": "Benzinga: US GDP grew 3.4%, PCE inflation in line",
+          "url": "https://www.benzinga.com/markets/economic-data/26/10/62693319/us-economy-gdp-third-quarter-pce-inflation-september"
+        },
+        {
+          "name": "Quartz: US growth accelerated as inflation stayed elevated",
+          "url": "https://qz.com/us-gdp-growth-accelerates-summer-inflation-elevated-102926"
+        },
+        {
+          "name": "Courthouse News: Third-quarter growth surprises",
+          "url": "https://www.courthousenews.com/gdp-continues-to-increase-as-third-quarter-growth-surprises/"
+        },
         {
           "name": "Morningstar: September PCE expected to show rising inflation",
           "url": "https://www.morningstar.com/economy/september-pce-expected-show-rising-inflation"
         },
         {
-          "name": "Morningstar: August PCE report",
-          "url": "https://www.morningstar.com/economy/august-pce-report-pce-inflation-index-up-34-softer-than-expected"
-        },
-        {
-          "name": "CNBC: September CPI report",
-          "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
-        },
-        {
-          "name": "Continuum Economics: Q3 GDP preview",
-          "url": "https://continuumeconomics.com/a/1140701f/preview-due-october-29-us-q3-gdp-stronger-growth-slower-inflation"
+          "name": "BEA: Release schedule",
+          "url": "https://www.bea.gov/news/schedule"
         }
       ],
-      "updateNote": "Added the monthly consensus (core +0.3%, headline +0.5%), the GDP forecast range and a trade idea.",
+      "updateNote": "The data is out: GDP 3.4% vs ~3.1% expected; core PCE +0.3% m/m, 3.1% y/y, in line.",
       "trade": {
-        "idea": "Short the 2-year into PCE (hawkish skew)",
-        "expression": "Short 2Y Treasury futures (TU), sized by [[DV01]]; or pay Dec-26/Mar-27 SOFR futures",
-        "rationale": "If core PCE prints 0.3% or hotter on top of a hot CPI, the market prices December as done and adds 2027 hikes, so front-end yields rise. The 2-year moves most for each repricing of the Fed path.",
+        "idea": "2s10s steepener",
+        "expression": "Long 2Y / short 10Y Treasuries, [[DV01]]-neutral",
+        "rationale": "In-line core keeps the front end anchored to an already-priced December hike, while 3.4% nominal-strong growth and sticky inflation push the long end (term premium) higher. The curve steepens either way the Fed goes in December.",
         "risks": [
-          "A soft 0.2% core print would rally the front end hard against you.",
-          "Much of December is already priced, so the asymmetry is limited on an in-line print.",
-          "A risk-off equity move (Alphabet, AI capex) could send money into short Treasuries regardless of data."
+          "A growth scare (weak payrolls, AI-led equity selloff) rallies the long end harder than the front.",
+          "A hotter-than-expected October CPI could reprice more 2027 hikes and flatten the curve from the front.",
+          "Positioning: steepeners are a crowded trade in a 5% 10-year world."
         ]
       }
     },
@@ -924,22 +1077,21 @@
     {
       "id": "ecb-boj-decisions-this-week",
       "beat": "fed-macro",
-      "headline": "The ECB and Bank of Japan are both expected to hold this week after hiking in September",
-      "dek": "The ECB decides Thursday, with a hike expected in December. The BoJ decides Friday, with yen-intervention jitters in the background.",
+      "headline": "The ECB holds at 2.5% and flags energy risks; the Bank of Japan decides tonight",
+      "dek": "The ECB paused as expected and kept a December hike in play. The BoJ is expected to hold at 1.25% around 11 PM ET.",
       "importance": 3,
       "depth": "brief",
       "developing": false,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-29T05:40:00-04:00",
+      "updatedAt": "2026-10-29T10:02:00-04:00",
       "readMinutes": 2,
       "tldr": [
-        "ECB (Thu): expected to hold its deposit rate at **2.5%**. In a Reuters poll, 70 of 73 economists see a hold and 64 expect a hike in December.",
-        "BoJ (Fri): expected to hold at **1.25%** after September's hike. It may declare its 2% underlying-inflation goal met, which would signal more hikes ahead."
+        "ECB: held the [[deposit facility rate]] at **2.5%**, as 70 of 73 economists in a Reuters poll expected. It said energy is raising inflation risks, keeping December live.",
+        "BoJ (around 11 PM ET tonight): expected to hold at **1.25%** after September's hike. Bloomberg reported officials lean against a back-to-back move."
       ],
       "whatHappened": [
-        "This is a central-bank 'superweek': the Fed on Wednesday, the ECB on Thursday, the BoJ on Friday. All three hiked in September as the energy shock lifted inflation, and all three are expected to pause this week while signaling they're not done.",
-        "In Japan, officials have repeated that they're ready to take decisive action in currency markets. That's [[verbal intervention]], aimed at stopping a slide in the yen.",
-        "Timing: the ECB announces at 9:15 AM ET Thursday, with Lagarde's press conference at 9:45. The BoJ's two-day meeting ends Friday in Tokyo, around 11 PM ET Thursday. Bloomberg reported this month that BoJ officials lean against a rare back-to-back hike in October while keeping December open."
+        "The **ECB** left its three key rates unchanged, with the deposit rate at 2.5%, and said surging energy costs are raising inflation risks, per Reuters. That keeps a December hike live: 64 of 73 economists in the pre-meeting Reuters poll expected one. The meeting was overshadowed by Lagarde's resignation announcement the same morning.",
+        "The **BoJ**'s two-day meeting ends around 11 PM ET Thursday (noon Friday in Tokyo). A hold at 1.25% is expected. Japanese officials have repeated they're ready to act in currency markets, a form of [[verbal intervention]] to slow the yen's slide."
       ],
       "background": [
         "The ECB raised its [[deposit facility rate]] by 25bp to 2.5% in September. It faces the same energy shock as the Fed, plus a regional problem: French government bond yields above 5%, which complicates tightening.",
@@ -980,15 +1132,19 @@
       ],
       "watchNext": [
         {
-          "when": "Thu 9:15 AM ET",
-          "what": "ECB decision; Lagarde's press conference at 9:45 AM ET. Any December signal or comment on French spreads?"
+          "when": "Thu ~11 PM ET",
+          "what": "BoJ decision and the tone on a December hike."
         },
         {
-          "when": "Thu ~11 PM ET",
-          "what": "BoJ decision (Fri ~noon Tokyo). Bloomberg reported officials lean against a back-to-back hike, so the tone on December is the news."
+          "when": "December",
+          "what": "The ECB's next meeting, where 64 of 73 polled economists expect a hike."
         }
       ],
       "sources": [
+        {
+          "name": "Reuters via Global Banking & Finance: ECB holds as Lagarde resigns",
+          "url": "https://www.globalbankingandfinance.com/ecb-keeps-rates-unchanged-euro-slips/"
+        },
         {
           "name": "Reuters via Investing.com: BoJ's hawkish pause",
           "url": "https://www.investing.com/news/economy-news/bank-of-japans-hawkish-pause-to-leave-scope-for-december-hike-4971365"
@@ -1007,7 +1163,7 @@
           "paywalled": true
         }
       ],
-      "updateNote": "Added exact timing: ECB at 9:15 AM ET today; BoJ around 11 PM ET tonight (noon Friday in Tokyo)."
+      "updateNote": "ECB held at 2.5%, citing rising inflation risks from energy. Lagarde also announced her resignation; see the separate story."
     },
     {
       "id": "midterms-2026-market-odds",
@@ -1104,7 +1260,7 @@
       "depth": "brief",
       "developing": false,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-28T19:09:00-04:00",
+      "updatedAt": "2026-10-29T10:02:00-04:00",
       "readMinutes": 2,
       "tldr": [
         "On Oct. 22 the French 10-year yield rose above 5% (about 5.1% at the peak), its highest since 2002.",
@@ -1112,7 +1268,8 @@
       ],
       "whatHappened": [
         "French government bonds (OATs) sold off as investors doubted that a fragmented parliament will pass a budget that reduces a deficit forecast around 5.4% of GDP. Rejected spending measures reportedly erased about €10 billion of planned savings. The [[sovereign spread]] over Germany blew out because Bund yields were *falling* (a flight to safety) at the same time.",
-        "Yields eased after Moody's affirmed France's rating, then partly rebounded. For reference, the 2011 peak in the spread was about 225bp."
+        "Yields eased after Moody's affirmed France's rating, then partly rebounded. For reference, the 2011 peak in the spread was about 225bp.",
+        "Thursday: the spread was around 153.5bp per Reuters, well off last week's near-178bp high, even as Lagarde's resignation added a new question mark over the ECB's crisis backstop. See the Lagarde story."
       ],
       "background": [
         "France has no currency of its own to devalue, so its bond yields reflect pure fiscal credibility. Investors watch for a [[doom loop]], where falling government bond prices hurt the banks that hold them, which weakens the economy and the government's finances further. That was the dynamic at the core of the 2011 euro crisis."
@@ -1169,8 +1326,13 @@
         {
           "name": "Disruption Banking: French yields cross 5%",
           "url": "https://www.disruptionbanking.com/2026/10/22/french-yields-cross-5-spread-widest-since-2011/"
+        },
+        {
+          "name": "Reuters via Devdiscourse: European bonds hold gains",
+          "url": "https://www.devdiscourse.com/article/international/3998938-global-markets-european-bonds-and-stocks-hold-gains-ecb-meeting-in-focus-as-lagarde-confirms-early-exit"
         }
-      ]
+      ],
+      "updateNote": "Spread back near 153.5bp; added the Lagarde angle."
     }
   ]
 }
