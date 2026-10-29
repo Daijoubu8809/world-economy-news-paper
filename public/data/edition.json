@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "publishedAt": "2026-10-29T05:40:00-04:00",
-  "checkedAt": "2026-10-29T05:40:00-04:00",
-  "nextRunAt": "2026-10-29T07:38:00-04:00",
+  "publishedAt": "2026-10-29T07:39:00-04:00",
+  "checkedAt": "2026-10-29T07:39:00-04:00",
+  "nextRunAt": "2026-10-29T09:38:00-04:00",
   "brief": {
     "title": "Alphabet's cash burn drags Nasdaq futures lower as PCE and the ECB test a hawkish Fed.",
     "bullets": [
-      "**Tech:** Nasdaq-100 futures are down ~1.2–1.4% after Alphabet's −$9B free cash flow; Dow futures are up on Microsoft. Amazon reports after the close.",
+      "**Tech:** Alphabet is ~10% lower premarket on −$9B free cash flow and Nasdaq-100 futures are down ~1.2%; Microsoft is up ~4%. Amazon reports after the close.",
       "**8:30 AM ET:** September PCE (core consensus +0.3% m/m, ~3.1% y/y) and Q3 GDP (~3%). A hot core print locks in a December hike.",
       "**Fed:** held at 3.75%–4.00% with two dissents for a hike. December is ~82–86% priced.",
       "**Oil:** Brent ~$115 with Hormuz flows ~60% of normal. Energy is the inflation story.",
@@ -415,11 +415,11 @@
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-29T05:40:00-04:00",
+      "updatedAt": "2026-10-29T07:39:00-04:00",
       "readMinutes": 5,
       "tldr": [
-        "Microsoft: revenue about **$92.3B (+19%)** beat estimates, Azure grew **48%**, and the stock rose roughly 2–4% after hours.",
-        "Alphabet: revenue about **$127.6B**, slightly light; EPS missed; free cash flow was **−$9.07B**; the stock fell roughly 9–10% after hours.",
+        "Microsoft: revenue about **$92.3B (+19%)** beat estimates, Azure grew **48%**, and the stock is up roughly 3–4% premarket.",
+        "Alphabet: revenue about **$127.6B**, slightly light; EPS missed; free cash flow was **−$9.07B**; the stock is down roughly 10% premarket.",
         "It's the same theme as Meta last week: AI capex is outrunning cash generation, and the market has started to care."
       ],
       "whatHappened": [
@@ -431,13 +431,13 @@
       ],
       "marketReaction": [
         {
-          "asset": "Alphabet (after hours)",
-          "move": "≈ −9% to −10%",
+          "asset": "Alphabet (premarket Thu)",
+          "move": "≈ −10%",
           "direction": "down"
         },
         {
-          "asset": "Microsoft (after hours)",
-          "move": "≈ +2% to +4%",
+          "asset": "Microsoft (premarket Thu)",
+          "move": "≈ +3% to +4%",
           "direction": "up"
         },
         {
@@ -537,14 +537,22 @@
           "what": "Amazon Q3. Q2 AWS growth was 37%; the test is whether it holds there while capex stays on its ~$220B 2026 plan. Options imply about a 7% move either way."
         },
         {
-          "when": "Thu open",
-          "what": "Whether the Nasdaq-100 futures drop (≈ −1.2% overnight) sticks at the cash open, or Microsoft's beat and the chip names cushion it."
+          "when": "Thu 9:30 AM ET",
+          "what": "Alphabet's cash open. A close below −9.77% would be its worst post-earnings reaction ever, per CNBC; watch whether chips and the hyperscaler suppliers follow it down."
         }
       ],
       "sources": [
         {
           "name": "Reuters Morning Bid: In the AI alphabet, cash is king",
           "url": "https://www.investing.com/news/economy-news/morning-bid-in-the-ai-alphabet-cash-is-king-4981514"
+        },
+        {
+          "name": "CNBC: Alphabet drops 10% while Microsoft rises",
+          "url": "https://cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html"
+        },
+        {
+          "name": "Reuters via Yahoo Finance: Nasdaq futures slide as Big Tech results test AI trade",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-slide-mixed-big-083556706.html"
         },
         {
           "name": "CNBC: Alphabet Q3 2026 earnings",
@@ -573,17 +581,9 @@
         {
           "name": "Meta: Q3 2026 results release",
           "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
-        },
-        {
-          "name": "Finwire: Asian shares fall as Alphabet miss drags futures",
-          "url": "https://finwire.io/news/economy-news/asian-shares-fall-as-alphabet-earnings-miss-drags-wall-st-futures-lower"
-        },
-        {
-          "name": "S&P Global: Amazon post-Q2, AWS reaccelerates",
-          "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/08/amazon-postq-aws-reaccelerates-as-ai-investment-pushes-capex-higher"
         }
       ],
-      "updateNote": "Added the premarket picture: Nasdaq futures down about 1.2–1.4%, Dow futures up, Europe's tech sector lower."
+      "updateNote": "Premarket: Alphabet about −10%, Microsoft up nearly 4%. A close worse than −9.77% would be Alphabet's worst post-earnings day on record."
     },
     {
       "id": "treasury-10-year-near-5-percent",
