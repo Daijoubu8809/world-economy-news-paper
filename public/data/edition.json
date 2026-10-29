@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "publishedAt": "2026-10-29T17:40:00-04:00",
-  "checkedAt": "2026-10-29T17:40:00-04:00",
-  "nextRunAt": "2026-10-29T19:38:00-04:00",
+  "publishedAt": "2026-10-29T19:39:00-04:00",
+  "checkedAt": "2026-10-29T19:39:00-04:00",
+  "nextRunAt": "2026-10-29T21:38:00-04:00",
   "brief": {
     "title": "Alphabet has its worst day ever, Amazon slides after hours, and a 3.4% GDP print keeps the Fed on hike watch.",
     "bullets": [
       "**Alphabet:** −12.6%, its worst day since listing, on −$9B free cash flow. The Nasdaq fell 1.38% and the S&P 500 0.3%, though four in five S&P stocks rose.",
       "**Amazon:** AWS grew 39%, but EPS missed and trailing free cash flow hit −$42B; shares are ~7% lower after hours.",
       "**Data:** Q3 GDP +3.4% (vs ~3.1% expected); core PCE 3.1% y/y, in line. It backs a December Fed hike (~80–86% priced).",
-      "**ECB:** held at 2.5%; Lagarde leaves Feb. 7. **Oil:** Brent ~$113 as the US reportedly pursues talks and strike plans at once.",
-      "**Tonight:** the BoJ decides around 11 PM ET; a hold at 1.25% is expected."
+      "**Bonds and oil:** the 10-year fell ~8bp to below 5% on the tech selloff. Brent settled at $114.88 as Iran-talks hopes met reports of US strike preparations.",
+      "**Tonight:** the BoJ decides around 11 PM ET (hold at 1.25% expected). ECB held at 2.5%; Lagarde leaves Feb. 7."
     ],
     "mood": "The market is punishing AI cash burn, not the economy: megacaps down, most stocks up."
   },
@@ -382,34 +382,34 @@
     {
       "id": "oil-brent-115-hormuz",
       "beat": "policy",
-      "headline": "Brent slips to about $113 on reports of renewed US–Iran outreach, after settling near $115",
-      "dek": "The Wall Street Journal reported Vice President Vance reached out to Iran to restart talks. Hormuz flows are still well below normal, and oil remains the main engine of US inflation.",
+      "headline": "Brent settles at $114.88 after paring a $2 drop as Iran talks and strike reports collide",
+      "dek": "Oil fell on a reported Vance letter to Tehran, then recovered on WSJ reports the US told Gulf states to prepare for strikes. Energy remains the main engine of US inflation.",
       "importance": 5,
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-29T17:40:00-04:00",
+      "updatedAt": "2026-10-29T19:39:00-04:00",
       "readMinutes": 5,
       "tldr": [
-        "Brent fell about **1.7% to ~$113.3** and WTI about **2% to ~$100.7** Thursday, per CNBC, after settling at **$115.32** and **$102.78** on Wednesday.",
-        "Trigger: the WSJ reported Vice President JD Vance wrote to Iranian official Mohsen Rezaei to restart talks. Trump later said he hadn't instructed Vance to contact Iran.",
+        "Brent settled at **$114.88 (−0.4%)** and WTI at **$102.00 (−0.8%)** Thursday, per Reuters, after both fell more than $2 intraday.",
+        "Down on a WSJ report that VP Vance wrote to Iran's security chief to restart talks (Trump said Vance acted on his own); back up on WSJ reports the US told Gulf states to prepare for a short, intense campaign.",
         "Brent is still up roughly 17% in October. Gasoline drove more than half of September's CPI jump, so oil remains the Fed's problem."
       ],
       "whatHappened": [
-        "**Thursday:** oil gave back Wednesday's gain after the Wall Street Journal reported that Vice President JD Vance had sent a letter to Mohsen Rezaei, a senior Iranian security official, to try to restart peace negotiations. CNBC had Brent down 1.73% at $113.32 and WTI down 2.06% at $100.66. Houthi attacks on Saudi infrastructure and the risk to Hormuz shipping still underpin prices. Later, President Trump told reporters he had not instructed Vance to contact the Iranians, and the WSJ reported the US had told several Gulf states to be ready for a short, intense campaign against Iran. The market is pricing two tracks at once: talks and strikes.",
+        "**Thursday:** Brent settled down 0.38% at $114.88 and WTI down 0.76% at $102, per Reuters, after both had been more than $2 lower. The drop came on a Wall Street Journal report that Vice President JD Vance wrote to Mohsen Rezaei, head of Iran's Supreme National Security Council, to revive talks. Trump downplayed it, saying Vance acted independently and the letter concerned medical supplies. Qatari mediators reportedly presented a new draft deal that a senior Iranian official called unacceptable. Prices recovered on WSJ reports that the US told several Gulf states to prepare for a short, intense campaign and that Trump is leaning toward a large post-election strike, though he hasn't decided.",
         "Oil rose for a second session as traders priced a longer conflict. President Trump said the war with Iran would end on his terms and that Tehran must be kept from nuclear weapons. There were also reports that the US is preparing to resume strikes on Iran *after* next Tuesday's midterm elections.",
         "Houthi forces claimed a ballistic-missile strike on Saudi Aramco's Ras Tanura refinery. Saudi authorities have **not confirmed** a direct hit, so treat it as unverified. Brent briefly topped $117 earlier this week before dipping on Tuesday, when Saudi, Turkish and Pakistani diplomacy with Iran briefly raised hopes of a deal.",
         "UBS expects Brent around $110 by year-end, arguing the market is undersupplied and that Gulf flows remain below prewar levels."
       ],
       "marketReaction": [
         {
-          "asset": "Brent (Thu)",
-          "move": "≈ $113.3 (−1.7%)",
+          "asset": "Brent (Thu settle)",
+          "move": "$114.88 (−0.4%)",
           "direction": "down"
         },
         {
-          "asset": "WTI (Thu)",
-          "move": "≈ $100.7 (−2.1%)",
+          "asset": "WTI (Thu settle)",
+          "move": "$102.00 (−0.8%)",
           "direction": "down"
         },
         {
@@ -517,6 +517,14 @@
       ],
       "sources": [
         {
+          "name": "Reuters via The Globe and Mail: Oil settles lower as diplomacy hopes offset supply concerns",
+          "url": "https://www.theglobeandmail.com/investing/article-oil-prices-fall-as-peace-hopes-offset-fears-of-growing-middle-east/"
+        },
+        {
+          "name": "Reuters via Euronext: Oil settles lower",
+          "url": "https://live.euronext.com/en/financial-news/oil-prices-settles-lower-diplomacy-hopes-offset-some-mideast-supply-concerns"
+        },
+        {
           "name": "CNBC: Oil price today, Oct. 29",
           "url": "https://www.cnbc.com/amp/2026/10/29/oil-price-today-wti-brent.html"
         },
@@ -549,7 +557,7 @@
           "url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
         }
       ],
-      "updateNote": "Trump said he didn't direct Vance's outreach; the WSJ reported the US told Gulf states to prepare for a short, intense campaign against Iran."
+      "updateNote": "Settlement: Brent $114.88 (−0.4%), WTI $102.00 (−0.8%), per Reuters; prices recovered most of a $2+ intraday drop."
     },
     {
       "id": "lagarde-resigns-ecb-president",
@@ -872,28 +880,28 @@
     {
       "id": "treasury-10-year-near-5-percent",
       "beat": "markets",
-      "headline": "The 10-year Treasury yield is back above 5% after its biggest swings in years",
-      "dek": "The benchmark yield ended near 5.02%. It peaked around 5.35% in early October, its highest since 2002, then had its biggest one-day drop since 2023. The driver is mostly term premium, not the Fed.",
+      "headline": "The 10-year Treasury yield slips back below 5% as an AI selloff and lower oil spark a bid",
+      "dek": "The benchmark fell about 8bp to roughly 4.94–4.96% Thursday despite 3.4% GDP. It peaked near 5.35% in early October; the driver is mostly term premium, not the Fed.",
       "importance": 4,
       "depth": "full",
       "developing": false,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-29T11:53:00-04:00",
+      "updatedAt": "2026-10-29T19:39:00-04:00",
       "readMinutes": 4,
       "tldr": [
-        "The 10-year is around **5.01%** Thursday (−3bp) after a strong GDP print and in-line PCE. It peaked near 5.35% on Oct. 7, the highest since 2002.",
+        "The 10-year fell about **8bp** Thursday to roughly **4.94–4.96%**, back below 5% despite a strong GDP print. It peaked near 5.35% on Oct. 7, the highest since 2002.",
         "On Oct. 22 it fell about 19bp in one session, the biggest drop since March 2023, as an AI-stock selloff sent money into bonds.",
         "The core story is [[term premium]]: investors demanding more to hold long debt amid big deficits, heavy issuance and oil-driven inflation risk."
       ],
       "whatHappened": [
         "The 10-year Treasury yield rose to about **5.02%** on Wednesday from 4.99%, an upward nudge from higher oil prices on a Fed day. The 2-year did most of the moving, swinging between about 4.69% and 4.79% around the decision.",
         "Zoom out and October has been a roller coaster. The 10-year hit roughly **5.35%** on Oct. 7 (sources put the peak at 5.34%–5.36%), its highest since 2002. Then on Oct. 22 it dropped about **19bp** in a single session to around 4.95%, the largest one-day fall since March 2023, as a selloff in AI stocks sent investors running to government bonds. It has since drifted back above 5%.",
-        "Thursday morning, after GDP (3.4%) and PCE (in line), CNBC had the 10-year at about 5.01% and the 2-year at about 4.69%, both down roughly 3bp, with the 30-year near 5.33%. Lower oil and a tech selloff helped the bid. The 2s10s spread had already widened to about 38bp on Wednesday from 29bp, per FRED data."
+        "Thursday: after GDP (3.4%) and in-line PCE, the 10-year initially dipped about 3bp, then extended the rally as Alphabet's record drop and lower oil pulled money into bonds. CNBC had it more than 8bp lower at about 4.96% in the afternoon and around 4.94% after 5 p.m. The 2s10s spread had widened to about 38bp on Wednesday from 29bp, per FRED. A strong-growth day with *falling* long yields tells you the long end is trading risk appetite and oil, not just the data."
       ],
       "marketReaction": [
         {
-          "asset": "10Y yield (Thu a.m.)",
-          "move": "≈5.01% (−3bp)",
+          "asset": "10Y yield (Thu late)",
+          "move": "≈4.94–4.96% (−8bp)",
           "direction": "down"
         },
         {
@@ -1009,7 +1017,7 @@
       ],
       "sources": [
         {
-          "name": "CNBC: 10-year hovers above 5% after strong GDP",
+          "name": "CNBC: 10-year hovers below 5% after strong GDP report",
           "url": "https://www.cnbc.com/2026/10/29/treasury-yields-federal-reserve-rates.html"
         },
         {
@@ -1033,7 +1041,7 @@
           "url": "https://fred.stlouisfed.org/series/T10Y2Y"
         }
       ],
-      "updateNote": "After GDP/PCE: 10-year ~5.01% and 2-year ~4.69%, both down about 3bp; the curve stays steep."
+      "updateNote": "Late Thursday: the 10-year fell about 8bp to roughly 4.94–4.96% (CNBC), back below 5%."
     },
     {
       "id": "pce-gdp-preview-october-29",
