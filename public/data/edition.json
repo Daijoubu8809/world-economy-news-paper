@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "publishedAt": "2026-10-28T19:09:00-04:00",
-  "checkedAt": "2026-10-28T20:04:00-04:00",
-  "nextRunAt": "2026-10-28T21:38:00-04:00",
+  "publishedAt": "2026-10-28T21:45:00-04:00",
+  "checkedAt": "2026-10-28T21:45:00-04:00",
+  "nextRunAt": "2026-10-28T23:38:00-04:00",
   "brief": {
     "title": "The Fed holds but leans toward a hike, oil sits near $115, and Big Tech's AI bill comes due.",
     "bullets": [
       "**Fed:** held at 3.75%–4.00% in a 10–2 vote, with both dissenters wanting a hike. Warsh won't pre-commit, and December is ~82% priced for a hike.",
       "**Oil:** Brent ~$115 with Hormuz flows ~60% of normal, and reports of US strikes on Iran resuming after the midterms. Energy is the inflation story.",
       "**Bonds:** the 10-year is back at ~5.02% after an October round trip. The driver is term premium (deficits, supply, inflation risk).",
-      "**Earnings:** Alphabet fell ~10% after hours on −$9B free cash flow; Microsoft rose on 48% Azure growth. Amazon reports Thursday.",
+      "**Earnings:** Alphabet fell ~10% after hours on −$9B free cash flow and dragged Nasdaq-100 futures down ~1.2%; Microsoft rose on 48% Azure growth. Amazon reports Thursday.",
       "**Thursday:** PCE + Q3 GDP at 8:30 AM ET, then the ECB. The BoJ follows overnight."
     ],
-    "mood": "Stocks grind higher into earnings while bonds and oil keep stagflation risk on the table."
+    "mood": "Stocks closed higher on Fed day, but Alphabet has Nasdaq futures lower overnight while bonds and oil keep stagflation risk on the table."
   },
   "mustKnow": [
     "fed-holds-october-2026",
@@ -410,7 +410,7 @@
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-28T19:09:00-04:00",
+      "updatedAt": "2026-10-28T21:45:00-04:00",
       "readMinutes": 5,
       "tldr": [
         "Microsoft: revenue about **$92.3B (+19%)** beat estimates, Azure grew **48%**, and the stock rose roughly 2–4% after hours.",
@@ -421,7 +421,8 @@
         "**Microsoft** (fiscal Q1 2027) beat on the top and bottom line. Revenue came in around $92.3 billion versus roughly $90.7 billion expected, and its Azure cloud business grew 48%. Shares rose in extended trading; reports range from about 2% to 4.5%.",
         "**Alphabet** (Q3 2026) posted what CNBC called its first top- and bottom-line miss in nearly four years. Revenue was about $127.6 billion versus $128.2 billion expected, and adjusted EPS of $2.67 missed the $3.02 consensus. The killer was [[free cash flow]]: **negative $9.07 billion**, far worse than analysts expected. Google Cloud more than doubled, to $30.7 billion in revenue, but search revenue of $63.35 billion fell short.",
         "Q3 [[capex]] was $51.36 billion, and Alphabet kept its 2026 range at **$195–205 billion**, saying capex will rise 'significantly' again in 2027. Management blamed part of the cash drain on building inventory for its TPU chip sales and a $5.2 billion payment for a 2018 EU fine.",
-        "Context: on Oct. 22 Meta fell about 7% after its own release showed quarterly capex of $34.91 billion topping operating cash flow of $32.79 billion. That left free cash flow at roughly −$2.1 billion, versus +$10.6 billion a year earlier. Chip stocks led that day's selloff."
+        "Context: on Oct. 22 Meta fell about 7% after its own release showed quarterly capex of $34.91 billion topping operating cash flow of $32.79 billion. That left free cash flow at roughly −$2.1 billion, versus +$10.6 billion a year earlier. Chip stocks led that day's selloff.",
+        "**The overnight read:** by about 7:40 p.m. ET, Nasdaq-100 futures were down roughly 1.2% and S&P 500 futures about 0.5%, per Investing.com and CNBC's live blog. That's after a cash session where the S&P 500 closed up 0.28% at 7,743.98. Alphabet is a big enough weight that a ~10% drop alone shaves meaningful points off the indexes, so the futures move is mostly Alphabet, not a broad de-risking (yet)."
       ],
       "marketReaction": [
         {
@@ -433,6 +434,16 @@
           "asset": "Microsoft (after hours)",
           "move": "≈ +2% to +4%",
           "direction": "up"
+        },
+        {
+          "asset": "Nasdaq-100 futures (evening)",
+          "move": "≈ −1.2%",
+          "direction": "down"
+        },
+        {
+          "asset": "S&P 500 futures (evening)",
+          "move": "≈ −0.5%",
+          "direction": "down"
         },
         {
           "asset": "Meta (Oct. 22)",
@@ -517,7 +528,7 @@
         },
         {
           "when": "Thu open",
-          "what": "Whether the Alphabet drop drags the Nasdaq and the chip stocks."
+          "what": "Whether the Nasdaq-100 futures drop (≈ −1.2% overnight) sticks at the cash open, or Microsoft's beat and the chip names cushion it."
         }
       ],
       "sources": [
@@ -534,6 +545,14 @@
           "url": "https://www.cnbc.com/2026/10/28/stocks-making-the-biggest-moves-after-hours-googl-msft-cmg-now.html"
         },
         {
+          "name": "CNBC: Nasdaq-100 futures dip as Alphabet sells off (live)",
+          "url": "https://www.cnbc.com/2026/10/28/stock-market-today-live-updates.html"
+        },
+        {
+          "name": "Investing.com: US futures drop as Alphabet slides",
+          "url": "https://uk.investing.com/news/stock-market-news/us-stock-futures-drop-as-alphabet-slides-on-soft-earnings-microsoft-firms-4939623"
+        },
+        {
           "name": "Investing.com: Alphabet Q3 slides",
           "url": "https://www.investing.com/news/company-news/alphabet-q3-2026-slides-128b-revenue-overshadowed-by-profit-miss-93CH-4981067"
         },
@@ -541,7 +560,8 @@
           "name": "Meta: Q3 2026 results release",
           "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
         }
-      ]
+      ],
+      "updateNote": "Added the overnight futures reaction: Nasdaq-100 futures down about 1.2% on Alphabet."
     },
     {
       "id": "treasury-10-year-near-5-percent",
