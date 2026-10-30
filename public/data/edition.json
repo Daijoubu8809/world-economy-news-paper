@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "publishedAt": "2026-10-29T22:06:00-04:00",
-  "checkedAt": "2026-10-29T22:06:00-04:00",
-  "nextRunAt": "2026-10-29T23:38:00-04:00",
+  "publishedAt": "2026-10-29T23:39:00-04:00",
+  "checkedAt": "2026-10-29T23:39:00-04:00",
+  "nextRunAt": "2026-10-30T05:38:00-04:00",
   "brief": {
     "title": "Alphabet has its worst day ever, Amazon slides after hours, and a 3.4% GDP print keeps the Fed on hike watch.",
     "bullets": [
@@ -10,9 +10,9 @@
       "**After hours:** Amazon ~−7% (AWS +39%, but EPS miss and −$42B trailing free cash flow); Intel ~−20% on a weak Q4 outlook. Nasdaq-100 futures are down ~1.7–2%.",
       "**Data:** Q3 GDP +3.4% (vs ~3.1% expected); core PCE 3.1% y/y, in line. It backs a December Fed hike (~80–86% priced).",
       "**Bonds and oil:** the 10-year fell ~8bp to below 5% on the tech selloff. Brent settled at $114.88 as Iran-talks hopes met reports of US strike preparations.",
-      "**Tonight:** the BoJ decides around 11 PM ET (hold at 1.25% expected). ECB held at 2.5%; Lagarde leaves Feb. 7."
+      "**Central banks:** the BoJ held at 1.25% and reportedly judged underlying inflation at its 2% goal; the ECB held at 2.5%, and Lagarde leaves Feb. 7."
     ],
-    "mood": "The AI cash-burn selloff is spreading after hours; most stocks held up Thursday, but Friday opens with tech under pressure."
+    "mood": "The AI cash-burn selloff has gone global: Asian chipmakers slide, bonds and the yen catch a bid."
   },
   "mustKnow": [
     "alphabet-microsoft-earnings-q3-2026",
@@ -20,12 +20,6 @@
     "pce-gdp-preview-october-29"
   ],
   "calendar": [
-    {
-      "date": "2026-10-29",
-      "time": "~11 PM ET",
-      "label": "Bank of Japan decision",
-      "why": "A hold at 1.25% is expected (Fri noon Tokyo). The tone on December matters for the yen and Japanese demand for Treasuries."
-    },
     {
       "date": "2026-11-03",
       "label": "US midterm elections",
@@ -256,7 +250,7 @@
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-29T17:40:00-04:00",
-      "updatedAt": "2026-10-29T22:06:00-04:00",
+      "updatedAt": "2026-10-29T23:39:00-04:00",
       "readMinutes": 4,
       "tldr": [
         "AWS revenue rose **39%** to about **$46B**, its fastest in nearly five years and above ~38% expected. Jassy said he expects AWS to top 40% growth in 2027 and 2028.",
@@ -267,7 +261,7 @@
         "Amazon reported third-quarter results after the close on Thursday. The bright spot was AWS: revenue up 39% to roughly $46 billion, accelerating from 37% in Q2 and beating the ~38% StreetAccount expectation. CEO Andy Jassy said he expects AWS growth above 40% in 2027 and 2028.",
         "The rest disappointed. EPS of $1.89 missed the $1.97 consensus; revenue of $201.9 billion was just below estimates; advertising revenue of about $19.6 billion trailed the ~$20.8 billion forecast. Trailing-12-month [[free cash flow]] swung to −$42.4 billion from +$14.8 billion a year earlier, driven by AI infrastructure spending, and Amazon reaffirmed [[capex]] of about $220 billion for 2026.",
         "Guidance: Q4 revenue of $240–247 billion. The stock, already down 4.3% in the regular session on Alphabet's spillover, fell roughly 7% in extended trading (reports range from about 6% to 8%).",
-        "**The evening tape:** Intel also reported after the bell. Adjusted EPS of $0.52 beat, but revenue of about $16.5 billion was slightly light and a weak fourth-quarter forecast sent the stock down roughly 20–23% after hours. Together, Amazon and Intel pushed Nasdaq-100 futures down about 1.7% (CNBC) to 2% (Investing.com, 8:47 p.m. ET) and S&P 500 futures about 0.7%, setting up a second day of tech selling on Friday."
+        "**The evening tape:** Intel also reported after the bell. Adjusted EPS of $0.52 beat, but revenue of about $16.5 billion was slightly light and a weak fourth-quarter forecast sent the stock down roughly 20–23% after hours. Together, Amazon and Intel pushed Nasdaq-100 futures down about 1.7% (CNBC) to 2% (Investing.com, 8:47 p.m. ET) and S&P 500 futures about 0.7%, setting up a second day of tech selling on Friday. In Asia on Friday the selloff hit chipmakers hardest: reports put Korea's Kospi down about 4–5.6% (Samsung and SK Hynix lower), Japan's Nikkei down 1–3% and Taiwan down about 3%, while bonds rallied and the yen firmed. These are intraday figures and vary by source."
       ],
       "marketReaction": [
         {
@@ -288,6 +282,16 @@
         {
           "asset": "Nasdaq-100 futures (evening)",
           "move": "≈ −1.7% to −2%",
+          "direction": "down"
+        },
+        {
+          "asset": "Kospi (Fri)",
+          "move": "≈ −4% to −5.6%",
+          "direction": "down"
+        },
+        {
+          "asset": "Nikkei 225 (Fri)",
+          "move": "≈ −1% to −3%",
           "direction": "down"
         },
         {
@@ -400,9 +404,13 @@
         {
           "name": "CNBC: Amazon Q3 preview, AI spend under scrutiny",
           "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html"
+        },
+        {
+          "name": "Business Recorder: Stocks slump, bonds leap as AI giants' spending spooks investors",
+          "url": "https://www.brecorder.com/news/40446650/stocks-slump-bonds-leap-as-ai-giants-spending-spooks-investors"
         }
       ],
-      "updateNote": "Evening: Nasdaq-100 futures down ~1.7–2% as Amazon and Intel (−20%+ after hours on a weak Q4 forecast) extend the tech selloff."
+      "updateNote": "Asia Friday: Kospi down ~4–5.6%, Nikkei ~1–3%, Taiwan ~3% as the chip selloff spreads; bonds and the yen bid."
     },
     {
       "id": "oil-brent-115-hormuz",
@@ -1276,21 +1284,21 @@
     {
       "id": "ecb-boj-decisions-this-week",
       "beat": "fed-macro",
-      "headline": "The ECB holds at 2.5% and flags energy risks; the Bank of Japan decides tonight",
-      "dek": "The ECB paused as expected and kept a December hike in play. The BoJ is expected to hold at 1.25% around 11 PM ET.",
+      "headline": "The ECB and Bank of Japan both hold after September hikes and keep December in play",
+      "dek": "The ECB held at 2.5% on Thursday; the BoJ held at 1.25% on Friday in Tokyo while signaling underlying inflation has reached its 2% goal.",
       "importance": 3,
       "depth": "brief",
       "developing": false,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-29T10:02:00-04:00",
+      "updatedAt": "2026-10-29T23:39:00-04:00",
       "readMinutes": 2,
       "tldr": [
         "ECB: held the [[deposit facility rate]] at **2.5%**, as 70 of 73 economists in a Reuters poll expected. It said energy is raising inflation risks, keeping December live.",
-        "BoJ (around 11 PM ET tonight): expected to hold at **1.25%** after September's hike. Bloomberg reported officials lean against a back-to-back move."
+        "BoJ (Fri in Tokyo): held at **1.25%** after September's hike. Per The Japan Times, its quarterly report indicated underlying inflation has reached the **2%** target, a hawkish signal for December."
       ],
       "whatHappened": [
         "The **ECB** left its three key rates unchanged, with the deposit rate at 2.5%, and said surging energy costs are raising inflation risks, per Reuters. That keeps a December hike live: 64 of 73 economists in the pre-meeting Reuters poll expected one. The meeting was overshadowed by Lagarde's resignation announcement the same morning.",
-        "The **BoJ**'s two-day meeting ends around 11 PM ET Thursday (noon Friday in Tokyo). A hold at 1.25% is expected. Japanese officials have repeated they're ready to act in currency markets, a form of [[verbal intervention]] to slow the yen's slide."
+        "The **BoJ** kept its policy rate at 1.25%, the highest in about three decades after September's hike, as expected. The Japan Times reported that the bank's quarterly outlook indicated underlying inflation has reached its 2% target, the condition the BoJ has set for further hikes. Pre-meeting surveys had most economists expecting the next move in December. Japanese officials have also repeated that they're ready to act in currency markets, a form of [[verbal intervention]] against a weak yen."
       ],
       "background": [
         "The ECB raised its [[deposit facility rate]] by 25bp to 2.5% in September. It faces the same energy shock as the Fed, plus a regional problem: French government bond yields above 5%, which complicates tightening.",
@@ -1331,15 +1339,19 @@
       ],
       "watchNext": [
         {
-          "when": "Thu ~11 PM ET",
-          "what": "BoJ decision and the tone on a December hike."
+          "when": "December",
+          "what": "BoJ and ECB meetings, where both are widely expected to hike again."
         },
         {
-          "when": "December",
-          "what": "The ECB's next meeting, where 64 of 73 polled economists expect a hike."
+          "when": "Fri",
+          "what": "Ueda's press conference tone and the yen's reaction."
         }
       ],
       "sources": [
+        {
+          "name": "The Japan Times: BoJ holds rates steady even as inflation ticks up",
+          "url": "https://www.japantimes.co.jp/business/2026/10/30/economy/boj-rates-steady-inflation/"
+        },
         {
           "name": "Reuters via Global Banking & Finance: ECB holds as Lagarde resigns",
           "url": "https://www.globalbankingandfinance.com/ecb-keeps-rates-unchanged-euro-slips/"
@@ -1362,7 +1374,7 @@
           "paywalled": true
         }
       ],
-      "updateNote": "ECB held at 2.5%, citing rising inflation risks from energy. Lagarde also announced her resignation; see the separate story."
+      "updateNote": "BoJ held at 1.25%; its quarterly outlook reportedly says underlying inflation has reached the 2% target."
     },
     {
       "id": "midterms-2026-market-odds",
