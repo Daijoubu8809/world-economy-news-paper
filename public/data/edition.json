@@ -1,22 +1,22 @@
 {
   "version": 1,
-  "publishedAt": "2026-10-30T15:39:00-04:00",
-  "checkedAt": "2026-10-30T15:39:00-04:00",
-  "nextRunAt": "2026-10-30T17:38:00-04:00",
+  "publishedAt": "2026-10-30T17:39:00-04:00",
+  "checkedAt": "2026-10-30T17:39:00-04:00",
+  "nextRunAt": "2026-10-30T19:38:00-04:00",
   "brief": {
-    "title": "The AI selloff deepens: the Nasdaq sinks ~3% as Intel matches its worst day since 1974, and oil rebounds on Hormuz.",
+    "title": "A brutal end to October: the Nasdaq falls 2.9% as Intel sinks 28.6%, while oil jumps on a Hormuz tanker attack.",
     "bullets": [
-      "**Tech:** the Nasdaq is down ~3.3–4% and the S&P 500 ~1.3–2.1% into the close. Intel ~−30% on weak guidance; Amazon ~−7% on −$42B trailing free cash flow.",
-      "**Macro:** Q3 GDP +3.4%, core PCE 3.1%, and Friday's Employment Cost Index +0.8% (in line) keep a December Fed hike in play (~80–86% priced).",
-      "**Bonds and oil:** Treasuries are rallying as money flees tech (10-year ~4.93% earlier). Brent rebounded to ~$116–118 after a Hormuz tanker attack.",
-      "**Central banks:** the BoJ held at 1.25% and reportedly judged underlying inflation at its 2% goal; the ECB held at 2.5% with Lagarde leaving Feb. 7.",
-      "**Next week:** midterms Tuesday, October jobs Friday Nov. 6."
+      "**Tech:** Nasdaq −2.86% (worst day since June, worst month since March 2025), S&P 500 ~−1.8–2.1%. Intel −28.6%, worst day since 1974; Amazon ~−7%.",
+      "**The theme:** Alphabet (−12.6% Thursday), Amazon and Intel all showed AI spending outrunning cash. The market is repricing the spenders, not the economy.",
+      "**Bonds:** the 10-year closed near 4.90%, down about 0.4 points in October, as money fled tech into Treasuries.",
+      "**Oil:** WTI settled at $104.12 (+2.1%) after a tanker was hit by limpet mines in Hormuz; Brent +13.6% and WTI +15.2% in October.",
+      "**Next week:** midterms Tuesday, October payrolls Friday Nov. 6. December Fed hike odds were ~80–86% after 3.4% GDP."
     ],
-    "mood": "Two-day AI rout meets an oil rebound: risk-off in tech, bid for bonds, and stagflation risk hasn't gone away."
+    "mood": "Risk-off into the weekend: tech is being repriced, bonds rally, and oil keeps stagflation risk alive."
   },
   "mustKnow": [
     "amazon-q3-2026-earnings",
-    "pce-gdp-preview-october-29",
+    "alphabet-microsoft-earnings-q3-2026",
     "oil-brent-115-hormuz"
   ],
   "calendar": [
@@ -244,40 +244,40 @@
     {
       "id": "amazon-q3-2026-earnings",
       "beat": "markets",
-      "headline": "Nasdaq sinks 3–4% as Intel matches its worst day since 1974 and Amazon slides on cash burn",
-      "dek": "Intel's weak guidance and Amazon's negative free cash flow turn the AI selloff into a two-day rout. The S&P 500 is down roughly 1.5–2% into the close.",
+      "headline": "Nasdaq falls 2.9% as Intel has its worst day since 1974, capping the index's worst month since March 2025",
+      "dek": "Intel sank 28.6% on weak guidance and Amazon slid on cash burn, turning the AI selloff into a two-day rout. The S&P 500 fell about 1.8–2.1%.",
       "importance": 4,
       "depth": "full",
-      "developing": true,
+      "developing": false,
       "publishedAt": "2026-10-29T17:40:00-04:00",
-      "updatedAt": "2026-10-30T15:39:00-04:00",
+      "updatedAt": "2026-10-30T17:39:00-04:00",
       "readMinutes": 5,
       "tldr": [
-        "Friday afternoon: the Nasdaq is down about **3.3%** (some reports near 4%) and the S&P 500 about **1.3–2.1%**, a second straight day of AI-driven selling.",
-        "Intel is down about **30%**, matching its record one-day drop from July 1974, after guiding Q4 revenue to about **$15.5B** versus roughly **$17B** expected (Benzinga).",
-        "Amazon (~**−7%**): AWS grew **39%**, but EPS missed and trailing free cash flow hit **−$42.4B** while 2026 capex stays near $220B."
+        "Friday's close: the Nasdaq fell **2.86%**, its worst day since June, and the S&P 500 about **1.8–2.1%**. For October the Nasdaq had its worst month since March 2025 (CNN).",
+        "Intel sank **28.6%** to about $65.76, its worst day since 1974 and second-worst ever, after guiding Q4 revenue to about **$15.5B** versus roughly **$17B** expected.",
+        "Amazon: AWS grew **39%**, but EPS missed and trailing free cash flow hit **−$42.4B** while 2026 capex stays near $220B."
       ],
       "whatHappened": [
         "Amazon reported third-quarter results after the close on Thursday. The bright spot was AWS: revenue up 39% to roughly $46 billion, accelerating from 37% in Q2 and beating the ~38% StreetAccount expectation. CEO Andy Jassy said he expects AWS growth above 40% in 2027 and 2028.",
         "The rest disappointed. EPS of $1.89 missed the $1.97 consensus; revenue of $201.9 billion was just below estimates; advertising revenue of about $19.6 billion trailed the ~$20.8 billion forecast. Trailing-12-month [[free cash flow]] swung to −$42.4 billion from +$14.8 billion a year earlier, driven by AI infrastructure spending, and Amazon reaffirmed [[capex]] of about $220 billion for 2026.",
         "Guidance: Q4 revenue of $240–247 billion. The stock, already down 4.3% in the regular session on Alphabet's spillover, fell roughly 7% in extended trading (reports range from about 6% to 8%).",
         "**Overnight:** Intel also reported Thursday; adjusted EPS beat, but a weak Q4 outlook (PC demand, manufacturing bottlenecks, heavy spending) hit the stock. Reuters had Nasdaq-100 futures down 2.16% by 4 a.m. ET and estimated Amazon and Intel together could lose about $300 billion of value. Korea's Kospi fell about 4–5.6% and Japan's Nikkei 1–3% as chipmakers slid; bonds and the yen rallied.",
-        "**Friday's session:** the Nasdaq opened about 2.4% lower and the selloff intensified: by afternoon Yahoo Finance had it down 3.3% and TheStreet nearly 4%, with the S&P 500 1.3–2.1% lower. Intel fell about 29.6% by midday, matching its July 1974 drop, the steepest in its history, and erasing about $144 billion of value. Benzinga said Intel guided Q4 revenue to about $15.5 billion and adjusted EPS to 25 cents, versus roughly $17 billion and 43 cents expected."
+        "**Friday's close:** the Nasdaq Composite fell 2.86%, its worst day since June, per CNN and the Motley Fool; the S&P 500 lost about 1.8% (CNN) to 2.1% (Motley Fool). Intel fell 28.58% to about $65.76, its worst day since 1974 and the second-worst in its history, per CNN, after guiding Q4 revenue to about $15.5 billion versus roughly $17 billion expected (Benzinga). Even so, CNN noted Intel is still up about 78% this year. For October, the Nasdaq posted its worst month since March 2025."
       ],
       "marketReaction": [
         {
-          "asset": "Nasdaq Composite (afternoon)",
-          "move": "≈ −3.3% to −4%",
+          "asset": "Nasdaq Composite (close)",
+          "move": "−2.86% (≈25,437)",
           "direction": "down"
         },
         {
-          "asset": "S&P 500 (afternoon)",
-          "move": "≈ −1.3% to −2.1%",
+          "asset": "S&P 500 (close)",
+          "move": "≈ −1.8% to −2.1% (≈7,560–7,580)",
           "direction": "down"
         },
         {
-          "asset": "Intel (midday)",
-          "move": "≈ −30%, ≈ −$144B value",
+          "asset": "Intel (close)",
+          "move": "−28.6% to ≈$65.76",
           "direction": "down"
         },
         {
@@ -363,15 +363,27 @@
       ],
       "watchNext": [
         {
-          "when": "Fri 9:30 AM ET",
-          "what": "Whether the ~2% Nasdaq futures drop holds and whether Thursday's rotation (small caps, health care up) survives a broader tech selloff."
+          "when": "Mon",
+          "what": "Whether dip buyers step in after a two-day, megacap-led selloff, or the AI-capex repricing spreads to Nvidia and the rest of the chip complex."
         },
         {
-          "when": "Next week",
-          "what": "Analyst capex and cash-flow revisions for the hyperscalers; Nvidia and memory names are the second-order trade."
+          "when": "Tue Nov 3",
+          "what": "US midterms, with oil and Iran risk in the mix."
+        },
+        {
+          "when": "Fri Nov 6",
+          "what": "October payrolls."
         }
       ],
       "sources": [
+        {
+          "name": "CNN: Nasdaq suffers worst month in over a year as AI nerves roil markets",
+          "url": "https://www.cnn.com/2026/10/30/investing/us-stocks-ai-investment"
+        },
+        {
+          "name": "Motley Fool: Intel plunges nearly 29% as weak outlook rattles Wall Street",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/10/30/stock-market-today-oct-30-intel-plunges-nearly-29-as-weak-outlook-rattles-wall-street/"
+        },
         {
           "name": "Benzinga: Intel flirts with worst day on record",
           "url": "https://www.benzinga.com/markets/equities/26/10/62750549/stock-market-today-intel-worst-day-on-record-chip-stocks-nasdaq"
@@ -403,36 +415,28 @@
         {
           "name": "CNBC: Nasdaq-100 futures fall as Amazon and Intel swoon (live)",
           "url": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html"
-        },
-        {
-          "name": "Investing.com: US futures sink, Nasdaq down 2% on Amazon, Intel",
-          "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-sink-nasdaq-down-2-as-amazon-intel-earnings-underwhelm-4985675"
-        },
-        {
-          "name": "GeekWire: AWS growth hits 39% as Amazon misses on earnings",
-          "url": "https://www.geekwire.com/2026/aws-growth-hits-39-its-fastest-in-nearly-five-years-as-amazon-misses-on-earnings/"
         }
       ],
-      "updateNote": "Afternoon: the selloff intensified, with the Nasdaq down ~3.3% to nearly 4% and the S&P 500 ~1.3–2.1%."
+      "updateNote": "Closing numbers: Nasdaq −2.86%, S&P 500 −1.8% to −2.1%, Intel −28.6% (worst since 1974); Nasdaq's worst month since March 2025."
     },
     {
       "id": "oil-brent-115-hormuz",
       "beat": "policy",
-      "headline": "Brent climbs back toward $117 after a Hormuz tanker attack, heading for a fourth monthly gain",
-      "dek": "A tanker was hit in the Strait of Hormuz and investors brace for possible US strikes on Iran after Tuesday's midterms. Oil remains the main engine of US inflation.",
+      "headline": "WTI settles at $104.12 after a Hormuz tanker attack, capping a 15% October gain for US crude",
+      "dek": "A tanker was struck by limpet mines in the Strait of Hormuz as traders brace for possible US strikes on Iran after the midterms. Both benchmarks rose for a fourth straight month.",
       "importance": 5,
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-30T13:39:00-04:00",
+      "updatedAt": "2026-10-30T17:39:00-04:00",
       "readMinutes": 5,
       "tldr": [
-        "Brent rebounded to roughly **$116–118** Friday after settling at **$114.88** Thursday, and is on track for a **fourth straight monthly gain** (about 11–15% in October depending on the contract).",
-        "A tanker was struck in the Strait of Hormuz and Iran claimed tankers hit mines south of the strait. Qatari mediators returned to Tehran, but traders are bracing for possible US strikes after the midterms.",
+        "Friday: WTI settled up **2.1% at $104.12**. Brent's expiring December contract settled at **$117.64**; the active January contract rose $2.63 to **$113.43**.",
+        "October: Brent **+13.6%**, WTI **+15.2%**, a fourth straight monthly gain. Security sources said a tanker in the Strait of Hormuz was hit by limpet mines; US–Iran diplomacy continues.",
         "Brent is still up roughly 17% in October. Gasoline drove more than half of September's CPI jump, so oil remains the Fed's problem."
       ],
       "whatHappened": [
-        "**Friday:** oil jumped back after a tanker was hit in the Strait of Hormuz and Iran claimed tankers had struck mines south of the strait, per Reuters. Qatari mediators returned to Tehran, but investors are positioning for possible renewed US strikes after Tuesday's midterms. Brent traded around $116–118, on course for a fourth straight monthly gain. Watch the contract roll: the December Brent contract expires Friday, and January was trading about $4 lower, so headline 'Brent' prices can jump around next week for technical reasons.",
+        "**Friday:** oil jumped after security sources said a tanker in the Strait of Hormuz was struck by limpet mines; the attackers weren't immediately identified. WTI settled up $2.12 (2.08%) at $104.12. Brent's December contract, which expired Friday, settled at $117.64, while the more active January contract rose $2.63 to $113.43. That gap is a reminder to check *which* contract a 'Brent' quote refers to around expiry. For October, Brent rose 13.6% and WTI 15.2%, a fourth straight monthly gain. Qatari mediators were back in Tehran, but traders are bracing for possible US strikes after Tuesday's midterms.",
         "**Thursday:** Brent settled down 0.38% at $114.88 and WTI down 0.76% at $102, per Reuters, after both had been more than $2 lower. The drop came on a Wall Street Journal report that Vice President JD Vance wrote to Mohsen Rezaei, head of Iran's Supreme National Security Council, to revive talks. Trump downplayed it, saying Vance acted independently and the letter concerned medical supplies. Qatari mediators reportedly presented a new draft deal that a senior Iranian official called unacceptable. Prices recovered on WSJ reports that the US told several Gulf states to prepare for a short, intense campaign and that Trump is leaning toward a large post-election strike, though he hasn't decided.",
         "Oil rose for a second session as traders priced a longer conflict. President Trump said the war with Iran would end on his terms and that Tehran must be kept from nuclear weapons. There were also reports that the US is preparing to resume strikes on Iran *after* next Tuesday's midterm elections.",
         "Houthi forces claimed a ballistic-missile strike on Saudi Aramco's Ras Tanura refinery. Saudi authorities have **not confirmed** a direct hit, so treat it as unverified. Brent briefly topped $117 earlier this week before dipping on Tuesday, when Saudi, Turkish and Pakistani diplomacy with Iran briefly raised hopes of a deal.",
@@ -440,18 +444,18 @@
       ],
       "marketReaction": [
         {
-          "asset": "Brent (Fri)",
-          "move": "≈ $116–118",
+          "asset": "WTI (Fri settle)",
+          "move": "$104.12 (+2.1%)",
           "direction": "up"
         },
         {
-          "asset": "Brent (Thu settle)",
-          "move": "$114.88 (−0.4%)",
-          "direction": "down"
+          "asset": "Brent Jan (Fri settle)",
+          "move": "$113.43 (+$2.63)",
+          "direction": "up"
         },
         {
-          "asset": "Brent (Wed settle)",
-          "move": "$115.32 (+1.3%)",
+          "asset": "Brent/WTI (October)",
+          "move": "+13.6% / +15.2%",
           "direction": "up"
         },
         {
@@ -554,6 +558,10 @@
       ],
       "sources": [
         {
+          "name": "Korea Times: Oil jumps 2%, settles at 6-month highs on fears of escalation in Iran",
+          "url": "https://www.koreatimes.co.kr/world/20261031/oil-jumps-2-settles-at-6-month-highs-on-fears-of-escalation-in-iran"
+        },
+        {
           "name": "Reuters via AOL: Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks",
           "url": "https://www.aol.com/articles/oil-rises-supply-concerns-houthis-022725000.html"
         },
@@ -588,13 +596,9 @@
         {
           "name": "OilPrice.com: UBS sees $110 Brent by year-end",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/UBS-Sees-110-Brent-by-Year-End-as-Gulf-Flows-Stay-Below-Prewar-Levels.html"
-        },
-        {
-          "name": "Congressional Research Service: Strait of Hormuz",
-          "url": "https://www.congress.gov/crs-product/R45281"
         }
       ],
-      "updateNote": "Friday: Brent back to ~$116–118 after a tanker attack in Hormuz and Iranian claims of mines; set for a fourth straight monthly gain."
+      "updateNote": "Settlements: WTI $104.12 (+2.1%); Brent's expiring December contract $117.64, active January $113.43 (+$2.63). October: Brent +13.6%, WTI +15.2%."
     },
     {
       "id": "lagarde-resigns-ecb-president",
@@ -917,16 +921,16 @@
     {
       "id": "treasury-10-year-near-5-percent",
       "beat": "markets",
-      "headline": "Treasuries rally as the AI selloff sends money into bonds; the 10-year falls toward 4.9%",
-      "dek": "The 10-year was around 4.93% Friday morning and the 2-year near 4.6%. After peaking near 5.35% in early October, the long end is now trading risk appetite and oil as much as the Fed.",
+      "headline": "The 10-year yield ends October near 4.9%, down about 40bp from its peak area, as stocks slide",
+      "dek": "Treasuries rallied for a second day as the AI selloff pushed money into bonds. The 10-year closed near 4.90% after topping 5.3% earlier in the month; the driver is term premium and risk appetite as much as the Fed.",
       "importance": 4,
       "depth": "full",
       "developing": false,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-30T07:39:00-04:00",
+      "updatedAt": "2026-10-30T17:39:00-04:00",
       "readMinutes": 4,
       "tldr": [
-        "The 10-year was around **4.93%** Friday morning and the 2-year around **4.6%**, extending Thursday's ~8bp rally as tech stocks slid. It peaked near 5.35% on Oct. 7, the highest since 2002.",
+        "The 10-year closed Friday around **4.90%** (Trading Economics 4.91%, Investing.com 4.898%), down about **0.4 points** for October after peaking near 5.35% on Oct. 7.",
         "On Oct. 22 it fell about 19bp in one session, the biggest drop since March 2023, as an AI-stock selloff sent money into bonds.",
         "The core story is [[term premium]]: investors demanding more to hold long debt amid big deficits, heavy issuance and oil-driven inflation risk."
       ],
@@ -934,12 +938,12 @@
         "The 10-year Treasury yield rose to about **5.02%** on Wednesday from 4.99%, an upward nudge from higher oil prices on a Fed day. The 2-year did most of the moving, swinging between about 4.69% and 4.79% around the decision.",
         "Zoom out and October has been a roller coaster. The 10-year hit roughly **5.35%** on Oct. 7 (sources put the peak at 5.34%–5.36%), its highest since 2002. Then on Oct. 22 it dropped about **19bp** in a single session to around 4.95%, the largest one-day fall since March 2023, as a selloff in AI stocks sent investors running to government bonds. It has since drifted back above 5%.",
         "Thursday: after GDP (3.4%) and in-line PCE, the 10-year initially dipped about 3bp, then extended the rally as Alphabet's record drop and lower oil pulled money into bonds. CNBC had it more than 8bp lower at about 4.96% in the afternoon and around 4.94% after 5 p.m. The 2s10s spread had widened to about 38bp on Wednesday from 29bp, per FRED. A strong-growth day with *falling* long yields tells you the long end is trading risk appetite and oil, not just the data.",
-        "Friday morning: as Amazon and Intel dragged Nasdaq futures down about 2%, money kept moving into Treasuries. Reports had the 10-year around 4.925% and the 2-year around 4.59–4.60%, with the 10-year on track for its largest monthly drop since December 2023. That's a classic [[flight to quality]]."
+        "Friday morning: as Amazon and Intel dragged Nasdaq futures down about 2%, money kept moving into Treasuries. Reports had the 10-year around 4.925% and the 2-year around 4.59–4.60%, with the 10-year on track for its largest monthly drop since December 2023. That's a classic [[flight to quality]]. Friday it closed around 4.90%, per Trading Economics and Investing.com, versus about 5.29% at the end of September."
       ],
       "marketReaction": [
         {
-          "asset": "10Y yield (Fri a.m.)",
-          "move": "≈4.93% (from ~5.02% Wed)",
+          "asset": "10Y yield (Fri close)",
+          "move": "≈4.90%",
           "direction": "down"
         },
         {
@@ -1060,6 +1064,10 @@
       ],
       "sources": [
         {
+          "name": "Trading Economics: US 10-year yield",
+          "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+        },
+        {
           "name": "CNBC: 10-year hovers below 5% after strong GDP report",
           "url": "https://www.cnbc.com/2026/10/29/treasury-yields-federal-reserve-rates.html"
         },
@@ -1080,15 +1088,11 @@
           "url": "https://www.bnnbloomberg.ca/markets/2026/10/28/us-stocks-remains-steady-after-fed-says-it-wont-raise-interest-rates/"
         },
         {
-          "name": "Trading Economics: US 10-year yield",
-          "url": "https://tradingeconomics.com/united-states/government-bond-yield"
-        },
-        {
           "name": "FRED: 10-year minus 2-year (T10Y2Y)",
           "url": "https://fred.stlouisfed.org/series/T10Y2Y"
         }
       ],
-      "updateNote": "Friday a.m.: 10-year ~4.93%, 2-year ~4.6% as the tech rout sparks a safe-haven bid; reportedly on track for its biggest monthly drop since December 2023."
+      "updateNote": "Close: 10-year ~4.90–4.91%, down roughly 0.4 points in October per Investing.com data."
     },
     {
       "id": "pce-gdp-preview-october-29",
