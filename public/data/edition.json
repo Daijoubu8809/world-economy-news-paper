@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "publishedAt": "2026-10-30T07:39:00-04:00",
-  "checkedAt": "2026-10-30T07:39:00-04:00",
-  "nextRunAt": "2026-10-30T09:38:00-04:00",
+  "publishedAt": "2026-10-30T09:39:00-04:00",
+  "checkedAt": "2026-10-30T09:39:00-04:00",
+  "nextRunAt": "2026-10-30T11:38:00-04:00",
   "brief": {
     "title": "The AI cash-burn selloff spreads: Nasdaq futures fall 2% on Amazon and Intel after Alphabet's record drop.",
     "bullets": [
-      "**Tech:** Nasdaq-100 futures −2.2%, S&P 500 futures −1% premarket. Intel ~−25% on a weak outlook; Amazon ~−7% on −$42B trailing free cash flow. Alphabet fell 12.6% Thursday.",
-      "**Macro backdrop:** Q3 GDP +3.4% and core PCE at 3.1% keep a December Fed hike in play (~80–86% priced). The Employment Cost Index lands at 8:30 AM ET.",
+      "**Tech:** the Nasdaq opened ~2.4% lower and the S&P 500 ~1.2% as Intel (~−25%) and Amazon (~−7%) extend the AI cash-burn selloff after Alphabet's record 12.6% drop.",
+      "**Macro:** Q3 GDP +3.4%, core PCE 3.1%, and Friday's Employment Cost Index +0.8% (in line) keep a December Fed hike in play (~80–86% priced).",
       "**Bonds and oil:** the 10-year is ~4.93% and the 2-year ~4.6% as money flees tech into Treasuries. Brent settled Thursday at $114.88.",
       "**Central banks:** the BoJ held at 1.25% and reportedly judged underlying inflation at its 2% goal; the ECB held at 2.5% with Lagarde leaving Feb. 7.",
       "**Next week:** midterms Tuesday, October jobs Friday Nov. 6."
@@ -20,12 +20,6 @@
     "oil-brent-115-hormuz"
   ],
   "calendar": [
-    {
-      "date": "2026-10-30",
-      "time": "8:30 AM ET",
-      "label": "Q3 Employment Cost Index",
-      "why": "The Fed's favorite wage gauge; consensus ~0.8% q/q after 0.9%. A hot print adds to December hike odds."
-    },
     {
       "date": "2026-10-30",
       "time": "9:45 AM ET",
@@ -262,7 +256,7 @@
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-29T17:40:00-04:00",
-      "updatedAt": "2026-10-30T07:39:00-04:00",
+      "updatedAt": "2026-10-30T09:39:00-04:00",
       "readMinutes": 5,
       "tldr": [
         "Premarket Friday: Nasdaq-100 futures **−2.2%**, S&P 500 futures **−1%**, Dow futures flat (Reuters, 4 a.m. ET). Amazon is ~**−7%**, Intel ~**−25%**.",
@@ -273,17 +267,17 @@
         "Amazon reported third-quarter results after the close on Thursday. The bright spot was AWS: revenue up 39% to roughly $46 billion, accelerating from 37% in Q2 and beating the ~38% StreetAccount expectation. CEO Andy Jassy said he expects AWS growth above 40% in 2027 and 2028.",
         "The rest disappointed. EPS of $1.89 missed the $1.97 consensus; revenue of $201.9 billion was just below estimates; advertising revenue of about $19.6 billion trailed the ~$20.8 billion forecast. Trailing-12-month [[free cash flow]] swung to −$42.4 billion from +$14.8 billion a year earlier, driven by AI infrastructure spending, and Amazon reaffirmed [[capex]] of about $220 billion for 2026.",
         "Guidance: Q4 revenue of $240–247 billion. The stock, already down 4.3% in the regular session on Alphabet's spillover, fell roughly 7% in extended trading (reports range from about 6% to 8%).",
-        "**Overnight and Friday morning:** Intel also reported Thursday. Adjusted EPS beat, but a weak Q4 outlook (PC demand, manufacturing bottlenecks, heavy production spending) sent it down roughly 20–25%. By 4 a.m. ET Friday, Reuters had Nasdaq-100 futures down 2.16%, S&P 500 futures down 1% and Dow futures flat, and estimated Amazon and Intel together could lose about $300 billion of value. In Asia, Korea's Kospi fell about 4–5.6% and Japan's Nikkei 1–3% as chipmakers slid; bonds and the yen rallied. Europe's Stoxx 600 was down about 0.25% early, with tech off 2%."
+        "**Overnight and Friday morning:** Intel also reported Thursday. Adjusted EPS beat, but a weak Q4 outlook (PC demand, manufacturing bottlenecks, heavy production spending) sent it down roughly 20–25%. By 4 a.m. ET Friday, Reuters had Nasdaq-100 futures down 2.16%, S&P 500 futures down 1% and Dow futures flat, and estimated Amazon and Intel together could lose about $300 billion of value. In Asia, Korea's Kospi fell about 4–5.6% and Japan's Nikkei 1–3% as chipmakers slid; bonds and the yen rallied. Europe's Stoxx 600 was down about 0.25% early, with tech off 2%. At the open, a Yahoo Finance snapshot had the Nasdaq Composite down about 2.4% and the S&P 500 about 1.2%, with the Dow roughly flat."
       ],
       "marketReaction": [
         {
-          "asset": "Nasdaq-100 futures (Fri a.m.)",
-          "move": "≈ −2% to −2.4%",
+          "asset": "Nasdaq Composite (open)",
+          "move": "≈ −2.4%",
           "direction": "down"
         },
         {
-          "asset": "S&P 500 futures (Fri a.m.)",
-          "move": "≈ −1%",
+          "asset": "S&P 500 (open)",
+          "move": "≈ −1.2%",
           "direction": "down"
         },
         {
@@ -292,7 +286,7 @@
           "direction": "down"
         },
         {
-          "asset": "Intel (premarket)",
+          "asset": "Intel (Fri)",
           "move": "≈ −25%",
           "direction": "down"
         },
@@ -393,6 +387,10 @@
           "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes-4986163"
         },
         {
+          "name": "Yahoo Finance: Nasdaq dives as Amazon, Intel rattle investors (live)",
+          "url": "https://ca.finance.yahoo.com/news/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-131609630.html"
+        },
+        {
           "name": "Reuters via Investing.com: European shares ease as AI-driven tech selloff deepens",
           "url": "https://www.investing.com/news/stock-market-news/european-shares-ease-as-aidriven-tech-selloff-deepens-4986074"
         },
@@ -423,13 +421,9 @@
         {
           "name": "CNBC: Amazon Q3 preview, AI spend under scrutiny",
           "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html"
-        },
-        {
-          "name": "Business Recorder: Stocks slump, bonds leap as AI giants' spending spooks investors",
-          "url": "https://www.brecorder.com/news/40446650/stocks-slump-bonds-leap-as-ai-giants-spending-spooks-investors"
         }
       ],
-      "updateNote": "Added Intel's Q4 guide ($15–16B revenue) and later premarket readings: Nasdaq-100 futures down 2–2.4%."
+      "updateNote": "At the open: Nasdaq Composite about −2.4%, S&P 500 about −1.2%; Intel down more than 25%."
     },
     {
       "id": "oil-brent-115-hormuz",
@@ -1108,23 +1102,23 @@
     {
       "id": "pce-gdp-preview-october-29",
       "beat": "fed-macro",
-      "headline": "Q3 GDP grows 3.4%, beating forecasts, while core PCE inflation holds at 3.1%",
+      "headline": "Q3 GDP grows 3.4% while core PCE holds at 3.1% and wage growth stays steady",
       "dek": "The economy accelerated from 2.2% in Q2, and September core PCE matched consensus. Strong growth plus sticky inflation keeps a December Fed hike on track.",
       "importance": 4,
       "depth": "brief",
       "developing": false,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-29T10:02:00-04:00",
+      "updatedAt": "2026-10-30T09:39:00-04:00",
       "readMinutes": 3,
       "tldr": [
         "Q3 GDP grew **3.4%** annualized (advance estimate), above the ~3.1% Dow Jones consensus and up from 2.2% in Q2.",
         "September core PCE rose **0.3% m/m and 3.1% y/y** (from 3.0%), in line. Headline PCE was **+0.5% m/m, 3.6% y/y**.",
-        "No growth excuse to wait: the data supports the ~80–86% priced December hike rather than pushing it to certain."
+        "Friday's Employment Cost Index rose **0.8%** in Q3 (3.4% y/y), in line and a touch slower than Q2's 0.9%: no wage-price spiral, so the inflation problem is energy, not pay."
       ],
       "whatHappened": [
         "The Bureau of Economic Analysis said real GDP grew at a **3.4%** annual rate in the third quarter, its advance estimate, up from 2.2% in Q2. CNBC cited a Dow Jones [[consensus]] of 3.1%. Final sales to private domestic purchasers, the cleanest read on underlying demand, rose 4.9% after 4.6%. Investment, consumer spending and government spending all contributed; exports fell.",
         "September [[PCE inflation]] was in line: core rose 0.3% on the month and 3.1% on the year, up from 3.0% in August (after revisions). Headline rose 0.5% and 3.6%, a touch below the 3.7% some previews expected, with energy doing the damage. Core services excluding housing reportedly hit 3.6% year over year, a multi-year high.",
-        "Don't confuse the quarterly numbers: the Q3 PCE price index rose at a 2.1% annualized pace (core 2.5%) for the quarter as a whole. The September year-over-year numbers are what the Fed watches for the trend."
+        "Don't confuse the quarterly numbers: the Q3 PCE price index rose at a 2.1% annualized pace (core 2.5%) for the quarter as a whole. The September year-over-year numbers are what the Fed watches for the trend. On Friday the BLS said the [[Employment Cost Index]] rose 0.8% in Q3, matching consensus and down from 0.9% in Q2; the 12-month gain held at 3.4%."
       ],
       "background": [
         "The Fed targets 2% on PCE, not CPI. PCE covers a broader basket and weights things differently (housing counts for less, healthcare for more). Desks focus on core, which strips out food and energy.",
@@ -1173,6 +1167,11 @@
           "term": "DV01",
           "definition": "Dollar value of a basis point: how much a position gains or loses for a 1bp move in yield. Desks size trades by DV01, not notional.",
           "example": "Shorting $10M of 2-year notes has a far smaller DV01 than $10M of 10-years."
+        },
+        {
+          "term": "Employment Cost Index",
+          "definition": "A quarterly BLS measure of total compensation (wages plus benefits), adjusted for job mix. The Fed watches it as the cleanest gauge of labor-cost pressure.",
+          "example": "Q3 2026: +0.8% q/q, 3.4% y/y."
         }
       ],
       "watchNext": [
@@ -1190,6 +1189,14 @@
         }
       ],
       "sources": [
+        {
+          "name": "BLS: Employment Cost Index, Q3 2026",
+          "url": "https://www.bls.gov/news.release/eci.nr0.htm"
+        },
+        {
+          "name": "Seeking Alpha: ECI growth decelerates in Q3, as expected",
+          "url": "https://seekingalpha.com/news/4661372-employment-cost-index-growth-decelerates-in-q3-as-expected"
+        },
         {
           "name": "Benzinga: US GDP grew 3.4%, PCE inflation in line",
           "url": "https://www.benzinga.com/markets/economic-data/26/10/62693319/us-economy-gdp-third-quarter-pce-inflation-september"
@@ -1211,7 +1218,7 @@
           "url": "https://www.bea.gov/news/schedule"
         }
       ],
-      "updateNote": "The data is out: GDP 3.4% vs ~3.1% expected; core PCE +0.3% m/m, 3.1% y/y, in line.",
+      "updateNote": "Added Friday's Employment Cost Index: +0.8% q/q, 3.4% y/y, in line. Wages aren't adding fuel.",
       "trade": {
         "idea": "2s10s steepener",
         "expression": "Long 2Y / short 10Y Treasuries, [[DV01]]-neutral",
