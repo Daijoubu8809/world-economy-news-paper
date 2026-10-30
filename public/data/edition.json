@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "publishedAt": "2026-10-30T11:39:00-04:00",
-  "checkedAt": "2026-10-30T11:39:00-04:00",
-  "nextRunAt": "2026-10-30T13:38:00-04:00",
+  "publishedAt": "2026-10-30T13:39:00-04:00",
+  "checkedAt": "2026-10-30T13:39:00-04:00",
+  "nextRunAt": "2026-10-30T15:38:00-04:00",
   "brief": {
-    "title": "The AI cash-burn selloff spreads: Nasdaq futures fall 2% on Amazon and Intel after Alphabet's record drop.",
+    "title": "The AI selloff deepens: the Nasdaq sinks ~3% as Intel matches its worst day since 1974, and oil rebounds on Hormuz.",
     "bullets": [
-      "**Tech:** the Nasdaq opened ~2.4% lower and the S&P 500 ~1.2%; Intel is down ~28% and Amazon ~7% as the AI cash-burn selloff extends after Alphabet's record 12.6% drop.",
+      "**Tech:** Nasdaq ~−3%, S&P 500 ~−1.2% to −1.6% at midday. Intel ~−30% on weak guidance; Amazon ~−7% on −$42B trailing free cash flow.",
       "**Macro:** Q3 GDP +3.4%, core PCE 3.1%, and Friday's Employment Cost Index +0.8% (in line) keep a December Fed hike in play (~80–86% priced).",
-      "**Bonds and oil:** the 10-year is ~4.93% and the 2-year ~4.6% as money flees tech into Treasuries. Brent settled Thursday at $114.88.",
+      "**Bonds and oil:** Treasuries are rallying as money flees tech (10-year ~4.93% earlier). Brent rebounded to ~$116–118 after a Hormuz tanker attack.",
       "**Central banks:** the BoJ held at 1.25% and reportedly judged underlying inflation at its 2% goal; the ECB held at 2.5% with Lagarde leaving Feb. 7.",
       "**Next week:** midterms Tuesday, October jobs Friday Nov. 6."
     ],
-    "mood": "Risk-off in tech, risk-on for bonds: the market is repricing AI spenders, not the economy."
+    "mood": "Two-day AI rout meets an oil rebound: risk-off in tech, bid for bonds, and stagflation risk hasn't gone away."
   },
   "mustKnow": [
     "amazon-q3-2026-earnings",
@@ -244,54 +244,49 @@
     {
       "id": "amazon-q3-2026-earnings",
       "beat": "markets",
-      "headline": "Amazon and Intel extend the AI selloff: Nasdaq futures fall ~2% after cash-flow shocks",
-      "dek": "Amazon is down about 7% and Intel about 25% before the bell. About $300 billion of combined value is at risk as investors punish AI spending that isn't producing cash.",
+      "headline": "Nasdaq sinks ~3% as Intel matches its worst day since 1974 and Amazon slides on cash burn",
+      "dek": "Intel's weak guidance and Amazon's negative free cash flow extend the AI selloff into a second day. The S&P 500 is down about 1.5%.",
       "importance": 4,
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-29T17:40:00-04:00",
-      "updatedAt": "2026-10-30T11:39:00-04:00",
+      "updatedAt": "2026-10-30T13:39:00-04:00",
       "readMinutes": 5,
       "tldr": [
-        "Premarket Friday: Nasdaq-100 futures **−2.2%**, S&P 500 futures **−1%**, Dow futures flat (Reuters, 4 a.m. ET). Amazon is ~**−7%**, Intel ~**−25%**.",
-        "Amazon: AWS grew **39%** (fastest in nearly five years), but EPS missed and trailing free cash flow hit **−$42.4B**; 2026 capex stays at ~$220B.",
-        "Intel guided Q4 revenue to **$15–16B**, below the ~$16.5B it just reported, citing PC demand and manufacturing bottlenecks. Together the two could shed about **$300B** of value if losses hold."
+        "Friday midday: the Nasdaq is down about **3%** and the S&P 500 about **1.2–1.6%** as the AI selloff enters a second day.",
+        "Intel is down about **30%**, matching its record one-day drop from July 1974, after guiding Q4 revenue to about **$15.5B** versus roughly **$17B** expected (Benzinga).",
+        "Amazon (~**−7%**): AWS grew **39%**, but EPS missed and trailing free cash flow hit **−$42.4B** while 2026 capex stays near $220B."
       ],
       "whatHappened": [
         "Amazon reported third-quarter results after the close on Thursday. The bright spot was AWS: revenue up 39% to roughly $46 billion, accelerating from 37% in Q2 and beating the ~38% StreetAccount expectation. CEO Andy Jassy said he expects AWS growth above 40% in 2027 and 2028.",
         "The rest disappointed. EPS of $1.89 missed the $1.97 consensus; revenue of $201.9 billion was just below estimates; advertising revenue of about $19.6 billion trailed the ~$20.8 billion forecast. Trailing-12-month [[free cash flow]] swung to −$42.4 billion from +$14.8 billion a year earlier, driven by AI infrastructure spending, and Amazon reaffirmed [[capex]] of about $220 billion for 2026.",
         "Guidance: Q4 revenue of $240–247 billion. The stock, already down 4.3% in the regular session on Alphabet's spillover, fell roughly 7% in extended trading (reports range from about 6% to 8%).",
-        "**Overnight and Friday morning:** Intel also reported Thursday. Adjusted EPS beat, but a weak Q4 outlook (PC demand, manufacturing bottlenecks, heavy production spending) sent it down roughly 20–25%. By 4 a.m. ET Friday, Reuters had Nasdaq-100 futures down 2.16%, S&P 500 futures down 1% and Dow futures flat, and estimated Amazon and Intel together could lose about $300 billion of value. In Asia, Korea's Kospi fell about 4–5.6% and Japan's Nikkei 1–3% as chipmakers slid; bonds and the yen rallied. Europe's Stoxx 600 was down about 0.25% early, with tech off 2%. At the open, a Yahoo Finance snapshot had the Nasdaq Composite down about 2.4% and the S&P 500 about 1.2%, with the Dow roughly flat. By late morning Intel was down about 28%, near $66, and the Dow about 0.6% lower, per Yahoo Finance's live coverage."
+        "**Overnight and Friday morning:** Intel also reported Thursday. Adjusted EPS beat, but a weak Q4 outlook (PC demand, manufacturing bottlenecks, heavy production spending) sent it down roughly 20–25%. By 4 a.m. ET Friday, Reuters had Nasdaq-100 futures down 2.16%, S&P 500 futures down 1% and Dow futures flat, and estimated Amazon and Intel together could lose about $300 billion of value. In Asia, Korea's Kospi fell about 4–5.6% and Japan's Nikkei 1–3% as chipmakers slid; bonds and the yen rallied. Europe's Stoxx 600 was down about 0.25% early, with tech off 2%. At the open, a Yahoo Finance snapshot had the Nasdaq Composite down about 2.4% and the S&P 500 about 1.2%, with the Dow roughly flat. By late morning Intel was down about 28%, near $66, and the Dow about 0.6% lower, per Yahoo Finance's live coverage. **Midday:** the Nasdaq Composite was down about 3% (TheStreet) and the Nasdaq 100 about 3.2%, on pace for its worst session since June, per Benzinga, which had the S&P 500 down 1.6% near 7,596. Intel was down about 29.6%, matching its July 1974 drop, the steepest in its history, and erasing about $144 billion of value. Benzinga said Intel guided Q4 revenue to about $15.5 billion and adjusted EPS to 25 cents, versus roughly $17 billion and 43 cents expected."
       ],
       "marketReaction": [
         {
-          "asset": "Nasdaq Composite (open)",
-          "move": "≈ −2.4%",
+          "asset": "Nasdaq Composite (midday)",
+          "move": "≈ −3%",
           "direction": "down"
         },
         {
-          "asset": "S&P 500 (open)",
-          "move": "≈ −1.2%",
+          "asset": "S&P 500 (midday)",
+          "move": "≈ −1.2% to −1.6%",
           "direction": "down"
         },
         {
-          "asset": "Dow (late morning)",
-          "move": "≈ −0.6%",
+          "asset": "Intel (midday)",
+          "move": "≈ −30%, ≈ −$144B value",
           "direction": "down"
         },
         {
-          "asset": "Intel (Fri)",
-          "move": "≈ −28% (≈$66)",
+          "asset": "Amazon (Fri)",
+          "move": "≈ −7%",
           "direction": "down"
         },
         {
           "asset": "Kospi (Fri)",
           "move": "≈ −4% to −5.6%",
-          "direction": "down"
-        },
-        {
-          "asset": "Stoxx 600 tech (Fri a.m.)",
-          "move": "≈ −2%",
           "direction": "down"
         },
         {
@@ -377,6 +372,14 @@
       ],
       "sources": [
         {
+          "name": "Benzinga: Intel flirts with worst day on record",
+          "url": "https://www.benzinga.com/markets/equities/26/10/62750549/stock-market-today-intel-worst-day-on-record-chip-stocks-nasdaq"
+        },
+        {
+          "name": "TheStreet: Nasdaq sinks 3% as investors retreat from AI names",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-30-2026"
+        },
+        {
           "name": "Reuters via Investing.com: Nasdaq futures tumble as Amazon, Intel deepen AI spending woes",
           "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes-4986163"
         },
@@ -407,35 +410,28 @@
         {
           "name": "Benzinga: Amazon delivers Q3 double miss, AWS accelerates",
           "url": "https://www.benzinga.com/markets/earnings/26/10/62719400/amazon-delivers-q3-double-miss-aws-growth-accelerates-shares-drop"
-        },
-        {
-          "name": "Motley Fool: AWS jumps 39% as Amazon's cash flow sinks",
-          "url": "https://www.fool.com/investing/2026/10/29/aws-jumps-39-as-amazons-cash-flow-sinks-rapid-earn/"
-        },
-        {
-          "name": "CNBC: Amazon Q3 preview, AI spend under scrutiny",
-          "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html"
         }
       ],
-      "updateNote": "Late morning: Intel down about 28% (near $66); the Dow is about 0.6% lower as the selloff broadens."
+      "updateNote": "Midday Friday: Nasdaq ~−3%, S&P 500 ~−1.2% to −1.6%; Intel ~−30%, matching its record 1974 drop, after guiding Q4 well below forecasts."
     },
     {
       "id": "oil-brent-115-hormuz",
       "beat": "policy",
-      "headline": "Brent settles at $114.88 after paring a $2 drop as Iran talks and strike reports collide",
-      "dek": "Oil fell on a reported Vance letter to Tehran, then recovered on WSJ reports the US told Gulf states to prepare for strikes. Energy remains the main engine of US inflation.",
+      "headline": "Brent climbs back toward $117 after a Hormuz tanker attack, heading for a fourth monthly gain",
+      "dek": "A tanker was hit in the Strait of Hormuz and investors brace for possible US strikes on Iran after Tuesday's midterms. Oil remains the main engine of US inflation.",
       "importance": 5,
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-29T19:39:00-04:00",
+      "updatedAt": "2026-10-30T13:39:00-04:00",
       "readMinutes": 5,
       "tldr": [
-        "Brent settled at **$114.88 (−0.4%)** and WTI at **$102.00 (−0.8%)** Thursday, per Reuters, after both fell more than $2 intraday.",
-        "Down on a WSJ report that VP Vance wrote to Iran's security chief to restart talks (Trump said Vance acted on his own); back up on WSJ reports the US told Gulf states to prepare for a short, intense campaign.",
+        "Brent rebounded to roughly **$116–118** Friday after settling at **$114.88** Thursday, and is on track for a **fourth straight monthly gain** (about 11–15% in October depending on the contract).",
+        "A tanker was struck in the Strait of Hormuz and Iran claimed tankers hit mines south of the strait. Qatari mediators returned to Tehran, but traders are bracing for possible US strikes after the midterms.",
         "Brent is still up roughly 17% in October. Gasoline drove more than half of September's CPI jump, so oil remains the Fed's problem."
       ],
       "whatHappened": [
+        "**Friday:** oil jumped back after a tanker was hit in the Strait of Hormuz and Iran claimed tankers had struck mines south of the strait, per Reuters. Qatari mediators returned to Tehran, but investors are positioning for possible renewed US strikes after Tuesday's midterms. Brent traded around $116–118, on course for a fourth straight monthly gain. Watch the contract roll: the December Brent contract expires Friday, and January was trading about $4 lower, so headline 'Brent' prices can jump around next week for technical reasons.",
         "**Thursday:** Brent settled down 0.38% at $114.88 and WTI down 0.76% at $102, per Reuters, after both had been more than $2 lower. The drop came on a Wall Street Journal report that Vice President JD Vance wrote to Mohsen Rezaei, head of Iran's Supreme National Security Council, to revive talks. Trump downplayed it, saying Vance acted independently and the letter concerned medical supplies. Qatari mediators reportedly presented a new draft deal that a senior Iranian official called unacceptable. Prices recovered on WSJ reports that the US told several Gulf states to prepare for a short, intense campaign and that Trump is leaning toward a large post-election strike, though he hasn't decided.",
         "Oil rose for a second session as traders priced a longer conflict. President Trump said the war with Iran would end on his terms and that Tehran must be kept from nuclear weapons. There were also reports that the US is preparing to resume strikes on Iran *after* next Tuesday's midterm elections.",
         "Houthi forces claimed a ballistic-missile strike on Saudi Aramco's Ras Tanura refinery. Saudi authorities have **not confirmed** a direct hit, so treat it as unverified. Brent briefly topped $117 earlier this week before dipping on Tuesday, when Saudi, Turkish and Pakistani diplomacy with Iran briefly raised hopes of a deal.",
@@ -443,13 +439,13 @@
       ],
       "marketReaction": [
         {
-          "asset": "Brent (Thu settle)",
-          "move": "$114.88 (−0.4%)",
-          "direction": "down"
+          "asset": "Brent (Fri)",
+          "move": "≈ $116–118",
+          "direction": "up"
         },
         {
-          "asset": "WTI (Thu settle)",
-          "move": "$102.00 (−0.8%)",
+          "asset": "Brent (Thu settle)",
+          "move": "$114.88 (−0.4%)",
           "direction": "down"
         },
         {
@@ -557,6 +553,14 @@
       ],
       "sources": [
         {
+          "name": "Reuters via AOL: Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks",
+          "url": "https://www.aol.com/articles/oil-rises-supply-concerns-houthis-022725000.html"
+        },
+        {
+          "name": "The National: Oil set for sharp monthly rise on Hormuz strikes",
+          "url": "https://www.thenationalnews.com/business/markets/2026/10/30/oil-prices-set-for-sharp-monthly-rise-on-hormuz-strikes-and-us-threat-to-hit-iran/"
+        },
+        {
           "name": "Reuters via The Globe and Mail: Oil settles lower as diplomacy hopes offset supply concerns",
           "url": "https://www.theglobeandmail.com/investing/article-oil-prices-fall-as-peace-hopes-offset-fears-of-growing-middle-east/"
         },
@@ -587,17 +591,9 @@
         {
           "name": "Congressional Research Service: Strait of Hormuz",
           "url": "https://www.congress.gov/crs-product/R45281"
-        },
-        {
-          "name": "Wikipedia: 2026 Iran war (timeline)",
-          "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
-        },
-        {
-          "name": "CBS News: September CPI, energy costs soar",
-          "url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
         }
       ],
-      "updateNote": "Settlement: Brent $114.88 (−0.4%), WTI $102.00 (−0.8%), per Reuters; prices recovered most of a $2+ intraday drop."
+      "updateNote": "Friday: Brent back to ~$116–118 after a tanker attack in Hormuz and Iranian claims of mines; set for a fourth straight monthly gain."
     },
     {
       "id": "lagarde-resigns-ecb-president",
