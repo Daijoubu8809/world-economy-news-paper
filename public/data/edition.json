@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "publishedAt": "2026-10-29T19:39:00-04:00",
-  "checkedAt": "2026-10-29T19:39:00-04:00",
-  "nextRunAt": "2026-10-29T21:38:00-04:00",
+  "publishedAt": "2026-10-29T22:06:00-04:00",
+  "checkedAt": "2026-10-29T22:06:00-04:00",
+  "nextRunAt": "2026-10-29T23:38:00-04:00",
   "brief": {
     "title": "Alphabet has its worst day ever, Amazon slides after hours, and a 3.4% GDP print keeps the Fed on hike watch.",
     "bullets": [
       "**Alphabet:** −12.6%, its worst day since listing, on −$9B free cash flow. The Nasdaq fell 1.38% and the S&P 500 0.3%, though four in five S&P stocks rose.",
-      "**Amazon:** AWS grew 39%, but EPS missed and trailing free cash flow hit −$42B; shares are ~7% lower after hours.",
+      "**After hours:** Amazon ~−7% (AWS +39%, but EPS miss and −$42B trailing free cash flow); Intel ~−20% on a weak Q4 outlook. Nasdaq-100 futures are down ~1.7–2%.",
       "**Data:** Q3 GDP +3.4% (vs ~3.1% expected); core PCE 3.1% y/y, in line. It backs a December Fed hike (~80–86% priced).",
       "**Bonds and oil:** the 10-year fell ~8bp to below 5% on the tech selloff. Brent settled at $114.88 as Iran-talks hopes met reports of US strike preparations.",
       "**Tonight:** the BoJ decides around 11 PM ET (hold at 1.25% expected). ECB held at 2.5%; Lagarde leaves Feb. 7."
     ],
-    "mood": "The market is punishing AI cash burn, not the economy: megacaps down, most stocks up."
+    "mood": "The AI cash-burn selloff is spreading after hours; most stocks held up Thursday, but Friday opens with tech under pressure."
   },
   "mustKnow": [
     "alphabet-microsoft-earnings-q3-2026",
@@ -256,7 +256,7 @@
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-29T17:40:00-04:00",
-      "updatedAt": "2026-10-29T17:40:00-04:00",
+      "updatedAt": "2026-10-29T22:06:00-04:00",
       "readMinutes": 4,
       "tldr": [
         "AWS revenue rose **39%** to about **$46B**, its fastest in nearly five years and above ~38% expected. Jassy said he expects AWS to top 40% growth in 2027 and 2028.",
@@ -266,17 +266,33 @@
       "whatHappened": [
         "Amazon reported third-quarter results after the close on Thursday. The bright spot was AWS: revenue up 39% to roughly $46 billion, accelerating from 37% in Q2 and beating the ~38% StreetAccount expectation. CEO Andy Jassy said he expects AWS growth above 40% in 2027 and 2028.",
         "The rest disappointed. EPS of $1.89 missed the $1.97 consensus; revenue of $201.9 billion was just below estimates; advertising revenue of about $19.6 billion trailed the ~$20.8 billion forecast. Trailing-12-month [[free cash flow]] swung to −$42.4 billion from +$14.8 billion a year earlier, driven by AI infrastructure spending, and Amazon reaffirmed [[capex]] of about $220 billion for 2026.",
-        "Guidance: Q4 revenue of $240–247 billion. The stock, already down 4.3% in the regular session on Alphabet's spillover, fell roughly 7% in extended trading (reports range from about 6% to 8%)."
+        "Guidance: Q4 revenue of $240–247 billion. The stock, already down 4.3% in the regular session on Alphabet's spillover, fell roughly 7% in extended trading (reports range from about 6% to 8%).",
+        "**The evening tape:** Intel also reported after the bell. Adjusted EPS of $0.52 beat, but revenue of about $16.5 billion was slightly light and a weak fourth-quarter forecast sent the stock down roughly 20–23% after hours. Together, Amazon and Intel pushed Nasdaq-100 futures down about 1.7% (CNBC) to 2% (Investing.com, 8:47 p.m. ET) and S&P 500 futures about 0.7%, setting up a second day of tech selling on Friday."
       ],
       "marketReaction": [
         {
           "asset": "Amazon (after hours)",
-          "move": "≈ −7% (≈$227)",
+          "move": "≈ −7% (reports range to −12%)",
           "direction": "down"
         },
         {
           "asset": "Amazon (regular close)",
           "move": "−4.3% to $243.79",
+          "direction": "down"
+        },
+        {
+          "asset": "Intel (after hours)",
+          "move": "≈ −20% to −23%",
+          "direction": "down"
+        },
+        {
+          "asset": "Nasdaq-100 futures (evening)",
+          "move": "≈ −1.7% to −2%",
+          "direction": "down"
+        },
+        {
+          "asset": "S&P 500 futures (evening)",
+          "move": "≈ −0.7%",
           "direction": "down"
         },
         {
@@ -353,7 +369,7 @@
       "watchNext": [
         {
           "when": "Fri open",
-          "what": "Whether Amazon's after-hours drop holds and spreads to the AI supply chain."
+          "what": "Whether the ~2% Nasdaq futures drop holds, and whether Thursday's rotation into small caps and health care survives a broader tech selloff."
         },
         {
           "when": "Q4 report",
@@ -361,6 +377,14 @@
         }
       ],
       "sources": [
+        {
+          "name": "CNBC: Nasdaq-100 futures fall as Amazon and Intel swoon (live)",
+          "url": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html"
+        },
+        {
+          "name": "Investing.com: US futures sink, Nasdaq down 2% on Amazon, Intel",
+          "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-sink-nasdaq-down-2-as-amazon-intel-earnings-underwhelm-4985675"
+        },
         {
           "name": "GeekWire: AWS growth hits 39% as Amazon misses on earnings",
           "url": "https://www.geekwire.com/2026/aws-growth-hits-39-its-fastest-in-nearly-five-years-as-amazon-misses-on-earnings/"
@@ -377,7 +401,8 @@
           "name": "CNBC: Amazon Q3 preview, AI spend under scrutiny",
           "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html"
         }
-      ]
+      ],
+      "updateNote": "Evening: Nasdaq-100 futures down ~1.7–2% as Amazon and Intel (−20%+ after hours on a weak Q4 forecast) extend the tech selloff."
     },
     {
       "id": "oil-brent-115-hormuz",
