@@ -1,25 +1,37 @@
 {
   "version": 1,
-  "publishedAt": "2026-10-29T23:39:00-04:00",
-  "checkedAt": "2026-10-29T23:39:00-04:00",
-  "nextRunAt": "2026-10-30T05:38:00-04:00",
+  "publishedAt": "2026-10-30T05:39:00-04:00",
+  "checkedAt": "2026-10-30T05:39:00-04:00",
+  "nextRunAt": "2026-10-30T07:38:00-04:00",
   "brief": {
-    "title": "Alphabet has its worst day ever, Amazon slides after hours, and a 3.4% GDP print keeps the Fed on hike watch.",
+    "title": "The AI cash-burn selloff spreads: Nasdaq futures fall 2% on Amazon and Intel after Alphabet's record drop.",
     "bullets": [
-      "**Alphabet:** −12.6%, its worst day since listing, on −$9B free cash flow. The Nasdaq fell 1.38% and the S&P 500 0.3%, though four in five S&P stocks rose.",
-      "**After hours:** Amazon ~−7% (AWS +39%, but EPS miss and −$42B trailing free cash flow); Intel ~−20% on a weak Q4 outlook. Nasdaq-100 futures are down ~1.7–2%.",
-      "**Data:** Q3 GDP +3.4% (vs ~3.1% expected); core PCE 3.1% y/y, in line. It backs a December Fed hike (~80–86% priced).",
-      "**Bonds and oil:** the 10-year fell ~8bp to below 5% on the tech selloff. Brent settled at $114.88 as Iran-talks hopes met reports of US strike preparations.",
-      "**Central banks:** the BoJ held at 1.25% and reportedly judged underlying inflation at its 2% goal; the ECB held at 2.5%, and Lagarde leaves Feb. 7."
+      "**Tech:** Nasdaq-100 futures −2.2%, S&P 500 futures −1% premarket. Intel ~−25% on a weak outlook; Amazon ~−7% on −$42B trailing free cash flow. Alphabet fell 12.6% Thursday.",
+      "**Macro backdrop:** Q3 GDP +3.4% and core PCE at 3.1% keep a December Fed hike in play (~80–86% priced). The Employment Cost Index lands at 8:30 AM ET.",
+      "**Bonds and oil:** the 10-year closed Thursday just under 5% after an ~8bp rally; Brent settled at $114.88 as Iran talks and strike reports collide.",
+      "**Central banks:** the BoJ held at 1.25% and reportedly judged underlying inflation at its 2% goal; the ECB held at 2.5% with Lagarde leaving Feb. 7.",
+      "**Next week:** midterms Tuesday, October jobs Friday Nov. 6."
     ],
-    "mood": "The AI cash-burn selloff has gone global: Asian chipmakers slide, bonds and the yen catch a bid."
+    "mood": "Risk-off in tech, risk-on for bonds: the market is repricing AI spenders, not the economy."
   },
   "mustKnow": [
-    "alphabet-microsoft-earnings-q3-2026",
     "amazon-q3-2026-earnings",
-    "pce-gdp-preview-october-29"
+    "pce-gdp-preview-october-29",
+    "oil-brent-115-hormuz"
   ],
   "calendar": [
+    {
+      "date": "2026-10-30",
+      "time": "8:30 AM ET",
+      "label": "Q3 Employment Cost Index",
+      "why": "The Fed's favorite wage gauge; consensus ~0.8% q/q after 0.9%. A hot print adds to December hike odds."
+    },
+    {
+      "date": "2026-10-30",
+      "time": "9:45 AM ET",
+      "label": "Chicago PMI (October)",
+      "why": "An early read on manufacturing after a strong Q3 GDP."
+    },
     {
       "date": "2026-11-03",
       "label": "US midterm elections",
@@ -244,44 +256,44 @@
     {
       "id": "amazon-q3-2026-earnings",
       "beat": "markets",
-      "headline": "Amazon falls about 7% after hours as AWS grows 39% but EPS misses and cash flow turns negative",
-      "dek": "The fastest AWS growth in nearly five years wasn't enough. Like Alphabet, Amazon is being judged on whether AI spending leaves any cash behind.",
+      "headline": "Amazon and Intel extend the AI selloff: Nasdaq futures fall ~2% after cash-flow shocks",
+      "dek": "Amazon is down about 7% and Intel about 25% before the bell. About $300 billion of combined value is at risk as investors punish AI spending that isn't producing cash.",
       "importance": 4,
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-29T17:40:00-04:00",
-      "updatedAt": "2026-10-29T23:39:00-04:00",
-      "readMinutes": 4,
+      "updatedAt": "2026-10-30T05:39:00-04:00",
+      "readMinutes": 5,
       "tldr": [
-        "AWS revenue rose **39%** to about **$46B**, its fastest in nearly five years and above ~38% expected. Jassy said he expects AWS to top 40% growth in 2027 and 2028.",
-        "But EPS of **$1.89** missed $1.97, revenue of **$201.9B** (+12%) was just light, and trailing-12-month free cash flow was **−$42.4B** versus +$14.8B a year ago.",
-        "Shares fell about **7%** after hours, after already closing down 4.3% at $243.79. Amazon kept its 2026 capex plan at about **$220B**."
+        "Premarket Friday: Nasdaq-100 futures **−2.2%**, S&P 500 futures **−1%**, Dow futures flat (Reuters, 4 a.m. ET). Amazon is ~**−7%**, Intel ~**−25%**.",
+        "Amazon: AWS grew **39%** (fastest in nearly five years), but EPS missed and trailing free cash flow hit **−$42.4B**; 2026 capex stays at ~$220B.",
+        "Intel: a weak Q4 outlook, citing PC demand, manufacturing bottlenecks and heavy spending. Together the two could shed about **$300B** of value if losses hold."
       ],
       "whatHappened": [
         "Amazon reported third-quarter results after the close on Thursday. The bright spot was AWS: revenue up 39% to roughly $46 billion, accelerating from 37% in Q2 and beating the ~38% StreetAccount expectation. CEO Andy Jassy said he expects AWS growth above 40% in 2027 and 2028.",
         "The rest disappointed. EPS of $1.89 missed the $1.97 consensus; revenue of $201.9 billion was just below estimates; advertising revenue of about $19.6 billion trailed the ~$20.8 billion forecast. Trailing-12-month [[free cash flow]] swung to −$42.4 billion from +$14.8 billion a year earlier, driven by AI infrastructure spending, and Amazon reaffirmed [[capex]] of about $220 billion for 2026.",
         "Guidance: Q4 revenue of $240–247 billion. The stock, already down 4.3% in the regular session on Alphabet's spillover, fell roughly 7% in extended trading (reports range from about 6% to 8%).",
-        "**The evening tape:** Intel also reported after the bell. Adjusted EPS of $0.52 beat, but revenue of about $16.5 billion was slightly light and a weak fourth-quarter forecast sent the stock down roughly 20–23% after hours. Together, Amazon and Intel pushed Nasdaq-100 futures down about 1.7% (CNBC) to 2% (Investing.com, 8:47 p.m. ET) and S&P 500 futures about 0.7%, setting up a second day of tech selling on Friday. In Asia on Friday the selloff hit chipmakers hardest: reports put Korea's Kospi down about 4–5.6% (Samsung and SK Hynix lower), Japan's Nikkei down 1–3% and Taiwan down about 3%, while bonds rallied and the yen firmed. These are intraday figures and vary by source."
+        "**Overnight and Friday morning:** Intel also reported Thursday. Adjusted EPS beat, but a weak Q4 outlook (PC demand, manufacturing bottlenecks, heavy production spending) sent it down roughly 20–25%. By 4 a.m. ET Friday, Reuters had Nasdaq-100 futures down 2.16%, S&P 500 futures down 1% and Dow futures flat, and estimated Amazon and Intel together could lose about $300 billion of value. In Asia, Korea's Kospi fell about 4–5.6% and Japan's Nikkei 1–3% as chipmakers slid; bonds and the yen rallied. Europe's Stoxx 600 was down about 0.25% early, with tech off 2%."
       ],
       "marketReaction": [
         {
-          "asset": "Amazon (after hours)",
-          "move": "≈ −7% (reports range to −12%)",
+          "asset": "Nasdaq-100 futures (Fri a.m.)",
+          "move": "≈ −2.2%",
           "direction": "down"
         },
         {
-          "asset": "Amazon (regular close)",
-          "move": "−4.3% to $243.79",
+          "asset": "S&P 500 futures (Fri a.m.)",
+          "move": "≈ −1%",
           "direction": "down"
         },
         {
-          "asset": "Intel (after hours)",
-          "move": "≈ −20% to −23%",
+          "asset": "Amazon (premarket)",
+          "move": "≈ −7%",
           "direction": "down"
         },
         {
-          "asset": "Nasdaq-100 futures (evening)",
-          "move": "≈ −1.7% to −2%",
+          "asset": "Intel (premarket)",
+          "move": "≈ −25%",
           "direction": "down"
         },
         {
@@ -290,13 +302,8 @@
           "direction": "down"
         },
         {
-          "asset": "Nikkei 225 (Fri)",
-          "move": "≈ −1% to −3%",
-          "direction": "down"
-        },
-        {
-          "asset": "S&P 500 futures (evening)",
-          "move": "≈ −0.7%",
+          "asset": "Stoxx 600 tech (Fri a.m.)",
+          "move": "≈ −2%",
           "direction": "down"
         },
         {
@@ -372,15 +379,23 @@
       ],
       "watchNext": [
         {
-          "when": "Fri open",
-          "what": "Whether the ~2% Nasdaq futures drop holds, and whether Thursday's rotation into small caps and health care survives a broader tech selloff."
+          "when": "Fri 9:30 AM ET",
+          "what": "Whether the ~2% Nasdaq futures drop holds and whether Thursday's rotation (small caps, health care up) survives a broader tech selloff."
         },
         {
-          "when": "Q4 report",
-          "what": "AWS growth vs. Jassy's 40%+ ambition, and any change to capex plans."
+          "when": "Next week",
+          "what": "Analyst capex and cash-flow revisions for the hyperscalers; Nvidia and memory names are the second-order trade."
         }
       ],
       "sources": [
+        {
+          "name": "Reuters via Investing.com: Nasdaq futures tumble as Amazon, Intel deepen AI spending woes",
+          "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes-4986163"
+        },
+        {
+          "name": "Reuters via Investing.com: European shares ease as AI-driven tech selloff deepens",
+          "url": "https://www.investing.com/news/stock-market-news/european-shares-ease-as-aidriven-tech-selloff-deepens-4986074"
+        },
         {
           "name": "CNBC: Nasdaq-100 futures fall as Amazon and Intel swoon (live)",
           "url": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html"
@@ -410,7 +425,7 @@
           "url": "https://www.brecorder.com/news/40446650/stocks-slump-bonds-leap-as-ai-giants-spending-spooks-investors"
         }
       ],
-      "updateNote": "Asia Friday: Kospi down ~4–5.6%, Nikkei ~1–3%, Taiwan ~3% as the chip selloff spreads; bonds and the yen bid."
+      "updateNote": "Friday premarket: Nasdaq-100 futures −2.2%, S&P 500 futures −1%, Intel ~−25%, Amazon ~−7% (Reuters)."
     },
     {
       "id": "oil-brent-115-hormuz",
@@ -1193,93 +1208,6 @@
           "Positioning: steepeners are a crowded trade in a 5% 10-year world."
         ]
       }
-    },
-    {
-      "id": "warsh-fed-meeting-overhaul",
-      "beat": "fed-macro",
-      "headline": "Warsh is cutting the Fed's rate-setting meetings next year to make room for strategy sessions",
-      "dek": "From 2027, one of the eight FOMC meetings will be strategy-only, with no rate decision. A balance-sheet task force reports to the Committee early next year.",
-      "importance": 3,
-      "depth": "brief",
-      "developing": false,
-      "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-28T19:09:00-04:00",
-      "readMinutes": 2,
-      "tldr": [
-        "The FOMC still meets eight times a year, but in 2027 one meeting (two in 2028) will cover broad strategy, with no rate vote or statement expected.",
-        "A task force on the Fed's balance sheet will present recommendations early in 2027, though the timing could slip."
-      ],
-      "whatHappened": [
-        "Alongside Wednesday's decision, Warsh said the Fed will start setting aside one of its eight scheduled meetings next year, and two in 2028, for big-picture strategy. He said those sessions won't include a fed funds vote or a policy statement. What gets disclosed from them is still being decided.",
-        "He also said the Committee will start weighing a task force's recommendations on the [[balance sheet]] in the new year, likely early in the first quarter. Reports put the Fed's holdings around **$6.8 trillion**."
-      ],
-      "background": [
-        "Warsh was a Fed governor from 2006 to 2011 and has long argued that the Fed talks too much and owns too many bonds. He thinks constant signaling boxes policymakers in, and that a giant portfolio distorts markets.",
-        "The Fed stopped [[quantitative tightening]] at the end of 2025 after signs that bank reserves were getting scarce and money-market rates were spiking. That's the constraint the task force runs into: shrink the balance sheet much further and you risk [[reserve scarcity]] again."
-      ],
-      "whyItMatters": [
-        "Fewer decision meetings mean fewer scheduled chances to move. Each remaining one carries more weight, and the data between them matters more.",
-        "The balance sheet is a long-end story. If the Fed shrinks its holdings or tilts them toward short-term bills, private investors have to absorb more long-dated bonds. That's more pressure on term premium just as the 10-year sits near 5%."
-      ],
-      "views": [
-        {
-          "camp": "Reformers",
-          "thesis": "Less talk, more credibility.",
-          "argument": "Markets have grown dependent on Fed hand-holding. Fewer signals force investors to do their own homework, and a dedicated strategy session lets the Committee think beyond the next meeting instead of re-arguing it eight times a year."
-        },
-        {
-          "camp": "Skeptics",
-          "thesis": "Less guidance means more volatility.",
-          "argument": "Take away the anchor and every CPI print becomes a coin flip. A meeting with no statement and an undecided disclosure policy is a step back on transparency. And balance-sheet changes could push long yields higher when they're already near 5%."
-        }
-      ],
-      "interview": {
-        "question": "What's the market impact of the Fed holding fewer rate-setting meetings?",
-        "answer": "Mostly higher volatility around data. With fewer meetings and no forward guidance, the market has to infer the path from CPI, PCE and payrolls, so implied vol around those releases should stay elevated. The bigger long-run story is the [[balance sheet]]. If the task force pushes for a smaller portfolio, that's more duration for private buyers to absorb and upward pressure on term premium. I'd watch what they decide early next year more than the calendar change itself.",
-        "followUp": {
-          "question": "Why can't the Fed just keep shrinking its balance sheet?",
-          "answer": "Because the banking system needs a minimum level of reserves to run smoothly. When reserves get too low, overnight funding rates spike, which is what pushed the Fed to end QT in late 2025. The real question is how close to that floor the Fed is willing to run."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "balance sheet",
-          "definition": "Everything the Fed owns (mostly Treasuries and mortgage bonds) and owes (mostly bank reserves and currency). It ballooned during QE and is around $6.8 trillion now.",
-          "example": "A smaller Fed balance sheet means more bonds that private investors have to hold."
-        },
-        {
-          "term": "quantitative tightening",
-          "definition": "QT: shrinking the Fed's bond holdings by letting them mature without reinvesting. It drains reserves from the banking system and is the opposite of QE."
-        },
-        {
-          "term": "reserve scarcity",
-          "definition": "When banks' reserves at the Fed get low enough that short-term funding markets start to strain. A telltale sign is overnight rates jumping above the Fed's target range."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Early 2027",
-          "what": "Balance-sheet task force recommendations go to the FOMC."
-        },
-        {
-          "when": "Dec 8–9",
-          "what": "The last meeting of 2026, and a live one for a hike."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Reuters via Investing.com: Fed to weigh balance sheet early next year",
-          "url": "https://www.investing.com/news/economy-news/feds-policy-committee-to-weigh-balance-sheet-issues-early-next-year-warsh-says-4980804"
-        },
-        {
-          "name": "Yahoo Finance: Warsh announces changes to FOMC meetings",
-          "url": "https://finance.yahoo.com/economy/policy/articles/feds-warsh-announces-changes-future-204428262.html"
-        },
-        {
-          "name": "CNBC: Warsh's regime change at the Fed",
-          "url": "https://www.cnbc.com/2026/09/25/kevin-warsh-fed-interest-rates-balance-sheet.html"
-        }
-      ]
     },
     {
       "id": "ecb-boj-decisions-this-week",
