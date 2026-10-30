@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "publishedAt": "2026-10-30T09:39:00-04:00",
-  "checkedAt": "2026-10-30T09:39:00-04:00",
-  "nextRunAt": "2026-10-30T11:38:00-04:00",
+  "publishedAt": "2026-10-30T11:39:00-04:00",
+  "checkedAt": "2026-10-30T11:39:00-04:00",
+  "nextRunAt": "2026-10-30T13:38:00-04:00",
   "brief": {
     "title": "The AI cash-burn selloff spreads: Nasdaq futures fall 2% on Amazon and Intel after Alphabet's record drop.",
     "bullets": [
-      "**Tech:** the Nasdaq opened ~2.4% lower and the S&P 500 ~1.2% as Intel (~−25%) and Amazon (~−7%) extend the AI cash-burn selloff after Alphabet's record 12.6% drop.",
+      "**Tech:** the Nasdaq opened ~2.4% lower and the S&P 500 ~1.2%; Intel is down ~28% and Amazon ~7% as the AI cash-burn selloff extends after Alphabet's record 12.6% drop.",
       "**Macro:** Q3 GDP +3.4%, core PCE 3.1%, and Friday's Employment Cost Index +0.8% (in line) keep a December Fed hike in play (~80–86% priced).",
       "**Bonds and oil:** the 10-year is ~4.93% and the 2-year ~4.6% as money flees tech into Treasuries. Brent settled Thursday at $114.88.",
       "**Central banks:** the BoJ held at 1.25% and reportedly judged underlying inflation at its 2% goal; the ECB held at 2.5% with Lagarde leaving Feb. 7.",
@@ -20,12 +20,6 @@
     "oil-brent-115-hormuz"
   ],
   "calendar": [
-    {
-      "date": "2026-10-30",
-      "time": "9:45 AM ET",
-      "label": "Chicago PMI (October)",
-      "why": "An early read on manufacturing after a strong Q3 GDP."
-    },
     {
       "date": "2026-11-03",
       "label": "US midterm elections",
@@ -256,7 +250,7 @@
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-29T17:40:00-04:00",
-      "updatedAt": "2026-10-30T09:39:00-04:00",
+      "updatedAt": "2026-10-30T11:39:00-04:00",
       "readMinutes": 5,
       "tldr": [
         "Premarket Friday: Nasdaq-100 futures **−2.2%**, S&P 500 futures **−1%**, Dow futures flat (Reuters, 4 a.m. ET). Amazon is ~**−7%**, Intel ~**−25%**.",
@@ -267,7 +261,7 @@
         "Amazon reported third-quarter results after the close on Thursday. The bright spot was AWS: revenue up 39% to roughly $46 billion, accelerating from 37% in Q2 and beating the ~38% StreetAccount expectation. CEO Andy Jassy said he expects AWS growth above 40% in 2027 and 2028.",
         "The rest disappointed. EPS of $1.89 missed the $1.97 consensus; revenue of $201.9 billion was just below estimates; advertising revenue of about $19.6 billion trailed the ~$20.8 billion forecast. Trailing-12-month [[free cash flow]] swung to −$42.4 billion from +$14.8 billion a year earlier, driven by AI infrastructure spending, and Amazon reaffirmed [[capex]] of about $220 billion for 2026.",
         "Guidance: Q4 revenue of $240–247 billion. The stock, already down 4.3% in the regular session on Alphabet's spillover, fell roughly 7% in extended trading (reports range from about 6% to 8%).",
-        "**Overnight and Friday morning:** Intel also reported Thursday. Adjusted EPS beat, but a weak Q4 outlook (PC demand, manufacturing bottlenecks, heavy production spending) sent it down roughly 20–25%. By 4 a.m. ET Friday, Reuters had Nasdaq-100 futures down 2.16%, S&P 500 futures down 1% and Dow futures flat, and estimated Amazon and Intel together could lose about $300 billion of value. In Asia, Korea's Kospi fell about 4–5.6% and Japan's Nikkei 1–3% as chipmakers slid; bonds and the yen rallied. Europe's Stoxx 600 was down about 0.25% early, with tech off 2%. At the open, a Yahoo Finance snapshot had the Nasdaq Composite down about 2.4% and the S&P 500 about 1.2%, with the Dow roughly flat."
+        "**Overnight and Friday morning:** Intel also reported Thursday. Adjusted EPS beat, but a weak Q4 outlook (PC demand, manufacturing bottlenecks, heavy production spending) sent it down roughly 20–25%. By 4 a.m. ET Friday, Reuters had Nasdaq-100 futures down 2.16%, S&P 500 futures down 1% and Dow futures flat, and estimated Amazon and Intel together could lose about $300 billion of value. In Asia, Korea's Kospi fell about 4–5.6% and Japan's Nikkei 1–3% as chipmakers slid; bonds and the yen rallied. Europe's Stoxx 600 was down about 0.25% early, with tech off 2%. At the open, a Yahoo Finance snapshot had the Nasdaq Composite down about 2.4% and the S&P 500 about 1.2%, with the Dow roughly flat. By late morning Intel was down about 28%, near $66, and the Dow about 0.6% lower, per Yahoo Finance's live coverage."
       ],
       "marketReaction": [
         {
@@ -281,13 +275,13 @@
           "direction": "down"
         },
         {
-          "asset": "Amazon (premarket)",
-          "move": "≈ −7%",
+          "asset": "Dow (late morning)",
+          "move": "≈ −0.6%",
           "direction": "down"
         },
         {
           "asset": "Intel (Fri)",
-          "move": "≈ −25%",
+          "move": "≈ −28% (≈$66)",
           "direction": "down"
         },
         {
@@ -423,7 +417,7 @@
           "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html"
         }
       ],
-      "updateNote": "At the open: Nasdaq Composite about −2.4%, S&P 500 about −1.2%; Intel down more than 25%."
+      "updateNote": "Late morning: Intel down about 28% (near $66), on pace for one of its worst days; the Dow is about 0.6% lower as the selloff broadens."
     },
     {
       "id": "oil-brent-115-hormuz",
