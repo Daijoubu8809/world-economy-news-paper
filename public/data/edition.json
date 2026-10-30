@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "publishedAt": "2026-10-30T13:39:00-04:00",
-  "checkedAt": "2026-10-30T13:39:00-04:00",
-  "nextRunAt": "2026-10-30T15:38:00-04:00",
+  "publishedAt": "2026-10-30T15:39:00-04:00",
+  "checkedAt": "2026-10-30T15:39:00-04:00",
+  "nextRunAt": "2026-10-30T17:38:00-04:00",
   "brief": {
     "title": "The AI selloff deepens: the Nasdaq sinks ~3% as Intel matches its worst day since 1974, and oil rebounds on Hormuz.",
     "bullets": [
-      "**Tech:** Nasdaq ~−3%, S&P 500 ~−1.2% to −1.6% at midday. Intel ~−30% on weak guidance; Amazon ~−7% on −$42B trailing free cash flow.",
+      "**Tech:** the Nasdaq is down ~3.3–4% and the S&P 500 ~1.3–2.1% into the close. Intel ~−30% on weak guidance; Amazon ~−7% on −$42B trailing free cash flow.",
       "**Macro:** Q3 GDP +3.4%, core PCE 3.1%, and Friday's Employment Cost Index +0.8% (in line) keep a December Fed hike in play (~80–86% priced).",
       "**Bonds and oil:** Treasuries are rallying as money flees tech (10-year ~4.93% earlier). Brent rebounded to ~$116–118 after a Hormuz tanker attack.",
       "**Central banks:** the BoJ held at 1.25% and reportedly judged underlying inflation at its 2% goal; the ECB held at 2.5% with Lagarde leaving Feb. 7.",
@@ -244,16 +244,16 @@
     {
       "id": "amazon-q3-2026-earnings",
       "beat": "markets",
-      "headline": "Nasdaq sinks ~3% as Intel matches its worst day since 1974 and Amazon slides on cash burn",
-      "dek": "Intel's weak guidance and Amazon's negative free cash flow extend the AI selloff into a second day. The S&P 500 is down about 1.5%.",
+      "headline": "Nasdaq sinks 3–4% as Intel matches its worst day since 1974 and Amazon slides on cash burn",
+      "dek": "Intel's weak guidance and Amazon's negative free cash flow turn the AI selloff into a two-day rout. The S&P 500 is down roughly 1.5–2% into the close.",
       "importance": 4,
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-29T17:40:00-04:00",
-      "updatedAt": "2026-10-30T13:39:00-04:00",
+      "updatedAt": "2026-10-30T15:39:00-04:00",
       "readMinutes": 5,
       "tldr": [
-        "Friday midday: the Nasdaq is down about **3%** and the S&P 500 about **1.2–1.6%** as the AI selloff enters a second day.",
+        "Friday afternoon: the Nasdaq is down about **3.3%** (some reports near 4%) and the S&P 500 about **1.3–2.1%**, a second straight day of AI-driven selling.",
         "Intel is down about **30%**, matching its record one-day drop from July 1974, after guiding Q4 revenue to about **$15.5B** versus roughly **$17B** expected (Benzinga).",
         "Amazon (~**−7%**): AWS grew **39%**, but EPS missed and trailing free cash flow hit **−$42.4B** while 2026 capex stays near $220B."
       ],
@@ -261,17 +261,17 @@
         "Amazon reported third-quarter results after the close on Thursday. The bright spot was AWS: revenue up 39% to roughly $46 billion, accelerating from 37% in Q2 and beating the ~38% StreetAccount expectation. CEO Andy Jassy said he expects AWS growth above 40% in 2027 and 2028.",
         "The rest disappointed. EPS of $1.89 missed the $1.97 consensus; revenue of $201.9 billion was just below estimates; advertising revenue of about $19.6 billion trailed the ~$20.8 billion forecast. Trailing-12-month [[free cash flow]] swung to −$42.4 billion from +$14.8 billion a year earlier, driven by AI infrastructure spending, and Amazon reaffirmed [[capex]] of about $220 billion for 2026.",
         "Guidance: Q4 revenue of $240–247 billion. The stock, already down 4.3% in the regular session on Alphabet's spillover, fell roughly 7% in extended trading (reports range from about 6% to 8%).",
-        "**Overnight and Friday morning:** Intel also reported Thursday. Adjusted EPS beat, but a weak Q4 outlook (PC demand, manufacturing bottlenecks, heavy production spending) sent it down roughly 20–25%. By 4 a.m. ET Friday, Reuters had Nasdaq-100 futures down 2.16%, S&P 500 futures down 1% and Dow futures flat, and estimated Amazon and Intel together could lose about $300 billion of value. In Asia, Korea's Kospi fell about 4–5.6% and Japan's Nikkei 1–3% as chipmakers slid; bonds and the yen rallied. Europe's Stoxx 600 was down about 0.25% early, with tech off 2%. At the open, a Yahoo Finance snapshot had the Nasdaq Composite down about 2.4% and the S&P 500 about 1.2%, with the Dow roughly flat. By late morning Intel was down about 28%, near $66, and the Dow about 0.6% lower, per Yahoo Finance's live coverage. **Midday:** the Nasdaq Composite was down about 3% (TheStreet) and the Nasdaq 100 about 3.2%, on pace for its worst session since June, per Benzinga, which had the S&P 500 down 1.6% near 7,596. Intel was down about 29.6%, matching its July 1974 drop, the steepest in its history, and erasing about $144 billion of value. Benzinga said Intel guided Q4 revenue to about $15.5 billion and adjusted EPS to 25 cents, versus roughly $17 billion and 43 cents expected."
+        "**Overnight and Friday morning:** Intel also reported Thursday. Adjusted EPS beat, but a weak Q4 outlook (PC demand, manufacturing bottlenecks, heavy production spending) sent it down roughly 20–25%. By 4 a.m. ET Friday, Reuters had Nasdaq-100 futures down 2.16%, S&P 500 futures down 1% and Dow futures flat, and estimated Amazon and Intel together could lose about $300 billion of value. In Asia, Korea's Kospi fell about 4–5.6% and Japan's Nikkei 1–3% as chipmakers slid; bonds and the yen rallied. Europe's Stoxx 600 was down about 0.25% early, with tech off 2%. At the open, a Yahoo Finance snapshot had the Nasdaq Composite down about 2.4% and the S&P 500 about 1.2%, with the Dow roughly flat. By late morning Intel was down about 28%, near $66, and the Dow about 0.6% lower, per Yahoo Finance's live coverage. **Midday:** the Nasdaq Composite was down about 3% (TheStreet) and the Nasdaq 100 about 3.2%, on pace for its worst session since June, per Benzinga, which had the S&P 500 down 1.6% near 7,596. Intel was down about 29.6%, matching its July 1974 drop, the steepest in its history, and erasing about $144 billion of value. Benzinga said Intel guided Q4 revenue to about $15.5 billion and adjusted EPS to 25 cents, versus roughly $17 billion and 43 cents expected. Into the afternoon the selloff intensified: Yahoo Finance had the Nasdaq down 3.3% and TheStreet nearly 4%, with the S&P 500 between 1.3% and 2.1% lower depending on the snapshot."
       ],
       "marketReaction": [
         {
-          "asset": "Nasdaq Composite (midday)",
-          "move": "≈ −3%",
+          "asset": "Nasdaq Composite (afternoon)",
+          "move": "≈ −3.3% to −4%",
           "direction": "down"
         },
         {
-          "asset": "S&P 500 (midday)",
-          "move": "≈ −1.2% to −1.6%",
+          "asset": "S&P 500 (afternoon)",
+          "move": "≈ −1.3% to −2.1%",
           "direction": "down"
         },
         {
@@ -376,6 +376,10 @@
           "url": "https://www.benzinga.com/markets/equities/26/10/62750549/stock-market-today-intel-worst-day-on-record-chip-stocks-nasdaq"
         },
         {
+          "name": "Yahoo Finance: Nasdaq dives over 3% as AI reckoning grips Wall Street (live)",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-131609630.html"
+        },
+        {
           "name": "TheStreet: Nasdaq sinks 3% as investors retreat from AI names",
           "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-30-2026"
         },
@@ -406,13 +410,9 @@
         {
           "name": "GeekWire: AWS growth hits 39% as Amazon misses on earnings",
           "url": "https://www.geekwire.com/2026/aws-growth-hits-39-its-fastest-in-nearly-five-years-as-amazon-misses-on-earnings/"
-        },
-        {
-          "name": "Benzinga: Amazon delivers Q3 double miss, AWS accelerates",
-          "url": "https://www.benzinga.com/markets/earnings/26/10/62719400/amazon-delivers-q3-double-miss-aws-growth-accelerates-shares-drop"
         }
       ],
-      "updateNote": "Midday Friday: Nasdaq ~−3%, S&P 500 ~−1.2% to −1.6%; Intel ~−30%, matching its record 1974 drop, after guiding Q4 well below forecasts."
+      "updateNote": "Afternoon: the selloff intensified, with the Nasdaq down ~3.3% to nearly 4% and the S&P 500 ~1.3–2.1%."
     },
     {
       "id": "oil-brent-115-hormuz",
