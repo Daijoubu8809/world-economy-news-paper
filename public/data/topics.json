@@ -48,7 +48,7 @@
     {
       "id": "energy",
       "label": "Energy",
-      "enabled": false,
+      "enabled": true,
       "color": "#B8862B",
       "covers": "Sector coverage: OPEC+ decisions, oil majors and E&Ps, refiners and crack spreads, natural gas and LNG, power demand from data centers, utilities, energy M&A and capex, the energy transition as a market story.",
       "lens": "How an energy-sector analyst or commodities trader reads it: supply/demand balance, inventories, curve structure (backwardation/contango), and which equities or credits are exposed.",
@@ -63,7 +63,7 @@
     {
       "id": "industrials",
       "label": "Industrials",
-      "enabled": false,
+      "enabled": true,
       "color": "#5B7A55",
       "covers": "Sector coverage: aerospace and defense, machinery, transports (rails, trucking, airlines), building products, the industrial cycle (ISM, orders, capex), reshoring and tariffs as they hit supply chains, and industrials earnings.",
       "lens": "Where we are in the industrial cycle and who's exposed: order books, margins, pricing power, and how macro (rates, tariffs, defense budgets) flows through to the sector.",
@@ -73,6 +73,23 @@
         "aerospace defense earnings Boeing",
         "rail trucking freight volumes",
         "tariffs supply chain manufacturers"
+      ]
+    },
+    {
+      "id": "world",
+      "label": "The World",
+      "enabled": true,
+      "color": "#2E7D7A",
+      "covers": "Major international news in the style of a newspaper's world section: wars and ceasefires, diplomacy and summits, elections and changes of government abroad, coups and protests, disasters and humanitarian crises, and big moves by China, Russia, Europe, the Middle East, India, Latin America and Africa. Cover the most important 2–4 world stories of the day even when they aren't market stories.",
+      "lens": "Be the reader's world-news briefing so they can talk about current events with anyone: what happened, why it matters, and the background to understand it. Add one line on market relevance only when there genuinely is some (oil, FX, sovereign bonds, sanctions); leave market-driven geopolitics to the Policy beat.",
+      "queries": [
+        "world news today",
+        "international news top stories",
+        "Europe politics news",
+        "China news today",
+        "Middle East news today",
+        "Russia Ukraine latest",
+        "election results abroad"
       ]
     }
   ]
