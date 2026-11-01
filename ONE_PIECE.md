@@ -1,17 +1,29 @@
 # One Piece field guide for the editor
 
-The reader is a One Piece fan. The paper's flavor setting is **medium**:
+The reader is a One Piece fan. The paper's flavor setting is **high**: lean into it, but every line still
+has to be good finance.
 
-- About **one "Grand Line translation" callout per full story**, and at least half of the full stories
-  should have one. Brief stories can skip it.
-- **Never** use it in headlines, deks, TL;DRs, interview answers, or trade pitches. Those have to work in a
-  real interview.
+**Where it goes:**
+- A **"Grand Line translation" callout on every full story**, and on most brief stories too (a 2–3 sentence
+  one is fine for a brief). Skip it only when no analogy genuinely teaches the mechanism.
+- The brief's **`mood`** (shown as "Sea conditions") should usually carry a light One Piece image: "Calm Belt
+  for stocks, Aqua Laguna warnings for oil." Keep it one line and still readable as a market call.
+- **Background** and **Why markets care** may use a passing One Piece phrase when it sharpens the point
+  ("this is Chopper's 100-Berry bounty: the market has the wrong model").
+- On The World beat, the callout can compare a real-world power shift to one from the story (Reverie,
+  the Warlords' abolition, the fall of an Emperor), as long as it explains the real event correctly.
+
+**Where it never goes:** headlines, deks, TL;DRs, interview answers, trade pitches, the calendar and the
+brief's title and bullets. Those have to work in a real interview or at a glance.
+
+**Rules that don't change:**
 - An analogy has to **teach the mechanism**, not just name-drop. Ask yourself: *if they only remembered
   the One Piece version, would they understand the finance correctly?* If not, cut it.
 - Use **only canon you are sure of**. This file lists the safe facts. If you're not sure a detail is
   canon, leave it out. A fan will notice a wrong fact right away, and it ruins the trust.
-- Don't repeat the same analogy two runs in a row for the same story. Vary it.
-- Keep it to 2–5 sentences, written like a friend who's seen every arc, not like a meme page.
+- Don't repeat the same analogy two runs in a row for the same story, and don't use the same mapping for
+  two stories in one edition. Vary it.
+- Write like a friend who's seen every arc, not like a meme page.
 
 ---
 

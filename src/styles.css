@@ -1454,3 +1454,107 @@ button {
 .body-list li {
   margin-bottom: 8px;
 }
+
+/* ---------- One Piece line art ---------- */
+
+.nameplate {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25em;
+}
+
+.nameplate-coo {
+  flex: none;
+  width: 1.05em;
+  height: 1.05em;
+  color: var(--accent);
+}
+
+.masthead.is-compact .nameplate-coo {
+  width: 1.1em;
+  height: 1.1em;
+}
+
+.masthead-waves {
+  display: block;
+  width: 100%;
+  height: 8px;
+  margin-top: 4px;
+  color: var(--blue);
+  opacity: 0.55;
+}
+
+.masthead.is-compact .masthead-waves {
+  display: none;
+}
+
+.kicker-art,
+.label-art {
+  vertical-align: -3px;
+  margin-right: 4px;
+}
+
+.label-art {
+  color: var(--accent);
+}
+
+.beat {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.beat-glyph {
+  flex: none;
+}
+
+.rank {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 44px;
+}
+
+.rank-wanted {
+  font-family: var(--sans);
+  font-size: 8.5px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  margin-bottom: 2px;
+}
+
+.must > li {
+  margin-top: 10px;
+  padding: 0 14px;
+  background: linear-gradient(180deg, #fbf5e6, #fffdf6);
+  border: 1px solid #e6dcc4;
+  border-radius: 6px;
+  box-shadow: 0 1px 0 rgba(31, 30, 29, 0.04);
+}
+
+@media (min-width: 760px) {
+  .must > li {
+    margin-top: 12px;
+    border: 1px solid #e6dcc4;
+  }
+}
+
+.footer-coo {
+  vertical-align: -6px;
+  color: var(--accent);
+}
+
+@media (max-width: 759px) {
+  .masthead:not(.is-compact) .nameplate {
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .masthead:not(.is-compact) .nameplate-coo {
+    width: 0.9em;
+    height: 0.9em;
+  }
+}

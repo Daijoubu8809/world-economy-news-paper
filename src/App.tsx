@@ -3,6 +3,7 @@ import { useEdition, useTopics } from './lib/edition.ts';
 import { href, useRoute, type Route } from './lib/router.ts';
 import { clockTime, editionName, longDate } from './lib/time.ts';
 import { LogPoseChip } from './components/ui.tsx';
+import { NewsCoo, Waves } from './components/art.tsx';
 import { Today } from './screens/Today.tsx';
 import { StoryPage } from './screens/Story.tsx';
 import { GlossaryPage } from './screens/Glossary.tsx';
@@ -63,7 +64,10 @@ export function App() {
           <LogPoseChip />
         </div>
         <a href={href.today} className="nameplate">
-          <span className="nameplate-the">The</span> World Economy News Paper
+          <NewsCoo className="nameplate-coo" />
+          <span>
+            <span className="nameplate-the">The</span> World Economy News Paper
+          </span>
         </a>
         <div className="dateline">
           <span>{longDate()}</span>
@@ -76,6 +80,7 @@ export function App() {
             </>
           )}
         </div>
+        <Waves className="masthead-waves" />
       </header>
 
       <main className="main">
@@ -94,7 +99,10 @@ export function App() {
             Checked {clockTime(edition.checkedAt)}
             {edition.nextRunAt && <> · next delivery around {clockTime(edition.nextRunAt)}</>}
           </p>
-          <p>Written by Claude from public reporting. Check the linked sources before quoting a number.</p>
+          <p>
+            <NewsCoo size={22} className="footer-coo" /> Delivered by News Coo. Written by Claude from public reporting; check the linked sources before quoting a
+            number.
+          </p>
         </footer>
       )}
 

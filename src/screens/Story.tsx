@@ -6,6 +6,7 @@ import { markRead, freshness, readStore } from '../lib/visits.ts';
 import { addTerms, glossaryStore } from '../lib/glossary.ts';
 import { termKey } from '../lib/markup.ts';
 import { BeatTag, FreshBadge, Paragraphs, PaywallMark, Rich, Section } from '../components/ui.tsx';
+import { StrawHat } from '../components/art.tsx';
 
 interface Props {
   edition: Edition;
@@ -97,7 +98,9 @@ export function StoryPage({ edition, id, topics }: Props) {
 
       {story.grandLine && (
         <aside className="grandline">
-          <p className="grandline-kicker">Grand Line translation</p>
+          <p className="grandline-kicker">
+            <StrawHat size={18} className="kicker-art" /> Grand Line translation
+          </p>
           <h3>{story.grandLine.title}</h3>
           <p>
             <Rich text={story.grandLine.body} />

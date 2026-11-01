@@ -6,6 +6,7 @@ import { freshness, readStore } from '../lib/visits.ts';
 import { useStore } from '../lib/storage.ts';
 import { plain } from '../lib/markup.ts';
 import { BeatTag, FreshBadge, Rich } from '../components/ui.tsx';
+import { LogPoseIcon, StrawHat, WantedMark } from '../components/art.tsx';
 
 interface Props {
   edition: Edition;
@@ -31,7 +32,9 @@ export function Today({ edition, topics }: Props) {
     <div className="today">
       <div className="today-main">
         <section className="brief" aria-labelledby="brief-title">
-          <p className="kicker">The 60-second version</p>
+          <p className="kicker">
+            <StrawHat size={16} className="kicker-art" /> Morgans’ front page · the 60-second version
+          </p>
           <h1 id="brief-title" className="brief-title">
             <Rich text={edition.brief.title} />
           </h1>
@@ -44,7 +47,7 @@ export function Today({ edition, topics }: Props) {
           </ul>
           {edition.brief.mood && (
             <p className="brief-mood">
-              <span>Desk mood</span> {edition.brief.mood}
+              <span>Sea conditions</span> {edition.brief.mood}
             </p>
           )}
         </section>
@@ -52,7 +55,7 @@ export function Today({ edition, topics }: Props) {
         {!beat && (
           <section aria-labelledby="must-title">
             <h2 id="must-title" className="rule-label">
-              Must-know today
+              <WantedMark className="label-art" /> Must-know today · the bounty board
             </h2>
             <ol className="must">
               {mustKnow.map((s, i) => (
@@ -110,7 +113,7 @@ export function Today({ edition, topics }: Props) {
       <aside className="today-side">
         <section className="horizon" aria-labelledby="horizon-title">
           <h2 id="horizon-title" className="rule-label">
-            On the horizon
+            <LogPoseIcon className="label-art" /> Next islands on the Log Pose
           </h2>
           <ul>
             {edition.calendar.map((c, i) => (
@@ -148,7 +151,12 @@ function StoryLink({
   const f = freshness(story, read);
   return (
     <a href={href.story(story.id)} className={`story-link ${big ? 'is-big' : ''} ${f === 'read' ? 'is-read' : ''}`}>
-      {rank && <span className="rank">{rank}</span>}
+      {rank && (
+        <span className="rank" aria-label={`Number ${rank}`}>
+          <span className="rank-wanted">Wanted</span>
+          {rank}
+        </span>
+      )}
       <span className="story-link-body">
         <span className="meta">
           <BeatTag topic={topics.get(story.beat)} fallback={story.beat} />

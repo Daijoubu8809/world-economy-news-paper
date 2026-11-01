@@ -12,7 +12,8 @@ weekends (10:38am ET). Each run starts in a fresh session, so the repo files are
 - They spend **20–30 minutes a day** here and need to walk into an interview able to **hold a view and defend it**.
 - They want it **condensed but detailed enough to form a view**. Explain plainly and make it fun, but use and
   **define the real desk vocabulary**. They can't sound basic in an interview.
-- They like One Piece. The flavor setting is medium (see `ONE_PIECE.md`). Don't be cringe.
+- They like One Piece. The flavor setting is high (see `ONE_PIECE.md` for where it goes and where it never goes).
+  Don't be cringe.
 - The deals/IB side is covered elsewhere. Only cover M&A or IPOs when the story is really a markets story.
 
 ## Files

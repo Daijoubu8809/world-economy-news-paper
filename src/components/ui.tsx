@@ -4,6 +4,7 @@ import type { Topic } from '../lib/schema.ts';
 import { GOAL_SEC, STRETCH_SEC, formatClock, timerStore } from '../lib/timer.ts';
 import type { Freshness } from '../lib/visits.ts';
 import { href } from '../lib/router.ts';
+import { BeatGlyph } from './art.tsx';
 
 export function jumpToTerm(term: string) {
   const el = document.getElementById(`term-${termKey(term)}`);
@@ -87,6 +88,7 @@ export function Paragraphs({ items }: { items: string[] }) {
 export function BeatTag({ topic, fallback }: { topic?: Topic; fallback: string }) {
   return (
     <span className="beat" style={{ color: topic?.color }}>
+      <BeatGlyph beat={topic?.id ?? fallback} />
       {topic?.label ?? fallback}
     </span>
   );
