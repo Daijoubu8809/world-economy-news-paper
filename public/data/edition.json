@@ -1,35 +1,57 @@
 {
   "version": 1,
-  "publishedAt": "2026-10-30T17:39:00-04:00",
-  "checkedAt": "2026-10-30T17:39:00-04:00",
-  "nextRunAt": "2026-10-30T19:38:00-04:00",
+  "publishedAt": "2026-11-01T11:40:00-05:00",
+  "checkedAt": "2026-11-01T11:40:00-05:00",
+  "nextRunAt": "2026-11-01T13:38:00-05:00",
   "brief": {
-    "title": "A brutal end to October: the Nasdaq falls 2.9% as Intel sinks 28.6%, while oil jumps on a Hormuz tanker attack.",
+    "title": "After a brutal AI selloff and a 15% oil surge in October, election week brings payrolls, refunding and Iran risk.",
     "bullets": [
-      "**Tech:** Nasdaq −2.86% (worst day since June, worst month since March 2025), S&P 500 ~−1.8–2.1%. Intel −28.6%, worst day since 1974; Amazon ~−7%.",
-      "**The theme:** Alphabet (−12.6% Thursday), Amazon and Intel all showed AI spending outrunning cash. The market is repricing the spenders, not the economy.",
-      "**Bonds:** the 10-year closed near 4.90%, down about 0.4 points in October, as money fled tech into Treasuries.",
-      "**Oil:** WTI settled at $104.12 (+2.1%) after a tanker was hit by limpet mines in Hormuz; Brent +13.6% and WTI +15.2% in October.",
-      "**Next week:** midterms Tuesday, October payrolls Friday Nov. 6. December Fed hike odds were ~80–86% after 3.4% GDP."
+      "**Last week:** the Nasdaq fell 2.86% Friday (worst month since March 2025) as Intel sank 28.6%, Alphabet 12.6% and Amazon ~7% on AI cash burn.",
+      "**Oil:** WTI settled at $104.12; over the weekend a supertanker hit a mine in Hormuz and Khamenei warned against new attacks. Reports flag possible US strikes as soon as Nov. 4.",
+      "**Midterms Tuesday:** markets price a Democratic sweep at ~70%; House ~90%+, Senate ~65%.",
+      "**Macro:** Q3 GDP +3.4%, core PCE 3.1%; the 10-year ended October near 4.90%. December Fed hike odds were ~80–86%.",
+      "**This week:** ISM Mon, Apple Mon night, refunding Wed, BoE Thu, payrolls Fri (consensus ~+55k)."
     ],
-    "mood": "Risk-off into the weekend: tech is being repriced, bonds rally, and oil keeps stagflation risk alive."
+    "mood": "Weekend calm before a loaded week: tech sentiment is bruised, oil risk is rising, and the Fed still leans hawkish."
   },
   "mustKnow": [
     "amazon-q3-2026-earnings",
-    "alphabet-microsoft-earnings-q3-2026",
-    "oil-brent-115-hormuz"
+    "oil-brent-115-hormuz",
+    "week-ahead-nov-2-2026"
   ],
   "calendar": [
     {
+      "date": "2026-11-02",
+      "time": "10:00 AM ET",
+      "label": "ISM manufacturing (October)",
+      "why": "Forecast ~54.7 after 54.5; a check on growth after 3.4% GDP."
+    },
+    {
+      "date": "2026-11-02",
+      "time": "After close",
+      "label": "Apple and Palantir earnings",
+      "why": "The next test of whether markets reward or punish AI-related spending."
+    },
+    {
       "date": "2026-11-03",
       "label": "US midterm elections",
-      "why": "Prediction markets see a Democratic House; the Senate is the swing. Reported post-election Iran strikes make it an oil event too."
+      "why": "A Democratic sweep is ~70% priced; a Republican Senate hold is the surprise scenario."
+    },
+    {
+      "date": "2026-11-04",
+      "label": "Treasury quarterly refunding; ISM services",
+      "why": "Coupon sizes drive long-end supply and term premium. Reports also flag a possible US strike window on Iran."
+    },
+    {
+      "date": "2026-11-05",
+      "label": "Bank of England decision",
+      "why": "Another central bank weighing an energy-driven inflation spike."
     },
     {
       "date": "2026-11-06",
       "time": "8:30 AM ET",
       "label": "October jobs report",
-      "why": "The last payrolls print before the Dec. 8–9 FOMC."
+      "why": "Consensus ~+55k, 4.2% unemployment. The last payrolls before the Dec. 8–9 FOMC."
     },
     {
       "date": "2026-11-18",
@@ -38,21 +60,10 @@
       "why": "How many officials leaned toward the two hawkish dissenters."
     },
     {
-      "date": "2026-11-25",
-      "time": "8:30 AM ET",
-      "label": "Q3 GDP, second estimate",
-      "why": "Checks whether the 3.4% advance print holds up."
-    },
-    {
       "date": "2026-12-09",
       "time": "2:00 PM ET",
       "label": "FOMC decision + dot plot",
-      "why": "Roughly 80–86% priced for a 25bp hike."
-    },
-    {
-      "date": "2026-12-17",
-      "label": "EU leaders' summit (Dec. 17–18)",
-      "why": "Leaders aim to settle Lagarde's successor and two other ECB board seats as a package."
+      "why": "Roughly 80–86% priced for a 25bp hike as of last week."
     }
   ],
   "stories": [
@@ -65,7 +76,7 @@
       "depth": "full",
       "developing": false,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-29T05:40:00-04:00",
+      "updatedAt": "2026-11-01T11:40:00-05:00",
       "readMinutes": 5,
       "tldr": [
         "The Fed left rates at **3.75%–4.00%**, one meeting after September's quarter-point hike, its first increase in more than three years.",
@@ -197,16 +208,12 @@
       ],
       "watchNext": [
         {
-          "when": "Thu 8:30 AM ET",
-          "what": "September PCE and the first estimate of Q3 GDP. Consensus has core PCE around 3.1% year over year."
-        },
-        {
           "when": "Fri Nov 6",
-          "what": "October jobs report, the last payrolls print before December."
+          "what": "October jobs report: consensus about +55k payrolls (from +29k) and 4.2% unemployment. The last payrolls before December."
         },
         {
           "when": "Nov 18",
-          "what": "Minutes of this meeting, which will show how many officials leaned toward the dissenters."
+          "what": "Minutes of this meeting: how many officials leaned toward the dissenters."
         },
         {
           "when": "Dec 8–9",
@@ -237,9 +244,13 @@
         {
           "name": "CNBC: 10-year creeps higher as Fed holds",
           "url": "https://www.cnbc.com/2026/10/28/us-treasurys-bonds-yields-federal-reserve.html"
+        },
+        {
+          "name": "Newsquawk: Week in focus, Nov. 2–6",
+          "url": "https://www.newsquawk.com/headlines/week-in-focus-2nd-6th-november-2026-highlights-include-us-midterm-election-nfp-ism-pmis-rba-boe-and-ez-cpi-"
         }
       ],
-      "updateNote": "Updated December hike odds: CNBC's read of CME FedWatch was 85.7%."
+      "updateNote": "Looking ahead: October payrolls (consensus ~55k, 4.2% unemployment) on Nov. 6 are the last jobs report before the Dec. 8–9 decision."
     },
     {
       "id": "amazon-q3-2026-earnings",
@@ -428,19 +439,19 @@
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-30T17:39:00-04:00",
+      "updatedAt": "2026-11-01T11:40:00-05:00",
       "readMinutes": 5,
       "tldr": [
         "Friday: WTI settled up **2.1% at $104.12**. Brent's expiring December contract settled at **$117.64**; the active January contract rose $2.63 to **$113.43**.",
-        "October: Brent **+13.6%**, WTI **+15.2%**, a fourth straight monthly gain. Security sources said a tanker in the Strait of Hormuz was hit by limpet mines; US–Iran diplomacy continues.",
+        "Weekend: Iran's IRGC said a supertanker carrying 2M+ barrels hit a naval mine in Hormuz and caught fire. Khamenei warned the US and Israel against new attacks; Rubio said Trump hasn't decided on strikes and prefers diplomacy.",
         "Brent is still up roughly 17% in October. Gasoline drove more than half of September's CPI jump, so oil remains the Fed's problem."
       ],
       "whatHappened": [
+        "**Over the weekend:** Iran's Revolutionary Guard said a supertanker carrying more than 2 million barrels hit a naval mine in the Strait of Hormuz on Friday and caught fire. On Saturday Supreme Leader Khamenei warned the US and Israel against new attacks, and Iran's top diplomat said there were no plans for talks with Washington, though Qatari mediation continues. Secretary of State Rubio said Trump hasn't decided whether to resume strikes and prefers a diplomatic outcome; reports say strikes are unlikely before Tuesday's midterms but Gulf allies were told to prepare for a possible round as early as Nov. 4. Oil markets reopen Sunday evening.",
         "**Friday:** oil jumped after security sources said a tanker in the Strait of Hormuz was struck by limpet mines; the attackers weren't immediately identified. WTI settled up $2.12 (2.08%) at $104.12. Brent's December contract, which expired Friday, settled at $117.64, while the more active January contract rose $2.63 to $113.43. That gap is a reminder to check *which* contract a 'Brent' quote refers to around expiry. For October, Brent rose 13.6% and WTI 15.2%, a fourth straight monthly gain. Qatari mediators were back in Tehran, but traders are bracing for possible US strikes after Tuesday's midterms.",
         "**Thursday:** Brent settled down 0.38% at $114.88 and WTI down 0.76% at $102, per Reuters, after both had been more than $2 lower. The drop came on a Wall Street Journal report that Vice President JD Vance wrote to Mohsen Rezaei, head of Iran's Supreme National Security Council, to revive talks. Trump downplayed it, saying Vance acted independently and the letter concerned medical supplies. Qatari mediators reportedly presented a new draft deal that a senior Iranian official called unacceptable. Prices recovered on WSJ reports that the US told several Gulf states to prepare for a short, intense campaign and that Trump is leaning toward a large post-election strike, though he hasn't decided.",
         "Oil rose for a second session as traders priced a longer conflict. President Trump said the war with Iran would end on his terms and that Tehran must be kept from nuclear weapons. There were also reports that the US is preparing to resume strikes on Iran *after* next Tuesday's midterm elections.",
-        "Houthi forces claimed a ballistic-missile strike on Saudi Aramco's Ras Tanura refinery. Saudi authorities have **not confirmed** a direct hit, so treat it as unverified. Brent briefly topped $117 earlier this week before dipping on Tuesday, when Saudi, Turkish and Pakistani diplomacy with Iran briefly raised hopes of a deal.",
-        "UBS expects Brent around $110 by year-end, arguing the market is undersupplied and that Gulf flows remain below prewar levels."
+        "Houthi forces claimed a ballistic-missile strike on Saudi Aramco's Ras Tanura refinery. Saudi authorities have **not confirmed** a direct hit, so treat it as unverified. Brent briefly topped $117 earlier this week before dipping on Tuesday, when Saudi, Turkish and Pakistani diplomacy with Iran briefly raised hopes of a deal."
       ],
       "marketReaction": [
         {
@@ -544,19 +555,23 @@
       ],
       "watchNext": [
         {
-          "when": "Tue Nov 3",
-          "what": "Midterms. Reports suggest renewed US strikes could follow."
+          "when": "Sun evening",
+          "what": "Futures reopen: does the mine strike and weekend rhetoric push WTI above Friday's $104 settle?"
         },
         {
-          "when": "Daily",
-          "what": "Hormuz transit data and any confirmation (or denial) of damage at Ras Tanura."
-        },
-        {
-          "when": "Thu 8:30 AM ET",
-          "what": "PCE shows how much energy is bleeding into broader prices."
+          "when": "Wed Nov 4",
+          "what": "Possible US strike window after the midterms, per reports."
         }
       ],
       "sources": [
+        {
+          "name": "France 24: Khamenei warns US and Israel against new attacks",
+          "url": "https://france24.com/en/middle-east/20261031-iran-s-khamenei-warns-us-and-israel-against-new-attacks"
+        },
+        {
+          "name": "Al Jazeera: Iran war live updates, Oct. 31",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon"
+        },
         {
           "name": "Korea Times: Oil jumps 2%, settles at 6-month highs on fears of escalation in Iran",
           "url": "https://www.koreatimes.co.kr/world/20261031/oil-jumps-2-settles-at-6-month-highs-on-fears-of-escalation-in-iran"
@@ -588,17 +603,90 @@
         {
           "name": "The National: Oil prices decline after diplomatic push in Iran war",
           "url": "https://www.thenationalnews.com/business/energy/2026/10/29/oil-prices-decline-after-diplomatic-push-in-iran-war/"
-        },
-        {
-          "name": "CNBC: Oil price today, WTI and Brent rise",
-          "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html"
-        },
-        {
-          "name": "OilPrice.com: UBS sees $110 Brent by year-end",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/UBS-Sees-110-Brent-by-Year-End-as-Gulf-Flows-Stay-Below-Prewar-Levels.html"
         }
       ],
-      "updateNote": "Settlements: WTI $104.12 (+2.1%); Brent's expiring December contract $117.64, active January $113.43 (+$2.63). October: Brent +13.6%, WTI +15.2%."
+      "updateNote": "Weekend: Khamenei warned against new attacks; Rubio says no decision on strikes; Iran says no direct talks; a supertanker hit a mine in Hormuz."
+    },
+    {
+      "id": "week-ahead-nov-2-2026",
+      "beat": "markets",
+      "headline": "Week ahead: midterms, payrolls, Treasury refunding and Apple test a market fresh off an AI rout",
+      "dek": "Tuesday's election, Wednesday's refunding, Thursday's Bank of England and Friday's jobs report land after the Nasdaq's worst month since March 2025.",
+      "importance": 3,
+      "depth": "brief",
+      "developing": false,
+      "publishedAt": "2026-11-01T11:40:00-05:00",
+      "updatedAt": "2026-11-01T11:40:00-05:00",
+      "readMinutes": 2,
+      "tldr": [
+        "**Mon:** ISM manufacturing (forecast ~54.7); Apple and Palantir report after the close. **Tue:** midterms; AMD reports.",
+        "**Wed:** Treasury's quarterly refunding and ISM services. **Thu:** Bank of England decision. **Fri:** October payrolls, consensus about **+55k** and **4.2%** unemployment.",
+        "The set-up: the Nasdaq just fell 2.86% Friday and posted its worst month since March 2025, while the 10-year closed October near 4.90%."
+      ],
+      "whatHappened": [
+        "After a week that saw Alphabet's worst day ever and Intel's worst since 1974, markets face a dense calendar. Apple reports Monday after the close, the next big read on whether investors reward AI-related spending or punish it. Treasury's [[quarterly refunding]] on Wednesday will show whether it keeps guiding to steady coupon auction sizes, which matters for term premium. Friday's jobs report is the last before the Fed's Dec. 8–9 meeting; consensus is around +55,000 after +29,000 in September."
+      ],
+      "background": [
+        "Why the refunding matters: when deficits are large, Treasury decides how much to borrow in long bonds versus short bills. More long-dated supply means investors must absorb more duration, which pushes up term premium; leaning on bills does the opposite. It was a big driver of the 10-year's climb toward 5.35% earlier this month."
+      ],
+      "whyItMatters": [
+        "Two questions for the week: does the AI selloff become a broader de-risking (watch Apple and AMD), and does Friday's payrolls print change December? A soft jobs number plus falling oil would chip at the ~80–86% December hike pricing; a firm one with oil above $100 keeps the hawks in charge."
+      ],
+      "views": [
+        {
+          "camp": "Buy the dip",
+          "thesis": "The AI rout is a valuation reset in a strong economy.",
+          "argument": "GDP grew 3.4%, breadth was positive on Thursday, and most stocks aren't AI spenders. Rotation into small caps and cyclicals can continue even if megacaps stay weak."
+        },
+        {
+          "camp": "Stay defensive",
+          "thesis": "Event risk is stacked: election, war, jobs, refunding.",
+          "argument": "A post-election Iran strike, hawkish refunding or a hot payrolls number could hit bonds and stocks together. With megacap sentiment broken, there's little cushion."
+        }
+      ],
+      "interview": {
+        "question": "What's the single most important event for markets this week?",
+        "answer": "Friday's payrolls. The election is largely priced and the refunding is usually telegraphed, but jobs decide December: the market prices roughly an 80–86% chance of a hike, and a weak print with oil easing would chip at that, while a firm one keeps the front end pinned. The wildcard is oil, if the US resumes strikes on Iran right after the vote.",
+        "followUp": {
+          "question": "What would you watch in the refunding?",
+          "answer": "Whether Treasury keeps saying coupon sizes stay steady for several quarters. Any hint of larger long-bond auctions would add supply and push term premium up."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "quarterly refunding",
+          "definition": "Treasury's announcement, each February, May, August and November, of how much it will borrow and in which maturities over the coming quarter.",
+          "example": "The Nov. 4 refunding will show whether coupon auction sizes stay steady."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Mon Nov 2",
+          "what": "ISM manufacturing; Apple and Palantir earnings after the close."
+        },
+        {
+          "when": "Wed Nov 4",
+          "what": "Treasury refunding; ISM services; Qualcomm earnings."
+        },
+        {
+          "when": "Fri Nov 6",
+          "what": "October jobs report."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Newsquawk: Week in focus, Nov. 2–6",
+          "url": "https://www.newsquawk.com/headlines/week-in-focus-2nd-6th-november-2026-highlights-include-us-midterm-election-nfp-ism-pmis-rba-boe-and-ez-cpi-"
+        },
+        {
+          "name": "Stocktwits: What to expect in markets this week",
+          "url": "https://stocktwits.com/news-articles/markets/equity/what-to-expect-markets-this-week-nov-1-2026/cNGes4VR923"
+        },
+        {
+          "name": "TheStreet Pro: Chip rout sends Nasdaq to worst month since March 2025",
+          "url": "https://pro.thestreet.com/market-commentary/chip-rout-sends-nasdaq-to-worst-month-since-march-2025"
+        }
+      ]
     },
     {
       "id": "lagarde-resigns-ecb-president",
@@ -1226,118 +1314,24 @@
       }
     },
     {
-      "id": "ecb-boj-decisions-this-week",
-      "beat": "fed-macro",
-      "headline": "The ECB and Bank of Japan both hold after September hikes and keep December in play",
-      "dek": "The ECB held at 2.5% on Thursday; the BoJ held at 1.25% on Friday in Tokyo while signaling underlying inflation has reached its 2% goal.",
-      "importance": 3,
-      "depth": "brief",
-      "developing": false,
-      "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-29T23:39:00-04:00",
-      "readMinutes": 2,
-      "tldr": [
-        "ECB: held the [[deposit facility rate]] at **2.5%**, as 70 of 73 economists in a Reuters poll expected. It said energy is raising inflation risks, keeping December live.",
-        "BoJ (Fri in Tokyo): held at **1.25%** after September's hike. Per The Japan Times, its quarterly report indicated underlying inflation has reached the **2%** target, a hawkish signal for December."
-      ],
-      "whatHappened": [
-        "The **ECB** left its three key rates unchanged, with the deposit rate at 2.5%, and said surging energy costs are raising inflation risks, per Reuters. That keeps a December hike live: 64 of 73 economists in the pre-meeting Reuters poll expected one. The meeting was overshadowed by Lagarde's resignation announcement the same morning.",
-        "The **BoJ** kept its policy rate at 1.25%, the highest in about three decades after September's hike, as expected. The Japan Times reported that the bank's quarterly outlook indicated underlying inflation has reached its 2% target, the condition the BoJ has set for further hikes. Pre-meeting surveys had most economists expecting the next move in December. Japanese officials have also repeated that they're ready to act in currency markets, a form of [[verbal intervention]] against a weak yen."
-      ],
-      "background": [
-        "The ECB raised its [[deposit facility rate]] by 25bp to 2.5% in September. It faces the same energy shock as the Fed, plus a regional problem: French government bond yields above 5%, which complicates tightening.",
-        "The BoJ is the odd one out historically. After decades near zero, it's now hiking at roughly a quarterly pace, and Reuters-polled analysts expect 1.5% in December."
-      ],
-      "whyItMatters": [
-        "Synchronized global tightening means less help from abroad for US bonds. Higher yields in Europe and Japan make their own bonds more attractive to domestic investors who used to buy Treasuries. A BoJ that signals more hikes is a yen-positive, Treasury-negative risk worth knowing."
-      ],
-      "views": [
-        {
-          "camp": "Coordinated hawks",
-          "thesis": "Everyone hikes again in December.",
-          "argument": "Energy inflation is global, so central banks that pause too long risk losing credibility. The polls already point to December hikes at both the ECB and the BoJ."
-        },
-        {
-          "camp": "Growth breaks first",
-          "thesis": "Europe can't take many more hikes.",
-          "argument": "With French borrowing costs at multi-year highs and energy hitting growth, the ECB may find December harder to deliver than the polls imply."
-        }
-      ],
-      "interview": {
-        "question": "Why should a US rates trader care about the Bank of Japan?",
-        "answer": "Because Japanese investors are among the biggest holders of Treasuries. As Japanese yields rise, the incentive to keep money at home grows, which can mean less demand for US bonds and higher term premium here. A BoJ that declares its inflation goal met is signaling more hikes, so watch the yen and the long end of the Treasury curve together.",
-        "followUp": {
-          "question": "What's the difference between verbal and actual FX intervention?",
-          "answer": "Verbal intervention is officials warning they're ready to act, hoping the words alone stop the move. Actual intervention is the finance ministry buying or selling currency, for Japan usually by selling dollar reserves to buy yen."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "deposit facility rate",
-          "definition": "The rate the ECB pays banks on overnight deposits. It's the ECB's main policy rate, now 2.5%."
-        },
-        {
-          "term": "verbal intervention",
-          "definition": "Officials talking a currency up or down by warning markets they're ready to act, before (or instead of) actually trading."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "December",
-          "what": "BoJ and ECB meetings, where both are widely expected to hike again."
-        },
-        {
-          "when": "Fri",
-          "what": "Ueda's press conference tone and the yen's reaction."
-        }
-      ],
-      "sources": [
-        {
-          "name": "The Japan Times: BoJ holds rates steady even as inflation ticks up",
-          "url": "https://www.japantimes.co.jp/business/2026/10/30/economy/boj-rates-steady-inflation/"
-        },
-        {
-          "name": "Reuters via Global Banking & Finance: ECB holds as Lagarde resigns",
-          "url": "https://www.globalbankingandfinance.com/ecb-keeps-rates-unchanged-euro-slips/"
-        },
-        {
-          "name": "Reuters via Investing.com: BoJ's hawkish pause",
-          "url": "https://www.investing.com/news/economy-news/bank-of-japans-hawkish-pause-to-leave-scope-for-december-hike-4971365"
-        },
-        {
-          "name": "Asia Business Daily: Rate superweek begins",
-          "url": "https://www.asiae.co.kr/en/article/2026102607433987612"
-        },
-        {
-          "name": "Tradingpedia: Intervention jitters lift the yen",
-          "url": "https://www.tradingpedia.com/2026/10/28/eur-jpy-drops-as-intervention-jitters-and-boj-lift-yen/"
-        },
-        {
-          "name": "Bloomberg: BoJ said to lean against back-to-back hike",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-13/boj-is-said-to-lean-against-back-to-back-rate-hike-in-october",
-          "paywalled": true
-        }
-      ],
-      "updateNote": "BoJ held at 1.25%; its quarterly outlook reportedly says underlying inflation has reached the 2% target."
-    },
-    {
       "id": "midterms-2026-market-odds",
       "beat": "policy",
-      "headline": "Six days to the midterms: prediction markets see a Democratic House and lean toward a Democratic Senate",
-      "dek": "Kalshi puts Democrats around 91% to take the House and about 65% for the Senate. Strategists argue inflation and earnings matter more for stocks than who wins.",
+      "headline": "Midterms Tuesday: prediction markets put a Democratic sweep of Congress at about 70%",
+      "dek": "Polymarket and Kalshi see Democrats at roughly 90%+ for the House and about 65% for the Senate. The market twist: reported US plans for Iran strikes as soon as the day after.",
       "importance": 3,
       "depth": "brief",
       "developing": false,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-28T19:09:00-04:00",
+      "updatedAt": "2026-11-01T11:40:00-05:00",
       "readMinutes": 2,
       "tldr": [
-        "As of Oct. 27, Kalshi traders gave Democrats roughly a **91%** chance of the House and **65%** of the Senate. Polymarket is similar.",
-        "Morgan Stanley calls the Senate a toss-up with a slight Democratic edge and expects inflation, growth and earnings to drive markets more than the result."
+        "Polymarket puts a Democratic sweep of both chambers at about **72%**, Kalshi at about **70%**; a Democratic House with a Republican Senate is the main alternative (~23–27%).",
+        "Chamber odds: House about **90–93%** Democratic, Senate about **64–65%**.",
+        "Oil angle: reports say Washington warned Gulf allies to prepare for possible strikes on Iran as early as Nov. 4, the day after the vote."
       ],
       "whatHappened": [
-        "Election day is Tuesday, Nov. 3. [[prediction markets|Prediction markets]] and polls agree Democrats are favored to win the House. The Senate is much closer and hinges on a handful of competitive races in Republican-leaning states.",
-        "There's a market-specific wrinkle: reports say the US is preparing to resume strikes on Iran *after* the vote, which makes election week an oil event too."
+        "Election day is Tuesday, Nov. 3. As of Oct. 31–Nov. 1, Polymarket's balance-of-power market had a Democratic sweep at 72%, a Democratic House with a Republican Senate at 23% and a Republican sweep at 5%; Kalshi showed 70%, 27% and about 6%. Chamber-level odds put Democrats around 90–93% for the House and 64–65% for the Senate. [[prediction markets|Prediction markets]] reflect trader bets, not polling.",
+        "The market-specific wrinkle: Secretary of State Rubio said Trump hasn't decided whether to resume strikes on Iran and prefers diplomacy, and strikes are not expected before the vote. But reports say the US warned Gulf allies to prepare for a possible new round as early as Nov. 4. That makes election week an oil event too."
       ],
       "background": [
         "Midterms usually go against the president's party. A split Congress means [[gridlock]]: big new fiscal packages or tax changes become hard to pass, which markets have historically tended to tolerate. Carson Group's Ryan Detrick argues the data show that common assumptions about election outcomes moving stocks are largely wrong."
@@ -1361,7 +1355,7 @@
       ],
       "interview": {
         "question": "How would you position for the midterms?",
-        "answer": "Lightly. The House result looks [[priced|priced in]] at around 90% odds in prediction markets, so the only real surprise is the Senate. The bigger market risk that week is oil, given reports of renewed US strikes on Iran after the vote. A divided Congress is a mild positive for the long end because it limits new fiscal expansion, but I'd keep the focus on the Fed and on energy.",
+        "answer": "Lightly. A Democratic House is [[priced|priced in]] at around 90% odds, and even a sweep is roughly 70%, so the surprise scenario is Republicans holding the Senate. The bigger market risk that week is oil, given reports of possible US strikes on Iran right after the vote. A divided or Democratic Congress is a mild positive for the long end because it limits new fiscal expansion, but I'd keep the focus on Friday's payrolls and energy.",
         "followUp": {
           "question": "Why might gridlock be good for bonds?",
           "answer": "It makes big deficit-financed bills harder to pass. That means less new Treasury issuance than otherwise, and less pressure on term premium."
@@ -1384,110 +1378,32 @@
       "watchNext": [
         {
           "when": "Tue Nov 3",
-          "what": "Election night. Watch the Senate toss-ups and how fast results come in."
+          "what": "Election night; the Senate is the swing."
         },
         {
-          "when": "Nov 4 onward",
-          "what": "Any follow-through on reported US strikes on Iran."
+          "when": "Wed Nov 4",
+          "what": "Possible US action on Iran, plus Treasury's quarterly refunding announcement."
         }
       ],
       "sources": [
         {
-          "name": "CNBC: Prediction markets favor Democratic sweep",
+          "name": "CNBC: Prediction markets favor a Democratic Congress sweep",
           "url": "https://www.cnbc.com/2026/10/27/2026-midterms-prediction-markets-democrats-congress.html"
+        },
+        {
+          "name": "Polymarket: Balance of power, 2026 midterms",
+          "url": "https://polymarket.com/event/balance-of-power-2026-midterms"
+        },
+        {
+          "name": "Fox News: Trump, Rubio say Iran strikes on the table but not likely before midterms",
+          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-us-israel-november-1"
         },
         {
           "name": "E*TRADE (Morgan Stanley): Midterms investor Q&A",
           "url": "https://us.etrade.com/knowledge/library/perspectives/market-happenings/us-midterm-elections-2026-market-impact"
-        },
-        {
-          "name": "CNBC: How the midterms could affect stocks",
-          "url": "https://www.cnbc.com/amp/make-it/2026/10/09/midterm-elections-stock-market.html"
-        }
-      ]
-    },
-    {
-      "id": "france-bond-spread-2011-high",
-      "beat": "policy",
-      "headline": "France's 10-year yield topped 5% and its spread to Germany hit its widest since 2011",
-      "dek": "France's budget fight in a fractured parliament pushed the OAT–Bund spread to euro-crisis-era levels last week. It has eased since Moody's affirmed the rating.",
-      "importance": 3,
-      "depth": "brief",
-      "developing": false,
-      "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-29T10:02:00-04:00",
-      "readMinutes": 2,
-      "tldr": [
-        "On Oct. 22 the French 10-year yield rose above 5% (about 5.1% at the peak), its highest since 2002.",
-        "The spread over German Bunds hit roughly 160–175bp depending on the source, the widest since 2011. It was back near 156bp by Oct. 26."
-      ],
-      "whatHappened": [
-        "French government bonds (OATs) sold off as investors doubted that a fragmented parliament will pass a budget that reduces a deficit forecast around 5.4% of GDP. Rejected spending measures reportedly erased about €10 billion of planned savings. The [[sovereign spread]] over Germany blew out because Bund yields were *falling* (a flight to safety) at the same time.",
-        "Yields eased after Moody's affirmed France's rating, then partly rebounded. For reference, the 2011 peak in the spread was about 225bp.",
-        "Thursday: the spread was around 153.5bp per Reuters, well off last week's near-178bp high, even as Lagarde's resignation added a new question mark over the ECB's crisis backstop. See the Lagarde story."
-      ],
-      "background": [
-        "France has no currency of its own to devalue, so its bond yields reflect pure fiscal credibility. Investors watch for a [[doom loop]], where falling government bond prices hurt the banks that hold them, which weakens the economy and the government's finances further. That was the dynamic at the core of the 2011 euro crisis."
-      ],
-      "whyItMatters": [
-        "It's part of a *global* term-premium story, from Paris to Washington: big deficits, fragile politics and inflation risk mean investors demand more to lend long. It also boxes in the ECB, because hiking into widening spreads risks stress in the weaker sovereigns. Italian spreads have been widening too."
-      ],
-      "views": [
-        {
-          "camp": "Contained",
-          "thesis": "This is a budget fight, not a crisis.",
-          "argument": "The spread retreated after the Moody's affirmation, and it's still well below the 2011 peak. The ECB has tools to stop disorderly widening."
-        },
-        {
-          "camp": "Contagion risk",
-          "thesis": "France is the canary for euro-area fiscal stress.",
-          "argument": "A 5% French yield, political paralysis and a 2027 presidential race make the budget a recurring flashpoint, and Italy is already widening in sympathy."
         }
       ],
-      "interview": {
-        "question": "Why would a French budget fight matter to US markets?",
-        "answer": "Two channels. First, it's part of the global term-premium story: when one big sovereign gets punished for fiscal slippage, investors reprice the rest, and the US deficit is around 5.8% of GDP. Second, European stress can trigger flight-to-safety flows into Bunds and Treasuries, which is part of why yields swing so violently. I'd watch the [[OAT–Bund spread|sovereign spread]] as a stress gauge.",
-        "followUp": {
-          "question": "What tools does the ECB have if spreads blow out?",
-          "answer": "It has a bond-buying backstop (the Transmission Protection Instrument) designed to counter 'disorderly' spread widening. But it's conditional on countries following EU fiscal rules, which is awkward if the stress comes from fiscal slippage."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "sovereign spread",
-          "definition": "The extra yield one government pays over a benchmark borrower, in Europe usually Germany. A wider spread means investors see more risk.",
-          "example": "OAT–Bund at ~160–175bp, the widest since 2011."
-        },
-        {
-          "term": "doom loop",
-          "definition": "A feedback loop where a government's falling bond prices hurt the domestic banks that hold them, which worsens the economy and the government's finances."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Coming weeks",
-          "what": "French budget votes in parliament and any further rating actions."
-        }
-      ],
-      "sources": [
-        {
-          "name": "MarketScreener: French yields jump, spread widens",
-          "url": "https://www.marketscreener.com/news/french-government-bond-yields-jump-spread-widens-as-treasury-yields-fall-update-ce785cded98df227"
-        },
-        {
-          "name": "EFG International: French debt crisis explained",
-          "url": "https://www.efginternational.com/insights/2026/french_debt_crisis_causes_repercussions_and_risks.html"
-        },
-        {
-          "name": "Disruption Banking: French yields cross 5%",
-          "url": "https://www.disruptionbanking.com/2026/10/22/french-yields-cross-5-spread-widest-since-2011/"
-        },
-        {
-          "name": "Reuters via Devdiscourse: European bonds hold gains",
-          "url": "https://www.devdiscourse.com/article/international/3998938-global-markets-european-bonds-and-stocks-hold-gains-ecb-meeting-in-focus-as-lagarde-confirms-early-exit"
-        }
-      ],
-      "updateNote": "Spread back near 153.5bp; added the Lagarde angle."
+      "updateNote": "Latest odds (Oct. 31–Nov. 1): Democratic sweep ~70–72%; House ~90–93%, Senate ~64–65%. Added the post-election Iran strike angle."
     }
   ]
 }
