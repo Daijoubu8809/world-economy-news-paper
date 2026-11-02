@@ -1,8 +1,8 @@
 {
   "version": 1,
   "publishedAt": "2026-11-01T11:40:00-05:00",
-  "checkedAt": "2026-11-02T06:45:00-05:00",
-  "nextRunAt": "2026-11-02T10:38:00-05:00",
+  "checkedAt": "2026-11-02T11:50:00-05:00",
+  "nextRunAt": "2026-11-02T14:38:00-05:00",
   "brief": {
     "title": "After a brutal AI selloff and a 15% oil surge in October, election week brings payrolls, refunding and Iran risk.",
     "bullets": [
@@ -20,12 +20,6 @@
     "week-ahead-nov-2-2026"
   ],
   "calendar": [
-    {
-      "date": "2026-11-02",
-      "time": "10:00 AM ET",
-      "label": "ISM manufacturing (October)",
-      "why": "Forecast ~54.7 after 54.5; a check on growth after 3.4% GDP."
-    },
     {
       "date": "2026-11-02",
       "time": "After close",
@@ -863,137 +857,6 @@
         }
       ],
       "updateNote": "Close: 10-year ~4.90–4.91%, down roughly 0.4 points in October per Investing.com data."
-    },
-    {
-      "id": "pce-gdp-preview-october-29",
-      "beat": "fed-macro",
-      "headline": "Q3 GDP grows 3.4% while core PCE holds at 3.1% and wage growth stays steady",
-      "dek": "The economy accelerated from 2.2% in Q2, and September core PCE matched consensus. Strong growth plus sticky inflation keeps a December Fed hike on track.",
-      "importance": 4,
-      "depth": "brief",
-      "developing": false,
-      "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-30T09:39:00-04:00",
-      "readMinutes": 3,
-      "tldr": [
-        "Q3 GDP grew **3.4%** annualized (advance estimate), above the ~3.1% Dow Jones consensus and up from 2.2% in Q2.",
-        "September core PCE rose **0.3% m/m and 3.1% y/y** (from 3.0%), in line. Headline PCE was **+0.5% m/m, 3.6% y/y**.",
-        "Friday's Employment Cost Index rose **0.8%** in Q3 (3.4% y/y), in line and a touch slower than Q2's 0.9%: no wage-price spiral, so the inflation problem is energy, not pay."
-      ],
-      "whatHappened": [
-        "The Bureau of Economic Analysis said real GDP grew at a **3.4%** annual rate in the third quarter, its advance estimate, up from 2.2% in Q2. CNBC cited a Dow Jones [[consensus]] of 3.1%. Final sales to private domestic purchasers, the cleanest read on underlying demand, rose 4.9% after 4.6%. Investment, consumer spending and government spending all contributed; exports fell.",
-        "September [[PCE inflation]] was in line: core rose 0.3% on the month and 3.1% on the year, up from 3.0% in August (after revisions). Headline rose 0.5% and 3.6%, a touch below the 3.7% some previews expected, with energy doing the damage. Core services excluding housing reportedly hit 3.6% year over year, a multi-year high.",
-        "Don't confuse the quarterly numbers: the Q3 PCE price index rose at a 2.1% annualized pace (core 2.5%) for the quarter as a whole. The September year-over-year numbers are what the Fed watches for the trend. On Friday the BLS said the [[Employment Cost Index]] rose 0.8% in Q3, matching consensus and down from 0.9% in Q2; the 12-month gain held at 3.4%."
-      ],
-      "background": [
-        "The Fed targets 2% on PCE, not CPI. PCE covers a broader basket and weights things differently (housing counts for less, healthcare for more). Desks focus on core, which strips out food and energy.",
-        "Because CPI and PPI come out first, economists can estimate most of PCE in advance, so an in-line PCE is common. The GDP number carried today's surprise."
-      ],
-      "whyItMatters": [
-        "This is the hawkish combination without a shock. Growth above 3% with core stuck at 3.1% (and services ex-housing firming) removes the 'the economy is cracking' argument for waiting in December. But an in-line core print doesn't force the Fed's hand either, so the December odds (~80–86% before the data) shouldn't move dramatically.",
-        "The bigger risk for bonds is the long end: strong nominal growth plus 3%+ inflation is exactly the mix that keeps term premium high and the 10-year pinned near 5%. I couldn't confirm the post-data Treasury move by publication time."
-      ],
-      "views": [
-        {
-          "camp": "December is done",
-          "thesis": "3.4% growth and 3.1% core leave the Fed no reason to wait.",
-          "argument": "Two hawkish dissents on Wednesday, core firming for a second month, and an economy accelerating. A Fed that just said it hasn't achieved price stability can't skip December with this data."
-        },
-        {
-          "camp": "In line isn't hot",
-          "thesis": "Core matched forecasts; the Fed can still slow down.",
-          "argument": "Core PCE at 0.3% was expected, headline came in a touch soft, and the quarterly core pace was 2.5% annualized. October jobs (Nov. 6) and October CPI matter more for December than a print the market already had."
-        },
-        {
-          "camp": "Growth is the flag",
-          "thesis": "The GDP beat is front-loaded and may not last.",
-          "argument": "Advance GDP gets revised, and an oil shock plus 5% long yields are headwinds that show up with a lag. Strong Q3 can coexist with a slowing Q4."
-        }
-      ],
-      "interview": {
-        "question": "GDP just printed 3.4% and core PCE 3.1%. Does that change your view on the Fed?",
-        "answer": "It reinforces it rather than changing it. Core PCE was in line at 0.3% on the month, so there's no inflation shock, but growth above 3% takes away the main argument for waiting. With two hawkish dissents this week, I'd lean toward a December hike being delivered, and I'd expect the curve to stay steep because the long end is pricing persistent inflation risk, not just the next move. What would change my mind is a soft October payrolls report on Nov. 6 or a big drop in oil.",
-        "followUp": {
-          "question": "Why does the market care about 'final sales to private domestic purchasers'?",
-          "answer": "It strips out the noisy pieces of GDP: trade, inventories and government. At 4.9% it says private demand is genuinely strong, which is what matters for inflation pressure."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "PCE inflation",
-          "definition": "Inflation measured by the Personal Consumption Expenditures price index. It's the Fed's preferred gauge, and its 2% target is defined on PCE. 'Core' excludes food and energy.",
-          "example": "September core PCE: +0.3% m/m, 3.1% y/y."
-        },
-        {
-          "term": "consensus",
-          "definition": "The median economist forecast for a data release. Markets react to the surprise versus consensus, not the number itself."
-        },
-        {
-          "term": "DV01",
-          "definition": "Dollar value of a basis point: how much a position gains or loses for a 1bp move in yield. Desks size trades by DV01, not notional.",
-          "example": "Shorting $10M of 2-year notes has a far smaller DV01 than $10M of 10-years."
-        },
-        {
-          "term": "Employment Cost Index",
-          "definition": "A quarterly BLS measure of total compensation (wages plus benefits), adjusted for job mix. The Fed watches it as the cleanest gauge of labor-cost pressure.",
-          "example": "Q3 2026: +0.8% q/q, 3.4% y/y."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Thu after close",
-          "what": "Amazon Q3: AWS growth versus capex."
-        },
-        {
-          "when": "Fri Nov 6",
-          "what": "October jobs report, the last payrolls before the Dec. 8–9 FOMC."
-        },
-        {
-          "when": "Nov 25",
-          "what": "Second estimate of Q3 GDP."
-        }
-      ],
-      "sources": [
-        {
-          "name": "BLS: Employment Cost Index, Q3 2026",
-          "url": "https://www.bls.gov/news.release/eci.nr0.htm"
-        },
-        {
-          "name": "Seeking Alpha: ECI growth decelerates in Q3, as expected",
-          "url": "https://seekingalpha.com/news/4661372-employment-cost-index-growth-decelerates-in-q3-as-expected"
-        },
-        {
-          "name": "Benzinga: US GDP grew 3.4%, PCE inflation in line",
-          "url": "https://www.benzinga.com/markets/economic-data/26/10/62693319/us-economy-gdp-third-quarter-pce-inflation-september"
-        },
-        {
-          "name": "Quartz: US growth accelerated as inflation stayed elevated",
-          "url": "https://qz.com/us-gdp-growth-accelerates-summer-inflation-elevated-102926"
-        },
-        {
-          "name": "Courthouse News: Third-quarter growth surprises",
-          "url": "https://www.courthousenews.com/gdp-continues-to-increase-as-third-quarter-growth-surprises/"
-        },
-        {
-          "name": "Morningstar: September PCE expected to show rising inflation",
-          "url": "https://www.morningstar.com/economy/september-pce-expected-show-rising-inflation"
-        },
-        {
-          "name": "BEA: Release schedule",
-          "url": "https://www.bea.gov/news/schedule"
-        }
-      ],
-      "updateNote": "Added Friday's Employment Cost Index: +0.8% q/q, 3.4% y/y, in line. Wages aren't adding fuel.",
-      "trade": {
-        "idea": "2s10s steepener",
-        "expression": "Long 2Y / short 10Y Treasuries, [[DV01]]-neutral",
-        "rationale": "In-line core keeps the front end anchored to an already-priced December hike, while 3.4% nominal-strong growth and sticky inflation push the long end (term premium) higher. The curve steepens either way the Fed goes in December.",
-        "risks": [
-          "A growth scare (weak payrolls, AI-led equity selloff) rallies the long end harder than the front.",
-          "A hotter-than-expected October CPI could reprice more 2027 hikes and flatten the curve from the front.",
-          "Positioning: steepeners are a crowded trade in a 5% 10-year world."
-        ]
-      }
     },
     {
       "id": "midterms-2026-market-odds",
