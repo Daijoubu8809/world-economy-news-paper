@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-03T06:39:00-05:00",
-  "checkedAt": "2026-11-03T06:39:00-05:00",
-  "nextRunAt": "2026-11-03T10:38:00-05:00",
+  "publishedAt": "2026-11-03T14:40:00-05:00",
+  "checkedAt": "2026-11-03T14:40:00-05:00",
+  "nextRunAt": "2026-11-03T18:38:00-05:00",
   "brief": {
-    "title": "Oil sinks 7% on Iran talk hopes while tech slides and Apple disappoints on margins, with midterms on deck.",
+    "title": "Election-day stocks split as chips rebound and Apple and Palantir slide, with oil lower on Iran talk hopes.",
     "bullets": [
-      "**Oil:** Brent settled down about 7.6% near $105 on Iran/Qatar diplomacy hopes; Trump says he is in 'no rush' to resume strikes. Skeptics cite past 'false dawns'.",
-      "**Stocks:** per CNBC the Nasdaq fell about 1.1% and the S&P 500 about 0.5% Monday; the Dow rose slightly. Index figures vary by source.",
-      "**Apple:** beat on revenue ($114.48B) and EPS ($2.10) but dropped after hours on a light margin outlook. **Palantir:** revenue $2.31B, up 96%.",
-      "**Macro:** Q3 GDP +3.4%, core PCE 3.1%, December Fed hike odds were ~80–86% last week; 10-year ended October near 4.90%.",
-      "**This week:** midterms Tue, refunding Wed, BoE Thu, payrolls Fri (consensus ~+55k)."
+      "**Tape:** midday Tuesday the Nasdaq (~+0.8%) and S&P 500 (~+0.4%) rose while the Dow slipped ~0.4%, per Investing.com. Intraday figures.",
+      "**Apple and Palantir:** both fell despite beats (Apple ~-2% midday on a light margin outlook; Palantir revenue +96% to $2.31B).",
+      "**Oil:** Brent settled near $105 Monday after a ~7% drop on Iran/Qatar talk hopes; Trump says he is in 'no rush' to resume strikes. I couldn't confirm Tuesday's move.",
+      "**Macro:** Q3 GDP +3.4%, core PCE 3.1%; December Fed hike odds were ~80–86% last week.",
+      "**This week:** midterm results tonight, AMD after the close, refunding Wed, BoE Thu, payrolls Fri."
     ],
     "mood": "Calm Belt for tech, an Aqua Laguna warning for the polls, and the oil tide just went out on peace-talk hopes."
   },
@@ -247,184 +247,6 @@
       "updateNote": "Looking ahead: October payrolls (consensus ~55k, 4.2% unemployment) on Nov. 6 are the last jobs report before the Dec. 8–9 decision."
     },
     {
-      "id": "amazon-q3-2026-earnings",
-      "beat": "markets",
-      "headline": "Nasdaq falls 2.9% as Intel sinks 28.6%, its worst day since 1974, capping a rough October",
-      "dek": "Intel sank 28.6% on weak guidance and Amazon slid on cash burn, turning the AI selloff into a two-day rout. The S&P 500 fell about 1.8–2.1%.",
-      "importance": 4,
-      "depth": "full",
-      "developing": false,
-      "publishedAt": "2026-10-29T17:40:00-04:00",
-      "updatedAt": "2026-10-30T17:39:00-04:00",
-      "readMinutes": 5,
-      "tldr": [
-        "Friday's close: the Nasdaq fell **2.86%**, its worst day since June, and the S&P 500 about **1.8–2.1%**. For October the Nasdaq had its worst month since March 2025 (CNN).",
-        "Intel sank **28.6%** to about $65.76, its worst day since 1974 and second-worst ever, after guiding Q4 revenue to about **$15.5B** versus roughly **$17B** expected.",
-        "Amazon: AWS grew **39%**, but EPS missed and trailing free cash flow hit **−$42.4B** while 2026 capex stays near $220B."
-      ],
-      "whatHappened": [
-        "Amazon reported third-quarter results after the close on Thursday. The bright spot was AWS: revenue up 39% to roughly $46 billion, accelerating from 37% in Q2 and beating the ~38% StreetAccount expectation. CEO Andy Jassy said he expects AWS growth above 40% in 2027 and 2028.",
-        "The rest disappointed. EPS of $1.89 missed the $1.97 consensus; revenue of $201.9 billion was just below estimates; advertising revenue of about $19.6 billion trailed the ~$20.8 billion forecast. Trailing-12-month [[free cash flow]] swung to −$42.4 billion from +$14.8 billion a year earlier, driven by AI infrastructure spending, and Amazon reaffirmed [[capex]] of about $220 billion for 2026.",
-        "Guidance: Q4 revenue of $240–247 billion. The stock, already down 4.3% in the regular session on Alphabet's spillover, fell roughly 7% in extended trading (reports range from about 6% to 8%).",
-        "**Overnight:** Intel also reported Thursday; adjusted EPS beat, but a weak Q4 outlook (PC demand, manufacturing bottlenecks, heavy spending) hit the stock. Reuters had Nasdaq-100 futures down 2.16% by 4 a.m. ET and estimated Amazon and Intel together could lose about $300 billion of value. Korea's Kospi fell about 4–5.6% and Japan's Nikkei 1–3% as chipmakers slid; bonds and the yen rallied.",
-        "**Friday's close:** the Nasdaq Composite fell 2.86%, its worst day since June, per CNN and the Motley Fool; the S&P 500 lost about 1.8% (CNN) to 2.1% (Motley Fool). Intel fell 28.58% to about $65.76, its worst day since 1974 and the second-worst in its history, per CNN, after guiding Q4 revenue to about $15.5 billion versus roughly $17 billion expected (Benzinga). Even so, CNN noted Intel is still up about 78% this year. For October, the Nasdaq posted its worst month since March 2025."
-      ],
-      "marketReaction": [
-        {
-          "asset": "Nasdaq Composite (close)",
-          "move": "−2.86% (≈25,437)",
-          "direction": "down"
-        },
-        {
-          "asset": "S&P 500 (close)",
-          "move": "≈ −1.8% to −2.1% (≈7,560–7,580)",
-          "direction": "down"
-        },
-        {
-          "asset": "Intel (close)",
-          "move": "−28.6% to ≈$65.76",
-          "direction": "down"
-        },
-        {
-          "asset": "Amazon (Fri)",
-          "move": "≈ −7%",
-          "direction": "down"
-        },
-        {
-          "asset": "Kospi (Fri)",
-          "move": "≈ −4% to −5.6%",
-          "direction": "down"
-        },
-        {
-          "asset": "AWS growth",
-          "move": "39% (from 37% in Q2)",
-          "direction": "up"
-        }
-      ],
-      "background": [
-        "AWS is Amazon's profit engine and the world's biggest cloud provider. Investors had worried it was losing ground to Microsoft Azure (48% growth this week) and Google Cloud (which more than doubled), so an acceleration to 39% answers the competitive question.",
-        "The problem is the bill. Amazon, Alphabet, Microsoft and Meta are spending hundreds of billions on data centers and chips. When capex outruns operating cash flow, free cash flow goes negative and the companies fund growth from their balance sheets or debt. This week the market decided that matters."
-      ],
-      "grandLine": {
-        "title": "Coup de Burst, every quarter",
-        "body": "The Sunny's Coup de Burst burns barrels of cola for a huge jump, and it works: AWS just leapt to 39% growth. But you can't fire it every day, because the cola runs out. Hyperscalers are firing it quarter after quarter, and the market is now asking how many barrels are left before the jump has to pay for itself."
-      },
-      "whyItMatters": [
-        "For equities, this confirms the week's regime change: the market is paying for AI *returns* and cash, not AI *spending*. Microsoft, which showed revenue and positive free cash flow, held up; Alphabet and Amazon, which showed cash burn, were punished. Expect pressure on the 'Mag 7' weighting and on multiples, i.e. [[multiple compression]], even if earnings hold.",
-        "Second-order: the chip and power supply chain (Nvidia, memory, data-center equipment) has been priced on hyperscaler capex going up forever. Nobody cut capex this week, which supports suppliers' revenue, but investors' patience with the spenders is thinning.",
-        "For credit, negative free cash flow at megacaps means more bond issuance to fund data centers, which adds IG supply."
-      ],
-      "views": [
-        {
-          "camp": "Buy the cloud",
-          "thesis": "AWS accelerating to 39% is the story; cash flow is a timing issue.",
-          "argument": "Capacity is sold out and growth is accelerating. Capex today is booked revenue tomorrow, and Jassy is guiding to 40%+ growth for two more years. Selling the best cloud franchise on a capex-heavy quarter is short-termism."
-        },
-        {
-          "camp": "Show me the cash",
-          "thesis": "Negative free cash flow at a $2T+ company changes the valuation math.",
-          "argument": "−$42B of trailing free cash flow means investors are funding an arms race with uncertain returns. Until capex growth slows or revenue catches up, the stock deserves a lower multiple."
-        },
-        {
-          "camp": "Rotate, don't panic",
-          "thesis": "Sell the spenders, buy the beneficiaries and the rest of the market.",
-          "argument": "Thursday's breadth (four in five S&P stocks up) says money is moving, not leaving. The trade is out of megacap capex-heavy names into small caps, health care and the companies selling picks and shovels."
-        }
-      ],
-      "interview": {
-        "question": "AWS grew 39%, its fastest in five years, and Amazon still fell 7%. Why?",
-        "answer": "Because the market has moved from rewarding AI spending to demanding AI cash. AWS was great, but EPS missed, ads missed, and trailing free cash flow went to minus 42 billion while capex stays at 220 billion. After Alphabet's 12.6% drop, investors are pricing these as capital-intensive businesses, which means lower multiples. I'd separate the franchise from the stock: AWS looks stronger, but the multiple compresses until capex growth slows. What would change my mind is evidence that AI revenue is catching up with spending, like AWS sustaining 40%+ with margins expanding.",
-        "followUp": {
-          "question": "How would you trade the AI capex theme now?",
-          "answer": "I'd prefer a relative-value expression over outright direction: long the suppliers that get paid regardless, short the spenders whose cash flow is negative, or simply equal-weight versus cap-weight S&P to bet the rotation continues."
-        }
-      },
-      "trade": {
-        "idea": "Equal-weight over cap-weight S&P 500",
-        "expression": "Long RSP (equal-weight S&P 500 ETF) / short SPY, beta-neutral",
-        "rationale": "Thursday showed the setup: megacaps fell on capex fears while most stocks rose on a 3.4% GDP print. If the market keeps punishing cash-burning hyperscalers while the economy stays strong, the equal-weight index outperforms the cap-weighted one.",
-        "risks": [
-          "A strong AI-revenue surprise (e.g., from Nvidia or Apple) could reignite megacap leadership.",
-          "A growth scare hits small and mid caps harder than megacaps.",
-          "Higher long yields (10-year above 5%) weigh on the rate-sensitive mid caps that dominate equal-weight."
-        ]
-      },
-      "keyTerms": [
-        {
-          "term": "free cash flow",
-          "definition": "Operating cash flow minus capital expenditure: the cash left after funding the business. Negative means the company spends more than it generates.",
-          "example": "Amazon trailing-12-month FCF: −$42.4B vs +$14.8B a year earlier."
-        },
-        {
-          "term": "capex",
-          "definition": "Capital expenditure: spending on long-lived assets like data centers and chips. It hits cash flow now and earnings gradually via depreciation.",
-          "example": "Amazon is holding 2026 capex at about $220B."
-        },
-        {
-          "term": "multiple compression",
-          "definition": "A falling price-to-earnings (or similar) multiple: the stock falls even if earnings hold because investors pay less for each dollar of profit.",
-          "example": "Investors repricing hyperscalers as capital-intensive businesses compresses their multiples."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Mon",
-          "what": "Whether dip buyers step in after a two-day, megacap-led selloff, or the AI-capex repricing spreads to Nvidia and the rest of the chip complex."
-        },
-        {
-          "when": "Tue Nov 3",
-          "what": "US midterms, with oil and Iran risk in the mix."
-        },
-        {
-          "when": "Fri Nov 6",
-          "what": "October payrolls."
-        }
-      ],
-      "sources": [
-        {
-          "name": "CNN: Nasdaq suffers worst month in over a year as AI nerves roil markets",
-          "url": "https://www.cnn.com/2026/10/30/investing/us-stocks-ai-investment"
-        },
-        {
-          "name": "Motley Fool: Intel plunges nearly 29% as weak outlook rattles Wall Street",
-          "url": "https://www.fool.com/coverage/stock-market-today/2026/10/30/stock-market-today-oct-30-intel-plunges-nearly-29-as-weak-outlook-rattles-wall-street/"
-        },
-        {
-          "name": "Benzinga: Intel flirts with worst day on record",
-          "url": "https://www.benzinga.com/markets/equities/26/10/62750549/stock-market-today-intel-worst-day-on-record-chip-stocks-nasdaq"
-        },
-        {
-          "name": "Yahoo Finance: Nasdaq dives over 3% as AI reckoning grips Wall Street (live)",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-131609630.html"
-        },
-        {
-          "name": "TheStreet: Nasdaq sinks 3% as investors retreat from AI names",
-          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-30-2026"
-        },
-        {
-          "name": "Reuters via Investing.com: Nasdaq futures tumble as Amazon, Intel deepen AI spending woes",
-          "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes-4986163"
-        },
-        {
-          "name": "Yahoo Finance: Nasdaq dives as Amazon, Intel rattle investors (live)",
-          "url": "https://ca.finance.yahoo.com/news/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-131609630.html"
-        },
-        {
-          "name": "Reuters via Investing.com: European shares ease as AI-driven tech selloff deepens",
-          "url": "https://www.investing.com/news/stock-market-news/european-shares-ease-as-aidriven-tech-selloff-deepens-4986074"
-        },
-        {
-          "name": "Quartz: Intel, Amazon fall as AI selloff hits Nasdaq futures",
-          "url": "https://qz.com/ai-selloff-intel-amazon-nasdaq-futures-103026"
-        },
-        {
-          "name": "CNBC: Nasdaq-100 futures fall as Amazon and Intel swoon (live)",
-          "url": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html"
-        }
-      ],
-      "updateNote": "Closing numbers: Nasdaq −2.86%, S&P 500 −1.8% to −2.1%, Intel −28.6% (worst since 1974); Nasdaq's worst month since March 2025."
-    },
-    {
       "id": "oil-brent-115-hormuz",
       "beat": "policy",
       "headline": "Oil sinks about 7% on Iran peace-talk hopes, with Brent settling near $105",
@@ -594,22 +416,22 @@
     {
       "id": "week-ahead-nov-2-2026",
       "beat": "markets",
-      "headline": "Nasdaq slips as oil sinks 7% on Iran talk hopes; Apple, midterms and payrolls still to come",
-      "dek": "Tech led stocks lower again on Monday while the Dow held up and crude tumbled. Tuesday's midterms, Wednesday's refunding and Friday's jobs report are next.",
+      "headline": "Election-day tape splits: Nasdaq rebounds as the Dow slips, with Apple and Palantir lower",
+      "dek": "Chips bounced midday Tuesday while the Dow slipped. Midterm results, AMD earnings, Wednesday's refunding and Friday's jobs report are next.",
       "importance": 3,
       "depth": "brief",
       "developing": false,
       "publishedAt": "2026-11-01T11:40:00-05:00",
-      "updatedAt": "2026-11-03T06:39:00-05:00",
+      "updatedAt": "2026-11-03T14:40:00-05:00",
       "readMinutes": 2,
       "tldr": [
-        "**Monday:** per CNBC, the Nasdaq fell about 1.1% and the S&P 500 about 0.5% while the Dow rose roughly 0.4%; other reports show smaller index moves. Oil fell about 7%.",
-        "**After the close:** Apple beat on revenue and EPS but fell in late trading on a weak margin outlook. Palantir reported revenue of $2.31B, up 96%.",
-        "**Still ahead:** Tue midterms; Wed Treasury refunding and ISM services; Thu Bank of England; Fri October payrolls (consensus ~+55k, 4.2% unemployment)."
+        "**Tue midday:** Investing.com had the Dow down ~0.4%, the S&P 500 up ~0.4% and the Nasdaq up ~0.8% as chips rebounded. These are intraday figures.",
+        "**Movers:** Apple was down about 2% after its margin-light report; Palantir was among the S&P 500's larger decliners despite 96% revenue growth. AMD reports after the close.",
+        "**Still ahead:** Midterm results tonight; Wed Treasury refunding and ISM services; Thu Bank of England; Fri payrolls (consensus ~+55k, 4.2% unemployment)."
       ],
       "whatHappened": [
-        "Stocks drifted into election week with tech still bruised after October's rout. CNBC put the Nasdaq Composite down 1.07% at 25,164.32 and the S&P 500 down 0.51% at 7,541.40, with the Dow up about 0.4%; an earlier Investing.com snapshot showed smaller declines, so treat the exact figures as approximate. The big cross-asset move was oil, down about 7% on Iran peace-talk hopes (see the oil story). I couldn't confirm the October ISM manufacturing reading from a reliable source, so check the ISM release.",
-        "Apple reported after the close in John Ternus's first quarter as CEO (see the Apple story). The rest of the week: Treasury's [[quarterly refunding]] Wednesday shows whether coupon auction sizes stay steady, which matters for term premium. Friday's jobs report is the last before the Fed's Dec. 8–9 meeting."
+        "Monday's session ended with the Nasdaq down about 1.1% and the S&P 500 about 0.5%, per CNBC, while oil sank about 7%. On Tuesday, midterm election day, chip stocks rebounded and the indexes split midday: the Nasdaq and S&P 500 rose while the Dow slipped. Exact levels differ by source, so treat the moves as approximate. I could not find a reliable account of the October ISM reading or of Tuesday's oil move.",
+        "Next: the midterm results tonight, AMD after the close, Treasury's [[quarterly refunding]] on Wednesday (coupon sizes matter for term premium), and Friday's jobs report, the last before the Fed's Dec. 8–9 meeting."
       ],
       "background": [
         "Why the refunding matters: when deficits are large, Treasury decides how much to borrow in long bonds versus short bills. More long-dated supply means investors must absorb more duration, which pushes up term premium; leaning on bills does the opposite. It was a big driver of the 10-year's climb toward 5.35% earlier this month."
@@ -670,185 +492,17 @@
         {
           "name": "TheStreet Pro: Chip rout sends Nasdaq to worst month since March 2025",
           "url": "https://pro.thestreet.com/market-commentary/chip-rout-sends-nasdaq-to-worst-month-since-march-2025"
+        },
+        {
+          "name": "Investing.com: S&P 500, Nasdaq climb while Dow slips on U.S. midterm elections day",
+          "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-apple-dips-after-mixed-earnings-4993314"
+        },
+        {
+          "name": "Yahoo Finance: Stock market today, Tuesday, Nov. 3",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-earnings-141143244.html"
         }
       ],
-      "updateNote": "Added Palantir's results."
-    },
-    {
-      "id": "treasury-10-year-near-5-percent",
-      "beat": "markets",
-      "headline": "The 10-year yield ends October near 4.90% after a roughly 40bp monthly rally",
-      "dek": "Treasuries rallied for a second day as the AI selloff pushed money into bonds. The 10-year closed near 4.90% after topping 5.3% earlier in the month; the driver is term premium and risk appetite as much as the Fed.",
-      "importance": 4,
-      "depth": "full",
-      "developing": false,
-      "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-10-30T17:39:00-04:00",
-      "readMinutes": 4,
-      "tldr": [
-        "The 10-year closed Friday around **4.90%** (Trading Economics 4.91%, Investing.com 4.898%), down about **0.4 points** for October after peaking near 5.35% on Oct. 7.",
-        "On Oct. 22 it fell about 19bp in one session, the biggest drop since March 2023, as an AI-stock selloff sent money into bonds.",
-        "The core story is [[term premium]]: investors demanding more to hold long debt amid big deficits, heavy issuance and oil-driven inflation risk."
-      ],
-      "whatHappened": [
-        "The 10-year Treasury yield rose to about **5.02%** on Wednesday from 4.99%, an upward nudge from higher oil prices on a Fed day. The 2-year did most of the moving, swinging between about 4.69% and 4.79% around the decision.",
-        "Zoom out and October has been a roller coaster. The 10-year hit roughly **5.35%** on Oct. 7 (sources put the peak at 5.34%–5.36%), its highest since 2002. Then on Oct. 22 it dropped about **19bp** in a single session to around 4.95%, the largest one-day fall since March 2023, as a selloff in AI stocks sent investors running to government bonds. It has since drifted back above 5%.",
-        "Thursday: after GDP (3.4%) and in-line PCE, the 10-year initially dipped about 3bp, then extended the rally as Alphabet's record drop and lower oil pulled money into bonds. CNBC had it more than 8bp lower at about 4.96% in the afternoon and around 4.94% after 5 p.m. The 2s10s spread had widened to about 38bp on Wednesday from 29bp, per FRED. A strong-growth day with *falling* long yields tells you the long end is trading risk appetite and oil, not just the data.",
-        "Friday morning: as Amazon and Intel dragged Nasdaq futures down about 2%, money kept moving into Treasuries. Reports had the 10-year around 4.925% and the 2-year around 4.59–4.60%, with the 10-year on track for its largest monthly drop since December 2023. That's a classic [[flight to quality]]. Friday it closed around 4.90%, per Trading Economics and Investing.com, versus about 5.29% at the end of September."
-      ],
-      "marketReaction": [
-        {
-          "asset": "10Y yield (Fri close)",
-          "move": "≈4.90%",
-          "direction": "down"
-        },
-        {
-          "asset": "2Y yield (Fri a.m.)",
-          "move": "≈4.59–4.60%",
-          "direction": "down"
-        },
-        {
-          "asset": "2s10s curve (Oct. 28)",
-          "move": "≈38bp, from 29bp",
-          "direction": "up"
-        },
-        {
-          "asset": "10Y peak (Oct. 7)",
-          "move": "≈5.35%, highest since 2002",
-          "direction": "up"
-        },
-        {
-          "asset": "10Y on Oct. 22",
-          "move": "−19bp in one day",
-          "direction": "down"
-        },
-        {
-          "asset": "2Y on Fed day",
-          "move": "4.79% → 4.69%",
-          "direction": "down"
-        }
-      ],
-      "background": [
-        "A 10-year yield is two things added together: what markets expect short-term rates to average over the next decade, plus a [[term premium]], the extra yield investors demand for locking money up that long instead of rolling short-term bills.",
-        "Term premium is what blew out this year. Forbes, citing government figures, puts the fiscal 2026 deficit around **$1.9 trillion, about 5.8% of GDP**, which means relentless Treasury issuance. Add oil-driven inflation uncertainty and a Fed that won't publish its route, and long bonds look riskier, so buyers want paying. Stress elsewhere (French yields above 5%, for example) adds to the global pressure.",
-        "When long yields rise faster than short ones, the [[yield curve]] steepens. When that happens because long bonds are selling off, it's a [[bear steepener]], the signature move of a term-premium scare as opposed to a Fed scare."
-      ],
-      "grandLine": {
-        "title": "Hazard pay for the long voyage",
-        "body": "Term premium is Grand Line hazard pay. Hopping to the next island is predictable. Signing on all the way into the New World, with unknown weather and Emperor-controlled waters, is another thing, and the crew wants a lot more Berries to commit. A 10-year bond is that long voyage. Deficits, oil shocks and a navigator (the Fed) who won't show the map make the weather harder to read, so investors demand extra yield to sign on."
-      },
-      "whyItMatters": [
-        "The 10-year is the world's discount rate. It sets mortgage rates, corporate borrowing costs and the bar every stock has to clear. A 5% risk-free yield competes directly with equities, especially long-duration tech, where most of the value sits far in the future.",
-        "The Oct. 22 rally was a reminder that Treasuries still work as a [[flight to safety]] asset when stocks crack, even in an inflationary year. That matters for anyone deciding whether to own bonds at 5%."
-      ],
-      "views": [
-        {
-          "camp": "Bond bears",
-          "thesis": "5% is a waypoint, not a ceiling.",
-          "argument": "Deficits aren't shrinking, issuance keeps coming, the Fed is still hiking, and oil keeps feeding inflation. Term premium was compressed for a decade by QE and low inflation, and normalizing it could take long yields well past the early-October high."
-        },
-        {
-          "camp": "Duration buyers",
-          "thesis": "5% is a gift, so lock it in.",
-          "argument": "You're paid handsomely to wait, and the Oct. 22 rally showed bonds still hedge risk-off days. An oil shock plus Fed hikes is exactly the mix that slows growth, and slowdowns pull long yields down. At these levels the asymmetry favors owning duration."
-        }
-      ],
-      "interview": {
-        "question": "Where do you think the 10-year goes from here?",
-        "answer": "I'd lean toward a range around 5% with risk skewed slightly lower over the next few months, but I'd hold that view loosely. The move up this year has been mostly [[term premium]] (deficits, issuance, inflation uncertainty), and those don't fade fast. Still, the Fed tightening into an oil shock is a growth negative, and October 22 showed Treasuries still rally when risk assets crack. What would make me more bearish on bonds is another hot inflation print or a weak auction at the November refunding.",
-        "followUp": {
-          "question": "What's the difference between a bear steepener and a bull steepener?",
-          "answer": "Both mean the curve steepens. A [[bear steepener]] is yields *rising*, with the long end rising more. That's a term-premium or inflation scare, like early October. A bull steepener is yields *falling*, with the front end falling more. That usually happens when markets start pricing Fed cuts, like in a growth scare."
-        }
-      },
-      "trade": {
-        "idea": "Own 10-year duration at 5% as a hedge",
-        "expression": "Long 10Y Treasury futures (TY) or cash 10s, sized by DV01",
-        "rationale": "At 5% you earn strong [[carry]] while you wait, and Treasuries showed on Oct. 22 that they still rally when equities sell off. If the oil shock and Fed hikes slow the economy, long yields should fall. [[DV01]] tells you how much the position makes or loses per basis point, which is how desks size and compare rates trades.",
-        "risks": [
-          "Oil re-accelerates inflation and the Fed hikes more than the one move priced for December.",
-          "Supply: weak demand at Treasury auctions, or a bigger-than-expected refunding, pushes term premium higher.",
-          "Stocks and bonds sell off *together* (a 2022-style inflation scare), so the hedge doesn't hedge."
-        ]
-      },
-      "keyTerms": [
-        {
-          "term": "term premium",
-          "definition": "The extra yield investors demand for holding a long bond instead of rolling short-term bills, as compensation for inflation risk, supply and uncertainty.",
-          "example": "Most of the 10-year's climb to ~5% this year is term premium, not Fed pricing."
-        },
-        {
-          "term": "yield curve",
-          "definition": "Yields plotted across maturities, from short (2Y) to long (10Y, 30Y). Desks trade its slope, e.g. '2s10s' is the 10-year yield minus the 2-year yield."
-        },
-        {
-          "term": "bear steepener",
-          "definition": "Yields rise, with long-dated yields rising more than short-dated ones, so the curve steepens. It's typical of a term-premium or inflation scare."
-        },
-        {
-          "term": "flight to safety",
-          "definition": "Investors dumping risky assets (stocks, credit) for safe ones (Treasuries, often gold or the dollar) during stress, which pushes bond yields down.",
-          "example": "The 19bp drop in the 10-year on Oct. 22 as AI stocks sold off."
-        },
-        {
-          "term": "carry",
-          "definition": "What you earn just from holding a position if prices don't move. For a bond, it's roughly its yield minus your funding cost."
-        },
-        {
-          "term": "DV01",
-          "definition": "Dollar value of one basis point: how much a position gains or loses when yields move 1bp. It's used to size and hedge rates trades."
-        },
-        {
-          "term": "flight to quality",
-          "definition": "Investors selling risky assets (stocks, credit) and buying safe ones (Treasuries, the yen, gold) during a selloff, pushing safe-asset yields down.",
-          "example": "Oct. 29–30: tech slid and the 10-year fell from ~5.02% to ~4.93%."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Thu 8:30 AM ET",
-          "what": "PCE and Q3 GDP, the next inflation test for the long end."
-        },
-        {
-          "when": "Early Nov.",
-          "what": "Treasury's quarterly refunding announcement, the supply outlook for long bonds."
-        },
-        {
-          "when": "Fri Nov 6",
-          "what": "October payrolls."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Trading Economics: US 10-year yield",
-          "url": "https://tradingeconomics.com/united-states/government-bond-yield"
-        },
-        {
-          "name": "CNBC: 10-year hovers below 5% after strong GDP report",
-          "url": "https://www.cnbc.com/2026/10/29/treasury-yields-federal-reserve-rates.html"
-        },
-        {
-          "name": "Quartz: Intel, Amazon fall as AI selloff hits Nasdaq futures",
-          "url": "https://qz.com/ai-selloff-intel-amazon-nasdaq-futures-103026"
-        },
-        {
-          "name": "Forbes: Why the 10-year hit a 24-year high",
-          "url": "https://www.forbes.com/sites/garthfriesen/2026/10/07/why-the-10-year-treasury-yield-just-hit-a-24-year-high/"
-        },
-        {
-          "name": "Quartz: 10-year yield highest since 2002",
-          "url": "https://qz.com/us-treasury-yield-highest-since-2002-bond-selloff-100126"
-        },
-        {
-          "name": "AP via BNN Bloomberg: Bond market swings on Fed day",
-          "url": "https://www.bnnbloomberg.ca/markets/2026/10/28/us-stocks-remains-steady-after-fed-says-it-wont-raise-interest-rates/"
-        },
-        {
-          "name": "FRED: 10-year minus 2-year (T10Y2Y)",
-          "url": "https://fred.stlouisfed.org/series/T10Y2Y"
-        }
-      ],
-      "updateNote": "Close: 10-year ~4.90–4.91%, down roughly 0.4 points in October per Investing.com data."
+      "updateNote": "Added Tuesday midday tape and the Apple/Palantir reactions."
     },
     {
       "id": "midterms-2026-market-odds",
@@ -946,12 +600,12 @@
       "id": "apple-q4-fy2026-earnings",
       "beat": "markets",
       "headline": "Apple beats on revenue and EPS in Ternus's first report, but shares fall on a weak margin outlook",
-      "dek": "Revenue rose 12% to $114.48B and iPhone set a September-quarter record, yet the stock slipped after hours as guidance disappointed.",
+      "dek": "Revenue rose 12% to $114.48B and iPhone set a September-quarter record, yet the stock was down about 2% midday Tuesday as guidance disappointed.",
       "importance": 3,
       "depth": "brief",
       "developing": true,
       "publishedAt": "2026-11-02T20:59:00-05:00",
-      "updatedAt": "2026-11-02T20:59:00-05:00",
+      "updatedAt": "2026-11-03T14:40:00-05:00",
       "readMinutes": 2,
       "tldr": [
         "Revenue **$114.48B (+12%)** vs. about $113.4B expected; EPS **$2.10** vs. about $1.99; iPhone **$57.58B (+17%)**.",
@@ -1028,8 +682,13 @@
         {
           "name": "SEC: Apple Form 8-K, Q4 FY2026 results",
           "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000024/a8-kex991q4202609262026.htm"
+        },
+        {
+          "name": "Yahoo Finance: Stock market today, Tuesday, Nov. 3",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-earnings-141143244.html"
         }
-      ]
+      ],
+      "updateNote": "Added Tuesday midday share move."
     },
     {
       "id": "palantir-q3-2026-earnings",
@@ -1040,15 +699,15 @@
       "depth": "brief",
       "developing": true,
       "publishedAt": "2026-11-03T06:39:00-05:00",
-      "updatedAt": "2026-11-03T06:39:00-05:00",
+      "updatedAt": "2026-11-03T14:40:00-05:00",
       "readMinutes": 2,
       "tldr": [
         "Revenue **$2.313B**, up **96%** year over year and 20% from the prior quarter, above the company's own $2.16B guidance.",
         "GAAP and adjusted EPS were both **$0.44**; adjusted free cash flow was **$1.216B**.",
-        "U.S. commercial revenue overtook U.S. government revenue for the first time. I couldn't confirm the stock's reaction."
+        "U.S. commercial revenue overtook U.S. government revenue for the first time. The stock was among the S&P 500's larger decliners Tuesday morning."
       ],
       "whatHappened": [
-        "Palantir's Q3 press release (filed with the SEC) shows revenue of $2.313 billion, up 96% from a year earlier and 20% from the second quarter, and the first quarter above $2 billion. GAAP and adjusted EPS were both $0.44, adjusted [[free cash flow]] was $1.216 billion, and cash plus Treasuries stood at $10.4 billion. U.S. commercial revenue surpassed U.S. government revenue for the first time. I found no reliable coverage of the share-price reaction or any change to full-year guidance, so check the release and the tape before quoting either."
+        "Palantir's Q3 press release (filed with the SEC) shows revenue of $2.313 billion, up 96% from a year earlier and 20% from the second quarter, and the first quarter above $2 billion. GAAP and adjusted EPS were both $0.44, adjusted [[free cash flow]] was $1.216 billion, and cash plus Treasuries stood at $10.4 billion. U.S. commercial revenue surpassed U.S. government revenue for the first time. The shares traded lower Tuesday despite the beat, a reminder of how much was priced in. I found no reliable coverage of any change to full-year guidance, so check the release before quoting it."
       ],
       "background": [
         "Palantir is the market's favorite proxy for 'AI that actually makes money', so it trades at a premium multiple. That means the reaction depends on whether growth beats what is already [[priced in]], not on whether it was good."
@@ -1110,8 +769,13 @@
         {
           "name": "Rallies.ai: Palantir Beats Q3 Estimates (lead only)",
           "url": "https://rallies.ai/news/palantir-beats-q3-estimates-secures-10-billion-army-contract-and-15-billion-defense-deal"
+        },
+        {
+          "name": "Yahoo Finance: Stock market today, Tuesday, Nov. 3",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-earnings-141143244.html"
         }
-      ]
+      ],
+      "updateNote": "Added Tuesday share reaction."
     }
   ]
 }
