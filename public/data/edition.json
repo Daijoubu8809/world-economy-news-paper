@@ -1,40 +1,40 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-01T11:40:00-05:00",
-  "checkedAt": "2026-11-02T18:45:00-05:00",
+  "publishedAt": "2026-11-02T20:59:00-05:00",
+  "checkedAt": "2026-11-02T20:59:00-05:00",
   "nextRunAt": "2026-11-02T22:38:00-05:00",
   "brief": {
-    "title": "After a brutal AI selloff and a 15% oil surge in October, election week brings payrolls, refunding and Iran risk.",
+    "title": "Oil sinks 7% on Iran talk hopes while tech slides and Apple disappoints on margins, with midterms on deck.",
     "bullets": [
-      "**Last week:** the Nasdaq fell 2.86% Friday (worst month since March 2025) as Intel sank 28.6%, Alphabet 12.6% and Amazon ~7% on AI cash burn.",
-      "**Oil:** WTI settled at $104.12; over the weekend a supertanker hit a mine in Hormuz and Khamenei warned against new attacks. Reports flag possible US strikes as soon as Nov. 4.",
-      "**Midterms Tuesday:** markets price a Democratic sweep at ~70%; House ~90%+, Senate ~65%.",
-      "**Macro:** Q3 GDP +3.4%, core PCE 3.1%; the 10-year ended October near 4.90%. December Fed hike odds were ~80–86%.",
-      "**This week:** ISM Mon, Apple Mon night, refunding Wed, BoE Thu, payrolls Fri (consensus ~+55k)."
+      "**Oil:** Brent settled down about 7.6% near $105 on Iran/Qatar diplomacy hopes; Trump says he is in 'no rush' to resume strikes. Skeptics cite past 'false dawns'.",
+      "**Stocks:** per CNBC the Nasdaq fell about 1.1% and the S&P 500 about 0.5% Monday; the Dow rose slightly. Index figures vary by source.",
+      "**Apple:** beat on revenue ($114.48B) and EPS ($2.10) but dropped after hours on a light margin outlook in Ternus's first report.",
+      "**Macro:** Q3 GDP +3.4%, core PCE 3.1%, December Fed hike odds were ~80–86% last week; 10-year ended October near 4.90%.",
+      "**This week:** midterms Tue, refunding Wed, BoE Thu, payrolls Fri (consensus ~+55k)."
     ],
-    "mood": "Weekend calm before a loaded week: tech sentiment is bruised, oil risk is rising, and the Fed still leans hawkish."
+    "mood": "Calm Belt for tech, an Aqua Laguna warning for the polls, and the oil tide just went out on peace-talk hopes."
   },
   "mustKnow": [
-    "amazon-q3-2026-earnings",
     "oil-brent-115-hormuz",
+    "apple-q4-fy2026-earnings",
     "week-ahead-nov-2-2026"
   ],
   "calendar": [
-    {
-      "date": "2026-11-02",
-      "time": "After close",
-      "label": "Apple and Palantir earnings",
-      "why": "The next test of whether markets reward or punish AI-related spending."
-    },
     {
       "date": "2026-11-03",
       "label": "US midterm elections",
       "why": "A Democratic sweep is ~70% priced; a Republican Senate hold is the surprise scenario."
     },
     {
+      "date": "2026-11-03",
+      "time": "After close",
+      "label": "AMD earnings",
+      "why": "Another AI-spending read after Apple and Palantir."
+    },
+    {
       "date": "2026-11-04",
       "label": "Treasury quarterly refunding; ISM services",
-      "why": "Coupon sizes drive long-end supply and term premium. Reports also flag a possible US strike window on Iran."
+      "why": "Coupon sizes drive long-end supply and term premium."
     },
     {
       "date": "2026-11-05",
@@ -45,7 +45,7 @@
       "date": "2026-11-06",
       "time": "8:30 AM ET",
       "label": "October jobs report",
-      "why": "Consensus ~+55k, 4.2% unemployment. The last payrolls before the Dec. 8–9 FOMC."
+      "why": "Consensus ~+55k, 4.2% unemployment. Last payrolls before the Dec. 8–9 FOMC."
     },
     {
       "date": "2026-11-18",
@@ -427,41 +427,39 @@
     {
       "id": "oil-brent-115-hormuz",
       "beat": "policy",
-      "headline": "WTI settles at $104.12 after a Hormuz tanker attack, capping a 15% October gain for US crude",
-      "dek": "A tanker was struck by limpet mines in the Strait of Hormuz as traders brace for possible US strikes on Iran after the midterms. Both benchmarks rose for a fourth straight month.",
+      "headline": "Oil sinks about 7% on Iran peace-talk hopes, with Brent settling near $105",
+      "dek": "Iran and Qatar signaled room for diplomacy, wiping out a chunk of the war premium. Trump says he is in no rush to resume strikes; Brent had settled at $113.43 on Friday.",
       "importance": 5,
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-11-01T11:40:00-05:00",
+      "updatedAt": "2026-11-02T20:59:00-05:00",
       "readMinutes": 5,
       "tldr": [
-        "Friday: WTI settled up **2.1% at $104.12**. Brent's expiring December contract settled at **$117.64**; the active January contract rose $2.63 to **$113.43**.",
-        "Weekend: Iran's IRGC said a supertanker carrying 2M+ barrels hit a naval mine in Hormuz and caught fire. Khamenei warned the US and Israel against new attacks; Rubio said Trump hasn't decided on strikes and prefers diplomacy.",
-        "Brent is still up roughly 17% in October. Gasoline drove more than half of September's CPI jump, so oil remains the Fed's problem."
+        "Monday: oil fell about **7%**. CNBC reports Brent settled down 7.6% at **$104.77**; Reuters had WTI near **$96.6** midday, down about $7.50.",
+        "The trigger: Iran's president said the Supreme Leader gave the government 'certain authorities' over talks, Qatari mediators were in Tehran, and Trump told Axios he is in 'no rush' to resume strikes.",
+        "Skeptics note oil has sold off on 'false dawns' before. The weekend mine strike and post-midterm strike chatter haven't gone away."
       ],
       "whatHappened": [
-        "**Over the weekend:** Iran's Revolutionary Guard said a supertanker carrying more than 2 million barrels hit a naval mine in the Strait of Hormuz on Friday and caught fire. On Saturday Supreme Leader Khamenei warned the US and Israel against new attacks, and Iran's top diplomat said there were no plans for talks with Washington, though Qatari mediation continues. Secretary of State Rubio said Trump hasn't decided whether to resume strikes and prefers a diplomatic outcome; reports say strikes are unlikely before Tuesday's midterms but Gulf allies were told to prepare for a possible round as early as Nov. 4. Oil markets reopen Sunday evening.",
-        "**Friday:** oil jumped after security sources said a tanker in the Strait of Hormuz was struck by limpet mines; the attackers weren't immediately identified. WTI settled up $2.12 (2.08%) at $104.12. Brent's December contract, which expired Friday, settled at $117.64, while the more active January contract rose $2.63 to $113.43. That gap is a reminder to check *which* contract a 'Brent' quote refers to around expiry. For October, Brent rose 13.6% and WTI 15.2%, a fourth straight monthly gain. Qatari mediators were back in Tehran, but traders are bracing for possible US strikes after Tuesday's midterms.",
-        "**Thursday:** Brent settled down 0.38% at $114.88 and WTI down 0.76% at $102, per Reuters, after both had been more than $2 lower. The drop came on a Wall Street Journal report that Vice President JD Vance wrote to Mohsen Rezaei, head of Iran's Supreme National Security Council, to revive talks. Trump downplayed it, saying Vance acted independently and the letter concerned medical supplies. Qatari mediators reportedly presented a new draft deal that a senior Iranian official called unacceptable. Prices recovered on WSJ reports that the US told several Gulf states to prepare for a short, intense campaign and that Trump is leaning toward a large post-election strike, though he hasn't decided.",
-        "Oil rose for a second session as traders priced a longer conflict. President Trump said the war with Iran would end on his terms and that Tehran must be kept from nuclear weapons. There were also reports that the US is preparing to resume strikes on Iran *after* next Tuesday's midterm elections.",
-        "Houthi forces claimed a ballistic-missile strike on Saudi Aramco's Ras Tanura refinery. Saudi authorities have **not confirmed** a direct hit, so treat it as unverified. Brent briefly topped $117 earlier this week before dipping on Tuesday, when Saudi, Turkish and Pakistani diplomacy with Iran briefly raised hopes of a deal."
+        "**Monday:** oil dropped about 7% as Washington and Tehran both signaled room for diplomacy. Iranian President Pezeshkian said Supreme Leader Mojtaba Khamenei had granted the government 'certain authorities' over peace talks with the US, without spelling out their scope. A Qatari mediator traveled to Tehran to work on a draft agreement, and Iran's foreign minister said consultations were intensive. Trump told Axios he is in 'no rush' to decide on resuming strikes. Reports conflict on what comes after Tuesday's midterms: the Wall Street Journal has said he leans toward a large strike, while Middle East Eye quotes him saying he won't attack after the election. CNBC reported Brent settled down 7.6% at $104.77; Reuters had Brent near $104.96 and WTI near $96.62 at midday. Analysts quoted by CNBC said much of the recent rally was risk premium for escalation, and Raymond James' Pavel Molchanov said skepticism is warranted after many 'false dawns'.",
+        "**Weekend:** Iran's Revolutionary Guard said a supertanker carrying more than 2 million barrels hit a naval mine in Hormuz on Friday and caught fire. Washington disputed some mine claims earlier in the week, and Gulf allies were reportedly told to prepare for a possible round of strikes.",
+        "**Friday:** oil jumped after security sources said a tanker in the Strait of Hormuz was struck by limpet mines; the attackers weren't immediately identified. WTI settled up $2.12 (2.08%) at $104.12. Brent's December contract, which expired Friday, settled at $117.64, while the more active January contract rose $2.63 to $113.43. That gap is a reminder to check *which* contract a 'Brent' quote refers to around expiry. For October, Brent rose 13.6% and WTI 15.2%, a fourth straight monthly gain. Qatari mediators were back in Tehran, but traders are bracing for possible US strikes after Tuesday's midterms."
       ],
       "marketReaction": [
         {
-          "asset": "WTI (Fri settle)",
-          "move": "$104.12 (+2.1%)",
-          "direction": "up"
+          "asset": "Brent (Mon settle)",
+          "move": "$104.77 (-7.6%)",
+          "direction": "down"
+        },
+        {
+          "asset": "WTI (midday)",
+          "move": "~$96.6 (-$7.50)",
+          "direction": "down"
         },
         {
           "asset": "Brent Jan (Fri settle)",
-          "move": "$113.43 (+$2.63)",
-          "direction": "up"
-        },
-        {
-          "asset": "Brent/WTI (October)",
-          "move": "+13.6% / +15.2%",
-          "direction": "up"
+          "move": "$113.43",
+          "direction": "flat"
         },
         {
           "asset": "Hormuz transits",
@@ -471,7 +469,7 @@
       ],
       "background": [
         "Timeline in 60 seconds:",
-        "- **Feb. 28:** US and Israeli strikes on Iran start the war, and Iran shuts the Strait of Hormuz to foreign shipping.\n- **April:** A Pakistan-brokered ceasefire briefly reopens traffic. Talks in Islamabad fail, and the US blockades Iranian ports from mid-April to late May.\n- **June:** A US–Iran memorandum is signed to formally end the conflict.\n- **July 8:** The ceasefire collapses when Iran starts attacking commercial ships.\n- **Since then:** Mediation (Qatar among others) has been on and off, and Iran's president calls the talks meaningless.",
+        "- **Feb. 28:** US and Israeli strikes on Iran start the war, and Iran shuts the Strait of Hormuz to foreign shipping.\n- **April:** A Pakistan-brokered ceasefire briefly reopens traffic. Talks in Islamabad fail, and the US blockades Iranian ports from mid-April to late May.\n- **June:** A US–Iran memorandum is signed to formally end the conflict.\n- **July 8:** The ceasefire collapses when Iran starts attacking commercial ships.\n- **Since then:** Mediation (Qatar the main channel, Pakistan also active) has been on and off, with no breakthrough yet.",
         "Why it's so big: before the war, roughly a quarter of the world's seaborne oil and a fifth of its LNG went through Hormuz. It's the ultimate [[chokepoint]]. When flows run at 60%, the barrels physically can't reach buyers, and prices carry a hefty war [[risk premium]] on top of the actual shortage.",
         "This is a textbook [[supply shock]]. Prices rise because supply is squeezed, not because demand is booming, and that's why it's so awkward for central banks: it pushes inflation up *and* growth down at the same time."
       ],
@@ -504,7 +502,7 @@
       ],
       "interview": {
         "question": "How does a war in the Middle East end up in US interest rates?",
-        "answer": "Through oil, then inflation, then the Fed. Hormuz is a [[chokepoint]] for about a quarter of seaborne oil. With flows at about 60%, Brent is around $115, and gasoline drove more than half of September's 3.7% CPI. Normally the Fed would look through a [[supply shock]], but after most of a year of high energy prices it's worried about second-round effects, so it hiked in September and markets price another in December. That lifts the 2-year directly and adds inflation risk premium to the 10-year. What would reverse it is a credible deal that reopens the strait.",
+        "answer": "Through oil, then inflation, then the Fed. Hormuz is a [[chokepoint]] for about a quarter of seaborne oil. With flows at about 60%, Brent is above $100 (about $115 on Friday, near $105 after Monday's talks-driven drop), and gasoline drove more than half of September's 3.7% CPI. Normally the Fed would look through a [[supply shock]], but after most of a year of high energy prices it's worried about second-round effects, so it hiked in September and markets price another in December. That lifts the 2-year directly and adds inflation risk premium to the 10-year. What would reverse it is a credible deal that reopens the strait.",
         "followUp": {
           "question": "Why doesn't the Fed just 'look through' an oil shock?",
           "answer": "It can if the shock is short and expectations stay anchored. This one has lasted most of the year, core inflation is creeping up, and the risk is that higher prices get built into wages and expectations. At that point waiting is more expensive than acting. The Fed's credibility is the asset it's protecting."
@@ -549,76 +547,69 @@
       ],
       "watchNext": [
         {
-          "when": "Sun evening",
-          "what": "Futures reopen: does the mine strike and weekend rhetoric push WTI above Friday's $104 settle?"
+          "when": "Tue Nov 3",
+          "what": "Midterms. Does the diplomacy narrative survive, or does strike risk return afterward?"
         },
         {
           "when": "Wed Nov 4",
-          "what": "Possible US strike window after the midterms, per reports."
+          "what": "Earlier reports flagged a possible US strike window; Trump now says no rush. Watch Qatari-mediated draft talks."
         }
       ],
       "sources": [
         {
-          "name": "France 24: Khamenei warns US and Israel against new attacks",
-          "url": "https://france24.com/en/middle-east/20261031-iran-s-khamenei-warns-us-and-israel-against-new-attacks"
+          "name": "CNBC: Crude oil prices sell off more than 7% on Iran peace talk hopes",
+          "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
         },
         {
-          "name": "Al Jazeera: Iran war live updates, Oct. 31",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon"
+          "name": "OilPrice.com: Oil Prices Plunge 7% as U.S. and Iran Signal Room for Diplomacy",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-7-as-US-and-Iran-Signal-Room-for-Diplomacy.html"
         },
         {
-          "name": "Korea Times: Oil jumps 2%, settles at 6-month highs on fears of escalation in Iran",
-          "url": "https://www.koreatimes.co.kr/world/20261031/oil-jumps-2-settles-at-6-month-highs-on-fears-of-escalation-in-iran"
+          "name": "Axios: Trump says 'no rush' to decide on bombing Iran again",
+          "url": "https://www.axios.com/2026/11/02/trump-axios-interview-no-rush-resume-war"
+        },
+        {
+          "name": "Fox News: Trump says 'no rush' to resume Iran strikes",
+          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-midterms-peace-deal-israel-november-2"
+        },
+        {
+          "name": "Middle East Eye: Trump says he will not attack Iran after midterms",
+          "url": "https://www.middleeasteye.net/news/trump-says-he-will-not-attack-iran-after-midterms"
         },
         {
           "name": "Reuters via AOL: Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks",
           "url": "https://www.aol.com/articles/oil-rises-supply-concerns-houthis-022725000.html"
         },
         {
-          "name": "The National: Oil set for sharp monthly rise on Hormuz strikes",
-          "url": "https://www.thenationalnews.com/business/markets/2026/10/30/oil-prices-set-for-sharp-monthly-rise-on-hormuz-strikes-and-us-threat-to-hit-iran/"
+          "name": "Korea Times: Oil jumps 2%, settles at 6-month highs on fears of escalation in Iran",
+          "url": "https://www.koreatimes.co.kr/world/20261031/oil-jumps-2-settles-at-6-month-highs-on-fears-of-escalation-in-iran"
         },
         {
-          "name": "Reuters via The Globe and Mail: Oil settles lower as diplomacy hopes offset supply concerns",
-          "url": "https://www.theglobeandmail.com/investing/article-oil-prices-fall-as-peace-hopes-offset-fears-of-growing-middle-east/"
-        },
-        {
-          "name": "Reuters via Euronext: Oil settles lower",
-          "url": "https://live.euronext.com/en/financial-news/oil-prices-settles-lower-diplomacy-hopes-offset-some-mideast-supply-concerns"
-        },
-        {
-          "name": "CNBC: Oil price today, Oct. 29",
-          "url": "https://www.cnbc.com/amp/2026/10/29/oil-price-today-wti-brent.html"
-        },
-        {
-          "name": "OilPrice.com: Oil falls as Vance moves to restart Iran talks",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Vance-Moves-to-Restart-Iran-Peace-Talks.html"
-        },
-        {
-          "name": "The National: Oil prices decline after diplomatic push in Iran war",
-          "url": "https://www.thenationalnews.com/business/energy/2026/10/29/oil-prices-decline-after-diplomatic-push-in-iran-war/"
+          "name": "France 24: Khamenei warns US and Israel against new attacks",
+          "url": "https://france24.com/en/middle-east/20261031-iran-s-khamenei-warns-us-and-israel-against-new-attacks"
         }
       ],
-      "updateNote": "Weekend: Khamenei warned against new attacks; Rubio says no decision on strikes; Iran says no direct talks; a supertanker hit a mine in Hormuz."
+      "updateNote": "Monday: oil fell about 7% on Iran/Qatar talk hopes; Trump 'no rush' on strikes."
     },
     {
       "id": "week-ahead-nov-2-2026",
       "beat": "markets",
-      "headline": "Week ahead: midterms, payrolls, Treasury refunding and Apple test a market fresh off an AI rout",
-      "dek": "Tuesday's election, Wednesday's refunding, Thursday's Bank of England and Friday's jobs report land after the Nasdaq's worst month since March 2025.",
+      "headline": "Nasdaq slips as oil sinks 7% on Iran talk hopes; Apple, midterms and payrolls still to come",
+      "dek": "Tech led stocks lower again on Monday while the Dow held up and crude tumbled. Tuesday's midterms, Wednesday's refunding and Friday's jobs report are next.",
       "importance": 3,
       "depth": "brief",
       "developing": false,
       "publishedAt": "2026-11-01T11:40:00-05:00",
-      "updatedAt": "2026-11-01T11:40:00-05:00",
+      "updatedAt": "2026-11-02T20:59:00-05:00",
       "readMinutes": 2,
       "tldr": [
-        "**Mon:** ISM manufacturing (forecast ~54.7); Apple and Palantir report after the close. **Tue:** midterms; AMD reports.",
-        "**Wed:** Treasury's quarterly refunding and ISM services. **Thu:** Bank of England decision. **Fri:** October payrolls, consensus about **+55k** and **4.2%** unemployment.",
-        "The set-up: the Nasdaq just fell 2.86% Friday and posted its worst month since March 2025, while the 10-year closed October near 4.90%."
+        "**Monday:** per CNBC, the Nasdaq fell about 1.1% and the S&P 500 about 0.5% while the Dow rose roughly 0.4%; other reports show smaller index moves. Oil fell about 7%.",
+        "**After the close:** Apple beat on revenue and EPS but fell in late trading on a weak margin outlook. Palantir also reported; I couldn't confirm its results.",
+        "**Still ahead:** Tue midterms; Wed Treasury refunding and ISM services; Thu Bank of England; Fri October payrolls (consensus ~+55k, 4.2% unemployment)."
       ],
       "whatHappened": [
-        "After a week that saw Alphabet's worst day ever and Intel's worst since 1974, markets face a dense calendar. Apple reports Monday after the close, the next big read on whether investors reward AI-related spending or punish it. Treasury's [[quarterly refunding]] on Wednesday will show whether it keeps guiding to steady coupon auction sizes, which matters for term premium. Friday's jobs report is the last before the Fed's Dec. 8–9 meeting; consensus is around +55,000 after +29,000 in September."
+        "Stocks drifted into election week with tech still bruised after October's rout. CNBC put the Nasdaq Composite down 1.07% at 25,164.32 and the S&P 500 down 0.51% at 7,541.40, with the Dow up about 0.4%; an earlier Investing.com snapshot showed smaller declines, so treat the exact figures as approximate. The big cross-asset move was oil, down about 7% on Iran peace-talk hopes (see the oil story). I couldn't confirm the October ISM manufacturing reading from a reliable source, so check the ISM release.",
+        "Apple reported after the close in John Ternus's first quarter as CEO (see the Apple story). The rest of the week: Treasury's [[quarterly refunding]] Wednesday shows whether coupon auction sizes stay steady, which matters for term premium. Friday's jobs report is the last before the Fed's Dec. 8–9 meeting."
       ],
       "background": [
         "Why the refunding matters: when deficits are large, Treasury decides how much to borrow in long bonds versus short bills. More long-dated supply means investors must absorb more duration, which pushes up term premium; leaning on bills does the opposite. It was a big driver of the 10-year's climb toward 5.35% earlier this month."
@@ -680,7 +671,8 @@
           "name": "TheStreet Pro: Chip rout sends Nasdaq to worst month since March 2025",
           "url": "https://pro.thestreet.com/market-commentary/chip-rout-sends-nasdaq-to-worst-month-since-march-2025"
         }
-      ]
+      ],
+      "updateNote": "Added Monday's close, oil drop and Apple's report."
     },
     {
       "id": "treasury-10-year-near-5-percent",
@@ -949,6 +941,95 @@
         }
       ],
       "updateNote": "Latest odds (Oct. 31–Nov. 1): Democratic sweep ~70–72%; House ~90–93%, Senate ~64–65%. Added the post-election Iran strike angle."
+    },
+    {
+      "id": "apple-q4-fy2026-earnings",
+      "beat": "markets",
+      "headline": "Apple beats on revenue and EPS in Ternus's first report, but shares fall on a weak margin outlook",
+      "dek": "Revenue rose 12% to $114.48B and iPhone set a September-quarter record, yet the stock slipped after hours as guidance disappointed.",
+      "importance": 3,
+      "depth": "brief",
+      "developing": true,
+      "publishedAt": "2026-11-02T20:59:00-05:00",
+      "updatedAt": "2026-11-02T20:59:00-05:00",
+      "readMinutes": 2,
+      "tldr": [
+        "Revenue **$114.48B (+12%)** vs. about $113.4B expected; EPS **$2.10** vs. about $1.99; iPhone **$57.58B (+17%)**.",
+        "Shares fell in late trading as the margin forecast for the holiday quarter disappointed, per CNBC and SiliconANGLE.",
+        "It's the first earnings call under CEO John Ternus, and the first big test of whether the market still pays for AI-era hardware after October's tech rout."
+      ],
+      "whatHappened": [
+        "Apple reported fiscal fourth-quarter results Monday after the close. Revenue rose 12% to $114.48 billion, above the roughly $113.4 billion analysts expected, and adjusted EPS was $2.10 versus a consensus near $1.99. iPhone revenue was $57.58 billion, up 17% and ahead of the $56.5 billion estimate, a September-quarter record. Coverage said the quarter contained only a handful of days of new iPhone sales, so the holiday quarter carries the weight. The stock fell in late trading on a [[gross margin]] forecast that came in light, with [[guidance]] for the December quarter the main swing factor. I couldn't confirm the size of the after-hours move or the exact guidance figures; check Apple's release."
+      ],
+      "background": [
+        "Apple has leaned on iPhone upgrade cycles and high-margin Services to defend its margins against rising memory-chip and tariff costs. A new CEO makes guidance more scrutinized, because the market is judging whether the post-transition playbook holds."
+      ],
+      "whyItMatters": [
+        "Apple is the largest weight in the major equity indexes, so a guidance-driven slide matters for the Nasdaq the morning after. It also reinforces the October theme: investors are rewarding cash generation and punishing spending or margin pressure, whatever the headline beat."
+      ],
+      "grandLine": {
+        "title": "Big News Morgans and the headline",
+        "body": "The World Economy News Paper's boss famously spins a headline to sell papers. A 'beat' is the headline; guidance is the fine print. Markets trade the fine print, because a beat tells you what already happened, and guidance tells you what they'll be paying for next."
+      },
+      "views": [
+        {
+          "camp": "Beat now, margin worry is fixable",
+          "thesis": "The quarter was strong and the margin dip is cost timing.",
+          "argument": "Revenue and iPhone both beat, and memory costs could ease. A small post-earnings dip after a record iPhone quarter is a chance to buy."
+        },
+        {
+          "camp": "Guidance is the story",
+          "thesis": "The weak margin outlook is the signal, not the beat.",
+          "argument": "With tariffs and memory costs rising, a light gross-margin forecast suggests earnings power is peaking, which matters most for a stock priced for steadiness."
+        }
+      ],
+      "interview": {
+        "question": "Apple beat on revenue and EPS but the stock fell after hours. Why?",
+        "answer": "Because the market trades the forward numbers, not the print. A beat was expected, and the [[gross margin]] outlook came in light, so earnings estimates for the next quarter go down. My view is the reaction is about guidance, not the quarter. What would change my mind is if management shows the margin pressure is a one-off, like memory costs reversing.",
+        "followUp": {
+          "question": "What would you look at to tell if it's a buying opportunity?",
+          "answer": "Services growth and gross margin trend, because they drive earnings quality. And I'd compare the move to peers: if the whole megacap group is falling on AI-spending worries, it's sector, not Apple."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "gross margin",
+          "definition": "Revenue minus cost of goods sold, as a percent of revenue. Rising component or tariff costs squeeze it.",
+          "example": "Apple's outlook for gross margin is the swing factor this quarter."
+        },
+        {
+          "term": "guidance",
+          "definition": "A company's own forecast for coming-quarter revenue, margins or EPS. Stocks often move more on guidance than on the quarter just reported."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Tue Nov 3",
+          "what": "How Apple opens after the report, and whether the Nasdaq follows."
+        },
+        {
+          "when": "Fri Nov 6",
+          "what": "Payrolls, the next macro swing for megacap valuations."
+        }
+      ],
+      "sources": [
+        {
+          "name": "CNBC: Apple's stock drops on weak margin forecast in Ternus' first earnings report",
+          "url": "https://www.cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html"
+        },
+        {
+          "name": "SiliconANGLE: Apple's stock drops as new CEO John Ternus delivers his first earnings call",
+          "url": "https://siliconangle.com/2026/11/02/apples-stock-drops-as-new-ceo-john-ternus-delivers-his-first-earnings-call/"
+        },
+        {
+          "name": "AppleInsider: Apple beats Wall Street forecasts in first Ternus-led Q4 earnings",
+          "url": "https://appleinsider.com/articles/26/11/02/apple-beats-wall-street-forecasts-in-first-ternus-led-q4-earnings"
+        },
+        {
+          "name": "SEC: Apple Form 8-K, Q4 FY2026 results",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000024/a8-kex991q4202609262026.htm"
+        }
+      ]
     }
   ]
 }
