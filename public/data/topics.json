@@ -50,14 +50,19 @@
       "label": "Energy",
       "enabled": true,
       "color": "#B8862B",
-      "covers": "Sector coverage: OPEC+ decisions, oil majors and E&Ps, refiners and crack spreads, natural gas and LNG, power demand from data centers, utilities, energy M&A and capex, the energy transition as a market story.",
+      "covers": "Sector coverage, by subsector: (1) Upstream/E&Ps and oil majors (Exxon, Chevron, shale, OPEC+ quotas, rig counts); (2) Midstream and pipelines (MLPs, export terminals, tanker rates, Hormuz flows); (3) Refining and products (crack spreads, gasoline/diesel, turnarounds); (4) Natural gas and LNG (Henry Hub, TTF/JKM, export capacity); (5) Oilfield services (SLB, Halliburton, Baker Hughes); (6) Power and utilities (data-center load growth, PJM capacity prices, grid and transmission, nuclear/SMRs); (7) Renewables, storage and the transition (solar, wind, batteries, uranium, coal); (8) Energy M&A and capex.",
       "lens": "How an energy-sector analyst or commodities trader reads it: supply/demand balance, inventories, curve structure (backwardation/contango), and which equities or credits are exposed.",
       "queries": [
         "oil prices OPEC today",
         "natural gas LNG prices today",
         "energy stocks Exxon Chevron news",
         "refining margins crack spread",
-        "data center power demand utilities"
+        "data center power demand utilities",
+        "oilfield services SLB Halliburton earnings",
+        "PJM capacity auction power prices",
+        "nuclear uranium SMR stocks",
+        "solar wind battery storage stocks",
+        "tanker rates midstream pipeline"
       ]
     },
     {
@@ -65,14 +70,19 @@
       "label": "Industrials",
       "enabled": true,
       "color": "#5B7A55",
-      "covers": "Sector coverage: aerospace and defense, machinery, transports (rails, trucking, airlines), building products, the industrial cycle (ISM, orders, capex), reshoring and tariffs as they hit supply chains, and industrials earnings.",
+      "covers": "Sector coverage, by subsector: (1) Aerospace and defense (Boeing, Lockheed, RTX, GE Aerospace, defense budgets); (2) Machinery and capital goods (Caterpillar, Deere, Eaton, electrical equipment); (3) Transports (rails, trucking, airlines, shipping, freight volumes); (4) Infrastructure and construction (engineering and construction, building products, aggregates and cement, grid and transmission build-out, data-center construction, federal infrastructure spending); (5) Reshoring, tariffs and supply chains; (6) The industrial cycle (ISM, orders, capex, capacity utilization); and industrials earnings.",
       "lens": "Where we are in the industrial cycle and who's exposed: order books, margins, pricing power, and how macro (rates, tariffs, defense budgets) flows through to the sector.",
       "queries": [
         "industrial stocks news today",
         "ISM manufacturing new orders",
         "aerospace defense earnings Boeing",
         "rail trucking freight volumes",
-        "tariffs supply chain manufacturers"
+        "tariffs supply chain manufacturers",
+        "infrastructure spending construction stocks",
+        "engineering construction backlog Quanta Vulcan",
+        "electrical equipment grid Eaton GE Vernova",
+        "Caterpillar Deere orders outlook",
+        "airlines fuel costs capacity"
       ]
     },
     {
