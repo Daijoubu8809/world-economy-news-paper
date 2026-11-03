@@ -1,35 +1,29 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-03T14:40:00-05:00",
-  "checkedAt": "2026-11-03T14:40:00-05:00",
-  "nextRunAt": "2026-11-03T18:38:00-05:00",
+  "publishedAt": "2026-11-03T18:39:00-05:00",
+  "checkedAt": "2026-11-03T18:39:00-05:00",
+  "nextRunAt": "2026-11-03T22:38:00-05:00",
   "brief": {
-    "title": "Election-day stocks split as chips rebound and Apple and Palantir slide, with oil lower on Iran talk hopes.",
+    "title": "Chips lead a split Election Day tape as AMD jumps after hours; oil's Iran talk-hopes drop hangs over the week.",
     "bullets": [
-      "**Tape:** midday Tuesday the Nasdaq (~+0.8%) and S&P 500 (~+0.4%) rose while the Dow slipped ~0.4%, per Investing.com. Intraday figures.",
-      "**Apple and Palantir:** both fell despite beats (Apple ~-2% midday on a light margin outlook; Palantir revenue +96% to $2.31B).",
+      "**Tuesday close:** S&P 500 +0.36% to 7,568.92, Dow -0.38% to 51,786.72, Nasdaq about +0.8% as chips rebounded.",
+      "**AMD:** beat estimates with data-center revenue +97%; shares rose roughly 7–8% after hours. Apple and Palantir fell on the day despite beats.",
       "**Oil:** Brent settled near $105 Monday after a ~7% drop on Iran/Qatar talk hopes; Trump says he is in 'no rush' to resume strikes. I couldn't confirm Tuesday's move.",
       "**Macro:** Q3 GDP +3.4%, core PCE 3.1%; December Fed hike odds were ~80–86% last week.",
-      "**This week:** midterm results tonight, AMD after the close, refunding Wed, BoE Thu, payrolls Fri."
+      "**This week:** midterm results tonight, refunding Wed, BoE Thu, payrolls Fri."
     ],
     "mood": "Calm Belt for tech, an Aqua Laguna warning for the polls, and the oil tide just went out on peace-talk hopes."
   },
   "mustKnow": [
     "oil-brent-115-hormuz",
-    "apple-q4-fy2026-earnings",
-    "week-ahead-nov-2-2026"
+    "week-ahead-nov-2-2026",
+    "amd-q3-2026-earnings"
   ],
   "calendar": [
     {
       "date": "2026-11-03",
       "label": "US midterm elections",
       "why": "A Democratic sweep is ~70% priced; a Republican Senate hold is the surprise scenario."
-    },
-    {
-      "date": "2026-11-03",
-      "time": "After close",
-      "label": "AMD earnings",
-      "why": "Another AI-spending read after Apple and Palantir."
     },
     {
       "date": "2026-11-04",
@@ -416,22 +410,22 @@
     {
       "id": "week-ahead-nov-2-2026",
       "beat": "markets",
-      "headline": "Election-day tape splits: Nasdaq rebounds as the Dow slips, with Apple and Palantir lower",
-      "dek": "Chips bounced midday Tuesday while the Dow slipped. Midterm results, AMD earnings, Wednesday's refunding and Friday's jobs report are next.",
+      "headline": "S&P 500 snaps a three-day skid on Election Day as chips rebound; the Dow slips",
+      "dek": "Chips rallied, the Nasdaq and S&P 500 rose, and the Dow fell. AMD jumped after hours as the market awaits midterm results, Wednesday's refunding and Friday's jobs report.",
       "importance": 3,
       "depth": "brief",
       "developing": false,
       "publishedAt": "2026-11-01T11:40:00-05:00",
-      "updatedAt": "2026-11-03T14:40:00-05:00",
+      "updatedAt": "2026-11-03T18:39:00-05:00",
       "readMinutes": 2,
       "tldr": [
-        "**Tue midday:** Investing.com had the Dow down ~0.4%, the S&P 500 up ~0.4% and the Nasdaq up ~0.8% as chips rebounded. These are intraday figures.",
-        "**Movers:** Apple was down about 2% after its margin-light report; Palantir was among the S&P 500's larger decliners despite 96% revenue growth. AMD reports after the close.",
-        "**Still ahead:** Midterm results tonight; Wed Treasury refunding and ISM services; Thu Bank of England; Fri payrolls (consensus ~+55k, 4.2% unemployment)."
+        "**Tuesday close:** the S&P 500 rose 0.36% to **7,568.92**, snapping a three-day losing streak; the Dow fell 0.38% to **51,786.72**; the Nasdaq gained about **0.8%** as chip stocks rebounded.",
+        "**After the bell:** AMD beat on revenue and earnings with data-center revenue up 97%, and rose roughly 7–8% in extended trading. Apple and Palantir were lower on the day.",
+        "**Still ahead:** midterm results tonight; Wed Treasury refunding and ISM services; Thu Bank of England; Fri payrolls (consensus ~+55k, 4.2% unemployment)."
       ],
       "whatHappened": [
-        "Monday's session ended with the Nasdaq down about 1.1% and the S&P 500 about 0.5%, per CNBC, while oil sank about 7%. On Tuesday, midterm election day, chip stocks rebounded and the indexes split midday: the Nasdaq and S&P 500 rose while the Dow slipped. Exact levels differ by source, so treat the moves as approximate. I could not find a reliable account of the October ISM reading or of Tuesday's oil move.",
-        "Next: the midterm results tonight, AMD after the close, Treasury's [[quarterly refunding]] on Wednesday (coupon sizes matter for term premium), and Friday's jobs report, the last before the Fed's Dec. 8–9 meeting."
+        "Election Day trading split the benchmarks. The S&P 500 rose 0.36% to 7,568.92 to end a three-day losing run, the Dow lost 197 points, or 0.38%, to 51,786.72, and the Nasdaq gained roughly 0.8% as chip stocks rallied (Futu put the chip move near 3%). Apple was lower after its margin-light report and Palantir slid despite its beat. After the close AMD reported, and sources put its after-hours gain at roughly 7–8%.",
+        "I could not find a reliable account of Tuesday's oil settle or the October ISM reading. Next: midterm results tonight, Treasury's [[quarterly refunding]] on Wednesday (coupon sizes matter for term premium), and Friday's jobs report, the last before the Fed's Dec. 8–9 meeting."
       ],
       "background": [
         "Why the refunding matters: when deficits are large, Treasury decides how much to borrow in long bonds versus short bills. More long-dated supply means investors must absorb more duration, which pushes up term premium; leaning on bills does the opposite. It was a big driver of the 10-year's climb toward 5.35% earlier this month."
@@ -498,11 +492,19 @@
           "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-apple-dips-after-mixed-earnings-4993314"
         },
         {
+          "name": "CNBC: S&P 500 snaps 3-day skid on Election Day as chip stocks rebound",
+          "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html"
+        },
+        {
+          "name": "Futu: US stocks close on Election Day",
+          "url": "https://news.futunn.com/en/post/1003307805/us-stocks-close-on-election-day-the-s-p-500"
+        },
+        {
           "name": "Yahoo Finance: Stock market today, Tuesday, Nov. 3",
           "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-earnings-141143244.html"
         }
       ],
-      "updateNote": "Added Tuesday midday tape and the Apple/Palantir reactions."
+      "updateNote": "Added Tuesday's close and AMD's after-hours move."
     },
     {
       "id": "midterms-2026-market-odds",
@@ -776,6 +778,87 @@
         }
       ],
       "updateNote": "Added Tuesday share reaction."
+    },
+    {
+      "id": "amd-q3-2026-earnings",
+      "beat": "markets",
+      "headline": "AMD beats on revenue and earnings, with data-center sales up 97%; shares jump after hours",
+      "dek": "The chipmaker's report on Election Day is another read on AI demand after Apple and Palantir, and shares rose roughly 7–8% in extended trading.",
+      "importance": 3,
+      "depth": "brief",
+      "developing": true,
+      "publishedAt": "2026-11-03T18:39:00-05:00",
+      "updatedAt": "2026-11-03T18:39:00-05:00",
+      "readMinutes": 2,
+      "tldr": [
+        "AMD beat Wall Street's revenue and EPS expectations for the third quarter, per reports.",
+        "**Data-center revenue rose 97%** year over year, the main driver.",
+        "Shares were up roughly **7–8%** after hours (Futu 7.6%, Yahoo about 7%). I couldn't confirm the exact revenue, EPS or guidance numbers."
+      ],
+      "whatHappened": [
+        "AMD reported third-quarter results after the closing bell Tuesday, beating expectations on the top and bottom lines. Data-center revenue grew 97% from a year earlier, the standout line as investors look for proof that AI spending turns into sales. The stock rose roughly 7–8% in extended trading, which fits with chip stocks having rallied in the regular session. I couldn't verify the exact revenue and EPS figures or the fourth-quarter outlook, so check AMD's release before quoting them."
+      ],
+      "background": [
+        "After October's AI selloff hit Alphabet, Intel and Amazon on spending worries, the market has been sorting AI names into those making money from the build-out and those paying for it. A chipmaker whose data-center sales nearly doubled sits on the 'selling the picks and shovels' side."
+      ],
+      "whyItMatters": [
+        "A strong print supports the [[AI capex]] trade and helps the Nasdaq after a rough month. The catch is positioning: a stock that has rallied into earnings needs the outlook, not just the quarter, to beat."
+      ],
+      "grandLine": {
+        "title": "The Sabaody bubble coating",
+        "body": "At Sabaody, resin bubbles let ships dive deeper than they otherwise could, until the pressure gets too high and the coating pops. AI spending is the coating: it carries the whole sector deeper, and chipmakers sell the resin. Strong data-center growth shows the dive is still going well; the risk is what happens if the customers paying for it run short of cash."
+      },
+      "views": [
+        {
+          "camp": "Demand is real",
+          "thesis": "Data-center revenue near doubling shows AI spending is still accelerating.",
+          "argument": "Cloud and enterprise buyers are still ordering accelerators, so chip suppliers keep benefiting even as their customers face questions about returns."
+        },
+        {
+          "camp": "Don't chase the pop",
+          "thesis": "A one-day gain after a beat tells you little about durability.",
+          "argument": "After October's selloff, sentiment swings fast. If hyperscaler cash burn forces capex cuts, the suppliers feel it with a lag."
+        }
+      ],
+      "interview": {
+        "question": "AMD's data-center revenue is up 97% and the stock jumped. How do you think about it?",
+        "answer": "It's a supplier benefiting from customers' [[AI capex]]. The print is good, but the question is durability. My view is that demand holds through the next few quarters, and the risk is customers cutting spending if returns disappoint. I'd change my mind if guidance implies growth slowing or if hyperscalers trim capex.",
+        "followUp": {
+          "question": "Why did chip stocks rally while Apple fell?",
+          "answer": "Apple's issue was margins and a cost squeeze on a mature product. Chips are riding the spending boom. It's the same theme viewed from the two ends: who gets paid versus who pays."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "AI capex",
+          "definition": "Capital spending by cloud and tech companies on data centers, chips and power for AI. It is revenue for suppliers like AMD and a cash drain for the spenders.",
+          "example": "October's selloff hit names seen as burning cash on AI capex."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Wed Nov 4",
+          "what": "How AMD opens, and whether chips extend Tuesday's rally."
+        },
+        {
+          "when": "Fri Nov 6",
+          "what": "Payrolls, the next macro swing for tech valuations."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Yahoo Finance: Stock market today, Tuesday, Nov. 3",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-earnings-141143244.html"
+        },
+        {
+          "name": "Futu: US stocks close on Election Day",
+          "url": "https://news.futunn.com/en/post/1003307805/us-stocks-close-on-election-day-the-s-p-500"
+        },
+        {
+          "name": "CNBC: S&P 500 snaps 3-day skid on Election Day as chip stocks rebound",
+          "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html"
+        }
+      ]
     }
   ]
 }
