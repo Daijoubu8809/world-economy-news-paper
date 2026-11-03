@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-02T20:59:00-05:00",
-  "checkedAt": "2026-11-02T22:45:00-05:00",
-  "nextRunAt": "2026-11-03T06:38:00-05:00",
+  "publishedAt": "2026-11-03T06:39:00-05:00",
+  "checkedAt": "2026-11-03T06:39:00-05:00",
+  "nextRunAt": "2026-11-03T10:38:00-05:00",
   "brief": {
     "title": "Oil sinks 7% on Iran talk hopes while tech slides and Apple disappoints on margins, with midterms on deck.",
     "bullets": [
       "**Oil:** Brent settled down about 7.6% near $105 on Iran/Qatar diplomacy hopes; Trump says he is in 'no rush' to resume strikes. Skeptics cite past 'false dawns'.",
       "**Stocks:** per CNBC the Nasdaq fell about 1.1% and the S&P 500 about 0.5% Monday; the Dow rose slightly. Index figures vary by source.",
-      "**Apple:** beat on revenue ($114.48B) and EPS ($2.10) but dropped after hours on a light margin outlook in Ternus's first report.",
+      "**Apple:** beat on revenue ($114.48B) and EPS ($2.10) but dropped after hours on a light margin outlook. **Palantir:** revenue $2.31B, up 96%.",
       "**Macro:** Q3 GDP +3.4%, core PCE 3.1%, December Fed hike odds were ~80–86% last week; 10-year ended October near 4.90%.",
       "**This week:** midterms Tue, refunding Wed, BoE Thu, payrolls Fri (consensus ~+55k)."
     ],
@@ -600,11 +600,11 @@
       "depth": "brief",
       "developing": false,
       "publishedAt": "2026-11-01T11:40:00-05:00",
-      "updatedAt": "2026-11-02T20:59:00-05:00",
+      "updatedAt": "2026-11-03T06:39:00-05:00",
       "readMinutes": 2,
       "tldr": [
         "**Monday:** per CNBC, the Nasdaq fell about 1.1% and the S&P 500 about 0.5% while the Dow rose roughly 0.4%; other reports show smaller index moves. Oil fell about 7%.",
-        "**After the close:** Apple beat on revenue and EPS but fell in late trading on a weak margin outlook. Palantir also reported; I couldn't confirm its results.",
+        "**After the close:** Apple beat on revenue and EPS but fell in late trading on a weak margin outlook. Palantir reported revenue of $2.31B, up 96%.",
         "**Still ahead:** Tue midterms; Wed Treasury refunding and ISM services; Thu Bank of England; Fri October payrolls (consensus ~+55k, 4.2% unemployment)."
       ],
       "whatHappened": [
@@ -672,7 +672,7 @@
           "url": "https://pro.thestreet.com/market-commentary/chip-rout-sends-nasdaq-to-worst-month-since-march-2025"
         }
       ],
-      "updateNote": "Added Monday's close, oil drop and Apple's report."
+      "updateNote": "Added Palantir's results."
     },
     {
       "id": "treasury-10-year-near-5-percent",
@@ -1028,6 +1028,88 @@
         {
           "name": "SEC: Apple Form 8-K, Q4 FY2026 results",
           "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000024/a8-kex991q4202609262026.htm"
+        }
+      ]
+    },
+    {
+      "id": "palantir-q3-2026-earnings",
+      "beat": "markets",
+      "headline": "Palantir revenue jumps 96% to $2.31B, its first quarter above $2 billion",
+      "dek": "U.S. commercial sales passed U.S. government sales for the first time, a key test of the AI-software story after October's tech rout.",
+      "importance": 3,
+      "depth": "brief",
+      "developing": true,
+      "publishedAt": "2026-11-03T06:39:00-05:00",
+      "updatedAt": "2026-11-03T06:39:00-05:00",
+      "readMinutes": 2,
+      "tldr": [
+        "Revenue **$2.313B**, up **96%** year over year and 20% from the prior quarter, above the company's own $2.16B guidance.",
+        "GAAP and adjusted EPS were both **$0.44**; adjusted free cash flow was **$1.216B**.",
+        "U.S. commercial revenue overtook U.S. government revenue for the first time. I couldn't confirm the stock's reaction."
+      ],
+      "whatHappened": [
+        "Palantir's Q3 press release (filed with the SEC) shows revenue of $2.313 billion, up 96% from a year earlier and 20% from the second quarter, and the first quarter above $2 billion. GAAP and adjusted EPS were both $0.44, adjusted [[free cash flow]] was $1.216 billion, and cash plus Treasuries stood at $10.4 billion. U.S. commercial revenue surpassed U.S. government revenue for the first time. I found no reliable coverage of the share-price reaction or any change to full-year guidance, so check the release and the tape before quoting either."
+      ],
+      "background": [
+        "Palantir is the market's favorite proxy for 'AI that actually makes money', so it trades at a premium multiple. That means the reaction depends on whether growth beats what is already [[priced in]], not on whether it was good."
+      ],
+      "whyItMatters": [
+        "After October's selloff in AI-spending names, a profitable, fast-growing software name is a counterpoint to the 'AI cash burn' story that hit Alphabet, Intel and Amazon. A strong print helps the argument that AI demand is real. A fade says expectations were too high."
+      ],
+      "grandLine": {
+        "title": "Nami reads the sky",
+        "body": "Nami doesn't wait for the storm to hit; she reads small signs in the air. A commercial business overtaking government sales is that kind of sign: it shows demand coming from customers who pay on their own, not just from a single large patron. Traders read the sign before the weather shows up in the earnings."
+      },
+      "views": [
+        {
+          "camp": "Growth justifies the multiple",
+          "thesis": "96% growth with real cash flow earns a premium.",
+          "argument": "Revenue is accelerating, margins are positive and U.S. commercial demand is now the larger engine, which makes growth less dependent on government budgets."
+        },
+        {
+          "camp": "Priced for perfection",
+          "thesis": "Even a big beat may not be enough at this valuation.",
+          "argument": "A stock at a steep multiple needs growth to keep outrunning expectations. History shows premium software names can fall on beats if guidance or the pace of acceleration only matches the whisper number."
+        }
+      ],
+      "interview": {
+        "question": "Palantir grew revenue 96%. Why might the stock still fall?",
+        "answer": "Because the move depends on expectations, not the print. At a premium multiple the beat is [[priced in]], so the stock needs guidance or acceleration to surprise too. My view is that the quality is strong, with U.S. commercial now larger than government, but the risk is multiple compression if growth slows. I'd change my mind if guidance implies a deceleration or free cash flow falls.",
+        "followUp": {
+          "question": "What does U.S. commercial overtaking government tell you?",
+          "answer": "That demand is broadening beyond a single, budget-driven customer, which lowers concentration risk and supports the idea that enterprises will pay for AI software."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "free cash flow",
+          "definition": "Cash from operations minus capital spending: what the business generates that could fund buybacks, dividends or acquisitions.",
+          "example": "Palantir's adjusted free cash flow was $1.216B."
+        },
+        {
+          "term": "priced in",
+          "definition": "A piece of news is priced in when the market already expects it, so the stock moves only on the surprise.",
+          "example": "A 96% growth print can still disappoint if the market expected faster."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Tue Nov 3",
+          "what": "How PLTR trades at the open and whether the AI-software group follows."
+        },
+        {
+          "when": "Tue Nov 3, after close",
+          "what": "AMD reports, another AI-spending read."
+        }
+      ],
+      "sources": [
+        {
+          "name": "SEC: Palantir Form 8-K, Q3 2026 press release",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000045/a2026q3ex991pressrelease.htm"
+        },
+        {
+          "name": "Rallies.ai: Palantir Beats Q3 Estimates (lead only)",
+          "url": "https://rallies.ai/news/palantir-beats-q3-estimates-secures-10-billion-army-contract-and-15-billion-defense-deal"
         }
       ]
     }
