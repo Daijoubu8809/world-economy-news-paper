@@ -1,30 +1,25 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-04T06:54:00-05:00",
-  "checkedAt": "2026-11-04T06:54:00-05:00",
-  "nextRunAt": "2026-11-04T18:52:00-05:00",
+  "publishedAt": "2026-11-04T18:54:00-05:00",
+  "checkedAt": "2026-11-04T18:54:00-05:00",
+  "nextRunAt": "2026-11-05T06:52:00-05:00",
   "brief": {
-    "title": "Democrats sweep Congress; futures wobbled on AI-oversight worries, then recovered, with AMD up on earnings.",
+    "title": "Stocks surge and oil plunges as the Democratic sweep raises hopes of an Iran exit.",
     "bullets": [
-      "**Election:** Democrats won the House and Senate (CNN, CBS, CNBC, Yahoo); Alaska and Mississippi were uncalled. Trump congratulated them but doesn't see a rebuke.",
-      "**Futures:** Nasdaq-100 fell as much as 2.4% overnight, then recovered; long-dated yields eased on gridlock hopes.",
-      "**AMD:** up roughly 6% premarket on its beat; Apple and Palantir fell Tuesday despite beats.",
-      "**Oil:** Brent settled near $105 Monday after a ~7% Iran-talks drop; I couldn't confirm Tuesday or Wednesday moves.",
-      "**This week:** refunding and ISM services today, BoE Thu, payrolls Fri (consensus ~+55k)."
+      "**Stocks:** Dow +3.03% to 53,356.12 (best day since April 2025), S&P 500 +1.58%, Nasdaq +1.44% on Wednesday.",
+      "**Oil:** fell roughly 8%; one report had Brent at $94.62 and WTI at $88.12, the lowest since Aug. 31. Drivers: Democrats' win, Vance tying the losses to the war, Trump playing down strikes.",
+      "**Politics:** Democrats control the House and Senate; Alaska and Mississippi Senate races were uncalled in earlier reports.",
+      "**Earnings:** AMD rose on its beat; Apple and Palantir fell Tuesday despite beating.",
+      "**Next:** Bank of England Thu, payrolls Fri (consensus ~+55k). Unverified: the refunding outcome and the Fed hike odds."
     ],
-    "mood": "The Calm Belt for stocks cracked for a night, then the Marines went home."
+    "mood": "The Calm Belt lifted for stocks and the Aqua Laguna warning for oil was called off, for now."
   },
   "mustKnow": [
-    "midterms-2026-market-odds",
     "oil-brent-115-hormuz",
-    "amd-q3-2026-earnings"
+    "week-ahead-nov-2-2026",
+    "midterms-2026-market-odds"
   ],
   "calendar": [
-    {
-      "date": "2026-11-04",
-      "label": "Treasury quarterly refunding; ISM services",
-      "why": "Coupon sizes drive long-end supply and term premium."
-    },
     {
       "date": "2026-11-05",
       "label": "Bank of England decision",
@@ -238,39 +233,39 @@
     {
       "id": "oil-brent-115-hormuz",
       "beat": "policy",
-      "headline": "Oil sinks about 7% on Iran peace-talk hopes, with Brent settling near $105",
-      "dek": "Iran and Qatar signaled room for diplomacy, wiping out a chunk of the war premium. Trump says he is in no rush to resume strikes; Brent had settled at $113.43 on Friday.",
+      "headline": "Oil plunges about 8% as the midterm rout raises hopes of an Iran exit, with Brent near $95",
+      "dek": "Democrats' sweep, a Vance post tying the losses to the war, and Trump playing down strikes cut the risk premium. One report put Brent at $94.62, its lowest close since Aug. 31.",
       "importance": 5,
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-11-02T20:59:00-05:00",
+      "updatedAt": "2026-11-04T18:54:00-05:00",
       "readMinutes": 5,
       "tldr": [
-        "Monday: oil fell about **7%**. CNBC reports Brent settled down 7.6% at **$104.77**; Reuters had WTI near **$96.6** midday, down about $7.50.",
-        "The trigger: Iran's president said the Supreme Leader gave the government 'certain authorities' over talks, Qatari mediators were in Tehran, and Trump told Axios he is in 'no rush' to resume strikes.",
-        "Skeptics note oil has sold off on 'false dawns' before. The weekend mine strike and post-midterm strike chatter haven't gone away."
+        "Wednesday: oil fell roughly **8%**. One end-of-day report had Brent settling down $8.98 (8.7%) at **$94.62** and WTI down $7.97 (8.3%) at **$88.12**, both the lowest since Aug. 31.",
+        "Drivers: the Democratic sweep, a post from Vice President Vance tying the GOP defeat to the Iran war, and Trump saying he has no immediate plans to strike Iran.",
+        "Caveat: an Iranian official said the sides remain far apart, and a deal seen as a Trump defeat could provoke escalation. Oil has sold off on 'false dawns' before."
       ],
       "whatHappened": [
+        "**Wednesday:** oil collapsed after the midterms. Democrats won both chambers, and traders read that as constraining the war and nudging Trump toward a deal. Vice President Vance publicly tied the Republican losses to the Iran conflict, which reports described as a key catalyst, and Trump said he had no immediate plans to strike Iran, so the sense of near-term escalation risk drained out of the market. An end-of-day report put Brent at $94.62 (down 8.7%) and WTI at $88.12 (down 8.3%), their lowest closes since Aug. 31; intraday moves varied widely, from about 2.5% early to 10% at the worst. Analysts warned the relief may not last: one Iranian official said the sides remain far from an agreement, and a deal framed as a defeat for Trump could provoke escalation.",
         "**Monday:** oil dropped about 7% as Washington and Tehran both signaled room for diplomacy. Iranian President Pezeshkian said Supreme Leader Mojtaba Khamenei had granted the government 'certain authorities' over peace talks with the US, without spelling out their scope. A Qatari mediator traveled to Tehran to work on a draft agreement, and Iran's foreign minister said consultations were intensive. Trump told Axios he is in 'no rush' to decide on resuming strikes. Reports conflict on what comes after Tuesday's midterms: the Wall Street Journal has said he leans toward a large strike, while Middle East Eye quotes him saying he won't attack after the election. CNBC reported Brent settled down 7.6% at $104.77; Reuters had Brent near $104.96 and WTI near $96.62 at midday. Analysts quoted by CNBC said much of the recent rally was risk premium for escalation, and Raymond James' Pavel Molchanov said skepticism is warranted after many 'false dawns'.",
-        "**Weekend:** Iran's Revolutionary Guard said a supertanker carrying more than 2 million barrels hit a naval mine in Hormuz on Friday and caught fire. Washington disputed some mine claims earlier in the week, and Gulf allies were reportedly told to prepare for a possible round of strikes.",
-        "**Friday:** oil jumped after security sources said a tanker in the Strait of Hormuz was struck by limpet mines; the attackers weren't immediately identified. WTI settled up $2.12 (2.08%) at $104.12. Brent's December contract, which expired Friday, settled at $117.64, while the more active January contract rose $2.63 to $113.43. That gap is a reminder to check *which* contract a 'Brent' quote refers to around expiry. For October, Brent rose 13.6% and WTI 15.2%, a fourth straight monthly gain. Qatari mediators were back in Tehran, but traders are bracing for possible US strikes after Tuesday's midterms."
+        "**Weekend:** Iran's Revolutionary Guard said a supertanker carrying more than 2 million barrels hit a naval mine in Hormuz on Friday and caught fire. Washington disputed some mine claims earlier in the week, and Gulf allies were reportedly told to prepare for a possible round of strikes."
       ],
       "marketReaction": [
+        {
+          "asset": "Brent (Wed settle)",
+          "move": "$94.62 (-8.7%)",
+          "direction": "down"
+        },
+        {
+          "asset": "WTI (Wed settle)",
+          "move": "$88.12 (-8.3%)",
+          "direction": "down"
+        },
         {
           "asset": "Brent (Mon settle)",
           "move": "$104.77 (-7.6%)",
           "direction": "down"
-        },
-        {
-          "asset": "WTI (midday)",
-          "move": "~$96.6 (-$7.50)",
-          "direction": "down"
-        },
-        {
-          "asset": "Brent Jan (Fri settle)",
-          "move": "$113.43",
-          "direction": "flat"
         },
         {
           "asset": "Hormuz transits",
@@ -313,7 +308,7 @@
       ],
       "interview": {
         "question": "How does a war in the Middle East end up in US interest rates?",
-        "answer": "Through oil, then inflation, then the Fed. Hormuz is a [[chokepoint]] for about a quarter of seaborne oil. With flows at about 60%, Brent is above $100 (about $115 on Friday, near $105 after Monday's talks-driven drop), and gasoline drove more than half of September's 3.7% CPI. Normally the Fed would look through a [[supply shock]], but after most of a year of high energy prices it's worried about second-round effects, so it hiked in September and markets price another in December. That lifts the 2-year directly and adds inflation risk premium to the 10-year. What would reverse it is a credible deal that reopens the strait.",
+        "answer": "Through oil, then inflation, then the Fed. Hormuz is a [[chokepoint]] for about a quarter of seaborne oil. With flows at about 60%, Brent was above $100 for weeks (about $115 on Friday) and has now fallen to the mid-$90s on hopes of a deal, and gasoline drove more than half of September's 3.7% CPI. Normally the Fed would look through a [[supply shock]], but after most of a year of high energy prices it's worried about second-round effects, so it hiked in September and markets price another in December. That lifts the 2-year directly and adds inflation risk premium to the 10-year. What would reverse it is a credible deal that reopens the strait.",
         "followUp": {
           "question": "Why doesn't the Fed just 'look through' an oil shock?",
           "answer": "It can if the shock is short and expectations stay anchored. This one has lasted most of the year, core inflation is creeping up, and the risk is that higher prices get built into wages and expectations. At that point waiting is more expensive than acting. The Fed's credibility is the asset it's protecting."
@@ -358,15 +353,31 @@
       ],
       "watchNext": [
         {
-          "when": "Tue Nov 3",
-          "what": "Midterms. Does the diplomacy narrative survive, or does strike risk return afterward?"
+          "when": "Thu Nov 5",
+          "what": "Does the relief hold? Watch Iran's response and Trump's next comments on strikes versus a deal."
         },
         {
-          "when": "Wed Nov 4",
-          "what": "Earlier reports flagged a possible US strike window; Trump now says no rush. Watch Qatari-mediated draft talks."
+          "when": "Ongoing",
+          "what": "Hormuz transits (~60% of normal) are the physical test; the price fell faster than the supply picture changed."
         }
       ],
       "sources": [
+        {
+          "name": "CNBC: Crude oil falls below $90 as Vance blames GOP election defeat on Iran war",
+          "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
+        },
+        {
+          "name": "Axios: Oil prices plunge after Vance post on Iran war",
+          "url": "https://www.axios.com/2026/11/04/oil-prices-plunge-midterms-vance-democrats-iran"
+        },
+        {
+          "name": "Rigzone: Oil plunges as election shifts Iran outlook",
+          "url": "https://www.rigzone.com/news/oil_plunges_as_election_shifts_iran_outlook-04-nov-2026-185012-article"
+        },
+        {
+          "name": "Seeking Alpha: Oil slides as Trump plays down prospect of Iran strikes after election rout",
+          "url": "https://seekingalpha.com/news/4664819-oil-prices-slide-as-trump-plays-down-prospect-of-iran-strikes-after-us-election-rout"
+        },
         {
           "name": "CNBC: Crude oil prices sell off more than 7% on Iran peace talk hopes",
           "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
@@ -382,45 +393,29 @@
         {
           "name": "Fox News: Trump says 'no rush' to resume Iran strikes",
           "url": "https://www.foxnews.com/live-news/iran-war-news-trump-midterms-peace-deal-israel-november-2"
-        },
-        {
-          "name": "Middle East Eye: Trump says he will not attack Iran after midterms",
-          "url": "https://www.middleeasteye.net/news/trump-says-he-will-not-attack-iran-after-midterms"
-        },
-        {
-          "name": "Reuters via AOL: Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks",
-          "url": "https://www.aol.com/articles/oil-rises-supply-concerns-houthis-022725000.html"
-        },
-        {
-          "name": "Korea Times: Oil jumps 2%, settles at 6-month highs on fears of escalation in Iran",
-          "url": "https://www.koreatimes.co.kr/world/20261031/oil-jumps-2-settles-at-6-month-highs-on-fears-of-escalation-in-iran"
-        },
-        {
-          "name": "France 24: Khamenei warns US and Israel against new attacks",
-          "url": "https://france24.com/en/middle-east/20261031-iran-s-khamenei-warns-us-and-israel-against-new-attacks"
         }
       ],
-      "updateNote": "Monday: oil fell about 7% on Iran/Qatar talk hopes; Trump 'no rush' on strikes."
+      "updateNote": "Wednesday: oil plunged about 8% after the midterms; Brent near $95."
     },
     {
       "id": "week-ahead-nov-2-2026",
       "beat": "markets",
-      "headline": "S&P 500 snaps a three-day skid on Election Day as chips rebound; the Dow slips",
-      "dek": "Chips rallied, the Nasdaq and S&P 500 rose, and the Dow fell. AMD jumped after hours as the market awaits midterm results, Wednesday's refunding and Friday's jobs report.",
+      "headline": "Dow jumps 3% for its best day since April 2025 as oil plunges after the Democratic sweep",
+      "dek": "Stocks rallied hard Wednesday: the S&P 500 had its best day in three months and the Nasdaq rose 1.4%. Thursday brings the Bank of England; Friday, payrolls.",
       "importance": 3,
       "depth": "brief",
       "developing": false,
       "publishedAt": "2026-11-01T11:40:00-05:00",
-      "updatedAt": "2026-11-04T06:54:00-05:00",
+      "updatedAt": "2026-11-04T18:54:00-05:00",
       "readMinutes": 2,
       "tldr": [
-        "**Tuesday close:** the S&P 500 rose 0.36% to **7,568.92**, snapping a three-day losing streak; the Dow fell 0.38% to **51,786.72**; the Nasdaq gained about **0.8%** as chip stocks rebounded.",
-        "**Overnight:** Democrats won both chambers; stock futures fell sharply, then recovered. AMD rose about 6% premarket after its beat.",
-        "**Still ahead:** midterm results tonight; Wed Treasury refunding and ISM services; Thu Bank of England; Fri payrolls (consensus ~+55k, 4.2% unemployment)."
+        "**Wednesday close:** the Dow rose 3.03% (+1,569) to **53,356.12**, the S&P 500 1.58% to **7,688.62**, and the Nasdaq 1.44% to **25,736.51**; the Dow's best day since April 9, 2025.",
+        "**Why:** Democrats won Congress and oil plunged on Iran-exit hopes, easing both political and inflation worries.",
+        "**Still ahead:** Thu Bank of England; Fri payrolls (consensus ~+55k, 4.2% unemployment). I couldn't confirm the outcome of Wednesday's Treasury refunding."
       ],
       "whatHappened": [
-        "Election Day trading split the benchmarks. The S&P 500 rose 0.36% to 7,568.92 to end a three-day losing run, the Dow lost 197 points, or 0.38%, to 51,786.72, and the Nasdaq gained roughly 0.8% as chip stocks rallied (Futu put the chip move near 3%). Apple was lower after its margin-light report and Palantir slid despite its beat. After the close AMD reported, and sources put its after-hours gain at roughly 7–8%.",
-        "I could not find a reliable account of Tuesday's oil settle or the October ISM reading. Next: midterm results tonight, Treasury's [[quarterly refunding]] on Wednesday (coupon sizes matter for term premium), and Friday's jobs report, the last before the Fed's Dec. 8–9 meeting."
+        "Stocks surged the day after the midterms. The Dow gained 1,569.40 points, or 3.03%, to 53,356.12, its best day since April 9, 2025; the S&P 500 rose 1.58% to 7,688.62, its best day in three months; and the Nasdaq Composite rose 1.44% to 25,736.51, with the Nasdaq-100 up 0.91% as chips lagged. Oil's roughly 8% drop (see the oil story) and the sweep's gridlock implications drove the move. Tuesday's Investing.com/Yahoo figures were intraday; these are closing levels from several recaps.",
+        "I could not find the content of Wednesday's Treasury [[quarterly refunding]] announcement, only Treasury's August guidance that coupon sizes would stay unchanged for at least several quarters, so check the Treasury release. Next: the Bank of England Thursday and Friday's jobs report, the last before the Fed's Dec. 8–9 meeting."
       ],
       "background": [
         "Why the refunding matters: when deficits are large, Treasury decides how much to borrow in long bonds versus short bills. More long-dated supply means investors must absorb more duration, which pushes up term premium; leaning on bills does the opposite. It was a big driver of the 10-year's climb toward 5.35% earlier this month."
@@ -497,9 +492,21 @@
         {
           "name": "Yahoo Finance: Stock market today, Tuesday, Nov. 3",
           "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-earnings-141143244.html"
+        },
+        {
+          "name": "Yahoo Finance: Dow jumps nearly 1,600 points as stocks soar; WTI oil slides 8%",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-dow-futures-135650348.html"
+        },
+        {
+          "name": "TheStreet: Stocks rise, oil collapses after Dems sweep midterm elections",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-04-2026"
+        },
+        {
+          "name": "StockTitan: Dow soars in the stock market today, Nov. 4, 2026",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-4-2026"
         }
       ],
-      "updateNote": "Added overnight election reaction."
+      "updateNote": "Added Wednesday's close: Dow +3%."
     },
     {
       "id": "midterms-2026-market-odds",
@@ -510,11 +517,11 @@
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-11-04T06:54:00-05:00",
+      "updatedAt": "2026-11-04T18:54:00-05:00",
       "readMinutes": 3,
       "tldr": [
         "**Democrats won both chambers**, per CNN, CBS, CNBC and Yahoo projections; Alaska and Mississippi were still uncalled and seat counts may change.",
-        "Futures: Nasdaq-100 fell as much as **2.4%** and S&P 500 futures **1.4%** overnight, then recovered; Dow futures were up about 0.6% by morning (different timestamps).",
+        "Cash markets: the Dow rose 3.03% and the S&P 500 1.58% on Wednesday after overnight futures dipped (Nasdaq-100 futures fell as much as 2.4%) and then recovered.",
         "Long-dated Treasury yields eased on gridlock expectations; chip stocks like Nvidia and Micron dipped over AI-oversight worries while AMD rose about 6% on earnings."
       ],
       "whatHappened": [
@@ -596,11 +603,11 @@
           "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-futures-plunged-democrats-102707086.html"
         },
         {
-          "name": "FXStreet: Dow Jones futures gains despite Democrats sweeping Congress",
-          "url": "https://www.fxstreet.com/news/dow-jones-futures-gains-despite-democrats-sweeping-congress-202611040851"
+          "name": "TheStreet: Stocks rise, oil collapses after Dems sweep midterm elections",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-04-2026"
         }
       ],
-      "updateNote": "Democrats won both chambers; added the market reaction.",
+      "updateNote": "Added Wednesday's market close.",
       "grandLine": {
         "title": "A Reverie that rewrites the rules",
         "body": "Every four years the world's kings gather at Reverie and can abolish a whole system, as they did with the Seven Warlords. A midterm that flips Congress is a smaller version: it can't rewrite the whole order, but it can change who gets investigated, funded and licensed. Markets didn't panic about the World Government; they repriced the part of the sea where the new rules might bite, which is AI."
