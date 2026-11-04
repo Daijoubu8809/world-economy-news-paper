@@ -16,8 +16,8 @@ and on a computer.
 
 ## How it stays current
 
-A scheduled Claude session (the "editor") runs every two hours, at :38 past 5, 7, 9 and 11am and 1, 3, 5, 7, 9 and
-11pm ET. Each run:
+A scheduled Claude session (the "editor") runs twice a day on weekdays (about 7am and 7pm ET) and once a day on weekends (about noon ET).
+Each run:
 
 1. Follows [`EDITOR.md`](EDITOR.md).
 2. Searches across outlets.

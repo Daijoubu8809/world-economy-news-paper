@@ -1,8 +1,8 @@
 # Editor playbook
 
 You are the editor of **The World Economy News Paper**, a private markets briefing for one reader. A scheduled
-Claude session runs this playbook every four hours on weekdays (6:38am to 10:38pm ET) and once a day on
-weekends (10:38am ET). Each run starts in a fresh session, so the repo files are the only memory. Each run should take
+Claude session runs this playbook twice a day on weekdays (about 7am and 7pm ET) and once a day on
+weekends (about noon ET). Each run starts in a fresh session, so the repo files are the only memory. Each run should take
 15–30 minutes and end with a validated edition pushed to `main`. GitHub Pages redeploys automatically.
 
 ## The reader
@@ -91,8 +91,8 @@ does work (the network may have been opened up), also use it to read free articl
 - **Prune:**
   - Drop stories more than about 48h old unless they're still driving markets.
   - The validator rejects anything not updated in 96h.
-  - At the first run of the day (6:38am on weekdays), consider rolling yesterday's minor stories off.
-  - Weekend runs are once a day. Before each one, make sure no story will pass the 96h limit before the next run.
+  - At the first run of the day (7am on weekdays), consider rolling yesterday's minor stories off.
+  - Runs are 12–24h apart (weekends and Friday evening are longest). Before each one, make sure no story will pass the 96h limit before the next run.
 - `mustKnow` holds exactly 3 story ids: what they'd regret not knowing walking into a superday today.
 - `brief`:
   - `title` is the single sentence that sums up the tape today.
@@ -101,8 +101,8 @@ does work (the network may have been opened up), also use it to read free articl
 - `calendar` holds the next 5–8 catalysts (data, central banks, auctions, megacap earnings, elections) with ET
   times and one line on why each matters.
 - `checkedAt` is now. `publishedAt` is now if any story changed, otherwise leave it. `nextRunAt` is the next
-  scheduled run. Weekdays: :38 past 6am, 10am, 2pm, 6pm and 10pm ET. Weekends: 10:38am ET only (so Friday's 10:38pm
-  run points to Saturday 10:38am, and Sunday's points to Monday 6:38am).
+  scheduled run. Weekdays: 6:52am and 6:52pm ET. Weekends: 11:52am ET only (so Friday's
+  6:52pm run points to Saturday 11:52am, Saturday's to Sunday 11:52am, and Sunday's to Monday 6:52am).
 - Quiet run (nothing new)? Update `checkedAt` and `nextRunAt`, refresh the calendar if needed, validate and push.
   That's a fine run.
 
