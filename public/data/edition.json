@@ -1,30 +1,25 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-04T18:54:00-05:00",
-  "checkedAt": "2026-11-05T06:54:00-05:00",
-  "nextRunAt": "2026-11-05T18:52:00-05:00",
+  "publishedAt": "2026-11-05T18:54:00-05:00",
+  "checkedAt": "2026-11-05T18:54:00-05:00",
+  "nextRunAt": "2026-11-06T06:52:00-05:00",
   "brief": {
-    "title": "Stocks surge and oil plunges as the Democratic sweep raises hopes of an Iran exit.",
+    "title": "An AI selloff drags the S&P 500 down 4.4% and the Nasdaq into a correction, erasing Wednesday's rally.",
     "bullets": [
-      "**Stocks:** Dow +3.03% to 53,356.12 (best day since April 2025), S&P 500 +1.58%, Nasdaq +1.44% on Wednesday.",
-      "**Oil:** fell roughly 8%; one report had Brent at $94.62 and WTI at $88.12, the lowest since Aug. 31. Drivers: Democrats' win, Vance tying the losses to the war, Trump playing down strikes.",
-      "**Politics:** Democrats control the House and Senate; Alaska and Mississippi Senate races were uncalled in earlier reports.",
-      "**Earnings:** AMD rose on its beat; Apple and Palantir fell Tuesday despite beating.",
-      "**Next:** Bank of England Thu, payrolls Fri (consensus ~+55k). Unverified: the refunding outcome and the Fed hike odds."
+      "**Stocks:** S&P 500 -4.4% to 7,353.73 (worst day since April 2025), Dow -1,833 points to 51,523.06, Nasdaq -5.5% to 24,315.00, now in a correction.",
+      "**Why:** AI and chip stocks led (Nvidia down 8–9%, Magnificent 7 about -$1T) on spending-return doubts and post-midterm regulation fears.",
+      "**Oil:** Brent settled near $95 Wednesday on Iran-exit hopes; I couldn't confirm Thursday's move.",
+      "**Politics:** Democrats control the House and Senate.",
+      "**Next:** Friday's payrolls (consensus ~+55k). Unverified: Thursday's oil, yields, the Bank of England decision and Fed odds."
     ],
-    "mood": "The Calm Belt lifted for stocks and the Aqua Laguna warning for oil was called off, for now."
+    "mood": "A Knock Up Stream in reverse: the AI geyser cut out and the ship fell, with the whole fleet watching."
   },
   "mustKnow": [
+    "ai-selloff-nasdaq-correction-nov-2026",
     "oil-brent-115-hormuz",
-    "week-ahead-nov-2-2026",
     "midterms-2026-market-odds"
   ],
   "calendar": [
-    {
-      "date": "2026-11-05",
-      "label": "Bank of England decision",
-      "why": "Another central bank weighing an energy-driven inflation spike."
-    },
     {
       "date": "2026-11-06",
       "time": "8:30 AM ET",
@@ -213,117 +208,6 @@
       "updateNote": "Wednesday: oil plunged about 8% after the midterms; Brent near $95."
     },
     {
-      "id": "week-ahead-nov-2-2026",
-      "beat": "markets",
-      "headline": "Dow jumps 3% for its best day since April 2025 as oil plunges after the Democratic sweep",
-      "dek": "Stocks rallied hard Wednesday: the S&P 500 had its best day in three months and the Nasdaq rose 1.4%. Thursday brings the Bank of England; Friday, payrolls.",
-      "importance": 3,
-      "depth": "brief",
-      "developing": false,
-      "publishedAt": "2026-11-01T11:40:00-05:00",
-      "updatedAt": "2026-11-04T18:54:00-05:00",
-      "readMinutes": 2,
-      "tldr": [
-        "**Wednesday close:** the Dow rose 3.03% (+1,569) to **53,356.12**, the S&P 500 1.58% to **7,688.62**, and the Nasdaq 1.44% to **25,736.51**; the Dow's best day since April 9, 2025.",
-        "**Why:** Democrats won Congress and oil plunged on Iran-exit hopes, easing both political and inflation worries.",
-        "**Still ahead:** Thu Bank of England; Fri payrolls (consensus ~+55k, 4.2% unemployment). I couldn't confirm the outcome of Wednesday's Treasury refunding."
-      ],
-      "whatHappened": [
-        "Stocks surged the day after the midterms. The Dow gained 1,569.40 points, or 3.03%, to 53,356.12, its best day since April 9, 2025; the S&P 500 rose 1.58% to 7,688.62, its best day in three months; and the Nasdaq Composite rose 1.44% to 25,736.51, with the Nasdaq-100 up 0.91% as chips lagged. Oil's roughly 8% drop (see the oil story) and the sweep's gridlock implications drove the move. Tuesday's Investing.com/Yahoo figures were intraday; these are closing levels from several recaps.",
-        "I could not find the content of Wednesday's Treasury [[quarterly refunding]] announcement, only Treasury's August guidance that coupon sizes would stay unchanged for at least several quarters, so check the Treasury release. Next: the Bank of England Thursday and Friday's jobs report, the last before the Fed's Dec. 8–9 meeting."
-      ],
-      "background": [
-        "Why the refunding matters: when deficits are large, Treasury decides how much to borrow in long bonds versus short bills. More long-dated supply means investors must absorb more duration, which pushes up term premium; leaning on bills does the opposite. It was a big driver of the 10-year's climb toward 5.35% earlier this month."
-      ],
-      "whyItMatters": [
-        "Two questions for the week: does the AI selloff become a broader de-risking (watch Apple and AMD), and does Friday's payrolls print change December? A soft jobs number plus falling oil would chip at the ~80–86% December hike pricing; a firm one with oil above $100 keeps the hawks in charge."
-      ],
-      "views": [
-        {
-          "camp": "Buy the dip",
-          "thesis": "The AI rout is a valuation reset in a strong economy.",
-          "argument": "GDP grew 3.4%, breadth was positive on Thursday, and most stocks aren't AI spenders. Rotation into small caps and cyclicals can continue even if megacaps stay weak."
-        },
-        {
-          "camp": "Stay defensive",
-          "thesis": "Event risk is stacked: election, war, jobs, refunding.",
-          "argument": "A post-election Iran strike, hawkish refunding or a hot payrolls number could hit bonds and stocks together. With megacap sentiment broken, there's little cushion."
-        }
-      ],
-      "interview": {
-        "question": "What's the single most important event for markets this week?",
-        "answer": "Friday's payrolls. The election is largely priced and the refunding is usually telegraphed, but jobs decide December: the market prices roughly an 80–86% chance of a hike, and a weak print with oil easing would chip at that, while a firm one keeps the front end pinned. The wildcard is oil, if the US resumes strikes on Iran right after the vote.",
-        "followUp": {
-          "question": "What would you watch in the refunding?",
-          "answer": "Whether Treasury keeps saying coupon sizes stay steady for several quarters. Any hint of larger long-bond auctions would add supply and push term premium up."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "quarterly refunding",
-          "definition": "Treasury's announcement, each February, May, August and November, of how much it will borrow and in which maturities over the coming quarter.",
-          "example": "The Nov. 4 refunding will show whether coupon auction sizes stay steady."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Mon Nov 2",
-          "what": "ISM manufacturing; Apple and Palantir earnings after the close."
-        },
-        {
-          "when": "Wed Nov 4",
-          "what": "Treasury refunding; ISM services; Qualcomm earnings."
-        },
-        {
-          "when": "Fri Nov 6",
-          "what": "October jobs report."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Newsquawk: Week in focus, Nov. 2–6",
-          "url": "https://www.newsquawk.com/headlines/week-in-focus-2nd-6th-november-2026-highlights-include-us-midterm-election-nfp-ism-pmis-rba-boe-and-ez-cpi-"
-        },
-        {
-          "name": "Stocktwits: What to expect in markets this week",
-          "url": "https://stocktwits.com/news-articles/markets/equity/what-to-expect-markets-this-week-nov-1-2026/cNGes4VR923"
-        },
-        {
-          "name": "TheStreet Pro: Chip rout sends Nasdaq to worst month since March 2025",
-          "url": "https://pro.thestreet.com/market-commentary/chip-rout-sends-nasdaq-to-worst-month-since-march-2025"
-        },
-        {
-          "name": "Investing.com: S&P 500, Nasdaq climb while Dow slips on U.S. midterm elections day",
-          "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-apple-dips-after-mixed-earnings-4993314"
-        },
-        {
-          "name": "CNBC: S&P 500 snaps 3-day skid on Election Day as chip stocks rebound",
-          "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html"
-        },
-        {
-          "name": "Futu: US stocks close on Election Day",
-          "url": "https://news.futunn.com/en/post/1003307805/us-stocks-close-on-election-day-the-s-p-500"
-        },
-        {
-          "name": "Yahoo Finance: Stock market today, Tuesday, Nov. 3",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-earnings-141143244.html"
-        },
-        {
-          "name": "Yahoo Finance: Dow jumps nearly 1,600 points as stocks soar; WTI oil slides 8%",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-dow-futures-135650348.html"
-        },
-        {
-          "name": "TheStreet: Stocks rise, oil collapses after Dems sweep midterm elections",
-          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-04-2026"
-        },
-        {
-          "name": "StockTitan: Dow soars in the stock market today, Nov. 4, 2026",
-          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-4-2026"
-        }
-      ],
-      "updateNote": "Added Wednesday's close: Dow +3%."
-    },
-    {
       "id": "midterms-2026-market-odds",
       "beat": "policy",
       "headline": "Democrats win control of the House and Senate; stock futures dip, then recover",
@@ -332,11 +216,11 @@
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-11-04T18:54:00-05:00",
+      "updatedAt": "2026-11-05T18:54:00-05:00",
       "readMinutes": 3,
       "tldr": [
         "**Democrats won both chambers**, per CNN, CBS, CNBC and Yahoo projections; Alaska and Mississippi were still uncalled and seat counts may change.",
-        "Cash markets: the Dow rose 3.03% and the S&P 500 1.58% on Wednesday after overnight futures dipped (Nasdaq-100 futures fell as much as 2.4%) and then recovered.",
+        "Cash markets: Wednesday the Dow rose 3.03% and S&P 500 1.58%, but Thursday's AI selloff (S&P -4.4%) erased the gains, with Nasdaq in a correction.",
         "Long-dated Treasury yields eased on gridlock expectations; chip stocks like Nvidia and Micron dipped over AI-oversight worries while AMD rose about 6% on earnings."
       ],
       "whatHappened": [
@@ -422,7 +306,7 @@
           "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-04-2026"
         }
       ],
-      "updateNote": "Added Wednesday's market close.",
+      "updateNote": "Added Thursday's reversal.",
       "grandLine": {
         "title": "A Reverie that rewrites the rules",
         "body": "Every four years the world's kings gather at Reverie and can abolish a whole system, as they did with the Seven Warlords. A midterm that flips Congress is a smaller version: it can't rewrite the whole order, but it can change who gets investigated, funded and licensed. Markets didn't panic about the World Government; they repriced the part of the sea where the new rules might bite, which is AI."
@@ -704,6 +588,154 @@
         }
       ],
       "updateNote": "Added Wednesday premarket move."
+    },
+    {
+      "id": "ai-selloff-nasdaq-correction-nov-2026",
+      "beat": "markets",
+      "headline": "S&P 500 falls 4.4% and Nasdaq enters a correction as an AI selloff erases Wednesday's rally",
+      "dek": "The Dow lost 1,833 points and the Nasdaq fell 5.5% as investors dumped AI and chip stocks on data-center spending doubts and post-midterm regulation fears.",
+      "importance": 5,
+      "depth": "full",
+      "developing": true,
+      "publishedAt": "2026-11-05T18:54:00-05:00",
+      "updatedAt": "2026-11-05T18:54:00-05:00",
+      "readMinutes": 5,
+      "tldr": [
+        "Thursday close: **S&P 500 -4.4% to 7,353.73** (worst day since April 2025), **Dow -1,833 points (-3.4%) to 51,523.06**, **Nasdaq -5.5% to 24,315.00**.",
+        "The Nasdaq is now in a [[correction]], more than 10% below last month's record close. Reports put Nvidia down 8–9% and the chip index down about 12%.",
+        "Wednesday's 1,569-point Dow rally is gone. The selloff was led by AI data-center names on spending-return doubts and fears of tougher oversight under a Democratic Congress."
+      ],
+      "whatHappened": [
+        "Stocks fell hard on Thursday in what outlets called an AI trade meltdown. According to AP, the S&P 500 dropped 334.89 points, or 4.4%, to 7,353.73, its worst day since April 2025. The Dow fell 1,833.06 points, or 3.4%, to 51,523.06, and the Nasdaq Composite sank 1,421.52 points, or 5.5%, to 24,315.00, which puts it in a [[correction]]: down more than 10% from its record close. Wednesday's rally, when the Dow gained 1,569 points, was erased and then some; the Dow is now below Tuesday's close.",
+        "The pain was concentrated in AI and chips. CNBC's tally was that the 'Magnificent 7' megacaps lost about $1 trillion in value, and CNN put the day's loss across the market at roughly $2.5 trillion. One report had the PHLX semiconductor index down about 12% and Nvidia down 9.3% (other reports say 8–9%, so treat it as approximate), which erased Nvidia's gains for the year.",
+        "Why: two things stacked. First, doubts about whether [[AI capex]] will earn adequate returns, which had already hit Alphabet, Intel and Amazon in October. Second, the midterms: with Democrats controlling Congress, investors worried about more oversight of AI and data-center buildout, and CBS reported an investor exodus from tech and AI after the results. I could not verify moves in oil, Treasury yields, the dollar or volatility, or the Bank of England's decision, so those are left out."
+      ],
+      "marketReaction": [
+        {
+          "asset": "S&P 500",
+          "move": "7,353.73 (-4.4%)",
+          "direction": "down"
+        },
+        {
+          "asset": "Nasdaq Composite",
+          "move": "24,315.00 (-5.5%)",
+          "direction": "down"
+        },
+        {
+          "asset": "Dow",
+          "move": "51,523.06 (-3.4%)",
+          "direction": "down"
+        },
+        {
+          "asset": "Nvidia",
+          "move": "about -9% (reports 8–9%)",
+          "direction": "down"
+        }
+      ],
+      "background": [
+        "Through 2026 the market has leaned on a handful of AI-linked megacaps. When a few stocks carry most of the index's gains, the index has [[concentration risk]]: a drop in those names drags the whole S&P 500 even if most other stocks are fine.",
+        "The October rout began with cash-burn worries (Alphabet, Intel, Amazon). AMD's strong report on Tuesday, with data-center revenue up 97%, showed demand was real, but it also fed the question of how long customers can keep paying. A Democratic Congress added a new variable: subpoena power and a possible regulatory push on data centers and AI.",
+        "Analysts also described a [[rotation]] from AI names into other areas, such as the 'landlords' that own the physical infrastructure, rather than a retreat from stocks altogether."
+      ],
+      "grandLine": {
+        "title": "The Knock Up Stream",
+        "body": "On Jaya the Knock Up Stream launches a ship skyward in an instant, but only if the timing is perfect; get it wrong and the ship is destroyed. The AI trade has been that geyser: violent upside that works until it doesn't. Thursday looks like the timing slipping, and the lesson for a trader is that sharp gaps in both directions come from the same crowded mechanism."
+      },
+      "whyItMatters": [
+        "Index weights mean a few stocks decide the headline. A 4.4% S&P drop is mostly AI megacaps repricing, which is why the Dow and the equal-weight index may look different from the Nasdaq. The questions a desk asks next: is it positioning (crowded longs unwinding), fundamentals (returns on AI spending), or policy (Washington's stance)?",
+        "For rates and FX, the open items are whether a flight to safety lowers Treasury yields and whether the Fed's hawkish lean shifts; I couldn't confirm either. Friday's payrolls become more important as the next macro catalyst."
+      ],
+      "views": [
+        {
+          "camp": "Overdue shakeout",
+          "thesis": "A 10% pullback after a big run is normal, and the AI thesis is intact.",
+          "argument": "Spending is still ramping, chipmakers such as AMD reported strong data-center growth this week, and corrections are how crowded trades reset."
+        },
+        {
+          "camp": "Policy regime change",
+          "thesis": "A Democratic Congress is a real headwind for the AI build-out.",
+          "argument": "Oversight, subpoenas and possible rules on data centers raise costs and slow deployment, and CBS reported investors fleeing tech and AI after the results."
+        },
+        {
+          "camp": "Returns, not politics",
+          "thesis": "The market is finally pricing the payoff on AI spending.",
+          "argument": "The October selloff started with spending worries before the election. If customers cannot show returns, suppliers' growth fades with a lag, and politics is just the trigger."
+        }
+      ],
+      "interview": {
+        "question": "The S&P fell 4.4% and the Nasdaq entered a correction in one day. How do you read it?",
+        "answer": "I'd separate positioning from fundamentals. A 5% Nasdaq drop in a day, driven by AI and chips, with the Magnificent 7 losing about a trillion dollars, looks like crowded longs unwinding and a [[rotation]] out of AI. The policy angle from the midterms is the trigger, and the real question is [[AI capex]] returns. My view is that it's a sharp reset rather than the start of a bear market unless earnings guidance weakens. I'd change my mind if credit spreads widen or if hyperscalers cut capex.",
+        "followUp": {
+          "question": "What would you watch to know whether it's contagion?",
+          "answer": "Credit spreads, the broader equal-weight index, and whether yields and the dollar act like a risk-off move. If the damage stays inside AI names, it's a sector reset; if it spreads, it's macro."
+        }
+      },
+      "trade": {
+        "idea": "Long equal-weight S&P / short cap-weight S&P",
+        "expression": "Long equal-weight S&P 500 ETF / short cap-weighted S&P 500 ETF, dollar-neutral",
+        "rationale": "If the selloff is a concentration unwind, the megacap-heavy index underperforms the average stock. The pair isolates that without betting on the market's direction. Interview framing, not advice.",
+        "risks": [
+          "A fast AI rebound brings the megacaps back and the pair loses.",
+          "A broad market selloff hits both legs, and small caps can fall more.",
+          "Concentration can keep rising if AI earnings beat again."
+        ]
+      },
+      "keyTerms": [
+        {
+          "term": "correction",
+          "definition": "A decline of 10% or more from a recent peak. Smaller than a bear market (20%+).",
+          "example": "The Nasdaq closed more than 10% below its record close from last month."
+        },
+        {
+          "term": "AI capex",
+          "definition": "Capital spending by cloud and tech companies on data centers, chips and power for AI. It's revenue for suppliers and a cash drain for spenders."
+        },
+        {
+          "term": "concentration risk",
+          "definition": "The risk that an index or portfolio depends on a few holdings, so a drop in them moves everything.",
+          "example": "Megacaps lost about $1 trillion in one session."
+        },
+        {
+          "term": "rotation",
+          "definition": "Money moving from one group of stocks to another instead of leaving the market, such as from AI developers to infrastructure owners."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Fri Nov 6, 8:30 AM ET",
+          "what": "October payrolls (consensus about +55k, 4.2% unemployment) in a market that just lost its footing."
+        },
+        {
+          "when": "Mon Nov 9",
+          "what": "Follow-through: does the AI selloff extend or bounce, and what do credit and the Treasury market say?"
+        }
+      ],
+      "sources": [
+        {
+          "name": "CNBC: Dow drops 1,800 points; Nasdaq tumbles into correction on AI tech wreck",
+          "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+        },
+        {
+          "name": "CNBC: Magnificent 7 loses $1 trillion; the most eye-popping stats from Thursday",
+          "url": "https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html"
+        },
+        {
+          "name": "Yahoo Finance: Dow plunges 1,800 points, Nasdaq enters correction in AI trade meltdown",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"
+        },
+        {
+          "name": "CBS News: Dow sheds more than 1,800 points as midterm results spur exodus from tech and AI",
+          "url": "https://cbsnews.com/news/stocks-midterm-elections-tech-companies-ai-data-centers"
+        },
+        {
+          "name": "CNN: Massive tech sell-off wipes $2.5 trillion from the stock market",
+          "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"
+        },
+        {
+          "name": "AP via TV News Check: Dow tumbles 1,833; Nasdaq sinks 1,422; S&P 500 drops 335",
+          "url": "https://tvnewscheck.com/business/article/dow-tumbles-1833-nasdaq-sinks-1422-sp-500-drops-335/"
+        }
+      ]
     }
   ]
 }
