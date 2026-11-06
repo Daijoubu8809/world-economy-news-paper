@@ -1,35 +1,29 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-06T06:56:00-05:00",
-  "checkedAt": "2026-11-06T06:56:00-05:00",
-  "nextRunAt": "2026-11-06T18:52:00-05:00",
+  "publishedAt": "2026-11-06T18:54:00-05:00",
+  "checkedAt": "2026-11-06T18:54:00-05:00",
+  "nextRunAt": "2026-11-07T11:52:00-05:00",
   "brief": {
-    "title": "An AI selloff drags the S&P 500 down 4.4% and the Nasdaq into a correction, erasing Wednesday's rally.",
+    "title": "A hot jobs report lifts December Fed hike odds to about 80% after an AI selloff and a historic oil drop.",
     "bullets": [
-      "**Stocks:** S&P 500 -4.4% to 7,353.73 Thursday, Nasdaq -5.5% into a correction on an AI/chip selloff.",
-      "**Today:** October payrolls at 8:30am ET (consensus about +55k, 4.2% unemployment), with a December Fed hike still in play.",
-      "**Oil:** Brent fell to about $95 Wednesday on Iran-exit hopes; Qatar-led talks continue and Trump is in 'no rush' to strike.",
-      "**Industrials/energy:** Caterpillar backlog $78B on data-center power demand; Boeing slips its 737 ramp; Chevron refining profit jumps; OPEC+ holds output.",
-      "**World:** Iran talks stall short of a deal; Russia and Ukraine trade strikes after Witkoff meets Putin."
+      "**Jobs:** October payrolls +165k vs. ~65k expected, unemployment 4.1%, prior months revised up; December hike odds near 80%.",
+      "**Stocks:** The Nasdaq entered a correction Thursday (S&P 500 -4.4%); Reuters had Nasdaq +1.7%, S&P +0.6%, Dow -0.6% intraday Friday (closes unconfirmed).",
+      "**Oil:** Brent near $99–100 after the steepest weekly drop since 2020 on some measures (12–16%) as Iran-deal hopes grow; no deal signed.",
+      "**Industrials/energy:** ISM manufacturing 55.5 (10th month of expansion); Caterpillar backlog $78B; OPEC+ holds output.",
+      "**World:** An Iran draft proposal is circulating from Doha; Russia–Ukraine talks stalled after Witkoff met Putin."
     ],
-    "mood": "A Knock Up Stream in reverse: the AI geyser cut out and the ship fell, with the whole fleet watching."
+    "mood": "The Knock Up Stream cut out on Thursday, the Aqua Laguna of oil drained this week, and the Log Pose now points back to a hawkish Fed."
   },
   "mustKnow": [
-    "ai-selloff-nasdaq-correction-nov-2026",
     "jobs-report-october-2026-preview",
-    "oil-brent-115-hormuz"
+    "ai-selloff-nasdaq-correction-nov-2026",
+    "oil-weekly-drop-war-premium-fades"
   ],
   "calendar": [
     {
-      "date": "2026-11-06",
-      "time": "8:30 AM ET",
-      "label": "October jobs report",
-      "why": "Consensus about +55k, 4.2% unemployment. Last payrolls before the Dec. 8–9 FOMC."
-    },
-    {
       "date": "2026-11-09",
       "label": "AI selloff follow-through",
-      "why": "Does the Nasdaq correction extend, or do chips bounce?"
+      "why": "Does the Nasdaq correction extend or bounce, with a hot jobs print lifting yields?"
     },
     {
       "date": "2026-11-18",
@@ -38,15 +32,20 @@
       "why": "How many officials leaned toward the two hawkish dissenters."
     },
     {
+      "date": "2026-11-26",
+      "label": "US markets closed (Thanksgiving)",
+      "why": "Thin liquidity around the holiday can exaggerate moves."
+    },
+    {
       "date": "2026-11-29",
       "label": "OPEC+ meeting",
-      "why": "Decides January output after three straight pauses."
+      "why": "Sets January output after three straight pauses."
     },
     {
       "date": "2026-12-09",
       "time": "2:00 PM ET",
       "label": "FOMC decision + dot plot",
-      "why": "A December hike is the debate: odds run roughly 66–80%."
+      "why": "A December hike is about 80% priced after Friday's payrolls."
     }
   ],
   "stories": [
@@ -333,187 +332,6 @@
       }
     },
     {
-      "id": "apple-q4-fy2026-earnings",
-      "beat": "markets",
-      "headline": "Apple beats on revenue and EPS in Ternus's first report, but shares fall on a weak margin outlook",
-      "dek": "Revenue rose 12% to $114.48B and iPhone set a September-quarter record, yet the stock was down about 2% midday Tuesday as guidance disappointed.",
-      "importance": 3,
-      "depth": "brief",
-      "developing": true,
-      "publishedAt": "2026-11-02T20:59:00-05:00",
-      "updatedAt": "2026-11-03T14:40:00-05:00",
-      "readMinutes": 2,
-      "tldr": [
-        "Revenue **$114.48B (+12%)** vs. about $113.4B expected; EPS **$2.10** vs. about $1.99; iPhone **$57.58B (+17%)**.",
-        "Shares fell in late trading as the margin forecast for the holiday quarter disappointed, per CNBC and SiliconANGLE.",
-        "It's the first earnings call under CEO John Ternus, and the first big test of whether the market still pays for AI-era hardware after October's tech rout."
-      ],
-      "whatHappened": [
-        "Apple reported fiscal fourth-quarter results Monday after the close. Revenue rose 12% to $114.48 billion, above the roughly $113.4 billion analysts expected, and adjusted EPS was $2.10 versus a consensus near $1.99. iPhone revenue was $57.58 billion, up 17% and ahead of the $56.5 billion estimate, a September-quarter record. Coverage said the quarter contained only a handful of days of new iPhone sales, so the holiday quarter carries the weight. The stock fell in late trading on a [[gross margin]] forecast that came in light, with [[guidance]] for the December quarter the main swing factor. I couldn't confirm the size of the after-hours move or the exact guidance figures; check Apple's release."
-      ],
-      "background": [
-        "Apple has leaned on iPhone upgrade cycles and high-margin Services to defend its margins against rising memory-chip and tariff costs. A new CEO makes guidance more scrutinized, because the market is judging whether the post-transition playbook holds."
-      ],
-      "whyItMatters": [
-        "Apple is the largest weight in the major equity indexes, so a guidance-driven slide matters for the Nasdaq the morning after. It also reinforces the October theme: investors are rewarding cash generation and punishing spending or margin pressure, whatever the headline beat."
-      ],
-      "grandLine": {
-        "title": "Big News Morgans and the headline",
-        "body": "The World Economy News Paper's boss famously spins a headline to sell papers. A 'beat' is the headline; guidance is the fine print. Markets trade the fine print, because a beat tells you what already happened, and guidance tells you what they'll be paying for next."
-      },
-      "views": [
-        {
-          "camp": "Beat now, margin worry is fixable",
-          "thesis": "The quarter was strong and the margin dip is cost timing.",
-          "argument": "Revenue and iPhone both beat, and memory costs could ease. A small post-earnings dip after a record iPhone quarter is a chance to buy."
-        },
-        {
-          "camp": "Guidance is the story",
-          "thesis": "The weak margin outlook is the signal, not the beat.",
-          "argument": "With tariffs and memory costs rising, a light gross-margin forecast suggests earnings power is peaking, which matters most for a stock priced for steadiness."
-        }
-      ],
-      "interview": {
-        "question": "Apple beat on revenue and EPS but the stock fell after hours. Why?",
-        "answer": "Because the market trades the forward numbers, not the print. A beat was expected, and the [[gross margin]] outlook came in light, so earnings estimates for the next quarter go down. My view is the reaction is about guidance, not the quarter. What would change my mind is if management shows the margin pressure is a one-off, like memory costs reversing.",
-        "followUp": {
-          "question": "What would you look at to tell if it's a buying opportunity?",
-          "answer": "Services growth and gross margin trend, because they drive earnings quality. And I'd compare the move to peers: if the whole megacap group is falling on AI-spending worries, it's sector, not Apple."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "gross margin",
-          "definition": "Revenue minus cost of goods sold, as a percent of revenue. Rising component or tariff costs squeeze it.",
-          "example": "Apple's outlook for gross margin is the swing factor this quarter."
-        },
-        {
-          "term": "guidance",
-          "definition": "A company's own forecast for coming-quarter revenue, margins or EPS. Stocks often move more on guidance than on the quarter just reported."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Tue Nov 3",
-          "what": "How Apple opens after the report, and whether the Nasdaq follows."
-        },
-        {
-          "when": "Fri Nov 6",
-          "what": "Payrolls, the next macro swing for megacap valuations."
-        }
-      ],
-      "sources": [
-        {
-          "name": "CNBC: Apple's stock drops on weak margin forecast in Ternus' first earnings report",
-          "url": "https://www.cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html"
-        },
-        {
-          "name": "SiliconANGLE: Apple's stock drops as new CEO John Ternus delivers his first earnings call",
-          "url": "https://siliconangle.com/2026/11/02/apples-stock-drops-as-new-ceo-john-ternus-delivers-his-first-earnings-call/"
-        },
-        {
-          "name": "AppleInsider: Apple beats Wall Street forecasts in first Ternus-led Q4 earnings",
-          "url": "https://appleinsider.com/articles/26/11/02/apple-beats-wall-street-forecasts-in-first-ternus-led-q4-earnings"
-        },
-        {
-          "name": "SEC: Apple Form 8-K, Q4 FY2026 results",
-          "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000024/a8-kex991q4202609262026.htm"
-        },
-        {
-          "name": "Yahoo Finance: Stock market today, Tuesday, Nov. 3",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-earnings-141143244.html"
-        }
-      ],
-      "updateNote": "Added Tuesday midday share move."
-    },
-    {
-      "id": "palantir-q3-2026-earnings",
-      "beat": "markets",
-      "headline": "Palantir revenue jumps 96% to $2.31B, its first quarter above $2 billion",
-      "dek": "U.S. commercial sales passed U.S. government sales for the first time, a key test of the AI-software story after October's tech rout.",
-      "importance": 3,
-      "depth": "brief",
-      "developing": true,
-      "publishedAt": "2026-11-03T06:39:00-05:00",
-      "updatedAt": "2026-11-03T14:40:00-05:00",
-      "readMinutes": 2,
-      "tldr": [
-        "Revenue **$2.313B**, up **96%** year over year and 20% from the prior quarter, above the company's own $2.16B guidance.",
-        "GAAP and adjusted EPS were both **$0.44**; adjusted free cash flow was **$1.216B**.",
-        "U.S. commercial revenue overtook U.S. government revenue for the first time. The stock was among the S&P 500's larger decliners Tuesday morning."
-      ],
-      "whatHappened": [
-        "Palantir's Q3 press release (filed with the SEC) shows revenue of $2.313 billion, up 96% from a year earlier and 20% from the second quarter, and the first quarter above $2 billion. GAAP and adjusted EPS were both $0.44, adjusted [[free cash flow]] was $1.216 billion, and cash plus Treasuries stood at $10.4 billion. U.S. commercial revenue surpassed U.S. government revenue for the first time. The shares traded lower Tuesday despite the beat, a reminder of how much was priced in. I found no reliable coverage of any change to full-year guidance, so check the release before quoting it."
-      ],
-      "background": [
-        "Palantir is the market's favorite proxy for 'AI that actually makes money', so it trades at a premium multiple. That means the reaction depends on whether growth beats what is already [[priced in]], not on whether it was good."
-      ],
-      "whyItMatters": [
-        "After October's selloff in AI-spending names, a profitable, fast-growing software name is a counterpoint to the 'AI cash burn' story that hit Alphabet, Intel and Amazon. A strong print helps the argument that AI demand is real. A fade says expectations were too high."
-      ],
-      "grandLine": {
-        "title": "Nami reads the sky",
-        "body": "Nami doesn't wait for the storm to hit; she reads small signs in the air. A commercial business overtaking government sales is that kind of sign: it shows demand coming from customers who pay on their own, not just from a single large patron. Traders read the sign before the weather shows up in the earnings."
-      },
-      "views": [
-        {
-          "camp": "Growth justifies the multiple",
-          "thesis": "96% growth with real cash flow earns a premium.",
-          "argument": "Revenue is accelerating, margins are positive and U.S. commercial demand is now the larger engine, which makes growth less dependent on government budgets."
-        },
-        {
-          "camp": "Priced for perfection",
-          "thesis": "Even a big beat may not be enough at this valuation.",
-          "argument": "A stock at a steep multiple needs growth to keep outrunning expectations. History shows premium software names can fall on beats if guidance or the pace of acceleration only matches the whisper number."
-        }
-      ],
-      "interview": {
-        "question": "Palantir grew revenue 96%. Why might the stock still fall?",
-        "answer": "Because the move depends on expectations, not the print. At a premium multiple the beat is [[priced in]], so the stock needs guidance or acceleration to surprise too. My view is that the quality is strong, with U.S. commercial now larger than government, but the risk is multiple compression if growth slows. I'd change my mind if guidance implies a deceleration or free cash flow falls.",
-        "followUp": {
-          "question": "What does U.S. commercial overtaking government tell you?",
-          "answer": "That demand is broadening beyond a single, budget-driven customer, which lowers concentration risk and supports the idea that enterprises will pay for AI software."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "free cash flow",
-          "definition": "Cash from operations minus capital spending: what the business generates that could fund buybacks, dividends or acquisitions.",
-          "example": "Palantir's adjusted free cash flow was $1.216B."
-        },
-        {
-          "term": "priced in",
-          "definition": "A piece of news is priced in when the market already expects it, so the stock moves only on the surprise.",
-          "example": "A 96% growth print can still disappoint if the market expected faster."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Tue Nov 3",
-          "what": "How PLTR trades at the open and whether the AI-software group follows."
-        },
-        {
-          "when": "Tue Nov 3, after close",
-          "what": "AMD reports, another AI-spending read."
-        }
-      ],
-      "sources": [
-        {
-          "name": "SEC: Palantir Form 8-K, Q3 2026 press release",
-          "url": "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000045/a2026q3ex991pressrelease.htm"
-        },
-        {
-          "name": "Rallies.ai: Palantir Beats Q3 Estimates (lead only)",
-          "url": "https://rallies.ai/news/palantir-beats-q3-estimates-secures-10-billion-army-contract-and-15-billion-defense-deal"
-        },
-        {
-          "name": "Yahoo Finance: Stock market today, Tuesday, Nov. 3",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-earnings-141143244.html"
-        }
-      ],
-      "updateNote": "Added Tuesday share reaction."
-    },
-    {
       "id": "amd-q3-2026-earnings",
       "beat": "markets",
       "headline": "AMD beats on revenue and earnings, with data-center sales up 97%; shares jump after hours",
@@ -751,97 +569,139 @@
       "depth": "brief",
       "developing": true,
       "publishedAt": "2026-11-06T06:56:00-05:00",
-      "updatedAt": "2026-11-06T06:56:00-05:00",
+      "updatedAt": "2026-11-06T18:54:00-05:00",
       "readMinutes": 2,
       "id": "jobs-report-october-2026-preview",
       "beat": "fed-macro",
-      "headline": "October jobs report today: consensus is about +55k, with a December Fed hike still in play",
-      "dek": "Friday's payrolls are the last big data point before the Fed's Dec. 8–9 meeting. A strong print could revive hike bets; an in-line one probably changes little.",
-      "importance": 3,
+      "headline": "Payrolls jump 165,000 in October, far above forecasts, lifting December Fed hike odds to about 80%",
+      "dek": "Unemployment slipped to 4.1% and prior months were revised up. Yields rose early, though some late-session readings had the 10-year roughly flat.",
+      "importance": 4,
       "tldr": [
-        "Release at 8:30am ET. Consensus: about **+55k** nonfarm payrolls and **4.2%** unemployment (forecasts range from about +45k to +65k).",
-        "The Fed held at 3.75%–4.00% on Oct. 28. Estimates of a December quarter-point hike run from roughly **66% to 80%**, depending on the source and the day.",
-        "Analysts say an in-line print won't change much; a strong one could reignite hike expectations."
+        "**+165,000** jobs in October vs. about **65,000** expected; unemployment fell to **4.1%** from 4.2%.",
+        "August was revised up to 186,000 and September to 60,000; average hourly earnings rose **0.4%** m/m and **3.1%** y/y.",
+        "December hike odds rose to roughly **80%** from about 73–75% before the report; the 2-year yield rose about 6bp early."
       ],
       "whatHappened": [
-        "The October employment report is due at 8:30am ET. Previews put [[consensus]] near +55,000 [[jobs|nonfarm payrolls]] with unemployment holding at 4.2%, after +29,000 in September. Individual forecasts run from about +45,000 to +65,000. Because this report is not out yet, everything here is expectation, not result.",
-        "The Fed held rates at 3.75%–4.00% on Oct. 28, with two officials dissenting in favor of a hike. [[FedWatch|CME FedWatch]]-style odds of a December hike vary by source and day, from about 66% to 80%. One analyst view in the previews: if payrolls come in roughly as expected and unemployment doesn't rise much, the market's view of the Fed path shouldn't shift; a hot print is the risk."
+        "The BLS said employers added 165,000 jobs in October ([[nonfarm payrolls]]), more than double the roughly 65,000 economists expected (some previews had cited about 55,000). The unemployment rate edged down to 4.1% from 4.2%. August payrolls were [[revised|revisions]] up to 186,000 from 133,000 and September to 60,000 from 29,000. Average hourly earnings rose 0.4% on the month and 3.1% from a year earlier. The broader U-6 rate climbed to 7.9% from 7.6%, and CNBC noted that the long-term unemployed made up 27.6% of jobless workers, the highest share since late 2021, so the strength isn't uniform.",
+        "Markets leaned hawkish: estimates of a December quarter-point Fed hike jumped to about 80% (from roughly 73–75%), the 2-year yield rose about 6bp to 4.52% and the 10-year about 3bp to 4.87% in early trading, though CNBC later had the 10-year near 4.83%, roughly flat. Reuters reported the Nasdaq up about 1.7%, the S&P 500 up 0.6% and the Dow down 0.6% at the time of its report; I could not confirm closing levels."
       ],
       "background": [
-        "Payrolls matter more than usual here because inflation is running above target on the energy shock, so the Fed is watching whether a cooling labor market gives it room to hold. With Thursday's AI selloff hitting equities, a weak number could add growth worries, while a strong one could lift yields and add pressure to richly valued tech."
+        "Payrolls matter more than usual because inflation is elevated on the energy shock, so a labor market that isn't cracking gives the Fed room to keep tightening. With oil down sharply this week, the Fed had a reason to wait; this print takes some of that away."
       ],
       "whyItMatters": [
-        "For rates desks, a strong print pushes up front-end yields (2-year) and lifts December hike odds; a weak print does the opposite. The surprise matters more than the level: markets trade payrolls against the consensus, not against last month."
+        "A hot print moves the front end first: the [[2-year yield]] tracks the expected policy path, so hike odds feed it directly. Equities have to weigh stronger growth against higher discount rates, which is why the reaction was mixed even after Thursday's rout."
       ],
       "grandLine": {
         "title": "Nami reads the sky",
-        "body": "Nami doesn't wait for the storm to hit; she reads small signs in the air and commits to a heading only once she's sure. A data-dependent Fed does the same with payrolls, claims and wages: no pre-announced route, just a heading chosen after each reading."
+        "body": "Nami doesn't wait for the storm to hit; she reads small signs in the air and commits to a heading only once she's sure. A data-dependent Fed does the same with payrolls, claims and wages: no pre-announced route, just a heading chosen after each reading. Today's reading says the air is warmer than the forecast."
       },
       "views": [
         {
-          "camp": "Strong print revives hikes",
-          "thesis": "Solid jobs would justify a December hike.",
-          "argument": "With inflation elevated, a labor market that isn't cracking gives the Fed room to tighten again, and the two dissenters already wanted a hike in October."
+          "camp": "Hike is back on",
+          "thesis": "A strong labor market plus elevated inflation justifies one more hike.",
+          "argument": "Payrolls more than doubled expectations, prior months were revised up and wages grew 0.4%. The two October dissenters already wanted to tighten, and this strengthens their case."
         },
         {
-          "camp": "Cooling labor market",
-          "thesis": "Weak hiring argues for patience.",
-          "argument": "Payroll growth near +55k is already slow. If it undershoots and unemployment ticks up, the case for another hike weakens, even with oil-driven inflation."
+          "camp": "Hold and watch",
+          "thesis": "Oil's fall and market stress still argue for patience.",
+          "argument": "Brent has dropped sharply this week, equities are in a correction and long-term unemployment is rising, so the Fed can wait for more data before a hike."
         }
       ],
       "interview": {
-        "question": "Payrolls come in at +20k vs. +55k expected. What happens?",
-        "answer": "Front-end yields fall and December hike odds drop, because the labor market is softer than the Fed needs to see for another hike. I'd watch the unemployment rate and revisions, since a single month is noisy. What changes my mind is wages: if average hourly earnings run hot even with low payrolls, the inflation worry stays.",
+        "question": "Payrolls came in at +165k vs. +65k expected. What happens to the Fed path?",
+        "answer": "December hike odds go up, around 80% from the low-70s, and the 2-year yield rises because the expected policy path shifts higher. I'd note the revisions, since prior months were also revised up, which makes the trend stronger than one print. What changes my mind is oil continuing lower and wage growth cooling; what confirms it is hot core inflation.",
         "followUp": {
-          "question": "Why does the 2-year move most?",
-          "answer": "It tracks the expected path of the policy rate over the next two years, so changes in hike odds hit it directly."
+          "question": "Why did stocks and yields diverge?",
+          "answer": "A hot print raises rates, which is bad for valuations, but it also signals growth. Technology stocks were also rebounding after a rout, so the reaction was a mix."
         }
       },
       "keyTerms": [
         {
           "term": "nonfarm payrolls",
           "definition": "The monthly count of jobs added in the US economy, excluding farms; the headline of the jobs report.",
-          "example": "Consensus is about +55k for October."
+          "example": "October payrolls rose 165,000."
         },
         {
-          "term": "CME FedWatch",
-          "definition": "A tool that turns fed funds futures prices into probabilities of policy moves at coming meetings."
+          "term": "2-year yield",
+          "definition": "The yield on the 2-year Treasury, which tracks the expected path of the Fed's policy rate."
         },
         {
-          "term": "consensus",
-          "definition": "The average economist forecast for a data release. Markets move on the surprise versus consensus."
+          "term": "revisions",
+          "definition": "Later changes to earlier monthly job counts. Upward revisions make the trend look stronger.",
+          "example": "September was revised to 60,000 from 29,000."
         }
       ],
       "watchNext": [
         {
-          "when": "Fri Nov 6, 8:30 AM ET",
-          "what": "Payrolls, unemployment and wage growth."
+          "when": "Mon Nov 9",
+          "what": "Does the AI selloff extend or bounce, and how do yields trade after the jobs data?"
         },
         {
           "when": "Dec 8–9",
-          "what": "The next FOMC meeting, with a hike on the table."
+          "what": "FOMC decision and dot plot, with a hike around 80% priced."
         }
       ],
       "sources": [
         {
-          "name": "Yahoo Finance: Midterms, jobs data and Apple earnings test Wall Street this week",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/midterms-jobs-data-apple-earnings-031634378.html"
+          "name": "Morningstar: October US jobs report, 165,000 rise in payrolls beats expectations",
+          "url": "https://www.morningstar.com/economy/october-us-jobs-report-165000-rise-payrolls-beating-expectations"
         },
         {
-          "name": "HeyGoTrade: Week ahead, US midterms, Apple earnings and October jobs",
-          "url": "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-11-02/"
+          "name": "CNBC: A long-term unemployment trend is hiding in the October jobs report",
+          "url": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html"
         },
         {
-          "name": "InvestingLive: What could stop the Fed raising rates in December?",
-          "url": "https://investinglive.com/education/what-could-stop-the-fed-raising-rates-in-december"
+          "name": "Reuters via Yahoo Finance: Strong October jobs report sends yields higher",
+          "url": "https://finance.yahoo.com/economy/policy/articles/strong-october-jobs-report-sends-134858909.html"
+        },
+        {
+          "name": "InvestmentNews: October jobs report beats forecasts, lifting December Fed hike odds",
+          "url": "https://www.investmentnews.com/fixed-income/october-jobs-report-beats-forecasts-lifting-december-fed-hike-odds/268915"
+        },
+        {
+          "name": "FXStreet: Nonfarm payrolls rise by 165K in October vs. 65K expected",
+          "url": "https://www.fxstreet.com/news/us-nonfarm-payrolls-expected-to-pick-up-in-october-202611060930"
         }
-      ]
+      ],
+      "marketReaction": [
+        {
+          "asset": "Nonfarm payrolls",
+          "move": "+165k vs. ~65k expected",
+          "direction": "up"
+        },
+        {
+          "asset": "Unemployment rate",
+          "move": "4.1% (from 4.2%)",
+          "direction": "down"
+        },
+        {
+          "asset": "2Y Treasury yield",
+          "move": "4.52% (+6bp, early)",
+          "direction": "up"
+        },
+        {
+          "asset": "Dec hike odds",
+          "move": "~80% (from ~73–75%)",
+          "direction": "up"
+        }
+      ],
+      "updateNote": "Payrolls came in at +165k; December hike odds near 80%.",
+      "trade": {
+        "idea": "Short the 2-year into hike repricing",
+        "expression": "Short 2Y Treasury note futures (or pay 2Y SOFR), sized by DV01",
+        "rationale": "If strong data keeps pushing December hike odds toward 100%, the front end has to reprice higher. The 2-year is the cleanest expression of the policy-path view. Interview framing, not advice.",
+        "risks": [
+          "Oil keeps falling and equity stress makes the Fed hold, pulling yields back down.",
+          "A weak jobs print next month reverses the repricing.",
+          "Much is already priced: odds are about 80%, so the upside is smaller."
+        ]
+      }
     },
     {
       "depth": "brief",
       "developing": true,
       "publishedAt": "2026-11-06T06:56:00-05:00",
-      "updatedAt": "2026-11-06T06:56:00-05:00",
+      "updatedAt": "2026-11-06T18:54:00-05:00",
       "readMinutes": 2,
       "id": "fed-december-hike-debate-warsh",
       "beat": "fed-macro",
@@ -851,7 +711,7 @@
       "tldr": [
         "The Fed held at **3.75%–4.00%** on Oct. 28 with two dissents in favor of a hike.",
         "Fed Chair Kevin Warsh stayed within his communication limits but left another hike this year firmly in play.",
-        "Estimates of a December hike range from roughly **66% to 80%**; oil's drop and Thursday's stock selloff cut against it, a hot jobs print would support it."
+        "After Friday's +165k payrolls, December hike odds rose to about **80%** (from roughly 73–75%); oil's sharp weekly drop and the AI selloff are the counterweights."
       ],
       "whatHappened": [
         "At the Oct. 28 meeting the Fed held its target range at 3.75%–4.00%. Two officials registered a [[dissent]] in favor of a hike. At his press conference, Chair Kevin Warsh offered a measured read on the economy, citing low jobless claims, and kept a December move on the table without committing to it. Since then, hike odds have swung with oil and data: sources put a December quarter-point hike at anywhere from about two-thirds to 80%. The sources use different snapshots, so treat the figure as a range."
@@ -923,8 +783,13 @@
         {
           "name": "Briefs: Warsh keeps December hike in play, leans hawkish without hard commitment",
           "url": "https://www.briefs.co/news/warsh-keeps-december-hike-in-play-leans-hawkish-without-hard/"
+        },
+        {
+          "name": "Invezz: Fed rate hike odds jump after October jobs report as officials signal more tightening",
+          "url": "https://invezz.com/news/2026/11/06/fed-rate-hike-odds-jump-after-october-jobs-report-as-officials-signal-more-tightening/"
         }
-      ]
+      ],
+      "updateNote": "Added the October jobs report's effect on December odds."
     },
     {
       "depth": "brief",
@@ -1259,7 +1124,7 @@
       "depth": "brief",
       "developing": true,
       "publishedAt": "2026-11-06T06:56:00-05:00",
-      "updatedAt": "2026-11-06T06:56:00-05:00",
+      "updatedAt": "2026-11-06T18:54:00-05:00",
       "readMinutes": 2,
       "id": "world-iran-talks-qatar-mediation",
       "beat": "world",
@@ -1269,11 +1134,12 @@
       "tldr": [
         "Iranian President Pezeshkian said Supreme Leader Mojtaba Khamenei had granted the government 'certain authorities' over talks with the US.",
         "Trump told Axios he is in 'no rush' to decide on resuming strikes; reports say Netanyahu urged one soon after the midterms.",
-        "Qatar leads the mediation, with Pakistan also active; an Iranian official said the sides remain far from a deal."
+        "Iranian negotiators left Doha with a draft proposal circulating; Iran says it agreed to shorten its confidence-building step from seven days to two, but the outcome depends on Washington."
       ],
       "whatHappened": [
         "Indirect talks between Washington and Tehran, with [[mediation]] mainly by Qatar with Pakistan also involved, continued this week without a breakthrough. A Qatari mediator traveled to Tehran on Monday to work on a draft agreement, and Iran's foreign minister said consultations were intensive. President Pezeshkian said the Supreme Leader had granted the government 'certain authorities' over the talks, without defining them; Middle East Eye and ABC identify the Supreme Leader as Mojtaba Khamenei.",
-        "On the US side, Trump told Axios he is in 'no rush' to decide whether to resume strikes. Reports say Israeli Prime Minister Netanyahu urged him to hit Iran soon after the midterms, and after Democrats won Congress, Vice President Vance tied the Republican losses to the war. An Iranian official told reporters the sides remain far from an agreement."
+        "On the US side, Trump told Axios he is in 'no rush' to decide whether to resume strikes. Reports say Israeli Prime Minister Netanyahu urged him to hit Iran soon after the midterms, and after Democrats won Congress, Vice President Vance tied the Republican losses to the war. An Iranian official told reporters the sides remain far from an agreement.",
+        "**Doha draft:** Iranian negotiators left Doha after indirect talks via Qatari mediators, with a draft proposal circulating based on a seven-step Iranian plan to reopen the Strait of Hormuz and end the US naval blockade. Foreign Minister Araghchi said Iran agreed, at Qatar's request, to shorten the implementation period from seven days to two, and that the outcome depends on Washington's response. Trump dismissed accounts that the draft favored Iran as inaccurate. No agreement has been signed."
       ],
       "background": [
         "The war began on Feb. 28 with US and Israeli strikes. A June memorandum and ceasefire collapsed in July, and Iran has since restricted shipping through the Strait of Hormuz. Mediation has run on and off since, usually in parallel with strikes and threats, and traders call a peace-talk hope that fades a [[false dawn]]."
@@ -1342,8 +1208,17 @@
         {
           "name": "CNBC: Crude oil falls below $90 as Vance blames GOP defeat on Iran war",
           "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
+        },
+        {
+          "name": "Asharq Al-Awsat: Iranians left Doha talks, draft proposal for US deal being circulated",
+          "url": "https://english.aawsat.com/world/5336574-iranians-have-left-doha-talks-draft-proposal-us-deal-being-circulated-official-says"
+        },
+        {
+          "name": "Gulf News: US–Iran deal takes shape as Qatar says draft agreement is circulating",
+          "url": "https://gulfnews.com/world/mena/us-iran-deal-takes-shape-as-qatar-says-draft-agreement-is-circulating-1.500630861"
         }
-      ]
+      ],
+      "updateNote": "Added the Doha draft details."
     },
     {
       "depth": "brief",
@@ -1418,6 +1293,171 @@
         {
           "name": "UPI: Putin and Zelenskyy agree to pause strikes on Kyiv and Moscow",
           "url": "https://www.upi.com/Top_News/US/2026/09/08/ukraine-russia-pause-fighting/6531788874393/"
+        }
+      ]
+    },
+    {
+      "id": "oil-weekly-drop-war-premium-fades",
+      "beat": "energy",
+      "headline": "Oil rebounds toward $100 but is still on track for its steepest weekly drop in years on Iran-deal hopes",
+      "dek": "Brent was roughly $99–100 on Friday after Wednesday's plunge; estimates of the weekly fall run from about 12% to 16%. Tanker attacks in Hormuz continue.",
+      "importance": 3,
+      "depth": "brief",
+      "developing": true,
+      "publishedAt": "2026-11-06T18:54:00-05:00",
+      "updatedAt": "2026-11-06T18:54:00-05:00",
+      "readMinutes": 2,
+      "tldr": [
+        "Brent traded around **$99–100** on Friday, rebounding for a second day after Wednesday's drop (one report: 9.73%, another: 8.7%).",
+        "The weekly decline is estimated at roughly **12% to 16%**, the largest since 2020 on some measures; sources differ on contract and window.",
+        "Iran reported three more tanker attacks in Hormuz on Thursday, so the strait is still the swing factor."
+      ],
+      "whatHappened": [
+        "Crude spent the week unwinding its war premium. After a roughly 7% drop Monday on Iran/Qatar talk hopes and a sharp plunge Wednesday after the midterms, Brent rebounded Thursday and Friday to around $99–100 but was still set for a weekly loss that reports put between 12% and 16%, with WTI down about 13% in one account. One analyst said oil is likely to find support on dips and stay prone to sharp moves on any escalation headline. No deal has been signed, and Iran reported three more tanker attacks in the Strait of Hormuz on Thursday."
+      ],
+      "background": [
+        "A [[war premium|war premium]] is the extra price traders add for the risk that supply gets cut. When diplomacy gains ground, that premium shrinks quickly even though the physical flows through Hormuz (about 60% of normal) haven't changed. That gap between price and physical supply is why the moves are so large in both directions."
+      ],
+      "whyItMatters": [
+        "For energy stocks (and a curve in [[backwardation]]), the question is whether the producers keep their recent windfall or give it back as the premium fades; for refiners, whether wide margins last. For inflation, a lower oil price eases the pressure on the Fed."
+      ],
+      "grandLine": {
+        "title": "Aqua Laguna",
+        "body": "At Water 7 a giant tide comes every year; everyone knows it's coming and still has to evacuate. The oil market's war premium behaves like that tide: it floods in on escalation headlines and drains out on peace hopes, and traders know it, yet the streets still flood."
+      },
+      "views": [
+        {
+          "camp": "Premium has more to go",
+          "thesis": "A deal would drive oil sharply lower.",
+          "argument": "If Hormuz reopens, supply normalizes and prices could fall toward pre-war levels, as in June and August when talk of a deal drove steep declines."
+        },
+        {
+          "camp": "Dips get bought",
+          "thesis": "Physical risks haven't gone away.",
+          "argument": "Flows are still around 60% of normal, tanker attacks continue and past peace hopes have reversed, so the market can't price in a clean exit."
+        }
+      ],
+      "interview": {
+        "question": "Oil is down double digits on the week but flows haven't changed. Why?",
+        "answer": "Because the move is risk premium, not physical supply. Traders priced in a higher chance of a deal after the midterms. My view is the price will stay headline-driven until flows actually normalize. What changes my mind is a signed agreement that reopens the strait, or a new escalation.",
+        "followUp": {
+          "question": "What would a real deal do to the curve?",
+          "answer": "It would pull down prompt prices and the front of the curve, narrowing backwardation as the supply squeeze eases."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "war premium",
+          "definition": "The extra price in a commodity for the risk of a supply disruption, which fades when the risk recedes.",
+          "example": "Brent's roughly 12–16% weekly drop is largely premium coming out."
+        },
+        {
+          "term": "backwardation",
+          "definition": "When near-term futures prices are higher than later ones, signaling tight supply now."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Next week",
+          "what": "Whether Iran and Washington sign the circulating draft and what Hormuz flows do."
+        },
+        {
+          "when": "Nov 29",
+          "what": "OPEC+ meeting."
+        }
+      ],
+      "sources": [
+        {
+          "name": "OilPrice.com: The Iran war isn't over, but oil traders are already pricing in peace",
+          "url": "https://oilprice.com/Energy/Energy-General/The-Iran-War-Isnt-Over-but-Oil-Traders-Are-Already-Pricing-In-Peace.html"
+        },
+        {
+          "name": "Oil & Gas 360: Oil heads for steepest weekly decline since 2020 as Iran diplomacy hopes grow",
+          "url": "https://www.oilandgas360.com/oil-heads-for-steepest-weekly-decline-since-2020-as-iran-diplomacy-hopes-grow/"
+        },
+        {
+          "name": "OilPrice.com: Oil prices head for 12% weekly loss despite fresh tanker attacks",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-12-Weekly-Loss-Despite-Fresh-Tanker-Attacks.html"
+        },
+        {
+          "name": "Coinpaper: Brent faces biggest weekly crash since 2020 as Iran war premium fades",
+          "url": "https://coinpaper.com/38434/oil-price-forecast-brent-faces-biggest-weekly-crash-since-2020-as-iran-war-premium-fades"
+        }
+      ]
+    },
+    {
+      "id": "ism-manufacturing-october-2026",
+      "beat": "industrials",
+      "headline": "ISM manufacturing rises to 55.5 in October, the 10th straight month of expansion",
+      "dek": "The index beat forecasts near 54.5–54.6 as new orders and production kept growing, a strong backdrop for industrials even as the AI trade wobbles.",
+      "importance": 3,
+      "depth": "brief",
+      "publishedAt": "2026-11-06T18:54:00-05:00",
+      "updatedAt": "2026-11-06T18:54:00-05:00",
+      "readMinutes": 2,
+      "tldr": [
+        "The ISM manufacturing PMI rose to **55.5** in October from **54.5** in September, versus forecasts around 54.5–54.6.",
+        "It is the **10th consecutive month** above 50, which marks expansion.",
+        "The report said new orders, production and employment grew while supplier deliveries slowed."
+      ],
+      "whatHappened": [
+        "The Institute for Supply Management's October manufacturing report, published Nov. 2, showed the PMI at 55.5, up from 54.5 and ahead of forecasts of about 54.5 to 54.6. New orders, production and employment were all growing, and supplier deliveries were slowing, which usually signals strong demand or supply-chain strain. I could not confirm the prices-paid or new-orders index values, so check the ISM release for the sub-indexes."
+      ],
+      "background": [
+        "The ISM [[PMI|PMI]] is a survey of purchasing managers; above 50 means the sector is expanding. September's prices-paid index jumped to 77.9, a sign the oil shock and tariffs were pushing input costs, which is one reason the Fed is wary."
+      ],
+      "whyItMatters": [
+        "Strong manufacturing supports the case for industrial earnings (see Caterpillar's record backlog) and keeps the Fed's inflation worry alive. Slowing supplier deliveries can be a sign of tight capacity, which lifts prices."
+      ],
+      "grandLine": {
+        "title": "Sabaody's resin bubbles",
+        "body": "At Sabaody, bubble coating lets ships dive deeper than they otherwise could, until pressure pops them. A manufacturing boom funded by data-center spending is the coating: it lets the sector go deeper, as long as the pressure doesn't rise."
+      },
+      "views": [
+        {
+          "camp": "Cycle is strong",
+          "thesis": "Ten months of expansion shows durable demand.",
+          "argument": "Orders, production and jobs are all rising, backed by data-center and defense demand."
+        },
+        {
+          "camp": "Inflation risk",
+          "thesis": "Strength plus slow deliveries is inflationary.",
+          "argument": "Supplier delays and elevated input prices push costs up, keeping the Fed from easing."
+        }
+      ],
+      "interview": {
+        "question": "Why does a strong ISM matter to the Fed?",
+        "answer": "Because it shows demand is not weak while input costs are elevated, which supports the case for tighter policy. A PMI above 50 means expansion. I'd watch the prices-paid and new-orders sub-indexes. What changes my mind is a sharp drop in new orders.",
+        "followUp": {
+          "question": "What does slower supplier delivery signal?",
+          "answer": "Either strong demand overwhelming suppliers or supply-chain disruption. Both tend to raise prices."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "PMI",
+          "definition": "Purchasing Managers' Index: a survey-based gauge where above 50 means expansion and below 50 means contraction.",
+          "example": "October's ISM manufacturing PMI was 55.5."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Early December",
+          "what": "Next ISM manufacturing report."
+        }
+      ],
+      "sources": [
+        {
+          "name": "InvestingLive: US ISM manufacturing PMI for October 55.5 versus 54.5 estimate",
+          "url": "https://investinglive.com/news/us-ism-manufacturing-pmi-for-october-55-5-versus-54-5-estimate/"
+        },
+        {
+          "name": "TrendForce: US October ISM manufacturing PMI rises to 55.5",
+          "url": "https://datatrack.trendforce.com/blog/content/66171/us-october-ism-manufacturing-pmi-rises-to-555-beating-expectations-10th-consecutive-month-of-expansion-highlights-economic-resilience"
+        },
+        {
+          "name": "Mining Stock Education: Manufacturing PMI at 55.5%, October 2026 ISM report",
+          "url": "https://www.miningstockeducation.com/2026/11/manufacturing-pmi-at-55-5-october-2026-ism-manufacturing-pmi-report/"
         }
       ]
     }
