@@ -1,30 +1,35 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-05T18:54:00-05:00",
-  "checkedAt": "2026-11-05T18:54:00-05:00",
-  "nextRunAt": "2026-11-06T06:52:00-05:00",
+  "publishedAt": "2026-11-06T06:56:00-05:00",
+  "checkedAt": "2026-11-06T06:56:00-05:00",
+  "nextRunAt": "2026-11-06T18:52:00-05:00",
   "brief": {
     "title": "An AI selloff drags the S&P 500 down 4.4% and the Nasdaq into a correction, erasing Wednesday's rally.",
     "bullets": [
-      "**Stocks:** S&P 500 -4.4% to 7,353.73 (worst day since April 2025), Dow -1,833 points to 51,523.06, Nasdaq -5.5% to 24,315.00, now in a correction.",
-      "**Why:** AI and chip stocks led (Nvidia down 8–9%, Magnificent 7 about -$1T) on spending-return doubts and post-midterm regulation fears.",
-      "**Oil:** Brent settled near $95 Wednesday on Iran-exit hopes; I couldn't confirm Thursday's move.",
-      "**Politics:** Democrats control the House and Senate.",
-      "**Next:** Friday's payrolls (consensus ~+55k). Unverified: Thursday's oil, yields, the Bank of England decision and Fed odds."
+      "**Stocks:** S&P 500 -4.4% to 7,353.73 Thursday, Nasdaq -5.5% into a correction on an AI/chip selloff.",
+      "**Today:** October payrolls at 8:30am ET (consensus about +55k, 4.2% unemployment), with a December Fed hike still in play.",
+      "**Oil:** Brent fell to about $95 Wednesday on Iran-exit hopes; Qatar-led talks continue and Trump is in 'no rush' to strike.",
+      "**Industrials/energy:** Caterpillar backlog $78B on data-center power demand; Boeing slips its 737 ramp; Chevron refining profit jumps; OPEC+ holds output.",
+      "**World:** Iran talks stall short of a deal; Russia and Ukraine trade strikes after Witkoff meets Putin."
     ],
     "mood": "A Knock Up Stream in reverse: the AI geyser cut out and the ship fell, with the whole fleet watching."
   },
   "mustKnow": [
     "ai-selloff-nasdaq-correction-nov-2026",
-    "oil-brent-115-hormuz",
-    "midterms-2026-market-odds"
+    "jobs-report-october-2026-preview",
+    "oil-brent-115-hormuz"
   ],
   "calendar": [
     {
       "date": "2026-11-06",
       "time": "8:30 AM ET",
       "label": "October jobs report",
-      "why": "Consensus ~+55k, 4.2% unemployment. Last payrolls before the Dec. 8–9 FOMC."
+      "why": "Consensus about +55k, 4.2% unemployment. Last payrolls before the Dec. 8–9 FOMC."
+    },
+    {
+      "date": "2026-11-09",
+      "label": "AI selloff follow-through",
+      "why": "Does the Nasdaq correction extend, or do chips bounce?"
     },
     {
       "date": "2026-11-18",
@@ -33,10 +38,15 @@
       "why": "How many officials leaned toward the two hawkish dissenters."
     },
     {
+      "date": "2026-11-29",
+      "label": "OPEC+ meeting",
+      "why": "Decides January output after three straight pauses."
+    },
+    {
       "date": "2026-12-09",
       "time": "2:00 PM ET",
       "label": "FOMC decision + dot plot",
-      "why": "Roughly 80–86% priced for a 25bp hike as of last week."
+      "why": "A December hike is the debate: odds run roughly 66–80%."
     }
   ],
   "stories": [
@@ -734,6 +744,680 @@
         {
           "name": "AP via TV News Check: Dow tumbles 1,833; Nasdaq sinks 1,422; S&P 500 drops 335",
           "url": "https://tvnewscheck.com/business/article/dow-tumbles-1833-nasdaq-sinks-1422-sp-500-drops-335/"
+        }
+      ]
+    },
+    {
+      "depth": "brief",
+      "developing": true,
+      "publishedAt": "2026-11-06T06:56:00-05:00",
+      "updatedAt": "2026-11-06T06:56:00-05:00",
+      "readMinutes": 2,
+      "id": "jobs-report-october-2026-preview",
+      "beat": "fed-macro",
+      "headline": "October jobs report today: consensus is about +55k, with a December Fed hike still in play",
+      "dek": "Friday's payrolls are the last big data point before the Fed's Dec. 8–9 meeting. A strong print could revive hike bets; an in-line one probably changes little.",
+      "importance": 3,
+      "tldr": [
+        "Release at 8:30am ET. Consensus: about **+55k** nonfarm payrolls and **4.2%** unemployment (forecasts range from about +45k to +65k).",
+        "The Fed held at 3.75%–4.00% on Oct. 28. Estimates of a December quarter-point hike run from roughly **66% to 80%**, depending on the source and the day.",
+        "Analysts say an in-line print won't change much; a strong one could reignite hike expectations."
+      ],
+      "whatHappened": [
+        "The October employment report is due at 8:30am ET. Previews put [[consensus]] near +55,000 [[jobs|nonfarm payrolls]] with unemployment holding at 4.2%, after +29,000 in September. Individual forecasts run from about +45,000 to +65,000. Because this report is not out yet, everything here is expectation, not result.",
+        "The Fed held rates at 3.75%–4.00% on Oct. 28, with two officials dissenting in favor of a hike. [[FedWatch|CME FedWatch]]-style odds of a December hike vary by source and day, from about 66% to 80%. One analyst view in the previews: if payrolls come in roughly as expected and unemployment doesn't rise much, the market's view of the Fed path shouldn't shift; a hot print is the risk."
+      ],
+      "background": [
+        "Payrolls matter more than usual here because inflation is running above target on the energy shock, so the Fed is watching whether a cooling labor market gives it room to hold. With Thursday's AI selloff hitting equities, a weak number could add growth worries, while a strong one could lift yields and add pressure to richly valued tech."
+      ],
+      "whyItMatters": [
+        "For rates desks, a strong print pushes up front-end yields (2-year) and lifts December hike odds; a weak print does the opposite. The surprise matters more than the level: markets trade payrolls against the consensus, not against last month."
+      ],
+      "grandLine": {
+        "title": "Nami reads the sky",
+        "body": "Nami doesn't wait for the storm to hit; she reads small signs in the air and commits to a heading only once she's sure. A data-dependent Fed does the same with payrolls, claims and wages: no pre-announced route, just a heading chosen after each reading."
+      },
+      "views": [
+        {
+          "camp": "Strong print revives hikes",
+          "thesis": "Solid jobs would justify a December hike.",
+          "argument": "With inflation elevated, a labor market that isn't cracking gives the Fed room to tighten again, and the two dissenters already wanted a hike in October."
+        },
+        {
+          "camp": "Cooling labor market",
+          "thesis": "Weak hiring argues for patience.",
+          "argument": "Payroll growth near +55k is already slow. If it undershoots and unemployment ticks up, the case for another hike weakens, even with oil-driven inflation."
+        }
+      ],
+      "interview": {
+        "question": "Payrolls come in at +20k vs. +55k expected. What happens?",
+        "answer": "Front-end yields fall and December hike odds drop, because the labor market is softer than the Fed needs to see for another hike. I'd watch the unemployment rate and revisions, since a single month is noisy. What changes my mind is wages: if average hourly earnings run hot even with low payrolls, the inflation worry stays.",
+        "followUp": {
+          "question": "Why does the 2-year move most?",
+          "answer": "It tracks the expected path of the policy rate over the next two years, so changes in hike odds hit it directly."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "nonfarm payrolls",
+          "definition": "The monthly count of jobs added in the US economy, excluding farms; the headline of the jobs report.",
+          "example": "Consensus is about +55k for October."
+        },
+        {
+          "term": "CME FedWatch",
+          "definition": "A tool that turns fed funds futures prices into probabilities of policy moves at coming meetings."
+        },
+        {
+          "term": "consensus",
+          "definition": "The average economist forecast for a data release. Markets move on the surprise versus consensus."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Fri Nov 6, 8:30 AM ET",
+          "what": "Payrolls, unemployment and wage growth."
+        },
+        {
+          "when": "Dec 8–9",
+          "what": "The next FOMC meeting, with a hike on the table."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Yahoo Finance: Midterms, jobs data and Apple earnings test Wall Street this week",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/midterms-jobs-data-apple-earnings-031634378.html"
+        },
+        {
+          "name": "HeyGoTrade: Week ahead, US midterms, Apple earnings and October jobs",
+          "url": "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-11-02/"
+        },
+        {
+          "name": "InvestingLive: What could stop the Fed raising rates in December?",
+          "url": "https://investinglive.com/education/what-could-stop-the-fed-raising-rates-in-december"
+        }
+      ]
+    },
+    {
+      "depth": "brief",
+      "developing": true,
+      "publishedAt": "2026-11-06T06:56:00-05:00",
+      "updatedAt": "2026-11-06T06:56:00-05:00",
+      "readMinutes": 2,
+      "id": "fed-december-hike-debate-warsh",
+      "beat": "fed-macro",
+      "headline": "Fed Chair Warsh keeps a December hike in play, with two officials already dissenting for one",
+      "dek": "The Fed held at 3.75%–4.00% on Oct. 28. Markets put a December hike anywhere from about two-thirds to 80% likely, and oil and the AI selloff are pulling in opposite directions.",
+      "importance": 3,
+      "tldr": [
+        "The Fed held at **3.75%–4.00%** on Oct. 28 with two dissents in favor of a hike.",
+        "Fed Chair Kevin Warsh stayed within his communication limits but left another hike this year firmly in play.",
+        "Estimates of a December hike range from roughly **66% to 80%**; oil's drop and Thursday's stock selloff cut against it, a hot jobs print would support it."
+      ],
+      "whatHappened": [
+        "At the Oct. 28 meeting the Fed held its target range at 3.75%–4.00%. Two officials registered a [[dissent]] in favor of a hike. At his press conference, Chair Kevin Warsh offered a measured read on the economy, citing low jobless claims, and kept a December move on the table without committing to it. Since then, hike odds have swung with oil and data: sources put a December quarter-point hike at anywhere from about two-thirds to 80%. The sources use different snapshots, so treat the figure as a range."
+      ],
+      "background": [
+        "The Fed hiked in September after months of energy-driven inflation, and it is trying to avoid a repeat of the 1970s, when inflation expectations became unanchored. Warsh's style is to guard his communication, so markets read the dissents and the data rather than any explicit signal."
+      ],
+      "whyItMatters": [
+        "The path matters for the front end of the curve and the dollar. Falling oil reduces the inflation argument for a hike, but a hot labor market and sticky core inflation keep it alive. A deeper equity selloff would add a growth argument against tightening."
+      ],
+      "grandLine": {
+        "title": "Kizaru's Unclear Justice",
+        "body": "Kizaru is the admiral whose intentions you can never quite read; his 'Unclear Justice' leaves everyone guessing what he'll do. A chair who keeps a hike 'in play' without saying yes or no creates the same effect: markets have to read each data point for the heading."
+      },
+      "views": [
+        {
+          "camp": "One more hike needed",
+          "thesis": "Inflation is still too hot to stop at 4%.",
+          "argument": "Energy prices are feeding into core inflation, and the two dissenters wanted to act in October, so a December hike finishes the job."
+        },
+        {
+          "camp": "Pause and watch",
+          "thesis": "Oil's drop and market stress argue for holding.",
+          "argument": "Brent has fallen from the $115 area to the mid-$90s, equities are in a correction, and payroll growth is slow, so tightening risks over-tightening into a supply shock."
+        }
+      ],
+      "interview": {
+        "question": "Would you bet on a December hike?",
+        "answer": "I'd treat it as roughly a coin flip tilted toward a hike, and lean on the data. The Fed has dissenters wanting to tighten, but oil has fallen and equities are under stress. A [[hawkish hold|hawkish hold]] is the base case if payrolls are soft and oil stays lower. What changes my mind is a hot wage print or a re-spike in oil.",
+        "followUp": {
+          "question": "What's a hawkish hold?",
+          "answer": "A decision to keep rates unchanged while signaling that hikes remain possible."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "hawkish hold",
+          "definition": "Leaving rates unchanged while signaling that tightening is still a live option."
+        },
+        {
+          "term": "dissent",
+          "definition": "A formal vote against the committee's decision. Dissents hint at where the committee could move next.",
+          "example": "Two officials dissented in favor of a hike on Oct. 28."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Fri Nov 6",
+          "what": "October payrolls."
+        },
+        {
+          "when": "Nov 18, 2:00 PM ET",
+          "what": "FOMC minutes from the October meeting."
+        },
+        {
+          "when": "Dec 8–9",
+          "what": "FOMC decision and dot plot."
+        }
+      ],
+      "sources": [
+        {
+          "name": "InvestingLive: What could stop the Fed raising rates in December?",
+          "url": "https://investinglive.com/education/what-could-stop-the-fed-raising-rates-in-december"
+        },
+        {
+          "name": "Yahoo Finance: The jobs report and Fed chair Kevin Warsh's new playbook",
+          "url": "https://finance.yahoo.com/economy/article/the-jobs-report-just-put-fed-chair-kevin-warshs-new-playbook-to-work-one-big-investment-idea-202600654.html"
+        },
+        {
+          "name": "Briefs: Warsh keeps December hike in play, leans hawkish without hard commitment",
+          "url": "https://www.briefs.co/news/warsh-keeps-december-hike-in-play-leans-hawkish-without-hard/"
+        }
+      ]
+    },
+    {
+      "depth": "brief",
+      "developing": false,
+      "publishedAt": "2026-11-06T06:56:00-05:00",
+      "updatedAt": "2026-11-06T06:56:00-05:00",
+      "readMinutes": 2,
+      "id": "chevron-q3-2026-earnings",
+      "beat": "energy",
+      "headline": "Chevron earns $9.9B in Q3 as refining profit jumps to $4.9B from $1.1B",
+      "dek": "A refining windfall from higher product margins nearly tripled net income from a year ago, and Chevron returned about $6B to shareholders.",
+      "importance": 3,
+      "tldr": [
+        "Net income **$9.9B** ($5.06 a share); adjusted earnings **$10.4B** ($5.28), versus $3.5B net a year earlier.",
+        "**Downstream** (refining) earned **$4.9B** vs. $1.1B a year ago on higher product margins; **upstream** earned **$5.7B**.",
+        "Chevron paid about $2.5B in buybacks and $3.5B in dividends in the quarter, per the earnings call summary."
+      ],
+      "whatHappened": [
+        "Chevron's Q3 release (SEC filing) shows net income of $9.9 billion, or $5.06 per diluted share, against $3.5 billion a year earlier. Adjusted earnings were $10.4 billion, or $5.28. Upstream earnings were $5.7 billion; [[downstream]] earnings were $4.9 billion versus $1.1 billion, which the company attributed mainly to higher margins on refined product sales. A summary of the call put buybacks at $2.5 billion and dividends at $3.5 billion."
+      ],
+      "background": [
+        "The Iran war and Hormuz disruption squeezed supplies of crude and refined products, widening the [[crack spread|crack spread]], the gap between crude costs and what refined products sell for. Integrated majors like Chevron hold both upstream (producing oil) and downstream (refining), so they benefit when either side spikes."
+      ],
+      "whyItMatters": [
+        "Earnings like this tell you how much of the war-driven price move is landing in profits and buybacks. They are also a reminder of how volatile it is: if oil and margins fall as peace-talk hopes rise, the downstream windfall is the first thing to fade."
+      ],
+      "grandLine": {
+        "title": "Coup de Burst",
+        "body": "The Thousand Sunny can burn barrels of cola for a huge emergency jump: powerful, expensive, and not something you can do all the time. Refining margins this wide are that burst for the majors: a big one-quarter surge from a supply squeeze, not a new baseline."
+      },
+      "views": [
+        {
+          "camp": "Margins stay elevated",
+          "thesis": "Tight product supply keeps refining profits high.",
+          "argument": "Hormuz flows are still about 60% of normal, and refiners and product traders are earning the spread until supply normalizes."
+        },
+        {
+          "camp": "One-quarter windfall",
+          "thesis": "Peace-talk hopes could erase it quickly.",
+          "argument": "Oil fell about 8% on Wednesday on diplomacy hopes. If the strait reopens, crack spreads compress and the downstream gain reverses."
+        }
+      ],
+      "interview": {
+        "question": "Why did Chevron's refining profit quadruple?",
+        "answer": "Because product prices rose faster than crude costs. The [[crack spread|crack spread]] is the refiner's margin, and a supply shock widens it. Chevron's downstream jumped from $1.1B to $4.9B. My view is it's a cyclical windfall tied to the war, so I'd value the stock on mid-cycle margins. What changes my mind is a prolonged Hormuz disruption that keeps spreads wide.",
+        "followUp": {
+          "question": "Upstream vs. downstream?",
+          "answer": "Upstream finds and produces oil and gas, so it follows crude prices. Downstream refines and sells products, so it follows margins."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "crack spread",
+          "definition": "The difference between the price of refined products (gasoline, diesel) and the crude oil used to make them. It's the refiner's gross margin."
+        },
+        {
+          "term": "downstream",
+          "definition": "The refining and marketing side of the oil business. Upstream is exploration and production.",
+          "example": "Chevron's downstream earned $4.9B in Q3."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Ongoing",
+          "what": "Whether oil's Iran-talks drop compresses refining margins."
+        },
+        {
+          "when": "Nov 29",
+          "what": "OPEC+ meeting."
+        }
+      ],
+      "sources": [
+        {
+          "name": "SEC: Chevron Form 8-K, Q3 2026 earnings release",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000093410/000009341026000196/a09302026ex9918-k.htm"
+        },
+        {
+          "name": "SEC: Chevron Form 10-Q, quarter ended Sept. 30, 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000093410/000009341026000200/cvx-20260930.htm"
+        },
+        {
+          "name": "Quartr: Chevron (CVX) Q3 2026 earnings summary",
+          "url": "https://quartr.com/events/chevron-cvx-q3-2026_33F2gS6R"
+        }
+      ]
+    },
+    {
+      "depth": "brief",
+      "developing": false,
+      "publishedAt": "2026-11-06T06:56:00-05:00",
+      "updatedAt": "2026-11-06T06:56:00-05:00",
+      "readMinutes": 2,
+      "id": "opec-plus-holds-output-december-2026",
+      "beat": "energy",
+      "headline": "OPEC+ keeps December oil output unchanged for a third straight month",
+      "dek": "The seven core members held production at September levels after raising it monthly from April to September. The next meeting is Nov. 29.",
+      "importance": 2,
+      "tldr": [
+        "The OPEC+ group holding output agreed to **keep December production unchanged** at September 2026 levels, the third straight pause.",
+        "It follows monthly increases from April through September.",
+        "Next meeting: **Nov. 29**."
+      ],
+      "whatHappened": [
+        "At their Nov. 1 [[OPEC+]] meeting, the seven participating countries (Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria and Oman) agreed to maintain September 2026 required production levels for December, according to the group's statement and regional reports. It is the third consecutive month of holding output, after four monthly increases earlier in the year, and the group will keep meeting monthly to assess the market."
+      ],
+      "background": [
+        "OPEC+ adjusts monthly [[quotas|production quotas]] to manage supply. Pausing increases while prices are high and the Hormuz route is disrupted signals it sees limited room to add barrels that can actually be delivered."
+      ],
+      "whyItMatters": [
+        "With oil falling on diplomacy hopes, a steady OPEC+ keeps a floor under the supply picture. If Hormuz reopens and demand softens, the group's next meeting is where it would decide whether to resume increases or defend prices."
+      ],
+      "grandLine": {
+        "title": "The Calm Belt",
+        "body": "The Calm Belt is windless sea on both sides of the Grand Line, where ships stall dead in the water. A producer group that pauses its quota increases is the market's Calm Belt: no change in output, just waiting for the weather to shift."
+      },
+      "views": [
+        {
+          "camp": "Hold is right",
+          "thesis": "Supply is already constrained by Hormuz.",
+          "argument": "Adding paper barrels doesn't help if the strait limits exports, so holding avoids oversupply when flows normalize."
+        },
+        {
+          "camp": "Room to add",
+          "thesis": "At these prices the group could resume increases.",
+          "argument": "If a peace deal restores flows, producers will want to capture market share before prices fall further."
+        }
+      ],
+      "interview": {
+        "question": "What does an OPEC+ pause signal?",
+        "answer": "That the group is balancing price against share. The pause says it doesn't need to add supply while the market is tight and logistics are disrupted. I'd watch Hormuz flows and the Nov. 29 meeting. What changes my mind is a deal that reopens exports, which would revive the case for increases.",
+        "followUp": {
+          "question": "What's a quota?",
+          "answer": "The monthly production level a member agrees to, which the group changes to manage supply."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "production quotas",
+          "definition": "Agreed monthly output levels for OPEC+ members, adjusted to manage the oil market."
+        },
+        {
+          "term": "OPEC+",
+          "definition": "OPEC plus allied producers such as Russia, which coordinate output decisions.",
+          "example": "Seven members set December output on Nov. 1."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Nov 29",
+          "what": "Next OPEC+ meeting."
+        }
+      ],
+      "sources": [
+        {
+          "name": "OPEC: Press release, Nov. 1, 2026",
+          "url": "https://opec.org/pr-detail/620-1-november-2026.html"
+        },
+        {
+          "name": "APA: OPEC+ to maintain oil output for 3rd consecutive month in December",
+          "url": "https://en.apa.az/energy-and-industry/opec-to-maintain-oil-output-for-3rd-consecutive-month-in-december-533442"
+        },
+        {
+          "name": "Nairametrics: OPEC+ keeps November oil production unchanged",
+          "url": "https://nairametrics.com/2026/10/05/opec-keeps-november-oil-production-unchanged-at-31-01-million-bpd/"
+        }
+      ]
+    },
+    {
+      "depth": "brief",
+      "developing": false,
+      "publishedAt": "2026-11-06T06:56:00-05:00",
+      "updatedAt": "2026-11-06T06:56:00-05:00",
+      "readMinutes": 2,
+      "id": "boeing-q3-2026-earnings",
+      "beat": "industrials",
+      "headline": "Boeing slips its 737 ramp and cash-flow targets by a year even as free cash flow turns positive",
+      "dek": "Third-quarter free cash flow was $464M and it delivered 161 jets, but 2026 will miss the roughly 500-jet 737 goal and 2027 cash flow is guided to about $3B.",
+      "importance": 3,
+      "tldr": [
+        "Q3 free cash flow was **$464M** (vs. $238M a year earlier), the second straight positive quarter; **161** commercial jets delivered.",
+        "Nine-month 737 deliveries were about **367**, a record MAX pace but short of the roughly **500** target for 2026.",
+        "Boeing now expects about **$3B** of 2027 free cash flow, a year later than planned and below an LSEG consensus of $5.5B, per reports."
+      ],
+      "whatHappened": [
+        "Boeing's Q3 results (Oct. 27) showed operating cash flow of $1.5 billion and free cash flow of $464 million, helped by working-capital timing and partly offset by roughly $0.7 billion of Justice Department settlement payments. It delivered 161 commercial airplanes in the quarter, including 124 737s and 22 787s. The company said it will miss its target of about 500 737 deliveries this year and now expects the 737 production rate to reach 47 a month in early 2027 rather than summer 2026. Reports put its 2027 free cash flow outlook at about $3 billion against consensus of $5.5 billion."
+      ],
+      "background": [
+        "Boeing's recovery depends on raising output of the 737 MAX safely. Production [[rate|rate]] increases unlock cash because [[free cash flow|free cash flow]] rises as more jets are delivered against fixed costs. When the rate slips, the cash ramp slips with it."
+      ],
+      "whyItMatters": [
+        "Boeing is a bellwether for aerospace supply chains and for airlines' capacity plans. A slower ramp keeps jets scarce, supports lease rates and benefits Airbus, while pushing out the day Boeing's balance sheet heals."
+      ],
+      "grandLine": {
+        "title": "Franky's dock",
+        "body": "Franky, the Straw Hats' cola-powered shipwright, can only build as fast as the dock and materials allow, no matter how many orders come in. Boeing is in the same position: demand is not the constraint, factory rate and quality control are."
+      },
+      "views": [
+        {
+          "camp": "Slow and steady",
+          "thesis": "A safer, slower ramp is the right trade.",
+          "argument": "Boeing's priority is quality and regulatory trust, and the record MAX pace shows steady progress even if targets slip."
+        },
+        {
+          "camp": "Credibility problem",
+          "thesis": "Repeated slips weaken the cash-flow story.",
+          "argument": "The 2027 free cash flow target is a year later and well below consensus, so the stock's recovery thesis is stretched."
+        }
+      ],
+      "interview": {
+        "question": "Boeing is cash-positive but missed its delivery target. Is that a buy?",
+        "answer": "It depends on your time frame. The cash positive quarter is real, but guiding 2027 free cash flow to about $3B versus $5.5B expected pushes out the payoff. I'd focus on the 737 rate and the 787 cadence. What changes my mind is a clean move to 47 a month on schedule.",
+        "followUp": {
+          "question": "Why does production rate matter?",
+          "answer": "More jets delivered against a mostly fixed cost base lifts margins and cash flow, so rate is the main lever."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "rate",
+          "definition": "The number of planes a factory builds per month. Raising it is Boeing's main route to more cash.",
+          "example": "Boeing now targets 47 737s a month in early 2027."
+        },
+        {
+          "term": "free cash flow",
+          "definition": "Operating cash flow minus capital spending: cash the business actually generates.",
+          "example": "Boeing's Q3 free cash flow was $464M."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "2027",
+          "what": "Whether the 737 rate hits 47 a month on the new schedule."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Boeing: Boeing reports third quarter results",
+          "url": "https://boeing.mediaroom.com/2026-10-27-Boeing-Reports-Third-Quarter-Results"
+        },
+        {
+          "name": "SEC: Boeing Form 8-K, Q3 2026 press release",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000012927/000162828026067411/a202609sep308kprex991.htm"
+        },
+        {
+          "name": "MarketScale: Boeing 737 line will not reach 500 deliveries this year",
+          "url": "https://www.marketscale.com/industries/transportation/boeing-737-line-will-not-reach-500-deliveries-this-year"
+        }
+      ]
+    },
+    {
+      "depth": "brief",
+      "developing": false,
+      "publishedAt": "2026-11-06T06:56:00-05:00",
+      "updatedAt": "2026-11-06T06:56:00-05:00",
+      "readMinutes": 2,
+      "id": "caterpillar-q3-2026-earnings",
+      "beat": "industrials",
+      "headline": "Caterpillar posts a record $20.7B sales quarter as backlog nearly doubles to $78B",
+      "dek": "Data-center power demand drove the biggest order book in its history, while tariffs are a roughly $2.2B cost for the full year.",
+      "importance": 3,
+      "tldr": [
+        "Sales and revenues were **$20.7B**, up **17%**, the highest quarter in Caterpillar's history, per its filing and trade press.",
+        "Backlog hit a record **$78.1B**, up about **96%** from a year earlier; the biggest increase was in Power & Energy.",
+        "Tariff costs were about $600M in Q3 and are expected around **$2.2B** for the full year (excluding IEEPA refunds)."
+      ],
+      "whatHappened": [
+        "Caterpillar's Q3 10-Q shows sales and revenues of $20.7 billion, up 17%, and firm backlog of about $78.1 billion, up roughly $38 billion (96%) from a year earlier and about $6 billion from the second quarter. The company said strong orders across all three primary segments drove the increase, with the largest gains in Power & Energy. Growth came mainly from turbines, turbine-related services and large reciprocating engines used in data centers. Reports disagree on the growth rate for power generation sales (about 30% in one account, 75% in the call transcript), possibly because of different measures. Management expects full-year tariff costs of about $2.2 billion and mid-to-high-teens growth versus 2025."
+      ],
+      "background": [
+        "AI data centers need enormous amounts of reliable power, and the grid cannot always supply it. Caterpillar sells the on-site turbines and engines that fill the gap, so its order book now tracks the AI build-out as much as the construction cycle. A [[backlog|backlog]] is the value of orders not yet delivered, which gives revenue visibility."
+      ],
+      "whyItMatters": [
+        "It ties industrials to the AI trade: if data-center spending slows after Thursday's selloff, Caterpillar's backlog is where it would show up first. For now it shows demand outrunning capacity, which supports pricing power."
+      ],
+      "grandLine": {
+        "title": "Wano's sealed borders",
+        "body": "Wano shut its borders to the world, protecting those in charge and starving everyone else. Tariffs are a milder version: they raise the cost of imported parts and equipment for manufacturers like Caterpillar, which is why management is quantifying a $2.2B hit."
+      },
+      "views": [
+        {
+          "camp": "Structural demand",
+          "thesis": "Power for data centers is a multi-year trend.",
+          "argument": "Orders extend into 2029–2030, and the company is expanding capacity, so the backlog gives rare visibility."
+        },
+        {
+          "camp": "Tied to AI spending",
+          "thesis": "A slowdown in AI capex would hit orders.",
+          "argument": "If hyperscalers pull back after the selloff, turbine and engine orders are exposed, and tariffs squeeze margins in the meantime."
+        }
+      ],
+      "interview": {
+        "question": "Why is a heavy-equipment maker an AI stock?",
+        "answer": "Because data centers need on-site power, and Caterpillar sells the turbines and large engines. Its backlog is $78B, up 96%, mostly from power. My view is that demand is real for several quarters, with the risk tied to [[AI capex]]. What changes my mind is order cancellations or hyperscalers trimming build plans.",
+        "followUp": {
+          "question": "How does a backlog help valuation?",
+          "answer": "It gives visibility into future revenue and signals pricing power, which supports margins."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "backlog",
+          "definition": "The value of orders received but not yet delivered; a measure of future revenue.",
+          "example": "Caterpillar's backlog is $78.1B."
+        },
+        {
+          "term": "AI capex",
+          "definition": "Spending by cloud and tech companies on data centers, chips and power for AI."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Ongoing",
+          "what": "Whether data-center orders hold up after the AI selloff."
+        }
+      ],
+      "sources": [
+        {
+          "name": "SEC: Caterpillar Form 10-Q, quarter ended Sept. 30, 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000018230/000001823026000057/cat-20260930.htm"
+        },
+        {
+          "name": "Manufacturing Dive: Caterpillar posts highest sales quarter ever on data centers",
+          "url": "https://www.manufacturingdive.com/news/caterpillar-posts-highest-sales-quarter-ever-data-centers-q3-2026/873176/"
+        },
+        {
+          "name": "Utility Dive: Caterpillar posts highest sales quarter ever on data centers",
+          "url": "https://www.utilitydive.com/news/caterpillar-posts-highest-sales-quarter-ever-data-centers-q3-2026/873586/"
+        }
+      ]
+    },
+    {
+      "depth": "brief",
+      "developing": true,
+      "publishedAt": "2026-11-06T06:56:00-05:00",
+      "updatedAt": "2026-11-06T06:56:00-05:00",
+      "readMinutes": 2,
+      "id": "world-iran-talks-qatar-mediation",
+      "beat": "world",
+      "headline": "Iran says its Supreme Leader backed its government on peace talks as Trump says he's in 'no rush' to strike",
+      "dek": "Qatar-led indirect talks have produced no breakthrough, Washington is politically exposed after the midterms, and Israel's government reportedly wants action.",
+      "importance": 3,
+      "tldr": [
+        "Iranian President Pezeshkian said Supreme Leader Mojtaba Khamenei had granted the government 'certain authorities' over talks with the US.",
+        "Trump told Axios he is in 'no rush' to decide on resuming strikes; reports say Netanyahu urged one soon after the midterms.",
+        "Qatar leads the mediation, with Pakistan also active; an Iranian official said the sides remain far from a deal."
+      ],
+      "whatHappened": [
+        "Indirect talks between Washington and Tehran, with [[mediation]] mainly by Qatar with Pakistan also involved, continued this week without a breakthrough. A Qatari mediator traveled to Tehran on Monday to work on a draft agreement, and Iran's foreign minister said consultations were intensive. President Pezeshkian said the Supreme Leader had granted the government 'certain authorities' over the talks, without defining them; Middle East Eye and ABC identify the Supreme Leader as Mojtaba Khamenei.",
+        "On the US side, Trump told Axios he is in 'no rush' to decide whether to resume strikes. Reports say Israeli Prime Minister Netanyahu urged him to hit Iran soon after the midterms, and after Democrats won Congress, Vice President Vance tied the Republican losses to the war. An Iranian official told reporters the sides remain far from an agreement."
+      ],
+      "background": [
+        "The war began on Feb. 28 with US and Israeli strikes. A June memorandum and ceasefire collapsed in July, and Iran has since restricted shipping through the Strait of Hormuz. Mediation has run on and off since, usually in parallel with strikes and threats, and traders call a peace-talk hope that fades a [[false dawn]]."
+      ],
+      "whyItMatters": [
+        "For readers following the world rather than the tape: this is the story that decides whether the Gulf stays at war. For markets it is the main driver of oil, which fell about 8% on Wednesday on hopes of an exit."
+      ],
+      "grandLine": {
+        "title": "Bounty posters vs. an Admiral",
+        "body": "The World Government warns with bounty posters first and only sends an Admiral if the warnings are ignored. 'No rush' on strikes is the poster stage: the threat is still on the wall, but the fleet hasn't sailed. Whether it ever does depends on whether the talks give Washington a face-saving exit."
+      },
+      "views": [
+        {
+          "camp": "Diplomacy is working",
+          "thesis": "Domestic politics and talks are pushing toward a deal.",
+          "argument": "After the midterms rebuke, the administration has reasons to avoid a wider war, and Tehran is signaling flexibility by empowering its negotiators."
+        },
+        {
+          "camp": "Escalation is still likely",
+          "thesis": "The sides remain far apart.",
+          "argument": "Israel's government reportedly wants a strike, Iranian officials say a deal is distant, and previous 'false dawns' ended in renewed fighting."
+        }
+      ],
+      "interview": {
+        "question": "What's the state of the US–Iran war?",
+        "answer": "A stalemate with talks running alongside a standoff. Qatar is mediating, Iran says its leader has backed the negotiators, and Trump is saying 'no rush' on strikes. But the sides remain far apart, and past pauses have collapsed. I'd watch Hormuz flows and whether a draft agreement emerges. What changes my mind is a signed memorandum or a new round of strikes.",
+        "followUp": {
+          "question": "Why does Qatar mediate?",
+          "answer": "It has working channels to both Washington and Tehran and is a Gulf state with a stake in ending the conflict."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "mediation",
+          "definition": "A third party carrying messages and drafts between sides that won't negotiate directly.",
+          "example": "Qatar shuttles drafts between Washington and Tehran."
+        },
+        {
+          "term": "false dawn",
+          "definition": "A hopeful sign that fades without a real change. Oil traders use it for peace-talk rallies that reverse."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "This week",
+          "what": "Any draft agreement from the Qatar-led talks, and Trump's next comments on strikes."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Axios: Trump says 'no rush' to decide on bombing Iran again",
+          "url": "https://www.axios.com/2026/11/02/trump-axios-interview-no-rush-resume-war"
+        },
+        {
+          "name": "Fox News: Trump says 'no rush' to resume Iran strikes as Tehran talks hang in the balance",
+          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-midterms-peace-deal-israel-november-2"
+        },
+        {
+          "name": "IBTimes: Speculation about US–Iran negotiations mounts; Trump says 'no rush'",
+          "url": "https://www.ibtimes.com/trump-no-rush-iran-strikes-talks-3809303"
+        },
+        {
+          "name": "Middle East Eye: Trump says he will not attack Iran after midterms",
+          "url": "https://www.middleeasteye.net/news/trump-says-he-will-not-attack-iran-after-midterms"
+        },
+        {
+          "name": "CNBC: Crude oil falls below $90 as Vance blames GOP defeat on Iran war",
+          "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
+        }
+      ]
+    },
+    {
+      "depth": "brief",
+      "developing": false,
+      "publishedAt": "2026-11-06T06:56:00-05:00",
+      "updatedAt": "2026-11-06T06:56:00-05:00",
+      "readMinutes": 2,
+      "id": "world-ukraine-witkoff-putin-october-2026",
+      "beat": "world",
+      "headline": "Russia and Ukraine trade strikes after US envoy Witkoff meets Putin, with no settlement in sight",
+      "dek": "Kyiv was hit on Oct. 21 after the St. Petersburg meeting. Putin still refuses a face-to-face with Zelensky and wants the rest of eastern Ukraine; I found no newer confirmed developments.",
+      "importance": 2,
+      "tldr": [
+        "US envoy Steve Witkoff met Russian President Putin in St. Petersburg in late October to push for renewed talks.",
+        "Russia and Ukraine traded new barrages afterward; Kyiv's mayor reported casualties and damage to metro infrastructure.",
+        "Putin continues to reject meeting Zelensky and insists on taking the rest of eastern Ukraine."
+      ],
+      "whatHappened": [
+        "After Witkoff met Putin in St. Petersburg to push for renewed negotiations (the format is [[trilateral|trilateral talks]] with the US, Russia and Ukraine), Russia and Ukraine exchanged a new round of attacks, with Russian strikes hitting Kyiv on Oct. 21 and the mayor reporting casualties and damage to metro infrastructure. Earlier, in September, Witkoff and Jared Kushner visited Moscow and Kyiv, Putin halted strikes on Kyiv for three days during that visit, and Witkoff said there was progress on scheduling more trilateral talks. Strikes resumed afterward. The latest coverage I could confirm is from late October, so check a live source for anything newer."
+      ],
+      "background": [
+        "The war began with Russia's full-scale invasion in 2022. Peace efforts now center on a US-brokered framework. Russia demands the remainder of Donetsk, and Ukraine says it won't cede territory without Western [[security guarantees|security guarantees]] and a reconstruction package."
+      ],
+      "whyItMatters": [
+        "Beyond the human cost, the war shapes European energy and defense spending and sanctions on Russian oil. Progress toward a deal would be a risk-on signal for European assets and a headwind for defense stocks; stalemate keeps both stories as they are."
+      ],
+      "views": [
+        {
+          "camp": "Talks are moving",
+          "thesis": "Repeated envoy visits and pauses in strikes show momentum.",
+          "argument": "Putin agreed to a three-day halt on Kyiv during the September visit, and trilateral meetings are being scheduled."
+        },
+        {
+          "camp": "No real convergence",
+          "thesis": "Russia's demands haven't changed.",
+          "argument": "Moscow still insists on the rest of eastern Ukraine and refuses to meet Zelensky, while strikes continue after every meeting."
+        }
+      ],
+      "interview": {
+        "question": "Is Russia–Ukraine heading toward a settlement?",
+        "answer": "Not on the evidence. Envoy diplomacy is active and there have been short pauses, but Russia still demands the rest of Donetsk and Ukraine refuses to cede it without [[security guarantees|security guarantees]]. My view is a settlement is unlikely near-term. What changes my mind is a leader-level meeting or a framework on territory and guarantees.",
+        "followUp": {
+          "question": "What are security guarantees?",
+          "answer": "Commitments from allies to defend or support a country after a settlement, intended to deter a renewed attack."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "security guarantees",
+          "definition": "Commitments by allies to help defend a country after a settlement so the fighting doesn't restart."
+        },
+        {
+          "term": "trilateral talks",
+          "definition": "Negotiations among three parties, here the US, Russia and Ukraine."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Next",
+          "what": "Whether another trilateral round is scheduled, and whether strikes on Kyiv pause again."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera: Russian strikes hit Kyiv after Witkoff meets Putin",
+          "url": "https://aljazeera.com/news/2026/10/22/russian-strikes-hit-kyiv-after-witkoff-meets-putin"
+        },
+        {
+          "name": "RFE/RL: Ukraine, Russia trade strikes after US envoy meets Putin",
+          "url": "https://www.rferl.org/amp/ukraine-drones-hits-russian-refinery/33496941.html"
+        },
+        {
+          "name": "UPI: Putin and Zelenskyy agree to pause strikes on Kyiv and Moscow",
+          "url": "https://www.upi.com/Top_News/US/2026/09/08/ukraine-russia-pause-fighting/6531788874393/"
         }
       ]
     }
