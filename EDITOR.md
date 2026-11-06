@@ -77,7 +77,14 @@ does work (the network may have been opened up), also use it to read free articl
 - Before a scheduled release is out, write "expected" or "consensus", never "came in at".
 
 ### 4. Decide the paper
-- Aim for **8–14 stories** live at once, ranked by `importance`:
+- **Coverage minimums (these override "keep it lean"):**
+  - Every enabled beat must have at least **2 live stories**, including The World, Energy and Industrials.
+  - Each run, The World, Energy and Industrials must each get at least one new or refreshed story. If a beat is
+    thin, search it using its subsector list and queries in `topics.json` and add stories. Brief depth is fine
+    for importance 1–3.
+  - The World stories don't need a market angle: they're the paper's newspaper-style world section.
+  - Do the beat coverage first. Polish and extras come after.
+- Aim for **12–18 stories** live at once, ranked by `importance`:
   - **5**: changes the macro picture (a Fed decision, a CPI surprise, a war or oil shock)
   - **4**: moves a major asset class today
   - **3**: matters for the view
