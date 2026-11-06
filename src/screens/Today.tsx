@@ -6,7 +6,7 @@ import { freshness, readStore } from '../lib/visits.ts';
 import { useStore } from '../lib/storage.ts';
 import { plain } from '../lib/markup.ts';
 import { BeatTag, FreshBadge, Rich } from '../components/ui.tsx';
-import { LogPoseIcon, StrawHat, WantedMark } from '../components/art.tsx';
+import { LogPoseIcon, Ship, StrawHat, WantedMark } from '../components/art.tsx';
 
 interface Props {
   edition: Edition;
@@ -67,6 +67,7 @@ export function Today({ edition, topics }: Props) {
           </section>
         )}
 
+        {!beat && <Ship className="divider-ship" />}
         <div className="rule-label rule-label-row">
           <h2>{beat ? topics.get(beat)?.label ?? beat : 'The rest of the paper'}</h2>
           <span className="muted">{unread} unread</span>

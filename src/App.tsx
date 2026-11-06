@@ -3,7 +3,7 @@ import { useEdition, useTopics } from './lib/edition.ts';
 import { href, useRoute, type Route } from './lib/router.ts';
 import { clockTime, editionName, longDate } from './lib/time.ts';
 import { LogPoseChip } from './components/ui.tsx';
-import { NewsCoo, Waves } from './components/art.tsx';
+import { DenDenMushi, JollyRoger, NewsCoo, Waves } from './components/art.tsx';
 import { Today } from './screens/Today.tsx';
 import { StoryPage } from './screens/Story.tsx';
 import { GlossaryPage } from './screens/Glossary.tsx';
@@ -84,7 +84,9 @@ export function App() {
       </header>
 
       <main className="main">
-        {!edition && !error && <p className="empty">The News Coo is on its way…</p>}
+        {!edition && !error && <p className="empty">
+            <NewsCoo size={22} className="footer-coo" /> The News Coo is on its way…
+          </p>}
         {!edition && error && <p className="empty">Couldn’t load the paper ({error}). Check your connection and refresh.</p>}
         {edition && route.name === 'today' && <Today edition={edition} topics={topics} />}
         {edition && route.name === 'story' && <StoryPage key={route.id} edition={edition} id={route.id} topics={topics} />}
@@ -100,7 +102,7 @@ export function App() {
             {edition.nextRunAt && <> · next delivery around {clockTime(edition.nextRunAt)}</>}
           </p>
           <p>
-            <NewsCoo size={22} className="footer-coo" /> Delivered by News Coo. Written by Claude from public reporting; check the linked sources before quoting a
+            <JollyRoger size={22} className="footer-coo" /> Delivered by News Coo. Written by Claude from public reporting; check the linked sources before quoting a
             number.
           </p>
         </footer>
@@ -109,7 +111,7 @@ export function App() {
       {delivery && (
         <div className="toast" role="status">
           <span>
-            <strong>News Coo delivery:</strong> {delivery.newCount} new or updated {delivery.newCount === 1 ? 'story' : 'stories'}
+            <DenDenMushi size={18} className="toast-art" /> <strong>News Coo delivery:</strong> {delivery.newCount} new or updated {delivery.newCount === 1 ? 'story' : 'stories'}
           </span>
           <a
             href={href.today}

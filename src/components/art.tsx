@@ -132,3 +132,44 @@ export function BeatGlyph({ beat, size = 13 }: { beat: string; size?: number }) 
       return null;
   }
 }
+
+/** A small sailing ship, used as a quiet divider. */
+export function Ship({ size = 36, className, style }: ArtProps) {
+  return (
+    <svg width={size} height={size * 0.6} viewBox="0 0 48 29" className={className} style={style} aria-hidden="true" {...line}>
+      <path d="M24 3v15" />
+      <path d="M24 5c6 2 9 6 9 11H24Z" />
+      <path d="M24 3l5 1.5-5 1.5" />
+      <path d="M7 18h34l-5 6H12Z" />
+      <path d="M2 27q3-2 6 0t6 0t6 0t6 0t6 0t6 0t6 0" />
+    </svg>
+  );
+}
+
+/** A Den Den Mushi: the snail phone that carries news. */
+export function DenDenMushi({ size = 20, className, style }: ArtProps) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" className={className} style={style} aria-hidden="true" {...line}>
+      <circle cx="9" cy="10" r="5.5" />
+      <path d="M9 10m-2.4 0a2.4 2.4 0 1 1 2.4 2.4" />
+      <path d="M3 19c3-2.5 11-2.5 16 0" />
+      <path d="M17 15l2-5M20 15l2-3" />
+      <circle cx="19" cy="9.4" r="0.9" fill="currentColor" stroke="none" />
+      <circle cx="22" cy="11.6" r="0.9" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
+/** A tiny Jolly Roger in a straw hat, with crossed bones. */
+export function JollyRoger({ size = 22, className, style }: ArtProps) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" className={className} style={style} aria-hidden="true" {...line}>
+      <path d="M3.5 8.5c4-2 13-2 17 0" />
+      <path d="M7 8c0-3 2-4.6 5-4.6S17 5 17 8" />
+      <path d="M7.5 12.5c0-2 2-3.5 4.5-3.5s4.5 1.5 4.5 3.5c0 1.3-.7 2.2-1.5 2.8v1.7h-6v-1.7c-.8-.6-1.5-1.5-1.5-2.8Z" />
+      <circle cx="10.3" cy="12.4" r="0.9" fill="currentColor" stroke="none" />
+      <circle cx="13.7" cy="12.4" r="0.9" fill="currentColor" stroke="none" />
+      <path d="M4.5 21l15-3M19.5 21l-15-3" />
+    </svg>
+  );
+}

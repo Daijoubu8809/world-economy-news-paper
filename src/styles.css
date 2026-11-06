@@ -1558,3 +1558,15 @@ button {
     height: 0.9em;
   }
 }
+
+.divider-ship {
+  display: block;
+  margin: 26px auto -18px;
+  color: var(--blue);
+  opacity: 0.6;
+}
+
+.toast-art {
+  vertical-align: -4px;
+  margin-right: 2px;
+}
