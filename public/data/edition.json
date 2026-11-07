@@ -1,10 +1,10 @@
 {
   "version": 1,
   "publishedAt": "2026-11-06T18:54:00-05:00",
-  "checkedAt": "2026-11-06T18:54:00-05:00",
-  "nextRunAt": "2026-11-07T11:52:00-05:00",
+  "checkedAt": "2026-11-07T10:39:00-05:00",
+  "nextRunAt": "2026-11-08T10:38:00-05:00",
   "brief": {
-    "title": "A hot jobs report lifts December Fed hike odds to about 80% after an AI selloff and a historic oil drop.",
+    "title": "Weekend wrap: a hot jobs report, an AI-led selloff and a historic oil drop set up a Monday test.",
     "bullets": [
       "**Jobs:** October payrolls +165k vs. ~65k expected, unemployment 4.1%, prior months revised up; December hike odds near 80%.",
       "**Stocks:** The Nasdaq entered a correction Thursday (S&P 500 -4.4%); Reuters had Nasdaq +1.7%, S&P +0.6%, Dow -0.6% intraday Friday (closes unconfirmed).",
@@ -12,7 +12,7 @@
       "**Industrials/energy:** ISM manufacturing 55.5 (10th month of expansion); Caterpillar backlog $78B; OPEC+ holds output.",
       "**World:** An Iran draft proposal is circulating from Doha; Russia–Ukraine talks stalled after Witkoff met Putin."
     ],
-    "mood": "The Knock Up Stream cut out on Thursday, the Aqua Laguna of oil drained this week, and the Log Pose now points back to a hawkish Fed."
+    "mood": "Calm Belt over the weekend: markets are closed, the Log Pose points to a hawkish Fed, and the Iran draft is the storm on the horizon."
   },
   "mustKnow": [
     "jobs-report-october-2026-preview",
@@ -330,92 +330,6 @@
           "If the Fed turns dovish, the front end rallies and the curve steepens."
         ]
       }
-    },
-    {
-      "id": "amd-q3-2026-earnings",
-      "beat": "markets",
-      "headline": "AMD beats on revenue and earnings, with data-center sales up 97%; shares jump after hours",
-      "dek": "The chipmaker's report on Election Day is another read on AI demand after Apple and Palantir, and shares rose roughly 7–8% in extended trading.",
-      "importance": 3,
-      "depth": "brief",
-      "developing": true,
-      "publishedAt": "2026-11-03T18:39:00-05:00",
-      "updatedAt": "2026-11-04T06:54:00-05:00",
-      "readMinutes": 2,
-      "tldr": [
-        "AMD beat Wall Street's revenue and EPS expectations for the third quarter, per reports.",
-        "**Data-center revenue rose 97%** year over year, the main driver.",
-        "Shares rose roughly **6%** in premarket Wednesday after a 7–8% after-hours gain. I couldn't confirm the exact revenue, EPS or guidance numbers."
-      ],
-      "whatHappened": [
-        "AMD reported third-quarter results after the closing bell Tuesday, beating expectations on the top and bottom lines. Data-center revenue grew 97% from a year earlier, the standout line as investors look for proof that AI spending turns into sales. The stock rose roughly 7–8% in extended trading, which fits with chip stocks having rallied in the regular session. I couldn't verify the exact revenue and EPS figures or the fourth-quarter outlook, so check AMD's release before quoting them."
-      ],
-      "background": [
-        "After October's AI selloff hit Alphabet, Intel and Amazon on spending worries, the market has been sorting AI names into those making money from the build-out and those paying for it. A chipmaker whose data-center sales nearly doubled sits on the 'selling the picks and shovels' side."
-      ],
-      "whyItMatters": [
-        "A strong print supports the [[AI capex]] trade and helps the Nasdaq after a rough month. The catch is positioning: a stock that has rallied into earnings needs the outlook, not just the quarter, to beat."
-      ],
-      "grandLine": {
-        "title": "The Sabaody bubble coating",
-        "body": "At Sabaody, resin bubbles let ships dive deeper than they otherwise could, until the pressure gets too high and the coating pops. AI spending is the coating: it carries the whole sector deeper, and chipmakers sell the resin. Strong data-center growth shows the dive is still going well; the risk is what happens if the customers paying for it run short of cash."
-      },
-      "views": [
-        {
-          "camp": "Demand is real",
-          "thesis": "Data-center revenue near doubling shows AI spending is still accelerating.",
-          "argument": "Cloud and enterprise buyers are still ordering accelerators, so chip suppliers keep benefiting even as their customers face questions about returns."
-        },
-        {
-          "camp": "Don't chase the pop",
-          "thesis": "A one-day gain after a beat tells you little about durability.",
-          "argument": "After October's selloff, sentiment swings fast. If hyperscaler cash burn forces capex cuts, the suppliers feel it with a lag."
-        }
-      ],
-      "interview": {
-        "question": "AMD's data-center revenue is up 97% and the stock jumped. How do you think about it?",
-        "answer": "It's a supplier benefiting from customers' [[AI capex]]. The print is good, but the question is durability. My view is that demand holds through the next few quarters, and the risk is customers cutting spending if returns disappoint. I'd change my mind if guidance implies growth slowing or if hyperscalers trim capex.",
-        "followUp": {
-          "question": "Why did chip stocks rally while Apple fell?",
-          "answer": "Apple's issue was margins and a cost squeeze on a mature product. Chips are riding the spending boom. It's the same theme viewed from the two ends: who gets paid versus who pays."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "AI capex",
-          "definition": "Capital spending by cloud and tech companies on data centers, chips and power for AI. It is revenue for suppliers like AMD and a cash drain for the spenders.",
-          "example": "October's selloff hit names seen as burning cash on AI capex."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Wed Nov 4",
-          "what": "How AMD opens, and whether chips extend Tuesday's rally."
-        },
-        {
-          "when": "Fri Nov 6",
-          "what": "Payrolls, the next macro swing for tech valuations."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Yahoo Finance: Stock market today, Tuesday, Nov. 3",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-earnings-141143244.html"
-        },
-        {
-          "name": "Futu: US stocks close on Election Day",
-          "url": "https://news.futunn.com/en/post/1003307805/us-stocks-close-on-election-day-the-s-p-500"
-        },
-        {
-          "name": "CNBC: S&P 500 snaps 3-day skid on Election Day as chip stocks rebound",
-          "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html"
-        },
-        {
-          "name": "Investing.com: U.S. stock futures pare losses as Dems sweep Congress; AMD rises",
-          "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-with-midterms-in-focus-amd-rallies-on-strong-earnings-4997029"
-        }
-      ],
-      "updateNote": "Added Wednesday premarket move."
     },
     {
       "id": "ai-selloff-nasdaq-correction-nov-2026",
