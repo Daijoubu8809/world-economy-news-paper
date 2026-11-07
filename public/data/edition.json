@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-06T18:54:00-05:00",
-  "checkedAt": "2026-11-07T10:39:00-05:00",
+  "publishedAt": "2026-11-07T11:53:00-05:00",
+  "checkedAt": "2026-11-07T11:53:00-05:00",
   "nextRunAt": "2026-11-08T10:38:00-05:00",
   "brief": {
     "title": "Weekend wrap: a hot jobs report, an AI-led selloff and a historic oil drop set up a Monday test.",
     "bullets": [
       "**Jobs:** October payrolls +165k vs. ~65k expected, unemployment 4.1%, prior months revised up; December hike odds near 80%.",
-      "**Stocks:** The Nasdaq entered a correction Thursday (S&P 500 -4.4%); Reuters had Nasdaq +1.7%, S&P +0.6%, Dow -0.6% intraday Friday (closes unconfirmed).",
+      "**Stocks:** Friday: S&P 500 +0.3% to 7,376.86, Nasdaq +1.1%, Dow -0.5%; the S&P fell about 2.7% on the week, its worst since June, after Thursday's AI rout (S&P -4.4%).",
       "**Oil:** Brent near $99–100 after the steepest weekly drop since 2020 on some measures (12–16%) as Iran-deal hopes grow; no deal signed.",
       "**Industrials/energy:** ISM manufacturing 55.5 (10th month of expansion); Caterpillar backlog $78B; OPEC+ holds output.",
       "**World:** An Iran draft proposal is circulating from Doha; Russia–Ukraine talks stalled after Witkoff met Putin."
@@ -58,15 +58,16 @@
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-11-04T18:54:00-05:00",
+      "updatedAt": "2026-11-07T11:53:00-05:00",
       "readMinutes": 5,
       "tldr": [
         "Wednesday: oil fell roughly **8%**. One end-of-day report had Brent settling down $8.98 (8.7%) at **$94.62** and WTI down $7.97 (8.3%) at **$88.12**, both the lowest since Aug. 31.",
         "Drivers: the Democratic sweep, a post from Vice President Vance tying the GOP defeat to the Iran war, and Trump saying he has no immediate plans to strike Iran.",
-        "Caveat: an Iranian official said the sides remain far apart, and a deal seen as a Trump defeat could provoke escalation. Oil has sold off on 'false dawns' before."
+        "Thursday–Friday: Brent bounced back toward $99–100, still set for a weekly drop of roughly 12–16%. Caveat: an Iranian official said the sides remain far apart, and a deal seen as a Trump defeat could provoke escalation."
       ],
       "whatHappened": [
         "**Wednesday:** oil collapsed after the midterms. Democrats won both chambers, and traders read that as constraining the war and nudging Trump toward a deal. Vice President Vance publicly tied the Republican losses to the Iran conflict, which reports described as a key catalyst, and Trump said he had no immediate plans to strike Iran, so the sense of near-term escalation risk drained out of the market. An end-of-day report put Brent at $94.62 (down 8.7%) and WTI at $88.12 (down 8.3%), their lowest closes since Aug. 31; intraday moves varied widely, from about 2.5% early to 10% at the worst. Analysts warned the relief may not last: one Iranian official said the sides remain far from an agreement, and a deal framed as a defeat for Trump could provoke escalation.",
+        "**Thursday–Friday:** Brent rebounded toward $99–100 after Wednesday's plunge as Iran reported three more tanker attacks in Hormuz on Thursday, but it was still on pace for a weekly drop of about 12% to 16%, depending on the source. No deal has been signed, and a draft proposal is circulating from Doha.",
         "**Monday:** oil dropped about 7% as Washington and Tehran both signaled room for diplomacy. Iranian President Pezeshkian said Supreme Leader Mojtaba Khamenei had granted the government 'certain authorities' over peace talks with the US, without spelling out their scope. A Qatari mediator traveled to Tehran to work on a draft agreement, and Iran's foreign minister said consultations were intensive. Trump told Axios he is in 'no rush' to decide on resuming strikes. Reports conflict on what comes after Tuesday's midterms: the Wall Street Journal has said he leans toward a large strike, while Middle East Eye quotes him saying he won't attack after the election. CNBC reported Brent settled down 7.6% at $104.77; Reuters had Brent near $104.96 and WTI near $96.62 at midday. Analysts quoted by CNBC said much of the recent rally was risk premium for escalation, and Raymond James' Pavel Molchanov said skepticism is warranted after many 'false dawns'.",
         "**Weekend:** Iran's Revolutionary Guard said a supertanker carrying more than 2 million barrels hit a naval mine in Hormuz on Friday and caught fire. Washington disputed some mine claims earlier in the week, and Gulf allies were reportedly told to prepare for a possible round of strikes."
       ],
@@ -214,7 +215,7 @@
           "url": "https://www.foxnews.com/live-news/iran-war-news-trump-midterms-peace-deal-israel-november-2"
         }
       ],
-      "updateNote": "Wednesday: oil plunged about 8% after the midterms; Brent near $95."
+      "updateNote": "Added the Thursday–Friday rebound and weekly drop."
     },
     {
       "id": "midterms-2026-market-odds",
@@ -340,7 +341,7 @@
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-11-05T18:54:00-05:00",
-      "updatedAt": "2026-11-05T18:54:00-05:00",
+      "updatedAt": "2026-11-07T11:53:00-05:00",
       "readMinutes": 5,
       "tldr": [
         "Thursday close: **S&P 500 -4.4% to 7,353.73** (worst day since April 2025), **Dow -1,833 points (-3.4%) to 51,523.06**, **Nasdaq -5.5% to 24,315.00**.",
@@ -350,7 +351,8 @@
       "whatHappened": [
         "Stocks fell hard on Thursday in what outlets called an AI trade meltdown. According to AP, the S&P 500 dropped 334.89 points, or 4.4%, to 7,353.73, its worst day since April 2025. The Dow fell 1,833.06 points, or 3.4%, to 51,523.06, and the Nasdaq Composite sank 1,421.52 points, or 5.5%, to 24,315.00, which puts it in a [[correction]]: down more than 10% from its record close. Wednesday's rally, when the Dow gained 1,569 points, was erased and then some; the Dow is now below Tuesday's close.",
         "The pain was concentrated in AI and chips. CNBC's tally was that the 'Magnificent 7' megacaps lost about $1 trillion in value, and CNN put the day's loss across the market at roughly $2.5 trillion. One report had the PHLX semiconductor index down about 12% and Nvidia down 9.3% (other reports say 8–9%, so treat it as approximate), which erased Nvidia's gains for the year.",
-        "Why: two things stacked. First, doubts about whether [[AI capex]] will earn adequate returns, which had already hit Alphabet, Intel and Amazon in October. Second, the midterms: with Democrats controlling Congress, investors worried about more oversight of AI and data-center buildout, and CBS reported an investor exodus from tech and AI after the results. I could not verify moves in oil, Treasury yields, the dollar or volatility, or the Bank of England's decision, so those are left out."
+        "Why: two things stacked. First, doubts about whether [[AI capex]] will earn adequate returns, which had already hit Alphabet, Intel and Amazon in October. Second, the midterms: with Democrats controlling Congress, investors worried about more oversight of AI and data-center buildout, and CBS reported an investor exodus from tech and AI after the results. I could not verify moves in oil, Treasury yields, the dollar or volatility, or the Bank of England's decision, so those are left out.",
+        "**Friday:** tech and chips bounced. The S&P 500 closed at 7,376.86 (up about 0.3%), the Nasdaq gained about 1.1% and the Dow fell about 0.5%, leaving the S&P 500 about 2.7% lower on the week, its worst since June. See the weekly wrap."
       ],
       "marketReaction": [
         {
@@ -476,8 +478,13 @@
         {
           "name": "AP via TV News Check: Dow tumbles 1,833; Nasdaq sinks 1,422; S&P 500 drops 335",
           "url": "https://tvnewscheck.com/business/article/dow-tumbles-1833-nasdaq-sinks-1422-sp-500-drops-335/"
+        },
+        {
+          "name": "Yahoo Finance: Nasdaq and S&P 500 rebound, Dow slips to cap a bruising week for AI stocks",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
         }
-      ]
+      ],
+      "updateNote": "Added Friday's partial rebound."
     },
     {
       "depth": "brief",
@@ -1372,6 +1379,95 @@
         {
           "name": "Mining Stock Education: Manufacturing PMI at 55.5%, October 2026 ISM report",
           "url": "https://www.miningstockeducation.com/2026/11/manufacturing-pmi-at-55-5-october-2026-ism-manufacturing-pmi-report/"
+        }
+      ]
+    },
+    {
+      "id": "weekly-wrap-worst-week-since-june-nov-2026",
+      "beat": "markets",
+      "headline": "Wall Street ends its worst week since June as tech rebounds Friday but the Dow slips",
+      "dek": "The S&P 500 closed Friday at 7,376.86, up 0.3% on the day but down about 2.7% on the week, after Thursday's AI rout and a hot jobs report.",
+      "importance": 3,
+      "depth": "brief",
+      "developing": false,
+      "publishedAt": "2026-11-07T11:53:00-05:00",
+      "updatedAt": "2026-11-07T11:53:00-05:00",
+      "readMinutes": 2,
+      "tldr": [
+        "**Friday:** the S&P 500 rose about 0.3% to **7,376.86** and the Nasdaq about 1.1%, while the Dow fell about 0.5%.",
+        "**Week:** the S&P 500 fell about **2.7%**, its worst week since June; one report put the Nasdaq's weekly drop at about 3.4%.",
+        "The rebound was narrow, led by tech and chips (Nvidia and AMD rose), after Thursday's 12% plunge in the chip index."
+      ],
+      "whatHappened": [
+        "Stocks ended a bruising week on a mixed note. Tech and chip stocks staged a [[relief rally]] Friday after Thursday's AI-led selloff, in which the PHLX semiconductor index fell about 12% (its worst day since March 2020) and Nvidia about 9%. The S&P 500 closed at 7,376.86, up about 0.3%, and the Nasdaq gained about 1.1%, while the Dow slipped about 0.5%. For the week the S&P 500 lost roughly 2.7%, its worst since June. The strong jobs report (+165,000) nudged Treasury yields higher into the close and rate-hike worries held back the rebound, which was narrow: [[breadth]] was thin. Reports differ on the size of Friday's Nvidia and AMD gains, so I have left them out."
+      ],
+      "background": [
+        "A week that began with a Democratic sweep and a Dow rally of about 1,500 points on Wednesday ended with the index below where it started. Whipsaw weeks like this usually reflect positioning: crowded AI longs unwinding while macro data (payrolls, Fed odds) shifts the discount rate."
+      ],
+      "whyItMatters": [
+        "Monday's question is whether Friday's bounce is a base or a relief rally. A narrow, tech-only rebound with yields rising is less convincing than a broad one, and the next macro catalysts are the AI follow-through and the December hike debate."
+      ],
+      "grandLine": {
+        "title": "Whitebeard's fall",
+        "body": "When Whitebeard fell at Marineford, a dominant power vanished and the whole New World repositioned at once, with volatility spiking. A week where the market's biggest winners lurched and everyone re-sorted their positions looks similar: it isn't the end of the sea, it's a repricing of who holds the power."
+      },
+      "views": [
+        {
+          "camp": "Relief rally",
+          "thesis": "Friday's bounce shows dip buyers are still active.",
+          "argument": "Chips recovered part of Thursday's drop and the Nasdaq gained more than 1%, which suggests buyers stepped in after the correction."
+        },
+        {
+          "camp": "Fragile base",
+          "thesis": "A narrow rebound with rising yields isn't a recovery.",
+          "argument": "The Dow fell, breadth was thin and a hot jobs report lifted hike odds, so the setup for Monday is still shaky."
+        }
+      ],
+      "interview": {
+        "question": "The S&P had its worst week since June. How do you frame it?",
+        "answer": "As a positioning and rates story, not a growth scare. The AI complex sold off hard Thursday, bounced Friday, and payrolls pushed up hike odds. I'd watch whether the S&P holds its Friday close and whether yields keep rising. What changes my mind is credit spreads widening or a second down leg in chips.",
+        "followUp": {
+          "question": "Why is breadth important?",
+          "answer": "A rally led by a few stocks is more fragile than one that includes most of the market."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "breadth",
+          "definition": "How many stocks participate in a market move. Narrow breadth means a few names are doing the work.",
+          "example": "Friday's rebound was concentrated in tech and chips."
+        },
+        {
+          "term": "relief rally",
+          "definition": "A bounce after a selloff that reflects less fear, not improved fundamentals."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Mon Nov 9",
+          "what": "Does the S&P hold 7,376.86 and do chips extend the bounce?"
+        },
+        {
+          "when": "Dec 8–9",
+          "what": "FOMC, with a hike about 80% priced."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Yahoo Finance: Nasdaq and S&P 500 rebound, Dow slips to cap a bruising week for AI stocks",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
+        },
+        {
+          "name": "AP Closing Bell: AI stocks halt their brutal worldwide sell-off",
+          "url": "https://www.947qdr.com/2026/11/06/ai-stocks-halt-their-brutal-worldwide-sell-off-as-wall-street-trims-its-loss-for-the-week/"
+        },
+        {
+          "name": "Alain Guillot: Stock market recap, Nov. 6, 2026",
+          "url": "https://www.alainguillot.com/stock-market-recap-november-6-2026/"
+        },
+        {
+          "name": "CoinCentral: Nasdaq ends week 3.4% lower despite Friday tech rebound",
+          "url": "https://coincentral.com/nasdaq-ends-week-3-4-lower-despite-friday-tech-rebound-as-jobs-data-tops-forecasts"
         }
       ]
     }
