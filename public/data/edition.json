@@ -1,10 +1,10 @@
 {
   "version": 1,
   "publishedAt": "2026-11-07T11:53:00-05:00",
-  "checkedAt": "2026-11-07T11:53:00-05:00",
-  "nextRunAt": "2026-11-08T10:38:00-05:00",
+  "checkedAt": "2026-11-08T11:53:00-05:00",
+  "nextRunAt": "2026-11-09T06:52:00-05:00",
   "brief": {
-    "title": "Weekend wrap: a hot jobs report, an AI-led selloff and a historic oil drop set up a Monday test.",
+    "title": "Week ahead: can Friday's chip rebound hold as hike odds sit near 80% and the Iran draft awaits a response?",
     "bullets": [
       "**Jobs:** October payrolls +165k vs. ~65k expected, unemployment 4.1%, prior months revised up; December hike odds near 80%.",
       "**Stocks:** Friday: S&P 500 +0.3% to 7,376.86, Nasdaq +1.1%, Dow -0.5%; the S&P fell about 2.7% on the week, its worst since June, after Thursday's AI rout (S&P -4.4%).",
@@ -12,7 +12,7 @@
       "**Industrials/energy:** ISM manufacturing 55.5 (10th month of expansion); Caterpillar backlog $78B; OPEC+ holds output.",
       "**World:** An Iran draft proposal is circulating from Doha; Russia–Ukraine talks stalled after Witkoff met Putin."
     ],
-    "mood": "Calm Belt over the weekend: markets are closed, the Log Pose points to a hawkish Fed, and the Iran draft is the storm on the horizon."
+    "mood": "Calm Belt before the open: markets are closed, the Log Pose points to a hawkish Fed, and the Iran draft is the storm on the horizon."
   },
   "mustKnow": [
     "jobs-report-october-2026-preview",
@@ -24,6 +24,11 @@
       "date": "2026-11-09",
       "label": "AI selloff follow-through",
       "why": "Does the Nasdaq correction extend or bounce, with a hot jobs print lifting yields?"
+    },
+    {
+      "date": "2026-11-11",
+      "label": "Veterans Day (US bond market closed)",
+      "why": "Treasuries trade on a holiday schedule while stocks stay open, so liquidity can be thin."
     },
     {
       "date": "2026-11-18",
