@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-07T11:53:00-05:00",
-  "checkedAt": "2026-11-08T11:53:00-05:00",
-  "nextRunAt": "2026-11-09T06:52:00-05:00",
+  "publishedAt": "2026-11-09T06:54:00-05:00",
+  "checkedAt": "2026-11-09T06:54:00-05:00",
+  "nextRunAt": "2026-11-09T18:52:00-05:00",
   "brief": {
-    "title": "Week ahead: can Friday's chip rebound hold as hike odds sit near 80% and the Iran draft awaits a response?",
+    "title": "Week ahead: Friday's chip rebound faces hike odds near 80% and Iran talks with no breakthrough.",
     "bullets": [
       "**Jobs:** October payrolls +165k vs. ~65k expected, unemployment 4.1%, prior months revised up; December hike odds near 80%.",
       "**Stocks:** Friday: S&P 500 +0.3% to 7,376.86, Nasdaq +1.1%, Dow -0.5%; the S&P fell about 2.7% on the week, its worst since June, after Thursday's AI rout (S&P -4.4%).",
       "**Oil:** Brent near $99–100 after the steepest weekly drop since 2020 on some measures (12–16%) as Iran-deal hopes grow; no deal signed.",
       "**Industrials/energy:** ISM manufacturing 55.5 (10th month of expansion); Caterpillar backlog $78B; OPEC+ holds output.",
-      "**World:** An Iran draft proposal is circulating from Doha; Russia–Ukraine talks stalled after Witkoff met Putin."
+      "**World:** Iran and the US are quietly negotiating with neither side budging; Trump says attacks are 'highly unlikely' if Tehran makes progress. Russia–Ukraine talks stalled after Witkoff met Putin."
     ],
     "mood": "Calm Belt before the open: markets are closed, the Log Pose points to a hawkish Fed, and the Iran draft is the storm on the horizon."
   },
@@ -63,7 +63,7 @@
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-11-07T11:53:00-05:00",
+      "updatedAt": "2026-11-09T06:54:00-05:00",
       "readMinutes": 5,
       "tldr": [
         "Wednesday: oil fell roughly **8%**. One end-of-day report had Brent settling down $8.98 (8.7%) at **$94.62** and WTI down $7.97 (8.3%) at **$88.12**, both the lowest since Aug. 31.",
@@ -72,6 +72,7 @@
       ],
       "whatHappened": [
         "**Wednesday:** oil collapsed after the midterms. Democrats won both chambers, and traders read that as constraining the war and nudging Trump toward a deal. Vice President Vance publicly tied the Republican losses to the Iran conflict, which reports described as a key catalyst, and Trump said he had no immediate plans to strike Iran, so the sense of near-term escalation risk drained out of the market. An end-of-day report put Brent at $94.62 (down 8.7%) and WTI at $88.12 (down 8.3%), their lowest closes since Aug. 31; intraday moves varied widely, from about 2.5% early to 10% at the worst. Analysts warned the relief may not last: one Iranian official said the sides remain far from an agreement, and a deal framed as a defeat for Trump could provoke escalation.",
+        "**Monday:** CNN's Nov. 9 explainer says the US and Iran are negotiating quietly with neither side budging yet, and that Trump called renewed attacks 'highly unlikely' if Tehran makes progress on its nuclear program and Hormuz. I could not confirm Monday's oil prices, so the weekly drop and the roughly $99–100 Brent level above are Friday's picture.",
         "**Thursday–Friday:** Brent rebounded toward $99–100 after Wednesday's plunge as Iran reported three more tanker attacks in Hormuz on Thursday, but it was still on pace for a weekly drop of about 12% to 16%, depending on the source. No deal has been signed, and a draft proposal is circulating from Doha.",
         "**Monday:** oil dropped about 7% as Washington and Tehran both signaled room for diplomacy. Iranian President Pezeshkian said Supreme Leader Mojtaba Khamenei had granted the government 'certain authorities' over peace talks with the US, without spelling out their scope. A Qatari mediator traveled to Tehran to work on a draft agreement, and Iran's foreign minister said consultations were intensive. Trump told Axios he is in 'no rush' to decide on resuming strikes. Reports conflict on what comes after Tuesday's midterms: the Wall Street Journal has said he leans toward a large strike, while Middle East Eye quotes him saying he won't attack after the election. CNBC reported Brent settled down 7.6% at $104.77; Reuters had Brent near $104.96 and WTI near $96.62 at midday. Analysts quoted by CNBC said much of the recent rally was risk premium for escalation, and Raymond James' Pavel Molchanov said skepticism is warranted after many 'false dawns'.",
         "**Weekend:** Iran's Revolutionary Guard said a supertanker carrying more than 2 million barrels hit a naval mine in Hormuz on Friday and caught fire. Washington disputed some mine claims earlier in the week, and Gulf allies were reportedly told to prepare for a possible round of strikes."
@@ -218,9 +219,13 @@
         {
           "name": "Fox News: Trump says 'no rush' to resume Iran strikes",
           "url": "https://www.foxnews.com/live-news/iran-war-news-trump-midterms-peace-deal-israel-november-2"
+        },
+        {
+          "name": "CNN: US and Iran are quietly negotiating as the Middle East remains on edge",
+          "url": "https://www.cnn.com/2026/11/09/middleeast/iran-us-talks-explainer-intl"
         }
       ],
-      "updateNote": "Added the Thursday–Friday rebound and weekly drop."
+      "updateNote": "Added Monday's CNN read on the Iran talks."
     },
     {
       "id": "midterms-2026-market-odds",
@@ -1050,7 +1055,7 @@
       "depth": "brief",
       "developing": true,
       "publishedAt": "2026-11-06T06:56:00-05:00",
-      "updatedAt": "2026-11-06T18:54:00-05:00",
+      "updatedAt": "2026-11-09T06:54:00-05:00",
       "readMinutes": 2,
       "id": "world-iran-talks-qatar-mediation",
       "beat": "world",
@@ -1065,7 +1070,8 @@
       "whatHappened": [
         "Indirect talks between Washington and Tehran, with [[mediation]] mainly by Qatar with Pakistan also involved, continued this week without a breakthrough. A Qatari mediator traveled to Tehran on Monday to work on a draft agreement, and Iran's foreign minister said consultations were intensive. President Pezeshkian said the Supreme Leader had granted the government 'certain authorities' over the talks, without defining them; Middle East Eye and ABC identify the Supreme Leader as Mojtaba Khamenei.",
         "On the US side, Trump told Axios he is in 'no rush' to decide whether to resume strikes. Reports say Israeli Prime Minister Netanyahu urged him to hit Iran soon after the midterms, and after Democrats won Congress, Vice President Vance tied the Republican losses to the war. An Iranian official told reporters the sides remain far from an agreement.",
-        "**Doha draft:** Iranian negotiators left Doha after indirect talks via Qatari mediators, with a draft proposal circulating based on a seven-step Iranian plan to reopen the Strait of Hormuz and end the US naval blockade. Foreign Minister Araghchi said Iran agreed, at Qatar's request, to shorten the implementation period from seven days to two, and that the outcome depends on Washington's response. Trump dismissed accounts that the draft favored Iran as inaccurate. No agreement has been signed."
+        "**Doha draft:** Iranian negotiators left Doha after indirect talks via Qatari mediators, with a draft proposal circulating based on a seven-step Iranian plan to reopen the Strait of Hormuz and end the US naval blockade. Foreign Minister Araghchi said Iran agreed, at Qatar's request, to shorten the implementation period from seven days to two, and that the outcome depends on Washington's response. Trump dismissed accounts that the draft favored Iran as inaccurate. No agreement has been signed.",
+        "**Monday update:** CNN's Nov. 9 explainer describes the two sides as quietly negotiating a sensitive agreement that could avert a return to all-out war, with neither side yet willing to budge on its demands. It reports that Trump said renewed attacks are 'highly unlikely' if Tehran makes progress on its nuclear program and on reopening Hormuz, while keeping the military option on the table. I found no confirmation of a signed agreement, and one outlet's report that Washington approved the Qatari draft rests on unnamed sources."
       ],
       "background": [
         "The war began on Feb. 28 with US and Israeli strikes. A June memorandum and ceasefire collapsed in July, and Iran has since restricted shipping through the Strait of Hormuz. Mediation has run on and off since, usually in parallel with strikes and threats, and traders call a peace-talk hope that fades a [[false dawn]]."
@@ -1142,9 +1148,13 @@
         {
           "name": "Gulf News: US–Iran deal takes shape as Qatar says draft agreement is circulating",
           "url": "https://gulfnews.com/world/mena/us-iran-deal-takes-shape-as-qatar-says-draft-agreement-is-circulating-1.500630861"
+        },
+        {
+          "name": "CNN: US and Iran are quietly negotiating as the Middle East remains on edge",
+          "url": "https://www.cnn.com/2026/11/09/middleeast/iran-us-talks-explainer-intl"
         }
       ],
-      "updateNote": "Added the Doha draft details."
+      "updateNote": "Added the Nov. 9 CNN explainer: quiet talks, no breakthrough, Trump says attacks 'highly unlikely' if progress."
     },
     {
       "depth": "brief",
