@@ -1,34 +1,35 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-09T06:54:00-05:00",
-  "checkedAt": "2026-11-09T06:54:00-05:00",
-  "nextRunAt": "2026-11-09T18:52:00-05:00",
+  "publishedAt": "2026-11-09T17:45:00-05:00",
+  "checkedAt": "2026-11-09T17:45:00-05:00",
+  "nextRunAt": "2026-11-10T06:52:00-05:00",
   "brief": {
-    "title": "Week ahead: Friday's chip rebound faces hike odds near 80% and Iran talks with no breakthrough.",
+    "title": "Dow +1,104 and oil down about 5% on Iran-diplomacy hopes, with CPI due Tuesday morning.",
     "bullets": [
-      "**Jobs:** October payrolls +165k vs. ~65k expected, unemployment 4.1%, prior months revised up; December hike odds near 80%.",
-      "**Stocks:** Friday: S&P 500 +0.3% to 7,376.86, Nasdaq +1.1%, Dow -0.5%; the S&P fell about 2.7% on the week, its worst since June, after Thursday's AI rout (S&P -4.4%).",
-      "**Oil:** Brent near $99–100 after the steepest weekly drop since 2020 on some measures (12–16%) as Iran-deal hopes grow; no deal signed.",
-      "**Industrials/energy:** ISM manufacturing 55.5 (10th month of expansion); Caterpillar backlog $78B; OPEC+ holds output.",
-      "**World:** Iran and the US are quietly negotiating with neither side budging; Trump says attacks are 'highly unlikely' if Tehran makes progress. Russia–Ukraine talks stalled after Witkoff met Putin."
+      "**Stocks:** Dow +1,104 to 52,389.75, S&P 500 +2.3% to 7,549.94, Nasdaq +2.7%; all 11 sectors up, small caps +3%. S&P still about 3.4% below its Oct. 6 high.",
+      "**Oil:** Brent near $93–97, WTI near $86–90 (about -5%), after a roughly 16% weekly drop, as Trump calls new Iran strikes unlikely. No deal signed.",
+      "**Macro:** October CPI Tuesday 8:30am ET; December Fed hike about 80% priced after Friday's +165k payrolls.",
+      "**World:** Six killed in a Krakow shooting Saturday; US and Iran negotiating quietly with neither side budging.",
+      "**Gaps today:** nothing fresh and verifiable on Industrials or Ukraine, so those beats are thin."
     ],
-    "mood": "Calm Belt before the open: markets are closed, the Log Pose points to a hawkish Fed, and the Iran draft is the storm on the horizon."
+    "mood": "The Calm Belt lifted for stocks and the Aqua Laguna of oil drained again, with Akainu's CPI verdict due at 8:30."
   },
   "mustKnow": [
-    "jobs-report-october-2026-preview",
-    "ai-selloff-nasdaq-correction-nov-2026",
-    "oil-weekly-drop-war-premium-fades"
+    "dow-1104-points-oil-slides-nov-9-2026",
+    "oil-brent-115-hormuz",
+    "cpi-october-2026-preview"
   ],
   "calendar": [
     {
-      "date": "2026-11-09",
-      "label": "AI selloff follow-through",
-      "why": "Does the Nasdaq correction extend or bounce, with a hot jobs print lifting yields?"
+      "date": "2026-11-10",
+      "time": "8:30 AM ET",
+      "label": "October CPI",
+      "why": "The Fed's December hike is about 80% priced; core is the key number."
     },
     {
       "date": "2026-11-11",
       "label": "Veterans Day (US bond market closed)",
-      "why": "Treasuries trade on a holiday schedule while stocks stay open, so liquidity can be thin."
+      "why": "Treasuries trade on a holiday schedule while stocks stay open."
     },
     {
       "date": "2026-11-18",
@@ -50,52 +51,49 @@
       "date": "2026-12-09",
       "time": "2:00 PM ET",
       "label": "FOMC decision + dot plot",
-      "why": "A December hike is about 80% priced after Friday's payrolls."
+      "why": "A December hike is roughly 80% priced."
     }
   ],
   "stories": [
     {
       "id": "oil-brent-115-hormuz",
-      "beat": "policy",
-      "headline": "Oil plunges about 8% as the midterm rout raises hopes of an Iran exit, with Brent near $95",
-      "dek": "Democrats' sweep, a Vance post tying the losses to the war, and Trump playing down strikes cut the risk premium. One report put Brent at $94.62, its lowest close since Aug. 31.",
+      "beat": "energy",
+      "headline": "Oil falls about 5% on Iran-diplomacy hopes, with Brent near $93–97 and WTI near $86–90",
+      "dek": "Trump's comments that new Iran strikes are unlikely drove the drop, which follows a roughly 16% fall last week; levels differ by source and time of day.",
       "importance": 5,
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-11-09T06:54:00-05:00",
+      "updatedAt": "2026-11-09T17:45:00-05:00",
       "readMinutes": 5,
       "tldr": [
-        "Wednesday: oil fell roughly **8%**. One end-of-day report had Brent settling down $8.98 (8.7%) at **$94.62** and WTI down $7.97 (8.3%) at **$88.12**, both the lowest since Aug. 31.",
-        "Drivers: the Democratic sweep, a post from Vice President Vance tying the GOP defeat to the Iran war, and Trump saying he has no immediate plans to strike Iran.",
-        "Thursday–Friday: Brent bounced back toward $99–100, still set for a weekly drop of roughly 12–16%. Caveat: an Iranian official said the sides remain far apart, and a deal seen as a Trump defeat could provoke escalation."
+        "Monday: Brent fell about **5%** to roughly **$93–97** and WTI to roughly **$86–90**, depending on the time and contract; one tracker had Brent at $93.44 (-4.96%).",
+        "The trigger: Trump said new strikes on Iran are unlikely while US and Iran negotiate quietly; neither side has budged on its demands, per CNN.",
+        "Brent is down about 16% over the past week, so the war premium is draining fast, but Hormuz flows are still far below normal."
       ],
       "whatHappened": [
-        "**Wednesday:** oil collapsed after the midterms. Democrats won both chambers, and traders read that as constraining the war and nudging Trump toward a deal. Vice President Vance publicly tied the Republican losses to the Iran conflict, which reports described as a key catalyst, and Trump said he had no immediate plans to strike Iran, so the sense of near-term escalation risk drained out of the market. An end-of-day report put Brent at $94.62 (down 8.7%) and WTI at $88.12 (down 8.3%), their lowest closes since Aug. 31; intraday moves varied widely, from about 2.5% early to 10% at the worst. Analysts warned the relief may not last: one Iranian official said the sides remain far from an agreement, and a deal framed as a defeat for Trump could provoke escalation.",
-        "**Monday:** CNN's Nov. 9 explainer says the US and Iran are negotiating quietly with neither side budging yet, and that Trump called renewed attacks 'highly unlikely' if Tehran makes progress on its nuclear program and Hormuz. I could not confirm Monday's oil prices, so the weekly drop and the roughly $99–100 Brent level above are Friday's picture.",
-        "**Thursday–Friday:** Brent rebounded toward $99–100 after Wednesday's plunge as Iran reported three more tanker attacks in Hormuz on Thursday, but it was still on pace for a weekly drop of about 12% to 16%, depending on the source. No deal has been signed, and a draft proposal is circulating from Doha.",
-        "**Monday:** oil dropped about 7% as Washington and Tehran both signaled room for diplomacy. Iranian President Pezeshkian said Supreme Leader Mojtaba Khamenei had granted the government 'certain authorities' over peace talks with the US, without spelling out their scope. A Qatari mediator traveled to Tehran to work on a draft agreement, and Iran's foreign minister said consultations were intensive. Trump told Axios he is in 'no rush' to decide on resuming strikes. Reports conflict on what comes after Tuesday's midterms: the Wall Street Journal has said he leans toward a large strike, while Middle East Eye quotes him saying he won't attack after the election. CNBC reported Brent settled down 7.6% at $104.77; Reuters had Brent near $104.96 and WTI near $96.62 at midday. Analysts quoted by CNBC said much of the recent rally was risk premium for escalation, and Raymond James' Pavel Molchanov said skepticism is warranted after many 'false dawns'.",
-        "**Weekend:** Iran's Revolutionary Guard said a supertanker carrying more than 2 million barrels hit a naval mine in Hormuz on Friday and caught fire. Washington disputed some mine claims earlier in the week, and Gulf allies were reportedly told to prepare for a possible round of strikes."
+        "Oil fell again Monday as diplomacy hopes grew and Trump said new strikes on Iran were unlikely. Quotes differ because they were captured at different times: one report had Brent at $97.35 and WTI at $90.32 early in the Asia day, another had Brent down 4.96% at $93.44 and WTI near $86.65 by midday London, and a late tracker showed WTI near $87.72–88.23 and Brent near $94.56–94.83. Treat Brent as roughly $93–97 and WTI roughly $86–90, with no official settle confirmed. Brent had already plunged about 16% over the previous week.",
+        "CNN's Nov. 9 explainer says the US and Iran are quietly negotiating a sensitive agreement that could avert a return to full-scale war, with neither side yet willing to budge. Iran reported tanker attacks in Hormuz as recently as Thursday, and a signed deal does not exist yet, so the price is trading on hope."
       ],
       "marketReaction": [
         {
-          "asset": "Brent (Wed settle)",
-          "move": "$94.62 (-8.7%)",
+          "asset": "Brent",
+          "move": "~$93–97 (-~5%)",
           "direction": "down"
         },
         {
-          "asset": "WTI (Wed settle)",
-          "move": "$88.12 (-8.3%)",
+          "asset": "WTI",
+          "move": "~$86–90 (-~4–5%)",
           "direction": "down"
         },
         {
-          "asset": "Brent (Mon settle)",
-          "move": "$104.77 (-7.6%)",
+          "asset": "Brent, 1 week",
+          "move": "about -16%",
           "direction": "down"
         },
         {
           "asset": "Hormuz transits",
-          "move": "~60% of normal",
+          "move": "~60% of normal (last reported)",
           "direction": "down"
         }
       ],
@@ -112,7 +110,7 @@
       "whyItMatters": [
         "The [[pass-through]] to inflation is fast and visible: gasoline rose 9.1% in September and accounted for more than half of the CPI increase. That's what turned the Fed from cutting in 2025 to hiking in September.",
         "Across assets: energy producers win; airlines, shippers and consumer names lose. Inflation [[breakevens]] rise, and long-term Treasury yields get an upward nudge. The big macro fear is [[stagflation]]: a central bank hiking into an energy shock that is already slowing the consumer.",
-        "Event risk now clusters around the midterms. If the reports of post-election strikes are right, the first week of November could bring another leg up in oil."
+        "Event risk now centers on whether the Iran talks produce a signed deal or collapse. Oil fell hard on hope, so a breakdown could reverse it quickly."
       ],
       "views": [
         {
@@ -124,17 +122,17 @@
         {
           "camp": "Headline-driven, so fade spikes",
           "thesis": "A deal or demand destruction could deflate the premium quickly.",
-          "argument": "Prices whip around with every diplomatic headline (Tuesday's drop shows how fast hope gets priced). Above $100, consumers cut back and the economy slows. The US administration has repeatedly called the war 'essentially over'. If shipping normalizes, much of the risk premium can come out fast."
+          "argument": "Prices whip around with every diplomatic headline (Monday's drop shows how fast hope gets priced). Above $100, consumers cut back and the economy slows. The US administration has repeatedly called the war 'essentially over'. If shipping normalizes, much of the risk premium can come out fast."
         },
         {
           "camp": "Watch the central banks",
           "thesis": "The bigger risk is central banks overtightening into a supply shock.",
-          "argument": "Oil at $115 is painful, but the danger for markets is the Fed (and ECB, and BoJ, which all hiked in September) tightening into an energy shock. That's how supply shocks turn into recessions, as in the 1970s and 2008."
+          "argument": "Oil above $100 was painful, but the danger for markets is the Fed (and ECB, and BoJ, which all hiked in September) tightening into an energy shock. That's how supply shocks turn into recessions, as in the 1970s and 2008."
         }
       ],
       "interview": {
         "question": "How does a war in the Middle East end up in US interest rates?",
-        "answer": "Through oil, then inflation, then the Fed. Hormuz is a [[chokepoint]] for about a quarter of seaborne oil. With flows at about 60%, Brent was above $100 for weeks (about $115 on Friday) and has now fallen to the mid-$90s on hopes of a deal, and gasoline drove more than half of September's 3.7% CPI. Normally the Fed would look through a [[supply shock]], but after most of a year of high energy prices it's worried about second-round effects, so it hiked in September and markets price another in December. That lifts the 2-year directly and adds inflation risk premium to the 10-year. What would reverse it is a credible deal that reopens the strait.",
+        "answer": "Through oil, then inflation, then the Fed. Hormuz is a [[chokepoint]] for about a quarter of seaborne oil, so disruption lifts prices and CPI, and the Fed tightened. This week, hopes of a US–Iran deal pulled Brent down about 16% to the low $90s, which is mostly [[risk premium]] draining, since physical flows haven't normalized. What reverses it is a collapse of talks or new attacks in the strait.",
         "followUp": {
           "question": "Why doesn't the Fed just 'look through' an oil shock?",
           "answer": "It can if the shock is short and expectations stay anchored. This one has lasted most of the year, core inflation is creeping up, and the risk is that higher prices get built into wages and expectations. At that point waiting is more expensive than acting. The Fed's credibility is the asset it's protecting."
@@ -179,15 +177,31 @@
       ],
       "watchNext": [
         {
-          "when": "Thu Nov 5",
-          "what": "Does the relief hold? Watch Iran's response and Trump's next comments on strikes versus a deal."
+          "when": "Tue Nov 10",
+          "what": "Does oil hold Monday's drop into CPI?"
         },
         {
           "when": "Ongoing",
-          "what": "Hormuz transits (~60% of normal) are the physical test; the price fell faster than the supply picture changed."
+          "what": "Any signed US–Iran agreement, or renewed tanker attacks in Hormuz."
         }
       ],
       "sources": [
+        {
+          "name": "5paisa: Crude oil price today, Nov. 9, 2026",
+          "url": "https://www.5paisa.com/blog/crude-oil-price-today-09-nov-2026"
+        },
+        {
+          "name": "JournalArta: Brent falls 4.96% to $93.44 on Iran peace hopes",
+          "url": "https://journalarta.com/en/2026/11/09/oil-price-today-brent-falls-4-96-to-93-44-on-iran-peace-hopes-as-gold-climbs/"
+        },
+        {
+          "name": "NationPath: Oil prices drop 5.2% as US-Iran diplomatic hopes grow",
+          "url": "https://www.nationpathindia.com/international/oil-prices-drop-us-iran-talks-november-2026"
+        },
+        {
+          "name": "CNN: US and Iran are quietly negotiating as the Middle East remains on edge",
+          "url": "https://www.cnn.com/2026/11/09/middleeast/iran-us-talks-explainer-intl"
+        },
         {
           "name": "CNBC: Crude oil falls below $90 as Vance blames GOP election defeat on Iran war",
           "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
@@ -197,20 +211,8 @@
           "url": "https://www.axios.com/2026/11/04/oil-prices-plunge-midterms-vance-democrats-iran"
         },
         {
-          "name": "Rigzone: Oil plunges as election shifts Iran outlook",
-          "url": "https://www.rigzone.com/news/oil_plunges_as_election_shifts_iran_outlook-04-nov-2026-185012-article"
-        },
-        {
-          "name": "Seeking Alpha: Oil slides as Trump plays down prospect of Iran strikes after election rout",
-          "url": "https://seekingalpha.com/news/4664819-oil-prices-slide-as-trump-plays-down-prospect-of-iran-strikes-after-us-election-rout"
-        },
-        {
           "name": "CNBC: Crude oil prices sell off more than 7% on Iran peace talk hopes",
           "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
-        },
-        {
-          "name": "OilPrice.com: Oil Prices Plunge 7% as U.S. and Iran Signal Room for Diplomacy",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-7-as-US-and-Iran-Signal-Room-for-Diplomacy.html"
         },
         {
           "name": "Axios: Trump says 'no rush' to decide on bombing Iran again",
@@ -219,430 +221,25 @@
         {
           "name": "Fox News: Trump says 'no rush' to resume Iran strikes",
           "url": "https://www.foxnews.com/live-news/iran-war-news-trump-midterms-peace-deal-israel-november-2"
-        },
-        {
-          "name": "CNN: US and Iran are quietly negotiating as the Middle East remains on edge",
-          "url": "https://www.cnn.com/2026/11/09/middleeast/iran-us-talks-explainer-intl"
         }
       ],
-      "updateNote": "Added Monday's CNN read on the Iran talks."
-    },
-    {
-      "id": "midterms-2026-market-odds",
-      "beat": "policy",
-      "headline": "Democrats win control of the House and Senate; stock futures dip, then recover",
-      "dek": "Maine's Susan Collins lost and the Senate flipped. Nasdaq futures fell as much as 2.4% overnight on AI-regulation worries before recovering by morning.",
-      "importance": 4,
-      "depth": "full",
-      "developing": true,
-      "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-11-05T18:54:00-05:00",
-      "readMinutes": 3,
-      "tldr": [
-        "**Democrats won both chambers**, per CNN, CBS, CNBC and Yahoo projections; Alaska and Mississippi were still uncalled and seat counts may change.",
-        "Cash markets: Wednesday the Dow rose 3.03% and S&P 500 1.58%, but Thursday's AI selloff (S&P -4.4%) erased the gains, with Nasdaq in a correction.",
-        "Long-dated Treasury yields eased on gridlock expectations; chip stocks like Nvidia and Micron dipped over AI-oversight worries while AMD rose about 6% on earnings."
-      ],
-      "whatHappened": [
-        "Democrats took control of both chambers of Congress in Tuesday's midterms, according to projections from CBS (shortly after 11:30 p.m. ET), CNN, CNBC and Yahoo. Flipped Senate seats included Maine, where Susan Collins was defeated, with Texas and Kansas among the other flips reported. CNN said Alaska and Mississippi were too early to call and CNBC called Alaska neck and neck, so the final tallies may move. Democrats gain subpoena power for investigations. President Trump congratulated Democrats but said he does not see the result as a rejection of his leadership.",
-        "Markets: US stock futures fell sharply as the results came in, with Nasdaq-100 futures down as much as 2.4% and S&P 500 futures 1.4% at the worst, then recovered; by Wednesday morning reports had Dow futures up about 0.6% and S&P futures up about 0.2%. Investors worried that tougher congressional scrutiny could slow the AI build-out, and chip stocks including Nvidia and Micron fell more than 1% in early trading. Long-dated Treasury yields moved lower as investors weighed the effect of gridlock on government spending. I couldn't confirm any dollar move."
-      ],
-      "background": [
-        "Midterms usually go against the president's party, and prediction markets had a Democratic sweep at roughly 70% going in, so the headline was largely [[priced in]]. What was less priced was the AI-regulation angle, which explains why tech futures took the brunt overnight.",
-        "A Democratic Congress means [[gridlock]] on big spending or tax bills, but the White House still controls tariffs, foreign policy and the Iran war."
-      ],
-      "whyItMatters": [
-        "For rates, a divided government limits new deficit-financed packages, which at the margin is a small positive for the long end and term premium. For equities, the risk is sector-specific: AI and data-center names face more oversight and subpoenas, while defense and energy depend on the White House's choices. Oil and trade risks don't change with the House gavel."
-      ],
-      "views": [
-        {
-          "camp": "Gridlock is good",
-          "thesis": "A split government caps fiscal surprises and tends to calm markets.",
-          "argument": "With Democrats controlling Congress, major tax and spending bills stall. That means less extra Treasury supply, a modest positive for bonds in a year when deficits pushed the 10-year toward 5%, and the quick futures recovery fits that view."
-        },
-        {
-          "camp": "AI oversight is the risk",
-          "thesis": "The overnight tech selloff is the real signal.",
-          "argument": "Subpoena power and committee hearings raise the political cost of data-center build-outs and AI deals. Investors worried that greater scrutiny could slow the industry's expansion, hitting the suppliers and spenders already stressed in October."
-        },
-        {
-          "camp": "Noise, not signal",
-          "thesis": "Oil and the Fed matter far more than Congress.",
-          "argument": "The war with Iran and an inflation-sensitive Fed dominate the macro picture; election outcomes were largely priced, and within days the focus returns to payrolls and energy."
-        }
-      ],
-      "interview": {
-        "question": "Democrats just won both chambers. How do you trade it?",
-        "answer": "Lightly. It was roughly 70% [[priced in]], and the futures round trip shows the headline faded fast. My view is it's a small positive for the long end because [[gridlock]] limits new deficit spending, and a sector story for AI names facing oversight. The real swing factors are still oil and Friday's payrolls. I'd change my mind if the new Congress moves on tariffs or AI rules faster than expected.",
-        "followUp": {
-          "question": "Why did futures fall overnight and then recover?",
-          "answer": "Early results suggested a bigger Democratic win than some expected, and AI names took the hit. Then investors reassessed: gridlock limits legislation, and strong earnings like AMD's steadied sentiment."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "gridlock",
-          "definition": "When the White House and Congress (or the two chambers) are controlled by different parties, so little major legislation passes."
-        },
-        {
-          "term": "priced in",
-          "definition": "Already reflected in market prices, so it won't move markets when it happens.",
-          "example": "A Democratic sweep was about 70% priced before election night."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Wed Nov 4",
-          "what": "Treasury's quarterly refunding and ISM services; the Alaska and Mississippi Senate calls."
-        },
-        {
-          "when": "Fri Nov 6",
-          "what": "October payrolls, the next macro swing."
-        }
-      ],
-      "sources": [
-        {
-          "name": "CNN: 2026 midterm election results live",
-          "url": "https://www.cnn.com/2026/11/04/politics/live-news/midterm-election-congress"
-        },
-        {
-          "name": "CBS News: Live election results for 2026 midterms",
-          "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
-        },
-        {
-          "name": "CNBC: 2026 midterm election results live updates",
-          "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
-        },
-        {
-          "name": "Yahoo Finance: Midterms 2026 live updates",
-          "url": "https://www.yahoo.com/news/politics/live/midterms-2026-live-updates-election-day-voters-head-to-the-polls-as-democrats-look-to-flip-gop-control-of-the-house-and-senate-110000715.html"
-        },
-        {
-          "name": "Yahoo Finance: Futures plunged after Democrats swept Congress, then buyers returned",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-futures-plunged-democrats-102707086.html"
-        },
-        {
-          "name": "TheStreet: Stocks rise, oil collapses after Dems sweep midterm elections",
-          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-04-2026"
-        }
-      ],
-      "updateNote": "Added Thursday's reversal.",
-      "grandLine": {
-        "title": "A Reverie that rewrites the rules",
-        "body": "Every four years the world's kings gather at Reverie and can abolish a whole system, as they did with the Seven Warlords. A midterm that flips Congress is a smaller version: it can't rewrite the whole order, but it can change who gets investigated, funded and licensed. Markets didn't panic about the World Government; they repriced the part of the sea where the new rules might bite, which is AI."
-      },
-      "trade": {
-        "idea": "2s10s flattener on gridlock",
-        "expression": "Long 10Y / short 2Y Treasuries, DV01-neutral",
-        "rationale": "Gridlock limits new deficit-financed supply, so long-end term premium can ease (long yields fell overnight) while the Fed stays hawkish at the front end. That flattens the 2s10s curve. This is interview framing, not advice.",
-        "risks": [
-          "An oil spike lifts inflation expectations and long yields anyway.",
-          "A refunding that adds coupon supply swamps the gridlock story.",
-          "If the Fed turns dovish, the front end rallies and the curve steepens."
-        ]
-      }
-    },
-    {
-      "id": "ai-selloff-nasdaq-correction-nov-2026",
-      "beat": "markets",
-      "headline": "S&P 500 falls 4.4% and Nasdaq enters a correction as an AI selloff erases Wednesday's rally",
-      "dek": "The Dow lost 1,833 points and the Nasdaq fell 5.5% as investors dumped AI and chip stocks on data-center spending doubts and post-midterm regulation fears.",
-      "importance": 5,
-      "depth": "full",
-      "developing": true,
-      "publishedAt": "2026-11-05T18:54:00-05:00",
-      "updatedAt": "2026-11-07T11:53:00-05:00",
-      "readMinutes": 5,
-      "tldr": [
-        "Thursday close: **S&P 500 -4.4% to 7,353.73** (worst day since April 2025), **Dow -1,833 points (-3.4%) to 51,523.06**, **Nasdaq -5.5% to 24,315.00**.",
-        "The Nasdaq is now in a [[correction]], more than 10% below last month's record close. Reports put Nvidia down 8–9% and the chip index down about 12%.",
-        "Wednesday's 1,569-point Dow rally is gone. The selloff was led by AI data-center names on spending-return doubts and fears of tougher oversight under a Democratic Congress."
-      ],
-      "whatHappened": [
-        "Stocks fell hard on Thursday in what outlets called an AI trade meltdown. According to AP, the S&P 500 dropped 334.89 points, or 4.4%, to 7,353.73, its worst day since April 2025. The Dow fell 1,833.06 points, or 3.4%, to 51,523.06, and the Nasdaq Composite sank 1,421.52 points, or 5.5%, to 24,315.00, which puts it in a [[correction]]: down more than 10% from its record close. Wednesday's rally, when the Dow gained 1,569 points, was erased and then some; the Dow is now below Tuesday's close.",
-        "The pain was concentrated in AI and chips. CNBC's tally was that the 'Magnificent 7' megacaps lost about $1 trillion in value, and CNN put the day's loss across the market at roughly $2.5 trillion. One report had the PHLX semiconductor index down about 12% and Nvidia down 9.3% (other reports say 8–9%, so treat it as approximate), which erased Nvidia's gains for the year.",
-        "Why: two things stacked. First, doubts about whether [[AI capex]] will earn adequate returns, which had already hit Alphabet, Intel and Amazon in October. Second, the midterms: with Democrats controlling Congress, investors worried about more oversight of AI and data-center buildout, and CBS reported an investor exodus from tech and AI after the results. I could not verify moves in oil, Treasury yields, the dollar or volatility, or the Bank of England's decision, so those are left out.",
-        "**Friday:** tech and chips bounced. The S&P 500 closed at 7,376.86 (up about 0.3%), the Nasdaq gained about 1.1% and the Dow fell about 0.5%, leaving the S&P 500 about 2.7% lower on the week, its worst since June. See the weekly wrap."
-      ],
-      "marketReaction": [
-        {
-          "asset": "S&P 500",
-          "move": "7,353.73 (-4.4%)",
-          "direction": "down"
-        },
-        {
-          "asset": "Nasdaq Composite",
-          "move": "24,315.00 (-5.5%)",
-          "direction": "down"
-        },
-        {
-          "asset": "Dow",
-          "move": "51,523.06 (-3.4%)",
-          "direction": "down"
-        },
-        {
-          "asset": "Nvidia",
-          "move": "about -9% (reports 8–9%)",
-          "direction": "down"
-        }
-      ],
-      "background": [
-        "Through 2026 the market has leaned on a handful of AI-linked megacaps. When a few stocks carry most of the index's gains, the index has [[concentration risk]]: a drop in those names drags the whole S&P 500 even if most other stocks are fine.",
-        "The October rout began with cash-burn worries (Alphabet, Intel, Amazon). AMD's strong report on Tuesday, with data-center revenue up 97%, showed demand was real, but it also fed the question of how long customers can keep paying. A Democratic Congress added a new variable: subpoena power and a possible regulatory push on data centers and AI.",
-        "Analysts also described a [[rotation]] from AI names into other areas, such as the 'landlords' that own the physical infrastructure, rather than a retreat from stocks altogether."
-      ],
-      "grandLine": {
-        "title": "The Knock Up Stream",
-        "body": "On Jaya the Knock Up Stream launches a ship skyward in an instant, but only if the timing is perfect; get it wrong and the ship is destroyed. The AI trade has been that geyser: violent upside that works until it doesn't. Thursday looks like the timing slipping, and the lesson for a trader is that sharp gaps in both directions come from the same crowded mechanism."
-      },
-      "whyItMatters": [
-        "Index weights mean a few stocks decide the headline. A 4.4% S&P drop is mostly AI megacaps repricing, which is why the Dow and the equal-weight index may look different from the Nasdaq. The questions a desk asks next: is it positioning (crowded longs unwinding), fundamentals (returns on AI spending), or policy (Washington's stance)?",
-        "For rates and FX, the open items are whether a flight to safety lowers Treasury yields and whether the Fed's hawkish lean shifts; I couldn't confirm either. Friday's payrolls become more important as the next macro catalyst."
-      ],
-      "views": [
-        {
-          "camp": "Overdue shakeout",
-          "thesis": "A 10% pullback after a big run is normal, and the AI thesis is intact.",
-          "argument": "Spending is still ramping, chipmakers such as AMD reported strong data-center growth this week, and corrections are how crowded trades reset."
-        },
-        {
-          "camp": "Policy regime change",
-          "thesis": "A Democratic Congress is a real headwind for the AI build-out.",
-          "argument": "Oversight, subpoenas and possible rules on data centers raise costs and slow deployment, and CBS reported investors fleeing tech and AI after the results."
-        },
-        {
-          "camp": "Returns, not politics",
-          "thesis": "The market is finally pricing the payoff on AI spending.",
-          "argument": "The October selloff started with spending worries before the election. If customers cannot show returns, suppliers' growth fades with a lag, and politics is just the trigger."
-        }
-      ],
-      "interview": {
-        "question": "The S&P fell 4.4% and the Nasdaq entered a correction in one day. How do you read it?",
-        "answer": "I'd separate positioning from fundamentals. A 5% Nasdaq drop in a day, driven by AI and chips, with the Magnificent 7 losing about a trillion dollars, looks like crowded longs unwinding and a [[rotation]] out of AI. The policy angle from the midterms is the trigger, and the real question is [[AI capex]] returns. My view is that it's a sharp reset rather than the start of a bear market unless earnings guidance weakens. I'd change my mind if credit spreads widen or if hyperscalers cut capex.",
-        "followUp": {
-          "question": "What would you watch to know whether it's contagion?",
-          "answer": "Credit spreads, the broader equal-weight index, and whether yields and the dollar act like a risk-off move. If the damage stays inside AI names, it's a sector reset; if it spreads, it's macro."
-        }
-      },
-      "trade": {
-        "idea": "Long equal-weight S&P / short cap-weight S&P",
-        "expression": "Long equal-weight S&P 500 ETF / short cap-weighted S&P 500 ETF, dollar-neutral",
-        "rationale": "If the selloff is a concentration unwind, the megacap-heavy index underperforms the average stock. The pair isolates that without betting on the market's direction. Interview framing, not advice.",
-        "risks": [
-          "A fast AI rebound brings the megacaps back and the pair loses.",
-          "A broad market selloff hits both legs, and small caps can fall more.",
-          "Concentration can keep rising if AI earnings beat again."
-        ]
-      },
-      "keyTerms": [
-        {
-          "term": "correction",
-          "definition": "A decline of 10% or more from a recent peak. Smaller than a bear market (20%+).",
-          "example": "The Nasdaq closed more than 10% below its record close from last month."
-        },
-        {
-          "term": "AI capex",
-          "definition": "Capital spending by cloud and tech companies on data centers, chips and power for AI. It's revenue for suppliers and a cash drain for spenders."
-        },
-        {
-          "term": "concentration risk",
-          "definition": "The risk that an index or portfolio depends on a few holdings, so a drop in them moves everything.",
-          "example": "Megacaps lost about $1 trillion in one session."
-        },
-        {
-          "term": "rotation",
-          "definition": "Money moving from one group of stocks to another instead of leaving the market, such as from AI developers to infrastructure owners."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Fri Nov 6, 8:30 AM ET",
-          "what": "October payrolls (consensus about +55k, 4.2% unemployment) in a market that just lost its footing."
-        },
-        {
-          "when": "Mon Nov 9",
-          "what": "Follow-through: does the AI selloff extend or bounce, and what do credit and the Treasury market say?"
-        }
-      ],
-      "sources": [
-        {
-          "name": "CNBC: Dow drops 1,800 points; Nasdaq tumbles into correction on AI tech wreck",
-          "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
-        },
-        {
-          "name": "CNBC: Magnificent 7 loses $1 trillion; the most eye-popping stats from Thursday",
-          "url": "https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html"
-        },
-        {
-          "name": "Yahoo Finance: Dow plunges 1,800 points, Nasdaq enters correction in AI trade meltdown",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"
-        },
-        {
-          "name": "CBS News: Dow sheds more than 1,800 points as midterm results spur exodus from tech and AI",
-          "url": "https://cbsnews.com/news/stocks-midterm-elections-tech-companies-ai-data-centers"
-        },
-        {
-          "name": "CNN: Massive tech sell-off wipes $2.5 trillion from the stock market",
-          "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"
-        },
-        {
-          "name": "AP via TV News Check: Dow tumbles 1,833; Nasdaq sinks 1,422; S&P 500 drops 335",
-          "url": "https://tvnewscheck.com/business/article/dow-tumbles-1833-nasdaq-sinks-1422-sp-500-drops-335/"
-        },
-        {
-          "name": "Yahoo Finance: Nasdaq and S&P 500 rebound, Dow slips to cap a bruising week for AI stocks",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
-        }
-      ],
-      "updateNote": "Added Friday's partial rebound."
+      "updateNote": "Rewritten for Monday's roughly 5% oil drop."
     },
     {
       "depth": "brief",
       "developing": true,
       "publishedAt": "2026-11-06T06:56:00-05:00",
-      "updatedAt": "2026-11-06T18:54:00-05:00",
-      "readMinutes": 2,
-      "id": "jobs-report-october-2026-preview",
-      "beat": "fed-macro",
-      "headline": "Payrolls jump 165,000 in October, far above forecasts, lifting December Fed hike odds to about 80%",
-      "dek": "Unemployment slipped to 4.1% and prior months were revised up. Yields rose early, though some late-session readings had the 10-year roughly flat.",
-      "importance": 4,
-      "tldr": [
-        "**+165,000** jobs in October vs. about **65,000** expected; unemployment fell to **4.1%** from 4.2%.",
-        "August was revised up to 186,000 and September to 60,000; average hourly earnings rose **0.4%** m/m and **3.1%** y/y.",
-        "December hike odds rose to roughly **80%** from about 73–75% before the report; the 2-year yield rose about 6bp early."
-      ],
-      "whatHappened": [
-        "The BLS said employers added 165,000 jobs in October ([[nonfarm payrolls]]), more than double the roughly 65,000 economists expected (some previews had cited about 55,000). The unemployment rate edged down to 4.1% from 4.2%. August payrolls were [[revised|revisions]] up to 186,000 from 133,000 and September to 60,000 from 29,000. Average hourly earnings rose 0.4% on the month and 3.1% from a year earlier. The broader U-6 rate climbed to 7.9% from 7.6%, and CNBC noted that the long-term unemployed made up 27.6% of jobless workers, the highest share since late 2021, so the strength isn't uniform.",
-        "Markets leaned hawkish: estimates of a December quarter-point Fed hike jumped to about 80% (from roughly 73–75%), the 2-year yield rose about 6bp to 4.52% and the 10-year about 3bp to 4.87% in early trading, though CNBC later had the 10-year near 4.83%, roughly flat. Reuters reported the Nasdaq up about 1.7%, the S&P 500 up 0.6% and the Dow down 0.6% at the time of its report; I could not confirm closing levels."
-      ],
-      "background": [
-        "Payrolls matter more than usual because inflation is elevated on the energy shock, so a labor market that isn't cracking gives the Fed room to keep tightening. With oil down sharply this week, the Fed had a reason to wait; this print takes some of that away."
-      ],
-      "whyItMatters": [
-        "A hot print moves the front end first: the [[2-year yield]] tracks the expected policy path, so hike odds feed it directly. Equities have to weigh stronger growth against higher discount rates, which is why the reaction was mixed even after Thursday's rout."
-      ],
-      "grandLine": {
-        "title": "Nami reads the sky",
-        "body": "Nami doesn't wait for the storm to hit; she reads small signs in the air and commits to a heading only once she's sure. A data-dependent Fed does the same with payrolls, claims and wages: no pre-announced route, just a heading chosen after each reading. Today's reading says the air is warmer than the forecast."
-      },
-      "views": [
-        {
-          "camp": "Hike is back on",
-          "thesis": "A strong labor market plus elevated inflation justifies one more hike.",
-          "argument": "Payrolls more than doubled expectations, prior months were revised up and wages grew 0.4%. The two October dissenters already wanted to tighten, and this strengthens their case."
-        },
-        {
-          "camp": "Hold and watch",
-          "thesis": "Oil's fall and market stress still argue for patience.",
-          "argument": "Brent has dropped sharply this week, equities are in a correction and long-term unemployment is rising, so the Fed can wait for more data before a hike."
-        }
-      ],
-      "interview": {
-        "question": "Payrolls came in at +165k vs. +65k expected. What happens to the Fed path?",
-        "answer": "December hike odds go up, around 80% from the low-70s, and the 2-year yield rises because the expected policy path shifts higher. I'd note the revisions, since prior months were also revised up, which makes the trend stronger than one print. What changes my mind is oil continuing lower and wage growth cooling; what confirms it is hot core inflation.",
-        "followUp": {
-          "question": "Why did stocks and yields diverge?",
-          "answer": "A hot print raises rates, which is bad for valuations, but it also signals growth. Technology stocks were also rebounding after a rout, so the reaction was a mix."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "nonfarm payrolls",
-          "definition": "The monthly count of jobs added in the US economy, excluding farms; the headline of the jobs report.",
-          "example": "October payrolls rose 165,000."
-        },
-        {
-          "term": "2-year yield",
-          "definition": "The yield on the 2-year Treasury, which tracks the expected path of the Fed's policy rate."
-        },
-        {
-          "term": "revisions",
-          "definition": "Later changes to earlier monthly job counts. Upward revisions make the trend look stronger.",
-          "example": "September was revised to 60,000 from 29,000."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Mon Nov 9",
-          "what": "Does the AI selloff extend or bounce, and how do yields trade after the jobs data?"
-        },
-        {
-          "when": "Dec 8–9",
-          "what": "FOMC decision and dot plot, with a hike around 80% priced."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Morningstar: October US jobs report, 165,000 rise in payrolls beats expectations",
-          "url": "https://www.morningstar.com/economy/october-us-jobs-report-165000-rise-payrolls-beating-expectations"
-        },
-        {
-          "name": "CNBC: A long-term unemployment trend is hiding in the October jobs report",
-          "url": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html"
-        },
-        {
-          "name": "Reuters via Yahoo Finance: Strong October jobs report sends yields higher",
-          "url": "https://finance.yahoo.com/economy/policy/articles/strong-october-jobs-report-sends-134858909.html"
-        },
-        {
-          "name": "InvestmentNews: October jobs report beats forecasts, lifting December Fed hike odds",
-          "url": "https://www.investmentnews.com/fixed-income/october-jobs-report-beats-forecasts-lifting-december-fed-hike-odds/268915"
-        },
-        {
-          "name": "FXStreet: Nonfarm payrolls rise by 165K in October vs. 65K expected",
-          "url": "https://www.fxstreet.com/news/us-nonfarm-payrolls-expected-to-pick-up-in-october-202611060930"
-        }
-      ],
-      "marketReaction": [
-        {
-          "asset": "Nonfarm payrolls",
-          "move": "+165k vs. ~65k expected",
-          "direction": "up"
-        },
-        {
-          "asset": "Unemployment rate",
-          "move": "4.1% (from 4.2%)",
-          "direction": "down"
-        },
-        {
-          "asset": "2Y Treasury yield",
-          "move": "4.52% (+6bp, early)",
-          "direction": "up"
-        },
-        {
-          "asset": "Dec hike odds",
-          "move": "~80% (from ~73–75%)",
-          "direction": "up"
-        }
-      ],
-      "updateNote": "Payrolls came in at +165k; December hike odds near 80%.",
-      "trade": {
-        "idea": "Short the 2-year into hike repricing",
-        "expression": "Short 2Y Treasury note futures (or pay 2Y SOFR), sized by DV01",
-        "rationale": "If strong data keeps pushing December hike odds toward 100%, the front end has to reprice higher. The 2-year is the cleanest expression of the policy-path view. Interview framing, not advice.",
-        "risks": [
-          "Oil keeps falling and equity stress makes the Fed hold, pulling yields back down.",
-          "A weak jobs print next month reverses the repricing.",
-          "Much is already priced: odds are about 80%, so the upside is smaller."
-        ]
-      }
-    },
-    {
-      "depth": "brief",
-      "developing": true,
-      "publishedAt": "2026-11-06T06:56:00-05:00",
-      "updatedAt": "2026-11-06T18:54:00-05:00",
+      "updatedAt": "2026-11-09T17:45:00-05:00",
       "readMinutes": 2,
       "id": "fed-december-hike-debate-warsh",
       "beat": "fed-macro",
-      "headline": "Fed Chair Warsh keeps a December hike in play, with two officials already dissenting for one",
-      "dek": "The Fed held at 3.75%–4.00% on Oct. 28. Markets put a December hike anywhere from about two-thirds to 80% likely, and oil and the AI selloff are pulling in opposite directions.",
+      "headline": "Fed's December hike is about 80% priced after strong payrolls, with CPI due Tuesday",
+      "dek": "The Fed held at 3.75%–4.00% on Oct. 28 with two dissents for a hike. Falling oil and a stock rebound cut against it; October CPI is the next test.",
       "importance": 3,
       "tldr": [
         "The Fed held at **3.75%–4.00%** on Oct. 28 with two dissents in favor of a hike.",
-        "Fed Chair Kevin Warsh stayed within his communication limits but left another hike this year firmly in play.",
-        "After Friday's +165k payrolls, December hike odds rose to about **80%** (from roughly 73–75%); oil's sharp weekly drop and the AI selloff are the counterweights."
+        "Odds of a December hike were about **80%** after Friday's +165,000 payrolls; oil's roughly 16% weekly drop is the counterweight.",
+        "October CPI is due **Tuesday at 8:30am ET**."
       ],
       "whatHappened": [
         "At the Oct. 28 meeting the Fed held its target range at 3.75%–4.00%. Two officials registered a [[dissent]] in favor of a hike. At his press conference, Chair Kevin Warsh offered a measured read on the economy, citing low jobless claims, and kept a December move on the table without committing to it. Since then, hike odds have swung with oil and data: sources put a December quarter-point hike at anywhere from about two-thirds to 80%. The sources use different snapshots, so treat the figure as a range."
@@ -718,344 +315,19 @@
         {
           "name": "Invezz: Fed rate hike odds jump after October jobs report as officials signal more tightening",
           "url": "https://invezz.com/news/2026/11/06/fed-rate-hike-odds-jump-after-october-jobs-report-as-officials-signal-more-tightening/"
-        }
-      ],
-      "updateNote": "Added the October jobs report's effect on December odds."
-    },
-    {
-      "depth": "brief",
-      "developing": false,
-      "publishedAt": "2026-11-06T06:56:00-05:00",
-      "updatedAt": "2026-11-06T06:56:00-05:00",
-      "readMinutes": 2,
-      "id": "chevron-q3-2026-earnings",
-      "beat": "energy",
-      "headline": "Chevron earns $9.9B in Q3 as refining profit jumps to $4.9B from $1.1B",
-      "dek": "A refining windfall from higher product margins nearly tripled net income from a year ago, and Chevron returned about $6B to shareholders.",
-      "importance": 3,
-      "tldr": [
-        "Net income **$9.9B** ($5.06 a share); adjusted earnings **$10.4B** ($5.28), versus $3.5B net a year earlier.",
-        "**Downstream** (refining) earned **$4.9B** vs. $1.1B a year ago on higher product margins; **upstream** earned **$5.7B**.",
-        "Chevron paid about $2.5B in buybacks and $3.5B in dividends in the quarter, per the earnings call summary."
-      ],
-      "whatHappened": [
-        "Chevron's Q3 release (SEC filing) shows net income of $9.9 billion, or $5.06 per diluted share, against $3.5 billion a year earlier. Adjusted earnings were $10.4 billion, or $5.28. Upstream earnings were $5.7 billion; [[downstream]] earnings were $4.9 billion versus $1.1 billion, which the company attributed mainly to higher margins on refined product sales. A summary of the call put buybacks at $2.5 billion and dividends at $3.5 billion."
-      ],
-      "background": [
-        "The Iran war and Hormuz disruption squeezed supplies of crude and refined products, widening the [[crack spread|crack spread]], the gap between crude costs and what refined products sell for. Integrated majors like Chevron hold both upstream (producing oil) and downstream (refining), so they benefit when either side spikes."
-      ],
-      "whyItMatters": [
-        "Earnings like this tell you how much of the war-driven price move is landing in profits and buybacks. They are also a reminder of how volatile it is: if oil and margins fall as peace-talk hopes rise, the downstream windfall is the first thing to fade."
-      ],
-      "grandLine": {
-        "title": "Coup de Burst",
-        "body": "The Thousand Sunny can burn barrels of cola for a huge emergency jump: powerful, expensive, and not something you can do all the time. Refining margins this wide are that burst for the majors: a big one-quarter surge from a supply squeeze, not a new baseline."
-      },
-      "views": [
-        {
-          "camp": "Margins stay elevated",
-          "thesis": "Tight product supply keeps refining profits high.",
-          "argument": "Hormuz flows are still about 60% of normal, and refiners and product traders are earning the spread until supply normalizes."
         },
         {
-          "camp": "One-quarter windfall",
-          "thesis": "Peace-talk hopes could erase it quickly.",
-          "argument": "Oil fell about 8% on Wednesday on diplomacy hopes. If the strait reopens, crack spreads compress and the downstream gain reverses."
+          "name": "Invezz: Fed rate hike odds jump after October jobs report",
+          "url": "https://invezz.com/news/2026/11/06/fed-rate-hike-odds-jump-after-october-jobs-report-as-officials-signal-more-tightening/"
         }
       ],
-      "interview": {
-        "question": "Why did Chevron's refining profit quadruple?",
-        "answer": "Because product prices rose faster than crude costs. The [[crack spread|crack spread]] is the refiner's margin, and a supply shock widens it. Chevron's downstream jumped from $1.1B to $4.9B. My view is it's a cyclical windfall tied to the war, so I'd value the stock on mid-cycle margins. What changes my mind is a prolonged Hormuz disruption that keeps spreads wide.",
-        "followUp": {
-          "question": "Upstream vs. downstream?",
-          "answer": "Upstream finds and produces oil and gas, so it follows crude prices. Downstream refines and sells products, so it follows margins."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "crack spread",
-          "definition": "The difference between the price of refined products (gasoline, diesel) and the crude oil used to make them. It's the refiner's gross margin."
-        },
-        {
-          "term": "downstream",
-          "definition": "The refining and marketing side of the oil business. Upstream is exploration and production.",
-          "example": "Chevron's downstream earned $4.9B in Q3."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Ongoing",
-          "what": "Whether oil's Iran-talks drop compresses refining margins."
-        },
-        {
-          "when": "Nov 29",
-          "what": "OPEC+ meeting."
-        }
-      ],
-      "sources": [
-        {
-          "name": "SEC: Chevron Form 8-K, Q3 2026 earnings release",
-          "url": "https://www.sec.gov/Archives/edgar/data/0000093410/000009341026000196/a09302026ex9918-k.htm"
-        },
-        {
-          "name": "SEC: Chevron Form 10-Q, quarter ended Sept. 30, 2026",
-          "url": "https://www.sec.gov/Archives/edgar/data/0000093410/000009341026000200/cvx-20260930.htm"
-        },
-        {
-          "name": "Quartr: Chevron (CVX) Q3 2026 earnings summary",
-          "url": "https://quartr.com/events/chevron-cvx-q3-2026_33F2gS6R"
-        }
-      ]
-    },
-    {
-      "depth": "brief",
-      "developing": false,
-      "publishedAt": "2026-11-06T06:56:00-05:00",
-      "updatedAt": "2026-11-06T06:56:00-05:00",
-      "readMinutes": 2,
-      "id": "opec-plus-holds-output-december-2026",
-      "beat": "energy",
-      "headline": "OPEC+ keeps December oil output unchanged for a third straight month",
-      "dek": "The seven core members held production at September levels after raising it monthly from April to September. The next meeting is Nov. 29.",
-      "importance": 2,
-      "tldr": [
-        "The OPEC+ group holding output agreed to **keep December production unchanged** at September 2026 levels, the third straight pause.",
-        "It follows monthly increases from April through September.",
-        "Next meeting: **Nov. 29**."
-      ],
-      "whatHappened": [
-        "At their Nov. 1 [[OPEC+]] meeting, the seven participating countries (Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria and Oman) agreed to maintain September 2026 required production levels for December, according to the group's statement and regional reports. It is the third consecutive month of holding output, after four monthly increases earlier in the year, and the group will keep meeting monthly to assess the market."
-      ],
-      "background": [
-        "OPEC+ adjusts monthly [[quotas|production quotas]] to manage supply. Pausing increases while prices are high and the Hormuz route is disrupted signals it sees limited room to add barrels that can actually be delivered."
-      ],
-      "whyItMatters": [
-        "With oil falling on diplomacy hopes, a steady OPEC+ keeps a floor under the supply picture. If Hormuz reopens and demand softens, the group's next meeting is where it would decide whether to resume increases or defend prices."
-      ],
-      "grandLine": {
-        "title": "The Calm Belt",
-        "body": "The Calm Belt is windless sea on both sides of the Grand Line, where ships stall dead in the water. A producer group that pauses its quota increases is the market's Calm Belt: no change in output, just waiting for the weather to shift."
-      },
-      "views": [
-        {
-          "camp": "Hold is right",
-          "thesis": "Supply is already constrained by Hormuz.",
-          "argument": "Adding paper barrels doesn't help if the strait limits exports, so holding avoids oversupply when flows normalize."
-        },
-        {
-          "camp": "Room to add",
-          "thesis": "At these prices the group could resume increases.",
-          "argument": "If a peace deal restores flows, producers will want to capture market share before prices fall further."
-        }
-      ],
-      "interview": {
-        "question": "What does an OPEC+ pause signal?",
-        "answer": "That the group is balancing price against share. The pause says it doesn't need to add supply while the market is tight and logistics are disrupted. I'd watch Hormuz flows and the Nov. 29 meeting. What changes my mind is a deal that reopens exports, which would revive the case for increases.",
-        "followUp": {
-          "question": "What's a quota?",
-          "answer": "The monthly production level a member agrees to, which the group changes to manage supply."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "production quotas",
-          "definition": "Agreed monthly output levels for OPEC+ members, adjusted to manage the oil market."
-        },
-        {
-          "term": "OPEC+",
-          "definition": "OPEC plus allied producers such as Russia, which coordinate output decisions.",
-          "example": "Seven members set December output on Nov. 1."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Nov 29",
-          "what": "Next OPEC+ meeting."
-        }
-      ],
-      "sources": [
-        {
-          "name": "OPEC: Press release, Nov. 1, 2026",
-          "url": "https://opec.org/pr-detail/620-1-november-2026.html"
-        },
-        {
-          "name": "APA: OPEC+ to maintain oil output for 3rd consecutive month in December",
-          "url": "https://en.apa.az/energy-and-industry/opec-to-maintain-oil-output-for-3rd-consecutive-month-in-december-533442"
-        },
-        {
-          "name": "Nairametrics: OPEC+ keeps November oil production unchanged",
-          "url": "https://nairametrics.com/2026/10/05/opec-keeps-november-oil-production-unchanged-at-31-01-million-bpd/"
-        }
-      ]
-    },
-    {
-      "depth": "brief",
-      "developing": false,
-      "publishedAt": "2026-11-06T06:56:00-05:00",
-      "updatedAt": "2026-11-06T06:56:00-05:00",
-      "readMinutes": 2,
-      "id": "boeing-q3-2026-earnings",
-      "beat": "industrials",
-      "headline": "Boeing slips its 737 ramp and cash-flow targets by a year even as free cash flow turns positive",
-      "dek": "Third-quarter free cash flow was $464M and it delivered 161 jets, but 2026 will miss the roughly 500-jet 737 goal and 2027 cash flow is guided to about $3B.",
-      "importance": 3,
-      "tldr": [
-        "Q3 free cash flow was **$464M** (vs. $238M a year earlier), the second straight positive quarter; **161** commercial jets delivered.",
-        "Nine-month 737 deliveries were about **367**, a record MAX pace but short of the roughly **500** target for 2026.",
-        "Boeing now expects about **$3B** of 2027 free cash flow, a year later than planned and below an LSEG consensus of $5.5B, per reports."
-      ],
-      "whatHappened": [
-        "Boeing's Q3 results (Oct. 27) showed operating cash flow of $1.5 billion and free cash flow of $464 million, helped by working-capital timing and partly offset by roughly $0.7 billion of Justice Department settlement payments. It delivered 161 commercial airplanes in the quarter, including 124 737s and 22 787s. The company said it will miss its target of about 500 737 deliveries this year and now expects the 737 production rate to reach 47 a month in early 2027 rather than summer 2026. Reports put its 2027 free cash flow outlook at about $3 billion against consensus of $5.5 billion."
-      ],
-      "background": [
-        "Boeing's recovery depends on raising output of the 737 MAX safely. Production [[rate|rate]] increases unlock cash because [[free cash flow|free cash flow]] rises as more jets are delivered against fixed costs. When the rate slips, the cash ramp slips with it."
-      ],
-      "whyItMatters": [
-        "Boeing is a bellwether for aerospace supply chains and for airlines' capacity plans. A slower ramp keeps jets scarce, supports lease rates and benefits Airbus, while pushing out the day Boeing's balance sheet heals."
-      ],
-      "grandLine": {
-        "title": "Franky's dock",
-        "body": "Franky, the Straw Hats' cola-powered shipwright, can only build as fast as the dock and materials allow, no matter how many orders come in. Boeing is in the same position: demand is not the constraint, factory rate and quality control are."
-      },
-      "views": [
-        {
-          "camp": "Slow and steady",
-          "thesis": "A safer, slower ramp is the right trade.",
-          "argument": "Boeing's priority is quality and regulatory trust, and the record MAX pace shows steady progress even if targets slip."
-        },
-        {
-          "camp": "Credibility problem",
-          "thesis": "Repeated slips weaken the cash-flow story.",
-          "argument": "The 2027 free cash flow target is a year later and well below consensus, so the stock's recovery thesis is stretched."
-        }
-      ],
-      "interview": {
-        "question": "Boeing is cash-positive but missed its delivery target. Is that a buy?",
-        "answer": "It depends on your time frame. The cash positive quarter is real, but guiding 2027 free cash flow to about $3B versus $5.5B expected pushes out the payoff. I'd focus on the 737 rate and the 787 cadence. What changes my mind is a clean move to 47 a month on schedule.",
-        "followUp": {
-          "question": "Why does production rate matter?",
-          "answer": "More jets delivered against a mostly fixed cost base lifts margins and cash flow, so rate is the main lever."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "rate",
-          "definition": "The number of planes a factory builds per month. Raising it is Boeing's main route to more cash.",
-          "example": "Boeing now targets 47 737s a month in early 2027."
-        },
-        {
-          "term": "free cash flow",
-          "definition": "Operating cash flow minus capital spending: cash the business actually generates.",
-          "example": "Boeing's Q3 free cash flow was $464M."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "2027",
-          "what": "Whether the 737 rate hits 47 a month on the new schedule."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Boeing: Boeing reports third quarter results",
-          "url": "https://boeing.mediaroom.com/2026-10-27-Boeing-Reports-Third-Quarter-Results"
-        },
-        {
-          "name": "SEC: Boeing Form 8-K, Q3 2026 press release",
-          "url": "https://www.sec.gov/Archives/edgar/data/0000012927/000162828026067411/a202609sep308kprex991.htm"
-        },
-        {
-          "name": "MarketScale: Boeing 737 line will not reach 500 deliveries this year",
-          "url": "https://www.marketscale.com/industries/transportation/boeing-737-line-will-not-reach-500-deliveries-this-year"
-        }
-      ]
-    },
-    {
-      "depth": "brief",
-      "developing": false,
-      "publishedAt": "2026-11-06T06:56:00-05:00",
-      "updatedAt": "2026-11-06T06:56:00-05:00",
-      "readMinutes": 2,
-      "id": "caterpillar-q3-2026-earnings",
-      "beat": "industrials",
-      "headline": "Caterpillar posts a record $20.7B sales quarter as backlog nearly doubles to $78B",
-      "dek": "Data-center power demand drove the biggest order book in its history, while tariffs are a roughly $2.2B cost for the full year.",
-      "importance": 3,
-      "tldr": [
-        "Sales and revenues were **$20.7B**, up **17%**, the highest quarter in Caterpillar's history, per its filing and trade press.",
-        "Backlog hit a record **$78.1B**, up about **96%** from a year earlier; the biggest increase was in Power & Energy.",
-        "Tariff costs were about $600M in Q3 and are expected around **$2.2B** for the full year (excluding IEEPA refunds)."
-      ],
-      "whatHappened": [
-        "Caterpillar's Q3 10-Q shows sales and revenues of $20.7 billion, up 17%, and firm backlog of about $78.1 billion, up roughly $38 billion (96%) from a year earlier and about $6 billion from the second quarter. The company said strong orders across all three primary segments drove the increase, with the largest gains in Power & Energy. Growth came mainly from turbines, turbine-related services and large reciprocating engines used in data centers. Reports disagree on the growth rate for power generation sales (about 30% in one account, 75% in the call transcript), possibly because of different measures. Management expects full-year tariff costs of about $2.2 billion and mid-to-high-teens growth versus 2025."
-      ],
-      "background": [
-        "AI data centers need enormous amounts of reliable power, and the grid cannot always supply it. Caterpillar sells the on-site turbines and engines that fill the gap, so its order book now tracks the AI build-out as much as the construction cycle. A [[backlog|backlog]] is the value of orders not yet delivered, which gives revenue visibility."
-      ],
-      "whyItMatters": [
-        "It ties industrials to the AI trade: if data-center spending slows after Thursday's selloff, Caterpillar's backlog is where it would show up first. For now it shows demand outrunning capacity, which supports pricing power."
-      ],
-      "grandLine": {
-        "title": "Wano's sealed borders",
-        "body": "Wano shut its borders to the world, protecting those in charge and starving everyone else. Tariffs are a milder version: they raise the cost of imported parts and equipment for manufacturers like Caterpillar, which is why management is quantifying a $2.2B hit."
-      },
-      "views": [
-        {
-          "camp": "Structural demand",
-          "thesis": "Power for data centers is a multi-year trend.",
-          "argument": "Orders extend into 2029–2030, and the company is expanding capacity, so the backlog gives rare visibility."
-        },
-        {
-          "camp": "Tied to AI spending",
-          "thesis": "A slowdown in AI capex would hit orders.",
-          "argument": "If hyperscalers pull back after the selloff, turbine and engine orders are exposed, and tariffs squeeze margins in the meantime."
-        }
-      ],
-      "interview": {
-        "question": "Why is a heavy-equipment maker an AI stock?",
-        "answer": "Because data centers need on-site power, and Caterpillar sells the turbines and large engines. Its backlog is $78B, up 96%, mostly from power. My view is that demand is real for several quarters, with the risk tied to [[AI capex]]. What changes my mind is order cancellations or hyperscalers trimming build plans.",
-        "followUp": {
-          "question": "How does a backlog help valuation?",
-          "answer": "It gives visibility into future revenue and signals pricing power, which supports margins."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "backlog",
-          "definition": "The value of orders received but not yet delivered; a measure of future revenue.",
-          "example": "Caterpillar's backlog is $78.1B."
-        },
-        {
-          "term": "AI capex",
-          "definition": "Spending by cloud and tech companies on data centers, chips and power for AI."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Ongoing",
-          "what": "Whether data-center orders hold up after the AI selloff."
-        }
-      ],
-      "sources": [
-        {
-          "name": "SEC: Caterpillar Form 10-Q, quarter ended Sept. 30, 2026",
-          "url": "https://www.sec.gov/Archives/edgar/data/0000018230/000001823026000057/cat-20260930.htm"
-        },
-        {
-          "name": "Manufacturing Dive: Caterpillar posts highest sales quarter ever on data centers",
-          "url": "https://www.manufacturingdive.com/news/caterpillar-posts-highest-sales-quarter-ever-data-centers-q3-2026/873176/"
-        },
-        {
-          "name": "Utility Dive: Caterpillar posts highest sales quarter ever on data centers",
-          "url": "https://www.utilitydive.com/news/caterpillar-posts-highest-sales-quarter-ever-data-centers-q3-2026/873586/"
-        }
-      ]
+      "updateNote": "Reframed around Tuesday's CPI and Monday's oil drop."
     },
     {
       "depth": "brief",
       "developing": true,
       "publishedAt": "2026-11-06T06:56:00-05:00",
-      "updatedAt": "2026-11-09T06:54:00-05:00",
+      "updatedAt": "2026-11-09T17:45:00-05:00",
       "readMinutes": 2,
       "id": "world-iran-talks-qatar-mediation",
       "beat": "world",
@@ -1157,332 +429,407 @@
       "updateNote": "Added the Nov. 9 CNN explainer: quiet talks, no breakthrough, Trump says attacks 'highly unlikely' if progress."
     },
     {
-      "depth": "brief",
-      "developing": false,
-      "publishedAt": "2026-11-06T06:56:00-05:00",
-      "updatedAt": "2026-11-06T06:56:00-05:00",
-      "readMinutes": 2,
-      "id": "world-ukraine-witkoff-putin-october-2026",
-      "beat": "world",
-      "headline": "Russia and Ukraine trade strikes after US envoy Witkoff meets Putin, with no settlement in sight",
-      "dek": "Kyiv was hit on Oct. 21 after the St. Petersburg meeting. Putin still refuses a face-to-face with Zelensky and wants the rest of eastern Ukraine; I found no newer confirmed developments.",
-      "importance": 2,
-      "tldr": [
-        "US envoy Steve Witkoff met Russian President Putin in St. Petersburg in late October to push for renewed talks.",
-        "Russia and Ukraine traded new barrages afterward; Kyiv's mayor reported casualties and damage to metro infrastructure.",
-        "Putin continues to reject meeting Zelensky and insists on taking the rest of eastern Ukraine."
-      ],
-      "whatHappened": [
-        "After Witkoff met Putin in St. Petersburg to push for renewed negotiations (the format is [[trilateral|trilateral talks]] with the US, Russia and Ukraine), Russia and Ukraine exchanged a new round of attacks, with Russian strikes hitting Kyiv on Oct. 21 and the mayor reporting casualties and damage to metro infrastructure. Earlier, in September, Witkoff and Jared Kushner visited Moscow and Kyiv, Putin halted strikes on Kyiv for three days during that visit, and Witkoff said there was progress on scheduling more trilateral talks. Strikes resumed afterward. The latest coverage I could confirm is from late October, so check a live source for anything newer."
-      ],
-      "background": [
-        "The war began with Russia's full-scale invasion in 2022. Peace efforts now center on a US-brokered framework. Russia demands the remainder of Donetsk, and Ukraine says it won't cede territory without Western [[security guarantees|security guarantees]] and a reconstruction package."
-      ],
-      "whyItMatters": [
-        "Beyond the human cost, the war shapes European energy and defense spending and sanctions on Russian oil. Progress toward a deal would be a risk-on signal for European assets and a headwind for defense stocks; stalemate keeps both stories as they are."
-      ],
-      "views": [
-        {
-          "camp": "Talks are moving",
-          "thesis": "Repeated envoy visits and pauses in strikes show momentum.",
-          "argument": "Putin agreed to a three-day halt on Kyiv during the September visit, and trilateral meetings are being scheduled."
-        },
-        {
-          "camp": "No real convergence",
-          "thesis": "Russia's demands haven't changed.",
-          "argument": "Moscow still insists on the rest of eastern Ukraine and refuses to meet Zelensky, while strikes continue after every meeting."
-        }
-      ],
-      "interview": {
-        "question": "Is Russia–Ukraine heading toward a settlement?",
-        "answer": "Not on the evidence. Envoy diplomacy is active and there have been short pauses, but Russia still demands the rest of Donetsk and Ukraine refuses to cede it without [[security guarantees|security guarantees]]. My view is a settlement is unlikely near-term. What changes my mind is a leader-level meeting or a framework on territory and guarantees.",
-        "followUp": {
-          "question": "What are security guarantees?",
-          "answer": "Commitments from allies to defend or support a country after a settlement, intended to deter a renewed attack."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "security guarantees",
-          "definition": "Commitments by allies to help defend a country after a settlement so the fighting doesn't restart."
-        },
-        {
-          "term": "trilateral talks",
-          "definition": "Negotiations among three parties, here the US, Russia and Ukraine."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Next",
-          "what": "Whether another trilateral round is scheduled, and whether strikes on Kyiv pause again."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Al Jazeera: Russian strikes hit Kyiv after Witkoff meets Putin",
-          "url": "https://aljazeera.com/news/2026/10/22/russian-strikes-hit-kyiv-after-witkoff-meets-putin"
-        },
-        {
-          "name": "RFE/RL: Ukraine, Russia trade strikes after US envoy meets Putin",
-          "url": "https://www.rferl.org/amp/ukraine-drones-hits-russian-refinery/33496941.html"
-        },
-        {
-          "name": "UPI: Putin and Zelenskyy agree to pause strikes on Kyiv and Moscow",
-          "url": "https://www.upi.com/Top_News/US/2026/09/08/ukraine-russia-pause-fighting/6531788874393/"
-        }
-      ]
-    },
-    {
-      "id": "oil-weekly-drop-war-premium-fades",
-      "beat": "energy",
-      "headline": "Oil rebounds toward $100 but is still on track for its steepest weekly drop in years on Iran-deal hopes",
-      "dek": "Brent was roughly $99–100 on Friday after Wednesday's plunge; estimates of the weekly fall run from about 12% to 16%. Tanker attacks in Hormuz continue.",
-      "importance": 3,
-      "depth": "brief",
       "developing": true,
-      "publishedAt": "2026-11-06T18:54:00-05:00",
-      "updatedAt": "2026-11-06T18:54:00-05:00",
-      "readMinutes": 2,
-      "tldr": [
-        "Brent traded around **$99–100** on Friday, rebounding for a second day after Wednesday's drop (one report: 9.73%, another: 8.7%).",
-        "The weekly decline is estimated at roughly **12% to 16%**, the largest since 2020 on some measures; sources differ on contract and window.",
-        "Iran reported three more tanker attacks in Hormuz on Thursday, so the strait is still the swing factor."
-      ],
-      "whatHappened": [
-        "Crude spent the week unwinding its war premium. After a roughly 7% drop Monday on Iran/Qatar talk hopes and a sharp plunge Wednesday after the midterms, Brent rebounded Thursday and Friday to around $99–100 but was still set for a weekly loss that reports put between 12% and 16%, with WTI down about 13% in one account. One analyst said oil is likely to find support on dips and stay prone to sharp moves on any escalation headline. No deal has been signed, and Iran reported three more tanker attacks in the Strait of Hormuz on Thursday."
-      ],
-      "background": [
-        "A [[war premium|war premium]] is the extra price traders add for the risk that supply gets cut. When diplomacy gains ground, that premium shrinks quickly even though the physical flows through Hormuz (about 60% of normal) haven't changed. That gap between price and physical supply is why the moves are so large in both directions."
-      ],
-      "whyItMatters": [
-        "For energy stocks (and a curve in [[backwardation]]), the question is whether the producers keep their recent windfall or give it back as the premium fades; for refiners, whether wide margins last. For inflation, a lower oil price eases the pressure on the Fed."
-      ],
-      "grandLine": {
-        "title": "Aqua Laguna",
-        "body": "At Water 7 a giant tide comes every year; everyone knows it's coming and still has to evacuate. The oil market's war premium behaves like that tide: it floods in on escalation headlines and drains out on peace hopes, and traders know it, yet the streets still flood."
-      },
-      "views": [
-        {
-          "camp": "Premium has more to go",
-          "thesis": "A deal would drive oil sharply lower.",
-          "argument": "If Hormuz reopens, supply normalizes and prices could fall toward pre-war levels, as in June and August when talk of a deal drove steep declines."
-        },
-        {
-          "camp": "Dips get bought",
-          "thesis": "Physical risks haven't gone away.",
-          "argument": "Flows are still around 60% of normal, tanker attacks continue and past peace hopes have reversed, so the market can't price in a clean exit."
-        }
-      ],
-      "interview": {
-        "question": "Oil is down double digits on the week but flows haven't changed. Why?",
-        "answer": "Because the move is risk premium, not physical supply. Traders priced in a higher chance of a deal after the midterms. My view is the price will stay headline-driven until flows actually normalize. What changes my mind is a signed agreement that reopens the strait, or a new escalation.",
-        "followUp": {
-          "question": "What would a real deal do to the curve?",
-          "answer": "It would pull down prompt prices and the front of the curve, narrowing backwardation as the supply squeeze eases."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "war premium",
-          "definition": "The extra price in a commodity for the risk of a supply disruption, which fades when the risk recedes.",
-          "example": "Brent's roughly 12–16% weekly drop is largely premium coming out."
-        },
-        {
-          "term": "backwardation",
-          "definition": "When near-term futures prices are higher than later ones, signaling tight supply now."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Next week",
-          "what": "Whether Iran and Washington sign the circulating draft and what Hormuz flows do."
-        },
-        {
-          "when": "Nov 29",
-          "what": "OPEC+ meeting."
-        }
-      ],
-      "sources": [
-        {
-          "name": "OilPrice.com: The Iran war isn't over, but oil traders are already pricing in peace",
-          "url": "https://oilprice.com/Energy/Energy-General/The-Iran-War-Isnt-Over-but-Oil-Traders-Are-Already-Pricing-In-Peace.html"
-        },
-        {
-          "name": "Oil & Gas 360: Oil heads for steepest weekly decline since 2020 as Iran diplomacy hopes grow",
-          "url": "https://www.oilandgas360.com/oil-heads-for-steepest-weekly-decline-since-2020-as-iran-diplomacy-hopes-grow/"
-        },
-        {
-          "name": "OilPrice.com: Oil prices head for 12% weekly loss despite fresh tanker attacks",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-12-Weekly-Loss-Despite-Fresh-Tanker-Attacks.html"
-        },
-        {
-          "name": "Coinpaper: Brent faces biggest weekly crash since 2020 as Iran war premium fades",
-          "url": "https://coinpaper.com/38434/oil-price-forecast-brent-faces-biggest-weekly-crash-since-2020-as-iran-war-premium-fades"
-        }
-      ]
-    },
-    {
-      "id": "ism-manufacturing-october-2026",
-      "beat": "industrials",
-      "headline": "ISM manufacturing rises to 55.5 in October, the 10th straight month of expansion",
-      "dek": "The index beat forecasts near 54.5–54.6 as new orders and production kept growing, a strong backdrop for industrials even as the AI trade wobbles.",
-      "importance": 3,
-      "depth": "brief",
-      "publishedAt": "2026-11-06T18:54:00-05:00",
-      "updatedAt": "2026-11-06T18:54:00-05:00",
-      "readMinutes": 2,
-      "tldr": [
-        "The ISM manufacturing PMI rose to **55.5** in October from **54.5** in September, versus forecasts around 54.5–54.6.",
-        "It is the **10th consecutive month** above 50, which marks expansion.",
-        "The report said new orders, production and employment grew while supplier deliveries slowed."
-      ],
-      "whatHappened": [
-        "The Institute for Supply Management's October manufacturing report, published Nov. 2, showed the PMI at 55.5, up from 54.5 and ahead of forecasts of about 54.5 to 54.6. New orders, production and employment were all growing, and supplier deliveries were slowing, which usually signals strong demand or supply-chain strain. I could not confirm the prices-paid or new-orders index values, so check the ISM release for the sub-indexes."
-      ],
-      "background": [
-        "The ISM [[PMI|PMI]] is a survey of purchasing managers; above 50 means the sector is expanding. September's prices-paid index jumped to 77.9, a sign the oil shock and tariffs were pushing input costs, which is one reason the Fed is wary."
-      ],
-      "whyItMatters": [
-        "Strong manufacturing supports the case for industrial earnings (see Caterpillar's record backlog) and keeps the Fed's inflation worry alive. Slowing supplier deliveries can be a sign of tight capacity, which lifts prices."
-      ],
-      "grandLine": {
-        "title": "Sabaody's resin bubbles",
-        "body": "At Sabaody, bubble coating lets ships dive deeper than they otherwise could, until pressure pops them. A manufacturing boom funded by data-center spending is the coating: it lets the sector go deeper, as long as the pressure doesn't rise."
-      },
-      "views": [
-        {
-          "camp": "Cycle is strong",
-          "thesis": "Ten months of expansion shows durable demand.",
-          "argument": "Orders, production and jobs are all rising, backed by data-center and defense demand."
-        },
-        {
-          "camp": "Inflation risk",
-          "thesis": "Strength plus slow deliveries is inflationary.",
-          "argument": "Supplier delays and elevated input prices push costs up, keeping the Fed from easing."
-        }
-      ],
-      "interview": {
-        "question": "Why does a strong ISM matter to the Fed?",
-        "answer": "Because it shows demand is not weak while input costs are elevated, which supports the case for tighter policy. A PMI above 50 means expansion. I'd watch the prices-paid and new-orders sub-indexes. What changes my mind is a sharp drop in new orders.",
-        "followUp": {
-          "question": "What does slower supplier delivery signal?",
-          "answer": "Either strong demand overwhelming suppliers or supply-chain disruption. Both tend to raise prices."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "PMI",
-          "definition": "Purchasing Managers' Index: a survey-based gauge where above 50 means expansion and below 50 means contraction.",
-          "example": "October's ISM manufacturing PMI was 55.5."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Early December",
-          "what": "Next ISM manufacturing report."
-        }
-      ],
-      "sources": [
-        {
-          "name": "InvestingLive: US ISM manufacturing PMI for October 55.5 versus 54.5 estimate",
-          "url": "https://investinglive.com/news/us-ism-manufacturing-pmi-for-october-55-5-versus-54-5-estimate/"
-        },
-        {
-          "name": "TrendForce: US October ISM manufacturing PMI rises to 55.5",
-          "url": "https://datatrack.trendforce.com/blog/content/66171/us-october-ism-manufacturing-pmi-rises-to-555-beating-expectations-10th-consecutive-month-of-expansion-highlights-economic-resilience"
-        },
-        {
-          "name": "Mining Stock Education: Manufacturing PMI at 55.5%, October 2026 ISM report",
-          "url": "https://www.miningstockeducation.com/2026/11/manufacturing-pmi-at-55-5-october-2026-ism-manufacturing-pmi-report/"
-        }
-      ]
-    },
-    {
-      "id": "weekly-wrap-worst-week-since-june-nov-2026",
+      "publishedAt": "2026-11-09T17:45:00-05:00",
+      "updatedAt": "2026-11-09T17:45:00-05:00",
+      "id": "dow-1104-points-oil-slides-nov-9-2026",
       "beat": "markets",
-      "headline": "Wall Street ends its worst week since June as tech rebounds Friday but the Dow slips",
-      "dek": "The S&P 500 closed Friday at 7,376.86, up 0.3% on the day but down about 2.7% on the week, after Thursday's AI rout and a hot jobs report.",
-      "importance": 3,
-      "depth": "brief",
-      "developing": false,
-      "publishedAt": "2026-11-07T11:53:00-05:00",
-      "updatedAt": "2026-11-07T11:53:00-05:00",
-      "readMinutes": 2,
+      "importance": 4,
+      "depth": "full",
+      "readMinutes": 4,
+      "headline": "Dow jumps 1,104 points and the S&P 500 gains 2.3% as oil slides and tech rebounds",
+      "dek": "All 11 S&P sectors rose and small caps led as crude fell about 5% on Iran-diplomacy hopes. CPI is due Tuesday morning.",
       "tldr": [
-        "**Friday:** the S&P 500 rose about 0.3% to **7,376.86** and the Nasdaq about 1.1%, while the Dow fell about 0.5%.",
-        "**Week:** the S&P 500 fell about **2.7%**, its worst week since June; one report put the Nasdaq's weekly drop at about 3.4%.",
-        "The rebound was narrow, led by tech and chips (Nvidia and AMD rose), after Thursday's 12% plunge in the chip index."
+        "Monday close: **Dow +1,104.02 to 52,389.75**, **S&P 500 +173.08 (+2.3%) to 7,549.94**, **Nasdaq +673.71 (+2.7%) to 25,253.14**.",
+        "Breadth was wide: **all 11 sectors** rose and the Russell 2000 gained about **3%**; oil fell roughly 5%.",
+        "The S&P 500 is still about **3.4% below its Oct. 6 high**; the VIX was near 20. October CPI is due Tuesday at 8:30am ET."
       ],
       "whatHappened": [
-        "Stocks ended a bruising week on a mixed note. Tech and chip stocks staged a [[relief rally]] Friday after Thursday's AI-led selloff, in which the PHLX semiconductor index fell about 12% (its worst day since March 2020) and Nvidia about 9%. The S&P 500 closed at 7,376.86, up about 0.3%, and the Nasdaq gained about 1.1%, while the Dow slipped about 0.5%. For the week the S&P 500 lost roughly 2.7%, its worst since June. The strong jobs report (+165,000) nudged Treasury yields higher into the close and rate-hike worries held back the rebound, which was narrow: [[breadth]] was thin. Reports differ on the size of Friday's Nvidia and AMD gains, so I have left them out."
+        "Wall Street rebounded sharply on Monday. The Dow gained 1,104.02 points to 52,389.75, the S&P 500 rose 173.08 points, or about 2.3%, to 7,549.94, and the Nasdaq Composite jumped 673.71 points, or about 2.7%, to 25,253.14, according to Bloomberg-syndicated and other market reports. All 11 S&P sectors finished higher with wide [[breadth]] and the Russell 2000 small-cap index gained around 3%, a sign the buying was broad rather than just tech. The S&P 500 is still about 3.4% below its Oct. 6 high, and the VIX hovered near 20.",
+        "The main driver was oil: crude fell about 5% as hopes for US–Iran diplomacy grew and Trump said new strikes on Iran were unlikely (see the oil story). Falling oil eases inflation worries and helps consumers and cyclicals. One notable laggard was Nvidia, which fell against the rally; I could not verify the cause, so I am not attributing it. Several of these reports are secondary aggregators and give slightly different percentages, so treat the exact figures as approximate."
       ],
       "background": [
-        "A week that began with a Democratic sweep and a Dow rally of about 1,500 points on Wednesday ended with the index below where it started. Whipsaw weeks like this usually reflect positioning: crowded AI longs unwinding while macro data (payrolls, Fed odds) shifts the discount rate."
+        "Last week the Nasdaq entered a [[correction]] on Thursday after an AI-led rout, then bounced partially Friday. Monday's move retraces a large part of the week's damage, but the market has swung by more than 1,000 Dow points several times in five days, a sign of fragile positioning rather than a settled trend."
       ],
       "whyItMatters": [
-        "Monday's question is whether Friday's bounce is a base or a relief rally. A narrow, tech-only rebound with yields rising is less convincing than a broad one, and the next macro catalysts are the AI follow-through and the December hike debate."
+        "A broad rally with falling oil is a healthier signal than a narrow tech bounce. The risks are Tuesday's inflation data and a reversal in Iran headlines: oil is the swing factor for both inflation and the Fed's December decision, which was about 80% priced for a hike after Friday's payrolls."
       ],
       "grandLine": {
-        "title": "Whitebeard's fall",
-        "body": "When Whitebeard fell at Marineford, a dominant power vanished and the whole New World repositioned at once, with volatility spiking. A week where the market's biggest winners lurched and everyone re-sorted their positions looks similar: it isn't the end of the sea, it's a repricing of who holds the power."
+        "title": "The Calm Belt lifts",
+        "body": "The Calm Belt is windless sea where ships stall dead in the water, until the wind returns. Monday was the wind coming back for stocks after a week stuck between an AI rout and a hot jobs report. A ship under sail still needs to watch for the next storm, and here it's Tuesday's inflation print."
       },
       "views": [
         {
-          "camp": "Relief rally",
-          "thesis": "Friday's bounce shows dip buyers are still active.",
-          "argument": "Chips recovered part of Thursday's drop and the Nasdaq gained more than 1%, which suggests buyers stepped in after the correction."
+          "camp": "Bottoming process",
+          "thesis": "The correction is ending as oil falls.",
+          "argument": "Breadth was wide, small caps led and oil's drop lowers inflation risk, which supports a rebound from the AI selloff."
         },
         {
-          "camp": "Fragile base",
-          "thesis": "A narrow rebound with rising yields isn't a recovery.",
-          "argument": "The Dow fell, breadth was thin and a hot jobs report lifted hike odds, so the setup for Monday is still shaky."
+          "camp": "Bear-market rally",
+          "thesis": "Violent swings are a sign of instability, not recovery.",
+          "argument": "The S&P 500 is still about 3.4% below its high, hike odds sit near 80% and oil can reverse on headlines, so the rally may not hold."
         }
       ],
       "interview": {
-        "question": "The S&P had its worst week since June. How do you frame it?",
-        "answer": "As a positioning and rates story, not a growth scare. The AI complex sold off hard Thursday, bounced Friday, and payrolls pushed up hike odds. I'd watch whether the S&P holds its Friday close and whether yields keep rising. What changes my mind is credit spreads widening or a second down leg in chips.",
+        "question": "The Dow jumped 1,100 points. Is the correction over?",
+        "answer": "Too early to say. The rally was broad and oil fell, which is constructive, but the S&P is still about 3.4% below its high and the swings have been huge. I'd watch Tuesday's CPI and whether oil holds its drop. What changes my mind is a hot inflation print or a spike in oil on Iran headlines.",
         "followUp": {
-          "question": "Why is breadth important?",
-          "answer": "A rally led by a few stocks is more fragile than one that includes most of the market."
+          "question": "Why does oil matter so much to stocks right now?",
+          "answer": "It feeds into inflation and the Fed's hike path. Lower oil reduces the odds of tightening, which supports valuations."
         }
       },
       "keyTerms": [
+        {
+          "term": "correction",
+          "definition": "A decline of 10% or more from a recent peak; smaller than a bear market (20%+).",
+          "example": "The Nasdaq entered a correction last Thursday."
+        },
         {
           "term": "breadth",
-          "definition": "How many stocks participate in a market move. Narrow breadth means a few names are doing the work.",
-          "example": "Friday's rebound was concentrated in tech and chips."
-        },
-        {
-          "term": "relief rally",
-          "definition": "A bounce after a selloff that reflects less fear, not improved fundamentals."
+          "definition": "How many stocks participate in a move; wide breadth is healthier than a rally led by a few names."
         }
       ],
       "watchNext": [
         {
-          "when": "Mon Nov 9",
-          "what": "Does the S&P hold 7,376.86 and do chips extend the bounce?"
+          "when": "Tue Nov 10, 8:30 AM ET",
+          "what": "October CPI."
+        },
+        {
+          "when": "Ongoing",
+          "what": "Whether oil holds Monday's drop."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Bloomberg via BNN: US stocks rally as oil prices swing lower",
+          "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/09/world-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/"
+        },
+        {
+          "name": "TheStreet: Stock market today, Nov. 9, 2026",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-09-202"
+        },
+        {
+          "name": "Pulsafi: Today's market pulse, Nov. 9, 2026",
+          "url": "https://www.pulsafi.com/market-today"
+        },
+        {
+          "name": "VistaP Global: Stock market today, Nov. 9, 2026",
+          "url": "https://vistapglobal.com/stock-market-today-november-9-2026-dow-jumps-1104-points-nasdaq-rallies-as-oils-slide-fuels-breadth-amwl-ant-eprx-googl-modd-nvda-ser-spcx/"
+        }
+      ],
+      "trade": {
+        "idea": "Equal-weight over cap-weight on a broad rally",
+        "expression": "Long equal-weight S&P 500 ETF / short cap-weighted S&P 500 ETF, dollar-neutral",
+        "rationale": "Monday's rally was broad, with small caps up about 3%. If breadth keeps improving as oil falls, the average stock outperforms the megacap-heavy index. Interview framing, not advice.",
+        "risks": [
+          "A CPI shock hits small caps harder.",
+          "An AI rebound leads megacaps and the pair loses.",
+          "Oil reverses on Iran headlines and breadth fades."
+        ]
+      }
+    },
+    {
+      "developing": false,
+      "publishedAt": "2026-11-09T17:45:00-05:00",
+      "updatedAt": "2026-11-09T17:45:00-05:00",
+      "id": "s-and-p-breadth-vix-nov-9-2026",
+      "beat": "markets",
+      "importance": 2,
+      "depth": "brief",
+      "readMinutes": 1,
+      "headline": "The S&P 500 is still about 3.4% below its high after Monday's rally, with the VIX near 20",
+      "dek": "Small caps and cyclicals led the bounce, but a retest depends on Tuesday's CPI and the oil price.",
+      "tldr": [
+        "The S&P 500 closed at **7,549.94**, about **3.4% below its Oct. 6 high**.",
+        "The **VIX** was near 20, elevated but not in panic territory.",
+        "The **Russell 2000** led with a gain of about 3%."
+      ],
+      "whatHappened": [
+        "Even after a 2.3% jump, the S&P 500 remains roughly 3.4% below its Oct. 6 record. The [[VIX]], the market's fear gauge, sat near 20. Small caps outperformed, with the Russell 2000 up about 3%, while Nvidia moved against the rally. Because the percentages come from secondary reports, treat them as approximate."
+      ],
+      "background": [
+        "The index fell about 2.7% last week, its worst since June, then recovered most of that in a day."
+      ],
+      "whyItMatters": [
+        "Where the VIX goes after CPI is the cleanest read on whether dip-buying persists or fear returns."
+      ],
+      "grandLine": {
+        "title": "Nami reads the sky",
+        "body": "Nami reads small signs in the air before committing to a heading. The VIX near 20 is a small sign: not a hurricane, but not clear skies either."
+      },
+      "views": [
+        {
+          "camp": "Calm returning",
+          "thesis": "A VIX near 20 shows stress is fading.",
+          "argument": "Breadth and small caps are leading, which usually indicates risk appetite returning."
+        },
+        {
+          "camp": "Unfinished",
+          "thesis": "The index is still well below its high with big catalysts ahead.",
+          "argument": "CPI and Iran headlines could re-widen swings quickly."
+        }
+      ],
+      "interview": {
+        "question": "What does a VIX near 20 tell you?",
+        "answer": "That markets expect moderate daily swings, about 1.25% a day on the S&P annualized, and that fear has cooled from last week. I'd watch whether it stays under 20 after CPI.",
+        "followUp": {
+          "question": "What's the VIX?",
+          "answer": "The market's expected 30-day volatility of the S&P 500, derived from options prices."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "VIX",
+          "definition": "An index of expected S&P 500 volatility over the next 30 days, derived from options prices; higher means more fear.",
+          "example": "The VIX was near 20 on Monday."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Tue Nov 10",
+          "what": "CPI and the VIX reaction."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Bloomberg via BNN: US stocks rally as oil prices swing lower",
+          "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/09/world-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/"
+        },
+        {
+          "name": "Pulsafi: Today's market pulse, Nov. 9, 2026",
+          "url": "https://www.pulsafi.com/market-today"
+        }
+      ]
+    },
+    {
+      "developing": true,
+      "publishedAt": "2026-11-09T17:45:00-05:00",
+      "updatedAt": "2026-11-09T17:45:00-05:00",
+      "id": "cpi-october-2026-preview",
+      "beat": "fed-macro",
+      "importance": 3,
+      "depth": "brief",
+      "readMinutes": 2,
+      "headline": "October CPI is due Tuesday at 8:30am ET, with the Fed's December hike about 80% priced",
+      "dek": "A TD Securities forecast has headline CPI up 0.30% and core up 0.21% for the month; September's 3.7% y/y was hotter than expected.",
+      "tldr": [
+        "October CPI comes out **Tuesday, Nov. 10, at 8:30am ET**.",
+        "TD Securities (Oct. 19 note) forecast **+0.30%** headline and **+0.21%** core month over month; I did not find a newer consensus.",
+        "September CPI was **3.7%** y/y vs. 3.6% expected."
+      ],
+      "whatHappened": [
+        "The October consumer price report is scheduled for Tuesday at 8:30am ET, per several economic calendars. The most specific forecast I found is from TD Securities, dated Oct. 19: headline CPI +0.30% month over month, slowing from September's 0.65%, and [[core|core CPI]] +0.21% versus 0.33%. Because that [[consensus|consensus]] proxy is three weeks old and oil has since moved a lot, treat it as a baseline rather than consensus. September CPI rose 3.7% from a year earlier, above the 3.6% economists expected. After Friday's strong payrolls, markets priced a December hike at about 80%."
+      ],
+      "background": [
+        "Gasoline drove most of the September inflation jump, so October's number depends on how much of the energy move passed through. Oil has since fallen about 16% in a week, which will show up in November's CPI more than October's."
+      ],
+      "whyItMatters": [
+        "A hot core print would cement the December hike. A soft one would revive the argument that lower oil lets the Fed wait. Either way the surprise versus consensus drives the 2-year yield."
+      ],
+      "grandLine": {
+        "title": "Akainu's Absolute Justice",
+        "body": "Akainu will accept heavy collateral damage to stamp out any trace of the threat. A Fed that hikes into an energy shock is the same logic: inflation is the enemy, and overtightening is the collateral damage. A hot CPI strengthens Akainu's hand."
+      },
+      "views": [
+        {
+          "camp": "Hot print, hike confirmed",
+          "thesis": "Core inflation is too sticky to pause.",
+          "argument": "With payrolls strong, a firm core number would confirm that second-round effects are building."
+        },
+        {
+          "camp": "Oil will cool it",
+          "thesis": "Falling oil argues for patience.",
+          "argument": "Brent is down sharply from its peak, so headline inflation should ease in coming months and the Fed can watch."
+        }
+      ],
+      "interview": {
+        "question": "CPI is tomorrow. How do you position?",
+        "answer": "Light, because the hike is already about 80% priced and the oil drop is a countervailing force. I'd focus on core versus the forecast and on shelter and services. A hot core print pushes the 2-year higher; a soft one pulls it down.",
+        "followUp": {
+          "question": "Why watch core?",
+          "answer": "Core strips out food and energy, which are volatile, and shows underlying price pressure."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "core CPI",
+          "definition": "Consumer prices excluding food and energy; a cleaner read on underlying inflation."
+        },
+        {
+          "term": "consensus",
+          "definition": "The average economist forecast for a data release; markets move on the surprise."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Tue Nov 10, 8:30 AM ET",
+          "what": "October CPI."
         },
         {
           "when": "Dec 8–9",
-          "what": "FOMC, with a hike about 80% priced."
+          "what": "FOMC decision and dot plot."
         }
       ],
       "sources": [
         {
-          "name": "Yahoo Finance: Nasdaq and S&P 500 rebound, Dow slips to cap a bruising week for AI stocks",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
+          "name": "FXStreet: United States, October inflation seen cooling (TD Securities)",
+          "url": "https://www.fxstreet.com/news/united-states-october-inflation-seen-cooling-td-securities-202610191339"
         },
         {
-          "name": "AP Closing Bell: AI stocks halt their brutal worldwide sell-off",
-          "url": "https://www.947qdr.com/2026/11/06/ai-stocks-halt-their-brutal-worldwide-sell-off-as-wall-street-trims-its-loss-for-the-week/"
+          "name": "InvestingLive: US September CPI 3.7% vs 3.6% expected",
+          "url": "https://investinglive.com/news/us-september-cpi-vs-3-6-expected-0/"
         },
         {
-          "name": "Alain Guillot: Stock market recap, Nov. 6, 2026",
-          "url": "https://www.alainguillot.com/stock-market-recap-november-6-2026/"
+          "name": "Finance Calendar: US CPI report November 2026",
+          "url": "https://www.financecalendar.com/event/us-cpi-report-november-2026/"
+        }
+      ]
+    },
+    {
+      "developing": true,
+      "publishedAt": "2026-11-09T17:45:00-05:00",
+      "updatedAt": "2026-11-09T17:45:00-05:00",
+      "id": "us-iran-posture-after-midterms",
+      "beat": "policy",
+      "importance": 3,
+      "depth": "brief",
+      "readMinutes": 2,
+      "headline": "Trump says new Iran strikes are unlikely after the midterms as the White House eyes a deal",
+      "dek": "Vice President Vance tied the GOP's losses to the war, and Trump said he's in no rush; the military option remains open.",
+      "tldr": [
+        "Trump told Axios last week he is in **'no rush'** to resume strikes; CNN reports he now calls new attacks **'highly unlikely'** if Tehran makes progress.",
+        "Vice President Vance tied Republican losses to the Iran war, which reports described as a key catalyst for oil's plunge.",
+        "NYT reported US forces have plans ready for strikes on nuclear, missile and energy facilities if talks fail."
+      ],
+      "whatHappened": [
+        "After Democrats won Congress, the administration's tone on Iran softened. Trump told Axios on Nov. 2 he was in 'no rush' to decide on resuming strikes, and CNN's Nov. 9 explainer reports he now calls renewed attacks 'highly unlikely' if Tehran makes progress on its nuclear program and on reopening Hormuz, while keeping the military option on the table. Vance publicly tied the GOP losses to the war. Reports also say the military has options ready for nuclear, missile and energy targets if talks collapse. I found no signed agreement."
+      ],
+      "background": [
+        "The war began Feb. 28. A June memorandum collapsed in July, and the US imposed a naval blockade on Iranian ports. Domestic politics now push toward a deal, while allies such as Israel have reportedly urged action."
+      ],
+      "whyItMatters": [
+        "US posture is the main swing factor for oil and risk assets. A credible commitment to diplomacy lowers the [[risk premium]]; a breakdown would raise it fast."
+      ],
+      "grandLine": {
+        "title": "Bounty posters vs. an Admiral",
+        "body": "The World Government warns with bounty posters first and sends an Admiral only if warnings are ignored. 'Highly unlikely' is the poster stage: the fleet hasn't sailed, but the posters stay on the wall."
+      },
+      "views": [
+        {
+          "camp": "Deal incentive",
+          "thesis": "Politics now favor a settlement.",
+          "argument": "After the midterm rebuke the administration has reasons to avoid a wider war and oil prices have been a political cost."
         },
         {
-          "name": "CoinCentral: Nasdaq ends week 3.4% lower despite Friday tech rebound",
-          "url": "https://coincentral.com/nasdaq-ends-week-3-4-lower-despite-friday-tech-rebound-as-jobs-data-tops-forecasts"
+          "camp": "Hedge the threat",
+          "thesis": "Strikes remain a live option.",
+          "argument": "Military plans are ready, Israel pressed for action, and Trump has kept the option open."
+        }
+      ],
+      "interview": {
+        "question": "How does US politics affect the Iran trade?",
+        "answer": "The midterms shifted incentives toward diplomacy, which compressed oil's risk premium. I'd still hedge for headline risk, since the option for strikes remains and talks are fragile.",
+        "followUp": {
+          "question": "What would flip the view?",
+          "answer": "Talks collapsing or renewed attacks on shipping."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "risk premium",
+          "definition": "Extra price for uncertainty over supply or policy; it shrinks when risk recedes."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "This week",
+          "what": "Any announcement from Qatar-led talks or new strike signals."
+        }
+      ],
+      "sources": [
+        {
+          "name": "CNN: US and Iran are quietly negotiating as the Middle East remains on edge",
+          "url": "https://www.cnn.com/2026/11/09/middleeast/iran-us-talks-explainer-intl"
+        },
+        {
+          "name": "Axios: Trump says 'no rush' to decide on bombing Iran again",
+          "url": "https://www.axios.com/2026/11/02/trump-axios-interview-no-rush-resume-war"
+        },
+        {
+          "name": "CNBC: Crude oil falls below $90 as Vance blames GOP defeat on Iran war",
+          "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
+        }
+      ]
+    },
+    {
+      "developing": false,
+      "publishedAt": "2026-11-09T17:45:00-05:00",
+      "updatedAt": "2026-11-09T17:45:00-05:00",
+      "id": "world-krakow-shooting-nov-2026",
+      "beat": "world",
+      "importance": 3,
+      "depth": "brief",
+      "readMinutes": 2,
+      "headline": "Gunman kills six and wounds about 15 in Krakow's Main Market Square",
+      "dek": "Police arrested the 25-year-old attacker; Poland's interior minister said he held far-right views and the defense minister called it an act of terror.",
+      "tldr": [
+        "On Saturday, Nov. 7, a gunman fired from a moving car into Krakow's Main Market Square, killing **six** and wounding about **15–16**.",
+        "Police shot and arrested the attacker, a 25-year-old Polish citizen, and say he acted alone.",
+        "Authorities describe an ultra-nationalist motive; Krakow declared mourning until Wednesday."
+      ],
+      "whatHappened": [
+        "A gunman opened fire in Krakow's central square, one of Poland's busiest tourist areas, on Saturday afternoon. Six people were killed (four women and two men) and roughly 15 to 16 were wounded, thirteen of them seriously, including one foreign national; two officers were hurt. Police shot and arrested the suspect, a [[lone attacker|lone actor]] by their account, a Polish citizen reported to be 25. Interior Minister Marcin Kierwiński said the man was fascinated with far-right, ultra-nationalist ideas. Defense Minister Władysław Kosiniak-Kamysz called it an act of terror, and Prime Minister Donald Tusk said police were investigating. Krakow's mayor announced mourning until Wednesday. Mass shootings are rare in Poland, and details of the motive were still being confirmed."
+      ],
+      "background": [
+        "Poland has some of Europe's strictest gun laws, so an attack like this prompts questions about how the suspect obtained a weapon and about the radicalization of young men online. Poland is also a frontline NATO state on Ukraine's border, so security incidents get heavy political attention."
+      ],
+      "whyItMatters": [
+        "This is a news item, not a market story. The relevant watch points are Poland's security response and any political fallout in a country with a tense domestic debate."
+      ],
+      "views": [
+        {
+          "camp": "Lone attacker",
+          "thesis": "Police say he acted alone.",
+          "argument": "Authorities believe there was no wider network, which points to a lone actor driven by ideology."
+        },
+        {
+          "camp": "Systemic questions",
+          "thesis": "The attack raises wider policy questions.",
+          "argument": "The suspect's far-right views and access to a weapon will fuel debate over radicalization and gun control."
+        }
+      ],
+      "interview": {
+        "question": "Why is a Krakow shooting in a markets briefing?",
+        "answer": "Mostly it isn't; it's the world section. The takeaway is context for Polish politics and European security, with no direct market impact so far.",
+        "followUp": {
+          "question": "What would make it market-relevant?",
+          "answer": "Major political instability or a broad security response affecting Poland's markets."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "lone actor",
+          "definition": "An attacker who plans and carries out violence without direction from a wider group."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "This week",
+          "what": "The investigation's findings on motive and how the weapon was obtained."
+        }
+      ],
+      "sources": [
+        {
+          "name": "The New Daily: Poland shooting, six dead",
+          "url": "https://www.thenewdaily.com.au/news/world/europe-news/2026/11/08/poland-shooting-six-dead"
+        },
+        {
+          "name": "AP via The Week: Gunman who killed 6 in Krakow was fascinated with far-right views",
+          "url": "https://www.theweek.in/wire-updates/international/2026/11/08/gunman-who-killed-6-in-poland-s-krakow-was-fascinated-with-far-right-views-minister-says.html"
+        },
+        {
+          "name": "NPR via KPCW: Gunman opens fire in Polish city of Krakow",
+          "url": "https://www.kpcw.org/npr-news/2026-11-07/gunman-opens-fire-in-polish-city-of-krakow-killing-6-people-and-injuring-15"
         }
       ]
     }
