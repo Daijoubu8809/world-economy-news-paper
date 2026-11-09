@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-09T17:45:00-05:00",
-  "checkedAt": "2026-11-09T17:45:00-05:00",
+  "publishedAt": "2026-11-09T18:53:00-05:00",
+  "checkedAt": "2026-11-09T18:53:00-05:00",
   "nextRunAt": "2026-11-10T06:52:00-05:00",
   "brief": {
     "title": "Dow +1,104 and oil down about 5% on Iran-diplomacy hopes, with CPI due Tuesday morning.",
@@ -604,21 +604,21 @@
     {
       "developing": true,
       "publishedAt": "2026-11-09T17:45:00-05:00",
-      "updatedAt": "2026-11-09T17:45:00-05:00",
+      "updatedAt": "2026-11-09T18:53:00-05:00",
       "id": "cpi-october-2026-preview",
       "beat": "fed-macro",
       "importance": 3,
       "depth": "brief",
       "readMinutes": 2,
       "headline": "October CPI is due Tuesday at 8:30am ET, with the Fed's December hike about 80% priced",
-      "dek": "A TD Securities forecast has headline CPI up 0.30% and core up 0.21% for the month; September's 3.7% y/y was hotter than expected.",
+      "dek": "Previews expect October inflation to soften (TD: headline +0.30%, core +0.21%), but a December hike still looks likely; September's 3.7% y/y was hotter than expected.",
       "tldr": [
         "October CPI comes out **Tuesday, Nov. 10, at 8:30am ET**.",
-        "TD Securities (Oct. 19 note) forecast **+0.30%** headline and **+0.21%** core month over month; I did not find a newer consensus.",
+        "Previews point to a softer month: TD Securities sees **+0.30%** headline and **+0.21%** core; Continuum Economics sees core near **0.2%** after two 0.3% gains.",
         "September CPI was **3.7%** y/y vs. 3.6% expected."
       ],
       "whatHappened": [
-        "The October consumer price report is scheduled for Tuesday at 8:30am ET, per several economic calendars. The most specific forecast I found is from TD Securities, dated Oct. 19: headline CPI +0.30% month over month, slowing from September's 0.65%, and [[core|core CPI]] +0.21% versus 0.33%. Because that [[consensus|consensus]] proxy is three weeks old and oil has since moved a lot, treat it as a baseline rather than consensus. September CPI rose 3.7% from a year earlier, above the 3.6% economists expected. After Friday's strong payrolls, markets priced a December hike at about 80%."
+        "The October consumer price report is scheduled for Tuesday at 8:30am ET, per several economic calendars. The most specific forecast I found is from TD Securities, dated Oct. 19: headline CPI +0.30% month over month, slowing from September's 0.65%, and [[core|core CPI]] +0.21% versus 0.33%. Because that [[consensus|consensus]] proxy is three weeks old and oil has since moved a lot, treat it as a baseline rather than consensus. September CPI rose 3.7% from a year earlier, above the 3.6% economists expected. After Friday's strong payrolls, markets priced a December hike at about 80%. Continuum Economics also expects a more moderate month, with core around 0.2% after two straight disappointing 0.3% prints, and Morningstar's roundup says forecasts show inflation softening while a December hike still looks likely."
       ],
       "background": [
         "Gasoline drove most of the September inflation jump, so October's number depends on how much of the energy move passed through. Oil has since fallen about 16% in a week, which will show up in November's CPI more than October's."
@@ -682,8 +682,17 @@
         {
           "name": "Finance Calendar: US CPI report November 2026",
           "url": "https://www.financecalendar.com/event/us-cpi-report-november-2026/"
+        },
+        {
+          "name": "Continuum Economics: Preview, due Nov. 10, US October CPI, a more moderate month",
+          "url": "https://continuumeconomics.com/a/1883e5a0/preview-due-november-10-us-october-cpi-a-more-moderate-month"
+        },
+        {
+          "name": "Morningstar: October CPI forecasts show inflation softening, but December hike still looks likely",
+          "url": "https://www.morningstar.com/economy/october-cpi-forecasts-show-inflation-softening-december-rate-hike-still-looks-likely"
         }
-      ]
+      ],
+      "updateNote": "Added Continuum and Morningstar previews: softer core expected."
     },
     {
       "developing": true,
