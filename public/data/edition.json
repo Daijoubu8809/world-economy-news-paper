@@ -1,41 +1,35 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-09T18:53:00-05:00",
-  "checkedAt": "2026-11-10T06:54:00-05:00",
-  "nextRunAt": "2026-11-10T18:52:00-05:00",
+  "publishedAt": "2026-11-10T18:55:00-05:00",
+  "checkedAt": "2026-11-10T18:55:00-05:00",
+  "nextRunAt": "2026-11-11T06:52:00-05:00",
   "brief": {
-    "title": "Dow +1,104 and oil down about 5% on Iran-diplomacy hopes, with CPI due Tuesday morning.",
+    "title": "Hot CPI sends the 10-year above 5% and puts a 50bp Fed hike in play, nudging stocks lower and Nvidia down again.",
     "bullets": [
-      "**Stocks:** Dow +1,104 to 52,389.75, S&P 500 +2.3% to 7,549.94, Nasdaq +2.7%; all 11 sectors up, small caps +3%. S&P still about 3.4% below its Oct. 6 high.",
-      "**Oil:** Brent near $93–97, WTI near $86–90 (about -5%), after a roughly 16% weekly drop, as Trump calls new Iran strikes unlikely. No deal signed.",
-      "**Macro:** October CPI Tuesday 8:30am ET; December Fed hike about 80% priced after Friday's +165k payrolls.",
-      "**World:** Six killed in a Krakow shooting Saturday; US and Iran negotiating quietly with neither side budging.",
-      "**Gaps today:** nothing fresh and verifiable on Industrials or Ukraine, so those beats are thin."
+      "**CPI:** October +0.4% (vs. ~0.3%), core +0.3% (vs. 0.2%) for a third straight month; BLS has no year-over-year figure because of the 2025 shutdown gap.",
+      "**Fed:** Waller had said core 0.3%+ would justify considering 50bp in December; a 25bp hike is near-certain and 50bp odds are roughly 10–14%.",
+      "**Rates:** The 10-year topped 5% (+~15bp) and the 2-year rose 14–19bp.",
+      "**Stocks:** Dow -0.3% to 52,233.32, S&P 500 -0.4% to 7,521.11, Nasdaq about -0.7%; Nvidia about -5%. Monday: Dow +1,104 as oil fell.",
+      "**World/oil:** Iran talks quiet with no breakthrough; I couldn't confirm Tuesday's oil settle."
     ],
-    "mood": "The Calm Belt lifted for stocks and the Aqua Laguna of oil drained again, with Akainu's CPI verdict due at 8:30."
+    "mood": "Akainu's CPI verdict landed: the Calm Belt from Monday's rally is gone, and the Log Pose points toward a bigger hike."
   },
   "mustKnow": [
-    "dow-1104-points-oil-slides-nov-9-2026",
-    "oil-brent-115-hormuz",
-    "cpi-october-2026-preview"
+    "cpi-october-2026-preview",
+    "hot-cpi-stocks-slip-10yr-above-5-nov-10-2026",
+    "oil-brent-115-hormuz"
   ],
   "calendar": [
     {
-      "date": "2026-11-10",
-      "time": "8:30 AM ET",
-      "label": "October CPI",
-      "why": "The Fed's December hike is about 80% priced; core is the key number."
-    },
-    {
       "date": "2026-11-11",
       "label": "Veterans Day (US bond market closed)",
-      "why": "Treasuries trade on a holiday schedule while stocks stay open."
+      "why": "Treasuries trade on a holiday schedule while stocks stay open; rates liquidity is thin after CPI."
     },
     {
       "date": "2026-11-18",
       "time": "2:00 PM ET",
       "label": "FOMC minutes (October meeting)",
-      "why": "How many officials leaned toward the two hawkish dissenters."
+      "why": "How many officials leaned toward the two hawkish dissenters, and how they view a 50bp move."
     },
     {
       "date": "2026-11-26",
@@ -51,7 +45,7 @@
       "date": "2026-12-09",
       "time": "2:00 PM ET",
       "label": "FOMC decision + dot plot",
-      "why": "A December hike is roughly 80% priced."
+      "why": "A 25bp hike is near-certain; the debate is whether it is 50bp."
     }
   ],
   "stories": [
@@ -229,20 +223,20 @@
       "depth": "brief",
       "developing": true,
       "publishedAt": "2026-11-06T06:56:00-05:00",
-      "updatedAt": "2026-11-09T17:45:00-05:00",
+      "updatedAt": "2026-11-10T18:55:00-05:00",
       "readMinutes": 2,
       "id": "fed-december-hike-debate-warsh",
       "beat": "fed-macro",
-      "headline": "Fed's December hike is about 80% priced after strong payrolls, with CPI due Tuesday",
-      "dek": "The Fed held at 3.75%–4.00% on Oct. 28 with two dissents for a hike. Falling oil and a stock rebound cut against it; October CPI is the next test.",
+      "headline": "After hot CPI, a December hike is near-certain and a 50bp move is in play, with Waller leading the case",
+      "dek": "The Fed held at 3.75%–4.00% on Oct. 28 with two dissents for a hike; Tuesday's 0.3% core print hit the marker Governor Waller set for a bigger move.",
       "importance": 3,
       "tldr": [
-        "The Fed held at **3.75%–4.00%** on Oct. 28 with two dissents in favor of a hike.",
-        "Odds of a December hike were about **80%** after Friday's +165,000 payrolls; oil's roughly 16% weekly drop is the counterweight.",
-        "October CPI is due **Tuesday at 8:30am ET**."
+        "Waller said a 50bp December hike should be considered if October core CPI hit 0.3%; core came in at **0.3%** (about 0.297% unrounded).",
+        "A **25bp** December hike is now seen as close to certain in some estimates (about 100%, from 84%); odds of **50bp** run roughly **10%–14%** depending on the source.",
+        "Chair Kevin Warsh has kept his communication guarded; the minutes on Nov. 18 and the Dec. 8–9 meeting are the next tests."
       ],
       "whatHappened": [
-        "At the Oct. 28 meeting the Fed held its target range at 3.75%–4.00%. Two officials registered a [[dissent]] in favor of a hike. At his press conference, Chair Kevin Warsh offered a measured read on the economy, citing low jobless claims, and kept a December move on the table without committing to it. Since then, hike odds have swung with oil and data: sources put a December quarter-point hike at anywhere from about two-thirds to 80%. The sources use different snapshots, so treat the figure as a range."
+        "The Fed held its target range at 3.75%–4.00% on Oct. 28 with two officials [[dissenting|dissent]] in favor of a hike. Governor Christopher Waller had since said that a 0.3% or higher core CPI in October would justify considering a 50bp hike in December, while backing at least 25bp regardless. Tuesday's core CPI printed 0.3% (about 0.297% unrounded), and market estimates for a December hike of at least 25bp rose to near-certain in some measures, with 50bp odds at roughly 10% to 14%. Chair Warsh has not signaled a bigger move, and the sources I found differ on exact odds, so treat them as a range."
       ],
       "background": [
         "The Fed hiked in September after months of energy-driven inflation, and it is trying to avoid a repeat of the 1970s, when inflation expectations became unanchored. Warsh's style is to guard his communication, so markets read the dissents and the data rather than any explicit signal."
@@ -301,27 +295,27 @@
       ],
       "sources": [
         {
+          "name": "CNBC: Market spooked because now the Fed may need a supersized hike in December",
+          "url": "https://www.cnbc.com/2026/11/10/market-spooked-because-now-the-fed-may-need-a-supersized-hike-in-december.html"
+        },
+        {
+          "name": "InvestingLive: Hot US CPI puts a bigger Fed hike in play",
+          "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-10-nov-it-s-a-wrap-hot-us-cpi-puts-a-bigger-fed-hike-in-play/"
+        },
+        {
+          "name": "Morningstar: October CPI shows inflation at a 0.4% monthly rate, above forecasts",
+          "url": "https://www.morningstar.com/economy/october-cpi-report-shows-inflation-04-monthly-rate-above-forecasts"
+        },
+        {
           "name": "InvestingLive: What could stop the Fed raising rates in December?",
           "url": "https://investinglive.com/education/what-could-stop-the-fed-raising-rates-in-december"
         },
         {
           "name": "Yahoo Finance: The jobs report and Fed chair Kevin Warsh's new playbook",
           "url": "https://finance.yahoo.com/economy/article/the-jobs-report-just-put-fed-chair-kevin-warshs-new-playbook-to-work-one-big-investment-idea-202600654.html"
-        },
-        {
-          "name": "Briefs: Warsh keeps December hike in play, leans hawkish without hard commitment",
-          "url": "https://www.briefs.co/news/warsh-keeps-december-hike-in-play-leans-hawkish-without-hard/"
-        },
-        {
-          "name": "Invezz: Fed rate hike odds jump after October jobs report as officials signal more tightening",
-          "url": "https://invezz.com/news/2026/11/06/fed-rate-hike-odds-jump-after-october-jobs-report-as-officials-signal-more-tightening/"
-        },
-        {
-          "name": "Invezz: Fed rate hike odds jump after October jobs report",
-          "url": "https://invezz.com/news/2026/11/06/fed-rate-hike-odds-jump-after-october-jobs-report-as-officials-signal-more-tightening/"
         }
       ],
-      "updateNote": "Reframed around Tuesday's CPI and Monday's oil drop."
+      "updateNote": "Rewritten around Waller's 50bp marker and the hot CPI."
     },
     {
       "depth": "brief",
@@ -529,170 +523,146 @@
       }
     },
     {
-      "developing": false,
-      "publishedAt": "2026-11-09T17:45:00-05:00",
-      "updatedAt": "2026-11-09T17:45:00-05:00",
-      "id": "s-and-p-breadth-vix-nov-9-2026",
-      "beat": "markets",
-      "importance": 2,
-      "depth": "brief",
-      "readMinutes": 1,
-      "headline": "The S&P 500 is still about 3.4% below its high after Monday's rally, with the VIX near 20",
-      "dek": "Small caps and cyclicals led the bounce, but a retest depends on Tuesday's CPI and the oil price.",
-      "tldr": [
-        "The S&P 500 closed at **7,549.94**, about **3.4% below its Oct. 6 high**.",
-        "The **VIX** was near 20, elevated but not in panic territory.",
-        "The **Russell 2000** led with a gain of about 3%."
-      ],
-      "whatHappened": [
-        "Even after a 2.3% jump, the S&P 500 remains roughly 3.4% below its Oct. 6 record. The [[VIX]], the market's fear gauge, sat near 20. Small caps outperformed, with the Russell 2000 up about 3%, while Nvidia moved against the rally. Because the percentages come from secondary reports, treat them as approximate."
-      ],
-      "background": [
-        "The index fell about 2.7% last week, its worst since June, then recovered most of that in a day."
-      ],
-      "whyItMatters": [
-        "Where the VIX goes after CPI is the cleanest read on whether dip-buying persists or fear returns."
-      ],
-      "grandLine": {
-        "title": "Nami reads the sky",
-        "body": "Nami reads small signs in the air before committing to a heading. The VIX near 20 is a small sign: not a hurricane, but not clear skies either."
-      },
-      "views": [
-        {
-          "camp": "Calm returning",
-          "thesis": "A VIX near 20 shows stress is fading.",
-          "argument": "Breadth and small caps are leading, which usually indicates risk appetite returning."
-        },
-        {
-          "camp": "Unfinished",
-          "thesis": "The index is still well below its high with big catalysts ahead.",
-          "argument": "CPI and Iran headlines could re-widen swings quickly."
-        }
-      ],
-      "interview": {
-        "question": "What does a VIX near 20 tell you?",
-        "answer": "That markets expect moderate daily swings, about 1.25% a day on the S&P annualized, and that fear has cooled from last week. I'd watch whether it stays under 20 after CPI.",
-        "followUp": {
-          "question": "What's the VIX?",
-          "answer": "The market's expected 30-day volatility of the S&P 500, derived from options prices."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "VIX",
-          "definition": "An index of expected S&P 500 volatility over the next 30 days, derived from options prices; higher means more fear.",
-          "example": "The VIX was near 20 on Monday."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Tue Nov 10",
-          "what": "CPI and the VIX reaction."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Bloomberg via BNN: US stocks rally as oil prices swing lower",
-          "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/09/world-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/"
-        },
-        {
-          "name": "Pulsafi: Today's market pulse, Nov. 9, 2026",
-          "url": "https://www.pulsafi.com/market-today"
-        }
-      ]
-    },
-    {
       "developing": true,
       "publishedAt": "2026-11-09T17:45:00-05:00",
-      "updatedAt": "2026-11-09T18:53:00-05:00",
+      "updatedAt": "2026-11-10T18:55:00-05:00",
       "id": "cpi-october-2026-preview",
       "beat": "fed-macro",
-      "importance": 3,
-      "depth": "brief",
-      "readMinutes": 2,
-      "headline": "October CPI is due Tuesday at 8:30am ET, with the Fed's December hike about 80% priced",
-      "dek": "Previews expect October inflation to soften (TD: headline +0.30%, core +0.21%), but a December hike still looks likely; September's 3.7% y/y was hotter than expected.",
+      "importance": 5,
+      "depth": "full",
+      "readMinutes": 5,
+      "headline": "October CPI rises 0.4%, hotter than expected, with core up 0.3% for a third straight month",
+      "dek": "The hot print keeps a December hike near-certain and puts a 50bp move on the table after Fed Governor Waller's marker; BLS has no year-over-year figure because of last year's shutdown gap.",
       "tldr": [
-        "October CPI comes out **Tuesday, Nov. 10, at 8:30am ET**.",
-        "Previews point to a softer month: TD Securities sees **+0.30%** headline and **+0.21%** core; Continuum Economics sees core near **0.2%** after two 0.3% gains.",
-        "September CPI was **3.7%** y/y vs. 3.6% expected."
+        "Headline CPI rose **0.4%** in October vs. about **0.3%** expected (forecasts ran 0.2%–0.3%); **core rose 0.3%** (unrounded about 0.297%) vs. 0.2% expected, the third straight 0.3%.",
+        "Gasoline rose 1% after September's 9.1% jump; recreation, medical care, car insurance and airline fares pushed core higher.",
+        "BLS has **no year-over-year figure** for October (no prices were collected in October 2025 during the shutdown); an Axios estimate puts it near 4%, or 2.8% excluding food and energy."
       ],
       "whatHappened": [
-        "The October consumer price report is scheduled for Tuesday at 8:30am ET, per several economic calendars. The most specific forecast I found is from TD Securities, dated Oct. 19: headline CPI +0.30% month over month, slowing from September's 0.65%, and [[core|core CPI]] +0.21% versus 0.33%. Because that [[consensus|consensus]] proxy is three weeks old and oil has since moved a lot, treat it as a baseline rather than consensus. September CPI rose 3.7% from a year earlier, above the 3.6% economists expected. After Friday's strong payrolls, markets priced a December hike at about 80%. Continuum Economics also expects a more moderate month, with core around 0.2% after two straight disappointing 0.3% prints, and Morningstar's roundup says forecasts show inflation softening while a December hike still looks likely."
+        "The Bureau of Labor Statistics reported that consumer prices rose 0.4% in October, above the 0.3% consensus. [[core CPI|Core CPI]], which excludes food and energy, rose 0.3% against an expected 0.2%, the third straight month at that pace (the unrounded figure was about 0.297%). Gasoline rose 1%, a sharp slowdown from September's 9.1%, but recreation, medical care, car insurance and airline fares lifted core, and food and rent costs also rose.",
+        "One quirk: BLS did not collect prices in October 2025 because of the government shutdown, so there is no official year-over-year rate for October. Axios estimated, assuming October 2025 prices were halfway between September and November, that annual inflation is about 4%, or 2.8% excluding food and energy. That is an estimate, not a BLS number.",
+        "Why markets cared: Fed Governor Christopher Waller had said a 50-[[basis-point|basis points]] hike should be considered at the December meeting if core CPI rose 0.3% or more, and reports note he still backed at least a 25bp hike either way. The print landed right on his marker. Estimates of a [[50bp December move|supersized hike]] jumped from about 1% to roughly 10%–14% depending on the source, while a 25bp hike became close to fully priced, and Treasury yields rose sharply (see below)."
       ],
       "background": [
-        "Gasoline drove most of the September inflation jump, so October's number depends on how much of the energy move passed through. Oil has since fallen about 16% in a week, which will show up in November's CPI more than October's."
+        "Inflation had been running hot on the energy shock, and the Fed hiked in September and held at 3.75%–4.00% on Oct. 28 with two officials dissenting for a hike. This was the last CPI before the Dec. 8–9 meeting, which is why a 0.3% core print carries so much weight: it is the third straight month, and it ends the hope that oil's slide would take the pressure off quickly."
       ],
       "whyItMatters": [
-        "A hot core print would cement the December hike. A soft one would revive the argument that lower oil lets the Fed wait. Either way the surprise versus consensus drives the 2-year yield."
+        "The curve repriced up: the 2-year, which tracks the expected policy path, moved the most, and the 10-year closed back above 5%. A bigger hike would pressure long-duration assets such as tech, which fits with Nvidia's drop. The counterweight is oil, down sharply over two weeks, which should show up in November's gasoline number."
       ],
       "grandLine": {
         "title": "Akainu's Absolute Justice",
-        "body": "Akainu will accept heavy collateral damage to stamp out any trace of the threat. A Fed that hikes into an energy shock is the same logic: inflation is the enemy, and overtightening is the collateral damage. A hot CPI strengthens Akainu's hand."
+        "body": "Akainu accepts heavy collateral damage to stamp out any trace of the threat. A Fed weighing a 50bp hike into an energy shock has the same logic: inflation is the enemy, and overtightening is the collateral damage. Waller's 0.3% marker is the Admiral's trigger, and the print hit it."
       },
       "views": [
         {
-          "camp": "Hot print, hike confirmed",
-          "thesis": "Core inflation is too sticky to pause.",
-          "argument": "With payrolls strong, a firm core number would confirm that second-round effects are building."
+          "camp": "Supersize it",
+          "thesis": "Three straight 0.3% core prints justify a 50bp December move.",
+          "argument": "Core has stayed at 0.3% for three months, the labor market is strong (payrolls +165,000), and Waller has already named 50bp as the response to exactly this print.",
+          "who": "Fed Governor Christopher Waller, per reports of his remarks."
         },
         {
-          "camp": "Oil will cool it",
-          "thesis": "Falling oil argues for patience.",
-          "argument": "Brent is down sharply from its peak, so headline inflation should ease in coming months and the Fed can watch."
+          "camp": "25bp and watch oil",
+          "thesis": "A quarter-point is enough while oil falls.",
+          "argument": "Gasoline slowed to +1% in October, Brent is down sharply from its peak, and even Waller backed only 25bp as a floor. A 50bp move risks overtightening into a supply shock."
         }
       ],
       "interview": {
-        "question": "CPI is tomorrow. How do you position?",
-        "answer": "Light, because the hike is already about 80% priced and the oil drop is a countervailing force. I'd focus on core versus the forecast and on shelter and services. A hot core print pushes the 2-year higher; a soft one pulls it down.",
+        "question": "CPI came in at 0.4% headline and 0.3% core, above expectations. What do you do?",
+        "answer": "The 25bp December hike is close to fully priced, so the question is 50bp. Core at 0.3% for a third month and Waller's marker make a bigger hike live, and the 2-year yield moved the most, up 14 to 19bp. My view is to be short the front end into the December meeting but size small, since oil is falling and a lot is priced. What changes my mind is a soft November core or a sharp further drop in oil.",
         "followUp": {
-          "question": "Why watch core?",
-          "answer": "Core strips out food and energy, which are volatile, and shows underlying price pressure."
+          "question": "Why is there no year-over-year number?",
+          "answer": "BLS didn't collect October 2025 prices during the shutdown, so there's no clean base for comparison; analysts like Axios estimate around 4%."
         }
       },
       "keyTerms": [
         {
           "term": "core CPI",
-          "definition": "Consumer prices excluding food and energy; a cleaner read on underlying inflation."
+          "definition": "Consumer prices excluding food and energy; a cleaner read on underlying inflation.",
+          "example": "Core rose 0.3% in October."
         },
         {
-          "term": "consensus",
-          "definition": "The average economist forecast for a data release; markets move on the surprise."
+          "term": "basis points",
+          "definition": "One hundredth of a percentage point. A 50bp hike is a half-point move, double the usual 25bp.",
+          "example": "Waller floated 50bp if core hit 0.3%."
+        },
+        {
+          "term": "supersized hike",
+          "definition": "A rate increase larger than the standard 25 basis points, usually 50bp, used to move faster against inflation."
         }
       ],
       "watchNext": [
         {
-          "when": "Tue Nov 10, 8:30 AM ET",
-          "what": "October CPI."
+          "when": "Wed Nov 11",
+          "what": "US bond market closed for Veterans Day; stocks open."
+        },
+        {
+          "when": "Nov 18, 2:00 PM ET",
+          "what": "FOMC minutes from October."
         },
         {
           "when": "Dec 8–9",
-          "what": "FOMC decision and dot plot."
+          "what": "FOMC decision, with 25bp near-certain and 50bp the debate."
         }
       ],
       "sources": [
         {
-          "name": "FXStreet: United States, October inflation seen cooling (TD Securities)",
-          "url": "https://www.fxstreet.com/news/united-states-october-inflation-seen-cooling-td-securities-202610191339"
+          "name": "Morningstar: October CPI shows inflation at a 0.4% monthly rate, above forecasts",
+          "url": "https://www.morningstar.com/economy/october-cpi-report-shows-inflation-04-monthly-rate-above-forecasts"
         },
         {
-          "name": "InvestingLive: US September CPI 3.7% vs 3.6% expected",
-          "url": "https://investinglive.com/news/us-september-cpi-vs-3-6-expected-0/"
+          "name": "CNBC: Consumer prices rose 0.4% in October, more than expected",
+          "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
         },
         {
-          "name": "Finance Calendar: US CPI report November 2026",
-          "url": "https://www.financecalendar.com/event/us-cpi-report-november-2026/"
+          "name": "Axios: Price pressures persisted in October",
+          "url": "https://www.axios.com/2026/11/10/cpi-october-inflation-fed"
         },
         {
-          "name": "Continuum Economics: Preview, due Nov. 10, US October CPI, a more moderate month",
-          "url": "https://continuumeconomics.com/a/1883e5a0/preview-due-november-10-us-october-cpi-a-more-moderate-month"
+          "name": "FXStreet: US CPI rises 0.4% m/m in October vs. 0.3% expected",
+          "url": "https://www.fxstreet.com/news/us-cpi-data-set-to-ease-in-october-as-markets-reassess-fed-rate-hike-expectations-202611100930"
         },
         {
-          "name": "Morningstar: October CPI forecasts show inflation softening, but December hike still looks likely",
-          "url": "https://www.morningstar.com/economy/october-cpi-forecasts-show-inflation-softening-december-rate-hike-still-looks-likely"
+          "name": "CNBC: Market spooked because now the Fed may need a supersized hike in December",
+          "url": "https://www.cnbc.com/2026/11/10/market-spooked-because-now-the-fed-may-need-a-supersized-hike-in-december.html"
+        },
+        {
+          "name": "InvestingLive: Hot US CPI puts a bigger Fed hike in play",
+          "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-10-nov-it-s-a-wrap-hot-us-cpi-puts-a-bigger-fed-hike-in-play/"
         }
       ],
-      "updateNote": "Added Continuum and Morningstar previews: softer core expected."
+      "updateNote": "Replaced the preview with the actual October CPI result and market reaction.",
+      "marketReaction": [
+        {
+          "asset": "Headline CPI m/m",
+          "move": "+0.4% (vs. ~0.3%)",
+          "direction": "up"
+        },
+        {
+          "asset": "Core CPI m/m",
+          "move": "+0.3% (vs. 0.2%)",
+          "direction": "up"
+        },
+        {
+          "asset": "10Y Treasury yield",
+          "move": "~5.0% (+~15bp)",
+          "direction": "up"
+        },
+        {
+          "asset": "2Y Treasury yield",
+          "move": "~4.69–4.74% (+14–19bp)",
+          "direction": "up"
+        }
+      ],
+      "trade": {
+        "idea": "Short the 2-year into a possible 50bp hike",
+        "expression": "Short 2Y Treasury note futures (or pay 2Y SOFR), sized by DV01",
+        "rationale": "If the Fed accelerates to 50bp, the front end has to reprice above today's roughly 4.7%. The 2-year is the cleanest expression of the policy-path view. Interview framing, not advice.",
+        "risks": [
+          "Oil keeps falling and November's inflation cools, pulling hike odds back down.",
+          "A 25bp hike is already near fully priced, so upside is limited.",
+          "Equity stress or growth scare triggers a rally in bonds."
+        ]
+      }
     },
     {
       "developing": true,
@@ -841,6 +811,106 @@
           "url": "https://www.kpcw.org/npr-news/2026-11-07/gunman-opens-fire-in-polish-city-of-krakow-killing-6-people-and-injuring-15"
         }
       ]
+    },
+    {
+      "id": "hot-cpi-stocks-slip-10yr-above-5-nov-10-2026",
+      "beat": "markets",
+      "importance": 4,
+      "depth": "full",
+      "developing": true,
+      "publishedAt": "2026-11-10T18:55:00-05:00",
+      "updatedAt": "2026-11-10T18:55:00-05:00",
+      "readMinutes": 3,
+      "headline": "Stocks slip after hot CPI as the 10-year yield tops 5% and Nvidia falls nearly 5%",
+      "dek": "The Dow fell 0.3% and the S&P 500 0.4% a day after a 2.3% rally, with the Nasdaq down about 0.7%; Treasury yields rose sharply on bets for a bigger Fed hike.",
+      "tldr": [
+        "Tuesday close: **Dow -0.30% to 52,233.32**, **S&P 500 -0.38% to 7,521.11**, **Nasdaq about -0.7%**; some outlets show slightly smaller declines.",
+        "The **10-year yield rose to about 5.0%** and the 2-year jumped 14–19bp after hot CPI put a 50bp December hike in play.",
+        "Nvidia fell about **5%** at the close, for a second straight day of heavy selling."
+      ],
+      "whatHappened": [
+        "Stocks gave back part of Monday's rally after the October CPI came in hotter than expected. At the close, Investing.com had the Dow down 0.30% at 52,233.32 and the S&P 500 down 0.38% at 7,521.11, and the Nasdaq Composite fell about 0.7% (Yahoo Finance and Investing.com); a 24/7 Wall St. close showed somewhat smaller declines, so treat the percentages as approximate. Nvidia fell about 5% by the close, weighing on tech, and energy held up best among sectors while utilities and materials lagged.",
+        "Rates moved more than stocks: the 10-year Treasury yield rose about 15bp to roughly 5.0% and the 2-year rose 14 to 19bp depending on the source, as traders added bets that the Fed could hike by 50bp in December. I could not verify Tuesday's oil settle or the dollar."
+      ],
+      "background": [
+        "Monday's rally was fueled by oil falling on Iran-diplomacy hopes; Tuesday's CPI reminded markets that core inflation hasn't cooled. The S&P 500 was still about 3.7% below its Oct. 6 high after the drop."
+      ],
+      "whyItMatters": [
+        "When yields rise toward 5%, long-[[duration]] assets such as tech get repriced because future earnings are discounted at a higher [[discount rate]]. That is the link between a CPI beat and an AI-stock selloff, and it is why the same macro data can hit Nasdaq harder than the Dow."
+      ],
+      "grandLine": {
+        "title": "Aokiji's Lazy Justice vs. Akainu",
+        "body": "After a week of hoping the Fed could be Aokiji and wait, the CPI print handed the argument back to Akainu. The market has to price the hawk winning the fight over who runs the institution."
+      },
+      "views": [
+        {
+          "camp": "Rates are the story",
+          "thesis": "Higher yields drive the selloff in tech.",
+          "argument": "With the 10-year at 5% and a 50bp hike on the table, the discount rate rises and long-duration stocks like Nvidia fall most."
+        },
+        {
+          "camp": "Healthy pause",
+          "thesis": "A small pullback after a 2.3% rally is normal.",
+          "argument": "The Dow and S&P fell only about 0.3% to 0.4% after the biggest rebound in months, which looks like consolidation rather than a new leg down."
+        }
+      ],
+      "interview": {
+        "question": "Stocks fell less than 0.5% on a hot CPI. Why were yields the bigger story?",
+        "answer": "Because the surprise was about the policy path, and rates absorb it first. The 2-year moved 14 to 19bp and the 10-year topped 5%. Equities were cushioned by Monday's momentum and lower oil, but tech fell more since higher yields hit duration. I'd watch the 10-year at 5% as a line in the sand. What changes my mind is a quick fall in yields or oil.",
+        "followUp": {
+          "question": "Why does the 10-year at 5% matter?",
+          "answer": "It's a round-number level that competes with equity yields and is near the highest in years, so crossing it tends to trigger repositioning."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "duration",
+          "definition": "How sensitive an asset's value is to changes in interest rates; long-duration assets such as growth stocks and long bonds fall most when yields rise.",
+          "example": "Nvidia and the Nasdaq lagged as the 10-year reached 5%."
+        },
+        {
+          "term": "discount rate",
+          "definition": "The interest rate used to value future cash flows; higher rates lower the present value of future earnings."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Wed Nov 11",
+          "what": "US bond market closed; stocks trade, so liquidity in rates is thin."
+        },
+        {
+          "when": "Nov 18",
+          "what": "FOMC minutes."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Investing.com: US stocks lower at close, Dow down 0.30%",
+          "url": "https://www.investing.com/news/stock-market-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-030-5016940"
+        },
+        {
+          "name": "Yahoo Finance: Dow, S&P 500, Nasdaq slip as hot CPI fuels rate hike odds, Nvidia sinks",
+          "url": "https://finance.yahoo.com/markets/article/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+        },
+        {
+          "name": "StockTitan: The stock market today, Nov. 10, 2026",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-10-2026"
+        },
+        {
+          "name": "Invezz: 10-year Treasury yield tops 5% after hotter CPI data",
+          "url": "https://invezz.com/news/2026/11/10/10-year-treasury-yield-tops-5-after-hotter-cpi-data-increases-rate-hike-odds/"
+        }
+      ],
+      "trade": {
+        "idea": "Short the 10-year into a break above 5%",
+        "expression": "Short 10Y Treasury note futures, sized by DV01",
+        "rationale": "A hot core print plus a possible 50bp hike pushes the whole curve up, and 5% on the 10-year is a breakout level. Interview framing, not advice.",
+        "risks": [
+          "Equity stress or a growth scare triggers a bond rally.",
+          "Oil keeps falling and inflation expectations drop.",
+          "A 25bp hike is already priced, so the move may be exhausted."
+        ]
+      }
     }
   ]
 }
