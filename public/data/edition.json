@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-10T18:55:00-05:00",
-  "checkedAt": "2026-11-10T18:55:00-05:00",
-  "nextRunAt": "2026-11-11T06:52:00-05:00",
+  "publishedAt": "2026-11-11T06:53:00-05:00",
+  "checkedAt": "2026-11-11T06:53:00-05:00",
+  "nextRunAt": "2026-11-11T18:52:00-05:00",
   "brief": {
     "title": "Hot CPI sends the 10-year above 5% and puts a 50bp Fed hike in play, nudging stocks lower and Nvidia down again.",
     "bullets": [
@@ -819,7 +819,7 @@
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-11-10T18:55:00-05:00",
-      "updatedAt": "2026-11-10T18:55:00-05:00",
+      "updatedAt": "2026-11-11T06:53:00-05:00",
       "readMinutes": 3,
       "headline": "Stocks slip after hot CPI as the 10-year yield tops 5% and Nvidia falls nearly 5%",
       "dek": "The Dow fell 0.3% and the S&P 500 0.4% a day after a 2.3% rally, with the Nasdaq down about 0.7%; Treasury yields rose sharply on bets for a bigger Fed hike.",
@@ -829,7 +829,7 @@
         "Nvidia fell about **5%** at the close, for a second straight day of heavy selling."
       ],
       "whatHappened": [
-        "Stocks gave back part of Monday's rally after the October CPI came in hotter than expected. At the close, Investing.com had the Dow down 0.30% at 52,233.32 and the S&P 500 down 0.38% at 7,521.11, and the Nasdaq Composite fell about 0.7% (Yahoo Finance and Investing.com); a 24/7 Wall St. close showed somewhat smaller declines, so treat the percentages as approximate. Nvidia fell about 5% by the close, weighing on tech, and energy held up best among sectors while utilities and materials lagged.",
+        "Stocks gave back part of Monday's rally after the October CPI came in hotter than expected. At the close, Investing.com had the Dow down 0.30% at 52,233.32 and the S&P 500 down 0.38% at 7,521.11, and the Nasdaq Composite fell about 0.7% (Yahoo Finance and Investing.com); a 24/7 Wall St. close showed somewhat smaller declines, so treat the percentages as approximate. Nvidia fell about 5% by the close, weighing on tech (it also slid premarket Monday after Dow Jones reported the company launched an investigation tied to reports about CEO Jensen Huang; the New York Times had reported that US intelligence tied a Megaspeed executive close to Huang to Beijing, which Nvidia disputes), and energy held up best among sectors while utilities and materials lagged.",
         "Rates moved more than stocks: the 10-year Treasury yield rose about 15bp to roughly 5.0% and the 2-year rose 14 to 19bp depending on the source, as traders added bets that the Fed could hike by 50bp in December. I could not verify Tuesday's oil settle or the dollar."
       ],
       "background": [
@@ -899,6 +899,10 @@
         {
           "name": "Invezz: 10-year Treasury yield tops 5% after hotter CPI data",
           "url": "https://invezz.com/news/2026/11/10/10-year-treasury-yield-tops-5-after-hotter-cpi-data-increases-rate-hike-odds/"
+        },
+        {
+          "name": "Dow Jones via Morningstar: Nvidia slides premarket on Huang probe",
+          "url": "https://www.morningstar.com/news/dow-jones/202611092199/stock-futures-treasurys-steady-but-nvidia-slides-prema"
         }
       ],
       "trade": {
@@ -910,7 +914,8 @@
           "Oil keeps falling and inflation expectations drop.",
           "A 25bp hike is already priced, so the move may be exhausted."
         ]
-      }
+      },
+      "updateNote": "Added context on Nvidia's two-day slide."
     }
   ]
 }
