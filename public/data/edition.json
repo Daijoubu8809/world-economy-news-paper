@@ -1,35 +1,35 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-11T06:53:00-05:00",
-  "checkedAt": "2026-11-11T06:53:00-05:00",
-  "nextRunAt": "2026-11-11T18:52:00-05:00",
+  "publishedAt": "2026-11-11T18:59:00-05:00",
+  "checkedAt": "2026-11-11T18:59:00-05:00",
+  "nextRunAt": "2026-11-12T06:52:00-05:00",
   "brief": {
-    "title": "Hot CPI sends the 10-year above 5% and puts a 50bp Fed hike in play, nudging stocks lower and Nvidia down again.",
+    "title": "Nasdaq erases its post-election losses on a holiday session as Iran denies talks and Fed hike debate heats up.",
     "bullets": [
-      "**CPI:** October +0.4% (vs. ~0.3%), core +0.3% (vs. 0.2%) for a third straight month; BLS has no year-over-year figure because of the 2025 shutdown gap.",
-      "**Fed:** Waller had said core 0.3%+ would justify considering 50bp in December; a 25bp hike is near-certain and 50bp odds are roughly 10–14%.",
-      "**Rates:** The 10-year topped 5% (+~15bp) and the 2-year rose 14–19bp.",
-      "**Stocks:** Dow -0.3% to 52,233.32, S&P 500 -0.4% to 7,521.11, Nasdaq about -0.7%; Nvidia about -5%. Monday: Dow +1,104 as oil fell.",
-      "**World/oil:** Iran talks quiet with no breakthrough; I couldn't confirm Tuesday's oil settle."
+      "**Stocks:** Wednesday: S&P 500 +1.3% to 7,619.38, Nasdaq +1.6% to 25,466.19, Dow +0.5% to 52,486.49; CoreWeave beat, Apple hit a record. Bond market was closed.",
+      "**Fed/rates:** October CPI was +0.4% (core +0.3%); the 10-year topped 5% Tuesday and a 50bp December hike is in play.",
+      "**Iran:** Rezaei says no talks and Hormuz stays shut until seven conditions are met; Rubio sees no breakthrough; Qatar sees progress.",
+      "**Oil:** Brent was roughly $93–97 on Monday; I couldn't confirm Tuesday or Wednesday prices.",
+      "**Gaps:** nothing fresh on Industrials, Ukraine or Europe."
     ],
-    "mood": "Akainu's CPI verdict landed: the Calm Belt from Monday's rally is gone, and the Log Pose points toward a bigger hike."
+    "mood": "Gear 5 for the Nasdaq on a day the bond market sat out, with Akainu's hike debate and Iran's closed Red Line still ahead."
   },
   "mustKnow": [
     "cpi-october-2026-preview",
     "hot-cpi-stocks-slip-10yr-above-5-nov-10-2026",
-    "oil-brent-115-hormuz"
+    "iran-hormuz-seven-conditions-oil-nov-11-2026"
   ],
   "calendar": [
     {
-      "date": "2026-11-11",
-      "label": "Veterans Day (US bond market closed)",
-      "why": "Treasuries trade on a holiday schedule while stocks stay open; rates liquidity is thin after CPI."
+      "date": "2026-11-12",
+      "label": "US bond market reopens after Veterans Day",
+      "why": "Treasuries catch up to Tuesday's 5% 10-year after a one-day shutdown."
     },
     {
       "date": "2026-11-18",
       "time": "2:00 PM ET",
       "label": "FOMC minutes (October meeting)",
-      "why": "How many officials leaned toward the two hawkish dissenters, and how they view a 50bp move."
+      "why": "How officials view a 50bp move after the hot CPI."
     },
     {
       "date": "2026-11-26",
@@ -49,176 +49,6 @@
     }
   ],
   "stories": [
-    {
-      "id": "oil-brent-115-hormuz",
-      "beat": "energy",
-      "headline": "Oil falls about 5% on Iran-diplomacy hopes, with Brent near $93–97 and WTI near $86–90",
-      "dek": "Trump's comments that new Iran strikes are unlikely drove the drop, which follows a roughly 16% fall last week; levels differ by source and time of day.",
-      "importance": 5,
-      "depth": "full",
-      "developing": true,
-      "publishedAt": "2026-10-28T19:09:00-04:00",
-      "updatedAt": "2026-11-09T17:45:00-05:00",
-      "readMinutes": 5,
-      "tldr": [
-        "Monday: Brent fell about **5%** to roughly **$93–97** and WTI to roughly **$86–90**, depending on the time and contract; one tracker had Brent at $93.44 (-4.96%).",
-        "The trigger: Trump said new strikes on Iran are unlikely while US and Iran negotiate quietly; neither side has budged on its demands, per CNN.",
-        "Brent is down about 16% over the past week, so the war premium is draining fast, but Hormuz flows are still far below normal."
-      ],
-      "whatHappened": [
-        "Oil fell again Monday as diplomacy hopes grew and Trump said new strikes on Iran were unlikely. Quotes differ because they were captured at different times: one report had Brent at $97.35 and WTI at $90.32 early in the Asia day, another had Brent down 4.96% at $93.44 and WTI near $86.65 by midday London, and a late tracker showed WTI near $87.72–88.23 and Brent near $94.56–94.83. Treat Brent as roughly $93–97 and WTI roughly $86–90, with no official settle confirmed. Brent had already plunged about 16% over the previous week.",
-        "CNN's Nov. 9 explainer says the US and Iran are quietly negotiating a sensitive agreement that could avert a return to full-scale war, with neither side yet willing to budge. Iran reported tanker attacks in Hormuz as recently as Thursday, and a signed deal does not exist yet, so the price is trading on hope."
-      ],
-      "marketReaction": [
-        {
-          "asset": "Brent",
-          "move": "~$93–97 (-~5%)",
-          "direction": "down"
-        },
-        {
-          "asset": "WTI",
-          "move": "~$86–90 (-~4–5%)",
-          "direction": "down"
-        },
-        {
-          "asset": "Brent, 1 week",
-          "move": "about -16%",
-          "direction": "down"
-        },
-        {
-          "asset": "Hormuz transits",
-          "move": "~60% of normal (last reported)",
-          "direction": "down"
-        }
-      ],
-      "background": [
-        "Timeline in 60 seconds:",
-        "- **Feb. 28:** US and Israeli strikes on Iran start the war, and Iran shuts the Strait of Hormuz to foreign shipping.\n- **April:** A Pakistan-brokered ceasefire briefly reopens traffic. Talks in Islamabad fail, and the US blockades Iranian ports from mid-April to late May.\n- **June:** A US–Iran memorandum is signed to formally end the conflict.\n- **July 8:** The ceasefire collapses when Iran starts attacking commercial ships.\n- **Since then:** Mediation (Qatar the main channel, Pakistan also active) has been on and off, with no breakthrough yet.",
-        "Why it's so big: before the war, roughly a quarter of the world's seaborne oil and a fifth of its LNG went through Hormuz. It's the ultimate [[chokepoint]]. When flows run at 60%, the barrels physically can't reach buyers, and prices carry a hefty war [[risk premium]] on top of the actual shortage.",
-        "This is a textbook [[supply shock]]. Prices rise because supply is squeezed, not because demand is booming, and that's why it's so awkward for central banks: it pushes inflation up *and* growth down at the same time."
-      ],
-      "grandLine": {
-        "title": "The Red Line crossing",
-        "body": "There are only two ways to get a ship across the Red Line: through Mary Geoise with the World Government's permission, or down through Fish-Man Island. Control those passages and you control trade between the seas. Hormuz is the oil world's Red Line crossing. How much oil exists on the far side barely matters. What matters is how much can get through, and right now that's about 60%."
-      },
-      "whyItMatters": [
-        "The [[pass-through]] to inflation is fast and visible: gasoline rose 9.1% in September and accounted for more than half of the CPI increase. That's what turned the Fed from cutting in 2025 to hiking in September.",
-        "Across assets: energy producers win; airlines, shippers and consumer names lose. Inflation [[breakevens]] rise, and long-term Treasury yields get an upward nudge. The big macro fear is [[stagflation]]: a central bank hiking into an energy shock that is already slowing the consumer.",
-        "Event risk now centers on whether the Iran talks produce a signed deal or collapse. Oil fell hard on hope, so a breakdown could reverse it quickly."
-      ],
-      "views": [
-        {
-          "camp": "Higher for longer",
-          "thesis": "The market is genuinely short of oil, and the premium is justified.",
-          "argument": "Flows are still well below prewar levels, inventories are being drawn down, and every diplomatic breakthrough has unraveled. Escalation (post-midterm strikes, attacks on Saudi infrastructure) remains plausible.",
-          "who": "UBS, which sees ~$110 Brent at year-end."
-        },
-        {
-          "camp": "Headline-driven, so fade spikes",
-          "thesis": "A deal or demand destruction could deflate the premium quickly.",
-          "argument": "Prices whip around with every diplomatic headline (Monday's drop shows how fast hope gets priced). Above $100, consumers cut back and the economy slows. The US administration has repeatedly called the war 'essentially over'. If shipping normalizes, much of the risk premium can come out fast."
-        },
-        {
-          "camp": "Watch the central banks",
-          "thesis": "The bigger risk is central banks overtightening into a supply shock.",
-          "argument": "Oil above $100 was painful, but the danger for markets is the Fed (and ECB, and BoJ, which all hiked in September) tightening into an energy shock. That's how supply shocks turn into recessions, as in the 1970s and 2008."
-        }
-      ],
-      "interview": {
-        "question": "How does a war in the Middle East end up in US interest rates?",
-        "answer": "Through oil, then inflation, then the Fed. Hormuz is a [[chokepoint]] for about a quarter of seaborne oil, so disruption lifts prices and CPI, and the Fed tightened. This week, hopes of a US–Iran deal pulled Brent down about 16% to the low $90s, which is mostly [[risk premium]] draining, since physical flows haven't normalized. What reverses it is a collapse of talks or new attacks in the strait.",
-        "followUp": {
-          "question": "Why doesn't the Fed just 'look through' an oil shock?",
-          "answer": "It can if the shock is short and expectations stay anchored. This one has lasted most of the year, core inflation is creeping up, and the risk is that higher prices get built into wages and expectations. At that point waiting is more expensive than acting. The Fed's credibility is the asset it's protecting."
-        }
-      },
-      "trade": {
-        "idea": "Long 5-year inflation breakevens",
-        "expression": "Buy 5Y TIPS / sell 5Y nominal Treasuries (long the 5Y breakeven)",
-        "rationale": "[[breakevens|Breakevens]] measure the inflation rate markets expect. If energy stays tight and pass-through keeps showing up in CPI, inflation expectations rise and TIPS outperform nominal Treasuries. Owning the spread isolates the inflation view without taking a big bet on the level of rates.",
-        "risks": [
-          "A real ceasefire reopens Hormuz and oil collapses, taking breakevens with it.",
-          "Demand destruction or recession knocks inflation expectations down.",
-          "Aggressive Fed hikes restore credibility and compress breakevens even while oil stays high."
-        ]
-      },
-      "keyTerms": [
-        {
-          "term": "chokepoint",
-          "definition": "A narrow passage that a big share of global trade must go through, such as Hormuz, Suez or Malacca. Disruption there hits supply far beyond the region."
-        },
-        {
-          "term": "risk premium",
-          "definition": "The extra price (or yield) markets charge for uncertainty, on top of fundamentals. In oil, it's the 'war premium' that can vanish on a peace deal."
-        },
-        {
-          "term": "supply shock",
-          "definition": "A sudden drop in the supply of something important (here, oil) that raises prices and slows growth at the same time. It's hard for central banks, because the cure for inflation worsens the slowdown."
-        },
-        {
-          "term": "pass-through",
-          "definition": "How much and how fast a cost change (oil, tariffs, the dollar) shows up in consumer prices.",
-          "example": "Gasoline up 9.1% in September drove over half of the CPI gain."
-        },
-        {
-          "term": "breakevens",
-          "definition": "The inflation rate at which TIPS and regular Treasuries return the same: the nominal yield minus the TIPS (real) yield. It's the market's inflation expectation."
-        },
-        {
-          "term": "stagflation",
-          "definition": "High inflation plus weak growth. It's the 1970s nightmare, and the toughest backdrop for both stocks and bonds."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Tue Nov 10",
-          "what": "Does oil hold Monday's drop into CPI?"
-        },
-        {
-          "when": "Ongoing",
-          "what": "Any signed US–Iran agreement, or renewed tanker attacks in Hormuz."
-        }
-      ],
-      "sources": [
-        {
-          "name": "5paisa: Crude oil price today, Nov. 9, 2026",
-          "url": "https://www.5paisa.com/blog/crude-oil-price-today-09-nov-2026"
-        },
-        {
-          "name": "JournalArta: Brent falls 4.96% to $93.44 on Iran peace hopes",
-          "url": "https://journalarta.com/en/2026/11/09/oil-price-today-brent-falls-4-96-to-93-44-on-iran-peace-hopes-as-gold-climbs/"
-        },
-        {
-          "name": "NationPath: Oil prices drop 5.2% as US-Iran diplomatic hopes grow",
-          "url": "https://www.nationpathindia.com/international/oil-prices-drop-us-iran-talks-november-2026"
-        },
-        {
-          "name": "CNN: US and Iran are quietly negotiating as the Middle East remains on edge",
-          "url": "https://www.cnn.com/2026/11/09/middleeast/iran-us-talks-explainer-intl"
-        },
-        {
-          "name": "CNBC: Crude oil falls below $90 as Vance blames GOP election defeat on Iran war",
-          "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
-        },
-        {
-          "name": "Axios: Oil prices plunge after Vance post on Iran war",
-          "url": "https://www.axios.com/2026/11/04/oil-prices-plunge-midterms-vance-democrats-iran"
-        },
-        {
-          "name": "CNBC: Crude oil prices sell off more than 7% on Iran peace talk hopes",
-          "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
-        },
-        {
-          "name": "Axios: Trump says 'no rush' to decide on bombing Iran again",
-          "url": "https://www.axios.com/2026/11/02/trump-axios-interview-no-rush-resume-war"
-        },
-        {
-          "name": "Fox News: Trump says 'no rush' to resume Iran strikes",
-          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-midterms-peace-deal-israel-november-2"
-        }
-      ],
-      "updateNote": "Rewritten for Monday's roughly 5% oil drop."
-    },
     {
       "depth": "brief",
       "developing": true,
@@ -321,23 +151,21 @@
       "depth": "brief",
       "developing": true,
       "publishedAt": "2026-11-06T06:56:00-05:00",
-      "updatedAt": "2026-11-09T17:45:00-05:00",
+      "updatedAt": "2026-11-11T18:59:00-05:00",
       "readMinutes": 2,
       "id": "world-iran-talks-qatar-mediation",
       "beat": "world",
-      "headline": "Iran says its Supreme Leader backed its government on peace talks as Trump says he's in 'no rush' to strike",
-      "dek": "Qatar-led indirect talks have produced no breakthrough, Washington is politically exposed after the midterms, and Israel's government reportedly wants action.",
+      "headline": "Iran's security chief denies talks with the US as Qatar reports progress and Washington extends its blockade",
+      "dek": "Mohsen Rezaei says Hormuz stays shut until seven conditions are met; Rubio says the sides aren't close to a breakthrough.",
       "importance": 3,
       "tldr": [
-        "Iranian President Pezeshkian said Supreme Leader Mojtaba Khamenei had granted the government 'certain authorities' over talks with the US.",
-        "Trump told Axios he is in 'no rush' to decide on resuming strikes; reports say Netanyahu urged one soon after the midterms.",
-        "Iranian negotiators left Doha with a draft proposal circulating; Iran says it agreed to shorten its confidence-building step from seven days to two, but the outcome depends on Washington."
+        "Iran's Mohsen Rezaei said Tehran is holding **no negotiations** with the US and Hormuz stays closed until **seven conditions** are met.",
+        "Rubio said the US is not close to a breakthrough and called Iran's demands outrageous; Qatar says it sees progress.",
+        "The US is pushing a military task force to extend its naval blockade; Iran's military dismissed it as 'wordplay.'"
       ],
       "whatHappened": [
-        "Indirect talks between Washington and Tehran, with [[mediation]] mainly by Qatar with Pakistan also involved, continued this week without a breakthrough. A Qatari mediator traveled to Tehran on Monday to work on a draft agreement, and Iran's foreign minister said consultations were intensive. President Pezeshkian said the Supreme Leader had granted the government 'certain authorities' over the talks, without defining them; Middle East Eye and ABC identify the Supreme Leader as Mojtaba Khamenei.",
-        "On the US side, Trump told Axios he is in 'no rush' to decide whether to resume strikes. Reports say Israeli Prime Minister Netanyahu urged him to hit Iran soon after the midterms, and after Democrats won Congress, Vice President Vance tied the Republican losses to the war. An Iranian official told reporters the sides remain far from an agreement.",
-        "**Doha draft:** Iranian negotiators left Doha after indirect talks via Qatari mediators, with a draft proposal circulating based on a seven-step Iranian plan to reopen the Strait of Hormuz and end the US naval blockade. Foreign Minister Araghchi said Iran agreed, at Qatar's request, to shorten the implementation period from seven days to two, and that the outcome depends on Washington's response. Trump dismissed accounts that the draft favored Iran as inaccurate. No agreement has been signed.",
-        "**Monday update:** CNN's Nov. 9 explainer describes the two sides as quietly negotiating a sensitive agreement that could avert a return to all-out war, with neither side yet willing to budge on its demands. It reports that Trump said renewed attacks are 'highly unlikely' if Tehran makes progress on its nuclear program and on reopening Hormuz, while keeping the military option on the table. I found no confirmation of a signed agreement, and one outlet's report that Washington approved the Qatari draft rests on unnamed sources."
+        "Iran's Mohsen Rezaei, secretary of the Supreme National Security Council, said Tehran is holding no negotiations with the United States and that Hormuz stays closed until Washington meets all seven of Iran's conditions. A separate report says Iran's proposal would resume talks within two days if the US halted attacks, lifted its blockade of Iranian ports and waived some sanctions. Secretary of State Rubio said the sides are not close to a breakthrough, citing outrageous Iranian demands, while Qatar, the main [[mediator|mediation]], said it saw progress after a White House meeting and Trump held a call with Qatar's emir.",
+        "Trump has said renewed strikes on Iran are 'highly unlikely' if Tehran agrees to a very strong nuclear deal and fully reopens Hormuz. The US is also pushing a military task force to extend its naval blockade, which Iran's military dismissed as 'wordplay.' CNN's Nov. 8 explainer describes quiet negotiations in which neither side has budged. No agreement has been announced."
       ],
       "background": [
         "The war began on Feb. 28 with US and Israeli strikes. A June memorandum and ceasefire collapsed in July, and Iran has since restricted shipping through the Strait of Hormuz. Mediation has run on and off since, usually in parallel with strikes and threats, and traders call a peace-talk hope that fades a [[false dawn]]."
@@ -388,6 +216,22 @@
       ],
       "sources": [
         {
+          "name": "Newscord: Iran's Rezaei rejects US talks, says Hormuz stays shut until seven conditions are met",
+          "url": "https://newscord.org/article/irans-mohsen-rezaei-rejects-us-talks-says-hormuz-stays-shut-until-seven-conditio--Story_20261111_IrandeniestalkswithU48818a5b"
+        },
+        {
+          "name": "CBS News: Iran downplays new US task force aimed at disrupting transport routes",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+        },
+        {
+          "name": "Latin Times: Iran proposes reopening the Strait of Hormuz after US concessions",
+          "url": "https://www.latintimes.com/iran-qatar-strait-hormuz-reopening-nuclear-talks-601047"
+        },
+        {
+          "name": "CNN via ABC17: US and Iran are quietly negotiating as the Middle East remains on edge",
+          "url": "https://abc17news.com/news/national-world/cnn-world/2026/11/08/us-and-iran-are-quietly-negotiating-as-middle-east-remains-on-edge-heres-what-to-know/"
+        },
+        {
           "name": "Axios: Trump says 'no rush' to decide on bombing Iran again",
           "url": "https://www.axios.com/2026/11/02/trump-axios-interview-no-rush-resume-war"
         },
@@ -402,125 +246,9 @@
         {
           "name": "Middle East Eye: Trump says he will not attack Iran after midterms",
           "url": "https://www.middleeasteye.net/news/trump-says-he-will-not-attack-iran-after-midterms"
-        },
-        {
-          "name": "CNBC: Crude oil falls below $90 as Vance blames GOP defeat on Iran war",
-          "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
-        },
-        {
-          "name": "Asharq Al-Awsat: Iranians left Doha talks, draft proposal for US deal being circulated",
-          "url": "https://english.aawsat.com/world/5336574-iranians-have-left-doha-talks-draft-proposal-us-deal-being-circulated-official-says"
-        },
-        {
-          "name": "Gulf News: US–Iran deal takes shape as Qatar says draft agreement is circulating",
-          "url": "https://gulfnews.com/world/mena/us-iran-deal-takes-shape-as-qatar-says-draft-agreement-is-circulating-1.500630861"
-        },
-        {
-          "name": "CNN: US and Iran are quietly negotiating as the Middle East remains on edge",
-          "url": "https://www.cnn.com/2026/11/09/middleeast/iran-us-talks-explainer-intl"
         }
       ],
-      "updateNote": "Added the Nov. 9 CNN explainer: quiet talks, no breakthrough, Trump says attacks 'highly unlikely' if progress."
-    },
-    {
-      "developing": true,
-      "publishedAt": "2026-11-09T17:45:00-05:00",
-      "updatedAt": "2026-11-09T17:45:00-05:00",
-      "id": "dow-1104-points-oil-slides-nov-9-2026",
-      "beat": "markets",
-      "importance": 4,
-      "depth": "full",
-      "readMinutes": 4,
-      "headline": "Dow jumps 1,104 points and the S&P 500 gains 2.3% as oil slides and tech rebounds",
-      "dek": "All 11 S&P sectors rose and small caps led as crude fell about 5% on Iran-diplomacy hopes. CPI is due Tuesday morning.",
-      "tldr": [
-        "Monday close: **Dow +1,104.02 to 52,389.75**, **S&P 500 +173.08 (+2.3%) to 7,549.94**, **Nasdaq +673.71 (+2.7%) to 25,253.14**.",
-        "Breadth was wide: **all 11 sectors** rose and the Russell 2000 gained about **3%**; oil fell roughly 5%.",
-        "The S&P 500 is still about **3.4% below its Oct. 6 high**; the VIX was near 20. October CPI is due Tuesday at 8:30am ET."
-      ],
-      "whatHappened": [
-        "Wall Street rebounded sharply on Monday. The Dow gained 1,104.02 points to 52,389.75, the S&P 500 rose 173.08 points, or about 2.3%, to 7,549.94, and the Nasdaq Composite jumped 673.71 points, or about 2.7%, to 25,253.14, according to Bloomberg-syndicated and other market reports. All 11 S&P sectors finished higher with wide [[breadth]] and the Russell 2000 small-cap index gained around 3%, a sign the buying was broad rather than just tech. The S&P 500 is still about 3.4% below its Oct. 6 high, and the VIX hovered near 20.",
-        "The main driver was oil: crude fell about 5% as hopes for US–Iran diplomacy grew and Trump said new strikes on Iran were unlikely (see the oil story). Falling oil eases inflation worries and helps consumers and cyclicals. One notable laggard was Nvidia, which fell against the rally; I could not verify the cause, so I am not attributing it. Several of these reports are secondary aggregators and give slightly different percentages, so treat the exact figures as approximate."
-      ],
-      "background": [
-        "Last week the Nasdaq entered a [[correction]] on Thursday after an AI-led rout, then bounced partially Friday. Monday's move retraces a large part of the week's damage, but the market has swung by more than 1,000 Dow points several times in five days, a sign of fragile positioning rather than a settled trend."
-      ],
-      "whyItMatters": [
-        "A broad rally with falling oil is a healthier signal than a narrow tech bounce. The risks are Tuesday's inflation data and a reversal in Iran headlines: oil is the swing factor for both inflation and the Fed's December decision, which was about 80% priced for a hike after Friday's payrolls."
-      ],
-      "grandLine": {
-        "title": "The Calm Belt lifts",
-        "body": "The Calm Belt is windless sea where ships stall dead in the water, until the wind returns. Monday was the wind coming back for stocks after a week stuck between an AI rout and a hot jobs report. A ship under sail still needs to watch for the next storm, and here it's Tuesday's inflation print."
-      },
-      "views": [
-        {
-          "camp": "Bottoming process",
-          "thesis": "The correction is ending as oil falls.",
-          "argument": "Breadth was wide, small caps led and oil's drop lowers inflation risk, which supports a rebound from the AI selloff."
-        },
-        {
-          "camp": "Bear-market rally",
-          "thesis": "Violent swings are a sign of instability, not recovery.",
-          "argument": "The S&P 500 is still about 3.4% below its high, hike odds sit near 80% and oil can reverse on headlines, so the rally may not hold."
-        }
-      ],
-      "interview": {
-        "question": "The Dow jumped 1,100 points. Is the correction over?",
-        "answer": "Too early to say. The rally was broad and oil fell, which is constructive, but the S&P is still about 3.4% below its high and the swings have been huge. I'd watch Tuesday's CPI and whether oil holds its drop. What changes my mind is a hot inflation print or a spike in oil on Iran headlines.",
-        "followUp": {
-          "question": "Why does oil matter so much to stocks right now?",
-          "answer": "It feeds into inflation and the Fed's hike path. Lower oil reduces the odds of tightening, which supports valuations."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "correction",
-          "definition": "A decline of 10% or more from a recent peak; smaller than a bear market (20%+).",
-          "example": "The Nasdaq entered a correction last Thursday."
-        },
-        {
-          "term": "breadth",
-          "definition": "How many stocks participate in a move; wide breadth is healthier than a rally led by a few names."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Tue Nov 10, 8:30 AM ET",
-          "what": "October CPI."
-        },
-        {
-          "when": "Ongoing",
-          "what": "Whether oil holds Monday's drop."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Bloomberg via BNN: US stocks rally as oil prices swing lower",
-          "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/09/world-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/"
-        },
-        {
-          "name": "TheStreet: Stock market today, Nov. 9, 2026",
-          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-09-202"
-        },
-        {
-          "name": "Pulsafi: Today's market pulse, Nov. 9, 2026",
-          "url": "https://www.pulsafi.com/market-today"
-        },
-        {
-          "name": "VistaP Global: Stock market today, Nov. 9, 2026",
-          "url": "https://vistapglobal.com/stock-market-today-november-9-2026-dow-jumps-1104-points-nasdaq-rallies-as-oils-slide-fuels-breadth-amwl-ant-eprx-googl-modd-nvda-ser-spcx/"
-        }
-      ],
-      "trade": {
-        "idea": "Equal-weight over cap-weight on a broad rally",
-        "expression": "Long equal-weight S&P 500 ETF / short cap-weighted S&P 500 ETF, dollar-neutral",
-        "rationale": "Monday's rally was broad, with small caps up about 3%. If breadth keeps improving as oil falls, the average stock outperforms the megacap-heavy index. Interview framing, not advice.",
-        "risks": [
-          "A CPI shock hits small caps harder.",
-          "An AI rebound leads megacaps and the pair loses.",
-          "Oil reverses on Iran headlines and breadth fades."
-        ]
-      }
+      "updateNote": "Added Rezaei's denial, Rubio's 'no breakthrough' and the blockade task force."
     },
     {
       "developing": true,
@@ -667,21 +395,21 @@
     {
       "developing": true,
       "publishedAt": "2026-11-09T17:45:00-05:00",
-      "updatedAt": "2026-11-09T17:45:00-05:00",
+      "updatedAt": "2026-11-11T18:59:00-05:00",
       "id": "us-iran-posture-after-midterms",
       "beat": "policy",
       "importance": 3,
       "depth": "brief",
       "readMinutes": 2,
-      "headline": "Trump says new Iran strikes are unlikely after the midterms as the White House eyes a deal",
-      "dek": "Vice President Vance tied the GOP's losses to the war, and Trump said he's in no rush; the military option remains open.",
+      "headline": "Rubio says no breakthrough with Iran as the US moves to extend its blockade, while Trump keeps strikes 'highly unlikely'",
+      "dek": "Washington is pairing a softer tone on strikes with more pressure on shipping and ports; Qatar says it sees progress.",
       "tldr": [
-        "Trump told Axios last week he is in **'no rush'** to resume strikes; CNN reports he now calls new attacks **'highly unlikely'** if Tehran makes progress.",
-        "Vice President Vance tied Republican losses to the Iran war, which reports described as a key catalyst for oil's plunge.",
-        "NYT reported US forces have plans ready for strikes on nuclear, missile and energy facilities if talks fail."
+        "Rubio said the US is not close to a breakthrough, citing Iran's 'outrageous' demands.",
+        "Trump says renewed strikes are **'highly unlikely'** if Tehran agrees to a very strong nuclear deal and reopens Hormuz.",
+        "The US is pushing a task force to extend its naval blockade; Iran's military dismissed it as 'wordplay.'"
       ],
       "whatHappened": [
-        "After Democrats won Congress, the administration's tone on Iran softened. Trump told Axios on Nov. 2 he was in 'no rush' to decide on resuming strikes, and CNN's Nov. 9 explainer reports he now calls renewed attacks 'highly unlikely' if Tehran makes progress on its nuclear program and on reopening Hormuz, while keeping the military option on the table. Vance publicly tied the GOP losses to the war. Reports also say the military has options ready for nuclear, missile and energy targets if talks collapse. I found no signed agreement."
+        "The administration's line is split between pressure and diplomacy. Secretary of State Rubio said the sides are not close to a breakthrough and called Iran's demands outrageous. Trump said renewed strikes would be 'highly unlikely' if Tehran agreed to a very strong deal that includes its nuclear program and fully reopens Hormuz, while keeping the military option open. At the same time the US is pushing a military task force to extend its naval blockade. Vice President Vance had tied the GOP's midterm losses to the war, and reports say US forces have strike plans ready if talks fail."
       ],
       "background": [
         "The war began Feb. 28. A June memorandum collapsed in July, and the US imposed a naval blockade on Iranian ports. Domestic politics now push toward a deal, while allies such as Israel have reportedly urged action."
@@ -727,90 +455,23 @@
       ],
       "sources": [
         {
-          "name": "CNN: US and Iran are quietly negotiating as the Middle East remains on edge",
-          "url": "https://www.cnn.com/2026/11/09/middleeast/iran-us-talks-explainer-intl"
+          "name": "CBS News: Iran downplays new US task force aimed at disrupting transport routes",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+        },
+        {
+          "name": "CNN via ABC17: US and Iran are quietly negotiating as the Middle East remains on edge",
+          "url": "https://abc17news.com/news/national-world/cnn-world/2026/11/08/us-and-iran-are-quietly-negotiating-as-middle-east-remains-on-edge-heres-what-to-know/"
+        },
+        {
+          "name": "Latin Times: Iran proposes reopening the Strait of Hormuz after US concessions",
+          "url": "https://www.latintimes.com/iran-qatar-strait-hormuz-reopening-nuclear-talks-601047"
         },
         {
           "name": "Axios: Trump says 'no rush' to decide on bombing Iran again",
           "url": "https://www.axios.com/2026/11/02/trump-axios-interview-no-rush-resume-war"
-        },
-        {
-          "name": "CNBC: Crude oil falls below $90 as Vance blames GOP defeat on Iran war",
-          "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
-        }
-      ]
-    },
-    {
-      "developing": false,
-      "publishedAt": "2026-11-09T17:45:00-05:00",
-      "updatedAt": "2026-11-09T17:45:00-05:00",
-      "id": "world-krakow-shooting-nov-2026",
-      "beat": "world",
-      "importance": 3,
-      "depth": "brief",
-      "readMinutes": 2,
-      "headline": "Gunman kills six and wounds about 15 in Krakow's Main Market Square",
-      "dek": "Police arrested the 25-year-old attacker; Poland's interior minister said he held far-right views and the defense minister called it an act of terror.",
-      "tldr": [
-        "On Saturday, Nov. 7, a gunman fired from a moving car into Krakow's Main Market Square, killing **six** and wounding about **15–16**.",
-        "Police shot and arrested the attacker, a 25-year-old Polish citizen, and say he acted alone.",
-        "Authorities describe an ultra-nationalist motive; Krakow declared mourning until Wednesday."
-      ],
-      "whatHappened": [
-        "A gunman opened fire in Krakow's central square, one of Poland's busiest tourist areas, on Saturday afternoon. Six people were killed (four women and two men) and roughly 15 to 16 were wounded, thirteen of them seriously, including one foreign national; two officers were hurt. Police shot and arrested the suspect, a [[lone attacker|lone actor]] by their account, a Polish citizen reported to be 25. Interior Minister Marcin Kierwiński said the man was fascinated with far-right, ultra-nationalist ideas. Defense Minister Władysław Kosiniak-Kamysz called it an act of terror, and Prime Minister Donald Tusk said police were investigating. Krakow's mayor announced mourning until Wednesday. Mass shootings are rare in Poland, and details of the motive were still being confirmed."
-      ],
-      "background": [
-        "Poland has some of Europe's strictest gun laws, so an attack like this prompts questions about how the suspect obtained a weapon and about the radicalization of young men online. Poland is also a frontline NATO state on Ukraine's border, so security incidents get heavy political attention."
-      ],
-      "whyItMatters": [
-        "This is a news item, not a market story. The relevant watch points are Poland's security response and any political fallout in a country with a tense domestic debate."
-      ],
-      "views": [
-        {
-          "camp": "Lone attacker",
-          "thesis": "Police say he acted alone.",
-          "argument": "Authorities believe there was no wider network, which points to a lone actor driven by ideology."
-        },
-        {
-          "camp": "Systemic questions",
-          "thesis": "The attack raises wider policy questions.",
-          "argument": "The suspect's far-right views and access to a weapon will fuel debate over radicalization and gun control."
         }
       ],
-      "interview": {
-        "question": "Why is a Krakow shooting in a markets briefing?",
-        "answer": "Mostly it isn't; it's the world section. The takeaway is context for Polish politics and European security, with no direct market impact so far.",
-        "followUp": {
-          "question": "What would make it market-relevant?",
-          "answer": "Major political instability or a broad security response affecting Poland's markets."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "lone actor",
-          "definition": "An attacker who plans and carries out violence without direction from a wider group."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "This week",
-          "what": "The investigation's findings on motive and how the weapon was obtained."
-        }
-      ],
-      "sources": [
-        {
-          "name": "The New Daily: Poland shooting, six dead",
-          "url": "https://www.thenewdaily.com.au/news/world/europe-news/2026/11/08/poland-shooting-six-dead"
-        },
-        {
-          "name": "AP via The Week: Gunman who killed 6 in Krakow was fascinated with far-right views",
-          "url": "https://www.theweek.in/wire-updates/international/2026/11/08/gunman-who-killed-6-in-poland-s-krakow-was-fascinated-with-far-right-views-minister-says.html"
-        },
-        {
-          "name": "NPR via KPCW: Gunman opens fire in Polish city of Krakow",
-          "url": "https://www.kpcw.org/npr-news/2026-11-07/gunman-opens-fire-in-polish-city-of-krakow-killing-6-people-and-injuring-15"
-        }
-      ]
+      "updateNote": "Added Rubio's 'no breakthrough' and the blockade task force."
     },
     {
       "id": "hot-cpi-stocks-slip-10yr-above-5-nov-10-2026",
@@ -916,6 +577,185 @@
         ]
       },
       "updateNote": "Added context on Nvidia's two-day slide."
+    },
+    {
+      "id": "nasdaq-erases-post-election-losses-nov-11-2026",
+      "beat": "markets",
+      "importance": 3,
+      "depth": "brief",
+      "developing": true,
+      "publishedAt": "2026-11-11T18:59:00-05:00",
+      "updatedAt": "2026-11-11T18:59:00-05:00",
+      "readMinutes": 2,
+      "headline": "Nasdaq jumps 1.6% to erase its post-election losses as CoreWeave beats and Apple hits a record",
+      "dek": "The S&P 500 gained 1.3% to 7,619.38 and the Dow 0.5% on a day the bond market was closed for Veterans Day.",
+      "tldr": [
+        "Wednesday close: **S&P 500 +1.31% to 7,619.38**, **Nasdaq +1.60% to 25,466.19**, **Dow +0.49% to 52,486.49**.",
+        "Tech led after **CoreWeave** beat on earnings; **Apple** hit a record high; Nvidia snapped a two-day slide despite a downgrade.",
+        "The S&P 500 is within about **2.6%** of its all-time high. The US bond market was closed, so Treasury yields didn't trade."
+      ],
+      "whatHappened": [
+        "Stocks rallied Wednesday, led by AI and chip names. The S&P 500 rose 98.45 points, or 1.31%, to 7,619.38, the Nasdaq Composite gained 400.31 points, or 1.60%, to 25,466.19, and the Dow added 254.60 points, or 0.49%, to 52,486.49, per CappNotes' closing figures; other recaps show slightly different levels (24/7 Wall St. had the Nasdaq up about 1.55%). Yahoo Finance said the Nasdaq's gain erased its post-election losses. CoreWeave's earnings beat helped AI-infrastructure names, TheStreet reported Apple hit a new record high, and Nvidia snapped a two-day slide despite a Wall Street downgrade. Stocks were open for Veterans Day while the bond market was closed, so there was no read on Treasury yields after Tuesday's 5% 10-year. I could not verify the oil settle."
+      ],
+      "background": [
+        "The Nasdaq entered a [[correction]] last Thursday, bounced, then fell again after Tuesday's hot CPI. Wednesday's jump brings the S&P 500 back within about 2.6% of its high, but that came on a day when rates didn't trade, so the test of the yield story is Thursday."
+      ],
+      "whyItMatters": [
+        "Equities shrugged off a 5% 10-year with the bond market shut. When Treasuries reopen, a catch-up move in yields (a higher [[discount rate]]) could reprice the rally, which is why a holiday-session rally with no rates trading deserves skepticism."
+      ],
+      "grandLine": {
+        "title": "Gear 5",
+        "body": "Luffy's Gear 5 turns the rules of physics into a cartoon where anything bounces back. A one-day rebound that erases a week of losses can feel like that, but it only becomes a real recovery if the rules, here the discount rate, stay on your side."
+      },
+      "views": [
+        {
+          "camp": "Dip buyers back",
+          "thesis": "AI earnings are still strong enough to carry the market.",
+          "argument": "CoreWeave beat, Apple hit a record and the Nasdaq erased its post-election losses, so the AI trade has momentum."
+        },
+        {
+          "camp": "Wait for yields",
+          "thesis": "A rally with the bond market shut is suspect.",
+          "argument": "Rates were closed, a 5% 10-year and a possible 50bp hike are unresolved, and holiday sessions are thin."
+        }
+      ],
+      "interview": {
+        "question": "The Nasdaq erased its losses on a day the bond market was shut. Do you trust it?",
+        "answer": "Partly. The earnings were real, but a holiday session lacks the rates information that drove Tuesday. I'd wait for Thursday's bond reopening: if the 10-year stays near 5% and stocks hold, that's a stronger signal. What changes my mind is a yield spike that knocks tech lower.",
+        "followUp": {
+          "question": "Why does a bond-market holiday matter for stocks?",
+          "answer": "Treasury yields set the discount rate; without them trading, one of the main inputs to equity valuation is frozen."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "correction",
+          "definition": "A decline of 10% or more from a recent peak."
+        },
+        {
+          "term": "discount rate",
+          "definition": "The interest rate used to value future cash flows; higher rates cut the present value of future earnings."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Thu Nov 12",
+          "what": "Bond market reopens; does the 10-year hold near 5% and do stocks hold their gains?"
+        },
+        {
+          "when": "Nov 18",
+          "what": "FOMC minutes."
+        }
+      ],
+      "sources": [
+        {
+          "name": "CappNotes: Closing look, Wednesday, Nov. 11, 2026",
+          "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-11"
+        },
+        {
+          "name": "TheStreet: Stock market today, Nov. 11, 2026",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"
+        },
+        {
+          "name": "Yahoo Finance: Stock market today, Wednesday, Nov. 11",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"
+        }
+      ]
+    },
+    {
+      "id": "iran-hormuz-seven-conditions-oil-nov-11-2026",
+      "beat": "energy",
+      "importance": 4,
+      "depth": "brief",
+      "developing": true,
+      "publishedAt": "2026-11-11T18:59:00-05:00",
+      "updatedAt": "2026-11-11T18:59:00-05:00",
+      "readMinutes": 2,
+      "headline": "Iran says Hormuz stays shut until seven conditions are met, even as Qatar reports progress",
+      "dek": "Iran's security chief denied talks with Washington while the US moved to extend its naval blockade; oil had fallen about 5% on Monday on diplomacy hopes (no newer price confirmed).",
+      "tldr": [
+        "Mohsen Rezaei, secretary of Iran's Supreme National Security Council, said Tehran holds **no negotiations** with the US and Hormuz stays closed until **seven conditions** are met.",
+        "Reports say Iran would resume talks in as little as two days if the US halts attacks, lifts its port blockade and waives some sanctions.",
+        "Qatar says it sees progress; the US is pushing a task force to extend the blockade, which Iran's military called 'wordplay.' Brent was roughly $93–97 on Monday."
+      ],
+      "whatHappened": [
+        "Iran's public line hardened this week. Secretary of the Supreme National Security Council Mohsen Rezaei said Tehran is holding no negotiations with the United States and that the Strait of Hormuz will remain closed until Washington meets all seven Iranian conditions. A separate report says Iran's proposal would resume talks in as little as two days if the US halted attacks, lifted its blockade of Iranian ports and waived some sanctions. Qatar, the main mediator, says it sees progress after a White House meeting, and Trump spoke with Qatar's emir. Meanwhile the US is pushing a military task force to extend its naval blockade, which Iran's military dismissed as 'wordplay.' No agreement has been announced.",
+        "For oil: Brent fell about 5% to roughly $93–97 on Monday on diplomacy hopes after a roughly 16% weekly drop, and I could not find a confirmed price for Tuesday or Wednesday. Because Hormuz flows are still far below normal, the [[risk premium]] that has drained could rebuild quickly if talks are publicly denied."
+      ],
+      "background": [
+        "Hormuz is the [[chokepoint]] for about a quarter of seaborne oil. The war started Feb. 28; a June memorandum collapsed in July, and the US reimposed a blockade on Iranian ports. Iran uses control of the strait as leverage for sanctions relief."
+      ],
+      "whyItMatters": [
+        "Oil trades on whether the strait reopens. A public denial from Iran's security chief is a reminder that the market's roughly 16% drop is priced on hope, and a breakdown could reverse it."
+      ],
+      "grandLine": {
+        "title": "Crossing the Red Line",
+        "body": "There are only two ways to cross the Red Line: through Mary Geoise with permission, or under the sea via Fish-Man Island. Whoever controls the passages controls trade between the seas. Hormuz is the oil world's Red Line, and Iran is telling the world the gate stays shut until its conditions are met."
+      },
+      "views": [
+        {
+          "camp": "Posturing",
+          "thesis": "Public denials are bargaining, and a deal is still coming.",
+          "argument": "Qatar reports progress, Iran has outlined a path to resume talks in two days, and Trump keeps calling strikes unlikely if a deal is strong."
+        },
+        {
+          "camp": "Standoff",
+          "thesis": "The sides are far apart and the premium returns.",
+          "argument": "Iran denies talking, the US is extending its blockade, and Rubio said Iran's demands are outrageous."
+        }
+      ],
+      "interview": {
+        "question": "Iran says no talks and Hormuz stays shut. Why isn't oil spiking?",
+        "answer": "Because markets weigh action over rhetoric, and Qatar, Pakistan and others report progress. But the price is built on hope, so I'd keep the position light. What changes my mind is a signed memorandum, which is bearish oil, or renewed attacks on shipping, which is bullish.",
+        "followUp": {
+          "question": "What is the blockade?",
+          "answer": "A US naval blockade of Iranian ports used to pressure Tehran; Iran wants it lifted in exchange for reopening Hormuz."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "chokepoint",
+          "definition": "A narrow passage that a large share of global trade must go through, such as Hormuz."
+        },
+        {
+          "term": "risk premium",
+          "definition": "Extra price for uncertainty over supply or policy; it shrinks on peace hopes."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "This week",
+          "what": "Any Qatar-announced draft, and whether Iran or the US moves first on the blockade."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Newscord: Iran's Rezaei rejects US talks, says Hormuz stays shut until seven conditions are met",
+          "url": "https://newscord.org/article/irans-mohsen-rezaei-rejects-us-talks-says-hormuz-stays-shut-until-seven-conditio--Story_20261111_IrandeniestalkswithU48818a5b"
+        },
+        {
+          "name": "CBS News: Iran downplays new US task force aimed at disrupting transport routes",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+        },
+        {
+          "name": "Latin Times: Iran proposes reopening the Strait of Hormuz after US concessions",
+          "url": "https://www.latintimes.com/iran-qatar-strait-hormuz-reopening-nuclear-talks-601047"
+        },
+        {
+          "name": "CNN via ABC17: US and Iran are quietly negotiating as the Middle East remains on edge",
+          "url": "https://abc17news.com/news/national-world/cnn-world/2026/11/08/us-and-iran-are-quietly-negotiating-as-middle-east-remains-on-edge-heres-what-to-know/"
+        }
+      ],
+      "trade": {
+        "idea": "Long a Brent call spread as a talks-failure hedge",
+        "expression": "Buy a near-dated Brent call spread (e.g., 100/110), small size",
+        "rationale": "Oil has fallen on hope while Hormuz flows are still far below normal. A call spread caps the cost and pays if talks collapse or attacks resume. Interview framing, not advice.",
+        "risks": [
+          "A signed deal reopens the strait and oil keeps falling.",
+          "Options decay if headlines stay noisy but prices don't move.",
+          "Demand weakness caps the rebound."
+        ]
+      }
     }
   ]
 }
