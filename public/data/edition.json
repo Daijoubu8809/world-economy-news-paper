@@ -1,29 +1,35 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-11T18:59:00-05:00",
-  "checkedAt": "2026-11-12T06:53:00-05:00",
-  "nextRunAt": "2026-11-12T18:52:00-05:00",
+  "publishedAt": "2026-11-12T18:54:00-05:00",
+  "checkedAt": "2026-11-12T18:54:00-05:00",
+  "nextRunAt": "2026-11-13T06:52:00-05:00",
   "brief": {
-    "title": "Nasdaq erases its post-election losses on a holiday session as Iran denies talks and Fed hike debate heats up.",
+    "title": "Nvidia's CEO resigns and the 10-year yield climbs to about 5.1%, leaving stocks slightly lower and small caps down 1.7%.",
     "bullets": [
-      "**Stocks:** Wednesday: S&P 500 +1.3% to 7,619.38, Nasdaq +1.6% to 25,466.19, Dow +0.5% to 52,486.49; CoreWeave beat, Apple hit a record. Bond market was closed.",
-      "**Fed/rates:** October CPI was +0.4% (core +0.3%); the 10-year topped 5% Tuesday and a 50bp December hike is in play.",
-      "**Iran:** Rezaei says no talks and Hormuz stays shut until seven conditions are met; Rubio sees no breakthrough; Qatar sees progress.",
-      "**Oil:** Brent was roughly $93–97 on Monday; I couldn't confirm Tuesday or Wednesday prices.",
-      "**Gaps:** nothing fresh on Industrials, Ukraine or Europe."
+      "**Nvidia:** CEO Jensen Huang resigned; CFO Colette Kress is interim CEO; no reason given by the company; shares fell more than 13% at one point; earnings are next Tuesday.",
+      "**Stocks:** S&P 500 -0.35% to 7,592.40, Dow -0.36%, Nasdaq -0.39%; Russell 2000 -1.7%.",
+      "**Rates:** The 10-year rose to about 5.10% and the 30-year to about 5.44% as the bond market reopened.",
+      "**Fed:** October CPI +0.4% (core +0.3%) keeps a 25bp December hike near-certain with 50bp in play; PPI is due Friday.",
+      "**Iran:** Tehran denies talks and says Hormuz stays shut until seven conditions are met; Qatar sees progress."
     ],
-    "mood": "Gear 5 for the Nasdaq on a day the bond market sat out, with Akainu's hike debate and Iran's closed Red Line still ahead."
+    "mood": "A Whitebeard moment for the AI trade: the founder is gone, the Log Pose points toward higher rates, and the Red Line at Hormuz is still shut."
   },
   "mustKnow": [
+    "nvidia-ceo-huang-resigns-kress-interim-nov-2026",
     "cpi-october-2026-preview",
-    "hot-cpi-stocks-slip-10yr-above-5-nov-10-2026",
-    "iran-hormuz-seven-conditions-oil-nov-11-2026"
+    "stocks-slip-10yr-5-1-nov-12-2026"
   ],
   "calendar": [
     {
-      "date": "2026-11-12",
-      "label": "US bond market reopens after Veterans Day",
-      "why": "Treasuries catch up to Tuesday's 5% 10-year after a one-day shutdown."
+      "date": "2026-11-13",
+      "time": "8:30 AM ET",
+      "label": "October producer prices (PPI)",
+      "why": "Benzinga lists Nov. 13 for the release; September PPI jumped 1.3% m/m, so another hot number would reinforce the hike case."
+    },
+    {
+      "date": "2026-11-17",
+      "label": "Nvidia earnings",
+      "why": "First report without Jensen Huang as CEO; a test for the AI trade."
     },
     {
       "date": "2026-11-18",
@@ -53,7 +59,7 @@
       "depth": "brief",
       "developing": true,
       "publishedAt": "2026-11-06T06:56:00-05:00",
-      "updatedAt": "2026-11-10T18:55:00-05:00",
+      "updatedAt": "2026-11-12T18:54:00-05:00",
       "readMinutes": 2,
       "id": "fed-december-hike-debate-warsh",
       "beat": "fed-macro",
@@ -66,7 +72,7 @@
         "Chair Kevin Warsh has kept his communication guarded; the minutes on Nov. 18 and the Dec. 8–9 meeting are the next tests."
       ],
       "whatHappened": [
-        "The Fed held its target range at 3.75%–4.00% on Oct. 28 with two officials [[dissenting|dissent]] in favor of a hike. Governor Christopher Waller had since said that a 0.3% or higher core CPI in October would justify considering a 50bp hike in December, while backing at least 25bp regardless. Tuesday's core CPI printed 0.3% (about 0.297% unrounded), and market estimates for a December hike of at least 25bp rose to near-certain in some measures, with 50bp odds at roughly 10% to 14%. Chair Warsh has not signaled a bigger move, and the sources I found differ on exact odds, so treat them as a range."
+        "The Fed held its target range at 3.75%–4.00% on Oct. 28 with two officials [[dissenting|dissent]] in favor of a hike. Governor Christopher Waller had since said that a 0.3% or higher core CPI in October would justify considering a 50bp hike in December, while backing at least 25bp regardless. Tuesday's core CPI printed 0.3% (about 0.297% unrounded), and market estimates for a December hike of at least 25bp rose to near-certain in some measures, with 50bp odds at roughly 10% to 14%. Chair Warsh has not signaled a bigger move, and the sources I found differ on exact odds, so treat them as a range. With the bond market back after Veterans Day, the 10-year yield rose to about 5.10% on Thursday and 24/7 Wall St. said rate-hike odds were 'doing the damage' to growth stocks."
       ],
       "background": [
         "The Fed hiked in September after months of energy-driven inflation, and it is trying to avoid a repeat of the 1970s, when inflation expectations became unanchored. Warsh's style is to guard his communication, so markets read the dissents and the data rather than any explicit signal."
@@ -125,6 +131,10 @@
       ],
       "sources": [
         {
+          "name": "24/7 Wall St.: S&P 500 closes down 0.43% as rate-hike odds weigh on growth stocks",
+          "url": "https://247wallst.com/cards/rate-hike-odds-are-doing-the-damage-and-the-nasdaq-s-0-61-gspc-market-bell-01m78s60347w0kk4y4pfd5e2p6"
+        },
+        {
           "name": "CNBC: Market spooked because now the Fed may need a supersized hike in December",
           "url": "https://www.cnbc.com/2026/11/10/market-spooked-because-now-the-fed-may-need-a-supersized-hike-in-december.html"
         },
@@ -145,7 +155,7 @@
           "url": "https://finance.yahoo.com/economy/article/the-jobs-report-just-put-fed-chair-kevin-warshs-new-playbook-to-work-one-big-investment-idea-202600654.html"
         }
       ],
-      "updateNote": "Rewritten around Waller's 50bp marker and the hot CPI."
+      "updateNote": "Added Thursday's yield move after the bond market reopened."
     },
     {
       "depth": "brief",
@@ -756,6 +766,199 @@
           "Demand weakness caps the rebound."
         ]
       }
+    },
+    {
+      "id": "nvidia-ceo-huang-resigns-kress-interim-nov-2026",
+      "beat": "markets",
+      "importance": 5,
+      "depth": "full",
+      "developing": true,
+      "publishedAt": "2026-11-12T18:54:00-05:00",
+      "updatedAt": "2026-11-12T18:54:00-05:00",
+      "readMinutes": 4,
+      "headline": "Nvidia CEO Jensen Huang resigns and CFO Colette Kress is named interim CEO; shares fall sharply",
+      "dek": "The board has opened a search for a permanent successor, Nvidia gave no reason, and press reports tie the exit to personal conduct; earnings are next Tuesday.",
+      "tldr": [
+        "Nvidia's 8-K says **Jensen Huang resigned** after 33 years; **CFO Colette Kress** becomes interim CEO while keeping her CFO role, and the board has begun a search for a permanent CEO.",
+        "The company **gave no reason**; Fortune and CNN tie the exit to personal conduct and a reported relationship with a woman US intelligence officials deemed a Chinese asset, which Nvidia has disputed in earlier statements.",
+        "Shares fell more than 13% at one point in early trading Thursday before paring losses, and the Nasdaq slipped about 0.4%; Nvidia reports earnings next Tuesday."
+      ],
+      "whatHappened": [
+        "Nvidia filed an [[8-K]] announcing that CEO Jensen Huang has resigned. CFO Colette Kress will serve as [[interim CEO]] and remain CFO until a permanent successor is named, board chair Harvey Jones said, and the board has begun a search that will consider internal and external candidates. The company did not give a reason for the departure. Fortune and CNN report that it followed mounting scandal tied to personal conduct and to a reported relationship with a woman that US intelligence officials deemed a Chinese asset; those details come from press reporting, not the filing, and Nvidia had previously disputed related reports.",
+        "Markets: Nvidia shares fell more than 13% at one point in early trading on Thursday before paring some of the loss, according to one report; I could not confirm the closing move. The Motley Fool described rival chipmakers surging, the Nasdaq Composite closed down about 0.4% and the S&P 500 about 0.35%, with Nvidia a heavy weight on both. The company is due to report earnings next Tuesday with no permanent CEO named."
+      ],
+      "background": [
+        "Huang co-founded Nvidia in 1993 and led it from a graphics-chip maker to the center of the AI build-out, which made him unusually tied to the company's story. Last week the stock had already fallen about 5% on each of Monday and Tuesday on a New York Times report about a Megaspeed executive close to Huang, and on Dow Jones reports of an investigation. This resignation turns that headline risk into a leadership transition.",
+        "The risk investors price here is [[key-person risk|key-person risk]]: when one executive embodies a company's strategy and credibility, his exit raises questions about customers, partners and execution, even if the business is strong."
+      ],
+      "whyItMatters": [
+        "Nvidia is one of the largest weights in the S&P 500 and the Nasdaq-100, so its moves swing the indexes. Tuesday's earnings now double as a test of whether customers keep ordering with an interim CEO, and of whether the AI trade can hold without its figurehead. Beneficiaries in the short term may be rival chip suppliers; AI spenders watch for supply or guidance changes."
+      ],
+      "grandLine": {
+        "title": "After Whitebeard fell",
+        "body": "When Whitebeard died at Marineford, a dominant power vanished and the whole New World repositioned at once, with volatility spiking. A founder-CEO leaving the company at the center of the AI trade is a smaller version: the business doesn't disappear, but everyone reprices who holds the power and what the next leader will do."
+      },
+      "views": [
+        {
+          "camp": "Business is intact",
+          "thesis": "A strong franchise outlasts a CEO change.",
+          "argument": "Demand for Nvidia's chips is real, Kress is a long-time CFO and known quantity, and the board has an orderly interim structure, so the drop overshoots."
+        },
+        {
+          "camp": "Credibility shock",
+          "thesis": "The exit removes the company's central figure at a fragile moment.",
+          "argument": "The AI trade was already shaky, the scandal involved alleged China links, and with no permanent CEO, customers and investors face more uncertainty into earnings."
+        }
+      ],
+      "interview": {
+        "question": "Nvidia's CEO resigned. How do you trade it?",
+        "answer": "I'd treat it as event volatility. [[Key-person risk]] justifies a discount, but the fundamentals and Tuesday's earnings matter more. I'd avoid a directional bet before the print and think about options or a pair versus a rival. What changes my mind is guidance: if demand commentary holds, the drop looks overdone; if customers pause orders, it's worse.",
+        "followUp": {
+          "question": "Why does an interim CEO matter?",
+          "answer": "It signals continuity but also uncertainty: strategy decisions and big customer relationships can stall until a permanent leader is named."
+        }
+      },
+      "trade": {
+        "idea": "Long volatility into Nvidia's earnings",
+        "expression": "Buy an NVDA straddle or strangle expiring after Tuesday's report, small size",
+        "rationale": "The CEO exit plus earnings creates a large, two-sided event. If the move exceeds what options price, the straddle pays. Interview framing, not advice.",
+        "risks": [
+          "Implied volatility is already elevated, so it may overprice the move.",
+          "A muted reaction crushes option value.",
+          "A gap on the weekend or before earnings can hurt a short-dated position."
+        ]
+      },
+      "keyTerms": [
+        {
+          "term": "key-person risk",
+          "definition": "The risk that a company depends heavily on one individual, so that person's departure hurts its outlook or valuation.",
+          "example": "Huang's exit hits Nvidia's valuation."
+        },
+        {
+          "term": "interim CEO",
+          "definition": "A temporary chief executive who leads while the board searches for a permanent one."
+        },
+        {
+          "term": "8-K",
+          "definition": "A filing a US public company makes with the SEC to disclose a material event such as an executive change."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Tue Nov 17",
+          "what": "Nvidia earnings, the first report without Huang."
+        },
+        {
+          "when": "Ongoing",
+          "what": "The board's CEO search, and any statement on the reason for the exit."
+        }
+      ],
+      "sources": [
+        {
+          "name": "SEC: Nvidia Form 8-K announcing CEO transition",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+        },
+        {
+          "name": "Fortune: Nvidia's Jensen Huang resigns, CFO Colette Kress named interim CEO",
+          "url": "https://fortune.com/2026/11/11/nvidia-oust-jensen-huang-spy-affairs/"
+        },
+        {
+          "name": "CNN: Nvidia CEO Jensen Huang resigns after mounting scandal",
+          "url": "https://edition.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout"
+        },
+        {
+          "name": "Al Jazeera: Why did Nvidia CEO Jensen Huang resign, and who is Colette Kress?",
+          "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress"
+        },
+        {
+          "name": "Motley Fool: Nvidia CEO's exit sends Wall Street lower as rivals surge",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nvidia-ceo-s-stunning-exit-sends-wall-street-lower-as-rivals-surge/"
+        }
+      ]
+    },
+    {
+      "id": "stocks-slip-10yr-5-1-nov-12-2026",
+      "beat": "markets",
+      "importance": 3,
+      "depth": "brief",
+      "developing": true,
+      "publishedAt": "2026-11-12T18:54:00-05:00",
+      "updatedAt": "2026-11-12T18:54:00-05:00",
+      "readMinutes": 2,
+      "headline": "Stocks slip as the 10-year yield climbs to about 5.1% and small caps drop 1.7%",
+      "dek": "The S&P 500 closed down about 0.35% after erasing a near-1% early drop, with Nvidia's CEO exit and rate-hike bets weighing on growth stocks.",
+      "tldr": [
+        "Thursday close: **S&P 500 -0.35% to 7,592.40**, **Dow -0.36% to 52,297.09**, **Nasdaq -0.39% to 25,366.09**; the Russell 2000 fell about **1.7%**.",
+        "The **10-year yield** rose about 10bp to roughly **5.10%** (Yahoo had 5.12%) and the 30-year to about **5.44%** after the bond market reopened.",
+        "Figures differ slightly by source; 24/7 Wall St. had the S&P 500 down 0.43%."
+      ],
+      "whatHappened": [
+        "Stocks fell modestly after a rally, but the S&P 500 recovered from a drop of nearly 1% early in the session to close at 7,592.40, down about 0.35%. The Dow lost 189.40 points to 52,297.09 and the Nasdaq Composite fell about 0.4% to 25,366.09. Small caps were the weakest, with the Russell 2000 down about 1.66%. With Treasuries trading again after Veterans Day, the 10-year yield rose roughly 10bp to about 5.10% and the 30-year to about 5.44%, a catch-up to Tuesday's hot CPI and the case for a bigger December hike. Rate-hike odds and Nvidia's leadership change weighed on growth stocks."
+      ],
+      "background": [
+        "Small caps are the most rate-sensitive part of the market because they carry more floating-rate debt and rely on cheaper financing, which is why the Russell 2000 fell most as yields rose."
+      ],
+      "whyItMatters": [
+        "A 10-year above 5% competes with stocks for money and raises the [[discount rate]] used to value future earnings. The risk for the rebound is yields continuing to climb into Friday's producer prices and the FOMC minutes."
+      ],
+      "grandLine": {
+        "title": "Log Pose",
+        "body": "A Log Pose points only to the next island once it has recorded the magnetic field of this one. Markets are in that mode with the Fed: no pre-announced route, just a heading that shifts with each data point. This week's heading keeps pointing higher on rates."
+      },
+      "views": [
+        {
+          "camp": "Rates are the driver",
+          "thesis": "The 5% 10-year and hike odds are the story.",
+          "argument": "Small caps fell hardest and growth stocks lagged, consistent with higher discount rates."
+        },
+        {
+          "camp": "Orderly pullback",
+          "thesis": "A 0.35% decline after a 2.3% rally is consolidation.",
+          "argument": "The S&P recovered from a nearly 1% intraday drop, which looks like dip buying rather than panic."
+        }
+      ],
+      "interview": {
+        "question": "Yields hit 5.1% and the S&P barely fell. Why?",
+        "answer": "Because the market had already priced much of the hot CPI and earnings are carrying large caps, but small caps show the rate pressure. I'd watch the 10-year as a line in the sand. What changes my mind is a sustained break above 5.2%, or a weak auction.",
+        "followUp": {
+          "question": "Why do small caps suffer more?",
+          "answer": "They are more dependent on borrowing and more sensitive to rates and growth."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "discount rate",
+          "definition": "The interest rate used to value future cash flows; higher rates cut the present value of future earnings."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Fri Nov 13",
+          "what": "October producer prices (PPI), per Benzinga's calendar."
+        },
+        {
+          "when": "Nov 18",
+          "what": "FOMC minutes."
+        }
+      ],
+      "sources": [
+        {
+          "name": "CappNotes: Closing look, Thursday, Nov. 12, 2026",
+          "url": "https://cappnotes.substack.com/p/closing-look-thursday-november-12"
+        },
+        {
+          "name": "Yahoo Finance: Dow, S&P 500, Nasdaq slip as Nvidia falls on CEO exit, yields rise",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
+        },
+        {
+          "name": "VistaP Global: Stocks fall as Treasury yields hit 5.10% and Nvidia faces a leadership reset",
+          "url": "https://vistapglobal.com/stock-market-today-november-12-2026-stocks-fall-as-treasury-yields-hit-5-10-oil-rises-and-nvidia-faces-leadership-reset-amd-crwv-eprx-googl-modd-msft-nvda-ser-spcx-ttek-ual/"
+        },
+        {
+          "name": "24/7 Wall St.: S&P 500 closes down 0.43% as rate-hike odds weigh on growth stocks",
+          "url": "https://247wallst.com/cards/rate-hike-odds-are-doing-the-damage-and-the-nasdaq-s-0-61-gspc-market-bell-01m78s60347w0kk4y4pfd5e2p6"
+        }
+      ]
     }
   ]
 }
