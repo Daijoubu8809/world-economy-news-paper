@@ -1,35 +1,35 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-12T18:54:00-05:00",
-  "checkedAt": "2026-11-12T18:54:00-05:00",
-  "nextRunAt": "2026-11-13T06:52:00-05:00",
+  "publishedAt": "2026-11-13T06:53:00-05:00",
+  "checkedAt": "2026-11-13T06:53:00-05:00",
+  "nextRunAt": "2026-11-13T18:52:00-05:00",
   "brief": {
     "title": "Nvidia's CEO resigns and the 10-year yield climbs to about 5.1%, leaving stocks slightly lower and small caps down 1.7%.",
     "bullets": [
-      "**Nvidia:** CEO Jensen Huang resigned; CFO Colette Kress is interim CEO; no reason given by the company; shares fell more than 13% at one point; earnings are next Tuesday.",
+      "**Nvidia:** CEO Jensen Huang resigned effective immediately (company release and 8-K); CFO Colette Kress is interim CEO; earnings proceed as scheduled and Congress wants Huang to testify.",
       "**Stocks:** S&P 500 -0.35% to 7,592.40, Dow -0.36%, Nasdaq -0.39%; Russell 2000 -1.7%.",
       "**Rates:** The 10-year rose to about 5.10% and the 30-year to about 5.44% as the bond market reopened.",
-      "**Fed:** October CPI +0.4% (core +0.3%) keeps a 25bp December hike near-certain with 50bp in play; PPI is due Friday.",
+      "**Fed:** October CPI +0.4% (core +0.3%) keeps a 25bp December hike near-certain with 50bp in play; October PPI is due today at 8:30am ET.",
       "**Iran:** Tehran denies talks and says Hormuz stays shut until seven conditions are met; Qatar sees progress."
     ],
     "mood": "A Whitebeard moment for the AI trade: the founder is gone, the Log Pose points toward higher rates, and the Red Line at Hormuz is still shut."
   },
   "mustKnow": [
     "nvidia-ceo-huang-resigns-kress-interim-nov-2026",
-    "cpi-october-2026-preview",
-    "stocks-slip-10yr-5-1-nov-12-2026"
+    "stocks-slip-10yr-5-1-nov-12-2026",
+    "fed-december-hike-debate-warsh"
   ],
   "calendar": [
     {
       "date": "2026-11-13",
       "time": "8:30 AM ET",
       "label": "October producer prices (PPI)",
-      "why": "Benzinga lists Nov. 13 for the release; September PPI jumped 1.3% m/m, so another hot number would reinforce the hike case."
+      "why": "September PPI jumped 1.3%; another hot print would reinforce the case for a bigger December hike."
     },
     {
       "date": "2026-11-17",
       "label": "Nvidia earnings",
-      "why": "First report without Jensen Huang as CEO; a test for the AI trade."
+      "why": "First report after Jensen Huang's resignation; Nvidia says the schedule is unchanged."
     },
     {
       "date": "2026-11-18",
@@ -40,7 +40,7 @@
     {
       "date": "2026-11-26",
       "label": "US markets closed (Thanksgiving)",
-      "why": "Thin liquidity around the holiday can exaggerate moves."
+      "why": "Huang is expected to testify to Congress before this date, per PBS."
     },
     {
       "date": "2026-11-29",
@@ -263,148 +263,6 @@
     {
       "developing": true,
       "publishedAt": "2026-11-09T17:45:00-05:00",
-      "updatedAt": "2026-11-10T18:55:00-05:00",
-      "id": "cpi-october-2026-preview",
-      "beat": "fed-macro",
-      "importance": 5,
-      "depth": "full",
-      "readMinutes": 5,
-      "headline": "October CPI rises 0.4%, hotter than expected, with core up 0.3% for a third straight month",
-      "dek": "The hot print keeps a December hike near-certain and puts a 50bp move on the table after Fed Governor Waller's marker; BLS has no year-over-year figure because of last year's shutdown gap.",
-      "tldr": [
-        "Headline CPI rose **0.4%** in October vs. about **0.3%** expected (forecasts ran 0.2%–0.3%); **core rose 0.3%** (unrounded about 0.297%) vs. 0.2% expected, the third straight 0.3%.",
-        "Gasoline rose 1% after September's 9.1% jump; recreation, medical care, car insurance and airline fares pushed core higher.",
-        "BLS has **no year-over-year figure** for October (no prices were collected in October 2025 during the shutdown); an Axios estimate puts it near 4%, or 2.8% excluding food and energy."
-      ],
-      "whatHappened": [
-        "The Bureau of Labor Statistics reported that consumer prices rose 0.4% in October, above the 0.3% consensus. [[core CPI|Core CPI]], which excludes food and energy, rose 0.3% against an expected 0.2%, the third straight month at that pace (the unrounded figure was about 0.297%). Gasoline rose 1%, a sharp slowdown from September's 9.1%, but recreation, medical care, car insurance and airline fares lifted core, and food and rent costs also rose.",
-        "One quirk: BLS did not collect prices in October 2025 because of the government shutdown, so there is no official year-over-year rate for October. Axios estimated, assuming October 2025 prices were halfway between September and November, that annual inflation is about 4%, or 2.8% excluding food and energy. That is an estimate, not a BLS number.",
-        "Why markets cared: Fed Governor Christopher Waller had said a 50-[[basis-point|basis points]] hike should be considered at the December meeting if core CPI rose 0.3% or more, and reports note he still backed at least a 25bp hike either way. The print landed right on his marker. Estimates of a [[50bp December move|supersized hike]] jumped from about 1% to roughly 10%–14% depending on the source, while a 25bp hike became close to fully priced, and Treasury yields rose sharply (see below)."
-      ],
-      "background": [
-        "Inflation had been running hot on the energy shock, and the Fed hiked in September and held at 3.75%–4.00% on Oct. 28 with two officials dissenting for a hike. This was the last CPI before the Dec. 8–9 meeting, which is why a 0.3% core print carries so much weight: it is the third straight month, and it ends the hope that oil's slide would take the pressure off quickly."
-      ],
-      "whyItMatters": [
-        "The curve repriced up: the 2-year, which tracks the expected policy path, moved the most, and the 10-year closed back above 5%. A bigger hike would pressure long-duration assets such as tech, which fits with Nvidia's drop. The counterweight is oil, down sharply over two weeks, which should show up in November's gasoline number."
-      ],
-      "grandLine": {
-        "title": "Akainu's Absolute Justice",
-        "body": "Akainu accepts heavy collateral damage to stamp out any trace of the threat. A Fed weighing a 50bp hike into an energy shock has the same logic: inflation is the enemy, and overtightening is the collateral damage. Waller's 0.3% marker is the Admiral's trigger, and the print hit it."
-      },
-      "views": [
-        {
-          "camp": "Supersize it",
-          "thesis": "Three straight 0.3% core prints justify a 50bp December move.",
-          "argument": "Core has stayed at 0.3% for three months, the labor market is strong (payrolls +165,000), and Waller has already named 50bp as the response to exactly this print.",
-          "who": "Fed Governor Christopher Waller, per reports of his remarks."
-        },
-        {
-          "camp": "25bp and watch oil",
-          "thesis": "A quarter-point is enough while oil falls.",
-          "argument": "Gasoline slowed to +1% in October, Brent is down sharply from its peak, and even Waller backed only 25bp as a floor. A 50bp move risks overtightening into a supply shock."
-        }
-      ],
-      "interview": {
-        "question": "CPI came in at 0.4% headline and 0.3% core, above expectations. What do you do?",
-        "answer": "The 25bp December hike is close to fully priced, so the question is 50bp. Core at 0.3% for a third month and Waller's marker make a bigger hike live, and the 2-year yield moved the most, up 14 to 19bp. My view is to be short the front end into the December meeting but size small, since oil is falling and a lot is priced. What changes my mind is a soft November core or a sharp further drop in oil.",
-        "followUp": {
-          "question": "Why is there no year-over-year number?",
-          "answer": "BLS didn't collect October 2025 prices during the shutdown, so there's no clean base for comparison; analysts like Axios estimate around 4%."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "core CPI",
-          "definition": "Consumer prices excluding food and energy; a cleaner read on underlying inflation.",
-          "example": "Core rose 0.3% in October."
-        },
-        {
-          "term": "basis points",
-          "definition": "One hundredth of a percentage point. A 50bp hike is a half-point move, double the usual 25bp.",
-          "example": "Waller floated 50bp if core hit 0.3%."
-        },
-        {
-          "term": "supersized hike",
-          "definition": "A rate increase larger than the standard 25 basis points, usually 50bp, used to move faster against inflation."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Wed Nov 11",
-          "what": "US bond market closed for Veterans Day; stocks open."
-        },
-        {
-          "when": "Nov 18, 2:00 PM ET",
-          "what": "FOMC minutes from October."
-        },
-        {
-          "when": "Dec 8–9",
-          "what": "FOMC decision, with 25bp near-certain and 50bp the debate."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Morningstar: October CPI shows inflation at a 0.4% monthly rate, above forecasts",
-          "url": "https://www.morningstar.com/economy/october-cpi-report-shows-inflation-04-monthly-rate-above-forecasts"
-        },
-        {
-          "name": "CNBC: Consumer prices rose 0.4% in October, more than expected",
-          "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
-        },
-        {
-          "name": "Axios: Price pressures persisted in October",
-          "url": "https://www.axios.com/2026/11/10/cpi-october-inflation-fed"
-        },
-        {
-          "name": "FXStreet: US CPI rises 0.4% m/m in October vs. 0.3% expected",
-          "url": "https://www.fxstreet.com/news/us-cpi-data-set-to-ease-in-october-as-markets-reassess-fed-rate-hike-expectations-202611100930"
-        },
-        {
-          "name": "CNBC: Market spooked because now the Fed may need a supersized hike in December",
-          "url": "https://www.cnbc.com/2026/11/10/market-spooked-because-now-the-fed-may-need-a-supersized-hike-in-december.html"
-        },
-        {
-          "name": "InvestingLive: Hot US CPI puts a bigger Fed hike in play",
-          "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-10-nov-it-s-a-wrap-hot-us-cpi-puts-a-bigger-fed-hike-in-play/"
-        }
-      ],
-      "updateNote": "Replaced the preview with the actual October CPI result and market reaction.",
-      "marketReaction": [
-        {
-          "asset": "Headline CPI m/m",
-          "move": "+0.4% (vs. ~0.3%)",
-          "direction": "up"
-        },
-        {
-          "asset": "Core CPI m/m",
-          "move": "+0.3% (vs. 0.2%)",
-          "direction": "up"
-        },
-        {
-          "asset": "10Y Treasury yield",
-          "move": "~5.0% (+~15bp)",
-          "direction": "up"
-        },
-        {
-          "asset": "2Y Treasury yield",
-          "move": "~4.69–4.74% (+14–19bp)",
-          "direction": "up"
-        }
-      ],
-      "trade": {
-        "idea": "Short the 2-year into a possible 50bp hike",
-        "expression": "Short 2Y Treasury note futures (or pay 2Y SOFR), sized by DV01",
-        "rationale": "If the Fed accelerates to 50bp, the front end has to reprice above today's roughly 4.7%. The 2-year is the cleanest expression of the policy-path view. Interview framing, not advice.",
-        "risks": [
-          "Oil keeps falling and November's inflation cools, pulling hike odds back down.",
-          "A 25bp hike is already near fully priced, so upside is limited.",
-          "Equity stress or growth scare triggers a rally in bonds."
-        ]
-      }
-    },
-    {
-      "developing": true,
-      "publishedAt": "2026-11-09T17:45:00-05:00",
       "updatedAt": "2026-11-11T18:59:00-05:00",
       "id": "us-iran-posture-after-midterms",
       "beat": "policy",
@@ -482,111 +340,6 @@
         }
       ],
       "updateNote": "Added Rubio's 'no breakthrough' and the blockade task force."
-    },
-    {
-      "id": "hot-cpi-stocks-slip-10yr-above-5-nov-10-2026",
-      "beat": "markets",
-      "importance": 4,
-      "depth": "full",
-      "developing": true,
-      "publishedAt": "2026-11-10T18:55:00-05:00",
-      "updatedAt": "2026-11-11T06:53:00-05:00",
-      "readMinutes": 3,
-      "headline": "Stocks slip after hot CPI as the 10-year yield tops 5% and Nvidia falls nearly 5%",
-      "dek": "The Dow fell 0.3% and the S&P 500 0.4% a day after a 2.3% rally, with the Nasdaq down about 0.7%; Treasury yields rose sharply on bets for a bigger Fed hike.",
-      "tldr": [
-        "Tuesday close: **Dow -0.30% to 52,233.32**, **S&P 500 -0.38% to 7,521.11**, **Nasdaq about -0.7%**; some outlets show slightly smaller declines.",
-        "The **10-year yield rose to about 5.0%** and the 2-year jumped 14–19bp after hot CPI put a 50bp December hike in play.",
-        "Nvidia fell about **5%** at the close, for a second straight day of heavy selling."
-      ],
-      "whatHappened": [
-        "Stocks gave back part of Monday's rally after the October CPI came in hotter than expected. At the close, Investing.com had the Dow down 0.30% at 52,233.32 and the S&P 500 down 0.38% at 7,521.11, and the Nasdaq Composite fell about 0.7% (Yahoo Finance and Investing.com); a 24/7 Wall St. close showed somewhat smaller declines, so treat the percentages as approximate. Nvidia fell about 5% by the close, weighing on tech (it also slid premarket Monday after Dow Jones reported the company launched an investigation tied to reports about CEO Jensen Huang; the New York Times had reported that US intelligence tied a Megaspeed executive close to Huang to Beijing, which Nvidia disputes), and energy held up best among sectors while utilities and materials lagged.",
-        "Rates moved more than stocks: the 10-year Treasury yield rose about 15bp to roughly 5.0% and the 2-year rose 14 to 19bp depending on the source, as traders added bets that the Fed could hike by 50bp in December. I could not verify Tuesday's oil settle or the dollar."
-      ],
-      "background": [
-        "Monday's rally was fueled by oil falling on Iran-diplomacy hopes; Tuesday's CPI reminded markets that core inflation hasn't cooled. The S&P 500 was still about 3.7% below its Oct. 6 high after the drop."
-      ],
-      "whyItMatters": [
-        "When yields rise toward 5%, long-[[duration]] assets such as tech get repriced because future earnings are discounted at a higher [[discount rate]]. That is the link between a CPI beat and an AI-stock selloff, and it is why the same macro data can hit Nasdaq harder than the Dow."
-      ],
-      "grandLine": {
-        "title": "Aokiji's Lazy Justice vs. Akainu",
-        "body": "After a week of hoping the Fed could be Aokiji and wait, the CPI print handed the argument back to Akainu. The market has to price the hawk winning the fight over who runs the institution."
-      },
-      "views": [
-        {
-          "camp": "Rates are the story",
-          "thesis": "Higher yields drive the selloff in tech.",
-          "argument": "With the 10-year at 5% and a 50bp hike on the table, the discount rate rises and long-duration stocks like Nvidia fall most."
-        },
-        {
-          "camp": "Healthy pause",
-          "thesis": "A small pullback after a 2.3% rally is normal.",
-          "argument": "The Dow and S&P fell only about 0.3% to 0.4% after the biggest rebound in months, which looks like consolidation rather than a new leg down."
-        }
-      ],
-      "interview": {
-        "question": "Stocks fell less than 0.5% on a hot CPI. Why were yields the bigger story?",
-        "answer": "Because the surprise was about the policy path, and rates absorb it first. The 2-year moved 14 to 19bp and the 10-year topped 5%. Equities were cushioned by Monday's momentum and lower oil, but tech fell more since higher yields hit duration. I'd watch the 10-year at 5% as a line in the sand. What changes my mind is a quick fall in yields or oil.",
-        "followUp": {
-          "question": "Why does the 10-year at 5% matter?",
-          "answer": "It's a round-number level that competes with equity yields and is near the highest in years, so crossing it tends to trigger repositioning."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "duration",
-          "definition": "How sensitive an asset's value is to changes in interest rates; long-duration assets such as growth stocks and long bonds fall most when yields rise.",
-          "example": "Nvidia and the Nasdaq lagged as the 10-year reached 5%."
-        },
-        {
-          "term": "discount rate",
-          "definition": "The interest rate used to value future cash flows; higher rates lower the present value of future earnings."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Wed Nov 11",
-          "what": "US bond market closed; stocks trade, so liquidity in rates is thin."
-        },
-        {
-          "when": "Nov 18",
-          "what": "FOMC minutes."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Investing.com: US stocks lower at close, Dow down 0.30%",
-          "url": "https://www.investing.com/news/stock-market-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-030-5016940"
-        },
-        {
-          "name": "Yahoo Finance: Dow, S&P 500, Nasdaq slip as hot CPI fuels rate hike odds, Nvidia sinks",
-          "url": "https://finance.yahoo.com/markets/article/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
-        },
-        {
-          "name": "StockTitan: The stock market today, Nov. 10, 2026",
-          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-10-2026"
-        },
-        {
-          "name": "Invezz: 10-year Treasury yield tops 5% after hotter CPI data",
-          "url": "https://invezz.com/news/2026/11/10/10-year-treasury-yield-tops-5-after-hotter-cpi-data-increases-rate-hike-odds/"
-        },
-        {
-          "name": "Dow Jones via Morningstar: Nvidia slides premarket on Huang probe",
-          "url": "https://www.morningstar.com/news/dow-jones/202611092199/stock-futures-treasurys-steady-but-nvidia-slides-prema"
-        }
-      ],
-      "trade": {
-        "idea": "Short the 10-year into a break above 5%",
-        "expression": "Short 10Y Treasury note futures, sized by DV01",
-        "rationale": "A hot core print plus a possible 50bp hike pushes the whole curve up, and 5% on the 10-year is a breakout level. Interview framing, not advice.",
-        "risks": [
-          "Equity stress or a growth scare triggers a bond rally.",
-          "Oil keeps falling and inflation expectations drop.",
-          "A 25bp hike is already priced, so the move may be exhausted."
-        ]
-      },
-      "updateNote": "Added context on Nvidia's two-day slide."
     },
     {
       "id": "nasdaq-erases-post-election-losses-nov-11-2026",
@@ -774,18 +527,19 @@
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-11-12T18:54:00-05:00",
-      "updatedAt": "2026-11-12T18:54:00-05:00",
+      "updatedAt": "2026-11-13T06:53:00-05:00",
       "readMinutes": 4,
       "headline": "Nvidia CEO Jensen Huang resigns and CFO Colette Kress is named interim CEO; shares fall sharply",
-      "dek": "The board has opened a search for a permanent successor, Nvidia gave no reason, and press reports tie the exit to personal conduct; earnings are next Tuesday.",
+      "dek": "Nvidia's release and 8-K confirm the move, effective immediately; the board has opened a search, earnings proceed as scheduled, and Congress wants Huang to testify.",
       "tldr": [
-        "Nvidia's 8-K says **Jensen Huang resigned** after 33 years; **CFO Colette Kress** becomes interim CEO while keeping her CFO role, and the board has begun a search for a permanent CEO.",
+        "Nvidia's release and 8-K say **Jensen Huang resigned** as CEO on Nov. 12, effective immediately; **CFO Colette Kress** is interim CEO; **Harvey Jones** is board chair; a CEO search has begun.",
         "The company **gave no reason**; Fortune and CNN tie the exit to personal conduct and a reported relationship with a woman US intelligence officials deemed a Chinese asset, which Nvidia has disputed in earlier statements.",
         "Shares fell more than 13% at one point in early trading Thursday before paring losses, and the Nasdaq slipped about 0.4%; Nvidia reports earnings next Tuesday."
       ],
       "whatHappened": [
         "Nvidia filed an [[8-K]] announcing that CEO Jensen Huang has resigned. CFO Colette Kress will serve as [[interim CEO]] and remain CFO until a permanent successor is named, board chair Harvey Jones said, and the board has begun a search that will consider internal and external candidates. The company did not give a reason for the departure. Fortune and CNN report that it followed mounting scandal tied to personal conduct and to a reported relationship with a woman that US intelligence officials deemed a Chinese asset; those details come from press reporting, not the filing, and Nvidia had previously disputed related reports.",
-        "Markets: Nvidia shares fell more than 13% at one point in early trading on Thursday before paring some of the loss, according to one report; I could not confirm the closing move. The Motley Fool described rival chipmakers surging, the Nasdaq Composite closed down about 0.4% and the S&P 500 about 0.35%, with Nvidia a heavy weight on both. The company is due to report earnings next Tuesday with no permanent CEO named."
+        "Markets: Nvidia shares fell more than 13% at one point in early trading on Thursday before paring some of the loss, according to one report; I could not confirm the closing move. The Motley Fool described rival chipmakers surging, the Nasdaq Composite closed down about 0.4% and the S&P 500 about 0.35%, with Nvidia a heavy weight on both. The company is due to report earnings next Tuesday with no permanent CEO named.",
+        "**Follow-up:** Nvidia said its scheduled earnings report will proceed as planned. PBS reports that the House Foreign Affairs Committee chair, Brian Mast, said Huang is expected to testify before Thanksgiving and could be subpoenaed if needed; PBS also notes that Nvidia had earlier said Huang would stay on while the company investigated."
       ],
       "background": [
         "Huang co-founded Nvidia in 1993 and led it from a graphics-chip maker to the center of the AI build-out, which made him unusually tied to the company's story. Last week the stock had already fallen about 5% on each of Monday and Tuesday on a New York Times report about a Megaspeed executive close to Huang, and on Dow Jones reports of an investigation. This resignation turns that headline risk into a leadership transition.",
@@ -855,6 +609,14 @@
       ],
       "sources": [
         {
+          "name": "Nvidia: NVIDIA announces CEO transition (press release)",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+        },
+        {
+          "name": "PBS NewsHour: What we know after Jensen Huang's resignation as Nvidia's CEO",
+          "url": "https://www.pbs.org/newshour/nation/what-we-know-after-jensen-huangs-resignation-as-nvidias-ceo"
+        },
+        {
           "name": "SEC: Nvidia Form 8-K announcing CEO transition",
           "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
         },
@@ -874,7 +636,8 @@
           "name": "Motley Fool: Nvidia CEO's exit sends Wall Street lower as rivals surge",
           "url": "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nvidia-ceo-s-stunning-exit-sends-wall-street-lower-as-rivals-surge/"
         }
-      ]
+      ],
+      "updateNote": "Confirmed via Nvidia's release; added earnings schedule and congressional testimony."
     },
     {
       "id": "stocks-slip-10yr-5-1-nov-12-2026",
@@ -957,6 +720,87 @@
         {
           "name": "24/7 Wall St.: S&P 500 closes down 0.43% as rate-hike odds weigh on growth stocks",
           "url": "https://247wallst.com/cards/rate-hike-odds-are-doing-the-damage-and-the-nasdaq-s-0-61-gspc-market-bell-01m78s60347w0kk4y4pfd5e2p6"
+        }
+      ]
+    },
+    {
+      "id": "ppi-october-2026-preview",
+      "beat": "fed-macro",
+      "importance": 3,
+      "depth": "brief",
+      "developing": true,
+      "publishedAt": "2026-11-13T06:53:00-05:00",
+      "updatedAt": "2026-11-13T06:53:00-05:00",
+      "readMinutes": 2,
+      "headline": "October producer prices are due Friday, a day after the 10-year yield jumped to about 5.1%",
+      "dek": "September PPI rose 1.3% on the month and 6.3% on the year, so another hot print would reinforce the case for a bigger December Fed hike.",
+      "tldr": [
+        "October PPI is due **Friday, Nov. 13**, per Benzinga's calendar; I did not find a consensus forecast.",
+        "September PPI rose **1.3%** m/m and **6.3%** y/y, with core up **0.7%** vs. 0.3% expected, according to the BLS release.",
+        "The 10-year yield rose to about 5.10% Thursday and a 25bp December hike is near-certain, with 50bp in play after CPI."
+      ],
+      "whatHappened": [
+        "The producer price index measures what businesses pay for inputs and what producers charge, so it can foreshadow consumer inflation. The latest data I could confirm is September's: PPI up 1.3% m/m and 6.3% y/y, with [[core|core PPI]] up 0.7% against 0.3% expected. October's report is due Friday according to Benzinga's calendar. I could not find a published consensus, so this preview is expectation-free; check the release for the result.",
+        "Context: Tuesday's CPI was +0.4% with core +0.3%, Governor Waller's trigger for considering a 50bp hike, and Thursday's bond-market reopening pushed the 10-year to about 5.10%. A hot PPI would add to the case, while a soft one could take a little pressure off."
+      ],
+      "background": [
+        "PPI often leads consumer prices because producers pass costs on with a lag. Energy-heavy components can swing the headline, so economists watch core PPI (excluding food and energy) for the underlying trend."
+      ],
+      "whyItMatters": [
+        "The December meeting is the next decision point, and the debate is 25bp versus 50bp. Data between now and then, starting with PPI, moves the [[2-year yield]] most because it tracks the expected policy path."
+      ],
+      "grandLine": {
+        "title": "Nami reads the sky",
+        "body": "Nami reads small signs in the air before committing to a heading. PPI is one of those signs: it shows what's building in the pipeline before it hits consumer prices, and traders read it for the weather the Fed will face next."
+      },
+      "views": [
+        {
+          "camp": "Pipeline pressure",
+          "thesis": "Hot producer prices mean more consumer inflation ahead.",
+          "argument": "September PPI jumped, core ran well above forecast, and producers are passing costs on, which supports a bigger hike."
+        },
+        {
+          "camp": "Oil will cool it",
+          "thesis": "Energy's drop should ease PPI soon.",
+          "argument": "Brent has fallen sharply from its peak, so energy components should cool, taking some heat out of the pipeline."
+        }
+      ],
+      "interview": {
+        "question": "What does PPI add after a hot CPI?",
+        "answer": "It tells you whether cost pressure is still building upstream. A hot core PPI reinforces the hike case and pushes the 2-year up; a soft one suggests CPI strength may be peaking. I'd compare core to consensus and look at trade and transport margins. What changes my mind is a big downside miss.",
+        "followUp": {
+          "question": "Why does core matter more?",
+          "answer": "Food and energy swing a lot month to month, so core is a cleaner read on underlying pressure."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "2-year yield",
+          "definition": "The yield on the 2-year Treasury, which tracks the expected path of the Fed's policy rate."
+        },
+        {
+          "term": "core PPI",
+          "definition": "Producer prices excluding food and energy; a cleaner read on underlying upstream inflation."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Fri Nov 13, 8:30 AM ET",
+          "what": "October PPI."
+        },
+        {
+          "when": "Nov 18",
+          "what": "FOMC minutes."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Benzinga: Producer Price Index (PPI) calendar",
+          "url": "https://www.benzinga.com/economic-data/ppi"
+        },
+        {
+          "name": "US Department of Labor: PPI release, Oct. 15, 2026",
+          "url": "https://www.dol.gov/newsroom/economicdata/ppi_10152026.pdf"
         }
       ]
     }
