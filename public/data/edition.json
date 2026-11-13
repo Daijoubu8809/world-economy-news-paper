@@ -1,31 +1,25 @@
 {
   "version": 1,
-  "publishedAt": "2026-11-13T06:53:00-05:00",
-  "checkedAt": "2026-11-13T06:53:00-05:00",
-  "nextRunAt": "2026-11-13T18:52:00-05:00",
+  "publishedAt": "2026-11-13T18:54:00-05:00",
+  "checkedAt": "2026-11-13T18:54:00-05:00",
+  "nextRunAt": "2026-11-14T10:38:00-05:00",
   "brief": {
-    "title": "Nvidia's CEO resigns and the 10-year yield climbs to about 5.1%, leaving stocks slightly lower and small caps down 1.7%.",
+    "title": "Stocks end a volatile week higher despite Nvidia's CEO exit, a hot CPI and a 5% 10-year yield.",
     "bullets": [
-      "**Nvidia:** CEO Jensen Huang resigned effective immediately (company release and 8-K); CFO Colette Kress is interim CEO; earnings proceed as scheduled and Congress wants Huang to testify.",
-      "**Stocks:** S&P 500 -0.35% to 7,592.40, Dow -0.36%, Nasdaq -0.39%; Russell 2000 -1.7%.",
-      "**Rates:** The 10-year rose to about 5.10% and the 30-year to about 5.44% as the bond market reopened.",
-      "**Fed:** October CPI +0.4% (core +0.3%) keeps a 25bp December hike near-certain with 50bp in play; October PPI is due today at 8:30am ET.",
-      "**Iran:** Tehran denies talks and says Hormuz stays shut until seven conditions are met; Qatar sees progress."
+      "**Week:** S&P 500 +2.5%, Nasdaq +2.3% (best week since August), Dow +2.1%; Friday the Nasdaq fell 0.91% to 25,136.27 on Nvidia while the Dow rose 0.1%.",
+      "**PPI:** October +0.3% vs. 0.4% expected, core +0.3% in line; annual 6.5%.",
+      "**Nvidia:** CEO Jensen Huang resigned; CFO Colette Kress is interim; earnings are Tuesday; Congress wants Huang to testify.",
+      "**Rates/Fed:** The 10-year hit about 5.1% Thursday; a 25bp December hike is near-certain, with 50bp the debate after CPI.",
+      "**Iran:** no new verified developments; Tehran denies talks and Hormuz stays shut (see Tuesday's reports)."
     ],
-    "mood": "A Whitebeard moment for the AI trade: the founder is gone, the Log Pose points toward higher rates, and the Red Line at Hormuz is still shut."
+    "mood": "The Calm Belt returned for stocks for a week, but Whitebeard's chair at the AI trade is empty and the Red Line at Hormuz is still shut."
   },
   "mustKnow": [
     "nvidia-ceo-huang-resigns-kress-interim-nov-2026",
-    "stocks-slip-10yr-5-1-nov-12-2026",
+    "weekly-wrap-best-week-since-august-nov-13-2026",
     "fed-december-hike-debate-warsh"
   ],
   "calendar": [
-    {
-      "date": "2026-11-13",
-      "time": "8:30 AM ET",
-      "label": "October producer prices (PPI)",
-      "why": "September PPI jumped 1.3%; another hot print would reinforce the case for a bigger December hike."
-    },
     {
       "date": "2026-11-17",
       "label": "Nvidia earnings",
@@ -342,90 +336,6 @@
       "updateNote": "Added Rubio's 'no breakthrough' and the blockade task force."
     },
     {
-      "id": "nasdaq-erases-post-election-losses-nov-11-2026",
-      "beat": "markets",
-      "importance": 3,
-      "depth": "brief",
-      "developing": true,
-      "publishedAt": "2026-11-11T18:59:00-05:00",
-      "updatedAt": "2026-11-11T18:59:00-05:00",
-      "readMinutes": 2,
-      "headline": "Nasdaq jumps 1.6% to erase its post-election losses as CoreWeave beats and Apple hits a record",
-      "dek": "The S&P 500 gained 1.3% to 7,619.38 and the Dow 0.5% on a day the bond market was closed for Veterans Day.",
-      "tldr": [
-        "Wednesday close: **S&P 500 +1.31% to 7,619.38**, **Nasdaq +1.60% to 25,466.19**, **Dow +0.49% to 52,486.49**.",
-        "Tech led after **CoreWeave** beat on earnings; **Apple** hit a record high; Nvidia snapped a two-day slide despite a downgrade.",
-        "The S&P 500 is within about **2.6%** of its all-time high. The US bond market was closed, so Treasury yields didn't trade."
-      ],
-      "whatHappened": [
-        "Stocks rallied Wednesday, led by AI and chip names. The S&P 500 rose 98.45 points, or 1.31%, to 7,619.38, the Nasdaq Composite gained 400.31 points, or 1.60%, to 25,466.19, and the Dow added 254.60 points, or 0.49%, to 52,486.49, per CappNotes' closing figures; other recaps show slightly different levels (24/7 Wall St. had the Nasdaq up about 1.55%). Yahoo Finance said the Nasdaq's gain erased its post-election losses. CoreWeave's earnings beat helped AI-infrastructure names, TheStreet reported Apple hit a new record high, and Nvidia snapped a two-day slide despite a Wall Street downgrade. Stocks were open for Veterans Day while the bond market was closed, so there was no read on Treasury yields after Tuesday's 5% 10-year. I could not verify the oil settle."
-      ],
-      "background": [
-        "The Nasdaq entered a [[correction]] last Thursday, bounced, then fell again after Tuesday's hot CPI. Wednesday's jump brings the S&P 500 back within about 2.6% of its high, but that came on a day when rates didn't trade, so the test of the yield story is Thursday."
-      ],
-      "whyItMatters": [
-        "Equities shrugged off a 5% 10-year with the bond market shut. When Treasuries reopen, a catch-up move in yields (a higher [[discount rate]]) could reprice the rally, which is why a holiday-session rally with no rates trading deserves skepticism."
-      ],
-      "grandLine": {
-        "title": "Gear 5",
-        "body": "Luffy's Gear 5 turns the rules of physics into a cartoon where anything bounces back. A one-day rebound that erases a week of losses can feel like that, but it only becomes a real recovery if the rules, here the discount rate, stay on your side."
-      },
-      "views": [
-        {
-          "camp": "Dip buyers back",
-          "thesis": "AI earnings are still strong enough to carry the market.",
-          "argument": "CoreWeave beat, Apple hit a record and the Nasdaq erased its post-election losses, so the AI trade has momentum."
-        },
-        {
-          "camp": "Wait for yields",
-          "thesis": "A rally with the bond market shut is suspect.",
-          "argument": "Rates were closed, a 5% 10-year and a possible 50bp hike are unresolved, and holiday sessions are thin."
-        }
-      ],
-      "interview": {
-        "question": "The Nasdaq erased its losses on a day the bond market was shut. Do you trust it?",
-        "answer": "Partly. The earnings were real, but a holiday session lacks the rates information that drove Tuesday. I'd wait for Thursday's bond reopening: if the 10-year stays near 5% and stocks hold, that's a stronger signal. What changes my mind is a yield spike that knocks tech lower.",
-        "followUp": {
-          "question": "Why does a bond-market holiday matter for stocks?",
-          "answer": "Treasury yields set the discount rate; without them trading, one of the main inputs to equity valuation is frozen."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "correction",
-          "definition": "A decline of 10% or more from a recent peak."
-        },
-        {
-          "term": "discount rate",
-          "definition": "The interest rate used to value future cash flows; higher rates cut the present value of future earnings."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Thu Nov 12",
-          "what": "Bond market reopens; does the 10-year hold near 5% and do stocks hold their gains?"
-        },
-        {
-          "when": "Nov 18",
-          "what": "FOMC minutes."
-        }
-      ],
-      "sources": [
-        {
-          "name": "CappNotes: Closing look, Wednesday, Nov. 11, 2026",
-          "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-11"
-        },
-        {
-          "name": "TheStreet: Stock market today, Nov. 11, 2026",
-          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"
-        },
-        {
-          "name": "Yahoo Finance: Stock market today, Wednesday, Nov. 11",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"
-        }
-      ]
-    },
-    {
       "id": "iran-hormuz-seven-conditions-oil-nov-11-2026",
       "beat": "energy",
       "importance": 4,
@@ -527,18 +437,18 @@
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-11-12T18:54:00-05:00",
-      "updatedAt": "2026-11-13T06:53:00-05:00",
+      "updatedAt": "2026-11-13T18:54:00-05:00",
       "readMinutes": 4,
       "headline": "Nvidia CEO Jensen Huang resigns and CFO Colette Kress is named interim CEO; shares fall sharply",
       "dek": "Nvidia's release and 8-K confirm the move, effective immediately; the board has opened a search, earnings proceed as scheduled, and Congress wants Huang to testify.",
       "tldr": [
         "Nvidia's release and 8-K say **Jensen Huang resigned** as CEO on Nov. 12, effective immediately; **CFO Colette Kress** is interim CEO; **Harvey Jones** is board chair; a CEO search has begun.",
         "The company **gave no reason**; Fortune and CNN tie the exit to personal conduct and a reported relationship with a woman US intelligence officials deemed a Chinese asset, which Nvidia has disputed in earlier statements.",
-        "Shares fell more than 13% at one point in early trading Thursday before paring losses, and the Nasdaq slipped about 0.4%; Nvidia reports earnings next Tuesday."
+        "Shares fell more than 13% at one point Thursday and closed down about 4.3% by one report; Friday was volatile and the Nasdaq fell 0.9%. Nvidia reports earnings next Tuesday."
       ],
       "whatHappened": [
         "Nvidia filed an [[8-K]] announcing that CEO Jensen Huang has resigned. CFO Colette Kress will serve as [[interim CEO]] and remain CFO until a permanent successor is named, board chair Harvey Jones said, and the board has begun a search that will consider internal and external candidates. The company did not give a reason for the departure. Fortune and CNN report that it followed mounting scandal tied to personal conduct and to a reported relationship with a woman that US intelligence officials deemed a Chinese asset; those details come from press reporting, not the filing, and Nvidia had previously disputed related reports.",
-        "Markets: Nvidia shares fell more than 13% at one point in early trading on Thursday before paring some of the loss, according to one report; I could not confirm the closing move. The Motley Fool described rival chipmakers surging, the Nasdaq Composite closed down about 0.4% and the S&P 500 about 0.35%, with Nvidia a heavy weight on both. The company is due to report earnings next Tuesday with no permanent CEO named.",
+        "Markets: Nvidia shares fell more than 13% at one point in early trading on Thursday before paring some of the loss, according to one report; Reports put Nvidia's Thursday close down about 4.3% after the early drop of more than 13%, and Friday's trading was volatile, swinging between gains and losses; the Nasdaq fell 0.91% Friday as Nvidia sold off, per CNBC. The Motley Fool described rival chipmakers surging, the Nasdaq Composite closed down about 0.4% and the S&P 500 about 0.35%, with Nvidia a heavy weight on both. The company is due to report earnings next Tuesday with no permanent CEO named.",
         "**Follow-up:** Nvidia said its scheduled earnings report will proceed as planned. PBS reports that the House Foreign Affairs Committee chair, Brian Mast, said Huang is expected to testify before Thanksgiving and could be subpoenaed if needed; PBS also notes that Nvidia had earlier said Huang would stay on while the company investigated."
       ],
       "background": [
@@ -609,6 +519,10 @@
       ],
       "sources": [
         {
+          "name": "CNBC: Nasdaq falls Friday as Nvidia sells off, but index notches best week since August",
+          "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+        },
+        {
           "name": "Nvidia: NVIDIA announces CEO transition (press release)",
           "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
         },
@@ -637,7 +551,7 @@
           "url": "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nvidia-ceo-s-stunning-exit-sends-wall-street-lower-as-rivals-surge/"
         }
       ],
-      "updateNote": "Confirmed via Nvidia's release; added earnings schedule and congressional testimony."
+      "updateNote": "Added Thursday's close and Friday's volatile trading."
     },
     {
       "id": "stocks-slip-10yr-5-1-nov-12-2026",
@@ -730,18 +644,17 @@
       "depth": "brief",
       "developing": true,
       "publishedAt": "2026-11-13T06:53:00-05:00",
-      "updatedAt": "2026-11-13T06:53:00-05:00",
+      "updatedAt": "2026-11-13T18:54:00-05:00",
       "readMinutes": 2,
-      "headline": "October producer prices are due Friday, a day after the 10-year yield jumped to about 5.1%",
-      "dek": "September PPI rose 1.3% on the month and 6.3% on the year, so another hot print would reinforce the case for a bigger December Fed hike.",
+      "headline": "October producer prices rise 0.3%, cooler than the 0.4% expected, with core in line at 0.3%",
+      "dek": "The annual PPI rate is 6.5%, the highest since November 2022, but the monthly miss helped stocks early Friday; a December hike is still near-certain.",
       "tldr": [
-        "October PPI is due **Friday, Nov. 13**, per Benzinga's calendar; I did not find a consensus forecast.",
-        "September PPI rose **1.3%** m/m and **6.3%** y/y, with core up **0.7%** vs. 0.3% expected, according to the BLS release.",
-        "The 10-year yield rose to about 5.10% Thursday and a 25bp December hike is near-certain, with 50bp in play after CPI."
+        "October PPI rose **0.3%** m/m vs. **0.4%** expected; core PPI rose **0.3%**, in line.",
+        "The annual PPI rate was **6.5%**, the highest since November 2022, per reports.",
+        "Stocks popped on the print but the Nasdaq ended down on Nvidia; a 25bp December hike is near-certain, with 50bp the debate."
       ],
       "whatHappened": [
-        "The producer price index measures what businesses pay for inputs and what producers charge, so it can foreshadow consumer inflation. The latest data I could confirm is September's: PPI up 1.3% m/m and 6.3% y/y, with [[core|core PPI]] up 0.7% against 0.3% expected. October's report is due Friday according to Benzinga's calendar. I could not find a published consensus, so this preview is expectation-free; check the release for the result.",
-        "Context: Tuesday's CPI was +0.4% with core +0.3%, Governor Waller's trigger for considering a 50bp hike, and Thursday's bond-market reopening pushed the 10-year to about 5.10%. A hot PPI would add to the case, while a soft one could take a little pressure off."
+        "The Bureau of Labor Statistics said the Producer Price Index rose 0.3% in October from September, below the 0.4% economists expected. [[Core PPI|core PPI]], which excludes food and energy, also rose 0.3%, in line with forecasts. The annual rate was reported at 6.5%, the highest since November 2022. Equity futures rose after the release and the major averages initially popped, though the Nasdaq finished lower on Nvidia. The data follows Tuesday's hot CPI (+0.4%, core +0.3%) and September's 1.3% PPI jump, so the cooler monthly number takes a little pressure off but doesn't change the hike debate."
       ],
       "background": [
         "PPI often leads consumer prices because producers pass costs on with a lag. Energy-heavy components can swing the headline, so economists watch core PPI (excluding food and energy) for the underlying trend."
@@ -795,12 +708,126 @@
       ],
       "sources": [
         {
+          "name": "Schaeffer's: Stock futures point higher after October PPI data",
+          "url": "https://www.schaeffersresearch.com/content/ezines/2026/11/13/stock-futures-point-higher-after-october-ppi-data"
+        },
+        {
+          "name": "TipRanks: US stocks rise on lighter-than-expected October PPI",
+          "url": "https://www.tipranks.com/news/u-s-stocks-rise-on-lighter-than-expected-october-ppi"
+        },
+        {
           "name": "Benzinga: Producer Price Index (PPI) calendar",
           "url": "https://www.benzinga.com/economic-data/ppi"
         },
         {
           "name": "US Department of Labor: PPI release, Oct. 15, 2026",
           "url": "https://www.dol.gov/newsroom/economicdata/ppi_10152026.pdf"
+        }
+      ],
+      "marketReaction": [
+        {
+          "asset": "PPI m/m",
+          "move": "+0.3% (vs. 0.4%)",
+          "direction": "down"
+        },
+        {
+          "asset": "Core PPI m/m",
+          "move": "+0.3% (in line)",
+          "direction": "flat"
+        },
+        {
+          "asset": "PPI y/y",
+          "move": "6.5% (highest since Nov 2022)",
+          "direction": "up"
+        }
+      ],
+      "updateNote": "Replaced the preview with the October PPI result."
+    },
+    {
+      "id": "weekly-wrap-best-week-since-august-nov-13-2026",
+      "beat": "markets",
+      "importance": 3,
+      "depth": "brief",
+      "developing": false,
+      "publishedAt": "2026-11-13T18:54:00-05:00",
+      "updatedAt": "2026-11-13T18:54:00-05:00",
+      "readMinutes": 2,
+      "headline": "Wall Street ends a volatile week higher as Nvidia drags the Nasdaq down 0.9% on Friday",
+      "dek": "The S&P 500 rose about 2.5% on the week and the Nasdaq about 2.3%, its best week since August, despite a hot CPI, a 5% 10-year yield and Nvidia's CEO exit.",
+      "tldr": [
+        "Friday close: **Dow +50.46 (+0.1%) to 52,347.55**, **S&P 500 -0.4% to 7,561.67**, **Nasdaq -0.91% to 25,136.27** (the Nasdaq's best week since August).",
+        "Week: **S&P 500 +2.5%**, **Nasdaq +2.3%**, **Dow +2.1%**; sources differ slightly on the Friday levels.",
+        "October PPI came in cooler than expected: **+0.3%** vs. 0.4% forecast, with core +0.3% in line."
+      ],
+      "whatHappened": [
+        "Stocks ended a whipsaw week with gains. On Friday the Dow edged up 50.46 points, or about 0.1%, to 52,347.55, while the S&P 500 fell about 0.4% to 7,561.67 and the Nasdaq Composite fell 0.91% to 25,136.27 as Nvidia's leadership turmoil kept weighing on tech, per CNBC and TheStreet; another recap had slightly different levels. Even so, the S&P 500 gained about 2.5% for the week, the Nasdaq about 2.3% (its best week since August) and the Dow about 2.1%. Money moved out of tech in a [[rotation]] and into other sectors, which helped the Dow, and [[breadth]] improved. The week included Monday's 1,104-point Dow rally on falling oil, Tuesday's hot CPI, Thursday's bond-market catch-up to a 5.1% 10-year, and Nvidia CEO Jensen Huang's resignation."
+      ],
+      "background": [
+        "Last week's Nasdaq correction set a low base: the S&P 500 fell 2.7% the week before, its worst since June, so this week's gain is mostly a retrace. Oil's drop and a cooler PPI helped, while yields near 5% and the Nvidia story capped the rebound."
+      ],
+      "whyItMatters": [
+        "The index is back near its highs, but leadership has shifted from tech to the rest of the market. That rotation is fragile if the 10-year keeps rising or if Nvidia's Tuesday earnings, the first without Huang, disappoint."
+      ],
+      "grandLine": {
+        "title": "The Straw Hats' navigator",
+        "body": "Nami doesn't steer by yesterday's weather; she reads the sky and adjusts. After a week that swung between storm and calm, the market's next heading hinges on two readings: Nvidia's report and the Fed minutes."
+      },
+      "views": [
+        {
+          "camp": "Rotation is healthy",
+          "thesis": "Money moving out of tech into the rest of the market broadens the rally.",
+          "argument": "The Dow gained, small caps and cyclicals participated earlier in the week, and falling oil helps most sectors."
+        },
+        {
+          "camp": "Tech is the tell",
+          "thesis": "The AI leader's turmoil is the real risk.",
+          "argument": "With Nvidia, the Nasdaq's heaviest weight, in disarray and 10-year yields near 5%, the rebound can reverse quickly."
+        }
+      ],
+      "interview": {
+        "question": "The S&P rose 2.5% on a week with hot CPI and a CEO resignation. How do you read it?",
+        "answer": "As a rebound from an oversold base helped by lower oil and a cooler PPI, not a clean all-clear. Breadth improved but tech is the swing factor and yields are near 5%. I'd watch Nvidia's Tuesday report and the FOMC minutes next Wednesday. What changes my mind is a break above 5.2% on the 10-year.",
+        "followUp": {
+          "question": "Why does PPI matter after CPI?",
+          "answer": "It shows pipeline pressure; a cooler PPI eases fears that producer costs will keep pushing consumer prices up."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "rotation",
+          "definition": "Money shifting from one group of stocks to another instead of leaving the market, such as from tech to cyclicals."
+        },
+        {
+          "term": "breadth",
+          "definition": "How many stocks participate in a market move; wide breadth is healthier."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Tue Nov 17",
+          "what": "Nvidia earnings, the first without Huang."
+        },
+        {
+          "when": "Wed Nov 18, 2:00 PM ET",
+          "what": "FOMC minutes."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Kiplinger: Nasdaq drops Friday on Nvidia fallout but ends the week up",
+          "url": "https://www.kiplinger.com/investing/stocks/nasdaq-drops-friday-on-nvidia-fallout-but-ends-the-week-up-stock-market-today"
+        },
+        {
+          "name": "TheStreet: Stock market today, Nov. 13, 2026",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-13-2026"
+        },
+        {
+          "name": "CNBC: Nasdaq falls Friday as Nvidia sells off, but index notches best week since August",
+          "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+        },
+        {
+          "name": "Quartz: All three major indexes are heading for weekly gains of about 2% to 3%",
+          "url": "https://qz.com/us-stock-indexes-weekly-gains-ppi-nvidia-111326"
         }
       ]
     }
