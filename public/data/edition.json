@@ -1,16 +1,16 @@
 {
   "version": 1,
   "publishedAt": "2026-11-13T18:54:00-05:00",
-  "checkedAt": "2026-11-13T18:54:00-05:00",
-  "nextRunAt": "2026-11-14T10:38:00-05:00",
+  "checkedAt": "2026-11-14T10:39:00-05:00",
+  "nextRunAt": "2026-11-15T10:38:00-05:00",
   "brief": {
-    "title": "Stocks end a volatile week higher despite Nvidia's CEO exit, a hot CPI and a 5% 10-year yield.",
+    "title": "Weekend wrap: stocks closed a volatile week higher; Nvidia earnings and FOMC minutes lead the week ahead.",
     "bullets": [
       "**Week:** S&P 500 +2.5%, Nasdaq +2.3% (best week since August), Dow +2.1%; Friday the Nasdaq fell 0.91% to 25,136.27 on Nvidia while the Dow rose 0.1%.",
       "**PPI:** October +0.3% vs. 0.4% expected, core +0.3% in line; annual 6.5%.",
       "**Nvidia:** CEO Jensen Huang resigned; CFO Colette Kress is interim; earnings are Tuesday; Congress wants Huang to testify.",
       "**Rates/Fed:** The 10-year hit about 5.1% Thursday; a 25bp December hike is near-certain, with 50bp the debate after CPI.",
-      "**Iran:** no new verified developments; Tehran denies talks and Hormuz stays shut (see Tuesday's reports)."
+      "**Iran/Hormuz:** no verified weekend developments found; the Nov 11 reports below are the latest, so treat them as stale until Monday."
     ],
     "mood": "The Calm Belt returned for stocks for a week, but Whitebeard's chair at the AI trade is empty and the Red Line at Hormuz is still shut."
   },
