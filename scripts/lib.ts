@@ -8,7 +8,7 @@ import type { Edition, EditionType, FeatureKind, Story } from '../src/lib/schema
 
 export const TZ = 'America/New_York';
 /** Scheduled runs in ET, [hour, minute]. Keep in step with the scheduled tasks. */
-export const SCHEDULE = { weekday: [[6, 52], [18, 52]], weekend: [[11, 52]] } as const;
+export const SCHEDULE = { weekday: [[6, 52], [16, 52]], weekend: [[11, 52]] } as const;
 /** Stories older than this (since their last update) are dropped automatically when an edition is filed. */
 export const PRUNE_HOURS = 48;
 /** Hard limit the validator enforces, measured from the edition's publishedAt. */

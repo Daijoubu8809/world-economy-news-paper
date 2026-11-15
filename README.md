@@ -16,7 +16,7 @@ and on a computer.
 
 ## How it stays current
 
-A scheduled Claude session (the "editor") files a morning and an evening edition on weekdays (about 7am and 7pm ET)
+A scheduled Claude session (the "editor") files a morning and an evening edition on weekdays (about 7am and 5pm ET)
 and one edition a day on weekends (about noon ET). Each run follows [`EDITOR.md`](EDITOR.md):
 
 1. `npm run desk` prints what is in the paper and what the run owes (which feature is due, what led last time).

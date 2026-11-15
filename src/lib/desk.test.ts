@@ -86,11 +86,11 @@ describe('schedule and Eastern time', () => {
   });
 
   it('finds the next scheduled run, across weekends and DST', () => {
-    expect(etIso(nextRun(new Date('2026-11-16T11:53:00Z')))).toBe('2026-11-16T18:52:00-05:00');
+    expect(etIso(nextRun(new Date('2026-11-16T11:53:00Z')))).toBe('2026-11-16T16:52:00-05:00');
     expect(etIso(nextRun(new Date('2026-11-13T23:53:00Z')))).toBe('2026-11-14T11:52:00-05:00');
     expect(etIso(nextRun(new Date('2026-11-15T16:53:00Z')))).toBe('2026-11-16T06:52:00-05:00');
     // A run that fires a minute early does not point at its own slot.
-    expect(etIso(nextRun(new Date('2026-11-16T11:51:00Z')))).toBe('2026-11-16T18:52:00-05:00');
+    expect(etIso(nextRun(new Date('2026-11-16T11:51:00Z')))).toBe('2026-11-16T16:52:00-05:00');
     // Saturday before the clocks go back (Nov 1, 2026) to Sunday after.
     expect(etIso(nextRun(new Date('2026-10-31T16:00:00Z')))).toBe('2026-11-01T11:52:00-05:00');
   });
