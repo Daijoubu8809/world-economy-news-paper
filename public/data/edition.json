@@ -1,40 +1,124 @@
 {
-  "version": 1,
-  "publishedAt": "2026-11-13T18:54:00-05:00",
-  "checkedAt": "2026-11-14T11:52:00-05:00",
+  "version": 2,
+  "id": "2026-11-15-weekend",
+  "number": 61,
+  "editionType": "weekend",
+  "publishedAt": "2026-11-15T09:34:00-05:00",
+  "checkedAt": "2026-11-15T09:34:00-05:00",
   "nextRunAt": "2026-11-15T11:52:00-05:00",
+  "lead": "trump-xi-apec-shenzhen-preview-nov-2026",
+  "frontLayout": "split",
   "brief": {
-    "title": "Weekend wrap: stocks closed a volatile week higher; Nvidia earnings and FOMC minutes lead the week ahead.",
     "bullets": [
-      "**Week:** S&P 500 +2.5%, Nasdaq +2.3% (best week since August), Dow +2.1%; Friday the Nasdaq fell 0.91% to 25,136.27 on Nvidia while the Dow rose 0.1%.",
-      "**PPI:** October +0.3% vs. 0.4% expected, core +0.3% in line; annual 6.5%.",
-      "**Nvidia:** CEO Jensen Huang resigned; CFO Colette Kress is interim; earnings are Tuesday; Congress wants Huang to testify.",
-      "**Rates/Fed:** The 10-year hit about 5.1% Thursday; a 25bp December hike is near-certain, with 50bp the debate after CPI.",
-      "**Iran/Hormuz:** no verified weekend developments found; the Nov 11 reports below are the latest, so treat them as stale until Monday."
+      "**This week:** Trump and Xi are expected to meet at APEC in Shenzhen. The trade truce was already extended to January 10, the South China Morning Post reports.",
+      "**Tuesday:** Nvidia reports after the close, its first call with Colette Kress as interim CEO. The Street expects about $109 billion of revenue.",
+      "**Wednesday:** the minutes of the Fed's October meeting come out at 2:00 PM ET.",
+      "**Climate:** COP31 runs through Friday in Antalya, with finance the main focus and no US delegation."
     ],
-    "mood": "The Calm Belt returned for stocks for a week, but Whitebeard's chair at the AI trade is empty and the Red Line at Hormuz is still shut."
+    "mood": "Markets are shut. Calm seas into Monday, with a Reverie on the horizon and one chip report that can change the weather."
   },
-  "mustKnow": [
-    "nvidia-ceo-huang-resigns-kress-interim-nov-2026",
-    "weekly-wrap-best-week-since-august-nov-13-2026",
-    "fed-december-hike-debate-warsh"
+  "tape": {
+    "asOf": "Fri close",
+    "items": [
+      {
+        "label": "S&P 500",
+        "value": "7,561.67",
+        "change": "-0.4%",
+        "direction": "down"
+      },
+      {
+        "label": "Nasdaq",
+        "value": "25,136.27",
+        "change": "-0.9%",
+        "direction": "down"
+      },
+      {
+        "label": "Dow",
+        "value": "52,347.55",
+        "change": "+0.1%",
+        "direction": "up"
+      }
+    ]
+  },
+  "storylines": [
+    {
+      "id": "us-china-trade",
+      "title": "US–China trade truce",
+      "line": "Extended to January 10; Trump and Xi are expected to meet in Shenzhen this week.",
+      "changed": true,
+      "storyId": "trump-xi-apec-shenzhen-preview-nov-2026"
+    },
+    {
+      "id": "nvidia-succession",
+      "title": "Nvidia after Huang",
+      "line": "Earnings are Tuesday after the close, the first with Colette Kress as interim CEO.",
+      "changed": true,
+      "storyId": "nvidia-q3-preview-kress-first-call-nov-2026"
+    },
+    {
+      "id": "fed-december",
+      "title": "The Fed's December decision",
+      "line": "No change: a hike is priced, and 25 or 50 basis points is the debate. October minutes are due Wednesday.",
+      "changed": false
+    },
+    {
+      "id": "iran-hormuz",
+      "title": "Iran and the Strait of Hormuz",
+      "line": "No verified developments since November 11: Tehran denies talks and the strait stays shut.",
+      "changed": false
+    }
   ],
+  "feature": {
+    "kind": "long-read",
+    "date": "2026-11-15",
+    "title": "The Sunday five finance ministers moved the dollar: the Plaza Accord, 1985",
+    "body": [
+      "With a trade summit on this week's calendar, here is the deal every currency desk still talks about. By early 1985 the dollar had climbed about 50% against the other major currencies in five years. Paul Volcker's high interest rates pulled money into the US, American exporters were being priced out of world markets, and Congress was drafting tariff bills aimed at Japan.",
+      "On Sunday, September 22, 1985, the finance ministers and central bankers of the US, Japan, West Germany, France and the UK met at the Plaza Hotel in New York. Treasury Secretary James Baker got what he wanted: a joint statement that the other currencies should rise against the dollar, backed by coordinated selling of dollars by all five central banks.",
+      "It worked faster than anyone planned. The yen went from about 240 per dollar to roughly 150 within about a year and a half. By February 1987 the same countries met at the Louvre in Paris to try to stop the slide.",
+      "The lesson desks draw is that intervention works when it is coordinated and when it pushes in the direction policy is already heading; US rates were falling by then. The warning is what came next: Japan cut rates to cushion the strong yen, an asset bubble followed, and it burst in 1990. Chinese officials still cite the Plaza Accord as the reason not to agree to a fast currency revaluation under pressure."
+    ]
+  },
+  "numberOfDay": {
+    "value": "$108B",
+    "label": "Nvidia's revenue guide for the quarter it reports Tuesday",
+    "why": "Give or take 2%, per the company's August outlook. Analysts sit near $109 billion, so just meeting the guide would be a slight miss against the Street, on Colette Kress's first call as interim CEO."
+  },
+  "belowFold": {
+    "headline": "A climate summit with two captains",
+    "text": "COP31 is the first UN climate summit to split its presidency between two countries. Türkiye hosts in Antalya and holds the gavel, while Australia's climate minister, Chris Bowen, leads the negotiations. Türkiye has said it keeps the final decision.",
+    "source": {
+      "name": "Climate Home News: Türkiye says it has final decision at COP31",
+      "url": "https://climatechangenews.com/2026/09/11/turkiye-says-it-has-final-decision-at-cop31-despite-australia-running-negotiations"
+    }
+  },
   "calendar": [
     {
       "date": "2026-11-17",
-      "label": "Nvidia earnings",
-      "why": "First report after Jensen Huang's resignation; Nvidia says the schedule is unchanged."
+      "time": "4:20 PM ET",
+      "label": "Nvidia earnings (call at 5:00 PM ET)",
+      "why": "First report with Colette Kress as interim CEO; the Street expects about $109 billion of revenue."
     },
     {
       "date": "2026-11-18",
       "time": "2:00 PM ET",
       "label": "FOMC minutes (October meeting)",
-      "why": "How officials view a 50bp move after the hot CPI."
+      "why": "How officials weigh a 50bp move after the hot October CPI."
+    },
+    {
+      "date": "2026-11-18",
+      "label": "APEC leaders' meeting, Shenzhen (through Nov 19)",
+      "why": "Trump and Xi are expected to meet; the trade truce runs to January 10."
+    },
+    {
+      "date": "2026-11-20",
+      "label": "COP31 scheduled to close",
+      "why": "Climate finance is the main open question."
     },
     {
       "date": "2026-11-26",
       "label": "US markets closed (Thanksgiving)",
-      "why": "Huang is expected to testify to Congress before this date, per PBS."
+      "why": "Thin liquidity around the holiday."
     },
     {
       "date": "2026-11-29",
@@ -45,402 +129,22 @@
       "date": "2026-12-09",
       "time": "2:00 PM ET",
       "label": "FOMC decision + dot plot",
-      "why": "A 25bp hike is near-certain; the debate is whether it is 50bp."
+      "why": "A hike is priced; the debate is 25bp or 50bp."
     }
   ],
   "stories": [
     {
-      "depth": "brief",
-      "developing": true,
-      "publishedAt": "2026-11-06T06:56:00-05:00",
-      "updatedAt": "2026-11-12T18:54:00-05:00",
-      "readMinutes": 2,
-      "id": "fed-december-hike-debate-warsh",
-      "beat": "fed-macro",
-      "headline": "After hot CPI, a December hike is near-certain and a 50bp move is in play, with Waller leading the case",
-      "dek": "The Fed held at 3.75%–4.00% on Oct. 28 with two dissents for a hike; Tuesday's 0.3% core print hit the marker Governor Waller set for a bigger move.",
-      "importance": 3,
-      "tldr": [
-        "Waller said a 50bp December hike should be considered if October core CPI hit 0.3%; core came in at **0.3%** (about 0.297% unrounded).",
-        "A **25bp** December hike is now seen as close to certain in some estimates (about 100%, from 84%); odds of **50bp** run roughly **10%–14%** depending on the source.",
-        "Chair Kevin Warsh has kept his communication guarded; the minutes on Nov. 18 and the Dec. 8–9 meeting are the next tests."
-      ],
-      "whatHappened": [
-        "The Fed held its target range at 3.75%–4.00% on Oct. 28 with two officials [[dissenting|dissent]] in favor of a hike. Governor Christopher Waller had since said that a 0.3% or higher core CPI in October would justify considering a 50bp hike in December, while backing at least 25bp regardless. Tuesday's core CPI printed 0.3% (about 0.297% unrounded), and market estimates for a December hike of at least 25bp rose to near-certain in some measures, with 50bp odds at roughly 10% to 14%. Chair Warsh has not signaled a bigger move, and the sources I found differ on exact odds, so treat them as a range. With the bond market back after Veterans Day, the 10-year yield rose to about 5.10% on Thursday and 24/7 Wall St. said rate-hike odds were 'doing the damage' to growth stocks."
-      ],
-      "background": [
-        "The Fed hiked in September after months of energy-driven inflation, and it is trying to avoid a repeat of the 1970s, when inflation expectations became unanchored. Warsh's style is to guard his communication, so markets read the dissents and the data rather than any explicit signal."
-      ],
-      "whyItMatters": [
-        "The path matters for the front end of the curve and the dollar. Falling oil reduces the inflation argument for a hike, but a hot labor market and sticky core inflation keep it alive. A deeper equity selloff would add a growth argument against tightening."
-      ],
-      "grandLine": {
-        "title": "Kizaru's Unclear Justice",
-        "body": "Kizaru is the admiral whose intentions you can never quite read; his 'Unclear Justice' leaves everyone guessing what he'll do. A chair who keeps a hike 'in play' without saying yes or no creates the same effect: markets have to read each data point for the heading."
-      },
-      "views": [
-        {
-          "camp": "One more hike needed",
-          "thesis": "Inflation is still too hot to stop at 4%.",
-          "argument": "Energy prices are feeding into core inflation, and the two dissenters wanted to act in October, so a December hike finishes the job."
-        },
-        {
-          "camp": "Pause and watch",
-          "thesis": "Oil's drop and market stress argue for holding.",
-          "argument": "Brent has fallen from the $115 area to the mid-$90s, equities are in a correction, and payroll growth is slow, so tightening risks over-tightening into a supply shock."
-        }
-      ],
-      "interview": {
-        "question": "Would you bet on a December hike?",
-        "answer": "I'd treat it as roughly a coin flip tilted toward a hike, and lean on the data. The Fed has dissenters wanting to tighten, but oil has fallen and equities are under stress. A [[hawkish hold|hawkish hold]] is the base case if payrolls are soft and oil stays lower. What changes my mind is a hot wage print or a re-spike in oil.",
-        "followUp": {
-          "question": "What's a hawkish hold?",
-          "answer": "A decision to keep rates unchanged while signaling that hikes remain possible."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "hawkish hold",
-          "definition": "Leaving rates unchanged while signaling that tightening is still a live option."
-        },
-        {
-          "term": "dissent",
-          "definition": "A formal vote against the committee's decision. Dissents hint at where the committee could move next.",
-          "example": "Two officials dissented in favor of a hike on Oct. 28."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Fri Nov 6",
-          "what": "October payrolls."
-        },
-        {
-          "when": "Nov 18, 2:00 PM ET",
-          "what": "FOMC minutes from the October meeting."
-        },
-        {
-          "when": "Dec 8–9",
-          "what": "FOMC decision and dot plot."
-        }
-      ],
-      "sources": [
-        {
-          "name": "24/7 Wall St.: S&P 500 closes down 0.43% as rate-hike odds weigh on growth stocks",
-          "url": "https://247wallst.com/cards/rate-hike-odds-are-doing-the-damage-and-the-nasdaq-s-0-61-gspc-market-bell-01m78s60347w0kk4y4pfd5e2p6"
-        },
-        {
-          "name": "CNBC: Market spooked because now the Fed may need a supersized hike in December",
-          "url": "https://www.cnbc.com/2026/11/10/market-spooked-because-now-the-fed-may-need-a-supersized-hike-in-december.html"
-        },
-        {
-          "name": "InvestingLive: Hot US CPI puts a bigger Fed hike in play",
-          "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-10-nov-it-s-a-wrap-hot-us-cpi-puts-a-bigger-fed-hike-in-play/"
-        },
-        {
-          "name": "Morningstar: October CPI shows inflation at a 0.4% monthly rate, above forecasts",
-          "url": "https://www.morningstar.com/economy/october-cpi-report-shows-inflation-04-monthly-rate-above-forecasts"
-        },
-        {
-          "name": "InvestingLive: What could stop the Fed raising rates in December?",
-          "url": "https://investinglive.com/education/what-could-stop-the-fed-raising-rates-in-december"
-        },
-        {
-          "name": "Yahoo Finance: The jobs report and Fed chair Kevin Warsh's new playbook",
-          "url": "https://finance.yahoo.com/economy/article/the-jobs-report-just-put-fed-chair-kevin-warshs-new-playbook-to-work-one-big-investment-idea-202600654.html"
-        }
-      ],
-      "updateNote": "Added Thursday's yield move after the bond market reopened."
-    },
-    {
-      "depth": "brief",
-      "developing": true,
-      "publishedAt": "2026-11-06T06:56:00-05:00",
-      "updatedAt": "2026-11-11T18:59:00-05:00",
-      "readMinutes": 2,
-      "id": "world-iran-talks-qatar-mediation",
-      "beat": "world",
-      "headline": "Iran's security chief denies talks with the US as Qatar reports progress and Washington extends its blockade",
-      "dek": "Mohsen Rezaei says Hormuz stays shut until seven conditions are met; Rubio says the sides aren't close to a breakthrough.",
-      "importance": 3,
-      "tldr": [
-        "Iran's Mohsen Rezaei said Tehran is holding **no negotiations** with the US and Hormuz stays closed until **seven conditions** are met.",
-        "Rubio said the US is not close to a breakthrough and called Iran's demands outrageous; Qatar says it sees progress.",
-        "The US is pushing a military task force to extend its naval blockade; Iran's military dismissed it as 'wordplay.'"
-      ],
-      "whatHappened": [
-        "Iran's Mohsen Rezaei, secretary of the Supreme National Security Council, said Tehran is holding no negotiations with the United States and that Hormuz stays closed until Washington meets all seven of Iran's conditions. A separate report says Iran's proposal would resume talks within two days if the US halted attacks, lifted its blockade of Iranian ports and waived some sanctions. Secretary of State Rubio said the sides are not close to a breakthrough, citing outrageous Iranian demands, while Qatar, the main [[mediator|mediation]], said it saw progress after a White House meeting and Trump held a call with Qatar's emir.",
-        "Trump has said renewed strikes on Iran are 'highly unlikely' if Tehran agrees to a very strong nuclear deal and fully reopens Hormuz. The US is also pushing a military task force to extend its naval blockade, which Iran's military dismissed as 'wordplay.' CNN's Nov. 8 explainer describes quiet negotiations in which neither side has budged. No agreement has been announced."
-      ],
-      "background": [
-        "The war began on Feb. 28 with US and Israeli strikes. A June memorandum and ceasefire collapsed in July, and Iran has since restricted shipping through the Strait of Hormuz. Mediation has run on and off since, usually in parallel with strikes and threats, and traders call a peace-talk hope that fades a [[false dawn]]."
-      ],
-      "whyItMatters": [
-        "For readers following the world rather than the tape: this is the story that decides whether the Gulf stays at war. For markets it is the main driver of oil, which fell about 8% on Wednesday on hopes of an exit."
-      ],
-      "grandLine": {
-        "title": "Bounty posters vs. an Admiral",
-        "body": "The World Government warns with bounty posters first and only sends an Admiral if the warnings are ignored. 'No rush' on strikes is the poster stage: the threat is still on the wall, but the fleet hasn't sailed. Whether it ever does depends on whether the talks give Washington a face-saving exit."
-      },
-      "views": [
-        {
-          "camp": "Diplomacy is working",
-          "thesis": "Domestic politics and talks are pushing toward a deal.",
-          "argument": "After the midterms rebuke, the administration has reasons to avoid a wider war, and Tehran is signaling flexibility by empowering its negotiators."
-        },
-        {
-          "camp": "Escalation is still likely",
-          "thesis": "The sides remain far apart.",
-          "argument": "Israel's government reportedly wants a strike, Iranian officials say a deal is distant, and previous 'false dawns' ended in renewed fighting."
-        }
-      ],
-      "interview": {
-        "question": "What's the state of the US–Iran war?",
-        "answer": "A stalemate with talks running alongside a standoff. Qatar is mediating, Iran says its leader has backed the negotiators, and Trump is saying 'no rush' on strikes. But the sides remain far apart, and past pauses have collapsed. I'd watch Hormuz flows and whether a draft agreement emerges. What changes my mind is a signed memorandum or a new round of strikes.",
-        "followUp": {
-          "question": "Why does Qatar mediate?",
-          "answer": "It has working channels to both Washington and Tehran and is a Gulf state with a stake in ending the conflict."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "mediation",
-          "definition": "A third party carrying messages and drafts between sides that won't negotiate directly.",
-          "example": "Qatar shuttles drafts between Washington and Tehran."
-        },
-        {
-          "term": "false dawn",
-          "definition": "A hopeful sign that fades without a real change. Oil traders use it for peace-talk rallies that reverse."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "This week",
-          "what": "Any draft agreement from the Qatar-led talks, and Trump's next comments on strikes."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Newscord: Iran's Rezaei rejects US talks, says Hormuz stays shut until seven conditions are met",
-          "url": "https://newscord.org/article/irans-mohsen-rezaei-rejects-us-talks-says-hormuz-stays-shut-until-seven-conditio--Story_20261111_IrandeniestalkswithU48818a5b"
-        },
-        {
-          "name": "CBS News: Iran downplays new US task force aimed at disrupting transport routes",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
-        },
-        {
-          "name": "Latin Times: Iran proposes reopening the Strait of Hormuz after US concessions",
-          "url": "https://www.latintimes.com/iran-qatar-strait-hormuz-reopening-nuclear-talks-601047"
-        },
-        {
-          "name": "CNN via ABC17: US and Iran are quietly negotiating as the Middle East remains on edge",
-          "url": "https://abc17news.com/news/national-world/cnn-world/2026/11/08/us-and-iran-are-quietly-negotiating-as-middle-east-remains-on-edge-heres-what-to-know/"
-        },
-        {
-          "name": "Axios: Trump says 'no rush' to decide on bombing Iran again",
-          "url": "https://www.axios.com/2026/11/02/trump-axios-interview-no-rush-resume-war"
-        },
-        {
-          "name": "Fox News: Trump says 'no rush' to resume Iran strikes as Tehran talks hang in the balance",
-          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-midterms-peace-deal-israel-november-2"
-        },
-        {
-          "name": "IBTimes: Speculation about US–Iran negotiations mounts; Trump says 'no rush'",
-          "url": "https://www.ibtimes.com/trump-no-rush-iran-strikes-talks-3809303"
-        },
-        {
-          "name": "Middle East Eye: Trump says he will not attack Iran after midterms",
-          "url": "https://www.middleeasteye.net/news/trump-says-he-will-not-attack-iran-after-midterms"
-        }
-      ],
-      "updateNote": "Added Rezaei's denial, Rubio's 'no breakthrough' and the blockade task force."
-    },
-    {
-      "developing": true,
-      "publishedAt": "2026-11-09T17:45:00-05:00",
-      "updatedAt": "2026-11-11T18:59:00-05:00",
-      "id": "us-iran-posture-after-midterms",
-      "beat": "policy",
-      "importance": 3,
-      "depth": "brief",
-      "readMinutes": 2,
-      "headline": "Rubio says no breakthrough with Iran as the US moves to extend its blockade, while Trump keeps strikes 'highly unlikely'",
-      "dek": "Washington is pairing a softer tone on strikes with more pressure on shipping and ports; Qatar says it sees progress.",
-      "tldr": [
-        "Rubio said the US is not close to a breakthrough, citing Iran's 'outrageous' demands.",
-        "Trump says renewed strikes are **'highly unlikely'** if Tehran agrees to a very strong nuclear deal and reopens Hormuz.",
-        "The US is pushing a task force to extend its naval blockade; Iran's military dismissed it as 'wordplay.'"
-      ],
-      "whatHappened": [
-        "The administration's line is split between pressure and diplomacy. Secretary of State Rubio said the sides are not close to a breakthrough and called Iran's demands outrageous. Trump said renewed strikes would be 'highly unlikely' if Tehran agreed to a very strong deal that includes its nuclear program and fully reopens Hormuz, while keeping the military option open. At the same time the US is pushing a military task force to extend its naval blockade. Vice President Vance had tied the GOP's midterm losses to the war, and reports say US forces have strike plans ready if talks fail."
-      ],
-      "background": [
-        "The war began Feb. 28. A June memorandum collapsed in July, and the US imposed a naval blockade on Iranian ports. Domestic politics now push toward a deal, while allies such as Israel have reportedly urged action."
-      ],
-      "whyItMatters": [
-        "US posture is the main swing factor for oil and risk assets. A credible commitment to diplomacy lowers the [[risk premium]]; a breakdown would raise it fast."
-      ],
-      "grandLine": {
-        "title": "Bounty posters vs. an Admiral",
-        "body": "The World Government warns with bounty posters first and sends an Admiral only if warnings are ignored. 'Highly unlikely' is the poster stage: the fleet hasn't sailed, but the posters stay on the wall."
-      },
-      "views": [
-        {
-          "camp": "Deal incentive",
-          "thesis": "Politics now favor a settlement.",
-          "argument": "After the midterm rebuke the administration has reasons to avoid a wider war and oil prices have been a political cost."
-        },
-        {
-          "camp": "Hedge the threat",
-          "thesis": "Strikes remain a live option.",
-          "argument": "Military plans are ready, Israel pressed for action, and Trump has kept the option open."
-        }
-      ],
-      "interview": {
-        "question": "How does US politics affect the Iran trade?",
-        "answer": "The midterms shifted incentives toward diplomacy, which compressed oil's risk premium. I'd still hedge for headline risk, since the option for strikes remains and talks are fragile.",
-        "followUp": {
-          "question": "What would flip the view?",
-          "answer": "Talks collapsing or renewed attacks on shipping."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "risk premium",
-          "definition": "Extra price for uncertainty over supply or policy; it shrinks when risk recedes."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "This week",
-          "what": "Any announcement from Qatar-led talks or new strike signals."
-        }
-      ],
-      "sources": [
-        {
-          "name": "CBS News: Iran downplays new US task force aimed at disrupting transport routes",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
-        },
-        {
-          "name": "CNN via ABC17: US and Iran are quietly negotiating as the Middle East remains on edge",
-          "url": "https://abc17news.com/news/national-world/cnn-world/2026/11/08/us-and-iran-are-quietly-negotiating-as-middle-east-remains-on-edge-heres-what-to-know/"
-        },
-        {
-          "name": "Latin Times: Iran proposes reopening the Strait of Hormuz after US concessions",
-          "url": "https://www.latintimes.com/iran-qatar-strait-hormuz-reopening-nuclear-talks-601047"
-        },
-        {
-          "name": "Axios: Trump says 'no rush' to decide on bombing Iran again",
-          "url": "https://www.axios.com/2026/11/02/trump-axios-interview-no-rush-resume-war"
-        }
-      ],
-      "updateNote": "Added Rubio's 'no breakthrough' and the blockade task force."
-    },
-    {
-      "id": "iran-hormuz-seven-conditions-oil-nov-11-2026",
-      "beat": "energy",
-      "importance": 4,
-      "depth": "brief",
-      "developing": true,
-      "publishedAt": "2026-11-11T18:59:00-05:00",
-      "updatedAt": "2026-11-11T18:59:00-05:00",
-      "readMinutes": 2,
-      "headline": "Iran says Hormuz stays shut until seven conditions are met, even as Qatar reports progress",
-      "dek": "Iran's security chief denied talks with Washington while the US moved to extend its naval blockade; oil had fallen about 5% on Monday on diplomacy hopes (no newer price confirmed).",
-      "tldr": [
-        "Mohsen Rezaei, secretary of Iran's Supreme National Security Council, said Tehran holds **no negotiations** with the US and Hormuz stays closed until **seven conditions** are met.",
-        "Reports say Iran would resume talks in as little as two days if the US halts attacks, lifts its port blockade and waives some sanctions.",
-        "Qatar says it sees progress; the US is pushing a task force to extend the blockade, which Iran's military called 'wordplay.' Brent was roughly $93–97 on Monday."
-      ],
-      "whatHappened": [
-        "Iran's public line hardened this week. Secretary of the Supreme National Security Council Mohsen Rezaei said Tehran is holding no negotiations with the United States and that the Strait of Hormuz will remain closed until Washington meets all seven Iranian conditions. A separate report says Iran's proposal would resume talks in as little as two days if the US halted attacks, lifted its blockade of Iranian ports and waived some sanctions. Qatar, the main mediator, says it sees progress after a White House meeting, and Trump spoke with Qatar's emir. Meanwhile the US is pushing a military task force to extend its naval blockade, which Iran's military dismissed as 'wordplay.' No agreement has been announced.",
-        "For oil: Brent fell about 5% to roughly $93–97 on Monday on diplomacy hopes after a roughly 16% weekly drop, and I could not find a confirmed price for Tuesday or Wednesday. Because Hormuz flows are still far below normal, the [[risk premium]] that has drained could rebuild quickly if talks are publicly denied."
-      ],
-      "background": [
-        "Hormuz is the [[chokepoint]] for about a quarter of seaborne oil. The war started Feb. 28; a June memorandum collapsed in July, and the US reimposed a blockade on Iranian ports. Iran uses control of the strait as leverage for sanctions relief."
-      ],
-      "whyItMatters": [
-        "Oil trades on whether the strait reopens. A public denial from Iran's security chief is a reminder that the market's roughly 16% drop is priced on hope, and a breakdown could reverse it."
-      ],
-      "grandLine": {
-        "title": "Crossing the Red Line",
-        "body": "There are only two ways to cross the Red Line: through Mary Geoise with permission, or under the sea via Fish-Man Island. Whoever controls the passages controls trade between the seas. Hormuz is the oil world's Red Line, and Iran is telling the world the gate stays shut until its conditions are met."
-      },
-      "views": [
-        {
-          "camp": "Posturing",
-          "thesis": "Public denials are bargaining, and a deal is still coming.",
-          "argument": "Qatar reports progress, Iran has outlined a path to resume talks in two days, and Trump keeps calling strikes unlikely if a deal is strong."
-        },
-        {
-          "camp": "Standoff",
-          "thesis": "The sides are far apart and the premium returns.",
-          "argument": "Iran denies talking, the US is extending its blockade, and Rubio said Iran's demands are outrageous."
-        }
-      ],
-      "interview": {
-        "question": "Iran says no talks and Hormuz stays shut. Why isn't oil spiking?",
-        "answer": "Because markets weigh action over rhetoric, and Qatar, Pakistan and others report progress. But the price is built on hope, so I'd keep the position light. What changes my mind is a signed memorandum, which is bearish oil, or renewed attacks on shipping, which is bullish.",
-        "followUp": {
-          "question": "What is the blockade?",
-          "answer": "A US naval blockade of Iranian ports used to pressure Tehran; Iran wants it lifted in exchange for reopening Hormuz."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "chokepoint",
-          "definition": "A narrow passage that a large share of global trade must go through, such as Hormuz."
-        },
-        {
-          "term": "risk premium",
-          "definition": "Extra price for uncertainty over supply or policy; it shrinks on peace hopes."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "This week",
-          "what": "Any Qatar-announced draft, and whether Iran or the US moves first on the blockade."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Newscord: Iran's Rezaei rejects US talks, says Hormuz stays shut until seven conditions are met",
-          "url": "https://newscord.org/article/irans-mohsen-rezaei-rejects-us-talks-says-hormuz-stays-shut-until-seven-conditio--Story_20261111_IrandeniestalkswithU48818a5b"
-        },
-        {
-          "name": "CBS News: Iran downplays new US task force aimed at disrupting transport routes",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
-        },
-        {
-          "name": "Latin Times: Iran proposes reopening the Strait of Hormuz after US concessions",
-          "url": "https://www.latintimes.com/iran-qatar-strait-hormuz-reopening-nuclear-talks-601047"
-        },
-        {
-          "name": "CNN via ABC17: US and Iran are quietly negotiating as the Middle East remains on edge",
-          "url": "https://abc17news.com/news/national-world/cnn-world/2026/11/08/us-and-iran-are-quietly-negotiating-as-middle-east-remains-on-edge-heres-what-to-know/"
-        }
-      ],
-      "trade": {
-        "idea": "Long a Brent call spread as a talks-failure hedge",
-        "expression": "Buy a near-dated Brent call spread (e.g., 100/110), small size",
-        "rationale": "Oil has fallen on hope while Hormuz flows are still far below normal. A call spread caps the cost and pays if talks collapse or attacks resume. Interview framing, not advice.",
-        "risks": [
-          "A signed deal reopens the strait and oil keeps falling.",
-          "Options decay if headlines stay noisy but prices don't move.",
-          "Demand weakness caps the rebound."
-        ]
-      }
-    },
-    {
       "id": "nvidia-ceo-huang-resigns-kress-interim-nov-2026",
       "beat": "markets",
+      "headline": "Nvidia CEO Jensen Huang resigns and CFO Colette Kress is named interim CEO; shares fall sharply",
+      "dek": "Nvidia's release and 8-K confirm the move, effective immediately; the board has opened a search, earnings proceed as scheduled, and Congress wants Huang to testify.",
       "importance": 5,
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-11-12T18:54:00-05:00",
       "updatedAt": "2026-11-13T18:54:00-05:00",
+      "updateNote": "Added Thursday's close and Friday's volatile trading.",
       "readMinutes": 4,
-      "headline": "Nvidia CEO Jensen Huang resigns and CFO Colette Kress is named interim CEO; shares fall sharply",
-      "dek": "Nvidia's release and 8-K confirm the move, effective immediately; the board has opened a search, earnings proceed as scheduled, and Congress wants Huang to testify.",
       "tldr": [
         "Nvidia's release and 8-K say **Jensen Huang resigned** as CEO on Nov. 12, effective immediately; **CFO Colette Kress** is interim CEO; **Harvey Jones** is board chair; a CEO search has begun.",
         "The company **gave no reason**; Fortune and CNN tie the exit to personal conduct and a reported relationship with a woman US intelligence officials deemed a Chinese asset, which Nvidia has disputed in earlier statements.",
@@ -550,104 +254,20 @@
           "name": "Motley Fool: Nvidia CEO's exit sends Wall Street lower as rivals surge",
           "url": "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nvidia-ceo-s-stunning-exit-sends-wall-street-lower-as-rivals-surge/"
         }
-      ],
-      "updateNote": "Added Thursday's close and Friday's volatile trading."
-    },
-    {
-      "id": "stocks-slip-10yr-5-1-nov-12-2026",
-      "beat": "markets",
-      "importance": 3,
-      "depth": "brief",
-      "developing": true,
-      "publishedAt": "2026-11-12T18:54:00-05:00",
-      "updatedAt": "2026-11-12T18:54:00-05:00",
-      "readMinutes": 2,
-      "headline": "Stocks slip as the 10-year yield climbs to about 5.1% and small caps drop 1.7%",
-      "dek": "The S&P 500 closed down about 0.35% after erasing a near-1% early drop, with Nvidia's CEO exit and rate-hike bets weighing on growth stocks.",
-      "tldr": [
-        "Thursday close: **S&P 500 -0.35% to 7,592.40**, **Dow -0.36% to 52,297.09**, **Nasdaq -0.39% to 25,366.09**; the Russell 2000 fell about **1.7%**.",
-        "The **10-year yield** rose about 10bp to roughly **5.10%** (Yahoo had 5.12%) and the 30-year to about **5.44%** after the bond market reopened.",
-        "Figures differ slightly by source; 24/7 Wall St. had the S&P 500 down 0.43%."
-      ],
-      "whatHappened": [
-        "Stocks fell modestly after a rally, but the S&P 500 recovered from a drop of nearly 1% early in the session to close at 7,592.40, down about 0.35%. The Dow lost 189.40 points to 52,297.09 and the Nasdaq Composite fell about 0.4% to 25,366.09. Small caps were the weakest, with the Russell 2000 down about 1.66%. With Treasuries trading again after Veterans Day, the 10-year yield rose roughly 10bp to about 5.10% and the 30-year to about 5.44%, a catch-up to Tuesday's hot CPI and the case for a bigger December hike. Rate-hike odds and Nvidia's leadership change weighed on growth stocks."
-      ],
-      "background": [
-        "Small caps are the most rate-sensitive part of the market because they carry more floating-rate debt and rely on cheaper financing, which is why the Russell 2000 fell most as yields rose."
-      ],
-      "whyItMatters": [
-        "A 10-year above 5% competes with stocks for money and raises the [[discount rate]] used to value future earnings. The risk for the rebound is yields continuing to climb into Friday's producer prices and the FOMC minutes."
-      ],
-      "grandLine": {
-        "title": "Log Pose",
-        "body": "A Log Pose points only to the next island once it has recorded the magnetic field of this one. Markets are in that mode with the Fed: no pre-announced route, just a heading that shifts with each data point. This week's heading keeps pointing higher on rates."
-      },
-      "views": [
-        {
-          "camp": "Rates are the driver",
-          "thesis": "The 5% 10-year and hike odds are the story.",
-          "argument": "Small caps fell hardest and growth stocks lagged, consistent with higher discount rates."
-        },
-        {
-          "camp": "Orderly pullback",
-          "thesis": "A 0.35% decline after a 2.3% rally is consolidation.",
-          "argument": "The S&P recovered from a nearly 1% intraday drop, which looks like dip buying rather than panic."
-        }
-      ],
-      "interview": {
-        "question": "Yields hit 5.1% and the S&P barely fell. Why?",
-        "answer": "Because the market had already priced much of the hot CPI and earnings are carrying large caps, but small caps show the rate pressure. I'd watch the 10-year as a line in the sand. What changes my mind is a sustained break above 5.2%, or a weak auction.",
-        "followUp": {
-          "question": "Why do small caps suffer more?",
-          "answer": "They are more dependent on borrowing and more sensitive to rates and growth."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "discount rate",
-          "definition": "The interest rate used to value future cash flows; higher rates cut the present value of future earnings."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Fri Nov 13",
-          "what": "October producer prices (PPI), per Benzinga's calendar."
-        },
-        {
-          "when": "Nov 18",
-          "what": "FOMC minutes."
-        }
-      ],
-      "sources": [
-        {
-          "name": "CappNotes: Closing look, Thursday, Nov. 12, 2026",
-          "url": "https://cappnotes.substack.com/p/closing-look-thursday-november-12"
-        },
-        {
-          "name": "Yahoo Finance: Dow, S&P 500, Nasdaq slip as Nvidia falls on CEO exit, yields rise",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
-        },
-        {
-          "name": "VistaP Global: Stocks fall as Treasury yields hit 5.10% and Nvidia faces a leadership reset",
-          "url": "https://vistapglobal.com/stock-market-today-november-12-2026-stocks-fall-as-treasury-yields-hit-5-10-oil-rises-and-nvidia-faces-leadership-reset-amd-crwv-eprx-googl-modd-msft-nvda-ser-spcx-ttek-ual/"
-        },
-        {
-          "name": "24/7 Wall St.: S&P 500 closes down 0.43% as rate-hike odds weigh on growth stocks",
-          "url": "https://247wallst.com/cards/rate-hike-odds-are-doing-the-damage-and-the-nasdaq-s-0-61-gspc-market-bell-01m78s60347w0kk4y4pfd5e2p6"
-        }
       ]
     },
     {
       "id": "ppi-october-2026-preview",
       "beat": "fed-macro",
+      "headline": "October producer prices rise 0.3%, cooler than the 0.4% expected, with core in line at 0.3%",
+      "dek": "The annual PPI rate is 6.5%, the highest since November 2022, but the monthly miss helped stocks early Friday; a December hike is still near-certain.",
       "importance": 3,
       "depth": "brief",
       "developing": true,
       "publishedAt": "2026-11-13T06:53:00-05:00",
       "updatedAt": "2026-11-13T18:54:00-05:00",
+      "updateNote": "Replaced the preview with the October PPI result.",
       "readMinutes": 2,
-      "headline": "October producer prices rise 0.3%, cooler than the 0.4% expected, with core in line at 0.3%",
-      "dek": "The annual PPI rate is 6.5%, the highest since November 2022, but the monthly miss helped stocks early Friday; a December hike is still near-certain.",
       "tldr": [
         "October PPI rose **0.3%** m/m vs. **0.4%** expected; core PPI rose **0.3%**, in line.",
         "The annual PPI rate was **6.5%**, the highest since November 2022, per reports.",
@@ -661,6 +281,23 @@
       ],
       "whyItMatters": [
         "The December meeting is the next decision point, and the debate is 25bp versus 50bp. Data between now and then, starting with PPI, moves the [[2-year yield]] most because it tracks the expected policy path."
+      ],
+      "marketReaction": [
+        {
+          "asset": "PPI m/m",
+          "move": "+0.3% (vs. 0.4%)",
+          "direction": "down"
+        },
+        {
+          "asset": "Core PPI m/m",
+          "move": "+0.3% (in line)",
+          "direction": "flat"
+        },
+        {
+          "asset": "PPI y/y",
+          "move": "6.5% (highest since Nov 2022)",
+          "direction": "up"
+        }
       ],
       "grandLine": {
         "title": "Nami reads the sky",
@@ -723,37 +360,19 @@
           "name": "US Department of Labor: PPI release, Oct. 15, 2026",
           "url": "https://www.dol.gov/newsroom/economicdata/ppi_10152026.pdf"
         }
-      ],
-      "marketReaction": [
-        {
-          "asset": "PPI m/m",
-          "move": "+0.3% (vs. 0.4%)",
-          "direction": "down"
-        },
-        {
-          "asset": "Core PPI m/m",
-          "move": "+0.3% (in line)",
-          "direction": "flat"
-        },
-        {
-          "asset": "PPI y/y",
-          "move": "6.5% (highest since Nov 2022)",
-          "direction": "up"
-        }
-      ],
-      "updateNote": "Replaced the preview with the October PPI result."
+      ]
     },
     {
       "id": "weekly-wrap-best-week-since-august-nov-13-2026",
       "beat": "markets",
+      "headline": "Wall Street ends a volatile week higher as Nvidia drags the Nasdaq down 0.9% on Friday",
+      "dek": "The S&P 500 rose about 2.5% on the week and the Nasdaq about 2.3%, its best week since August, despite a hot CPI, a 5% 10-year yield and Nvidia's CEO exit.",
       "importance": 3,
       "depth": "brief",
       "developing": false,
       "publishedAt": "2026-11-13T18:54:00-05:00",
       "updatedAt": "2026-11-13T18:54:00-05:00",
       "readMinutes": 2,
-      "headline": "Wall Street ends a volatile week higher as Nvidia drags the Nasdaq down 0.9% on Friday",
-      "dek": "The S&P 500 rose about 2.5% on the week and the Nasdaq about 2.3%, its best week since August, despite a hot CPI, a 5% 10-year yield and Nvidia's CEO exit.",
       "tldr": [
         "Friday close: **Dow +50.46 (+0.1%) to 52,347.55**, **S&P 500 -0.4% to 7,561.67**, **Nasdaq -0.91% to 25,136.27** (the Nasdaq's best week since August).",
         "Week: **S&P 500 +2.5%**, **Nasdaq +2.3%**, **Dow +2.1%**; sources differ slightly on the Friday levels.",
@@ -828,6 +447,179 @@
         {
           "name": "Quartz: All three major indexes are heading for weekly gains of about 2% to 3%",
           "url": "https://qz.com/us-stock-indexes-weekly-gains-ppi-nvidia-111326"
+        }
+      ]
+    },
+    {
+      "id": "trump-xi-apec-shenzhen-preview-nov-2026",
+      "beat": "policy",
+      "headline": "Trump and Xi are expected to meet at APEC in Shenzhen this week, with the trade truce already extended",
+      "dek": "The two sides pushed the truce's expiry into January before the summit, so the meeting is about tone; big announcements are expected to wait.",
+      "importance": 4,
+      "depth": "full",
+      "developing": false,
+      "publishedAt": "2026-11-15T09:34:00-05:00",
+      "updatedAt": "2026-11-15T09:34:00-05:00",
+      "readMinutes": 4,
+      "tldr": [
+        "Trump and Xi are expected to meet on the sidelines of the APEC summit in Shenzhen this week, their third meeting this year, per the South China Morning Post.",
+        "The US-China trade truce, due to lapse on November 10, was extended by two months to January 10, 2027, the paper reports.",
+        "Negotiators are still working on concrete deals, and major announcements are expected to wait for the G20, so the bar for a positive surprise is low."
+      ],
+      "whatHappened": [
+        "China hosts this year's Asia-Pacific Economic Cooperation summit in Shenzhen, and the South China Morning Post reports that Presidents Donald Trump and Xi Jinping are expected to meet there, for the third time this year. A briefing from the advisory firm BowerGroupAsia puts the leaders' meeting on November 18 and 19. Vladimir Putin is also expected to attend.",
+        "The most market-sensitive item was settled in advance. The [[trade truce]] the two leaders struck in Busan last year was due to expire on November 10. After talks in September, both governments extended it by two months, to January 10, 2027, with China announcing its extension days after Washington did, the paper reports.",
+        "What is not settled is substance. Negotiators have been racing to line up concrete trade and investment deals, and the same reporting says the major [[deliverables]] are expected to wait for the G20. I could not confirm from a second outlet that Trump's attendance is final."
+      ],
+      "background": [
+        "A truce here means each side suspends the tariffs and export restrictions it had threatened, for a fixed period. It is a pause, with an expiry date, and each extension resets the clock. That is why markets care about the date more than the photo: a lapse would bring back higher tariffs on Chinese goods and China's limits on exports such as rare earths, which feed into chip and auto supply chains.",
+        "APEC itself is a 21-economy forum that produces statements, not treaties. Its value to markets is the meetings on the sidelines."
+      ],
+      "whyItMatters": [
+        "With the truce extended, the downside scenario (a lapse this month) is off the table, so the summit carries more [[headline risk]] than fundamental risk. The assets that move on US-China tone are semiconductors, industrial exporters, soybeans and the yuan. It also lands in the same week as Nvidia's earnings, and Nvidia's China data-center revenue is close to zero under export controls, so any hint on chip rules matters for that stock too."
+      ],
+      "grandLine": {
+        "title": "A Reverie where the big vote waits",
+        "body": "At the Reverie, the world's kings gather at Mary Geoise, and once in a long while they vote to abolish an entire system, as they did with the Seven Warlords. Most of the time it is speeches. Shenzhen looks like the speeches kind: the truce was renewed before anyone arrived, and the decisions that would change the rules are expected at a later table."
+      },
+      "views": [
+        {
+          "camp": "Low-drama summit",
+          "thesis": "The extension was the news; the meeting just confirms a stable relationship.",
+          "argument": "Both governments chose to extend before the summit, and this is the third leader meeting this year. That pattern says neither side wants a blow-up, so tariff risk stays priced out into January."
+        },
+        {
+          "camp": "Sell the handshake",
+          "thesis": "Nothing new is on offer, so the risks are one-sided.",
+          "argument": "If the deliverables wait for the G20, a good meeting changes little, while a stumble on chips, rare earths or Taiwan would hit semis and exporters. The extension is only two months, so the cliff comes back in January."
+        }
+      ],
+      "interview": {
+        "question": "Trump and Xi meet this week. Does that change how you'd position?",
+        "answer": "Not much. The market-moving piece, the truce extension to January, already happened, so the meeting is headline risk more than a catalyst. I'd expect a constructive tone and few deliverables. I wouldn't chase China-sensitive names into it, because the upside is small and a bad headline on chips or rare earths cuts the other way. What would change my mind is a concrete tariff rollback or a longer truce, which would be a real change in the path.",
+        "followUp": {
+          "question": "Which assets are most sensitive to US-China headlines?",
+          "answer": "Semiconductors and industrial exporters in equities, soybeans in commodities, and the offshore yuan in FX. Rare-earth supply is the channel that hits autos and chips."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "trade truce",
+          "definition": "A time-limited agreement to suspend threatened tariffs and export restrictions. It has an expiry date and has to be extended or replaced.",
+          "example": "The Busan truce was due to lapse on November 10 and now runs to January 10, 2027."
+        },
+        {
+          "term": "deliverables",
+          "definition": "The concrete, announceable outcomes of a summit, such as a purchase commitment or a tariff cut, as opposed to statements of intent."
+        },
+        {
+          "term": "headline risk",
+          "definition": "The risk that a news headline moves a price sharply even when the underlying fundamentals have not changed."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Nov 18–19",
+          "what": "APEC leaders' meeting in Shenzhen; watch for a Trump–Xi readout."
+        },
+        {
+          "when": "Jan 10, 2027",
+          "what": "The extended truce expires."
+        }
+      ],
+      "sources": [
+        {
+          "name": "SCMP: Xi and Trump's Apec meeting: what's on hold and what's on the table",
+          "url": "https://www.scmp.com/economy/china-economy/article/3373904/xi-and-trumps-apec-meeting-whats-hold-and-whats-table"
+        },
+        {
+          "name": "SCMP: Xi and Trump set for Apec talks, but major deliverables expected to wait for G20",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3373969/xi-and-trump-set-apec-talks-major-deliverables-expected-wait-g20"
+        },
+        {
+          "name": "SCMP: US-China negotiators race to nail down concrete deals as Shenzhen Apec looms",
+          "url": "https://scmp.com/news/china/diplomacy/article/3371413/us-china-negotiators-race-nail-down-concrete-deals-shenzhen-apec-looms"
+        },
+        {
+          "name": "BowerGroupAsia: What Businesses Should Watch at APEC",
+          "url": "https://bowergroupasia.com/?p=8011"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-q3-preview-kress-first-call-nov-2026",
+      "beat": "markets",
+      "headline": "Nvidia reports Tuesday with the Street near $109 billion in revenue, on Colette Kress's first call as interim CEO",
+      "dek": "The company's own guide is about $108 billion, give or take 2%. The question is whether the outlook holds without Jensen Huang.",
+      "importance": 4,
+      "depth": "brief",
+      "developing": false,
+      "publishedAt": "2026-11-15T09:34:00-05:00",
+      "updatedAt": "2026-11-15T09:34:00-05:00",
+      "readMinutes": 1,
+      "tldr": [
+        "Nvidia reports fiscal third-quarter results Tuesday at about 4:20 PM ET, with the call at 5:00 PM ET, per its SEC filing.",
+        "Guidance is about $108 billion of revenue, plus or minus 2%; analysts expect about $109 billion and adjusted EPS near $2.47.",
+        "It is the first report since Huang resigned and CFO Colette Kress became interim CEO."
+      ],
+      "whatHappened": [
+        "Nvidia kept its earnings date after last week's leadership change: results come Tuesday after the close, about 1:20 PM Pacific, with the call at 2:00 PM Pacific, according to the company's filing. Previews put consensus at roughly $109 billion of revenue and about $2.47 to $2.48 of adjusted earnings per share, against company guidance of about $108 billion, plus or minus 2%. Kress, who set that guidance as CFO, now has to defend it as interim CEO. Analysts are watching gross margin, which she said in August would bottom in the fourth quarter, supply commitments, and China, where data-center revenue is near zero."
+      ],
+      "whyItMatters": [
+        "Nvidia is the largest weight in the Nasdaq and the reference point for AI spending, so its outlook sets the tone for tech into year-end. After Friday's selloff in the stock, the bar is the forward guide and how convincingly a new voice delivers it, more than the quarter itself."
+      ],
+      "sources": [
+        {
+          "name": "Nvidia Form 8-K: CEO transition and earnings date (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+        },
+        {
+          "name": "Invezz: Nvidia earnings preview: what to expect as Kress faces first test without Huang",
+          "url": "https://invezz.com/news/2026/11/13/nvidia-earnings-preview-q3-kress-huang/"
+        },
+        {
+          "name": "StoneX: Nvidia earnings preview: first test of the post-Huang era",
+          "url": "https://www.stonex.com/en-gb/news-and-analysis/nvidia-earnings-preview-nvda-s-first-test-of-the-post-jenson-huang-era/"
+        },
+        {
+          "name": "Benzinga: Colette Kress' first Nvidia earnings call: 5 things to watch",
+          "url": "https://www.benzinga.com/trading-ideas/previews/26/11/63239519/colette-kress-nvidia-earnings"
+        }
+      ]
+    },
+    {
+      "id": "cop31-antalya-final-week-nov-2026",
+      "beat": "world",
+      "headline": "COP31 enters its final week in Antalya with climate finance the main focus and no US delegation",
+      "dek": "About 190 countries are at the UN climate summit in Türkiye, which runs through Friday. Washington sent no officials for a second year.",
+      "importance": 2,
+      "depth": "brief",
+      "developing": false,
+      "publishedAt": "2026-11-15T09:34:00-05:00",
+      "updatedAt": "2026-11-15T09:34:00-05:00",
+      "readMinutes": 1,
+      "tldr": [
+        "The UN climate summit runs November 9–20 in Antalya, Türkiye, with representatives of about 190 countries.",
+        "The US sent no officials for the second straight year, after withdrawing from the Paris Agreement earlier in 2026."
+      ],
+      "whatHappened": [
+        "COP31 opened in Antalya on November 9 and is scheduled to close on November 20. Türkiye's summit president, Murat Kurum, has said the aim is to turn earlier pledges into action, with financing the main focus. Leaders met in the first week; the second week is when negotiators try to settle a final text. The Trump administration did not send representatives."
+      ],
+      "whyItMatters": [
+        "The outcome shapes how much public money flows to energy transition in developing countries, which matters for renewables, grid and nuclear suppliers. With the US absent, the weight of any deal falls on the EU, China and the host."
+      ],
+      "sources": [
+        {
+          "name": "WAM: COP31 opens in Antalya with hopes to turn climate promises into action",
+          "url": "https://www.wam.ae/en/article/c363e0p-cop31-opens-antalya-with-hopes-turn-climate"
+        },
+        {
+          "name": "Khaleej Times: COP31 opens with leaders told to 'get serious' about tackling climate crisis",
+          "url": "https://www.khaleejtimes.com/world/cop31-opens-leaders-pressure-tackle-climate-crisis"
+        },
+        {
+          "name": "Balkan Green Energy News: COP31 climate summit kicks off in Türkiye's Antalya",
+          "url": "https://balkangreenenergynews.com/cop31-opens-amid-warnings-that-2026-will-be-among-hottest-years-on-record/"
         }
       ]
     }

@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef } from 'react';
-import { useEdition, useTopics } from './lib/edition.ts';
+import { useArchive, useEdition, usePastEdition, useTopics } from './lib/edition.ts';
 import { href, useRoute, type Route } from './lib/router.ts';
-import { clockTime, editionName, longDate } from './lib/time.ts';
+import { clockTime, dayLabel, editionName, longDate } from './lib/time.ts';
 import { LogPoseChip } from './components/ui.tsx';
 import { DenDenMushi, JollyRoger, NewsCoo, Waves } from './components/art.tsx';
 import { Today } from './screens/Today.tsx';
@@ -9,6 +9,7 @@ import { StoryPage } from './screens/Story.tsx';
 import { GlossaryPage } from './screens/Glossary.tsx';
 import { Training } from './screens/Training.tsx';
 import { LogPosePage } from './screens/LogPose.tsx';
+import { PastPage } from './screens/Past.tsx';
 import type { Topic } from './lib/schema.ts';
 
 const NAV: { name: Route['name']; label: string; to: string }[] = [
@@ -23,6 +24,9 @@ export function App() {
   const { edition, error, delivery, dismissDelivery } = useEdition();
   const topicList = useTopics();
   const topics = useMemo(() => new Map<string, Topic>(topicList.map((t) => [t.id, t])), [topicList]);
+  const pastId = route.name === 'past' ? route.edition : undefined;
+  const archive = useArchive(route.name === 'past' && !pastId);
+  const pastEdition = usePastEdition(pastId);
   const todayScroll = useRef(0);
   const prevRoute = useRef(route);
 
@@ -48,7 +52,7 @@ export function App() {
     return () => clearTimeout(id);
   }, [delivery, dismissDelivery]);
 
-  const active = route.name === 'story' ? 'today' : route.name;
+  const active = route.name === 'story' || route.name === 'past' ? 'today' : route.name;
 
   return (
     <div className="app">
@@ -74,7 +78,9 @@ export function App() {
           {edition && (
             <>
               <span className="dot">·</span>
-              <span>{editionName(edition.publishedAt)}</span>
+              <span>
+                No. {edition.number} · {editionName(edition.editionType)}
+              </span>
               <span className="dot">·</span>
               <span>Updated {clockTime(edition.publishedAt)}</span>
             </>
@@ -93,6 +99,27 @@ export function App() {
         {route.name === 'glossary' && <GlossaryPage edition={edition} />}
         {route.name === 'training' && <Training />}
         {route.name === 'log' && <LogPosePage edition={edition} />}
+        {route.name === 'past' && !pastId && <PastPage index={archive.data} error={archive.error} liveId={edition?.id} />}
+        {route.name === 'past' && pastId && (
+          <>
+            <p className="past-banner" role="status">
+              {pastEdition.data ? (
+                <>
+                  Back issue · No. {pastEdition.data.number} · {dayLabel(pastEdition.data.publishedAt)} · {editionName(pastEdition.data.editionType)}
+                </>
+              ) : (
+                'Back issue'
+              )}{' '}
+              · <a href={href.today}>Latest edition</a> · <a href={href.past()}>All past editions</a>
+            </p>
+            {!pastEdition.data && !pastEdition.error && <p className="empty">Fetching that edition…</p>}
+            {pastEdition.error && <p className="empty">That edition is no longer on file ({pastEdition.error}).</p>}
+            {pastEdition.data && !route.story && <Today edition={pastEdition.data} topics={topics} past={pastId} />}
+            {pastEdition.data && route.story && (
+              <StoryPage key={`${pastId}/${route.story}`} edition={pastEdition.data} id={route.story} topics={topics} past={pastId} />
+            )}
+          </>
+        )}
       </main>
 
       {edition && (

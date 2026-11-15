@@ -68,9 +68,11 @@ export function LogPosePage({ edition }: { edition: Edition | null }) {
         </p>
         <h2 className="section-label">How the paper works</h2>
         <p>
-          A scheduled Claude editor runs every two hours from about 6am to midnight ET. Each run searches across outlets
-          (Reuters, AP, CNBC, WSJ, FT, Bloomberg, central bank releases), cross-checks the numbers, and rewrites the paper. The
-          page picks up a new edition on its own within a few minutes, with no refresh needed.
+          A scheduled Claude editor files a morning and an evening edition on weekdays (about 7am and 7pm ET) and one
+          weekend edition a day (about noon ET). Each run searches across outlets (Reuters, AP, CNBC, WSJ, FT, Bloomberg,
+          central bank releases), cross-checks the numbers, and files a new front page: the lead has to change from edition
+          to edition, and long-running sagas move to the Storylines strip unless something happened. The page picks up a new
+          edition on its own within a few minutes, with no refresh needed.
           {edition && <> Last check: {clockTime(edition.checkedAt)}.</>}
         </p>
       </section>

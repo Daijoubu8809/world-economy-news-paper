@@ -22,10 +22,13 @@ export function shortDate(isoDate: string): string {
   return new Date(y, m - 1, d).toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' });
 }
 
-export function editionName(iso: string): string {
-  const h = new Date(iso).getHours();
-  if (h >= 5 && h < 12) return 'Morning edition';
-  if (h >= 12 && h < 17) return 'Afternoon edition';
-  if (h >= 17 && h < 22) return 'Evening edition';
-  return 'Late edition';
+const EDITION_NAMES = { am: 'Morning edition', pm: 'Evening edition', weekend: 'Weekend edition' } as const;
+
+export function editionName(type: keyof typeof EDITION_NAMES): string {
+  return EDITION_NAMES[type];
+}
+
+/** "Mon, Nov 16" for an instant. */
+export function dayLabel(iso: string): string {
+  return new Date(iso).toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' });
 }

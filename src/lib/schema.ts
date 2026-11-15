@@ -43,6 +43,12 @@ export const ViewSchema = z.object({
   who: text(240).optional(),
 });
 
+const SourceSchema = z.object({
+  name: text(100),
+  url: z.url({ protocol: /^https$/ }),
+  paywalled: z.boolean().optional(),
+});
+
 export const StorySchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/).max(80),
   beat: z.string().regex(/^[a-z0-9-]+$/),
@@ -57,7 +63,8 @@ export const StorySchema = z.object({
   readMinutes: z.number().int().min(1).max(8),
   tldr: z.array(text(260)).min(2).max(4),
   whatHappened: paragraphs(1, 5),
-  background: paragraphs(1, 4),
+  /** Required for full stories; briefs may leave it out. */
+  background: paragraphs(1, 4).optional(),
   whyItMatters: paragraphs(1, 4),
   marketReaction: z
     .array(
@@ -70,12 +77,15 @@ export const StorySchema = z.object({
     .max(8)
     .optional(),
   grandLine: z.object({ title: text(80), body: text(900) }).optional(),
-  views: z.array(ViewSchema).min(2).max(4),
-  interview: z.object({
-    question: text(240),
-    answer: text(1400),
-    followUp: z.object({ question: text(240), answer: text(1000) }),
-  }),
+  /** Required for full stories; briefs may leave views and interview out. */
+  views: z.array(ViewSchema).min(2).max(4).optional(),
+  interview: z
+    .object({
+      question: text(240),
+      answer: text(1400),
+      followUp: z.object({ question: text(240), answer: text(1000) }),
+    })
+    .optional(),
   trade: z
     .object({
       idea: text(120),
@@ -84,34 +94,80 @@ export const StorySchema = z.object({
       risks: z.array(text(300)).min(1).max(4),
     })
     .optional(),
-  keyTerms: z.array(KeyTermSchema).min(1).max(8),
-  watchNext: z.array(z.object({ when: text(60).optional(), what: text(300) })).max(5),
-  sources: z
+  keyTerms: z.array(KeyTermSchema).max(8).optional(),
+  watchNext: z.array(z.object({ when: text(60).optional(), what: text(300) })).max(5).optional(),
+  sources: z.array(SourceSchema).min(1).max(10),
+});
+
+export const EDITION_TYPES = ['am', 'pm', 'weekend'] as const;
+export const FEATURE_KINDS = ['week-ahead', 'explainer', 'debate', 'sector-spotlight', 'week-in-review', 'long-read'] as const;
+
+/** One line of the market tape at the top of the front page. */
+export const TapeItemSchema = z.object({
+  label: text(20),
+  value: text(20),
+  change: text(20).optional(),
+  direction: z.enum(['up', 'down', 'flat']),
+});
+
+/** A long-running saga, tracked in one line so it doesn't have to lead the paper every day. */
+export const StorylineSchema = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/).max(60),
+  title: text(60),
+  /** What changed since the last edition, or a plain "no change" line. */
+  line: text(220),
+  changed: z.boolean(),
+  /** A live story to link to, if there is one. */
+  storyId: z.string().optional(),
+});
+
+export const FeatureSchema = z.object({
+  kind: z.enum(FEATURE_KINDS),
+  /** The ET calendar date this feature was written for. */
+  date: z.iso.date(),
+  title: text(120),
+  body: paragraphs(1, 8),
+  quiz: z
     .array(
       z.object({
-        name: text(100),
-        url: z.url({ protocol: /^https$/ }),
-        paywalled: z.boolean().optional(),
+        q: text(240),
+        options: z.array(text(160)).min(2).max(4),
+        /** Index of the right option. */
+        answer: z.number().int().min(0).max(3),
+        explain: text(400),
       }),
     )
     .min(1)
-    .max(10),
+    .max(5)
+    .optional(),
 });
 
 export const EditionSchema = z.object({
-  version: z.literal(1),
+  version: z.literal(2),
+  /** YYYY-MM-DD-am | -pm | -weekend. One id per scheduled edition; also the archive file name. */
+  id: z.string().regex(/^\d{4}-\d{2}-\d{2}-(am|pm|weekend)$/),
+  /** Running issue number. */
+  number: z.number().int().min(1),
+  editionType: z.enum(EDITION_TYPES),
   /** When story content last changed. */
   publishedAt: isoDateTime,
   /** When the editor last ran (even if nothing changed). */
   checkedAt: isoDateTime,
   nextRunAt: isoDateTime.optional(),
+  /** The story that leads the front page. It must change from edition to edition (see the validator). */
+  lead: z.string(),
+  /** "banner": one story dominates. "split": the lead shares the top with two others. Default: by lead importance. */
+  frontLayout: z.enum(['banner', 'split']).optional(),
   brief: z.object({
-    title: text(120),
     bullets: z.array(text(320)).min(3).max(5),
     mood: text(160).optional(),
   }),
-  /** Exactly three story ids, in order, for the "Must-know" strip. */
-  mustKnow: z.array(z.string()).length(3),
+  tape: z.object({ asOf: text(60), items: z.array(TapeItemSchema).min(1).max(10) }).optional(),
+  storylines: z.array(StorylineSchema).max(8),
+  feature: FeatureSchema.optional(),
+  numberOfDay: z.object({ value: text(24), label: text(120), why: text(320) }).optional(),
+  /** One offbeat item for the bottom of the page. */
+  belowFold: z.object({ headline: text(120), text: text(600), source: SourceSchema }).optional(),
   calendar: z
     .array(
       z.object({
@@ -125,8 +181,28 @@ export const EditionSchema = z.object({
   stories: z.array(StorySchema).min(3).max(30),
 });
 
+/** public/data/editions/index.json: the archive, newest first. */
+export const ArchiveIndexSchema = z.object({
+  editions: z.array(
+    z.object({
+      id: z.string(),
+      number: z.number().int(),
+      editionType: z.enum(EDITION_TYPES),
+      publishedAt: isoDateTime,
+      lead: text(120),
+      stories: z.number().int(),
+    }),
+  ),
+});
+
 export type Topic = z.infer<typeof TopicSchema>;
 export type KeyTerm = z.infer<typeof KeyTermSchema>;
 export type View = z.infer<typeof ViewSchema>;
 export type Story = z.infer<typeof StorySchema>;
 export type Edition = z.infer<typeof EditionSchema>;
+export type Feature = z.infer<typeof FeatureSchema>;
+export type Storyline = z.infer<typeof StorylineSchema>;
+export type TapeItem = z.infer<typeof TapeItemSchema>;
+export type ArchiveIndex = z.infer<typeof ArchiveIndexSchema>;
+export type EditionType = (typeof EDITION_TYPES)[number];
+export type FeatureKind = (typeof FEATURE_KINDS)[number];

@@ -12,9 +12,13 @@ interface Props {
   edition: Edition;
   id: string;
   topics: Map<string, Topic>;
+  /** Set when reading from the archive: the archived edition's id. */
+  past?: string;
 }
 
-export function StoryPage({ edition, id, topics }: Props) {
+export function StoryPage({ edition, id, topics, past }: Props) {
+  const back = past ? href.past(past) : href.today;
+  const backLabel = past ? 'Back to this edition' : 'Today’s paper';
   const story = edition.stories.find((s) => s.id === id);
   // Freshness as it was when you opened the story (before this visit marks it read).
   const [openedAs] = useState(() => (story ? freshness(story, readStore.get()) : 'seen'));
@@ -23,14 +27,14 @@ export function StoryPage({ edition, id, topics }: Props) {
   useEffect(() => {
     if (!story) return;
     markRead(story);
-    glossaryStore.set((g) => addTerms(g, story, story.keyTerms));
+    glossaryStore.set((g) => addTerms(g, story, story.keyTerms ?? []));
   }, [story]);
 
   if (!story) {
     return (
       <div className="story">
-        <a href={href.today} className="back">
-          ← Today’s paper
+        <a href={back} className="back">
+          ← {backLabel}
         </a>
         <p className="empty">This story has sailed off the front page. Its key terms are still in your glossary.</p>
       </div>
@@ -41,8 +45,8 @@ export function StoryPage({ edition, id, topics }: Props) {
 
   return (
     <article className="story">
-      <a href={href.today} className="back">
-        ← Today’s paper
+      <a href={back} className="back">
+        ← {backLabel}
       </a>
 
       <header className="story-head">
@@ -92,9 +96,11 @@ export function StoryPage({ edition, id, topics }: Props) {
         </div>
       )}
 
-      <Section label="The backstory">
-        <Paragraphs items={story.background} />
-      </Section>
+      {story.background && (
+        <Section label="The backstory">
+          <Paragraphs items={story.background} />
+        </Section>
+      )}
 
       {story.grandLine && (
         <aside className="grandline">
@@ -112,7 +118,7 @@ export function StoryPage({ edition, id, topics }: Props) {
         <Paragraphs items={story.whyItMatters} />
       </Section>
 
-      <Section label="The debate" className="debate">
+      {story.views && <Section label="The debate" className="debate">
         <div className={`views views-${story.views.length}`}>
           {story.views.map((v, i) => (
             <div key={i} className={`view view-${i}`}>
@@ -127,7 +133,7 @@ export function StoryPage({ edition, id, topics }: Props) {
             </div>
           ))}
         </div>
-      </Section>
+      </Section>}
 
       {story.trade && (
         <Section label="On the desk: pitch me a trade" className="trade">
@@ -152,7 +158,7 @@ export function StoryPage({ edition, id, topics }: Props) {
         </Section>
       )}
 
-      <Section label="Interview mode" className="interview">
+      {story.interview && <Section label="Interview mode" className="interview">
         <div className="interview-card">
           <p className="interview-q">“{story.interview.question}”</p>
           <p className="interview-label">Your 30-second answer</p>
@@ -173,9 +179,9 @@ export function StoryPage({ edition, id, topics }: Props) {
             )}
           </div>
         </div>
-      </Section>
+      </Section>}
 
-      <Section label="Key terms" className="terms">
+      {story.keyTerms && story.keyTerms.length > 0 && <Section label="Key terms" className="terms">
         <dl>
           {story.keyTerms.map((k) => (
             <div key={k.term} id={`term-${termKey(k.term)}`} className="term">
@@ -194,9 +200,9 @@ export function StoryPage({ edition, id, topics }: Props) {
         <p className="fine">
           Saved to your <a href={href.glossary}>glossary</a> for <a href={href.training}>training</a>.
         </p>
-      </Section>
+      </Section>}
 
-      {story.watchNext.length > 0 && (
+      {story.watchNext && story.watchNext.length > 0 && (
         <Section label="What to watch next">
           <ul className="watch">
             {story.watchNext.map((w, i) => (
@@ -224,8 +230,8 @@ export function StoryPage({ edition, id, topics }: Props) {
         </ul>
       </Section>
 
-      <a href={href.today} className="back back-bottom">
-        ← Back to today’s paper
+      <a href={back} className="back back-bottom">
+        ← {backLabel}
       </a>
     </article>
   );
