@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-16-pm",
+      "number": 62,
+      "editionType": "pm",
+      "publishedAt": "2026-11-16T17:03:00-05:00",
+      "lead": "Nasdaq falls 2.5% and the S&P 500 drops 1.9% as AI stocks slide into Nvidia's first report without Huang",
+      "stories": 4
+    },
+    {
       "id": "2026-11-15-weekend",
       "number": 61,
       "editionType": "weekend",

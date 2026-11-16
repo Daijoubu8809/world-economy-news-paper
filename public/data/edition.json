@@ -1,96 +1,87 @@
 {
   "version": 2,
-  "id": "2026-11-15-weekend",
-  "number": 61,
-  "editionType": "weekend",
-  "publishedAt": "2026-11-15T09:34:00-05:00",
-  "checkedAt": "2026-11-15T09:34:00-05:00",
-  "nextRunAt": "2026-11-15T11:52:00-05:00",
-  "lead": "trump-xi-apec-shenzhen-preview-nov-2026",
-  "frontLayout": "split",
+  "id": "2026-11-16-pm",
+  "number": 62,
+  "editionType": "pm",
+  "publishedAt": "2026-11-16T17:03:00-05:00",
+  "checkedAt": "2026-11-16T17:03:00-05:00",
+  "nextRunAt": "2026-11-17T06:52:00-05:00",
+  "lead": "stocks-slide-third-day-nasdaq-nvidia-nov-16-2026",
+  "frontLayout": "banner",
   "brief": {
     "bullets": [
-      "**This week:** Trump and Xi are expected to meet at APEC in Shenzhen. The trade truce was already extended to January 10, the South China Morning Post reports.",
-      "**Tuesday:** Nvidia reports after the close, its first call with Colette Kress as interim CEO. The Street expects about $109 billion of revenue.",
-      "**Wednesday:** the minutes of the Fed's October meeting come out at 2:00 PM ET.",
-      "**Climate:** COP31 runs through Friday in Antalya, with finance the main focus and no US delegation."
+      "**Close:** S&P 500 -1.92% to 7,416.59 (third straight loss), Nasdaq -2.49% to 24,509.76, Dow -1.41% to 51,608.17.",
+      "**Tuesday:** Nvidia reports after the close, its first report since Jensen Huang resigned; the Street expects about $109 billion of revenue.",
+      "**Wednesday:** FOMC minutes at 2:00 PM ET, and APEC leaders meet in Shenzhen through Thursday.",
+      "**Rotation:** consumer staples and health care held up while tech led the selloff."
     ],
-    "mood": "Markets are shut. Calm seas into Monday, with a Reverie on the horizon and one chip report that can change the weather."
+    "mood": "The Calm Belt broke: a Sea King (tech) surfaced, and the fleet is cutting sail before Nvidia's report."
   },
   "tape": {
-    "asOf": "Fri close",
+    "asOf": "Mon close",
     "items": [
       {
         "label": "S&P 500",
-        "value": "7,561.67",
-        "change": "-0.4%",
+        "value": "7,416.59",
+        "change": "-1.9%",
         "direction": "down"
       },
       {
         "label": "Nasdaq",
-        "value": "25,136.27",
-        "change": "-0.9%",
+        "value": "24,509.76",
+        "change": "-2.5%",
         "direction": "down"
       },
       {
         "label": "Dow",
-        "value": "52,347.55",
-        "change": "+0.1%",
-        "direction": "up"
+        "value": "51,608.17",
+        "change": "-1.4%",
+        "direction": "down"
       }
     ]
   },
   "storylines": [
     {
-      "id": "us-china-trade",
-      "title": "US–China trade truce",
-      "line": "Extended to January 10; Trump and Xi are expected to meet in Shenzhen this week.",
-      "changed": true,
-      "storyId": "trump-xi-apec-shenzhen-preview-nov-2026"
-    },
-    {
       "id": "nvidia-succession",
       "title": "Nvidia after Huang",
-      "line": "Earnings are Tuesday after the close, the first with Colette Kress as interim CEO.",
+      "line": "Shares fell again Monday into Tuesday's report, the first with Colette Kress as interim CEO.",
       "changed": true,
       "storyId": "nvidia-q3-preview-kress-first-call-nov-2026"
     },
     {
+      "id": "us-china-trade",
+      "title": "US–China trade truce",
+      "line": "No change: extended to January 10; the Trump–Xi meeting is expected at APEC this week.",
+      "changed": false,
+      "storyId": "trump-xi-apec-shenzhen-preview-nov-2026"
+    },
+    {
       "id": "fed-december",
       "title": "The Fed's December decision",
-      "line": "No change: a hike is priced, and 25 or 50 basis points is the debate. October minutes are due Wednesday.",
+      "line": "No change: a hike is priced, with the debate on 25 or 50 basis points. October minutes are due Wednesday.",
       "changed": false
     },
     {
       "id": "iran-hormuz",
       "title": "Iran and the Strait of Hormuz",
-      "line": "No verified developments since November 11: Tehran denies talks and the strait stays shut.",
+      "line": "No verified developments found since November 11.",
       "changed": false
     }
   ],
   "feature": {
-    "kind": "long-read",
-    "date": "2026-11-15",
-    "title": "The Sunday five finance ministers moved the dollar: the Plaza Accord, 1985",
+    "kind": "week-ahead",
+    "date": "2026-11-16",
+    "title": "The week ahead: Nvidia, the Fed's minutes and a Trump–Xi handshake",
     "body": [
-      "With a trade summit on this week's calendar, here is the deal every currency desk still talks about. By early 1985 the dollar had climbed about 50% against the other major currencies in five years. Paul Volcker's high interest rates pulled money into the US, American exporters were being priced out of world markets, and Congress was drafting tariff bills aimed at Japan.",
-      "On Sunday, September 22, 1985, the finance ministers and central bankers of the US, Japan, West Germany, France and the UK met at the Plaza Hotel in New York. Treasury Secretary James Baker got what he wanted: a joint statement that the other currencies should rise against the dollar, backed by coordinated selling of dollars by all five central banks.",
-      "It worked faster than anyone planned. The yen went from about 240 per dollar to roughly 150 within about a year and a half. By February 1987 the same countries met at the Louvre in Paris to try to stop the slide.",
-      "The lesson desks draw is that intervention works when it is coordinated and when it pushes in the direction policy is already heading; US rates were falling by then. The warning is what came next: Japan cut rates to cushion the strong yen, an asset bubble followed, and it burst in 1990. Chinese officials still cite the Plaza Accord as the reason not to agree to a fast currency revaluation under pressure."
+      "**Tuesday:** Nvidia reports fiscal third-quarter results after the close. Revenue guidance is about $108 billion; the Street is near $109 billion. The first call without Jensen Huang sets the tone for tech into year-end.",
+      "**Wednesday:** The Fed publishes the minutes of its October meeting at 2:00 PM ET. After a hot CPI and a cooler PPI, the question is how many officials were open to a 50 basis point move in December. APEC leaders also begin meeting in Shenzhen, where a Trump–Xi meeting is expected.",
+      "**Friday:** COP31 is scheduled to close in Antalya, with climate finance the main open question. **Next week:** US markets close Thursday, Nov 26, for Thanksgiving."
     ]
   },
   "numberOfDay": {
-    "value": "$108B",
-    "label": "Nvidia's revenue guide for the quarter it reports Tuesday",
-    "why": "Give or take 2%, per the company's August outlook. Analysts sit near $109 billion, so just meeting the guide would be a slight miss against the Street, on Colette Kress's first call as interim CEO."
-  },
-  "belowFold": {
-    "headline": "A climate summit with two captains",
-    "text": "COP31 is the first UN climate summit to split its presidency between two countries. Türkiye hosts in Antalya and holds the gavel, while Australia's climate minister, Chris Bowen, leads the negotiations. Türkiye has said it keeps the final decision.",
-    "source": {
-      "name": "Climate Home News: Türkiye says it has final decision at COP31",
-      "url": "https://climatechangenews.com/2026/09/11/turkiye-says-it-has-final-decision-at-cop31-despite-australia-running-negotiations"
-    }
+    "value": "2.49%",
+    "label": "Monday's drop in the Nasdaq Composite, to 24,509.76",
+    "why": "It erased more than all of last week's roughly 2.3% gain, so the rebound that followed the post-election correction is gone."
   },
   "calendar": [
     {
@@ -133,323 +124,6 @@
     }
   ],
   "stories": [
-    {
-      "id": "nvidia-ceo-huang-resigns-kress-interim-nov-2026",
-      "beat": "markets",
-      "headline": "Nvidia CEO Jensen Huang resigns and CFO Colette Kress is named interim CEO; shares fall sharply",
-      "dek": "Nvidia's release and 8-K confirm the move, effective immediately; the board has opened a search, earnings proceed as scheduled, and Congress wants Huang to testify.",
-      "importance": 5,
-      "depth": "full",
-      "developing": true,
-      "publishedAt": "2026-11-12T18:54:00-05:00",
-      "updatedAt": "2026-11-13T18:54:00-05:00",
-      "updateNote": "Added Thursday's close and Friday's volatile trading.",
-      "readMinutes": 4,
-      "tldr": [
-        "Nvidia's release and 8-K say **Jensen Huang resigned** as CEO on Nov. 12, effective immediately; **CFO Colette Kress** is interim CEO; **Harvey Jones** is board chair; a CEO search has begun.",
-        "The company **gave no reason**; Fortune and CNN tie the exit to personal conduct and a reported relationship with a woman US intelligence officials deemed a Chinese asset, which Nvidia has disputed in earlier statements.",
-        "Shares fell more than 13% at one point Thursday and closed down about 4.3% by one report; Friday was volatile and the Nasdaq fell 0.9%. Nvidia reports earnings next Tuesday."
-      ],
-      "whatHappened": [
-        "Nvidia filed an [[8-K]] announcing that CEO Jensen Huang has resigned. CFO Colette Kress will serve as [[interim CEO]] and remain CFO until a permanent successor is named, board chair Harvey Jones said, and the board has begun a search that will consider internal and external candidates. The company did not give a reason for the departure. Fortune and CNN report that it followed mounting scandal tied to personal conduct and to a reported relationship with a woman that US intelligence officials deemed a Chinese asset; those details come from press reporting, not the filing, and Nvidia had previously disputed related reports.",
-        "Markets: Nvidia shares fell more than 13% at one point in early trading on Thursday before paring some of the loss, according to one report; Reports put Nvidia's Thursday close down about 4.3% after the early drop of more than 13%, and Friday's trading was volatile, swinging between gains and losses; the Nasdaq fell 0.91% Friday as Nvidia sold off, per CNBC. The Motley Fool described rival chipmakers surging, the Nasdaq Composite closed down about 0.4% and the S&P 500 about 0.35%, with Nvidia a heavy weight on both. The company is due to report earnings next Tuesday with no permanent CEO named.",
-        "**Follow-up:** Nvidia said its scheduled earnings report will proceed as planned. PBS reports that the House Foreign Affairs Committee chair, Brian Mast, said Huang is expected to testify before Thanksgiving and could be subpoenaed if needed; PBS also notes that Nvidia had earlier said Huang would stay on while the company investigated."
-      ],
-      "background": [
-        "Huang co-founded Nvidia in 1993 and led it from a graphics-chip maker to the center of the AI build-out, which made him unusually tied to the company's story. Last week the stock had already fallen about 5% on each of Monday and Tuesday on a New York Times report about a Megaspeed executive close to Huang, and on Dow Jones reports of an investigation. This resignation turns that headline risk into a leadership transition.",
-        "The risk investors price here is [[key-person risk|key-person risk]]: when one executive embodies a company's strategy and credibility, his exit raises questions about customers, partners and execution, even if the business is strong."
-      ],
-      "whyItMatters": [
-        "Nvidia is one of the largest weights in the S&P 500 and the Nasdaq-100, so its moves swing the indexes. Tuesday's earnings now double as a test of whether customers keep ordering with an interim CEO, and of whether the AI trade can hold without its figurehead. Beneficiaries in the short term may be rival chip suppliers; AI spenders watch for supply or guidance changes."
-      ],
-      "grandLine": {
-        "title": "After Whitebeard fell",
-        "body": "When Whitebeard died at Marineford, a dominant power vanished and the whole New World repositioned at once, with volatility spiking. A founder-CEO leaving the company at the center of the AI trade is a smaller version: the business doesn't disappear, but everyone reprices who holds the power and what the next leader will do."
-      },
-      "views": [
-        {
-          "camp": "Business is intact",
-          "thesis": "A strong franchise outlasts a CEO change.",
-          "argument": "Demand for Nvidia's chips is real, Kress is a long-time CFO and known quantity, and the board has an orderly interim structure, so the drop overshoots."
-        },
-        {
-          "camp": "Credibility shock",
-          "thesis": "The exit removes the company's central figure at a fragile moment.",
-          "argument": "The AI trade was already shaky, the scandal involved alleged China links, and with no permanent CEO, customers and investors face more uncertainty into earnings."
-        }
-      ],
-      "interview": {
-        "question": "Nvidia's CEO resigned. How do you trade it?",
-        "answer": "I'd treat it as event volatility. [[Key-person risk]] justifies a discount, but the fundamentals and Tuesday's earnings matter more. I'd avoid a directional bet before the print and think about options or a pair versus a rival. What changes my mind is guidance: if demand commentary holds, the drop looks overdone; if customers pause orders, it's worse.",
-        "followUp": {
-          "question": "Why does an interim CEO matter?",
-          "answer": "It signals continuity but also uncertainty: strategy decisions and big customer relationships can stall until a permanent leader is named."
-        }
-      },
-      "trade": {
-        "idea": "Long volatility into Nvidia's earnings",
-        "expression": "Buy an NVDA straddle or strangle expiring after Tuesday's report, small size",
-        "rationale": "The CEO exit plus earnings creates a large, two-sided event. If the move exceeds what options price, the straddle pays. Interview framing, not advice.",
-        "risks": [
-          "Implied volatility is already elevated, so it may overprice the move.",
-          "A muted reaction crushes option value.",
-          "A gap on the weekend or before earnings can hurt a short-dated position."
-        ]
-      },
-      "keyTerms": [
-        {
-          "term": "key-person risk",
-          "definition": "The risk that a company depends heavily on one individual, so that person's departure hurts its outlook or valuation.",
-          "example": "Huang's exit hits Nvidia's valuation."
-        },
-        {
-          "term": "interim CEO",
-          "definition": "A temporary chief executive who leads while the board searches for a permanent one."
-        },
-        {
-          "term": "8-K",
-          "definition": "A filing a US public company makes with the SEC to disclose a material event such as an executive change."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Tue Nov 17",
-          "what": "Nvidia earnings, the first report without Huang."
-        },
-        {
-          "when": "Ongoing",
-          "what": "The board's CEO search, and any statement on the reason for the exit."
-        }
-      ],
-      "sources": [
-        {
-          "name": "CNBC: Nasdaq falls Friday as Nvidia sells off, but index notches best week since August",
-          "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
-        },
-        {
-          "name": "Nvidia: NVIDIA announces CEO transition (press release)",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
-        },
-        {
-          "name": "PBS NewsHour: What we know after Jensen Huang's resignation as Nvidia's CEO",
-          "url": "https://www.pbs.org/newshour/nation/what-we-know-after-jensen-huangs-resignation-as-nvidias-ceo"
-        },
-        {
-          "name": "SEC: Nvidia Form 8-K announcing CEO transition",
-          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
-        },
-        {
-          "name": "Fortune: Nvidia's Jensen Huang resigns, CFO Colette Kress named interim CEO",
-          "url": "https://fortune.com/2026/11/11/nvidia-oust-jensen-huang-spy-affairs/"
-        },
-        {
-          "name": "CNN: Nvidia CEO Jensen Huang resigns after mounting scandal",
-          "url": "https://edition.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout"
-        },
-        {
-          "name": "Al Jazeera: Why did Nvidia CEO Jensen Huang resign, and who is Colette Kress?",
-          "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress"
-        },
-        {
-          "name": "Motley Fool: Nvidia CEO's exit sends Wall Street lower as rivals surge",
-          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nvidia-ceo-s-stunning-exit-sends-wall-street-lower-as-rivals-surge/"
-        }
-      ]
-    },
-    {
-      "id": "ppi-october-2026-preview",
-      "beat": "fed-macro",
-      "headline": "October producer prices rise 0.3%, cooler than the 0.4% expected, with core in line at 0.3%",
-      "dek": "The annual PPI rate is 6.5%, the highest since November 2022, but the monthly miss helped stocks early Friday; a December hike is still near-certain.",
-      "importance": 3,
-      "depth": "brief",
-      "developing": true,
-      "publishedAt": "2026-11-13T06:53:00-05:00",
-      "updatedAt": "2026-11-13T18:54:00-05:00",
-      "updateNote": "Replaced the preview with the October PPI result.",
-      "readMinutes": 2,
-      "tldr": [
-        "October PPI rose **0.3%** m/m vs. **0.4%** expected; core PPI rose **0.3%**, in line.",
-        "The annual PPI rate was **6.5%**, the highest since November 2022, per reports.",
-        "Stocks popped on the print but the Nasdaq ended down on Nvidia; a 25bp December hike is near-certain, with 50bp the debate."
-      ],
-      "whatHappened": [
-        "The Bureau of Labor Statistics said the Producer Price Index rose 0.3% in October from September, below the 0.4% economists expected. [[Core PPI|core PPI]], which excludes food and energy, also rose 0.3%, in line with forecasts. The annual rate was reported at 6.5%, the highest since November 2022. Equity futures rose after the release and the major averages initially popped, though the Nasdaq finished lower on Nvidia. The data follows Tuesday's hot CPI (+0.4%, core +0.3%) and September's 1.3% PPI jump, so the cooler monthly number takes a little pressure off but doesn't change the hike debate."
-      ],
-      "background": [
-        "PPI often leads consumer prices because producers pass costs on with a lag. Energy-heavy components can swing the headline, so economists watch core PPI (excluding food and energy) for the underlying trend."
-      ],
-      "whyItMatters": [
-        "The December meeting is the next decision point, and the debate is 25bp versus 50bp. Data between now and then, starting with PPI, moves the [[2-year yield]] most because it tracks the expected policy path."
-      ],
-      "marketReaction": [
-        {
-          "asset": "PPI m/m",
-          "move": "+0.3% (vs. 0.4%)",
-          "direction": "down"
-        },
-        {
-          "asset": "Core PPI m/m",
-          "move": "+0.3% (in line)",
-          "direction": "flat"
-        },
-        {
-          "asset": "PPI y/y",
-          "move": "6.5% (highest since Nov 2022)",
-          "direction": "up"
-        }
-      ],
-      "grandLine": {
-        "title": "Nami reads the sky",
-        "body": "Nami reads small signs in the air before committing to a heading. PPI is one of those signs: it shows what's building in the pipeline before it hits consumer prices, and traders read it for the weather the Fed will face next."
-      },
-      "views": [
-        {
-          "camp": "Pipeline pressure",
-          "thesis": "Hot producer prices mean more consumer inflation ahead.",
-          "argument": "September PPI jumped, core ran well above forecast, and producers are passing costs on, which supports a bigger hike."
-        },
-        {
-          "camp": "Oil will cool it",
-          "thesis": "Energy's drop should ease PPI soon.",
-          "argument": "Brent has fallen sharply from its peak, so energy components should cool, taking some heat out of the pipeline."
-        }
-      ],
-      "interview": {
-        "question": "What does PPI add after a hot CPI?",
-        "answer": "It tells you whether cost pressure is still building upstream. A hot core PPI reinforces the hike case and pushes the 2-year up; a soft one suggests CPI strength may be peaking. I'd compare core to consensus and look at trade and transport margins. What changes my mind is a big downside miss.",
-        "followUp": {
-          "question": "Why does core matter more?",
-          "answer": "Food and energy swing a lot month to month, so core is a cleaner read on underlying pressure."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "2-year yield",
-          "definition": "The yield on the 2-year Treasury, which tracks the expected path of the Fed's policy rate."
-        },
-        {
-          "term": "core PPI",
-          "definition": "Producer prices excluding food and energy; a cleaner read on underlying upstream inflation."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Fri Nov 13, 8:30 AM ET",
-          "what": "October PPI."
-        },
-        {
-          "when": "Nov 18",
-          "what": "FOMC minutes."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Schaeffer's: Stock futures point higher after October PPI data",
-          "url": "https://www.schaeffersresearch.com/content/ezines/2026/11/13/stock-futures-point-higher-after-october-ppi-data"
-        },
-        {
-          "name": "TipRanks: US stocks rise on lighter-than-expected October PPI",
-          "url": "https://www.tipranks.com/news/u-s-stocks-rise-on-lighter-than-expected-october-ppi"
-        },
-        {
-          "name": "Benzinga: Producer Price Index (PPI) calendar",
-          "url": "https://www.benzinga.com/economic-data/ppi"
-        },
-        {
-          "name": "US Department of Labor: PPI release, Oct. 15, 2026",
-          "url": "https://www.dol.gov/newsroom/economicdata/ppi_10152026.pdf"
-        }
-      ]
-    },
-    {
-      "id": "weekly-wrap-best-week-since-august-nov-13-2026",
-      "beat": "markets",
-      "headline": "Wall Street ends a volatile week higher as Nvidia drags the Nasdaq down 0.9% on Friday",
-      "dek": "The S&P 500 rose about 2.5% on the week and the Nasdaq about 2.3%, its best week since August, despite a hot CPI, a 5% 10-year yield and Nvidia's CEO exit.",
-      "importance": 3,
-      "depth": "brief",
-      "developing": false,
-      "publishedAt": "2026-11-13T18:54:00-05:00",
-      "updatedAt": "2026-11-13T18:54:00-05:00",
-      "readMinutes": 2,
-      "tldr": [
-        "Friday close: **Dow +50.46 (+0.1%) to 52,347.55**, **S&P 500 -0.4% to 7,561.67**, **Nasdaq -0.91% to 25,136.27** (the Nasdaq's best week since August).",
-        "Week: **S&P 500 +2.5%**, **Nasdaq +2.3%**, **Dow +2.1%**; sources differ slightly on the Friday levels.",
-        "October PPI came in cooler than expected: **+0.3%** vs. 0.4% forecast, with core +0.3% in line."
-      ],
-      "whatHappened": [
-        "Stocks ended a whipsaw week with gains. On Friday the Dow edged up 50.46 points, or about 0.1%, to 52,347.55, while the S&P 500 fell about 0.4% to 7,561.67 and the Nasdaq Composite fell 0.91% to 25,136.27 as Nvidia's leadership turmoil kept weighing on tech, per CNBC and TheStreet; another recap had slightly different levels. Even so, the S&P 500 gained about 2.5% for the week, the Nasdaq about 2.3% (its best week since August) and the Dow about 2.1%. Money moved out of tech in a [[rotation]] and into other sectors, which helped the Dow, and [[breadth]] improved. The week included Monday's 1,104-point Dow rally on falling oil, Tuesday's hot CPI, Thursday's bond-market catch-up to a 5.1% 10-year, and Nvidia CEO Jensen Huang's resignation."
-      ],
-      "background": [
-        "Last week's Nasdaq correction set a low base: the S&P 500 fell 2.7% the week before, its worst since June, so this week's gain is mostly a retrace. Oil's drop and a cooler PPI helped, while yields near 5% and the Nvidia story capped the rebound."
-      ],
-      "whyItMatters": [
-        "The index is back near its highs, but leadership has shifted from tech to the rest of the market. That rotation is fragile if the 10-year keeps rising or if Nvidia's Tuesday earnings, the first without Huang, disappoint."
-      ],
-      "grandLine": {
-        "title": "The Straw Hats' navigator",
-        "body": "Nami doesn't steer by yesterday's weather; she reads the sky and adjusts. After a week that swung between storm and calm, the market's next heading hinges on two readings: Nvidia's report and the Fed minutes."
-      },
-      "views": [
-        {
-          "camp": "Rotation is healthy",
-          "thesis": "Money moving out of tech into the rest of the market broadens the rally.",
-          "argument": "The Dow gained, small caps and cyclicals participated earlier in the week, and falling oil helps most sectors."
-        },
-        {
-          "camp": "Tech is the tell",
-          "thesis": "The AI leader's turmoil is the real risk.",
-          "argument": "With Nvidia, the Nasdaq's heaviest weight, in disarray and 10-year yields near 5%, the rebound can reverse quickly."
-        }
-      ],
-      "interview": {
-        "question": "The S&P rose 2.5% on a week with hot CPI and a CEO resignation. How do you read it?",
-        "answer": "As a rebound from an oversold base helped by lower oil and a cooler PPI, not a clean all-clear. Breadth improved but tech is the swing factor and yields are near 5%. I'd watch Nvidia's Tuesday report and the FOMC minutes next Wednesday. What changes my mind is a break above 5.2% on the 10-year.",
-        "followUp": {
-          "question": "Why does PPI matter after CPI?",
-          "answer": "It shows pipeline pressure; a cooler PPI eases fears that producer costs will keep pushing consumer prices up."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "rotation",
-          "definition": "Money shifting from one group of stocks to another instead of leaving the market, such as from tech to cyclicals."
-        },
-        {
-          "term": "breadth",
-          "definition": "How many stocks participate in a market move; wide breadth is healthier."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Tue Nov 17",
-          "what": "Nvidia earnings, the first without Huang."
-        },
-        {
-          "when": "Wed Nov 18, 2:00 PM ET",
-          "what": "FOMC minutes."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Kiplinger: Nasdaq drops Friday on Nvidia fallout but ends the week up",
-          "url": "https://www.kiplinger.com/investing/stocks/nasdaq-drops-friday-on-nvidia-fallout-but-ends-the-week-up-stock-market-today"
-        },
-        {
-          "name": "TheStreet: Stock market today, Nov. 13, 2026",
-          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-13-2026"
-        },
-        {
-          "name": "CNBC: Nasdaq falls Friday as Nvidia sells off, but index notches best week since August",
-          "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
-        },
-        {
-          "name": "Quartz: All three major indexes are heading for weekly gains of about 2% to 3%",
-          "url": "https://qz.com/us-stock-indexes-weekly-gains-ppi-nvidia-111326"
-        }
-      ]
-    },
     {
       "id": "trump-xi-apec-shenzhen-preview-nov-2026",
       "beat": "policy",
@@ -549,21 +223,23 @@
     {
       "id": "nvidia-q3-preview-kress-first-call-nov-2026",
       "beat": "markets",
-      "headline": "Nvidia reports Tuesday with the Street near $109 billion in revenue, on Colette Kress's first call as interim CEO",
-      "dek": "The company's own guide is about $108 billion, give or take 2%. The question is whether the outlook holds without Jensen Huang.",
+      "headline": "Nvidia slides again Monday, a day before reporting without Huang; the Street still expects about $109 billion",
+      "dek": "Guidance is about $108 billion, give or take 2%. The question for Tuesday's call is whether Colette Kress holds the outlook as interim CEO.",
       "importance": 4,
       "depth": "brief",
       "developing": false,
       "publishedAt": "2026-11-15T09:34:00-05:00",
-      "updatedAt": "2026-11-15T09:34:00-05:00",
+      "updatedAt": "2026-11-16T17:03:00-05:00",
+      "updateNote": "Added Monday's slide in the stock and the Nasdaq.",
       "readMinutes": 1,
       "tldr": [
-        "Nvidia reports fiscal third-quarter results Tuesday at about 4:20 PM ET, with the call at 5:00 PM ET, per its SEC filing.",
-        "Guidance is about $108 billion of revenue, plus or minus 2%; analysts expect about $109 billion and adjusted EPS near $2.47.",
-        "It is the first report since Huang resigned and CFO Colette Kress became interim CEO."
+        "Nvidia reports fiscal third-quarter results Tuesday after the close, with the call at 5:00 PM ET, per its SEC filing.",
+        "Shares fell again Monday, down roughly 4% in afternoon trading by one report, as the Nasdaq dropped 2.5%.",
+        "Guidance is about $108 billion of revenue, plus or minus 2%; analysts expect about $109 billion and adjusted EPS near $2.47."
       ],
       "whatHappened": [
-        "Nvidia kept its earnings date after last week's leadership change: results come Tuesday after the close, about 1:20 PM Pacific, with the call at 2:00 PM Pacific, according to the company's filing. Previews put consensus at roughly $109 billion of revenue and about $2.47 to $2.48 of adjusted earnings per share, against company guidance of about $108 billion, plus or minus 2%. Kress, who set that guidance as CFO, now has to defend it as interim CEO. Analysts are watching gross margin, which she said in August would bottom in the fourth quarter, supply commitments, and China, where data-center revenue is near zero."
+        "Nvidia kept its earnings date after last week's leadership change: results come Tuesday after the close, about 1:20 PM Pacific, with the call at 2:00 PM Pacific, according to the company's filing. Previews put consensus at roughly $109 billion of revenue and about $2.47 to $2.48 of adjusted earnings per share, against company guidance of about $108 billion, plus or minus 2%. Kress, who set that guidance as CFO, now has to defend it as interim CEO. Analysts are watching gross margin, which she said in August would bottom in the fourth quarter, supply commitments, and China, where data-center revenue is near zero.",
+        "The stock slid again on Monday, down roughly 4% in afternoon trading by one report, as the Nasdaq Composite fell 2.49%. Chip and AI names led the market lower into the print."
       ],
       "whyItMatters": [
         "Nvidia is the largest weight in the Nasdaq and the reference point for AI spending, so its outlook sets the tone for tech into year-end. After Friday's selloff in the stock, the bar is the forward guide and how convincingly a new voice delivers it, more than the quarter itself."
@@ -584,6 +260,10 @@
         {
           "name": "Benzinga: Colette Kress' first Nvidia earnings call: 5 things to watch",
           "url": "https://www.benzinga.com/trading-ideas/previews/26/11/63239519/colette-kress-nvidia-earnings"
+        },
+        {
+          "name": "24/7 Wall St.: Nasdaq-100 sinks 1% as Nvidia faces its first earnings without Jensen Huang",
+          "url": "https://247wallst.com/investing/2026/11/16/stock-market-today-nasdaq-100-sinks-1-as-nvidia-faces-its-first-earnings-without-jensen-huang/"
         }
       ]
     },
@@ -620,6 +300,128 @@
         {
           "name": "Balkan Green Energy News: COP31 climate summit kicks off in Türkiye's Antalya",
           "url": "https://balkangreenenergynews.com/cop31-opens-amid-warnings-that-2026-will-be-among-hottest-years-on-record/"
+        }
+      ]
+    },
+    {
+      "id": "stocks-slide-third-day-nasdaq-nvidia-nov-16-2026",
+      "beat": "markets",
+      "headline": "Nasdaq falls 2.5% and the S&P 500 drops 1.9% as AI stocks slide into Nvidia's first report without Huang",
+      "dek": "The S&P 500 lost a third straight session, closing at 7,416.59, and the Dow fell 1.4%. Defensive sectors held up while chips and AI names led the selloff.",
+      "importance": 4,
+      "depth": "full",
+      "developing": false,
+      "publishedAt": "2026-11-16T17:03:00-05:00",
+      "updatedAt": "2026-11-16T17:03:00-05:00",
+      "readMinutes": 4,
+      "tldr": [
+        "Monday's close: **S&P 500 -1.92% to 7,416.59**, **Nasdaq -2.49% to 24,509.76**, **Dow -1.41% to 51,608.17**, per AP and CNBC.",
+        "Technology led the damage, with Nvidia the focus a day before its first earnings report since Jensen Huang resigned; consumer staples and health care were the exceptions.",
+        "The Nasdaq's drop is bigger than all of last week's 2.3% gain, so the rebound that followed the Nasdaq's slide earlier this month is gone."
+      ],
+      "whatHappened": [
+        "U.S. stocks sold off hard on Monday, with technology leading. The S&P 500 shed 145.08 points, or 1.92%, to 7,416.59, its third straight loss. The Nasdaq Composite fell 626.52 points, or 2.49%, to 24,509.76, and the Dow dropped 739.38 points, or 1.41%, to 51,608.17, per AP and CNBC closing reports. Those figures line up exactly with Friday's closes (7,561.67, 25,136.27 and 52,347.55). Reuters-based reports quoted smaller intraday declines at points during the session.",
+        "Reports pointed at chip and AI names and at Nvidia in particular. The stock was down roughly 4% in afternoon trading, according to one report, with investors reluctant to hold it into Tuesday's [[event risk]]: the first report under interim CEO Colette Kress. Rising bond yields were also cited as a weight. Consumer staples and health care were the exceptions, a classic [[risk-off]] pattern in which money moves toward defensive groups."
+      ],
+      "background": [
+        "The Nasdaq has now handed back more than it gained last week, when it rose about 2.3%. That rebound followed the post-election correction, and it leaned on two things: falling oil and a cooler producer-price report. Both have faded. Nvidia, the biggest single weight in the Nasdaq, has also lost its CEO since then, so index moves track its stock more tightly than usual."
+      ],
+      "whyItMatters": [
+        "When the largest AI stock is the swing factor, the next move depends on one report. A clean beat with steady guidance can unwind a lot of the fear quickly, because positioning is already lighter. A weak outlook would confirm the worry that the AI trade is cracking, and with the S&P 500 down three days in a row there is less cushion. Watch [[implied volatility]]: if option prices stay high after the report, the market is still braced for more."
+      ],
+      "marketReaction": [
+        {
+          "asset": "S&P 500",
+          "move": "-1.92% to 7,416.59",
+          "direction": "down"
+        },
+        {
+          "asset": "Nasdaq Composite",
+          "move": "-2.49% to 24,509.76",
+          "direction": "down"
+        },
+        {
+          "asset": "Dow",
+          "move": "-1.41% to 51,608.17",
+          "direction": "down"
+        }
+      ],
+      "grandLine": {
+        "title": "Aqua Laguna on Tuesday",
+        "body": "In Water 7 everyone knows the giant tidal wave Aqua Laguna is coming, and the city still has to evacuate to high ground. Monday looks like that evacuation: with Nvidia's report on a known date, many investors cut exposure before the wave rather than after new information arrived. That is why a scheduled event can drag prices down in the days before it."
+      },
+      "views": [
+        {
+          "camp": "Pre-earnings de-risking",
+          "thesis": "This is positioning, not a verdict on AI.",
+          "argument": "Nvidia's date is fixed and the CEO change adds uncertainty, so traders trimmed beforehand. If guidance holds, the selling reverses, because the fundamentals have not changed."
+        },
+        {
+          "camp": "The AI trade is breaking",
+          "thesis": "Three down sessions plus a CEO exit is a trend, not a blip.",
+          "argument": "With yields rising and the AI leader leaderless, the easy money has been made. A merely in-line report may not be enough to restart the rally."
+        }
+      ],
+      "interview": {
+        "question": "The Nasdaq is down 2.5% the day before Nvidia reports. Do you buy it or wait?",
+        "answer": "I'd wait for the report. The move looks like pre-earnings de-risking, and the outcome is binary on guidance, so I'd rather not own the gap in either direction. If Kress holds the revenue guide and margins, I'd look to buy the dip in the leaders. What would change my mind is a cut to the outlook or a sign the board is reconsidering the plan, which would make me think the AI trade has broken rather than paused.",
+        "followUp": {
+          "question": "How would you express a view on the report without owning the stock?",
+          "answer": "A put spread on the Nasdaq-100 caps the cost and the risk, while a straddle pays on a big move in either direction. Because option prices already reflect the event, I'd compare implied move against how far the stock has actually moved on past reports."
+        }
+      },
+      "trade": {
+        "idea": "Hedge Nasdaq-100 into Nvidia earnings",
+        "expression": "Long QQQ near-dated 5% out-of-the-money put, short a 10% out-of-the-money put (put spread)",
+        "rationale": "If Tuesday's report disappoints and the selloff extends, the spread pays off at a defined cost. Selling the lower put reduces the premium after a volatile day.",
+        "risks": [
+          "A strong report or steady guidance sends the Nasdaq sharply higher and the premium is lost.",
+          "Implied volatility is already high, so the spread is more expensive than usual and a calm reaction erodes it."
+        ]
+      },
+      "keyTerms": [
+        {
+          "term": "event risk",
+          "definition": "The chance that a known, scheduled event (earnings, a data release) moves a price sharply, so traders adjust positions before it.",
+          "example": "Nvidia reports Tuesday after the close."
+        },
+        {
+          "term": "risk-off",
+          "definition": "A market mood where investors sell volatile assets such as tech and buy defensive ones such as staples, health care and Treasuries.",
+          "example": "Staples and health care rose Monday while tech fell."
+        },
+        {
+          "term": "implied volatility",
+          "definition": "The market's expected size of future price swings, backed out of option prices. It rises when investors pay up for protection.",
+          "example": "Option prices on Nvidia and the Nasdaq-100 are the gauge for Tuesday's expected move."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Tue Nov 17",
+          "what": "Nvidia earnings after the close; guidance and margins under Kress."
+        },
+        {
+          "when": "Wed Nov 18, 2:00 PM ET",
+          "what": "FOMC minutes from the October meeting."
+        }
+      ],
+      "sources": [
+        {
+          "name": "TV News Check: Dow drops 739, Nasdaq falls 627, S&P 500 sheds 145",
+          "url": "https://tvnewscheck.com/business/article/dow-drops-739-nasdaq-falls-627-sp-500-sheds-145/"
+        },
+        {
+          "name": "CNBC: Stock market news for Nov. 16, 2026",
+          "url": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html"
+        },
+        {
+          "name": "24/7 Wall St.: Nasdaq-100 sinks 1% as Nvidia faces its first earnings without Jensen Huang",
+          "url": "https://247wallst.com/investing/2026/11/16/stock-market-today-nasdaq-100-sinks-1-as-nvidia-faces-its-first-earnings-without-jensen-huang/"
+        },
+        {
+          "name": "Yahoo Finance: Stock market today, Monday, November 16",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html"
         }
       ]
     }
