@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-17-pm",
+      "number": 64,
+      "editionType": "pm",
+      "publishedAt": "2026-11-17T16:54:00-05:00",
+      "lead": "Nvidia revenue jumps 103% to $115.8 billion and it guides to $130 billion in its first report since Huang left",
+      "stories": 4
+    },
+    {
       "id": "2026-11-17-am",
       "number": 63,
       "editionType": "am",
