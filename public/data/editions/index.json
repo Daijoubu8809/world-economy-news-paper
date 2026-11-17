@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-17-am",
+      "number": 63,
+      "editionType": "am",
+      "publishedAt": "2026-11-17T06:54:00-05:00",
+      "lead": "Nvidia reports tonight with the first guide under Kress; the Street wants about $109 billion and steady margins",
+      "stories": 6
+    },
+    {
       "id": "2026-11-16-pm",
       "number": 62,
       "editionType": "pm",
