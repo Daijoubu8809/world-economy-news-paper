@@ -1,66 +1,44 @@
 {
   "version": 2,
-  "id": "2026-11-17-pm",
-  "number": 64,
-  "editionType": "pm",
-  "publishedAt": "2026-11-17T16:54:00-05:00",
-  "checkedAt": "2026-11-17T16:54:00-05:00",
-  "nextRunAt": "2026-11-18T06:52:00-05:00",
-  "lead": "nvidia-q3-preview-kress-first-call-nov-2026",
+  "id": "2026-11-18-am",
+  "number": 65,
+  "editionType": "am",
+  "publishedAt": "2026-11-18T06:54:00-05:00",
+  "checkedAt": "2026-11-18T06:54:00-05:00",
+  "nextRunAt": "2026-11-18T16:52:00-05:00",
+  "lead": "futures-rally-nvidia-ai-sympathy-nov-18-2026",
   "frontLayout": "banner",
   "brief": {
     "bullets": [
-      "**Nvidia:** third-quarter revenue of $115.8 billion (+103%), Data Center $107.6 billion, and fourth-quarter guidance of $130.0 billion, plus or minus 3%, including an extra week.",
-      "**Margins:** Kress said gross margin should fall to about 71% to 72% in the fourth quarter; the outlook assumes no China data-center revenue.",
-      "**Reaction:** one report had the stock up more than 2% after hours; a settled move and Tuesday's close were not available.",
-      "**Wednesday:** the Fed's October minutes at 2:00 PM ET, and APEC leaders meet in Shenzhen through Thursday.",
+      "**Futures:** Nasdaq 100 futures are up about 1.4% to 1.5% and S&P 500 e-minis about 0.7% after Nvidia's beat and $130 billion guide.",
+      "**Nvidia:** closed Tuesday at $155.46 (-0.44%) and rose between about 2% and 5% after hours; Micron, AMD, CoreWeave and Nebius moved with it.",
+      "**2:00 PM ET:** the Fed's October minutes, with the 50bp debate in focus.",
+      "**APEC:** leaders meet in Shenzhen through Thursday, with chip-export curbs expected to dominate Trump–Xi talks.",
       "**Anthropic:** the Nasdaq listing as ANT is filed; the debut date is unconfirmed."
     ],
-    "mood": "The power vacuum didn't bite: a big beat and a $130 billion guide, with margins sailing into thinner water."
-  },
-  "tape": {
-    "asOf": "Mon close",
-    "items": [
-      {
-        "label": "S&P 500",
-        "value": "7,416.59",
-        "change": "-1.9%",
-        "direction": "down"
-      },
-      {
-        "label": "Nasdaq",
-        "value": "24,509.76",
-        "change": "-2.5%",
-        "direction": "down"
-      },
-      {
-        "label": "Dow",
-        "value": "51,608.17",
-        "change": "-1.4%",
-        "direction": "down"
-      }
-    ]
+    "mood": "The doldrums broke overnight: a big beat blew the fleet off the Calm Belt, and the Fed's minutes are the next current."
   },
   "storylines": [
     {
       "id": "nvidia-succession",
       "title": "Nvidia after Huang",
-      "line": "First report since the exit beat the guide and set a $130 billion outlook; the CEO search has no update.",
+      "line": "The first report since the exit beat the guide and the stock rose after hours; no update on the CEO search.",
       "changed": true,
       "storyId": "nvidia-q3-preview-kress-first-call-nov-2026"
     },
     {
       "id": "fed-december",
       "title": "The Fed's December decision",
-      "line": "No change: October minutes are due Wednesday at 2:00 PM ET.",
+      "line": "No change: October minutes are due today at 2:00 PM ET.",
       "changed": false,
       "storyId": "fed-minutes-waller-50bp-nov-17-2026"
     },
     {
       "id": "us-china-trade",
       "title": "US–China trade truce",
-      "line": "No change: extended to January 10; Trump and Xi are expected at APEC through Thursday.",
-      "changed": false
+      "line": "APEC opens today; chip curbs are expected to dominate. No outcome yet.",
+      "changed": true,
+      "storyId": "chip-curbs-trump-xi-apec-shenzhen-nov-18-2026"
     },
     {
       "id": "iran-hormuz",
@@ -70,27 +48,21 @@
     }
   ],
   "feature": {
-    "kind": "explainer",
-    "date": "2026-11-17",
-    "title": "Desk school: why guidance matters more than the quarter",
+    "kind": "debate",
+    "date": "2026-11-18",
+    "title": "The debate: buy the Nvidia pop, or fade it?",
     "body": [
-      "When a company reports, it tells you two things: how last quarter went, and what it expects next. The first is history. Analysts and management both know it going in, so it is mostly priced. The second, called guidance in a report, is new information about the future, and that is what moves the stock.",
-      "That is why a company can beat on revenue and still fall. If the Street expects $109 billion and the company reports $110 billion but guides next quarter below what analysts expect, the stock usually drops. Traders compare each number with consensus, the average analyst forecast, and with the unofficial 'whisper number' that big holders are really positioned for.",
-      "Tonight is the textbook case. Nvidia's own guide was about $108 billion and the Street sits near $109 billion, so the quarter should come in fine. The questions are the next-quarter outlook, gross margin, and whether an interim CEO sounds as confident as a founder. In an interview, say that: 'It's a guide-and-tone event more than a number event.'"
+      "**The case for buying.** The report cleared the biggest event risk in tech. Revenue was $115.8 billion against about $109 billion expected, and the $130 billion guide sits far above the Street. After a slide that took Nvidia down roughly a quarter or more from its record, positioning is light, so good news forces covering. Buyers point to the rest of the AI complex moving with it as proof the cycle is intact.",
+      "**The case for fading.** Overnight gaps often fade by the close. The $130 billion guide includes an extra week, gross margin is guided down to about 71% to 72%, and the Fed's minutes at 2:00 PM ET could revive the 50bp debate and push yields up. Sellers say a gap up after a big drawdown is a chance to cut, not to add.",
+      "**How to say it in an interview.** 'I'd wait: the headline is strong, but the quality of the guide and the Fed minutes decide whether the gap holds. I'd buy a hold into the afternoon and sell a failure.' Pick the camp you believe and be ready to say what would change your mind."
     ]
   },
   "numberOfDay": {
-    "value": "103%",
-    "label": "Nvidia's year-over-year revenue growth, to $115.8 billion",
-    "why": "Revenue came in above the top of the $108 billion guide's range, but the $130 billion outlook includes an additional week, so the quality of that next number is the debate."
+    "value": "$155.46",
+    "label": "Nvidia's Tuesday close, down 0.44%, before the report",
+    "why": "After hours the stock rose between about 2% and 5%, depending on the report and the time, so the real test is the regular session."
   },
   "calendar": [
-    {
-      "date": "2026-11-17",
-      "time": "4:20 PM ET",
-      "label": "Nvidia earnings (call at 5:00 PM ET)",
-      "why": "First report with Colette Kress as interim CEO; the Street expects about $109 billion of revenue."
-    },
     {
       "date": "2026-11-18",
       "time": "2:00 PM ET",
@@ -442,6 +414,148 @@
         {
           "name": "ABC7: Anthropic set to make stock market debut as questions swirl about safety of AI",
           "url": "https://abc7news.com/post/anthropic-set-make-stock-market-debut-questions-swirl-safety-ai/19980936/"
+        }
+      ]
+    },
+    {
+      "id": "futures-rally-nvidia-ai-sympathy-nov-18-2026",
+      "beat": "markets",
+      "headline": "Futures jump as Nvidia's blowout quarter pulls AI and chip stocks higher after hours",
+      "dek": "Nasdaq 100 futures rose about 1.4% to 1.5% and S&P 500 futures about 0.7% after Nvidia beat estimates; the stock was up roughly 2% to 5% after the close.",
+      "importance": 4,
+      "depth": "full",
+      "developing": true,
+      "publishedAt": "2026-11-18T06:54:00-05:00",
+      "updatedAt": "2026-11-18T06:54:00-05:00",
+      "readMinutes": 4,
+      "tldr": [
+        "Nasdaq 100 futures rose about **1.4% to 1.5%** and S&P 500 e-mini futures about **0.7%** after Nvidia's report, per Investing.com and other reports.",
+        "Nvidia closed Tuesday at **$155.46**, down 0.44%, then rose between about 2% and 5% after hours, depending on the report and the time.",
+        "Sympathy moves: CoreWeave about +5%, Micron about +4.4%, Nebius about +4% and AMD about +3.8% after hours; the Fed's minutes at 2:00 PM ET are the next test."
+      ],
+      "whatHappened": [
+        "Nvidia reported fiscal third-quarter revenue of $115.8 billion against about $109.15 billion expected, and adjusted earnings of $2.68 per share against $2.47 expected, with fourth-quarter guidance of $130.0 billion. Overnight, Nasdaq 100 [[futures]] were up about 1.4% to 1.5% and S&P 500 e-mini futures about 0.7%. Reports of Nvidia's after-hours gain ranged from about 2.3% to nearly 5%, depending on the time of day.",
+        "Related AI and chip names rose in a [[sympathy move]]: CoreWeave about 5%, Micron about 4.4%, Nebius about 4% and AMD about 3.8%, per Investing.com. The rebound follows a rough stretch: Nvidia slid into the print on Tuesday, and a CNBC live-blog headline reports that the Dow fell more than 800 points and the S&P 500 posted its lowest close since July; I could not confirm exact closing levels."
+      ],
+      "background": [
+        "The AI trade was pricing in more bad news than the report delivered. Nvidia had fallen roughly a quarter or more from its record by different counts after the CEO exit and a short-seller report, so a beat with a higher guide forced shorts and hedgers to cover. That is how a stock can gap up on good news after a drop.",
+        "Overnight futures are an early guide, not a close. They have to survive the open and the Fed's minutes at 2:00 PM ET."
+      ],
+      "whyItMatters": [
+        "The report took the biggest idiosyncratic risk off the table for tech, so the Nasdaq has room to retrace part of its three-day slide. The risk is that the rally is a short-covering [[positioning]] move that fades if the minutes read hawkish or if the margin story (about 71% to 72% in the fourth quarter) gets more attention than the headline beat."
+      ],
+      "grandLine": {
+        "title": "The Log Pose points to the next island",
+        "body": "A Log Pose only points to the next island after it has stayed on this one long enough to record it. Nvidia's report gave the market its reading for this island; the Fed's minutes at 2:00 PM ET are the next. Until the needle settles on that one, a futures jump is a heading, not a destination."
+      },
+      "views": [
+        {
+          "camp": "Relief rally with legs",
+          "thesis": "The biggest event risk cleared and positioning was light.",
+          "argument": "With Nvidia beating by a wide margin and guiding well above the Street, shorts cover and the sidelined money returns. The Nasdaq's three-day slide gives it room to retrace."
+        },
+        {
+          "camp": "Fade the pop",
+          "thesis": "Overnight gains often fade by the close.",
+          "argument": "The guide includes an extra week, gross margin is set to fall, and the Fed's minutes could revive the 50bp debate. If yields rise again the multiple compresses, so a gap up can be a chance to sell."
+        }
+      ],
+      "interview": {
+        "question": "Nasdaq futures are up about 1.4% on Nvidia's beat. Do you chase it at the open?",
+        "answer": "I wouldn't chase the open. Overnight gains after a big drawdown are often positioning, and the Fed's minutes at 2:00 PM could change the rate story. I'd rather see how the market holds the gains through the morning and into the minutes. What would make me buy is a hold of the gap into the afternoon on strong breadth; what would make me sell is a rise in the 10-year yield that sends tech back down.",
+        "followUp": {
+          "question": "Why do chip stocks like Micron and AMD move with Nvidia?",
+          "answer": "They sell into the same AI spending cycle, so one customer budget and one demand signal moves all of them. Nvidia's beat is read as proof the cycle is intact, which lifts the group in a sympathy move."
+        }
+      },
+      "trade": {
+        "idea": "Long Nasdaq-100, short S&P 500 relative value",
+        "expression": "Long Nasdaq-100 futures, short S&P 500 e-mini futures, sized beta-neutral",
+        "rationale": "If the AI rebound continues, tech outperforms the broader index after being the weakest part of the market. The short S&P leg hedges overall market direction.",
+        "risks": [
+          "A hawkish Fed minutes release hits long-duration tech harder than the index.",
+          "The gap fades and tech gives back its relative gain."
+        ]
+      },
+      "keyTerms": [
+        {
+          "term": "futures",
+          "definition": "Contracts that track an index's expected level; they trade nearly around the clock and are used as an early read before the stock market opens.",
+          "example": "Nasdaq 100 futures were up about 1.4% to 1.5% overnight."
+        },
+        {
+          "term": "sympathy move",
+          "definition": "When related stocks move in the same direction as a stock that just reported, because they depend on the same demand.",
+          "example": "Micron and AMD rose with Nvidia."
+        },
+        {
+          "term": "positioning",
+          "definition": "How investors are already invested; when many are short or hedged, good news can force buying and a sharp move.",
+          "example": "Light positioning after the selloff made a short-covering rally possible."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Wed Nov 18, 9:30 AM ET",
+          "what": "Whether the futures gains hold through the open."
+        },
+        {
+          "when": "Wed Nov 18, 2:00 PM ET",
+          "what": "FOMC minutes from the October meeting."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Yahoo Finance: Nvidia's first report without Huang: $115.8B revenue, stock up 2.3% after hours",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-first-report-without-jensen-212643285.html"
+        },
+        {
+          "name": "Motley Fool: Stock market today, Nov. 17: Nvidia slides, then soars after hours",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/17/stock-market-today-nov-17-nvidia-slides-ahead-of-earnings-but-soars-in-after-hours-trading/"
+        },
+        {
+          "name": "TipRanks/The Fly: Closing bell movers: Nvidia up nearly 5% after strong Q3 results",
+          "url": "https://www.tipranks.com/news/the-fly/closing-bell-movers-nvidia-up-nearly-5-after-strong-q3-results-guidance-raise-thefly-news"
+        },
+        {
+          "name": "Investing.com: After-hours movers: NVDA, CRWV, NBIS, AAOI, SLS",
+          "url": "https://www.investing.com/news/stock-market-news/afterhours-movers-nvda-crwv-nbis-aaoi-sls-432SI-5034129"
+        }
+      ]
+    },
+    {
+      "id": "chip-curbs-trump-xi-apec-shenzhen-nov-18-2026",
+      "beat": "policy",
+      "headline": "Chip-export curbs are expected to dominate the Trump–Xi talks as APEC opens in Shenzhen",
+      "dek": "Both leaders have confirmed they will attend each other's APEC and G20 summits. The trade truce already runs to January 10, so the open question is chips.",
+      "importance": 3,
+      "depth": "brief",
+      "developing": false,
+      "publishedAt": "2026-11-18T06:54:00-05:00",
+      "updatedAt": "2026-11-18T06:54:00-05:00",
+      "readMinutes": 1,
+      "tldr": [
+        "APEC leaders meet in Shenzhen on Nov. 18–19; the G20 follows Dec. 14–15 in Miami, and both leaders confirmed intent to attend each other's summits.",
+        "Reuters reported that the prospect of tighter US limits on China's access to advanced AI chips is likely to dominate the talks, per Daily Sabah."
+      ],
+      "whatHappened": [
+        "The Asia-Pacific Economic Cooperation summit opens in Shenzhen with a Trump–Xi meeting expected, their third this year. The US–China trade truce was already extended to January 10, so tariffs are not the headline. According to Reuters, as cited by Daily Sabah, the possibility of tighter US restrictions on China's access to advanced AI chips is likely to dominate. I found no reporting yet on the talks themselves."
+      ],
+      "whyItMatters": [
+        "Nvidia's fourth-quarter outlook already assumes no Data Center compute revenue from China, so a new curb mostly affects the sentiment around chip names rather than Nvidia's guide. A softer line on chips would be upside for semiconductors."
+      ],
+      "sources": [
+        {
+          "name": "Daily Sabah: Chip tensions loom over Trump–Xi summit amid AI safety push",
+          "url": "https://www.dailysabah.com/business/economy/chip-tensions-loom-over-trump-xi-summit-amid-ai-safety-push/amp"
+        },
+        {
+          "name": "Herald Corp: Both leaders confirm intent to attend each other's APEC and G20 summits",
+          "url": "https://biz.heraldcorp.com/article/10885409"
+        },
+        {
+          "name": "SCMP: Xi and Trump set for Apec talks, but major deliverables expected to wait for G20",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3373969/xi-and-trump-set-apec-talks-major-deliverables-expected-wait-g20"
         }
       ]
     }

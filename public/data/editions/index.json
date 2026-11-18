@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-18-am",
+      "number": 65,
+      "editionType": "am",
+      "publishedAt": "2026-11-18T06:54:00-05:00",
+      "lead": "Futures jump as Nvidia's blowout quarter pulls AI and chip stocks higher after hours",
+      "stories": 6
+    },
+    {
       "id": "2026-11-17-pm",
       "number": 64,
       "editionType": "pm",
