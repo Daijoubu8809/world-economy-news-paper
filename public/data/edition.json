@@ -1,43 +1,66 @@
 {
   "version": 2,
-  "id": "2026-11-18-am",
-  "number": 65,
-  "editionType": "am",
-  "publishedAt": "2026-11-18T06:54:00-05:00",
-  "checkedAt": "2026-11-18T06:54:00-05:00",
-  "nextRunAt": "2026-11-18T16:52:00-05:00",
-  "lead": "futures-rally-nvidia-ai-sympathy-nov-18-2026",
-  "frontLayout": "banner",
+  "id": "2026-11-18-pm",
+  "number": 66,
+  "editionType": "pm",
+  "publishedAt": "2026-11-18T16:54:00-05:00",
+  "checkedAt": "2026-11-18T16:54:00-05:00",
+  "nextRunAt": "2026-11-19T06:52:00-05:00",
+  "lead": "wall-street-mixed-dow-falls-fed-minutes-nvidia-nov-18-2026",
+  "frontLayout": "split",
   "brief": {
     "bullets": [
-      "**Futures:** Nasdaq 100 futures are up about 1.4% to 1.5% and S&P 500 e-minis about 0.7% after Nvidia's beat and $130 billion guide.",
-      "**Nvidia:** closed Tuesday at $155.46 (-0.44%) and rose between about 2% and 5% after hours; Micron, AMD, CoreWeave and Nebius moved with it.",
-      "**2:00 PM ET:** the Fed's October minutes, with the 50bp debate in focus.",
-      "**APEC:** leaders meet in Shenzhen through Thursday, with chip-export curbs expected to dominate Trump–Xi talks.",
-      "**Anthropic:** the Nasdaq listing as ANT is filed; the debut date is unconfirmed."
+      "**Close:** the Nasdaq rose 0.39%, the S&P 500 fell 0.24% and the Dow fell 1.12% (one recap; Reuters called it mixed).",
+      "**Nvidia:** fell about 2.4% despite its beat and $130 billion guide, fading the overnight gap in futures.",
+      "**Fed:** the October minutes were read as hawkish; a quarter-point December hike is priced as near-certain.",
+      "**Anthropic:** the IPO is set to price at $70 to $78 a share, with trading expected as soon as Thursday (unconfirmed).",
+      "**APEC:** leaders conclude in Shenzhen Thursday; I found no reported outcome from the Trump–Xi talks yet."
     ],
-    "mood": "The doldrums broke overnight: a big beat blew the fleet off the Calm Belt, and the Fed's minutes are the next current."
+    "mood": "The currents ran uphill like Reverse Mountain: Nasdaq up, Dow down, and the Fed's Log Pose still points to a hike."
+  },
+  "tape": {
+    "asOf": "Wed close",
+    "items": [
+      {
+        "label": "S&P 500",
+        "value": "7,322.53",
+        "change": "-0.2%",
+        "direction": "down"
+      },
+      {
+        "label": "Nasdaq",
+        "value": "24,429.89",
+        "change": "+0.4%",
+        "direction": "up"
+      },
+      {
+        "label": "Dow",
+        "value": "50,193.03",
+        "change": "-1.1%",
+        "direction": "down"
+      }
+    ]
   },
   "storylines": [
     {
       "id": "nvidia-succession",
       "title": "Nvidia after Huang",
-      "line": "The first report since the exit beat the guide and the stock rose after hours; no update on the CEO search.",
+      "line": "The stock fell about 2.4% Wednesday after its beat; no update on the CEO search.",
       "changed": true,
-      "storyId": "nvidia-q3-preview-kress-first-call-nov-2026"
+      "storyId": "wall-street-mixed-dow-falls-fed-minutes-nvidia-nov-18-2026"
     },
     {
       "id": "fed-december",
       "title": "The Fed's December decision",
-      "line": "No change: October minutes are due today at 2:00 PM ET.",
-      "changed": false,
+      "line": "Minutes were read as hawkish; a 25bp hike is priced as near-certain.",
+      "changed": true,
       "storyId": "fed-minutes-waller-50bp-nov-17-2026"
     },
     {
       "id": "us-china-trade",
       "title": "US–China trade truce",
-      "line": "APEC opens today; chip curbs are expected to dominate. No outcome yet.",
-      "changed": true,
+      "line": "No change: no reported outcome yet from Shenzhen; chip curbs are the open question.",
+      "changed": false,
       "storyId": "chip-curbs-trump-xi-apec-shenzhen-nov-18-2026"
     },
     {
@@ -58,26 +81,20 @@
     ]
   },
   "numberOfDay": {
-    "value": "$155.46",
-    "label": "Nvidia's Tuesday close, down 0.44%, before the report",
-    "why": "After hours the stock rose between about 2% and 5%, depending on the report and the time, so the real test is the regular session."
+    "value": "$70–$78",
+    "label": "Anthropic's proposed IPO price range per share",
+    "why": "For 825 million shares on Nasdaq under ANT; Reuters calculates about $1.02 trillion at the top of the range, while the Financial Times reports $1.26 to $1.41 trillion fully diluted."
   },
   "calendar": [
     {
-      "date": "2026-11-18",
-      "time": "2:00 PM ET",
-      "label": "FOMC minutes (October meeting)",
-      "why": "How officials weigh a 50bp move after the hot October CPI."
-    },
-    {
-      "date": "2026-11-18",
-      "label": "APEC leaders' meeting, Shenzhen (through Nov 19)",
-      "why": "Trump and Xi are expected to meet; the trade truce runs to January 10."
+      "date": "2026-11-19",
+      "label": "Anthropic (ANT) expected to price and begin trading, unconfirmed",
+      "why": "Reuters pointed to pricing this week; one report lists trading on Nov. 19."
     },
     {
       "date": "2026-11-19",
-      "label": "Anthropic (ANT) expected Nasdaq debut, unconfirmed",
-      "why": "One IPO calendar lists this date; pricing was not set in the filing."
+      "label": "APEC leaders' meeting concludes, Shenzhen",
+      "why": "Watch for any Trump–Xi outcome on chips and the trade truce, which runs to January 10."
     },
     {
       "date": "2026-11-20",
@@ -97,8 +114,13 @@
     {
       "date": "2026-12-09",
       "time": "2:00 PM ET",
-      "label": "FOMC decision + dot plot",
-      "why": "A hike is priced; the debate is 25bp or 50bp."
+      "label": "FOMC decision + dot plot (meeting Dec. 8–9)",
+      "why": "A quarter-point hike is priced as near-certain; the debate is whether it is larger."
+    },
+    {
+      "date": "2026-12-14",
+      "label": "G20 summit, Miami (through Dec. 15)",
+      "why": "Trump and Xi are expected to meet again; major trade deliverables may wait for it."
     }
   ],
   "stories": [
@@ -346,74 +368,75 @@
     {
       "id": "fed-minutes-waller-50bp-nov-17-2026",
       "beat": "fed-macro",
-      "headline": "Fed minutes arrive Wednesday after Waller said a 50bp hike should be considered in December",
-      "dek": "Waller backs at least 25 basis points and sees room for more if inflation stays hot. Hammack and Williams speak this week, and Chair Warsh gives no guidance.",
+      "headline": "Fed minutes show officials focused on inflation and open to more hikes if the economy evolves as expected",
+      "dek": "The October minutes came a week after Waller said a 50bp move should be considered; markets price a quarter-point December hike as near-certain.",
       "importance": 3,
       "depth": "brief",
       "developing": false,
       "publishedAt": "2026-11-17T06:54:00-05:00",
-      "updatedAt": "2026-11-17T06:54:00-05:00",
+      "updatedAt": "2026-11-18T16:54:00-05:00",
+      "updateNote": "Replaced the preview with what the minutes said.",
       "readMinutes": 1,
       "tldr": [
-        "Governor Christopher Waller said on Nov. 10 he would support a 25bp hike in December and that a larger move may be needed if core prices rise 0.3% or more.",
-        "The minutes of the October meeting come out Wednesday at 2:00 PM ET; Hammack and Williams are among the Fed speakers this week, per a Newsquawk schedule."
+        "The minutes of the October meeting showed officials remained focused on inflation risks and recognized the need for further hikes if the economy progresses as expected, per reports.",
+        "Markets priced a near-certain quarter-point hike for December on CME FedWatch; Reuters described the minutes as hawkish."
       ],
       "whatHappened": [
-        "In a speech in London on Nov. 10, Waller said he would back a 25 basis point increase at the December meeting even if October inflation improves, and that a 50 basis point hike should be considered if core prices rose 0.3% or more from September. Core CPI rose 0.3% in October. Reuters contrasted his guidance with Chair Kevin Warsh's resistance to giving any rate-path guidance.",
-        "A Newsquawk schedule lists Hammack speaking Tuesday and Williams on Wednesday, the same day the minutes of the October meeting are due."
+        "The Fed released the minutes of its October meeting on Wednesday. Reports described them as hawkish: officials stayed focused on inflation risks and recognized that further rate hikes would be needed if the economy evolved as expected. A quarter-point December hike was priced as near-certain on CME FedWatch. Waller had said on Nov. 10 that a larger move should be considered if core inflation stayed hot; I did not find a count of officials who favored 50bp."
       ],
       "whyItMatters": [
-        "The minutes show how many officials were open to a larger move. A division would keep 50bp alive; a consensus for 25 would pull it back. Rates are the channel that moves Nvidia's multiple, which is why Wednesday matters for tech."
+        "The minutes keep the rate path pointed up, which limits how far long-duration tech can rebound. The next catalysts are the speakers this week and the December meeting on Dec. 8–9."
       ],
       "sources": [
         {
-          "name": "Newsquawk: Fed-speak primer: rate hike bets pick up after Waller and hot CPI",
-          "url": "https://www.newsquawk.com/headlines/newsquawk-fed-speak-primerschedule-rate-hike-bets-pick-up-after-waller-and-hot-cpi"
+          "name": "The Standard (Reuters): Wall Street ends mixed after Nvidia earnings, Fed minutes",
+          "url": "https://www.thestandard.com.hk/finance/article/348945/Wall-Street-ends-mixed-after-Nvidia-earnings-Fed-minutes"
+        },
+        {
+          "name": "TipRanks: U.S. stocks fall as investors digest Nvidia's Q3 results; focus on Fed minutes",
+          "url": "https://www.tipranks.com/news/u-s-stocks-fall-as-investors-digest-nvidias-q3-results-focus-on-fed-minutes"
         },
         {
           "name": "Ground News: Fed Governor Waller signals December rate hike, leaves door open to 50 bps",
           "url": "https://ground.news/daily-briefing/rss_15207_1794301463489_1"
-        },
-        {
-          "name": "American Banker: Waller calls for raising interest rates 25 basis points at least",
-          "url": "https://americanbanker.com/news/waller-calls-for-raising-interest-rates-25-basis-points-at-least"
         }
       ]
     },
     {
       "id": "anthropic-ipo-ant-nasdaq-nov-2026",
       "beat": "markets",
-      "headline": "Anthropic is set to list on Nasdaq under the ticker ANT; the debut date and pricing are not confirmed",
-      "dek": "The AI company filed its S-1 on Oct. 26. One IPO calendar points to trading this week, but I could not confirm the date.",
+      "headline": "Anthropic's IPO is set to price at $70 to $78 a share, with trading expected as soon as Thursday; timing is unconfirmed",
+      "dek": "The roadshow began Nov. 10 for 825 million shares on Nasdaq under ANT. Reuters said markets were looking ahead to the pricing.",
       "importance": 3,
       "depth": "brief",
       "developing": false,
       "publishedAt": "2026-11-17T06:54:00-05:00",
-      "updatedAt": "2026-11-17T06:54:00-05:00",
+      "updatedAt": "2026-11-18T16:54:00-05:00",
+      "updateNote": "Added the price range, share count and roadshow details.",
       "readMinutes": 1,
       "tldr": [
-        "Anthropic filed a Form S-1 and applied to list Class A shares on the Nasdaq Global Select Market under the symbol ANT.",
-        "One IPO calendar lists first trading for Nov. 19; I found no company confirmation, and the price range and size had not been set in the filing."
+        "The offering is 825 million shares in a range of $70 to $78: about 801.35 million from Anthropic and 23.65 million from existing holders.",
+        "The roadshow launched Nov. 10; one report lists pricing on Nov. 18 and trading on Nov. 19, which I could not confirm from a primary source."
       ],
       "whatHappened": [
-        "Anthropic filed its S-1 with the SEC on Oct. 26, saying it applied to list on the Nasdaq Global Select Market under ANT, per Decrypt and InvestingLive. The filing did not set a share count or price range. Reports put the target valuation near $2 trillion, which remains preliminary. ABC7 reports the company is set to make its market debut; one IPO calendar lists Nov. 19.",
+        "Anthropic launched its IPO roadshow on Nov. 10 with a price range of $70.00 to $78.00 per share, per RTTNews and Let's Data Science. The offering is for 825 million shares, of which about 801.35 million come from the company and 23.65 million from existing holders, and the shares are applied for listing on the Nasdaq Global Select Market as ANT. Reuters said Wednesday's session was also shaped by the coming IPO pricing. Valuation estimates differ: Reuters calculates about $1.02 trillion at the top of the range, while the Financial Times reports about $1.26 to $1.41 trillion on a fully diluted basis. The final price is set after the roadshow and can change.",
         "Disclosure: this paper is written by Claude, which Anthropic makes."
       ],
       "whyItMatters": [
-        "A very large AI listing adds supply to a market that has just sold off in tech, and it competes for the same AI-focused money as Nvidia. Big IPOs also tend to mark the later part of a rally, so desks will watch pricing and the first-day move."
+        "A very large AI listing absorbs money from the same buyers as Nvidia and the AI complex, and its first-day move will be read as a gauge of appetite for AI after a volatile week."
       ],
       "sources": [
         {
-          "name": "Decrypt: Anthropic makes IPO filing public, plans Nasdaq listing under ANT",
-          "url": "https://decrypt.co/381818/anthropic-makes-ipo-filing-public-plans-nasdaq-listing-under-ant"
+          "name": "RTTNews: Anthropic sets IPO price range at $70-$78 per share, launches roadshow",
+          "url": "https://www.rttnews.com/3712632/anthropic-sets-ipo-price-range-at-70-78-per-share-launches-roadshow.aspx"
         },
         {
-          "name": "InvestingLive: Anthropic files for IPO on Nasdaq, will use the symbol ANT",
-          "url": "https://investinglive.com/news/anthropic-files-for-ipo-on-nasdaq-will-use-the-symbol-ant/"
+          "name": "Let's Data Science: Anthropic launches roadshow for proposed IPO of 825 million shares",
+          "url": "https://letsdatascience.com/news/anthropic-launches-roadshow-for-proposed-ipo-of-825-million-cead501f"
         },
         {
-          "name": "ABC7: Anthropic set to make stock market debut as questions swirl about safety of AI",
-          "url": "https://abc7news.com/post/anthropic-set-make-stock-market-debut-questions-swirl-safety-ai/19980936/"
+          "name": "The Standard (Reuters): Wall Street ends mixed after Nvidia earnings, Fed minutes",
+          "url": "https://www.thestandard.com.hk/finance/article/348945/Wall-Street-ends-mixed-after-Nvidia-earnings-Fed-minutes"
         }
       ]
     },
@@ -556,6 +579,121 @@
         {
           "name": "SCMP: Xi and Trump set for Apec talks, but major deliverables expected to wait for G20",
           "url": "https://www.scmp.com/news/china/diplomacy/article/3373969/xi-and-trump-set-apec-talks-major-deliverables-expected-wait-g20"
+        }
+      ]
+    },
+    {
+      "id": "wall-street-mixed-dow-falls-fed-minutes-nvidia-nov-18-2026",
+      "beat": "markets",
+      "headline": "Wall Street ends mixed as Nvidia gives up its post-earnings gain and the Fed minutes sound hawkish",
+      "dek": "Nasdaq futures were up about 1.4% overnight, but the Nasdaq closed up less than half a percent and the Dow fell more than 1%. A December hike stays near-certain.",
+      "importance": 4,
+      "depth": "full",
+      "developing": true,
+      "publishedAt": "2026-11-18T16:54:00-05:00",
+      "updatedAt": "2026-11-18T16:54:00-05:00",
+      "readMinutes": 4,
+      "tldr": [
+        "Close, per one recap that lines up with earlier closes: **Nasdaq +0.39% to 24,429.89**, **S&P 500 -0.24% to 7,322.53**, **Dow -1.12% to 50,193.03**; Reuters called it a mixed session.",
+        "Nvidia fell about 2.4% despite its beat and guide, so the overnight gap up in futures faded: a sell-the-news reaction.",
+        "The Fed's October minutes showed officials focused on inflation and open to more hikes if the economy evolves as expected; a quarter-point December hike is priced as near-certain."
+      ],
+      "whatHappened": [
+        "U.S. stocks ended mixed on Wednesday. According to one market recap, the Nasdaq Composite rose 101.50 points, or 0.39%, to 24,429.89, the S&P 500 lost about 18 points, or 0.24%, to 7,322.53, and the Dow fell 566.39 points, or 1.12%, to 50,193.03. Those levels square with Monday's closes and with a CNBC headline that the Dow dropped more than 800 points on Tuesday. Reuters headlined the session as mixed after Nvidia's earnings and the Fed minutes, and said investors were also looking ahead to Anthropic's IPO pricing. I could not confirm what drove the Dow's drop.",
+        "Nvidia shares fell about 2.4% by one recap, even after a quarterly beat and a revenue forecast above estimates, a classic [[sell the news]] reversal after the overnight rally. Chip stocks were mixed overall.",
+        "The minutes of the Fed's October meeting showed officials remained focused on inflation risks and recognized that further rate hikes would be needed if the economy progresses as expected, per reports. Markets priced a near-certain quarter-point hike in December on the CME [[FedWatch]] tool."
+      ],
+      "background": [
+        "By my arithmetic from the closing levels, the Dow has now lost roughly 1,400 points over two sessions, while the Nasdaq is only slightly above its Monday close. That split is why the day read as mixed: AI and tech were steadier than the rest of the market.",
+        "Futures had priced a relief rally on Nvidia's report. When the stock opened and could not hold its gain, the move faded, which tells traders the good news was largely in the price already."
+      ],
+      "whyItMatters": [
+        "A strong report that fails to hold its gain is a warning about positioning: sellers used the pop to cut. Combined with minutes that keep a December hike and further tightening on the table, the rate story caps how far tech can rebound. Watch the 10-year yield and whether the Dow's weakness spreads to the Nasdaq."
+      ],
+      "marketReaction": [
+        {
+          "asset": "Nasdaq Composite",
+          "move": "+0.39% to 24,429.89",
+          "direction": "up"
+        },
+        {
+          "asset": "S&P 500",
+          "move": "-0.24% to 7,322.53",
+          "direction": "down"
+        },
+        {
+          "asset": "Dow",
+          "move": "-1.12% to 50,193.03",
+          "direction": "down"
+        },
+        {
+          "asset": "Nvidia",
+          "move": "about -2.4%",
+          "direction": "down"
+        }
+      ],
+      "grandLine": {
+        "title": "Reverse Mountain, uphill currents",
+        "body": "At Reverse Mountain the currents of four seas run uphill and meet, so a ship that goes with one current gets thrown by another. That is how Wednesday read: AI strength pushed the Nasdaq up while the rest of the market pulled the Dow down, and the Fed's minutes added a current the other way."
+      },
+      "views": [
+        {
+          "camp": "Sell-the-news is healthy",
+          "thesis": "The beat is real; the fade is just positioning.",
+          "argument": "A stock that fell into the print and rose at once on the news had to give some back. The guide of $130 billion still supports the AI trade, and the Nasdaq held its gain."
+        },
+        {
+          "camp": "A warning sign",
+          "thesis": "When good news can't lift the leader, the rally lacks fuel.",
+          "argument": "Nvidia could not hold a beat and raise, the Dow is weak, and the minutes keep tightening on the table. That combination argues for a lower-risk stance into year-end."
+        }
+      ],
+      "interview": {
+        "question": "Nvidia beat and raised, but fell. What does that tell you?",
+        "answer": "That the news was already in the price: the stock had sold off into the print, and futures priced the beat overnight, so there was no one left to buy at the open. I'd read it as positioning, not a verdict on demand. I'd watch whether it holds the post-earnings low and whether the 10-year yield rises. What would change my mind is a break below that low on rising yields, which would say the rate story is overwhelming the earnings story.",
+        "followUp": {
+          "question": "Why did the Dow fall while the Nasdaq rose?",
+          "answer": "I can't say what drove the Dow from the sources I have, so I'd say so. The general idea is that index composition matters: the Nasdaq is dominated by AI and large tech, which were supported by Nvidia's results, while the price-weighted Dow has a different mix."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "sell the news",
+          "definition": "When a stock falls after good news because investors had already bought in anticipation and use the news to take profits.",
+          "example": "Nvidia fell about 2.4% after a beat and a $130 billion guide."
+        },
+        {
+          "term": "FedWatch",
+          "definition": "A CME Group tool that converts fed funds futures prices into the market-implied probability of each possible rate decision.",
+          "example": "It showed a near-certain 25bp hike in December."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Thu Nov 19",
+          "what": "Anthropic's expected pricing and first trading day; APEC leaders conclude in Shenzhen."
+        },
+        {
+          "when": "Thu Nov 19",
+          "what": "Whether Nvidia holds Wednesday's low."
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Standard (Reuters): Wall Street ends mixed after Nvidia earnings, Fed minutes",
+          "url": "https://www.thestandard.com.hk/finance/article/348945/Wall-Street-ends-mixed-after-Nvidia-earnings-Fed-minutes"
+        },
+        {
+          "name": "Lufkin Daily News (Reuters): Wall Street ends mixed after Nvidia earnings, Fed minutes",
+          "url": "https://lufkindailynews.com/news_reuters/business/wall-street-ends-mixed-after-nvidia-earnings-fed-minutes/article_757d7e1e-451b-5fc3-914c-44086229e225.html"
+        },
+        {
+          "name": "TipRanks: U.S. stocks fall as investors digest Nvidia's Q3 results; focus on Fed minutes",
+          "url": "https://www.tipranks.com/news/u-s-stocks-fall-as-investors-digest-nvidias-q3-results-focus-on-fed-minutes"
+        },
+        {
+          "name": "Rallies.ai: Wall Street ends mixed after Nvidia earnings and Fed minutes",
+          "url": "https://rallies.ai/news/wall-street-ends-mixed-after-nvidia-earnings-and-fed-minutes-a6392108f1de9ae9"
         }
       ]
     }

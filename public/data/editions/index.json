@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-18-pm",
+      "number": 66,
+      "editionType": "pm",
+      "publishedAt": "2026-11-18T16:54:00-05:00",
+      "lead": "Wall Street ends mixed as Nvidia gives up its post-earnings gain and the Fed minutes sound hawkish",
+      "stories": 7
+    },
+    {
       "id": "2026-11-18-am",
       "number": 65,
       "editionType": "am",
