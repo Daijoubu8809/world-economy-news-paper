@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-20-pm",
+      "number": 70,
+      "editionType": "pm",
+      "publishedAt": "2026-11-20T16:54:00-05:00",
+      "lead": "Stocks plunge as the AI rout deepens: S&P 500 and Dow close in correction, Nasdaq falls more than 5%",
+      "stories": 4
+    },
+    {
       "id": "2026-11-20-am",
       "number": 69,
       "editionType": "am",
