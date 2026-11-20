@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-20-am",
+      "number": 69,
+      "editionType": "am",
+      "publishedAt": "2026-11-20T06:54:00-05:00",
+      "lead": "Stocks sink 2% on AI worries: the S&P 500 posts a sixth straight loss and the Dow falls 1,101 points",
+      "stories": 5
+    },
+    {
       "id": "2026-11-19-pm",
       "number": 68,
       "editionType": "pm",

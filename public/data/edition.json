@@ -1,29 +1,59 @@
 {
   "version": 2,
-  "id": "2026-11-19-pm",
-  "number": 68,
-  "editionType": "pm",
-  "publishedAt": "2026-11-19T16:54:00-05:00",
-  "checkedAt": "2026-11-19T16:54:00-05:00",
-  "nextRunAt": "2026-11-20T06:52:00-05:00",
-  "lead": "anthropic-ipo-ant-nasdaq-nov-2026",
+  "id": "2026-11-20-am",
+  "number": 69,
+  "editionType": "am",
+  "publishedAt": "2026-11-20T06:54:00-05:00",
+  "checkedAt": "2026-11-20T06:54:00-05:00",
+  "nextRunAt": "2026-11-20T16:52:00-05:00",
+  "lead": "stocks-selloff-sixth-straight-dow-1101-nov-19-2026",
   "frontLayout": "banner",
   "brief": {
     "bullets": [
-      "**Anthropic:** opened at $111.50 (about 34% above the $83 offer), hit $115.10, and closed at $97.17, up 17.07%, in the largest IPO on record.",
-      "**Valuation:** reports conflict: about $1.27 trillion market cap (Forbes, Yahoo) versus $1.76 trillion fully diluted (CNN).",
-      "**Market:** NBC News headlined that the IPO could not halt a broader market slide; I could not confirm Thursday's index closes.",
-      "**APEC:** leaders conclude in Shenzhen; I found no readout from the Trump–Xi talks.",
-      "**Fed:** no change: a quarter-point December hike is priced as near-certain after the minutes."
+      "**Thursday:** the S&P 500 fell 2.0% to 7,175.83, its sixth straight loss and 8.2% below its record; the Dow lost 1,101 points to 49,097.06 and the Nasdaq fell 2.3% to 23,879.20 (AP).",
+      "**Breadth:** more than 90% of S&P 500 stocks fell, and reports tied the slide to AI stocks even as Anthropic closed its debut up 17%.",
+      "**Level to watch:** a 10% correction from the record is about 2% further down for the S&P 500, near 7,000.",
+      "**Correction:** Wednesday's closes in this paper were slightly off and are fixed; the Dow's drop was about 1.1%.",
+      "**Also:** COP31 is scheduled to close today; I found no readout from the Trump–Xi talks at APEC."
     ],
-    "mood": "The new flag went up with a 34% roar at the open and settled lower, a reminder that the first wind is not the whole voyage."
+    "mood": "A storm front over the New World: six straight losses, and the Log Pose points toward rougher water."
+  },
+  "tape": {
+    "asOf": "Thu close",
+    "items": [
+      {
+        "label": "S&P 500",
+        "value": "7,175.83",
+        "change": "-2.0%",
+        "direction": "down"
+      },
+      {
+        "label": "Nasdaq",
+        "value": "23,879.20",
+        "change": "-2.3%",
+        "direction": "down"
+      },
+      {
+        "label": "Dow",
+        "value": "49,097.06",
+        "change": "-2.2%",
+        "direction": "down"
+      }
+    ]
   },
   "storylines": [
     {
+      "id": "market-selloff",
+      "title": "The market selloff",
+      "line": "Six straight losses for the S&P 500, 8.2% below its record; a 10% correction is about 2% away.",
+      "changed": true,
+      "storyId": "stocks-selloff-sixth-straight-dow-1101-nov-19-2026"
+    },
+    {
       "id": "anthropic-ipo",
       "title": "Anthropic's IPO",
-      "line": "Opened at $111.50 and closed at $97.17, up 17% from the $83 offer.",
-      "changed": true,
+      "line": "No change since Thursday's debut: closed at $97.17, up 17% from the $83 offer.",
+      "changed": false,
       "storyId": "anthropic-ipo-ant-nasdaq-nov-2026"
     },
     {
@@ -41,13 +71,6 @@
       "storyId": "fed-minutes-waller-50bp-nov-17-2026"
     },
     {
-      "id": "us-china-trade",
-      "title": "US–China trade truce",
-      "line": "No change: APEC concludes; I found no readout from the Trump–Xi talks.",
-      "changed": false,
-      "storyId": "chip-curbs-trump-xi-apec-shenzhen-nov-18-2026"
-    },
-    {
       "id": "iran-hormuz",
       "title": "Iran and the Strait of Hormuz",
       "line": "No verified developments found since November 11.",
@@ -55,19 +78,71 @@
     }
   ],
   "feature": {
-    "kind": "sector-spotlight",
-    "date": "2026-11-19",
-    "title": "Sector spotlight: how to read the industrial cycle",
+    "kind": "week-in-review",
+    "date": "2026-11-20",
+    "title": "The week in review: a Nvidia beat, a record IPO and a market that kept falling",
     "body": [
-      "Industrials are the part of the market that builds and moves things: aerospace and defense, machinery, transports, electrical equipment and construction. Because customers order equipment before they use it, the sector tends to turn before the economy does, which is why traders watch it for early signals.",
-      "Four indicators do most of the work. The ISM manufacturing index tells you whether factories are expanding (above 50) or shrinking. New orders and backlog show what is coming: a rising backlog means revenue is already booked. Capital spending plans from customers, such as data centers and utilities, show where demand is strongest. And pricing power, whether a company can raise prices faster than its costs, decides margins.",
-      "The current twist is that AI has changed who the customers are. Grid equipment, turbines, and construction firms now sell into data-center buildouts, which is why electrical equipment names have behaved more like tech than like old-economy cyclicals. In an interview, say that: 'It's a cycle with an AI capex overlay, so I'd watch orders and backlog, not just the macro data.'"
+      "**Monday:** the S&P 500 fell 1.92% to 7,416.59 and the Nasdaq fell 2.49% as AI stocks slid into Nvidia's report. **Tuesday:** Nvidia reported revenue of $115.8 billion, up 103%, and guided to $130 billion for the fourth quarter, including an extra week and no China data-center revenue; the Dow fell more than 800 points before the report.",
+      "**Wednesday:** the Fed's October minutes were read as hawkish with a December hike priced as near-certain, and Nvidia fell about 2.4% after its beat. **Thursday:** Anthropic priced the largest IPO on record at $83 and closed its first day up 17%, yet the S&P 500 lost 2.0% for a sixth straight decline.",
+      "By my arithmetic from closing levels, through Thursday the S&P 500 is down about 5.1% on the week, the Nasdaq about 5.0% and the Dow about 6.2%. Friday's close is not in these figures. In an interview the line is: 'Good news from the AI leaders didn't stop the market falling, which is a sign of broad de-risking, not a stock-specific problem.'"
+    ],
+    "quiz": [
+      {
+        "q": "What was Nvidia's third-quarter revenue?",
+        "options": [
+          "$108 billion",
+          "$115.8 billion",
+          "$130 billion"
+        ],
+        "answer": 1,
+        "explain": "Nvidia reported $115.8 billion, above its own $108 billion guide; $130 billion is its fourth-quarter guidance."
+      },
+      {
+        "q": "At what price did Anthropic price its IPO?",
+        "options": [
+          "$70",
+          "$78",
+          "$83"
+        ],
+        "answer": 2,
+        "explain": "$83 was above the $70 to $78 range, raising about $81.3 billion."
+      },
+      {
+        "q": "How did the S&P 500 close on Thursday?",
+        "options": [
+          "Down 0.2%",
+          "Down 2.0%",
+          "Up 2.0%"
+        ],
+        "answer": 1,
+        "explain": "The S&P 500 fell 2.0% to 7,175.83, its sixth straight daily loss."
+      },
+      {
+        "q": "What does Nvidia's $130 billion guide include that flatters the jump from the prior quarter?",
+        "options": [
+          "An additional week",
+          "A stock split",
+          "China data-center sales"
+        ],
+        "answer": 0,
+        "explain": "The guide includes an additional week, and it assumes no China data-center compute revenue."
+      },
+      {
+        "q": "What is a greenshoe?",
+        "options": [
+          "An option for underwriters to sell extra IPO shares",
+          "A fee paid to the stock exchange",
+          "The price a stock opens at"
+        ],
+        "answer": 0,
+        "explain": "It lets underwriters buy and resell up to about 15% more shares to stabilize the price and raise more money if demand is strong."
+      }
     ]
   },
   "numberOfDay": {
-    "value": "+17.07%",
-    "label": "Anthropic's first-day gain, closing at $97.17 against the $83 offer",
-    "why": "It opened 34% higher and touched $115.10 before fading, so the move from the open to the close was a drop of about 13%."
+    "value": "6",
+    "label": "Straight daily losses for the S&P 500, its longest streak since 2024",
+    "why": "The index has fallen from 7,561.67 last Friday to 7,175.83, and is 8.2% below its record from last month."
   },
   "calendar": [
     {
@@ -248,148 +323,6 @@
       ]
     },
     {
-      "id": "futures-rally-nvidia-ai-sympathy-nov-18-2026",
-      "beat": "markets",
-      "headline": "Futures jump as Nvidia's blowout quarter pulls AI and chip stocks higher after hours",
-      "dek": "Nasdaq 100 futures rose about 1.4% to 1.5% and S&P 500 futures about 0.7% after Nvidia beat estimates; the stock was up roughly 2% to 5% after the close.",
-      "importance": 4,
-      "depth": "full",
-      "developing": true,
-      "publishedAt": "2026-11-18T06:54:00-05:00",
-      "updatedAt": "2026-11-18T06:54:00-05:00",
-      "readMinutes": 4,
-      "tldr": [
-        "Nasdaq 100 futures rose about **1.4% to 1.5%** and S&P 500 e-mini futures about **0.7%** after Nvidia's report, per Investing.com and other reports.",
-        "Nvidia closed Tuesday at **$155.46**, down 0.44%, then rose between about 2% and 5% after hours, depending on the report and the time.",
-        "Sympathy moves: CoreWeave about +5%, Micron about +4.4%, Nebius about +4% and AMD about +3.8% after hours; the Fed's minutes at 2:00 PM ET are the next test."
-      ],
-      "whatHappened": [
-        "Nvidia reported fiscal third-quarter revenue of $115.8 billion against about $109.15 billion expected, and adjusted earnings of $2.68 per share against $2.47 expected, with fourth-quarter guidance of $130.0 billion. Overnight, Nasdaq 100 [[futures]] were up about 1.4% to 1.5% and S&P 500 e-mini futures about 0.7%. Reports of Nvidia's after-hours gain ranged from about 2.3% to nearly 5%, depending on the time of day.",
-        "Related AI and chip names rose in a [[sympathy move]]: CoreWeave about 5%, Micron about 4.4%, Nebius about 4% and AMD about 3.8%, per Investing.com. The rebound follows a rough stretch: Nvidia slid into the print on Tuesday, and a CNBC live-blog headline reports that the Dow fell more than 800 points and the S&P 500 posted its lowest close since July; I could not confirm exact closing levels."
-      ],
-      "background": [
-        "The AI trade was pricing in more bad news than the report delivered. Nvidia had fallen roughly a quarter or more from its record by different counts after the CEO exit and a short-seller report, so a beat with a higher guide forced shorts and hedgers to cover. That is how a stock can gap up on good news after a drop.",
-        "Overnight futures are an early guide, not a close. They have to survive the open and the Fed's minutes at 2:00 PM ET."
-      ],
-      "whyItMatters": [
-        "The report took the biggest idiosyncratic risk off the table for tech, so the Nasdaq has room to retrace part of its three-day slide. The risk is that the rally is a short-covering [[positioning]] move that fades if the minutes read hawkish or if the margin story (about 71% to 72% in the fourth quarter) gets more attention than the headline beat."
-      ],
-      "grandLine": {
-        "title": "The Log Pose points to the next island",
-        "body": "A Log Pose only points to the next island after it has stayed on this one long enough to record it. Nvidia's report gave the market its reading for this island; the Fed's minutes at 2:00 PM ET are the next. Until the needle settles on that one, a futures jump is a heading, not a destination."
-      },
-      "views": [
-        {
-          "camp": "Relief rally with legs",
-          "thesis": "The biggest event risk cleared and positioning was light.",
-          "argument": "With Nvidia beating by a wide margin and guiding well above the Street, shorts cover and the sidelined money returns. The Nasdaq's three-day slide gives it room to retrace."
-        },
-        {
-          "camp": "Fade the pop",
-          "thesis": "Overnight gains often fade by the close.",
-          "argument": "The guide includes an extra week, gross margin is set to fall, and the Fed's minutes could revive the 50bp debate. If yields rise again the multiple compresses, so a gap up can be a chance to sell."
-        }
-      ],
-      "interview": {
-        "question": "Nasdaq futures are up about 1.4% on Nvidia's beat. Do you chase it at the open?",
-        "answer": "I wouldn't chase the open. Overnight gains after a big drawdown are often positioning, and the Fed's minutes at 2:00 PM could change the rate story. I'd rather see how the market holds the gains through the morning and into the minutes. What would make me buy is a hold of the gap into the afternoon on strong breadth; what would make me sell is a rise in the 10-year yield that sends tech back down.",
-        "followUp": {
-          "question": "Why do chip stocks like Micron and AMD move with Nvidia?",
-          "answer": "They sell into the same AI spending cycle, so one customer budget and one demand signal moves all of them. Nvidia's beat is read as proof the cycle is intact, which lifts the group in a sympathy move."
-        }
-      },
-      "trade": {
-        "idea": "Long Nasdaq-100, short S&P 500 relative value",
-        "expression": "Long Nasdaq-100 futures, short S&P 500 e-mini futures, sized beta-neutral",
-        "rationale": "If the AI rebound continues, tech outperforms the broader index after being the weakest part of the market. The short S&P leg hedges overall market direction.",
-        "risks": [
-          "A hawkish Fed minutes release hits long-duration tech harder than the index.",
-          "The gap fades and tech gives back its relative gain."
-        ]
-      },
-      "keyTerms": [
-        {
-          "term": "futures",
-          "definition": "Contracts that track an index's expected level; they trade nearly around the clock and are used as an early read before the stock market opens.",
-          "example": "Nasdaq 100 futures were up about 1.4% to 1.5% overnight."
-        },
-        {
-          "term": "sympathy move",
-          "definition": "When related stocks move in the same direction as a stock that just reported, because they depend on the same demand.",
-          "example": "Micron and AMD rose with Nvidia."
-        },
-        {
-          "term": "positioning",
-          "definition": "How investors are already invested; when many are short or hedged, good news can force buying and a sharp move.",
-          "example": "Light positioning after the selloff made a short-covering rally possible."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Wed Nov 18, 9:30 AM ET",
-          "what": "Whether the futures gains hold through the open."
-        },
-        {
-          "when": "Wed Nov 18, 2:00 PM ET",
-          "what": "FOMC minutes from the October meeting."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Yahoo Finance: Nvidia's first report without Huang: $115.8B revenue, stock up 2.3% after hours",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-first-report-without-jensen-212643285.html"
-        },
-        {
-          "name": "Motley Fool: Stock market today, Nov. 17: Nvidia slides, then soars after hours",
-          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/17/stock-market-today-nov-17-nvidia-slides-ahead-of-earnings-but-soars-in-after-hours-trading/"
-        },
-        {
-          "name": "TipRanks/The Fly: Closing bell movers: Nvidia up nearly 5% after strong Q3 results",
-          "url": "https://www.tipranks.com/news/the-fly/closing-bell-movers-nvidia-up-nearly-5-after-strong-q3-results-guidance-raise-thefly-news"
-        },
-        {
-          "name": "Investing.com: After-hours movers: NVDA, CRWV, NBIS, AAOI, SLS",
-          "url": "https://www.investing.com/news/stock-market-news/afterhours-movers-nvda-crwv-nbis-aaoi-sls-432SI-5034129"
-        }
-      ]
-    },
-    {
-      "id": "chip-curbs-trump-xi-apec-shenzhen-nov-18-2026",
-      "beat": "policy",
-      "headline": "Chip-export curbs are expected to dominate the Trump–Xi talks as APEC opens in Shenzhen",
-      "dek": "Both leaders have confirmed they will attend each other's APEC and G20 summits. The trade truce already runs to January 10, so the open question is chips.",
-      "importance": 3,
-      "depth": "brief",
-      "developing": false,
-      "publishedAt": "2026-11-18T06:54:00-05:00",
-      "updatedAt": "2026-11-18T06:54:00-05:00",
-      "readMinutes": 1,
-      "tldr": [
-        "APEC leaders meet in Shenzhen on Nov. 18–19; the G20 follows Dec. 14–15 in Miami, and both leaders confirmed intent to attend each other's summits.",
-        "Reuters reported that the prospect of tighter US limits on China's access to advanced AI chips is likely to dominate the talks, per Daily Sabah."
-      ],
-      "whatHappened": [
-        "The Asia-Pacific Economic Cooperation summit opens in Shenzhen with a Trump–Xi meeting expected, their third this year. The US–China trade truce was already extended to January 10, so tariffs are not the headline. According to Reuters, as cited by Daily Sabah, the possibility of tighter US restrictions on China's access to advanced AI chips is likely to dominate. I found no reporting yet on the talks themselves."
-      ],
-      "whyItMatters": [
-        "Nvidia's fourth-quarter outlook already assumes no Data Center compute revenue from China, so a new curb mostly affects the sentiment around chip names rather than Nvidia's guide. A softer line on chips would be upside for semiconductors."
-      ],
-      "sources": [
-        {
-          "name": "Daily Sabah: Chip tensions loom over Trump–Xi summit amid AI safety push",
-          "url": "https://www.dailysabah.com/business/economy/chip-tensions-loom-over-trump-xi-summit-amid-ai-safety-push/amp"
-        },
-        {
-          "name": "Herald Corp: Both leaders confirm intent to attend each other's APEC and G20 summits",
-          "url": "https://biz.heraldcorp.com/article/10885409"
-        },
-        {
-          "name": "SCMP: Xi and Trump set for Apec talks, but major deliverables expected to wait for G20",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3373969/xi-and-trump-set-apec-talks-major-deliverables-expected-wait-g20"
-        }
-      ]
-    },
-    {
       "id": "wall-street-mixed-dow-falls-fed-minutes-nvidia-nov-18-2026",
       "beat": "markets",
       "headline": "Wall Street ends mixed as Nvidia gives up its post-earnings gain and the Fed minutes sound hawkish",
@@ -401,12 +334,12 @@
       "updatedAt": "2026-11-18T16:54:00-05:00",
       "readMinutes": 4,
       "tldr": [
-        "Close, per one recap that lines up with earlier closes: **Nasdaq +0.39% to 24,429.89**, **S&P 500 -0.24% to 7,322.53**, **Dow -1.12% to 50,193.03**; Reuters called it a mixed session.",
+        "Close, per one recap that lines up with earlier closes: **Nasdaq +0.39% to 24,429.89**, **S&P 500 -0.24% to 7,323.63**, **Dow -1.1% to 50,198.17**; Reuters called it a mixed session.",
         "Nvidia fell about 2.4% despite its beat and guide, so the overnight gap up in futures faded: a sell-the-news reaction.",
         "The Fed's October minutes showed officials focused on inflation and open to more hikes if the economy evolves as expected; a quarter-point December hike is priced as near-certain."
       ],
       "whatHappened": [
-        "U.S. stocks ended mixed on Wednesday. According to one market recap, the Nasdaq Composite rose 101.50 points, or 0.39%, to 24,429.89, the S&P 500 lost about 18 points, or 0.24%, to 7,322.53, and the Dow fell 566.39 points, or 1.12%, to 50,193.03. Those levels square with Monday's closes and with a CNBC headline that the Dow dropped more than 800 points on Tuesday. Reuters headlined the session as mixed after Nvidia's earnings and the Fed minutes, and said investors were also looking ahead to Anthropic's IPO pricing. I could not confirm what drove the Dow's drop.",
+        "U.S. stocks ended mixed on Wednesday. According to one market recap, the Nasdaq Composite rose 101.50 points, or 0.39%, to 24,429.89, the S&P 500 lost about 18 points, or 0.24%, to 7,323.63, and the Dow fell about 561 points, or 1.1%, to 50,198.17. Those levels square with Monday's closes and with a CNBC headline that the Dow dropped more than 800 points on Tuesday. Reuters headlined the session as mixed after Nvidia's earnings and the Fed minutes, and said investors were also looking ahead to Anthropic's IPO pricing. I could not confirm what drove the Dow's drop. Correction: an earlier version of this story had the S&P 500 at 7,322.53 and the Dow at 50,193.03; AP's Thursday report implies Wednesday's closes were about 7,323.63 and 50,198.17, and the Dow's drop was about 1.1%.",
         "Nvidia shares fell about 2.4% by one recap, even after a quarterly beat and a revenue forecast above estimates, a classic [[sell the news]] reversal after the overnight rally. Chip stocks were mixed overall.",
         "The minutes of the Fed's October meeting showed officials remained focused on inflation risks and recognized that further rate hikes would be needed if the economy progresses as expected, per reports. Markets priced a near-certain quarter-point hike in December on the CME [[FedWatch]] tool."
       ],
@@ -425,12 +358,12 @@
         },
         {
           "asset": "S&P 500",
-          "move": "-0.24% to 7,322.53",
+          "move": "-0.24% to 7,323.63",
           "direction": "down"
         },
         {
           "asset": "Dow",
-          "move": "-1.12% to 50,193.03",
+          "move": "-1.1% to 50,198.17",
           "direction": "down"
         },
         {
@@ -501,6 +434,158 @@
         {
           "name": "Rallies.ai: Wall Street ends mixed after Nvidia earnings and Fed minutes",
           "url": "https://rallies.ai/news/wall-street-ends-mixed-after-nvidia-earnings-and-fed-minutes-a6392108f1de9ae9"
+        }
+      ]
+    },
+    {
+      "id": "stocks-selloff-sixth-straight-dow-1101-nov-19-2026",
+      "beat": "markets",
+      "headline": "Stocks sink 2% on AI worries: the S&P 500 posts a sixth straight loss and the Dow falls 1,101 points",
+      "dek": "The S&P 500 closed at 7,175.83, 8.2% below its record from last month, and more than 90% of its stocks fell, even as Anthropic's IPO debuted 17% above its offer price.",
+      "importance": 5,
+      "depth": "full",
+      "developing": true,
+      "publishedAt": "2026-11-20T06:54:00-05:00",
+      "updatedAt": "2026-11-20T06:54:00-05:00",
+      "readMinutes": 4,
+      "tldr": [
+        "Thursday's close, per AP: **S&P 500 -2.0% to 7,175.83** (sixth straight loss, longest streak since 2024), **Dow -1,101.11 (-2.2%) to 49,097.06**, **Nasdaq -2.3% to 23,879.20**.",
+        "More than 90% of S&P 500 stocks fell; reports tied the slide to AI stocks, though Anthropic's own debut was strong.",
+        "By my arithmetic from closing levels, the three averages are down about 5% to 6% since last Friday; a further drop of about 2% would put the S&P 500 in a 10% correction."
+      ],
+      "whatHappened": [
+        "U.S. stocks fell sharply on Thursday. The S&P 500 dropped 2.0% to 7,175.83, its sixth straight daily loss and its longest losing streak since 2024, leaving it 8.2% below the record it set last month. The Dow Jones Industrial Average lost 1,101.11 points, or 2.2%, to 49,097.06, and the Nasdaq Composite fell 550.69 points, or 2.3%, to 23,879.20, according to AP closing reports carried by ABC News, the Washington Post and KVUE. The Nasdaq 100 fell 2.21%, and more than 90% of the stocks in the S&P 500 declined, a sign of poor [[breadth]].",
+        "Most coverage tied the decline to AI stocks. The losses came even though Anthropic's stock opened 34% above its IPO price and closed up 17%, so the record deal did not lift the group. I did not find a single confirmed trigger for the day's move, and I am not guessing one.",
+        "These closes also show that Wednesday's levels in this paper were slightly off; I have corrected that story."
+      ],
+      "background": [
+        "The S&P 500 has now fallen six sessions in a row, from 7,561.67 a week ago to 7,175.83. Its record was set last month, so the market has gone from record highs to an 8% drawdown in weeks. A [[correction]] is conventionally a 10% fall from the peak; the index is about 2% from that line.",
+        "Breadth matters here. When more than 90% of stocks fall together, the selling is across the market rather than limited to AI, which points to a shift in risk appetite and not just a rotation."
+      ],
+      "whyItMatters": [
+        "A sixth straight loss with near-universal declines raises the odds of forced selling and weaker risk appetite into Thanksgiving. The next tests are whether the S&P 500 holds near 7,000, how Nvidia and the AI group trade, and whether Treasury yields and the Fed's December hike add more pressure. A bounce from here would typically come from a catalyst such as a better tone on rates or a stabilizing AI group."
+      ],
+      "marketReaction": [
+        {
+          "asset": "S&P 500",
+          "move": "-2.0% to 7,175.83",
+          "direction": "down"
+        },
+        {
+          "asset": "Dow",
+          "move": "-2.2% to 49,097.06",
+          "direction": "down"
+        },
+        {
+          "asset": "Nasdaq Composite",
+          "move": "-2.3% to 23,879.20",
+          "direction": "down"
+        }
+      ],
+      "grandLine": {
+        "title": "A Buster Call on the whole island",
+        "body": "A Buster Call is the World Government's last-resort order: ten Vice Admirals and a fleet to wipe an island off the map. Thursday looked like a market-wide version, with more than 90% of S&P 500 stocks hit at once instead of one name being singled out. When the selling hits everything, there is no safe corner of the island to retreat to."
+      },
+      "views": [
+        {
+          "camp": "A sharp but normal pullback",
+          "thesis": "Eight percent off the highs is routine after a long run.",
+          "argument": "Pullbacks of 5% to 10% happen most years, and the S&P is still not in a correction. The fundamentals that drove the rally, including Nvidia's beat and a record AI financing, have not changed, so dip-buyers will step in."
+        },
+        {
+          "camp": "A regime shift in risk appetite",
+          "thesis": "Six straight losses with 90% of stocks down is broad de-risking.",
+          "argument": "With the Fed still pointing to a hike, yields high and the AI trade failing to rally on good news, the market is repricing risk. Breaks of obvious support can trigger systematic selling and extend the move."
+        }
+      ],
+      "interview": {
+        "question": "The S&P 500 has fallen six days in a row and is 8% off its high. What's your view?",
+        "answer": "I'd call it a market-wide de-risking, not just an AI pullback, because more than 90% of stocks fell and the group couldn't rally even on a strong Nvidia report or a record IPO. I'd stay cautious until the index stabilizes, and watch the 10% correction line near 7,000 and the 10-year yield. What would change my mind is a day with a sharp bounce on broad participation, which would say the selling is exhausted.",
+        "followUp": {
+          "question": "What's the difference between a pullback and a correction?",
+          "answer": "By convention a pullback is a fall of 5% to 10% from the high and a correction is 10% or more. A bear market is 20%. The labels matter for sentiment and positioning, not as a precise signal."
+        }
+      },
+      "trade": {
+        "idea": "Cheap downside hedge with an S&P put spread",
+        "expression": "Long a one-month S&P 500 index put about 3% out of the money, short a put about 8% out of the money",
+        "rationale": "If the selloff extends into a correction, the spread pays. Selling the lower put cuts the premium, which is high after a volatile week.",
+        "risks": [
+          "A sharp bounce makes the spread expire worthless.",
+          "Implied volatility is already high, so the hedge is expensive and decays quickly."
+        ]
+      },
+      "keyTerms": [
+        {
+          "term": "breadth",
+          "definition": "How many stocks participate in a market move. Wide declines mean the selling is across the market, not limited to one sector.",
+          "example": "More than 90% of S&P 500 stocks fell on Thursday."
+        },
+        {
+          "term": "correction",
+          "definition": "A fall of 10% or more from a recent peak. A 5% to 10% fall is usually called a pullback, and 20% a bear market.",
+          "example": "The S&P 500 is 8.2% below its record, about 2% from a correction."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Fri Nov 20",
+          "what": "Whether the S&P 500 breaks a seventh straight loss; the 10% correction line is near 7,000."
+        },
+        {
+          "when": "Fri Nov 20",
+          "what": "Anthropic's second day of trading and the AI group's reaction."
+        }
+      ],
+      "sources": [
+        {
+          "name": "ABC News (AP): How major US stock indexes fared Thursday 11/19/2026",
+          "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-11192026-138303454"
+        },
+        {
+          "name": "Washington Post (AP): How major US stock indexes fared Thursday 11/19/2026",
+          "url": "https://www.washingtonpost.com/business/2026/11/19/wall-street-stocks-dow-nasdaq/6aaf39d0-e463-11f1-a99e-b3e3805c6b8b_story.html",
+          "paywalled": true
+        },
+        {
+          "name": "KVUE (AP): How major US stock indexes fared Thursday 11/19/2026",
+          "url": "https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-thursday-11192026/616-9516aad2-d85f-45fb-9000-71719e3311ce"
+        }
+      ]
+    },
+    {
+      "id": "cop31-antalya-final-day-adaptation-finance-nov-20-2026",
+      "beat": "world",
+      "headline": "COP31 heads into its scheduled last day with adaptation-finance details still under negotiation",
+      "dek": "The summit in Antalya adopted a climate finance work programme over EU objections at the start; the details of a push to triple adaptation finance were still being discussed this week.",
+      "importance": 2,
+      "depth": "brief",
+      "developing": false,
+      "publishedAt": "2026-11-20T06:54:00-05:00",
+      "updatedAt": "2026-11-20T06:54:00-05:00",
+      "readMinutes": 1,
+      "tldr": [
+        "COP31 is scheduled to close today in Antalya, Türkiye, after talks that began on November 9.",
+        "Negotiating reports from this week show the baseline and tracking for tripling adaptation finance were still under discussion, and I found no final text."
+      ],
+      "whatHappened": [
+        "At the opening of COP31 on November 9, delegates adopted a standalone Climate Finance Work Programme, a main demand of developing countries including India, over objections from the EU, per Down To Earth. Earth Negotiations Bulletin reports from this week said the baseline and tracking for a goal to at least triple adaptation finance for developing countries by 2035 were still being discussed, with the EU, Japan and others saying it belongs in the finance negotiations. I did not find the final decision text, so I can't say what was agreed."
+      ],
+      "whyItMatters": [
+        "The outcome shapes how much public money flows to climate adaptation in developing countries and how rich countries are asked to pay, which matters for climate-linked bonds and grid and renewables suppliers. The U.S. did not send a delegation."
+      ],
+      "sources": [
+        {
+          "name": "Down To Earth: COP31 adopts climate finance work programme",
+          "url": "https://www.downtoearth.org.in/climate-change/cop31-adopts-climate-finance-work-programme-proposals-for-adaptation-funding-trade-measures-dropped"
+        },
+        {
+          "name": "Carbon Brief: Bonn climate talks: key outcomes from the June 2026 UN climate conference",
+          "url": "https://www.carbonbrief.org/bonn-climate-talks-key-outcomes-from-the-june-2026-un-climate-conference"
+        },
+        {
+          "name": "Earth Negotiations Bulletin: COP31 daily report (November 2026)",
+          "url": "https://enb.iisd.org/sites/default/files/2026-11/enb12909e.pdf"
         }
       ]
     }
