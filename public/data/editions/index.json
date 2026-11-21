@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-21-weekend",
+      "number": 71,
+      "editionType": "weekend",
+      "publishedAt": "2026-11-21T11:54:00-05:00",
+      "lead": "Wall Street's worst week in over 18 months: S&P 500 falls 8.6%, Nasdaq 10% and turns negative for 2026",
+      "stories": 4
+    },
+    {
       "id": "2026-11-20-pm",
       "number": 70,
       "editionType": "pm",
