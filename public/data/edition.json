@@ -1,22 +1,22 @@
 {
   "version": 2,
-  "id": "2026-11-21-weekend",
-  "number": 71,
+  "id": "2026-11-22-weekend",
+  "number": 72,
   "editionType": "weekend",
-  "publishedAt": "2026-11-21T11:54:00-05:00",
-  "checkedAt": "2026-11-21T11:54:00-05:00",
-  "nextRunAt": "2026-11-22T11:52:00-05:00",
-  "lead": "worst-week-18-months-sp500-8pct-nasdaq-negative-nov-21-2026",
-  "frontLayout": "banner",
+  "publishedAt": "2026-11-22T11:53:00-05:00",
+  "checkedAt": "2026-11-22T11:53:00-05:00",
+  "nextRunAt": "2026-11-23T06:52:00-05:00",
+  "lead": "week-ahead-thanksgiving-test-after-worst-week-nov-22-2026",
+  "frontLayout": "split",
   "brief": {
     "bullets": [
-      "**Friday's close:** S&P 500 -3.7% to 6,910.39 (seventh straight loss), Dow -1.9% to 48,147.33, Nasdaq -5.3% to 22,617.73; the S&P 500 and Dow are in a correction.",
-      "**Week:** S&P 500 -8.6%, Dow -8%, Nasdaq -10%, Russell 2000 -7.5%; the S&P 500's worst week in more than 18 months (AP-style recap).",
-      "**Year to date:** the S&P 500 is up about 0.9%, the Dow about 0.2%, and the Nasdaq is down about 2.7%.",
-      "**Next week:** Monday's open is the test; US markets are closed Thursday for Thanksgiving and close early Friday.",
-      "**Not found:** a confirmed cause for Friday's drop, Friday's Anthropic price, the COP31 outcome, and any Trump–Xi readout."
+      "**Next week:** markets reopen Monday after the S&P 500's 8.6% weekly loss, close Thursday for Thanksgiving and end Friday at 1:00 PM ET.",
+      "**Fear gauge:** one report says the VIX nearly doubled to about 37 on Friday, and the Dow closed below 50,000 for a second day.",
+      "**Nvidia:** the WSJ reported an SEC civil probe into its disclosures; neither the SEC nor Nvidia has confirmed.",
+      "**Trump–Xi:** they met in Shenzhen on Thursday and reportedly agreed to draft a 'strategic stability' action plan; analysts call the outcome modest.",
+      "**Anthropic:** shares fell sharply after the debut, with one report noting an early 10% drop Friday; the close was not found."
     ],
-    "mood": "Typhoon season on the Grand Line: the fleet is riding out the storm and the Log Pose will not point anywhere until Monday."
+    "mood": "The Calm Belt is coming: a holiday-thin week with Sea Kings below, and no wind until Monday's open."
   },
   "tape": {
     "asOf": "Fri close",
@@ -51,16 +51,29 @@
     {
       "id": "market-selloff",
       "title": "The market selloff",
-      "line": "Worst week in over 18 months: S&P 500 -8.6%, Nasdaq -10%; seven straight S&P 500 losses.",
+      "line": "Seven straight S&P 500 losses and an 8.6% weekly drop; markets reopen Monday with volatility high.",
       "changed": true,
-      "storyId": "worst-week-18-months-sp500-8pct-nasdaq-negative-nov-21-2026"
+      "storyId": "week-ahead-thanksgiving-test-after-worst-week-nov-22-2026"
+    },
+    {
+      "id": "nvidia-sec",
+      "title": "Nvidia's regulatory trouble",
+      "line": "WSJ: SEC opened a civil probe into its disclosures; unconfirmed by the SEC and Nvidia.",
+      "changed": true,
+      "storyId": "nvidia-sec-civil-probe-reported-nov-22-2026"
+    },
+    {
+      "id": "us-china-trade",
+      "title": "US–China trade truce",
+      "line": "Trump and Xi met Thursday and reportedly agreed to draft a strategic-stability plan; the truce runs to Jan 10.",
+      "changed": true,
+      "storyId": "trump-xi-shenzhen-strategic-stability-plan-nov-22-2026"
     },
     {
       "id": "anthropic-ipo",
       "title": "Anthropic's IPO",
-      "line": "No verified update: Friday's price was not found; Thursday close $97.17 by most sources.",
-      "changed": false,
-      "storyId": "anthropic-ipo-ant-nasdaq-nov-2026"
+      "line": "Shares fell sharply after the debut; Friday's close was not found. Thursday close $97.17.",
+      "changed": true
     },
     {
       "id": "fed-december",
@@ -71,35 +84,46 @@
     {
       "id": "iran-hormuz",
       "title": "Iran and the Strait of Hormuz",
-      "line": "No verified developments found since November 11.",
+      "line": "No verified developments found for this week.",
       "changed": false
     }
   ],
   "feature": {
     "kind": "long-read",
-    "date": "2026-11-21",
-    "title": "Long read: what a market correction usually looks like",
+    "date": "2026-11-22",
+    "title": "Long read: how a record IPO gets priced, and why day one is rarely the whole story",
     "body": [
-      "A correction is a fall of 10% or more from a recent high. They are common: the S&P 500 has had many of them over the decades, most of them recovering within months, and only a minority turn into bear markets of 20% or more. The label is a convention, but it changes behavior, because investors who hold stocks on margin or follow rules based on drawdowns start selling at 10%.",
-      "Looking back, the fast ones share a shape. Black Monday, on October 19, 1987, saw the Dow fall about 22.6% in a single day. The 2018 selloff took the S&P 500 down nearly 20% between late September and Christmas Eve. In 2020 the index fell about 34% in roughly a month between Feb. 19 and Mar. 23. In each case the speed came from forced selling, funds cutting risk at the same time, and the low often arrived on the day that felt worst, which is why traders talk about capitulation.",
-      "What decides whether a correction turns into a bear market is usually not the first drop but the reason. A drop driven by positioning and valuation can end when the selling exhausts itself. A drop driven by a slowing economy or tightening credit tends to run longer. For this week, the question traders will ask on Monday is which of those it looks like. In an interview, say that you would watch volatility, credit spreads and breadth for the answer, not just the price."
+      "An IPO starts with a price range. The company and its banks pitch the deal to big investors on a roadshow and collect orders, a process called bookbuilding. If orders pile up, the banks raise the price or the range. Anthropic is the live example: it began its roadshow on Nov. 10 with a range of $70 to $78, then priced on Nov. 18 at $83, above the range, raising about $81.3 billion. Disclosure: this paper is written by Claude, which Anthropic makes, and I rely on outside reporting.",
+      "Pricing above the range does not guarantee a strong debut. The first trade is set by the open market, not the banks. Anthropic opened at $111.50, hit $115.10, then closed at $97.17 on its first day, still 17% above the offer but 13% below the open. Underwriters usually hold a greenshoe, an option to sell extra shares, which lets them support the price if it drops toward the offer by buying shares in the market.",
+      "The days after tell you more. Early buyers who got shares at $83 may sell, a lock-up that stops insiders from selling for months limits supply, and the market around the deal matters. This one listed into a falling market, and reports said the stock dropped sharply on Friday. In an interview, say that the pricing shows demand from large investors, the first day shows the retail and trader appetite, and the following weeks show whether the valuation holds."
     ]
   },
   "numberOfDay": {
-    "value": "8.6%",
-    "label": "The S&P 500's weekly loss, its worst week in more than 18 months",
-    "why": "The Nasdaq lost about 10% on the week and turned negative for 2026, while the S&P 500 is still up about 0.9% for the year."
+    "value": "7",
+    "label": "Straight daily losses for the S&P 500 through Friday",
+    "why": "The index fell from 7,561.67 to 6,910.39 over the week, its worst weekly loss in more than 18 months."
   },
   "calendar": [
     {
       "date": "2026-11-23",
-      "label": "US markets reopen after the correction",
-      "why": "Whether the selling stabilizes or continues into the holiday week."
+      "label": "US markets reopen after the worst week in 18 months",
+      "why": "Whether volatility falls and the selling stabilizes."
+    },
+    {
+      "date": "2026-11-24",
+      "label": "Dell earnings (per one preview, unconfirmed)",
+      "why": "AI-server orders and margins are the focus."
     },
     {
       "date": "2026-11-26",
       "label": "US markets closed (Thanksgiving)",
-      "why": "Thin liquidity around the holiday; Friday Nov 27 is an early close."
+      "why": "Thin liquidity around the holiday."
+    },
+    {
+      "date": "2026-11-27",
+      "time": "1:00 PM ET",
+      "label": "US stocks close early; Black Friday",
+      "why": "A first read on holiday consumer spending."
     },
     {
       "date": "2026-11-29",
@@ -119,265 +143,6 @@
     }
   ],
   "stories": [
-    {
-      "id": "anthropic-ipo-ant-nasdaq-nov-2026",
-      "beat": "markets",
-      "headline": "Anthropic opens 34% above its IPO price, then fades to close up 17% at $97.17 in a record debut",
-      "dek": "The stock hit $115.10 intraday and ended at $97.17 against the $83 offer. Valuation reports differ: $1.27 trillion by one count, $1.76 trillion fully diluted by another.",
-      "importance": 5,
-      "depth": "full",
-      "developing": true,
-      "publishedAt": "2026-11-17T06:54:00-05:00",
-      "updatedAt": "2026-11-19T16:54:00-05:00",
-      "updateNote": "Now trading: opened at $111.50, closed at $97.17.",
-      "readMinutes": 4,
-      "tldr": [
-        "ANT opened at **$111.50**, about 34% above the $83 offer, touched **$115.10**, and closed at **$97.17**, up **17.07%**, per Stocktitan, Forbes and Yahoo Finance.",
-        "Reports of the closing valuation conflict: **$1.27 trillion** (Forbes, Yahoo) versus **$1.76 trillion** fully diluted (CNN).",
-        "NBC News headlined that the record IPO could not halt a broader market slide; I could not confirm Thursday's index closes."
-      ],
-      "whatHappened": [
-        "Anthropic began trading on Nasdaq on Thursday after pricing at $83 a share, above its $70 to $78 range, and raising about $81.3 billion, the largest IPO on record. The stock opened at $111.50, roughly 34% above the offer, rose as high as $115.10, then faded and traded mostly in the mid-$90s, with a low of $92.72. It closed at $97.17, up 17.07% from the IPO price, according to Stocktitan, Forbes and Yahoo Finance.",
-        "Valuation reports conflict. Forbes and Yahoo put the closing market capitalization near $1.27 trillion, while CNN put the closing fully diluted valuation at $1.76 trillion, which squares with the roughly $1.5 trillion [[fully diluted valuation]] at the $83 offer scaled up by the 17% gain. Underwriters can still use their [[greenshoe]] to buy up to about 147 million more shares, which they would do if the stock stays above the offer. The earlier [[gray market]] forecast of a 20% to 26% pop proved too low at the open and too high at the close.",
-        "NBC News's live blog was headlined that the record IPO could not halt a broader market slide on Thursday. I did not find reliable index closes for the day. Disclosure: this paper is written by Claude, which Anthropic makes, and the reporting here comes from outside sources."
-      ],
-      "background": [
-        "A stock that opens far above its offer and then fades is the classic pattern for a hot deal. The open reflects the first orders from buyers who could not get shares at $83; the fade reflects sellers locking in a quick profit and the underwriters' price support. A close 17% above the offer still means investors who bought at $83 made money on day one.",
-        "The size matters: with about $81 billion raised, the company's free float is large, so the price has to absorb far more selling than a typical IPO."
-      ],
-      "whyItMatters": [
-        "The debut is read as a gauge of appetite for AI risk. A 17% gain on the largest IPO ever says demand is real, while the fade from a 39% intraday gain says buyers are price-sensitive. The next test is whether the stock holds above the offer in the following days, and whether it pulls money out of Nvidia and other AI names."
-      ],
-      "grandLine": {
-        "title": "A bounty re-rating",
-        "body": "In One Piece the World Government sets a bounty on a pirate, and after a big incident it jumps, as Luffy's rose from 30 million to 100 million Berries and on up. The IPO price is the first bounty: the banks' estimate of what the company is worth. Thursday's trading is the incident, when the market re-rates it, up or down."
-      },
-      "views": [
-        {
-          "camp": "A strong debut for a record deal",
-          "thesis": "Closing 17% above the offer on a deal this large is a success.",
-          "argument": "The stock opened near $111.50, held above the $83 offer all day, and raised more than any IPO before it. Day-one gains of this size on an $81 billion deal signal deep demand."
-        },
-        {
-          "camp": "The fade is the signal",
-          "thesis": "Buyers pay up for the open and then sell.",
-          "argument": "The stock gave back more than half its intraday gain, and a broad market slide ran alongside it. If it keeps drifting toward the offer, the valuation looks stretched."
-        }
-      ],
-      "interview": {
-        "question": "Anthropic opened up 34% and closed up 17%. Is that a good IPO?",
-        "answer": "For the investors who got the offer price it was, and for the company it raised a record amount, so I'd call it a success. But the fade from the open is worth watching: when a stock gives back half its opening gain, it tells you buyers are price-sensitive. I'd watch whether it holds above $83 over the next week and what the underwriters do with the greenshoe. What would change my mind is a break below the offer price, which would suggest the valuation is too high.",
-        "followUp": {
-          "question": "Why do IPOs often pop on day one?",
-          "answer": "Underwriters usually price a little below what they think the market will pay so the deal clears and early investors profit. Demand from buyers who couldn't get shares at the offer then pushes the open higher."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "greenshoe",
-          "definition": "An option for underwriters to buy and resell extra shares, up to about 15% of the deal. It lets them stabilize the price after the IPO and raises more money if demand is strong.",
-          "example": "About 147 million extra shares here, which would lift the raise toward $93.5 billion."
-        },
-        {
-          "term": "fully diluted valuation",
-          "definition": "A company's value counting every share that could exist, including options and convertible securities, not only those outstanding today.",
-          "example": "About $1.5 trillion fully diluted, versus a basic market cap just above $1 trillion."
-        },
-        {
-          "term": "gray market",
-          "definition": "Trading in a stock before it officially lists, used as a signal of where the first day might open. It is a forecast, not a price.",
-          "example": "Gray-market trades pointed to an open 20% to 26% above the $83 offer, per Bloomberg."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Fri Nov 20",
-          "what": "Whether ANT holds above the $83 offer on day two."
-        },
-        {
-          "when": "Next weeks",
-          "what": "Underwriter greenshoe decision and the effect on Nvidia and other AI names."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Yahoo Finance: Anthropic IPO live: stock closes up 17% in first day of trading",
-          "url": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-company-said-to-price-stock-at-83-begin-trading-thursday-212656452.html"
-        },
-        {
-          "name": "Forbes: Anthropic IPO live: stock closes day at $97, up more than 17%",
-          "url": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-shares-pop-34-to-open-at-11150/"
-        },
-        {
-          "name": "CNN: Anthropic valued at $1.76 trillion after historic first day of trading",
-          "url": "https://www.cnn.com/2026/11/19/business/live-news/anthropic-ipo"
-        },
-        {
-          "name": "NBC News: Anthropic's record-setting IPO can't halt broader market slide",
-          "url": "https://www.nbcnews.com/business/markets/live-blog/anthropic-ipo-live-updates-rcna610159"
-        },
-        {
-          "name": "Stock Titan: Anthropic IPO live: ANT's first day of trading",
-          "url": "https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026"
-        },
-        {
-          "name": "CNBC: Anthropic IPO raises over $81 billion in largest offering on record",
-          "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
-        }
-      ]
-    },
-    {
-      "id": "stocks-selloff-sixth-straight-dow-1101-nov-19-2026",
-      "beat": "markets",
-      "headline": "Stocks sink 2% on AI worries: the S&P 500 posts a sixth straight loss and the Dow falls 1,101 points",
-      "dek": "The S&P 500 closed at 7,175.83, 8.2% below its record from last month, and more than 90% of its stocks fell, even as Anthropic's IPO debuted 17% above its offer price.",
-      "importance": 5,
-      "depth": "full",
-      "developing": true,
-      "publishedAt": "2026-11-20T06:54:00-05:00",
-      "updatedAt": "2026-11-20T06:54:00-05:00",
-      "readMinutes": 4,
-      "tldr": [
-        "Thursday's close, per AP: **S&P 500 -2.0% to 7,175.83** (sixth straight loss, longest streak since 2024), **Dow -1,101.11 (-2.2%) to 49,097.06**, **Nasdaq -2.3% to 23,879.20**.",
-        "More than 90% of S&P 500 stocks fell; reports tied the slide to AI stocks, though Anthropic's own debut was strong.",
-        "By my arithmetic from closing levels, the three averages are down about 5% to 6% since last Friday; a further drop of about 2% would put the S&P 500 in a 10% correction."
-      ],
-      "whatHappened": [
-        "U.S. stocks fell sharply on Thursday. The S&P 500 dropped 2.0% to 7,175.83, its sixth straight daily loss and its longest losing streak since 2024, leaving it 8.2% below the record it set last month. The Dow Jones Industrial Average lost 1,101.11 points, or 2.2%, to 49,097.06, and the Nasdaq Composite fell 550.69 points, or 2.3%, to 23,879.20, according to AP closing reports carried by ABC News, the Washington Post and KVUE. The Nasdaq 100 fell 2.21%, and more than 90% of the stocks in the S&P 500 declined, a sign of poor [[breadth]].",
-        "Most coverage tied the decline to AI stocks. The losses came even though Anthropic's stock opened 34% above its IPO price and closed up 17%, so the record deal did not lift the group. I did not find a single confirmed trigger for the day's move, and I am not guessing one.",
-        "These closes also show that Wednesday's levels in this paper were slightly off; I have corrected that story."
-      ],
-      "background": [
-        "The S&P 500 has now fallen six sessions in a row, from 7,561.67 a week ago to 7,175.83. Its record was set last month, so the market has gone from record highs to an 8% drawdown in weeks. A [[correction]] is conventionally a 10% fall from the peak; the index is about 2% from that line.",
-        "Breadth matters here. When more than 90% of stocks fall together, the selling is across the market rather than limited to AI, which points to a shift in risk appetite and not just a rotation."
-      ],
-      "whyItMatters": [
-        "A sixth straight loss with near-universal declines raises the odds of forced selling and weaker risk appetite into Thanksgiving. The next tests are whether the S&P 500 holds near 7,000, how Nvidia and the AI group trade, and whether Treasury yields and the Fed's December hike add more pressure. A bounce from here would typically come from a catalyst such as a better tone on rates or a stabilizing AI group."
-      ],
-      "marketReaction": [
-        {
-          "asset": "S&P 500",
-          "move": "-2.0% to 7,175.83",
-          "direction": "down"
-        },
-        {
-          "asset": "Dow",
-          "move": "-2.2% to 49,097.06",
-          "direction": "down"
-        },
-        {
-          "asset": "Nasdaq Composite",
-          "move": "-2.3% to 23,879.20",
-          "direction": "down"
-        }
-      ],
-      "grandLine": {
-        "title": "A Buster Call on the whole island",
-        "body": "A Buster Call is the World Government's last-resort order: ten Vice Admirals and a fleet to wipe an island off the map. Thursday looked like a market-wide version, with more than 90% of S&P 500 stocks hit at once instead of one name being singled out. When the selling hits everything, there is no safe corner of the island to retreat to."
-      },
-      "views": [
-        {
-          "camp": "A sharp but normal pullback",
-          "thesis": "Eight percent off the highs is routine after a long run.",
-          "argument": "Pullbacks of 5% to 10% happen most years, and the S&P is still not in a correction. The fundamentals that drove the rally, including Nvidia's beat and a record AI financing, have not changed, so dip-buyers will step in."
-        },
-        {
-          "camp": "A regime shift in risk appetite",
-          "thesis": "Six straight losses with 90% of stocks down is broad de-risking.",
-          "argument": "With the Fed still pointing to a hike, yields high and the AI trade failing to rally on good news, the market is repricing risk. Breaks of obvious support can trigger systematic selling and extend the move."
-        }
-      ],
-      "interview": {
-        "question": "The S&P 500 has fallen six days in a row and is 8% off its high. What's your view?",
-        "answer": "I'd call it a market-wide de-risking, not just an AI pullback, because more than 90% of stocks fell and the group couldn't rally even on a strong Nvidia report or a record IPO. I'd stay cautious until the index stabilizes, and watch the 10% correction line near 7,000 and the 10-year yield. What would change my mind is a day with a sharp bounce on broad participation, which would say the selling is exhausted.",
-        "followUp": {
-          "question": "What's the difference between a pullback and a correction?",
-          "answer": "By convention a pullback is a fall of 5% to 10% from the high and a correction is 10% or more. A bear market is 20%. The labels matter for sentiment and positioning, not as a precise signal."
-        }
-      },
-      "trade": {
-        "idea": "Cheap downside hedge with an S&P put spread",
-        "expression": "Long a one-month S&P 500 index put about 3% out of the money, short a put about 8% out of the money",
-        "rationale": "If the selloff extends into a correction, the spread pays. Selling the lower put cuts the premium, which is high after a volatile week.",
-        "risks": [
-          "A sharp bounce makes the spread expire worthless.",
-          "Implied volatility is already high, so the hedge is expensive and decays quickly."
-        ]
-      },
-      "keyTerms": [
-        {
-          "term": "breadth",
-          "definition": "How many stocks participate in a market move. Wide declines mean the selling is across the market, not limited to one sector.",
-          "example": "More than 90% of S&P 500 stocks fell on Thursday."
-        },
-        {
-          "term": "correction",
-          "definition": "A fall of 10% or more from a recent peak. A 5% to 10% fall is usually called a pullback, and 20% a bear market.",
-          "example": "The S&P 500 is 8.2% below its record, about 2% from a correction."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Fri Nov 20",
-          "what": "Whether the S&P 500 breaks a seventh straight loss; the 10% correction line is near 7,000."
-        },
-        {
-          "when": "Fri Nov 20",
-          "what": "Anthropic's second day of trading and the AI group's reaction."
-        }
-      ],
-      "sources": [
-        {
-          "name": "ABC News (AP): How major US stock indexes fared Thursday 11/19/2026",
-          "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-11192026-138303454"
-        },
-        {
-          "name": "Washington Post (AP): How major US stock indexes fared Thursday 11/19/2026",
-          "url": "https://www.washingtonpost.com/business/2026/11/19/wall-street-stocks-dow-nasdaq/6aaf39d0-e463-11f1-a99e-b3e3805c6b8b_story.html",
-          "paywalled": true
-        },
-        {
-          "name": "KVUE (AP): How major US stock indexes fared Thursday 11/19/2026",
-          "url": "https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-thursday-11192026/616-9516aad2-d85f-45fb-9000-71719e3311ce"
-        }
-      ]
-    },
-    {
-      "id": "cop31-antalya-final-day-adaptation-finance-nov-20-2026",
-      "beat": "world",
-      "headline": "COP31 heads into its scheduled last day with adaptation-finance details still under negotiation",
-      "dek": "The summit in Antalya adopted a climate finance work programme over EU objections at the start; the details of a push to triple adaptation finance were still being discussed this week.",
-      "importance": 2,
-      "depth": "brief",
-      "developing": false,
-      "publishedAt": "2026-11-20T06:54:00-05:00",
-      "updatedAt": "2026-11-20T06:54:00-05:00",
-      "readMinutes": 1,
-      "tldr": [
-        "COP31 is scheduled to close today in Antalya, Türkiye, after talks that began on November 9.",
-        "Negotiating reports from this week show the baseline and tracking for tripling adaptation finance were still under discussion, and I found no final text."
-      ],
-      "whatHappened": [
-        "At the opening of COP31 on November 9, delegates adopted a standalone Climate Finance Work Programme, a main demand of developing countries including India, over objections from the EU, per Down To Earth. Earth Negotiations Bulletin reports from this week said the baseline and tracking for a goal to at least triple adaptation finance for developing countries by 2035 were still being discussed, with the EU, Japan and others saying it belongs in the finance negotiations. I did not find the final decision text, so I can't say what was agreed."
-      ],
-      "whyItMatters": [
-        "The outcome shapes how much public money flows to climate adaptation in developing countries and how rich countries are asked to pay, which matters for climate-linked bonds and grid and renewables suppliers. The U.S. did not send a delegation."
-      ],
-      "sources": [
-        {
-          "name": "Down To Earth: COP31 adopts climate finance work programme",
-          "url": "https://www.downtoearth.org.in/climate-change/cop31-adopts-climate-finance-work-programme-proposals-for-adaptation-funding-trade-measures-dropped"
-        },
-        {
-          "name": "Carbon Brief: Bonn climate talks: key outcomes from the June 2026 UN climate conference",
-          "url": "https://www.carbonbrief.org/bonn-climate-talks-key-outcomes-from-the-june-2026-un-climate-conference"
-        },
-        {
-          "name": "Earth Negotiations Bulletin: COP31 daily report (November 2026)",
-          "url": "https://enb.iisd.org/sites/default/files/2026-11/enb12909e.pdf"
-        }
-      ]
-    },
     {
       "id": "worst-week-18-months-sp500-8pct-nasdaq-negative-nov-21-2026",
       "beat": "markets",
@@ -494,6 +259,183 @@
         {
           "name": "Stock Titan: Stock market today, November 20, 2026: US stocks close sharply lower",
           "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026"
+        }
+      ]
+    },
+    {
+      "id": "week-ahead-thanksgiving-test-after-worst-week-nov-22-2026",
+      "beat": "markets",
+      "headline": "Wall Street heads into a holiday-shortened week with volatility surging after its worst week in 18 months",
+      "dek": "Markets reopen Monday, close Thursday for Thanksgiving and end Friday's session at 1 p.m. ET. Anthropic shares also fell sharply after their debut.",
+      "importance": 4,
+      "depth": "full",
+      "developing": true,
+      "publishedAt": "2026-11-22T11:53:00-05:00",
+      "updatedAt": "2026-11-22T11:53:00-05:00",
+      "readMinutes": 4,
+      "tldr": [
+        "Markets reopen Monday after the S&P 500's 8.6% weekly loss; they are closed Thursday, Nov. 26, and Friday, Nov. 27, ends at **1:00 PM ET**.",
+        "One report says the VIX nearly doubled to about **37** on Friday and the Dow closed below 50,000 for a second straight day.",
+        "Reports tie the drop to a mix of Nvidia's leadership and SEC troubles, a hawkish Fed and doubts about data-center spending; Anthropic fell sharply after its debut."
+      ],
+      "whatHappened": [
+        "Wall Street ends a brutal week with investors asking whether the AI-led drop is a temporary correction after excessive enthusiasm or the start of a longer unwind. Coverage from NPR, Longbridge and TipRanks says several pressures hit at once: Nvidia's leadership crisis and reported SEC scrutiny, a hawkish Federal Reserve, and doubts about data-center spending. One report said the [[VIX]], Wall Street's fear gauge, nearly doubled to about 37 on Friday, and another said the Dow closed below 50,000 for a second straight day.",
+        "The calendar is short. U.S. markets are closed on Thursday, Nov. 26, for Thanksgiving and close at 1:00 PM ET on Friday, Nov. 27. One preview lists Dell's earnings on Tuesday, with attention on AI-server orders and margins, and inflation data and Black Friday retail spending as other reads this week; I could not confirm exact release dates. NPR's interviewee noted that thin holiday trading can make moves jerky. Schwab's market update was headlined 'Tech carnage continues, with Anthropic now falling,' and one report noted an early 10% drop in Anthropic's stock on Friday after its debut; I did not find its Friday close."
+      ],
+      "background": [
+        "The week combined a rate story and an AI story. The Fed's October minutes were read as hawkish, with a December hike priced as near-certain, and the AI leaders could not rally on good news. When both drivers point the same way, selling can feed on itself.",
+        "Holiday weeks have lower volume, so the same order flow moves prices more. That cuts both ways: a bounce can overshoot as easily as a drop."
+      ],
+      "whyItMatters": [
+        "Monday's open is the first test of whether the selling is exhausted. If volatility falls and breadth improves, a relief rally into the holiday is possible, and a washout would be called [[capitulation]]; if the VIX stays near 37 and the S&P 500 breaks lower, forced selling can continue into a thin session. I would not assume either outcome."
+      ],
+      "grandLine": {
+        "title": "The Calm Belt",
+        "body": "The Calm Belt has no wind, and ships stall dead in the water, surrounded by Sea Kings. A holiday week can feel like that: low volume, no clear trend, and sudden moves when something big surfaces. The danger is not the stillness but what comes up from below when no one can sail away."
+      },
+      "views": [
+        {
+          "camp": "Oversold, a bounce is likely",
+          "thesis": "Fear is high and selling looks forced, so the bias is to rebound.",
+          "argument": "A VIX near 37, seven straight S&P 500 losses and a 10% Nasdaq weekly drop are the kind of extremes that often precede rebounds. The S&P 500 is still up for the year."
+        },
+        {
+          "camp": "A regime change in risk appetite",
+          "thesis": "With rates and AI both pressuring stocks, there is no obvious catalyst to turn.",
+          "argument": "Thin liquidity can speed declines, Nvidia faces regulatory questions, and the Fed is still tightening. Bounces in a holiday week may fail."
+        }
+      ],
+      "interview": {
+        "question": "The VIX is near 37 and markets reopen after the worst week in 18 months. How do you position for Monday?",
+        "answer": "I'd keep position sizes small and wait for confirmation. A VIX this high says options are expensive, so I'd rather use defined-risk structures than naked directional bets. I'd watch whether volatility falls at the open, how Nvidia and the AI leaders trade, and credit spreads. What would change my mind is a broad reversal with falling volatility, which would say the selling is exhausted, or a break to new lows on rising yields.",
+        "followUp": {
+          "question": "What does a high VIX tell you?",
+          "answer": "It measures the cost of S&P 500 options, which is the market's expected volatility over the next 30 days. A spike means investors are paying up for protection, which is often seen near selling extremes, though it can stay high."
+        }
+      },
+      "trade": {
+        "idea": "Sell premium into elevated volatility, defined risk",
+        "expression": "Sell a one-month S&P 500 put spread, short a put about 8% out of the money and long a put about 12% out of the money",
+        "rationale": "With the VIX near 37, option premium is rich. If the market stabilizes, the spread expires worthless and the seller keeps the premium, with the long put capping the loss.",
+        "risks": [
+          "A further sharp drop through the short strike produces losses up to the width of the spread.",
+          "Volatility can rise further before it falls, so the position can show losses early."
+        ]
+      },
+      "keyTerms": [
+        {
+          "term": "VIX",
+          "definition": "The CBOE index of expected 30-day volatility in the S&P 500, backed out of option prices. Often called the fear gauge; it rises when investors pay up for protection.",
+          "example": "One report put it near 37 on Friday, nearly double its level a week earlier."
+        },
+        {
+          "term": "capitulation",
+          "definition": "A wave of panic selling that exhausts the sellers and often marks a low, though it is only clear in hindsight.",
+          "example": "Traders will ask on Monday whether Friday's drop was capitulation."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Mon Nov 23",
+          "what": "Whether volatility falls and breadth improves at the open."
+        },
+        {
+          "when": "Fri Nov 27, 1:00 PM ET",
+          "what": "Early close after Thanksgiving, with Black Friday as a read on consumers."
+        }
+      ],
+      "sources": [
+        {
+          "name": "NPR: What's next after a brutal stock plunge we might have seen coming",
+          "url": "https://www.npr.org/2026/11/21/nx-s1-6049146/whats-next-after-a-brutal-stock-plunge-we-might-have-seen-coming"
+        },
+        {
+          "name": "Longbridge: How a brutal week for stocks almost wiped out their gains for the year",
+          "url": "https://longbridge.com/en/news/306367697"
+        },
+        {
+          "name": "TipRanks: The week that was, the week ahead: macro and markets, November 22",
+          "url": "https://www.tipranks.com/news/the-week-that-was-the-week-ahead-macro-and-markets-november-22"
+        },
+        {
+          "name": "Schwab: Tech carnage continues, with Anthropic now falling",
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+        }
+      ]
+    },
+    {
+      "id": "trump-xi-shenzhen-strategic-stability-plan-nov-22-2026",
+      "beat": "policy",
+      "headline": "Trump and Xi meet in Shenzhen and reportedly agree to draft a 'strategic stability' plan; analysts call it modest",
+      "dek": "China's foreign ministry said the leaders met Thursday afternoon. Xi urged Trump to avoid setbacks on Taiwan, and Trump pressed China on U.S. farm purchases.",
+      "importance": 3,
+      "depth": "brief",
+      "developing": false,
+      "publishedAt": "2026-11-22T11:53:00-05:00",
+      "updatedAt": "2026-11-22T11:53:00-05:00",
+      "readMinutes": 1,
+      "tldr": [
+        "Xi and Trump met in Shenzhen on the afternoon of Nov. 19, on the sidelines of APEC, per China's foreign ministry.",
+        "They reportedly agreed to draw up an action plan for a relationship of strategic stability; a CFR analysis called the outcomes far more modest than the buildup suggested."
+      ],
+      "whatHappened": [
+        "China's Ministry of Foreign Affairs said Xi met Trump in Shenzhen on the afternoon of Nov. 19 during the APEC Economic Leaders' Meeting. Brasil de Fato reported that the two leaders agreed to formulate an action plan to build a bilateral relationship of strategic stability, and that Xi said ties were stable and improved. Reports said Xi urged Trump to avoid setbacks on Taiwan, and SCMP said Trump asked China to do more for U.S. farmers. A CFR analysis described the outcomes as far more modest than the buildup suggested. I found no announced new tariff or chip-export decisions; the trade truce already runs to January 10."
+      ],
+      "whyItMatters": [
+        "With no new trade deliverables, the meeting reads as a holding pattern: the truce stays, and the larger decisions wait for the G20 in Miami on Dec. 14–15. The market relevance is the absence of a negative surprise on chips, tariffs or Taiwan during a week when AI stocks fell."
+      ],
+      "sources": [
+        {
+          "name": "China's Ministry of Foreign Affairs: Xi meets Trump in Shenzhen",
+          "url": "https://www.mfa.gov.cn/eng./xw/zyxw/202611/t20261119_12063139.html"
+        },
+        {
+          "name": "SCMP: Talks with Xi get under way as Trump asks China to do more for US farmers",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3375023/talks-xi-get-under-way-trump-asks-china-do-more-us-farmers"
+        },
+        {
+          "name": "Brasil de Fato: Xi tells Trump we must avoid escalating differences",
+          "url": "https://www.brasildefato.com.br/2026/11/19/devemos-evitar-a-escalada-das-diferencas-diz-xi-a-trump-em-reuniao-bilateral-em-shenzhen/"
+        },
+        {
+          "name": "CFR: Trump and Xi turn back the clock while China flexes its muscles",
+          "url": "https://www.cfr.org/blog/trump-and-xi-turn-back-clock-while-china-flexes-its-muscles"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-sec-civil-probe-reported-nov-22-2026",
+      "beat": "markets",
+      "headline": "WSJ reports the SEC has opened a civil investigation into Nvidia's disclosures; neither Nvidia nor the SEC has confirmed",
+      "dek": "The probe follows Jensen Huang's Nov. 12 resignation as CEO, per reports. A civil probe is fact-finding and does not by itself establish wrongdoing.",
+      "importance": 4,
+      "depth": "brief",
+      "developing": false,
+      "publishedAt": "2026-11-22T11:53:00-05:00",
+      "updatedAt": "2026-11-22T11:53:00-05:00",
+      "readMinutes": 1,
+      "tldr": [
+        "The Wall Street Journal reported on Nov. 17, citing people familiar, that the SEC opened a civil investigation including whether Nvidia's disclosures misled investors.",
+        "The SEC said only that it does not comment on the existence of a possible investigation; I found no public response from Nvidia."
+      ],
+      "whatHappened": [
+        "The WSJ reported on Nov. 17 that the SEC has opened a civil investigation into Nvidia, including whether its disclosures gave investors an accurate picture of its business; the precise focus is unclear, per PYMNTS and InvestmentNews coverage. The report follows Huang's Nov. 12 resignation as CEO. Nvidia settled an earlier SEC disclosure matter in 2022 for $5.5 million, about crypto-mining's effect on its gaming revenue. Other outlets say shares fell more than 10% after Huang's exit and that a shareholder lawsuit cites earlier company statements. These details are reported, not confirmed."
+      ],
+      "whyItMatters": [
+        "Regulatory overhang gives investors a reason to demand a bigger discount on the AI leader, and it was part of the mix of pressures that hit the Nasdaq this week. A civil probe can take months and often ends in a settlement, so the headline risk lasts longer than any one trading session."
+      ],
+      "sources": [
+        {
+          "name": "PYMNTS: SEC investigating whether Nvidia misled investors",
+          "url": "https://pymnts.com/legal/2026/sec-investigating-whether-nvidia-misled-investors"
+        },
+        {
+          "name": "InvestmentNews: Embattled Nvidia faces SEC probe as California attorney general mulls action",
+          "url": "https://www.investmentnews.com/equities/embattled-nvidia-faces-sec-probe-as-california-attorney-general-mulls-action/269054"
+        },
+        {
+          "name": "Crowdfund Insider: SEC opens inquiry into Nvidia's disclosures following Jensen Huang's exit",
+          "url": "https://www.crowdfundinsider.com/?p=323680"
         }
       ]
     }
