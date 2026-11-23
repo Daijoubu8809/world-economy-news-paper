@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-23-am",
+      "number": 73,
+      "editionType": "am",
+      "publishedAt": "2026-11-23T06:53:00-05:00",
+      "lead": "US stock futures bounce after the AI rout as Asia braces for losses and Japan sits out a holiday",
+      "stories": 5
+    },
+    {
       "id": "2026-11-22-weekend",
       "number": 72,
       "editionType": "weekend",

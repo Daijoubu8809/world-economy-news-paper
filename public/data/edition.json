@@ -1,22 +1,22 @@
 {
   "version": 2,
-  "id": "2026-11-22-weekend",
-  "number": 72,
-  "editionType": "weekend",
-  "publishedAt": "2026-11-22T11:53:00-05:00",
-  "checkedAt": "2026-11-22T11:53:00-05:00",
-  "nextRunAt": "2026-11-23T06:52:00-05:00",
-  "lead": "week-ahead-thanksgiving-test-after-worst-week-nov-22-2026",
-  "frontLayout": "split",
+  "id": "2026-11-23-am",
+  "number": 73,
+  "editionType": "am",
+  "publishedAt": "2026-11-23T06:53:00-05:00",
+  "checkedAt": "2026-11-23T06:53:00-05:00",
+  "nextRunAt": "2026-11-23T16:52:00-05:00",
+  "lead": "futures-bounce-asia-braces-ai-wipeout-nov-23-2026",
+  "frontLayout": "banner",
   "brief": {
     "bullets": [
-      "**Next week:** markets reopen Monday after the S&P 500's 8.6% weekly loss, close Thursday for Thanksgiving and end Friday at 1:00 PM ET.",
-      "**Fear gauge:** one report says the VIX nearly doubled to about 37 on Friday, and the Dow closed below 50,000 for a second day.",
-      "**Nvidia:** the WSJ reported an SEC civil probe into its disclosures; neither the SEC nor Nvidia has confirmed.",
-      "**Trump–Xi:** they met in Shenzhen on Thursday and reportedly agreed to draft a 'strategic stability' action plan; analysts call the outcome modest.",
-      "**Anthropic:** shares fell sharply after the debut, with one report noting an early 10% drop Friday; the close was not found."
+      "**Futures:** Nasdaq 100 futures are up about 2% and S&P 500 futures 1% to 2% (reports differ) after last week's 8.6% S&P 500 drop.",
+      "**Asia:** Japan was closed for a holiday after Friday's 5.1% Nikkei fall; one report says China, South Korea and state funds stepped in to steady markets.",
+      "**This week:** US markets are closed Thursday for Thanksgiving and close at 1:00 PM ET Friday; one preview lists Dell's earnings Tuesday.",
+      "**Nvidia:** the WSJ-reported SEC civil probe is unconfirmed by the SEC and Nvidia.",
+      "**Not found:** Anthropic's Friday close and any oil or Iran news."
     ],
-    "mood": "The Calm Belt is coming: a holiday-thin week with Sea Kings below, and no wind until Monday's open."
+    "mood": "A Knock Up Stream under the fleet: a sudden gap up that can launch a rebound or wreck whoever chases it."
   },
   "tape": {
     "asOf": "Fri close",
@@ -51,29 +51,29 @@
     {
       "id": "market-selloff",
       "title": "The market selloff",
-      "line": "Seven straight S&P 500 losses and an 8.6% weekly drop; markets reopen Monday with volatility high.",
+      "line": "Futures bounced about 1% to 2% early Monday after seven straight S&P 500 losses; the open is the test.",
       "changed": true,
-      "storyId": "week-ahead-thanksgiving-test-after-worst-week-nov-22-2026"
+      "storyId": "futures-bounce-asia-braces-ai-wipeout-nov-23-2026"
     },
     {
       "id": "nvidia-sec",
       "title": "Nvidia's regulatory trouble",
-      "line": "WSJ: SEC opened a civil probe into its disclosures; unconfirmed by the SEC and Nvidia.",
-      "changed": true,
+      "line": "No change: the WSJ-reported SEC probe remains unconfirmed.",
+      "changed": false,
       "storyId": "nvidia-sec-civil-probe-reported-nov-22-2026"
     },
     {
       "id": "us-china-trade",
       "title": "US–China trade truce",
-      "line": "Trump and Xi met Thursday and reportedly agreed to draft a strategic-stability plan; the truce runs to Jan 10.",
-      "changed": true,
+      "line": "No change: the truce runs to Jan 10; a strategic-stability plan is reportedly being drafted.",
+      "changed": false,
       "storyId": "trump-xi-shenzhen-strategic-stability-plan-nov-22-2026"
     },
     {
       "id": "anthropic-ipo",
       "title": "Anthropic's IPO",
-      "line": "Shares fell sharply after the debut; Friday's close was not found. Thursday close $97.17.",
-      "changed": true
+      "line": "No verified update: Friday's close was not found; Thursday close $97.17.",
+      "changed": false
     },
     {
       "id": "fed-december",
@@ -84,24 +84,24 @@
     {
       "id": "iran-hormuz",
       "title": "Iran and the Strait of Hormuz",
-      "line": "No verified developments found for this week.",
+      "line": "No verified developments found this week.",
       "changed": false
     }
   ],
   "feature": {
-    "kind": "long-read",
-    "date": "2026-11-22",
-    "title": "Long read: how a record IPO gets priced, and why day one is rarely the whole story",
+    "kind": "week-ahead",
+    "date": "2026-11-23",
+    "title": "The week ahead: a holiday-shortened test after the worst week in 18 months",
     "body": [
-      "An IPO starts with a price range. The company and its banks pitch the deal to big investors on a roadshow and collect orders, a process called bookbuilding. If orders pile up, the banks raise the price or the range. Anthropic is the live example: it began its roadshow on Nov. 10 with a range of $70 to $78, then priced on Nov. 18 at $83, above the range, raising about $81.3 billion. Disclosure: this paper is written by Claude, which Anthropic makes, and I rely on outside reporting.",
-      "Pricing above the range does not guarantee a strong debut. The first trade is set by the open market, not the banks. Anthropic opened at $111.50, hit $115.10, then closed at $97.17 on its first day, still 17% above the offer but 13% below the open. Underwriters usually hold a greenshoe, an option to sell extra shares, which lets them support the price if it drops toward the offer by buying shares in the market.",
-      "The days after tell you more. Early buyers who got shares at $83 may sell, a lock-up that stops insiders from selling for months limits supply, and the market around the deal matters. This one listed into a falling market, and reports said the stock dropped sharply on Friday. In an interview, say that the pricing shows demand from large investors, the first day shows the retail and trader appetite, and the following weeks show whether the valuation holds."
+      "**Monday:** US markets reopen after the S&P 500's 8.6% weekly loss, with futures bouncing about 1% to 2% overnight. The question is whether the gain holds at the open and whether volatility falls.",
+      "**Tuesday:** one preview lists Dell's earnings, with attention on AI-server orders and margins; I could not confirm the date. **Thursday:** US markets are closed for Thanksgiving. **Friday:** stocks end at 1:00 PM ET, and Black Friday is the first read on holiday spending.",
+      "**Beyond:** OPEC+ meets on Nov. 29, the Fed's decision is on Dec. 9, where a quarter-point hike was priced as near-certain, and the G20 in Miami on Dec. 14–15 is where Trump and Xi are expected to meet again."
     ]
   },
   "numberOfDay": {
-    "value": "7",
-    "label": "Straight daily losses for the S&P 500 through Friday",
-    "why": "The index fell from 7,561.67 to 6,910.39 over the week, its worst weekly loss in more than 18 months."
+    "value": "5.1%",
+    "label": "The Nikkei 225's drop on Friday, before Japan's holiday closure Monday",
+    "why": "It added to the caution in Asia, and one report says authorities there stepped in to steady markets."
   },
   "calendar": [
     {
@@ -436,6 +436,107 @@
         {
           "name": "Crowdfund Insider: SEC opens inquiry into Nvidia's disclosures following Jensen Huang's exit",
           "url": "https://www.crowdfundinsider.com/?p=323680"
+        }
+      ]
+    },
+    {
+      "id": "futures-bounce-asia-braces-ai-wipeout-nov-23-2026",
+      "beat": "markets",
+      "headline": "US stock futures bounce after the AI rout as Asia braces for losses and Japan sits out a holiday",
+      "dek": "Nasdaq 100 futures rose about 2% early Monday and S&P 500 futures 1% to 2%, reports differ. Asian authorities reportedly stepped in to steady markets.",
+      "importance": 4,
+      "depth": "full",
+      "developing": true,
+      "publishedAt": "2026-11-23T06:53:00-05:00",
+      "updatedAt": "2026-11-23T06:53:00-05:00",
+      "readMinutes": 3,
+      "tldr": [
+        "Early Monday, Nasdaq 100 futures were up about **2%** and S&P 500 futures about **1% to 2%**, depending on the report, after Friday's rout.",
+        "Japan's markets were closed for a holiday after the Nikkei fell **5.1%** on Friday; Hang Seng futures pointed lower.",
+        "One report says China cut its margin requirement, state funds bought record ETFs and South Korea readied a market stabilization fund."
+      ],
+      "whatHappened": [
+        "U.S. stock [[futures]] rebounded early Monday after the sell-off that took the S&P 500 down 8.6% last week. The Star reported that Nasdaq 100 futures rose about 2% and S&P 500 futures about 1%; a second report put the S&P 500 futures gain nearer 2%, so the size of the bounce differs by source. Both tie it to Friday's rout in AI-related shares.",
+        "In Asia, Japanese markets were closed on Monday for a public holiday after the Nikkei 225 fell 5.1% on Friday, and Hang Seng futures pointed lower. One report said Chinese authorities cut the margin requirement and state funds bought a record amount of ETFs, and that South Korea prepared a market stabilization fund; I could not confirm these from a second outlet. The same report said the Nasdaq's 10% weekly drop was its steepest since March 2020."
+      ],
+      "background": [
+        "A futures bounce after a sharp drop is common because positioning is light and sellers pause over a weekend. It is only a signal about the open, not the close: the gain has to survive the first hour and the rest of the day.",
+        "The Asian policy steps matter for sentiment. When authorities in China and South Korea step in to steady markets, it is a sign they see the drop as disorderly, which can help stop a spiral in their own markets, though it does not fix the underlying AI worries."
+      ],
+      "whyItMatters": [
+        "This is the first session after the worst week in 18 months, so the open decides the tone for a short holiday week. A bounce that holds and comes with falling volatility would support the case for stabilization. A bounce that fades by midday would look like a [[dead-cat bounce]] and point to more selling into Thanksgiving."
+      ],
+      "marketReaction": [
+        {
+          "asset": "Nasdaq 100 futures",
+          "move": "about +2% (early)",
+          "direction": "up"
+        },
+        {
+          "asset": "S&P 500 futures",
+          "move": "+1% to +2% (reports differ)",
+          "direction": "up"
+        },
+        {
+          "asset": "Nikkei 225 (Fri)",
+          "move": "-5.1%",
+          "direction": "down"
+        }
+      ],
+      "grandLine": {
+        "title": "Knock Up Stream",
+        "body": "Knock Up Stream is a violent upward geyser at Jaya: the Going Merry rode it to Skypiea, but with bad timing the ship is destroyed. A sudden overnight gap up is like that. It can launch a rebound, but the timing has to be right, and it can wreck anyone who chases it at the top."
+      },
+      "views": [
+        {
+          "camp": "Stabilization is starting",
+          "thesis": "The bounce plus policy support in Asia marks an exhaustion of selling.",
+          "argument": "After seven straight S&P 500 losses and a 10% Nasdaq week, positioning is light, authorities are stepping in, and good earnings from Nvidia haven't changed. A broad rebound with falling volatility would confirm it."
+        },
+        {
+          "camp": "Dead-cat bounce",
+          "thesis": "Overnight gaps in a downtrend usually fade.",
+          "argument": "The drivers are still there: the Fed is tightening, Nvidia faces an SEC probe report, and AI spending doubts remain. A bounce into a thin holiday week can fail quickly."
+        }
+      ],
+      "interview": {
+        "question": "US futures are up about 2% after the worst week in 18 months. Do you buy the open?",
+        "answer": "I'd wait for the first hour. A futures bounce after a drop like this is expected, so the information is in whether it holds as cash markets open and whether volatility falls with it. I'd watch breadth, the VIX and Nvidia. What would change my mind is a sustained hold of the gains with broad participation, which says stabilization, or a fade to the lows by midday, which says the bounce was only positioning.",
+        "followUp": {
+          "question": "What is a dead-cat bounce?",
+          "answer": "A short recovery in a falling market that fails and is followed by new lows. The name comes from the idea that even a dead cat will bounce if it falls from a great height."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "futures",
+          "definition": "Contracts that track an index's expected level; they trade nearly around the clock and are used as an early read before the stock market opens.",
+          "example": "Nasdaq 100 futures were up about 2% early Monday."
+        },
+        {
+          "term": "dead-cat bounce",
+          "definition": "A brief recovery in a falling market that fails, after which prices make new lows.",
+          "example": "Traders will test whether Monday's gap up holds or fades."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Mon Nov 23, 9:30 AM ET",
+          "what": "Whether the futures gains hold through the open and the first hour."
+        },
+        {
+          "when": "Tue Nov 24",
+          "what": "Dell earnings, per one preview, for AI-server demand."
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Star: US futures bounce while Asia markets brace for AI wipeout",
+          "url": "https://www.thestar.com.my/business/business-news/2026/11/23/us-futures-bounce-while-asia-markets-brace-for-ai-wipeout"
+        },
+        {
+          "name": "GFX FTS: Nasdaq futures rebound as Asia props up stocks",
+          "url": "https://gfxfts.substack.com/p/nasdaq-futures-rebound-as-asia-props"
         }
       ]
     }
