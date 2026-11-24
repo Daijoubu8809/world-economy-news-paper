@@ -1,22 +1,22 @@
 {
   "version": 2,
-  "id": "2026-11-23-pm",
-  "number": 74,
-  "editionType": "pm",
-  "publishedAt": "2026-11-23T16:53:00-05:00",
-  "checkedAt": "2026-11-23T16:53:00-05:00",
-  "nextRunAt": "2026-11-24T06:52:00-05:00",
-  "lead": "nvidia-reinstates-huang-stocks-surge-nov-23-2026",
+  "id": "2026-11-24-am",
+  "number": 75,
+  "editionType": "am",
+  "publishedAt": "2026-11-24T06:53:00-05:00",
+  "checkedAt": "2026-11-24T06:53:00-05:00",
+  "nextRunAt": "2026-11-24T16:52:00-05:00",
+  "lead": "asia-rallies-us-futures-slip-nvidia-pullback-nov-24-2026",
   "frontLayout": "banner",
   "brief": {
     "bullets": [
-      "**Nvidia:** the board unanimously reinstated Jensen Huang as CEO, effective immediately; Kress returns to CFO; the stock rose about 31%.",
-      "**Close:** Dow +1,448 (+3.01%) to 49,595.31, S&P 500 +4.73% to 7,237.17, Nasdaq +6.51% to 24,089.56, the best days for the S&P 500 and Nasdaq since April 2025.",
-      "**Streak:** the S&P 500's seven-day losing streak ended; it is about 7.4% below its record by my arithmetic, out of correction territory.",
-      "**Investigation:** the board's independent investigation continues; the WSJ-reported SEC probe is unconfirmed.",
-      "**Governance:** the board had said on Nov. 17 it did not intend to bring Huang back; NBC reported Trump urged the rehire."
+      "**Asia:** stocks rallied on Huang's return to Nvidia; the Nikkei rose 3.9% to 58,654.40 and the Kospi about 6.5% to 7%; Chinese shares gained only slightly on chip-export worries.",
+      "**US futures:** mixed to slightly lower; Nvidia is down about 3% premarket after Monday's roughly 31.5% jump, its biggest one-day gain in 23 years.",
+      "**Dell:** reports after the close; one preview put consensus at about $50.6 billion of revenue, with AI backlog the focus.",
+      "**This week:** markets close Thursday for Thanksgiving and at 1:00 PM ET on Friday.",
+      "**Not found:** Anthropic's recent closes and any oil or Iran news."
     ],
-    "mood": "One sentence re-rated the New World: the founder returned and the whole fleet surged, with Roger-like swings from a single announcement."
+    "mood": "Nami is watching the sky: the fleet surged on one headline, and the first small signs will say whether the wind holds."
   },
   "tape": {
     "asOf": "Mon close",
@@ -45,35 +45,35 @@
     {
       "id": "nvidia-huang",
       "title": "Nvidia and Jensen Huang",
-      "line": "Reinstated as CEO Monday; the stock rose about 31%; the board's investigation continues.",
+      "line": "The stock gave back about 3% premarket after Monday's 31.5% jump; the board's investigation continues.",
       "changed": true,
-      "storyId": "nvidia-reinstates-huang-stocks-surge-nov-23-2026"
+      "storyId": "asia-rallies-us-futures-slip-nvidia-pullback-nov-24-2026"
     },
     {
       "id": "market-selloff",
       "title": "The market selloff",
-      "line": "The seven-day losing streak ended with the best day since April 2025; S&P 500 about 7.4% below its record.",
+      "line": "Asia rallied overnight; US futures were mixed. Today tests whether Monday's relief rally holds.",
       "changed": true,
-      "storyId": "nvidia-reinstates-huang-stocks-surge-nov-23-2026"
+      "storyId": "asia-rallies-us-futures-slip-nvidia-pullback-nov-24-2026"
     },
     {
       "id": "nvidia-sec",
       "title": "Nvidia's regulatory trouble",
-      "line": "The WSJ-reported SEC probe remains unconfirmed; the board's own investigation continues.",
-      "changed": true,
+      "line": "No change: the WSJ-reported SEC probe remains unconfirmed.",
+      "changed": false,
       "storyId": "nvidia-sec-civil-probe-reported-nov-22-2026"
     },
     {
       "id": "us-china-trade",
       "title": "US–China trade truce",
-      "line": "No change: the truce runs to Jan 10; a strategic-stability plan is reportedly being drafted.",
+      "line": "No change, but Chinese shares lagged on worries about tighter US chip-export curbs.",
       "changed": false,
       "storyId": "trump-xi-shenzhen-strategic-stability-plan-nov-22-2026"
     },
     {
       "id": "anthropic-ipo",
       "title": "Anthropic's IPO",
-      "line": "No verified update: Friday's and Monday's prices were not found; Thursday close $97.17.",
+      "line": "No verified update: recent closes were not found; Thursday close $97.17.",
       "changed": false
     },
     {
@@ -84,30 +84,25 @@
     }
   ],
   "feature": {
-    "kind": "week-ahead",
-    "date": "2026-11-23",
-    "title": "The week ahead: a holiday-shortened test after the worst week in 18 months",
+    "kind": "explainer",
+    "date": "2026-11-24",
+    "title": "Desk school: why a stock can jump 31% in a day, and what short covering is",
     "body": [
-      "**Monday:** US markets reopen after the S&P 500's 8.6% weekly loss, with futures bouncing about 1% to 2% overnight. The question is whether the gain holds at the open and whether volatility falls.",
-      "**Tuesday:** one preview lists Dell's earnings, with attention on AI-server orders and margins; I could not confirm the date. **Thursday:** US markets are closed for Thanksgiving. **Friday:** stocks end at 1:00 PM ET, and Black Friday is the first read on holiday spending.",
-      "**Beyond:** OPEC+ meets on Nov. 29, the Fed's decision is on Dec. 9, where a quarter-point hike was priced as near-certain, and the G20 in Miami on Dec. 14–15 is where Trump and Xi are expected to meet again."
+      "A stock rises 31% in a day when buying overwhelms selling. Part of that is new buyers who think the news is good. Part is short covering: investors who sold borrowed shares, betting on a decline, must buy shares back to close the position. If the stock rises, their losses grow and some are forced to buy, which pushes the price higher still.",
+      "That is why big one-day gains after bad news often come with outsized volume and quick giveback. The stock had fallen on the CEO's exit and the reported probe, so many traders were short or hedged. When the board reversed, covering and fresh buying hit at once. Once the forced buyers are done, the price can fade a little, which is why a 3% premarket pullback is normal and not a verdict.",
+      "In an interview, the point is to separate the headline from the flow. Say that you would watch volume, whether the stock holds its opening gap, and whether the move spreads to related stocks. A move that holds for several sessions with broad participation is information; a one-day spike that fades is positioning."
     ]
   },
   "numberOfDay": {
-    "value": "31%",
-    "label": "Nvidia's one-day gain after its board reinstated Jensen Huang",
-    "why": "It lifted the Nasdaq 6.5% and the Dow 1,448 points, the best days for the S&P 500 and Nasdaq since April 2025."
+    "value": "58,654",
+    "label": "The Nikkei 225's level after rising 3.9% on Tuesday",
+    "why": "Japan's market returned from its holiday and led gains in chip-linked stocks; the figure is an early reading from one report."
   },
   "calendar": [
     {
-      "date": "2026-11-23",
-      "label": "US markets reopen after the worst week in 18 months",
-      "why": "Whether volatility falls and the selling stabilizes."
-    },
-    {
       "date": "2026-11-24",
-      "label": "Dell earnings (per one preview, unconfirmed)",
-      "why": "AI-server orders and margins are the focus."
+      "label": "Dell earnings (date announced Nov. 10)",
+      "why": "AI-server backlog and guidance; one preview had consensus near $50.6 billion of revenue."
     },
     {
       "date": "2026-11-26",
@@ -547,6 +542,120 @@
         {
           "name": "Yahoo Finance: Dow, S&P 500, Nasdaq post best day since April 2025 as Nvidia soars 31%",
           "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html"
+        }
+      ]
+    },
+    {
+      "id": "asia-rallies-us-futures-slip-nvidia-pullback-nov-24-2026",
+      "beat": "markets",
+      "headline": "Asian stocks rally on Huang's Nvidia return while US futures slip as Nvidia gives back part of its jump",
+      "dek": "Seoul and Tokyo led gains, with chip-linked markets strongest. Nvidia was down about 3% premarket after Monday's 31% surge; futures were flat to slightly lower.",
+      "importance": 4,
+      "depth": "full",
+      "developing": true,
+      "publishedAt": "2026-11-24T06:53:00-05:00",
+      "updatedAt": "2026-11-24T06:53:00-05:00",
+      "readMinutes": 4,
+      "tldr": [
+        "Asian stocks rallied, led by chip markets: the **Kospi rose about 6.5% to 7%**, depending on the report, and Japan's **Nikkei rose 3.9%** to 58,654.40.",
+        "US futures were mixed to slightly lower, and CNBC's blog says they gave back part of Monday's rally; Nvidia fell about **3%** premarket after surging about 31.5% Monday.",
+        "Chinese shares made only small gains on worries that tighter US chip-export curbs are in the works."
+      ],
+      "whatHappened": [
+        "Asian markets followed Wall Street's Monday rally. The Kospi in Seoul rose about 6.5% to 5,014.41 in one report and more than 7% in another, Taiwan was up sharply, and Japan's Nikkei 225 rose 3.9% to 58,654.40, according to Yahoo Finance, Business Recorder and Asharq Al-Awsat; the figures differ by outlet and are early readings. Chinese shares gained only modestly because of concerns that tighter curbs on exports of US chips are being prepared.",
+        "In the US, [[futures]] were mixed early Tuesday: one report had S&P 500 and Nasdaq futures up 0.25%, another had the S&P flat and Nasdaq down 0.2%, and CNBC's blog said futures fell as Nvidia pulled back. Nvidia, which jumped about 31.5% on Monday for its biggest one-day percentage gain in 23 years, was down about 3% in [[premarket]] trading."
+      ],
+      "background": [
+        "After a one-day gain this large, some giveback is normal as traders who bought the headline take profits and the market asks whether the move has [[follow-through]]. A pullback of 3% on a 31% day would still leave most of the gain intact, so the question is whether buyers return on weakness.",
+        "Asia matters for the story because chip supply chains run through Korea, Taiwan and Japan, so their markets react most strongly to Nvidia and AI news. The China caution is a reminder that export-control risk is a separate driver from Nvidia's leadership."
+      ],
+      "whyItMatters": [
+        "Today shows whether Monday's rally was the start of a recovery or a one-day relief. If Nvidia holds most of its gain and breadth stays strong into a holiday-shortened week, the correction is likely over for now; if the gains fade through the session, Monday will look like a short-covering spike. Dell's results after the close add the AI-server demand read."
+      ],
+      "marketReaction": [
+        {
+          "asset": "Nikkei 225",
+          "move": "+3.9% to 58,654.40",
+          "direction": "up"
+        },
+        {
+          "asset": "Kospi",
+          "move": "about +6.5% to +7%",
+          "direction": "up"
+        },
+        {
+          "asset": "Nvidia premarket",
+          "move": "about -3%",
+          "direction": "down"
+        }
+      ],
+      "grandLine": {
+        "title": "Nami reads the sky",
+        "body": "Nami commits to a heading only after reading small signs others miss. A 3% premarket giveback after a 31% day is that kind of small sign: not a storm, but a clue about whether the wind behind the rally is steady. A good navigator waits for a second reading before changing course."
+      },
+      "views": [
+        {
+          "camp": "The recovery has begun",
+          "thesis": "The rally broadened beyond one stock and Asia confirmed it.",
+          "argument": "Seoul, Tokyo and Taiwan rallied hard, and a small pullback in Nvidia is healthy after a record one-day gain. With the leadership risk removed, buyers should return on dips."
+        },
+        {
+          "camp": "One-day relief that fades",
+          "thesis": "Overnight giveback after a spike is how bear-market rallies behave.",
+          "argument": "The fundamental pressures remain: a hawkish Fed, an open board investigation, a reported SEC probe and chip-export risk. The first sign of fading is the premarket drop."
+        }
+      ],
+      "interview": {
+        "question": "Nvidia jumped 31.5% on Monday and is down 3% premarket. What do you do?",
+        "answer": "I'd treat the 3% as normal digestion, not a verdict. After a record one-day gain the stock is going to be volatile, so I'd wait for the first hour and look at volume and whether the pullback finds buyers. I'd keep size small. What would change my mind is a break back through Monday's open, which would say the rally has no follow-through, or a hold above it into the close, which would say it does.",
+        "followUp": {
+          "question": "Why did the Kospi move more than the Nikkei?",
+          "answer": "Korea's market is heavily weighted to chipmakers and memory suppliers in the AI supply chain, so it has higher beta to Nvidia news. A 6% to 7% move there and 3.9% in Japan reflects that exposure."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "futures",
+          "definition": "Contracts that track an index's expected level; they trade nearly around the clock and are used as an early read before the stock market opens.",
+          "example": "S&P 500 futures were flat to slightly lower early Tuesday."
+        },
+        {
+          "term": "premarket",
+          "definition": "Trading in a stock before the regular session opens at 9:30 AM ET. Prices can be thin and volatile but show early sentiment.",
+          "example": "Nvidia was down about 3% premarket after Monday's surge."
+        },
+        {
+          "term": "follow-through",
+          "definition": "When a move continues in the following sessions, confirming that it was more than a one-day reaction.",
+          "example": "Traders want to see Monday's rally hold today."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Tue Nov 24, 9:30 AM ET",
+          "what": "Whether Nvidia holds most of Monday's gain at the open."
+        },
+        {
+          "when": "Tue Nov 24, after the close",
+          "what": "Dell's results; consensus per one preview was about $50.6 billion of revenue."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Yahoo Finance: Asian stocks rally as Huang's return to Nvidia revives the AI trade",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-rally-huangs-nvidia-013042563.html"
+        },
+        {
+          "name": "Business Recorder: Asian stocks rally as Huang's Nvidia return revives AI trade",
+          "url": "https://www.brecorder.com/news/40450475/asian-stocks-rally-as-huangs-nvidia-return-revives-ai-trade?v=RP_5T6SgF5N4SmEDrNG5rwSw"
+        },
+        {
+          "name": "CNBC: Stock futures decline as Nvidia pulls back, giving back part of Monday's rally",
+          "url": "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html"
+        },
+        {
+          "name": "Yahoo Finance: US stock futures tick higher after Nvidia-led Wall Street rally",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-steady-nvidia-004836470.html"
         }
       ]
     }
