@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-24-pm",
+      "number": 76,
+      "editionType": "pm",
+      "publishedAt": "2026-11-24T16:53:00-05:00",
+      "lead": "Dow tops 50,000 as chip stocks tumble and the Nasdaq falls 1.5%, partly reversing Monday's Nvidia-led rally",
+      "stories": 5
+    },
+    {
       "id": "2026-11-24-am",
       "number": 75,
       "editionType": "am",

@@ -1,42 +1,48 @@
 {
   "version": 2,
-  "id": "2026-11-24-am",
-  "number": 75,
-  "editionType": "am",
-  "publishedAt": "2026-11-24T06:53:00-05:00",
-  "checkedAt": "2026-11-24T06:53:00-05:00",
-  "nextRunAt": "2026-11-24T16:52:00-05:00",
-  "lead": "asia-rallies-us-futures-slip-nvidia-pullback-nov-24-2026",
-  "frontLayout": "banner",
+  "id": "2026-11-24-pm",
+  "number": 76,
+  "editionType": "pm",
+  "publishedAt": "2026-11-24T16:53:00-05:00",
+  "checkedAt": "2026-11-24T16:53:00-05:00",
+  "nextRunAt": "2026-11-25T06:52:00-05:00",
+  "lead": "dow-tops-50000-chips-tumble-nasdaq-falls-nov-24-2026",
+  "frontLayout": "split",
   "brief": {
     "bullets": [
-      "**Asia:** stocks rallied on Huang's return to Nvidia; the Nikkei rose 3.9% to 58,654.40 and the Kospi about 6.5% to 7%; Chinese shares gained only slightly on chip-export worries.",
-      "**US futures:** mixed to slightly lower; Nvidia is down about 3% premarket after Monday's roughly 31.5% jump, its biggest one-day gain in 23 years.",
-      "**Dell:** reports after the close; one preview put consensus at about $50.6 billion of revenue, with AI backlog the focus.",
-      "**This week:** markets close Thursday for Thanksgiving and at 1:00 PM ET on Friday.",
-      "**Not found:** Anthropic's recent closes and any oil or Iran news."
+      "**Tuesday's close:** Dow +0.85% to 50,018.70, S&P 500 -0.50% to 7,201.09 (eighth loss in nine sessions), Nasdaq -1.48% to 23,733.54, Russell 2000 +0.6%.",
+      "**Chips:** stocks fell and Yahoo Finance put Nvidia down about 6%, giving back part of Monday's 31% jump.",
+      "**Rotation:** the Dow and small caps rose while AI-linked names fell.",
+      "**Dell:** results were due after the close; I did not find them.",
+      "**This week:** markets close Thursday for Thanksgiving and at 1:00 PM ET on Friday."
     ],
-    "mood": "Nami is watching the sky: the fleet surged on one headline, and the first small signs will say whether the wind holds."
+    "mood": "Blackbeard's gravity pulls the index down while the Dow floats free; the fleet is rotating, not scattering."
   },
   "tape": {
-    "asOf": "Mon close",
+    "asOf": "Tue close",
     "items": [
       {
         "label": "S&P 500",
-        "value": "7,237.17",
-        "change": "+4.7%",
-        "direction": "up"
+        "value": "7,201.09",
+        "change": "-0.5%",
+        "direction": "down"
       },
       {
         "label": "Nasdaq",
-        "value": "24,089.56",
-        "change": "+6.5%",
-        "direction": "up"
+        "value": "23,733.54",
+        "change": "-1.5%",
+        "direction": "down"
       },
       {
         "label": "Dow",
-        "value": "49,595.31",
-        "change": "+3.0%",
+        "value": "50,018.70",
+        "change": "+0.9%",
+        "direction": "up"
+      },
+      {
+        "label": "Russell 2000",
+        "value": "2,684.94",
+        "change": "+0.6%",
         "direction": "up"
       }
     ]
@@ -45,16 +51,16 @@
     {
       "id": "nvidia-huang",
       "title": "Nvidia and Jensen Huang",
-      "line": "The stock gave back about 3% premarket after Monday's 31.5% jump; the board's investigation continues.",
+      "line": "Gave back part of Monday's jump Tuesday as chip stocks fell; the board's investigation continues.",
       "changed": true,
-      "storyId": "asia-rallies-us-futures-slip-nvidia-pullback-nov-24-2026"
+      "storyId": "dow-tops-50000-chips-tumble-nasdaq-falls-nov-24-2026"
     },
     {
       "id": "market-selloff",
       "title": "The market selloff",
-      "line": "Asia rallied overnight; US futures were mixed. Today tests whether Monday's relief rally holds.",
+      "line": "A rotation day: Dow above 50,000, Nasdaq -1.5%; S&P 500 about 7.9% below its record.",
       "changed": true,
-      "storyId": "asia-rallies-us-futures-slip-nvidia-pullback-nov-24-2026"
+      "storyId": "dow-tops-50000-chips-tumble-nasdaq-falls-nov-24-2026"
     },
     {
       "id": "nvidia-sec",
@@ -64,16 +70,9 @@
       "storyId": "nvidia-sec-civil-probe-reported-nov-22-2026"
     },
     {
-      "id": "us-china-trade",
-      "title": "US–China trade truce",
-      "line": "No change, but Chinese shares lagged on worries about tighter US chip-export curbs.",
-      "changed": false,
-      "storyId": "trump-xi-shenzhen-strategic-stability-plan-nov-22-2026"
-    },
-    {
       "id": "anthropic-ipo",
       "title": "Anthropic's IPO",
-      "line": "No verified update: recent closes were not found; Thursday close $97.17.",
+      "line": "No verified update: recent closes not found; Thursday close $97.17.",
       "changed": false
     },
     {
@@ -94,15 +93,15 @@
     ]
   },
   "numberOfDay": {
-    "value": "58,654",
-    "label": "The Nikkei 225's level after rising 3.9% on Tuesday",
-    "why": "Japan's market returned from its holiday and led gains in chip-linked stocks; the figure is an early reading from one report."
+    "value": "50,018.70",
+    "label": "The Dow's close on Tuesday, up 0.85%, while the Nasdaq fell 1.48%",
+    "why": "The price-weighted Dow has fewer AI names, so it rose as chip stocks fell."
   },
   "calendar": [
     {
-      "date": "2026-11-24",
-      "label": "Dell earnings (date announced Nov. 10)",
-      "why": "AI-server backlog and guidance; one preview had consensus near $50.6 billion of revenue."
+      "date": "2026-11-25",
+      "label": "Dell results reaction",
+      "why": "Dell was due to report after Tuesday's close; AI-server backlog and guidance are the focus."
     },
     {
       "date": "2026-11-26",
@@ -127,153 +126,17 @@
       "why": "A quarter-point hike was priced as near-certain; the debate is whether it is larger."
     },
     {
+      "date": "2026-12-11",
+      "label": "Anthropic (ANT) possible Russell 1000 inclusion, unconfirmed",
+      "why": "One report says it could join after the close, subject to the index provider."
+    },
+    {
       "date": "2026-12-14",
       "label": "G20 summit, Miami (through Dec. 15)",
       "why": "Trump and Xi are expected to meet again; major trade deliverables may wait for it."
     }
   ],
   "stories": [
-    {
-      "id": "week-ahead-thanksgiving-test-after-worst-week-nov-22-2026",
-      "beat": "markets",
-      "headline": "Wall Street heads into a holiday-shortened week with volatility surging after its worst week in 18 months",
-      "dek": "Markets reopen Monday, close Thursday for Thanksgiving and end Friday's session at 1 p.m. ET. Anthropic shares also fell sharply after their debut.",
-      "importance": 4,
-      "depth": "full",
-      "developing": true,
-      "publishedAt": "2026-11-22T11:53:00-05:00",
-      "updatedAt": "2026-11-22T11:53:00-05:00",
-      "readMinutes": 4,
-      "tldr": [
-        "Markets reopen Monday after the S&P 500's 8.6% weekly loss; they are closed Thursday, Nov. 26, and Friday, Nov. 27, ends at **1:00 PM ET**.",
-        "One report says the VIX nearly doubled to about **37** on Friday and the Dow closed below 50,000 for a second straight day.",
-        "Reports tie the drop to a mix of Nvidia's leadership and SEC troubles, a hawkish Fed and doubts about data-center spending; Anthropic fell sharply after its debut."
-      ],
-      "whatHappened": [
-        "Wall Street ends a brutal week with investors asking whether the AI-led drop is a temporary correction after excessive enthusiasm or the start of a longer unwind. Coverage from NPR, Longbridge and TipRanks says several pressures hit at once: Nvidia's leadership crisis and reported SEC scrutiny, a hawkish Federal Reserve, and doubts about data-center spending. One report said the [[VIX]], Wall Street's fear gauge, nearly doubled to about 37 on Friday, and another said the Dow closed below 50,000 for a second straight day.",
-        "The calendar is short. U.S. markets are closed on Thursday, Nov. 26, for Thanksgiving and close at 1:00 PM ET on Friday, Nov. 27. One preview lists Dell's earnings on Tuesday, with attention on AI-server orders and margins, and inflation data and Black Friday retail spending as other reads this week; I could not confirm exact release dates. NPR's interviewee noted that thin holiday trading can make moves jerky. Schwab's market update was headlined 'Tech carnage continues, with Anthropic now falling,' and one report noted an early 10% drop in Anthropic's stock on Friday after its debut; I did not find its Friday close."
-      ],
-      "background": [
-        "The week combined a rate story and an AI story. The Fed's October minutes were read as hawkish, with a December hike priced as near-certain, and the AI leaders could not rally on good news. When both drivers point the same way, selling can feed on itself.",
-        "Holiday weeks have lower volume, so the same order flow moves prices more. That cuts both ways: a bounce can overshoot as easily as a drop."
-      ],
-      "whyItMatters": [
-        "Monday's open is the first test of whether the selling is exhausted. If volatility falls and breadth improves, a relief rally into the holiday is possible, and a washout would be called [[capitulation]]; if the VIX stays near 37 and the S&P 500 breaks lower, forced selling can continue into a thin session. I would not assume either outcome."
-      ],
-      "grandLine": {
-        "title": "The Calm Belt",
-        "body": "The Calm Belt has no wind, and ships stall dead in the water, surrounded by Sea Kings. A holiday week can feel like that: low volume, no clear trend, and sudden moves when something big surfaces. The danger is not the stillness but what comes up from below when no one can sail away."
-      },
-      "views": [
-        {
-          "camp": "Oversold, a bounce is likely",
-          "thesis": "Fear is high and selling looks forced, so the bias is to rebound.",
-          "argument": "A VIX near 37, seven straight S&P 500 losses and a 10% Nasdaq weekly drop are the kind of extremes that often precede rebounds. The S&P 500 is still up for the year."
-        },
-        {
-          "camp": "A regime change in risk appetite",
-          "thesis": "With rates and AI both pressuring stocks, there is no obvious catalyst to turn.",
-          "argument": "Thin liquidity can speed declines, Nvidia faces regulatory questions, and the Fed is still tightening. Bounces in a holiday week may fail."
-        }
-      ],
-      "interview": {
-        "question": "The VIX is near 37 and markets reopen after the worst week in 18 months. How do you position for Monday?",
-        "answer": "I'd keep position sizes small and wait for confirmation. A VIX this high says options are expensive, so I'd rather use defined-risk structures than naked directional bets. I'd watch whether volatility falls at the open, how Nvidia and the AI leaders trade, and credit spreads. What would change my mind is a broad reversal with falling volatility, which would say the selling is exhausted, or a break to new lows on rising yields.",
-        "followUp": {
-          "question": "What does a high VIX tell you?",
-          "answer": "It measures the cost of S&P 500 options, which is the market's expected volatility over the next 30 days. A spike means investors are paying up for protection, which is often seen near selling extremes, though it can stay high."
-        }
-      },
-      "trade": {
-        "idea": "Sell premium into elevated volatility, defined risk",
-        "expression": "Sell a one-month S&P 500 put spread, short a put about 8% out of the money and long a put about 12% out of the money",
-        "rationale": "With the VIX near 37, option premium is rich. If the market stabilizes, the spread expires worthless and the seller keeps the premium, with the long put capping the loss.",
-        "risks": [
-          "A further sharp drop through the short strike produces losses up to the width of the spread.",
-          "Volatility can rise further before it falls, so the position can show losses early."
-        ]
-      },
-      "keyTerms": [
-        {
-          "term": "VIX",
-          "definition": "The CBOE index of expected 30-day volatility in the S&P 500, backed out of option prices. Often called the fear gauge; it rises when investors pay up for protection.",
-          "example": "One report put it near 37 on Friday, nearly double its level a week earlier."
-        },
-        {
-          "term": "capitulation",
-          "definition": "A wave of panic selling that exhausts the sellers and often marks a low, though it is only clear in hindsight.",
-          "example": "Traders will ask on Monday whether Friday's drop was capitulation."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Mon Nov 23",
-          "what": "Whether volatility falls and breadth improves at the open."
-        },
-        {
-          "when": "Fri Nov 27, 1:00 PM ET",
-          "what": "Early close after Thanksgiving, with Black Friday as a read on consumers."
-        }
-      ],
-      "sources": [
-        {
-          "name": "NPR: What's next after a brutal stock plunge we might have seen coming",
-          "url": "https://www.npr.org/2026/11/21/nx-s1-6049146/whats-next-after-a-brutal-stock-plunge-we-might-have-seen-coming"
-        },
-        {
-          "name": "Longbridge: How a brutal week for stocks almost wiped out their gains for the year",
-          "url": "https://longbridge.com/en/news/306367697"
-        },
-        {
-          "name": "TipRanks: The week that was, the week ahead: macro and markets, November 22",
-          "url": "https://www.tipranks.com/news/the-week-that-was-the-week-ahead-macro-and-markets-november-22"
-        },
-        {
-          "name": "Schwab: Tech carnage continues, with Anthropic now falling",
-          "url": "https://www.schwab.com/learn/story/stock-market-update-open"
-        }
-      ]
-    },
-    {
-      "id": "trump-xi-shenzhen-strategic-stability-plan-nov-22-2026",
-      "beat": "policy",
-      "headline": "Trump and Xi meet in Shenzhen and reportedly agree to draft a 'strategic stability' plan; analysts call it modest",
-      "dek": "China's foreign ministry said the leaders met Thursday afternoon. Xi urged Trump to avoid setbacks on Taiwan, and Trump pressed China on U.S. farm purchases.",
-      "importance": 3,
-      "depth": "brief",
-      "developing": false,
-      "publishedAt": "2026-11-22T11:53:00-05:00",
-      "updatedAt": "2026-11-22T11:53:00-05:00",
-      "readMinutes": 1,
-      "tldr": [
-        "Xi and Trump met in Shenzhen on the afternoon of Nov. 19, on the sidelines of APEC, per China's foreign ministry.",
-        "They reportedly agreed to draw up an action plan for a relationship of strategic stability; a CFR analysis called the outcomes far more modest than the buildup suggested."
-      ],
-      "whatHappened": [
-        "China's Ministry of Foreign Affairs said Xi met Trump in Shenzhen on the afternoon of Nov. 19 during the APEC Economic Leaders' Meeting. Brasil de Fato reported that the two leaders agreed to formulate an action plan to build a bilateral relationship of strategic stability, and that Xi said ties were stable and improved. Reports said Xi urged Trump to avoid setbacks on Taiwan, and SCMP said Trump asked China to do more for U.S. farmers. A CFR analysis described the outcomes as far more modest than the buildup suggested. I found no announced new tariff or chip-export decisions; the trade truce already runs to January 10."
-      ],
-      "whyItMatters": [
-        "With no new trade deliverables, the meeting reads as a holding pattern: the truce stays, and the larger decisions wait for the G20 in Miami on Dec. 14–15. The market relevance is the absence of a negative surprise on chips, tariffs or Taiwan during a week when AI stocks fell."
-      ],
-      "sources": [
-        {
-          "name": "China's Ministry of Foreign Affairs: Xi meets Trump in Shenzhen",
-          "url": "https://www.mfa.gov.cn/eng./xw/zyxw/202611/t20261119_12063139.html"
-        },
-        {
-          "name": "SCMP: Talks with Xi get under way as Trump asks China to do more for US farmers",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3375023/talks-xi-get-under-way-trump-asks-china-do-more-us-farmers"
-        },
-        {
-          "name": "Brasil de Fato: Xi tells Trump we must avoid escalating differences",
-          "url": "https://www.brasildefato.com.br/2026/11/19/devemos-evitar-a-escalada-das-diferencas-diz-xi-a-trump-em-reuniao-bilateral-em-shenzhen/"
-        },
-        {
-          "name": "CFR: Trump and Xi turn back the clock while China flexes its muscles",
-          "url": "https://www.cfr.org/blog/trump-and-xi-turn-back-clock-while-china-flexes-its-muscles"
-        }
-      ]
-    },
     {
       "id": "nvidia-sec-civil-probe-reported-nov-22-2026",
       "beat": "markets",
@@ -656,6 +519,125 @@
         {
           "name": "Yahoo Finance: US stock futures tick higher after Nvidia-led Wall Street rally",
           "url": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-steady-nvidia-004836470.html"
+        }
+      ]
+    },
+    {
+      "id": "dow-tops-50000-chips-tumble-nasdaq-falls-nov-24-2026",
+      "beat": "markets",
+      "headline": "Dow tops 50,000 as chip stocks tumble and the Nasdaq falls 1.5%, partly reversing Monday's Nvidia-led rally",
+      "dek": "The S&P 500 fell 0.5%, its eighth loss in nine sessions, while non-AI stocks held up. Nvidia gave back part of Monday's 31% jump, with one report putting the drop near 6%.",
+      "importance": 4,
+      "depth": "full",
+      "developing": true,
+      "publishedAt": "2026-11-24T16:53:00-05:00",
+      "updatedAt": "2026-11-24T16:53:00-05:00",
+      "readMinutes": 4,
+      "tldr": [
+        "Tuesday's close, per AP-based reports: **Dow +0.85% (about +423 points) to 50,018.70**, **S&P 500 -0.50% to 7,201.09**, **Nasdaq -1.48% to 23,733.54**, **Russell 2000 +0.6% to 2,684.94**.",
+        "Chip stocks fell and Yahoo Finance reported Nvidia down about 6%, giving back part of Monday's rally, while non-AI stocks supported the Dow.",
+        "The S&P 500 is 7.9% below its record by my arithmetic, so the rebound is holding the index out of a correction but not extending."
+      ],
+      "whatHappened": [
+        "U.S. stocks ended mixed on Tuesday. The Dow Jones Industrial Average rose 0.85%, about 423 points, to 50,018.70, while the S&P 500 fell 0.50% to 7,201.09, its eighth loss in nine sessions, and the Nasdaq Composite fell 1.48% to 23,733.54, according to AP-based reports and market wraps. The small-cap Russell 2000 rose 0.6% to 2,684.94. Yahoo Finance's headline said chip stocks tumbled and Nvidia fell about 6%, a partial reversal of Monday's roughly 31% jump after its board reinstated Jensen Huang.",
+        "The split between the Dow and the Nasdaq reflects a [[rotation]]: money moved away from AI-linked technology toward the rest of the market. The Dow is a [[price-weighted index]] with fewer AI names, so it can rise while the Nasdaq falls. I did not find Dell's results, which were due after the close, or a confirmed cause for the day's chip selling."
+      ],
+      "background": [
+        "Monday's rally was concentrated in Nvidia and the AI group, with the S&P 500 up 4.73% and the Nasdaq up 6.51%. A day later the same group gave back part of it, which is the usual behavior after a one-stock headline: the first day is short covering, the second day shows whether buyers stay.",
+        "Mixed closes with a rising Dow are common in rotations. Money does not leave the market; it moves from the crowded winners to the laggards, which keeps broad indexes from falling as much as the leaders."
+      ],
+      "whyItMatters": [
+        "Two sessions of a rally and pullback leave the market in a range: well above Friday's low, below the pre-selloff levels. The next signals are whether chip stocks stabilize before the holiday, whether Dell's AI-server results support the group, and whether breadth holds. Thin liquidity on Wednesday and Friday can exaggerate moves."
+      ],
+      "marketReaction": [
+        {
+          "asset": "Dow",
+          "move": "+0.85% to 50,018.70",
+          "direction": "up"
+        },
+        {
+          "asset": "S&P 500",
+          "move": "-0.50% to 7,201.09",
+          "direction": "down"
+        },
+        {
+          "asset": "Nasdaq Composite",
+          "move": "-1.48% to 23,733.54",
+          "direction": "down"
+        },
+        {
+          "asset": "Russell 2000",
+          "move": "+0.6% to 2,684.94",
+          "direction": "up"
+        }
+      ],
+      "grandLine": {
+        "title": "Blackbeard's darkness",
+        "body": "Blackbeard's Yami Yami no Mi pulls everything toward him like gravity. A few AI giants do that to the S&P 500 and the Nasdaq: their moves drag the whole index. The Dow, which owns few of them, can float free, which is why it can rise while the Nasdaq falls. Watch which way the gravity pulls."
+      },
+      "views": [
+        {
+          "camp": "Healthy rotation, no panic",
+          "thesis": "Money is moving, not leaving.",
+          "argument": "The Dow closed above 50,000 and small caps rose while AI names fell, so investors are rebalancing, not selling everything. That is typical of a market that is finding a floor."
+        },
+        {
+          "camp": "The AI rebound is failing",
+          "thesis": "A reversal of Monday's gain shows the rally had no support.",
+          "argument": "Chip stocks fell and Nvidia gave back a chunk of its jump, so the AI trade is still the swing factor. If it keeps falling, the index cannot hold up by rotation alone."
+        }
+      ],
+      "interview": {
+        "question": "The Dow rose to 50,000 while the Nasdaq fell 1.5%. What does that tell you?",
+        "answer": "It tells me the market is rotating away from AI-linked leaders, not de-risking everything, so the selling is more contained than last week. The Dow is price-weighted and has fewer AI names, so it can rise while the Nasdaq falls. I'd watch whether chip stocks stabilize and whether small caps keep rising. What would change my mind is the Dow turning down with the Nasdaq, which would say the selling has spread.",
+        "followUp": {
+          "question": "What does price-weighted mean and why does it matter here?",
+          "answer": "In a price-weighted index like the Dow, a stock's influence depends on its share price, not its market value. That makes it differ from the cap-weighted S&P 500 and Nasdaq, where huge companies like Nvidia dominate, so the two can diverge."
+        }
+      },
+      "trade": {
+        "idea": "Small caps versus Nasdaq-100 rotation",
+        "expression": "Long Russell 2000 futures, short Nasdaq-100 futures, sized to equal dollar exposure",
+        "rationale": "If money keeps rotating from AI leaders to the rest of the market, small caps outperform the Nasdaq-100, as they did on Tuesday.",
+        "risks": [
+          "A sharp AI-led rebound makes the short leg lose.",
+          "Small caps are more sensitive to rate hikes and credit conditions."
+        ]
+      },
+      "keyTerms": [
+        {
+          "term": "rotation",
+          "definition": "Money shifting from one group of stocks to another instead of leaving the market, such as from tech to cyclicals or small caps.",
+          "example": "The Dow and Russell 2000 rose while the Nasdaq fell."
+        },
+        {
+          "term": "price-weighted index",
+          "definition": "An index where each stock's influence depends on its share price, not its market value. The Dow is price-weighted; the S&P 500 and Nasdaq are weighted by market capitalization.",
+          "example": "The Dow rose 0.85% while the S&P 500 fell 0.50%."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Wed Nov 25",
+          "what": "Whether chip stocks stabilize before the holiday; reaction to Dell's results."
+        },
+        {
+          "when": "Thu Nov 26",
+          "what": "US markets closed for Thanksgiving; Friday ends at 1:00 PM ET."
+        }
+      ],
+      "sources": [
+        {
+          "name": "WTOP (AP): How major US stock indexes fared Tuesday 11/24/2026",
+          "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-tuesday-11-24-2026"
+        },
+        {
+          "name": "Yahoo Finance: Dow rises, S&P 500 and Nasdaq decline as chip sector tumbles, Nvidia falls 6%",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html"
+        },
+        {
+          "name": "24/7 Wall St.: S&P 500 drops 0.53% while the Dow closes above 50,000",
+          "url": "https://247wallst.com/cards/the-dow-closed-above-50-000-for-the-first-time-while-the-nas-gspc-market-bell-01m87nyn7mshvn15b2vdser41w"
         }
       ]
     }
