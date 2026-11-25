@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-25-pm",
+      "number": 78,
+      "editionType": "pm",
+      "publishedAt": "2026-11-25T16:53:00-05:00",
+      "lead": "Stocks stage a violent reversal: the Nasdaq sinks more than 4% at its low, then claws back as the Dow ends higher",
+      "stories": 5
+    },
+    {
       "id": "2026-11-25-am",
       "number": 77,
       "editionType": "am",

@@ -1,84 +1,84 @@
 {
   "version": 2,
-  "id": "2026-11-25-am",
-  "number": 77,
-  "editionType": "am",
-  "publishedAt": "2026-11-25T06:54:00-05:00",
-  "checkedAt": "2026-11-25T06:54:00-05:00",
-  "nextRunAt": "2026-11-25T16:52:00-05:00",
-  "lead": "dell-record-quarter-ai-backlog-132b-nov-25-2026",
+  "id": "2026-11-25-pm",
+  "number": 78,
+  "editionType": "pm",
+  "publishedAt": "2026-11-25T16:53:00-05:00",
+  "checkedAt": "2026-11-25T16:53:00-05:00",
+  "nextRunAt": "2026-11-26T06:52:00-05:00",
+  "lead": "stocks-violent-reversal-nasdaq-4pct-low-recovers-nov-25-2026",
   "frontLayout": "banner",
   "brief": {
     "bullets": [
-      "**Dell:** record revenue of $54.9 billion, non-GAAP EPS of $9.45 against about $6.59 expected, and a record $132.3 billion AI backlog; full-year revenue guidance rose to $202 billion.",
-      "**Guidance and capital:** AI-server target raised to $78 billion; a $25 billion buyback boost; management flagged power availability as a risk to converting backlog.",
-      "**Data today:** the October PCE inflation report and Q3 GDP are listed for this morning, per Kiplinger; Cleveland Fed nowcasts point to core PCE near 0.3% m/m (an estimate, not data).",
-      "**Tuesday's close:** Dow 50,018.70 (+0.85%), S&P 500 7,201.09 (-0.50%), Nasdaq 23,733.54 (-1.48%).",
+      "**Reversal:** the S&P 500 fell as much as 3.2% and one report had the Nasdaq down 4.6% at the low, before a recovery; the Nasdaq 100 briefly neared bear-market territory.",
+      "**Close:** Dow +0.33% to 50,182.95, S&P 500 -0.25% to 7,182.78, Nasdaq about -0.6% to 23,585.80, Russell 2000 +0.78%.",
+      "**Inflation:** October PCE rose 3.8% y/y with core at 3.3% against 3.2% expected; one report priced a 98% chance of a December hike.",
+      "**Tariffs:** reports describe new 20% tariff announcements; Fox Business called them proposals, so details are unconfirmed.",
       "**Holiday:** US markets are closed Thursday and close at 1:00 PM ET Friday."
     ],
-    "mood": "A second ship in the AI fleet reports full holds, but the cola, meaning power, decides how fast it can sail."
+    "mood": "Aqua Laguna hit on schedule: PCE day soaked the fleet, and by the close the city was mostly still standing."
   },
   "tape": {
-    "asOf": "Tue close",
+    "asOf": "Wed close",
     "items": [
       {
         "label": "S&P 500",
-        "value": "7,201.09",
-        "change": "-0.5%",
+        "value": "7,182.78",
+        "change": "-0.2%",
         "direction": "down"
       },
       {
         "label": "Nasdaq",
-        "value": "23,733.54",
-        "change": "-1.5%",
+        "value": "23,585.80",
+        "change": "-0.6%",
         "direction": "down"
       },
       {
         "label": "Dow",
-        "value": "50,018.70",
-        "change": "+0.9%",
+        "value": "50,182.95",
+        "change": "+0.3%",
         "direction": "up"
       },
       {
         "label": "Russell 2000",
-        "value": "2,684.94",
-        "change": "+0.6%",
+        "value": "2,705.84",
+        "change": "+0.8%",
         "direction": "up"
       }
     ]
   },
   "storylines": [
     {
+      "id": "market-selloff",
+      "title": "The market selloff",
+      "line": "Wednesday's reversal: Nasdaq -4.6% at the low, about -0.6% at the close; Dow and small caps up.",
+      "changed": true,
+      "storyId": "stocks-violent-reversal-nasdaq-4pct-low-recovers-nov-25-2026"
+    },
+    {
+      "id": "fed-december",
+      "title": "The Fed's December decision",
+      "line": "October PCE ran hot; one report priced a 98% chance of a 25bp December hike.",
+      "changed": true,
+      "storyId": "october-pce-hot-core-3-3-hike-priced-nov-25-2026"
+    },
+    {
       "id": "ai-demand",
       "title": "AI demand read-through",
-      "line": "Dell beat and raised, with a record $132.3 billion AI backlog; the stock reaction was not available.",
-      "changed": true,
+      "line": "No change: Dell's record backlog; chip stocks were the weakest group Wednesday.",
+      "changed": false,
       "storyId": "dell-record-quarter-ai-backlog-132b-nov-25-2026"
     },
     {
       "id": "nvidia-huang",
       "title": "Nvidia and Jensen Huang",
-      "line": "No change: gave back part of Monday's jump Tuesday; the board's investigation continues.",
-      "changed": false,
-      "storyId": "dow-tops-50000-chips-tumble-nasdaq-falls-nov-24-2026"
-    },
-    {
-      "id": "nvidia-sec",
-      "title": "Nvidia's regulatory trouble",
-      "line": "No change: the WSJ-reported SEC probe remains unconfirmed.",
-      "changed": false,
-      "storyId": "nvidia-sec-civil-probe-reported-nov-22-2026"
+      "line": "Nvidia fell about 4.8% Wednesday by one report; the board's investigation continues.",
+      "changed": true
     },
     {
       "id": "anthropic-ipo",
       "title": "Anthropic's IPO",
       "line": "No verified update: recent closes were not found; Thursday close $97.17.",
-      "changed": false
-    },
-    {
-      "id": "fed-december",
-      "title": "The Fed's December decision",
-      "line": "October PCE inflation is due today; a quarter-point December hike was priced as near-certain.",
       "changed": false
     }
   ],
@@ -93,16 +93,11 @@
     ]
   },
   "numberOfDay": {
-    "value": "$132.3B",
-    "label": "Dell's record AI backlog after booking $60.2 billion of orders in the quarter",
-    "why": "The backlog is orders not yet delivered; management flagged power availability as a risk to converting it into sales."
+    "value": "4.6%",
+    "label": "The Nasdaq's reported drop at Wednesday's low, before it recovered to about -0.6%",
+    "why": "The size of the intraday swing, about four points, is the story; one source differs on the exact figures."
   },
   "calendar": [
-    {
-      "date": "2026-11-25",
-      "label": "Dell results reaction",
-      "why": "Dell was due to report after Tuesday's close; AI-server backlog and guidance are the focus."
-    },
     {
       "date": "2026-11-26",
       "label": "US markets closed (Thanksgiving)",
@@ -112,7 +107,7 @@
       "date": "2026-11-27",
       "time": "1:00 PM ET",
       "label": "US stocks close early; Black Friday",
-      "why": "A first read on holiday consumer spending."
+      "why": "Whether the recovery holds and a first read on holiday spending."
     },
     {
       "date": "2026-11-29",
@@ -123,7 +118,7 @@
       "date": "2026-12-09",
       "time": "2:00 PM ET",
       "label": "FOMC decision + dot plot (meeting Dec. 8–9)",
-      "why": "A quarter-point hike was priced as near-certain; the debate is whether it is larger."
+      "why": "A quarter-point hike is priced as near-certain; the debate is whether it is larger."
     },
     {
       "date": "2026-12-11",
@@ -137,176 +132,6 @@
     }
   ],
   "stories": [
-    {
-      "id": "nvidia-sec-civil-probe-reported-nov-22-2026",
-      "beat": "markets",
-      "headline": "The reported SEC probe of Nvidia stays unconfirmed as the board's own investigation continues after Huang's return",
-      "dek": "The WSJ-reported civil probe has not been confirmed by the SEC or Nvidia. Nvidia says an independent committee's investigation will proceed to conclusion.",
-      "importance": 4,
-      "depth": "brief",
-      "developing": false,
-      "publishedAt": "2026-11-22T11:53:00-05:00",
-      "updatedAt": "2026-11-23T16:53:00-05:00",
-      "updateNote": "Added Huang's reinstatement and the board's own investigation.",
-      "readMinutes": 1,
-      "tldr": [
-        "The Wall Street Journal reported on Nov. 17, citing people familiar, that the SEC opened a civil investigation including whether Nvidia's disclosures misled investors.",
-        "Nvidia's board reinstated Huang on Nov. 23 and says its independent investigation, led with the law firm Wachtell, Lipton, Rosen & Katz, will proceed to conclusion."
-      ],
-      "whatHappened": [
-        "The WSJ reported on Nov. 17 that the SEC has opened a civil investigation into Nvidia, including whether its disclosures gave investors an accurate picture of its business; the precise focus is unclear, per PYMNTS and InvestmentNews coverage. The report follows Huang's Nov. 12 resignation as CEO. Nvidia settled an earlier SEC disclosure matter in 2022 for $5.5 million, about crypto-mining's effect on its gaming revenue. Other outlets say shares fell more than 10% after Huang's exit and that a shareholder lawsuit cites earlier company statements. These details are reported, not confirmed.",
-        "On Nov. 23 Nvidia's board reinstated Huang as CEO. The company said an independent committee's investigation will proceed to conclusion. I found no confirmation of the SEC inquiry from the agency or from Nvidia."
-      ],
-      "whyItMatters": [
-        "Regulatory overhang gives investors a reason to demand a bigger discount on the AI leader, and it was part of the mix of pressures that hit the Nasdaq this week. A civil probe can take months and often ends in a settlement, so the headline risk lasts longer than any one trading session."
-      ],
-      "sources": [
-        {
-          "name": "PYMNTS: SEC investigating whether Nvidia misled investors",
-          "url": "https://pymnts.com/legal/2026/sec-investigating-whether-nvidia-misled-investors"
-        },
-        {
-          "name": "InvestmentNews: Embattled Nvidia faces SEC probe as California attorney general mulls action",
-          "url": "https://www.investmentnews.com/equities/embattled-nvidia-faces-sec-probe-as-california-attorney-general-mulls-action/269054"
-        },
-        {
-          "name": "Crowdfund Insider: SEC opens inquiry into Nvidia's disclosures following Jensen Huang's exit",
-          "url": "https://www.crowdfundinsider.com/?p=323680"
-        }
-      ]
-    },
-    {
-      "id": "nvidia-reinstates-huang-stocks-surge-nov-23-2026",
-      "beat": "markets",
-      "headline": "Nvidia reinstates Huang as CEO and the stock surges 31%; Nasdaq jumps 6.5% and the Dow gains 1,448 points",
-      "dek": "The S&P 500 and Nasdaq had their best days since April 2025, snapping a seven-day losing streak. The board's own investigation continues, and the move followed U.S. government input.",
-      "importance": 5,
-      "depth": "full",
-      "developing": true,
-      "publishedAt": "2026-11-23T16:53:00-05:00",
-      "updatedAt": "2026-11-23T16:53:00-05:00",
-      "readMinutes": 5,
-      "tldr": [
-        "Nvidia's board unanimously reinstated Jensen Huang as president, CEO and director effective immediately; Colette Kress returns to being CFO, per Nvidia's 8-K. Shares rose about **31%**.",
-        "Close: **Dow +1,447.98 (+3.01%) to 49,595.31**, **S&P 500 +4.73% to 7,237.17**, **Nasdaq +6.51% to 24,089.56**, the best days for the S&P 500 and Nasdaq since April 2025.",
-        "The independent investigation led by the board's committee will proceed to conclusion; the company says it received input from senior U.S. government officials."
-      ],
-      "whatHappened": [
-        "Nvidia announced on Monday that its board voted unanimously to reinstate Jensen Huang as president, chief executive and a member of the board, effective immediately, according to the company's 8-K filing. Colette Kress, who had served as interim CEO since Huang's Nov. 12 resignation, returns to her role as chief financial officer; the company thanked her for her interim service. The board had said six days earlier that it did not intend to bring Huang back, per Axios. NBC News reported that President Trump urged the board to rehire him, and Fox Business said the board received input from senior levels of the U.S. government. Nvidia says Huang's return poses no national security risk, and that an independent committee's investigation, run with the law firm Wachtell, Lipton, Rosen & Katz, will proceed to conclusion.",
-        "The stock jumped about 31% and carried the market. The Dow Jones Industrial Average rose 1,447.98 points, or 3.01%, to 49,595.31, the S&P 500 rose 4.73% to 7,237.17 and the Nasdaq Composite rose 6.51% to 24,089.56, per CNBC and AP-based reports; the S&P 500 and Nasdaq had their best days since April 2025. The S&P 500 had fallen seven straight sessions before Monday, and by my arithmetic it is now about 7.4% below its record, out of the 10% [[correction]] zone. Other sites show slightly different S&P 500 levels, 7,237 to 7,244, so the closes are approximate."
-      ],
-      "background": [
-        "The sequence matters. Huang resigned on Nov. 12, Kress became interim CEO, and Nvidia reported strong results on Nov. 17 but fell. The WSJ then reported an SEC civil probe into the company's disclosures, which the SEC and Nvidia have not confirmed. Through that stretch the stock lost its 2026 gains and dragged the Nasdaq to a 10% weekly drop. The reinstatement removes the leadership uncertainty that drove part of the selling.",
-        "What it does not remove is the governance questions. The board's investigation is still open, and a reversal in six days under reported government pressure will draw scrutiny from investors who care about how the board decides."
-      ],
-      "whyItMatters": [
-        "Nvidia is the largest weight in the Nasdaq and the reference point for AI spending, so a 31% day lifts the whole group and index-level moves. It also shows how much of last week's drop was tied to one stock's leadership and not to AI demand. The risk is that a [[short covering]] rally driven by one headline is hard to sustain; the next days show whether buyers return on fundamentals or the move fades."
-      ],
-      "marketReaction": [
-        {
-          "asset": "Nvidia",
-          "move": "about +31%",
-          "direction": "up"
-        },
-        {
-          "asset": "Nasdaq Composite",
-          "move": "+6.51% to 24,089.56",
-          "direction": "up"
-        },
-        {
-          "asset": "S&P 500",
-          "move": "+4.73% to 7,237.17",
-          "direction": "up"
-        },
-        {
-          "asset": "Dow",
-          "move": "+3.01% to 49,595.31",
-          "direction": "up"
-        }
-      ],
-      "grandLine": {
-        "title": "Roger's last words",
-        "body": "When Gol D. Roger spoke at his execution, one sentence about his treasure changed every pirate's incentives overnight and launched the Great Pirate Era. A single announcement re-rated this market in a day: one board decision about one man moved the Dow almost 1,450 points and the Nasdaq 6.5%. The lesson is how much a market built on one story can swing on one sentence."
-      },
-      "views": [
-        {
-          "camp": "Uncertainty is gone, rally has legs",
-          "thesis": "The leadership risk that hit AI stocks is resolved.",
-          "argument": "The founder is back, results were strong and the guide is $130 billion. Positioning was extremely light after the worst week in 18 months, so buyers have room to push higher."
-        },
-        {
-          "camp": "A governance discount remains",
-          "thesis": "A reversal under political pressure with the investigation open is not clean.",
-          "argument": "The board's own investigation continues, an SEC probe is reported, and the quick reversal invites questions about board independence. A rally on one headline can fade."
-        }
-      ],
-      "interview": {
-        "question": "Nvidia rose 31% after its board reinstated Huang. How do you read it, and do you chase it?",
-        "answer": "I'd read most of the move as short covering and relief from a risk that was weighing on the group, not a change in the business. I wouldn't chase a 31% one-day gap. I'd watch whether it holds the gains for a few sessions and what the investigation says. What would change my mind is an adverse finding or any reversal at the board, which would bring back the governance discount, or a hold above the gap with broad participation, which says the market is buying fundamentals.",
-        "followUp": {
-          "question": "What is governance risk and why does it move a stock?",
-          "answer": "It is the risk that how a company is run, such as its board, key-person dependence or disclosures, causes losses. It moves the stock because investors demand a higher return, a discount, for owning a company where the leadership is uncertain."
-        }
-      },
-      "trade": {
-        "idea": "Fade the gap with a defined-risk put spread on Nvidia",
-        "expression": "Long a one-month put at the money, short a put about 10% lower",
-        "rationale": "If the one-day gap fades and the stock retraces part of its gain, the spread pays. Selling the lower put reduces the premium after volatility spiked.",
-        "risks": [
-          "The rally extends on follow-through buying and the premium is lost.",
-          "A further decline already priced in after a 31% move can still be small."
-        ]
-      },
-      "keyTerms": [
-        {
-          "term": "correction",
-          "definition": "A fall of 10% or more from a recent peak. A fall of 5% to 10% is usually called a pullback, and 20% a bear market.",
-          "example": "The S&P 500 is now about 7.4% below its record, out of correction territory."
-        },
-        {
-          "term": "short covering",
-          "definition": "Buying back borrowed shares to close a short position. When many shorts cover at once it can push a stock up sharply and quickly.",
-          "example": "A 31% one-day gain in Nvidia likely included heavy short covering."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Tue Nov 24",
-          "what": "Whether the rally holds; Dell earnings, per one preview."
-        },
-        {
-          "when": "This week",
-          "what": "Updates from the board's independent investigation and any confirmation of the reported SEC probe."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Nvidia Form 8-K (SEC): Jensen Huang reinstated as President and CEO",
-          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
-        },
-        {
-          "name": "CNBC: Jensen Huang reinstated as Nvidia CEO. Stock skyrockets 31%",
-          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
-        },
-        {
-          "name": "Axios: Nvidia board reinstates Jensen Huang as CEO",
-          "url": "https://www.axios.com/2026/11/23/nvidia-board-jensen-huang-as-ceo"
-        },
-        {
-          "name": "NBC News: Jensen Huang reinstated as Nvidia CEO after Trump pushes board",
-          "url": "https://www.nbcnews.com/tech/tech-news/nvidia-reinstates-jensen-huang-rcna610864"
-        },
-        {
-          "name": "CNBC: Dow soars 1,400 points; Nasdaq surges 6% as Jensen Huang returns to Nvidia",
-          "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html",
-          "paywalled": false
-        },
-        {
-          "name": "Yahoo Finance: Dow, S&P 500, Nasdaq post best day since April 2025 as Nvidia soars 31%",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html"
-        }
-      ]
-    },
     {
       "id": "asia-rallies-us-futures-slip-nvidia-pullback-nov-24-2026",
       "beat": "markets",
@@ -629,6 +454,169 @@
         {
           "name": "24/7 Wall St.: Dell Technologies Q3 2027: a 44% EPS beat backed by a $132B AI backlog",
           "url": "https://247wallst.com/cards/dell-technologies-q3-2027-earnings-dell-01m87pfs2c9c73wyprgqr5d02e"
+        }
+      ]
+    },
+    {
+      "id": "stocks-violent-reversal-nasdaq-4pct-low-recovers-nov-25-2026",
+      "beat": "markets",
+      "headline": "Stocks stage a violent reversal: the Nasdaq sinks more than 4% at its low, then claws back as the Dow ends higher",
+      "dek": "Hot inflation data, tariff fears and an AI sell-off hit early; buyers returned after the Beige Book. The Dow and Russell 2000 closed higher, the S&P 500 and Nasdaq slightly lower.",
+      "importance": 5,
+      "depth": "full",
+      "developing": true,
+      "publishedAt": "2026-11-25T16:53:00-05:00",
+      "updatedAt": "2026-11-25T16:53:00-05:00",
+      "readMinutes": 4,
+      "tldr": [
+        "Close, per a market table consistent with AP's year-to-date figures: **Dow +0.33% to 50,182.95**, **S&P 500 -0.25% to 7,182.78**, **Nasdaq -0.62% to 23,585.80**, **Russell 2000 +0.78% to 2,705.84**.",
+        "At the low the S&P 500 was down as much as **3.2%**, the Dow about 700 points, and one report had the Nasdaq off **4.6%**; the Nasdaq 100 briefly neared bear-market territory.",
+        "Triggers reported: October PCE inflation hotter than forecast, new tariff announcements, and an AI and chip sell-off; chipmakers were the weakest group."
+      ],
+      "whatHappened": [
+        "U.S. stocks swung violently on Wednesday. The S&P 500 fell as much as 3.2% early and the Dow dropped about 700 points, and one report had the Nasdaq down 4.6% at its low, with a chipmakers ETF off more than 7% at one point, before buyers returned and indexes recovered most of the loss. Benzinga linked the rebound to the Fed's Beige Book. By the close, per a market table consistent with AP's year-to-date figures, the Dow rose 0.33% to 50,182.95, the S&P 500 fell 0.25% to 7,182.78, the Nasdaq Composite fell 0.62% to 23,585.80 and the small-cap Russell 2000 rose 0.78% to 2,705.84. Sources differ on the Nasdaq close, with one putting the loss near 0.56% and others larger, so the figures are approximate.",
+        "Reports cited three triggers: October PCE inflation, which came in hotter than expected; fresh tariff announcements, which Yahoo Finance described as new 20% tariffs while Fox Business called them proposals, so the details are unconfirmed; and an AI and chip sell-off, led by Nvidia, down about 4.8% by one report. The Nasdaq 100 briefly dipped about 20% below its record close, the threshold for a [[bear market]], per one report. The size of the [[intraday reversal]] is the story: the lows and the close were separated by about four percentage points for the Nasdaq."
+      ],
+      "background": [
+        "The market came into the day after a rotation Tuesday and a record Dell quarter. Chip stocks were already the weak spot. When inflation came in hot and new tariffs were announced in thin pre-holiday trading, the selling hit the most crowded group first, and the move overshot.",
+        "Reversals like this happen when forced selling runs out. Prices fall until buyers who have been waiting step in, and a quick recovery shows how much of the drop was positioning and how much was real repricing."
+      ],
+      "whyItMatters": [
+        "A four-point intraday swing in the Nasdaq says volatility is extreme and liquidity is thin, which is a bad setting for holiday trading. The recovery is encouraging, but a close that leaves the Nasdaq lower on a day it nearly entered a bear market is not an all-clear. With markets closed Thursday and open only until 1 PM Friday, positions will be held through a low-liquidity stretch. Watch whether chip stocks stabilize and whether the December hike expectations push yields higher."
+      ],
+      "marketReaction": [
+        {
+          "asset": "Dow",
+          "move": "+0.33% to 50,182.95",
+          "direction": "up"
+        },
+        {
+          "asset": "S&P 500",
+          "move": "-0.25% to 7,182.78",
+          "direction": "down"
+        },
+        {
+          "asset": "Nasdaq Composite",
+          "move": "about -0.6% to 23,585.80",
+          "direction": "down"
+        },
+        {
+          "asset": "Russell 2000",
+          "move": "+0.78% to 2,705.84",
+          "direction": "up"
+        }
+      ],
+      "grandLine": {
+        "title": "Aqua Laguna",
+        "body": "In Water 7 everyone knows the giant tidal wave Aqua Laguna is coming, and the city still has to evacuate. PCE day is that kind of scheduled wave: everyone knew it was coming, and the market still got soaked. What matters is whether the city is still standing once the water recedes, and by the close it mostly was."
+      },
+      "views": [
+        {
+          "camp": "A capitulation low",
+          "thesis": "A four-point intraday reversal is how selloffs end.",
+          "argument": "Forced selling pushed the Nasdaq to an extreme and buyers took it back by the close, with the Dow and small caps up. That kind of reversal on huge volume often marks a low."
+        },
+        {
+          "camp": "Not over until the holiday passes",
+          "thesis": "A recovery inside a thin, rate-hike market is fragile.",
+          "argument": "Inflation is hot, a December hike is nearly fully priced, tariffs are a new unknown and the AI group is still weak. A day that nearly entered a bear market can repeat."
+        }
+      ],
+      "interview": {
+        "question": "The Nasdaq was down more than 4% at the low and ended down 0.6%. What does that tell you?",
+        "answer": "It tells me the selling was forced and the dip found buyers, which is constructive, but the close was still lower, so I'd not call a low. The drivers, a hot PCE and tariffs, are still there, and a holiday-thin market can swing again. I'd watch whether the chip stocks hold up and how the 10-year yield behaves. What would change my mind is a break back to the lows on rising yields, which says the recovery was a bounce, or a clean hold with falling volatility, which says the low is in.",
+        "followUp": {
+          "question": "What does an intraday reversal like this signal?",
+          "answer": "A strong intraday reversal, a deep drop followed by a recovery near the previous close, often signals that forced sellers have been absorbed. It is not a guarantee, and traders look for follow-through the next sessions."
+        }
+      },
+      "trade": {
+        "idea": "Dow versus Nasdaq-100 relative value",
+        "expression": "Long Dow futures, short Nasdaq-100 futures, sized to equal dollar exposure",
+        "rationale": "The day repeated the pattern of recent sessions: AI-heavy indexes fall harder than the Dow. If the AI sell-off and rate-hike pressure continue, the pair pays.",
+        "risks": [
+          "A sharp AI rebound makes the short leg lose.",
+          "Correlations rise in a sell-off and the spread can swing sharply on a single day."
+        ]
+      },
+      "keyTerms": [
+        {
+          "term": "bear market",
+          "definition": "A fall of 20% or more from a recent peak in an index or asset. A fall of 10% is a correction.",
+          "example": "The Nasdaq 100 briefly dipped about 20% below its record close."
+        },
+        {
+          "term": "intraday reversal",
+          "definition": "A large move in one direction during the session followed by a recovery most of the way back, so the open and close are far from the high or low.",
+          "example": "The Nasdaq went from about -4.6% to about -0.6%."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Thu Nov 26",
+          "what": "US markets closed for Thanksgiving."
+        },
+        {
+          "when": "Fri Nov 27, 1:00 PM ET",
+          "what": "Early close; whether the recovery holds and what Black Friday signals."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Yahoo Finance: Dow erases losses to end positive, S&P 500 and Nasdaq recover ground",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+        },
+        {
+          "name": "Fox Business: Dow turns positive, S&P 500 and Nasdaq led lower by AI stocks",
+          "url": "https://www.foxbusiness.com/markets/stocks-11-25-2026"
+        },
+        {
+          "name": "WRAL (AP): How major US stock indexes fared Wednesday 11/25/2026",
+          "url": "https://www.wral.com/news/ap/94fdb-how-major-us-stock-indexes-fared-wednesday-11-25-2026/"
+        },
+        {
+          "name": "Benzinga: S&P 500 pares losses on Beige Book; tech stocks rebound",
+          "url": "https://benzinga.com/markets/equities/26/11/63652957/sp-500-pares-losses-beige-book-nasdaq-100-retest-tech-stocks-bounce"
+        },
+        {
+          "name": "Chip Dispatch: Nasdaq recovers from 4.6% AI selloff to close near flat",
+          "url": "https://chipdispatch.com/articles/nasdaq-clawed-back-from-4-6-ai-selloff-to-close-near-flat"
+        }
+      ]
+    },
+    {
+      "id": "october-pce-hot-core-3-3-hike-priced-nov-25-2026",
+      "beat": "fed-macro",
+      "headline": "October PCE inflation runs hot, with core at 3.3% against 3.2% expected; a December hike is nearly fully priced",
+      "dek": "Headline PCE rose 0.3% on the month and 3.8% from a year earlier. One report had the market pricing a 98% chance of a quarter-point Fed hike in December.",
+      "importance": 4,
+      "depth": "brief",
+      "developing": false,
+      "publishedAt": "2026-11-25T16:53:00-05:00",
+      "updatedAt": "2026-11-25T16:53:00-05:00",
+      "readMinutes": 1,
+      "tldr": [
+        "The BEA reported October PCE up **0.3%** m/m and **3.8%** y/y; core PCE was **3.3%** y/y against a **3.2%** forecast, per reports.",
+        "One report had the market pricing a **98%** chance of a 25bp December hike; I did not find the revised Q3 GDP."
+      ],
+      "whatHappened": [
+        "The Bureau of Economic Analysis reported on Wednesday that the PCE price index, the Fed's preferred inflation gauge, rose 0.3% in October from September and 3.8% from a year earlier. Core PCE, which excludes food and energy, was 3.3% over the year, above the 3.2% forecast, according to reports. One report said markets priced about a 98% chance of a 25 basis point rate hike by the Fed in December. The report arrived the same day as tariff announcements and an AI sell-off, and stocks swung sharply."
+      ],
+      "whyItMatters": [
+        "A hotter core number confirms the Fed has little room to pause and keeps the debate on whether December is 25 or 50 basis points. For desks, hawkish data pushes front-end yields and the dollar up and weighs on long-duration tech, which is part of why the Nasdaq led the sell-off."
+      ],
+      "sources": [
+        {
+          "name": "Yahoo Finance: Dow erases losses to end positive, S&P 500 and Nasdaq recover ground",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+        },
+        {
+          "name": "Benzinga: Nasdaq 100 drops 2.5% on AI credit fears: stock market today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63643697/stock-market-today-nvidia-ai-credit-fears-sp-500-worst-month-since-2022"
+        },
+        {
+          "name": "Briefs: Nasdaq slides on AI jitters and hot inflation",
+          "url": "https://www.briefs.co/news/nasdaq-plunges-as-ai-jitters-hot-inflation-and-thin-holiday/"
         }
       ]
     }
