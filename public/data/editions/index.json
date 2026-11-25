@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-25-am",
+      "number": 77,
+      "editionType": "am",
+      "publishedAt": "2026-11-25T06:54:00-05:00",
+      "lead": "Dell posts record $54.9 billion revenue and a $132.3 billion AI backlog, and raises its forecast",
+      "stories": 5
+    },
+    {
       "id": "2026-11-24-pm",
       "number": 76,
       "editionType": "pm",

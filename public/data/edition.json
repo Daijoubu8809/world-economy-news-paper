@@ -1,22 +1,22 @@
 {
   "version": 2,
-  "id": "2026-11-24-pm",
-  "number": 76,
-  "editionType": "pm",
-  "publishedAt": "2026-11-24T16:53:00-05:00",
-  "checkedAt": "2026-11-24T16:53:00-05:00",
-  "nextRunAt": "2026-11-25T06:52:00-05:00",
-  "lead": "dow-tops-50000-chips-tumble-nasdaq-falls-nov-24-2026",
-  "frontLayout": "split",
+  "id": "2026-11-25-am",
+  "number": 77,
+  "editionType": "am",
+  "publishedAt": "2026-11-25T06:54:00-05:00",
+  "checkedAt": "2026-11-25T06:54:00-05:00",
+  "nextRunAt": "2026-11-25T16:52:00-05:00",
+  "lead": "dell-record-quarter-ai-backlog-132b-nov-25-2026",
+  "frontLayout": "banner",
   "brief": {
     "bullets": [
-      "**Tuesday's close:** Dow +0.85% to 50,018.70, S&P 500 -0.50% to 7,201.09 (eighth loss in nine sessions), Nasdaq -1.48% to 23,733.54, Russell 2000 +0.6%.",
-      "**Chips:** stocks fell and Yahoo Finance put Nvidia down about 6%, giving back part of Monday's 31% jump.",
-      "**Rotation:** the Dow and small caps rose while AI-linked names fell.",
-      "**Dell:** results were due after the close; I did not find them.",
-      "**This week:** markets close Thursday for Thanksgiving and at 1:00 PM ET on Friday."
+      "**Dell:** record revenue of $54.9 billion, non-GAAP EPS of $9.45 against about $6.59 expected, and a record $132.3 billion AI backlog; full-year revenue guidance rose to $202 billion.",
+      "**Guidance and capital:** AI-server target raised to $78 billion; a $25 billion buyback boost; management flagged power availability as a risk to converting backlog.",
+      "**Data today:** the October PCE inflation report and Q3 GDP are listed for this morning, per Kiplinger; Cleveland Fed nowcasts point to core PCE near 0.3% m/m (an estimate, not data).",
+      "**Tuesday's close:** Dow 50,018.70 (+0.85%), S&P 500 7,201.09 (-0.50%), Nasdaq 23,733.54 (-1.48%).",
+      "**Holiday:** US markets are closed Thursday and close at 1:00 PM ET Friday."
     ],
-    "mood": "Blackbeard's gravity pulls the index down while the Dow floats free; the fleet is rotating, not scattering."
+    "mood": "A second ship in the AI fleet reports full holds, but the cola, meaning power, decides how fast it can sail."
   },
   "tape": {
     "asOf": "Tue close",
@@ -49,17 +49,17 @@
   },
   "storylines": [
     {
-      "id": "nvidia-huang",
-      "title": "Nvidia and Jensen Huang",
-      "line": "Gave back part of Monday's jump Tuesday as chip stocks fell; the board's investigation continues.",
+      "id": "ai-demand",
+      "title": "AI demand read-through",
+      "line": "Dell beat and raised, with a record $132.3 billion AI backlog; the stock reaction was not available.",
       "changed": true,
-      "storyId": "dow-tops-50000-chips-tumble-nasdaq-falls-nov-24-2026"
+      "storyId": "dell-record-quarter-ai-backlog-132b-nov-25-2026"
     },
     {
-      "id": "market-selloff",
-      "title": "The market selloff",
-      "line": "A rotation day: Dow above 50,000, Nasdaq -1.5%; S&P 500 about 7.9% below its record.",
-      "changed": true,
+      "id": "nvidia-huang",
+      "title": "Nvidia and Jensen Huang",
+      "line": "No change: gave back part of Monday's jump Tuesday; the board's investigation continues.",
+      "changed": false,
       "storyId": "dow-tops-50000-chips-tumble-nasdaq-falls-nov-24-2026"
     },
     {
@@ -72,30 +72,30 @@
     {
       "id": "anthropic-ipo",
       "title": "Anthropic's IPO",
-      "line": "No verified update: recent closes not found; Thursday close $97.17.",
+      "line": "No verified update: recent closes were not found; Thursday close $97.17.",
       "changed": false
     },
     {
       "id": "fed-december",
       "title": "The Fed's December decision",
-      "line": "No change: a quarter-point hike was priced as near-certain after the minutes.",
+      "line": "October PCE inflation is due today; a quarter-point December hike was priced as near-certain.",
       "changed": false
     }
   ],
   "feature": {
-    "kind": "explainer",
-    "date": "2026-11-24",
-    "title": "Desk school: why a stock can jump 31% in a day, and what short covering is",
+    "kind": "debate",
+    "date": "2026-11-25",
+    "title": "The debate: is the AI backlog a promise or a bubble?",
     "body": [
-      "A stock rises 31% in a day when buying overwhelms selling. Part of that is new buyers who think the news is good. Part is short covering: investors who sold borrowed shares, betting on a decline, must buy shares back to close the position. If the stock rises, their losses grow and some are forced to buy, which pushes the price higher still.",
-      "That is why big one-day gains after bad news often come with outsized volume and quick giveback. The stock had fallen on the CEO's exit and the reported probe, so many traders were short or hedged. When the board reversed, covering and fresh buying hit at once. Once the forced buyers are done, the price can fade a little, which is why a 3% premarket pullback is normal and not a verdict.",
-      "In an interview, the point is to separate the headline from the flow. Say that you would watch volume, whether the stock holds its opening gap, and whether the move spreads to related stocks. A move that holds for several sessions with broad participation is information; a one-day spike that fades is positioning."
+      "**The case that it's real.** Dell booked $60.2 billion of AI orders in one quarter and ended with a $132.3 billion backlog, a number that did not exist two years ago. Nvidia guided to $130 billion for next quarter. Customers have not rescheduled orders, and both companies raised their forecasts. The bulls say hard orders from the biggest buyers are not hype.",
+      "**The case that it's a bubble.** A backlog is orders, not cash. Management said power availability could limit how fast it converts, and data centers need power, land and financing that are scarce. Skeptics also note how much of the AI spending is circular, with the same companies buying and funding each other, and how the stocks fell 8% to 10% in a week even on good news.",
+      "**How to say it in an interview.** 'The backlog proves demand today; the question is conversion and financing. I'd watch power availability, hyperscaler capex and whether the stocks hold their gains on good news.' Pick the camp you believe and say what would change your mind."
     ]
   },
   "numberOfDay": {
-    "value": "50,018.70",
-    "label": "The Dow's close on Tuesday, up 0.85%, while the Nasdaq fell 1.48%",
-    "why": "The price-weighted Dow has fewer AI names, so it rose as chip stocks fell."
+    "value": "$132.3B",
+    "label": "Dell's record AI backlog after booking $60.2 billion of orders in the quarter",
+    "why": "The backlog is orders not yet delivered; management flagged power availability as a risk to converting it into sales."
   },
   "calendar": [
     {
@@ -172,107 +172,6 @@
         {
           "name": "Crowdfund Insider: SEC opens inquiry into Nvidia's disclosures following Jensen Huang's exit",
           "url": "https://www.crowdfundinsider.com/?p=323680"
-        }
-      ]
-    },
-    {
-      "id": "futures-bounce-asia-braces-ai-wipeout-nov-23-2026",
-      "beat": "markets",
-      "headline": "US stock futures bounce after the AI rout as Asia braces for losses and Japan sits out a holiday",
-      "dek": "Nasdaq 100 futures rose about 2% early Monday and S&P 500 futures 1% to 2%, reports differ. Asian authorities reportedly stepped in to steady markets.",
-      "importance": 4,
-      "depth": "full",
-      "developing": true,
-      "publishedAt": "2026-11-23T06:53:00-05:00",
-      "updatedAt": "2026-11-23T06:53:00-05:00",
-      "readMinutes": 3,
-      "tldr": [
-        "Early Monday, Nasdaq 100 futures were up about **2%** and S&P 500 futures about **1% to 2%**, depending on the report, after Friday's rout.",
-        "Japan's markets were closed for a holiday after the Nikkei fell **5.1%** on Friday; Hang Seng futures pointed lower.",
-        "One report says China cut its margin requirement, state funds bought record ETFs and South Korea readied a market stabilization fund."
-      ],
-      "whatHappened": [
-        "U.S. stock [[futures]] rebounded early Monday after the sell-off that took the S&P 500 down 8.6% last week. The Star reported that Nasdaq 100 futures rose about 2% and S&P 500 futures about 1%; a second report put the S&P 500 futures gain nearer 2%, so the size of the bounce differs by source. Both tie it to Friday's rout in AI-related shares.",
-        "In Asia, Japanese markets were closed on Monday for a public holiday after the Nikkei 225 fell 5.1% on Friday, and Hang Seng futures pointed lower. One report said Chinese authorities cut the margin requirement and state funds bought a record amount of ETFs, and that South Korea prepared a market stabilization fund; I could not confirm these from a second outlet. The same report said the Nasdaq's 10% weekly drop was its steepest since March 2020."
-      ],
-      "background": [
-        "A futures bounce after a sharp drop is common because positioning is light and sellers pause over a weekend. It is only a signal about the open, not the close: the gain has to survive the first hour and the rest of the day.",
-        "The Asian policy steps matter for sentiment. When authorities in China and South Korea step in to steady markets, it is a sign they see the drop as disorderly, which can help stop a spiral in their own markets, though it does not fix the underlying AI worries."
-      ],
-      "whyItMatters": [
-        "This is the first session after the worst week in 18 months, so the open decides the tone for a short holiday week. A bounce that holds and comes with falling volatility would support the case for stabilization. A bounce that fades by midday would look like a [[dead-cat bounce]] and point to more selling into Thanksgiving."
-      ],
-      "marketReaction": [
-        {
-          "asset": "Nasdaq 100 futures",
-          "move": "about +2% (early)",
-          "direction": "up"
-        },
-        {
-          "asset": "S&P 500 futures",
-          "move": "+1% to +2% (reports differ)",
-          "direction": "up"
-        },
-        {
-          "asset": "Nikkei 225 (Fri)",
-          "move": "-5.1%",
-          "direction": "down"
-        }
-      ],
-      "grandLine": {
-        "title": "Knock Up Stream",
-        "body": "Knock Up Stream is a violent upward geyser at Jaya: the Going Merry rode it to Skypiea, but with bad timing the ship is destroyed. A sudden overnight gap up is like that. It can launch a rebound, but the timing has to be right, and it can wreck anyone who chases it at the top."
-      },
-      "views": [
-        {
-          "camp": "Stabilization is starting",
-          "thesis": "The bounce plus policy support in Asia marks an exhaustion of selling.",
-          "argument": "After seven straight S&P 500 losses and a 10% Nasdaq week, positioning is light, authorities are stepping in, and good earnings from Nvidia haven't changed. A broad rebound with falling volatility would confirm it."
-        },
-        {
-          "camp": "Dead-cat bounce",
-          "thesis": "Overnight gaps in a downtrend usually fade.",
-          "argument": "The drivers are still there: the Fed is tightening, Nvidia faces an SEC probe report, and AI spending doubts remain. A bounce into a thin holiday week can fail quickly."
-        }
-      ],
-      "interview": {
-        "question": "US futures are up about 2% after the worst week in 18 months. Do you buy the open?",
-        "answer": "I'd wait for the first hour. A futures bounce after a drop like this is expected, so the information is in whether it holds as cash markets open and whether volatility falls with it. I'd watch breadth, the VIX and Nvidia. What would change my mind is a sustained hold of the gains with broad participation, which says stabilization, or a fade to the lows by midday, which says the bounce was only positioning.",
-        "followUp": {
-          "question": "What is a dead-cat bounce?",
-          "answer": "A short recovery in a falling market that fails and is followed by new lows. The name comes from the idea that even a dead cat will bounce if it falls from a great height."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "futures",
-          "definition": "Contracts that track an index's expected level; they trade nearly around the clock and are used as an early read before the stock market opens.",
-          "example": "Nasdaq 100 futures were up about 2% early Monday."
-        },
-        {
-          "term": "dead-cat bounce",
-          "definition": "A brief recovery in a falling market that fails, after which prices make new lows.",
-          "example": "Traders will test whether Monday's gap up holds or fades."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Mon Nov 23, 9:30 AM ET",
-          "what": "Whether the futures gains hold through the open and the first hour."
-        },
-        {
-          "when": "Tue Nov 24",
-          "what": "Dell earnings, per one preview, for AI-server demand."
-        }
-      ],
-      "sources": [
-        {
-          "name": "The Star: US futures bounce while Asia markets brace for AI wipeout",
-          "url": "https://www.thestar.com.my/business/business-news/2026/11/23/us-futures-bounce-while-asia-markets-brace-for-ai-wipeout"
-        },
-        {
-          "name": "GFX FTS: Nasdaq futures rebound as Asia props up stocks",
-          "url": "https://gfxfts.substack.com/p/nasdaq-futures-rebound-as-asia-props"
         }
       ]
     },
@@ -638,6 +537,98 @@
         {
           "name": "24/7 Wall St.: S&P 500 drops 0.53% while the Dow closes above 50,000",
           "url": "https://247wallst.com/cards/the-dow-closed-above-50-000-for-the-first-time-while-the-nas-gspc-market-bell-01m87nyn7mshvn15b2vdser41w"
+        }
+      ]
+    },
+    {
+      "id": "dell-record-quarter-ai-backlog-132b-nov-25-2026",
+      "beat": "markets",
+      "headline": "Dell posts record $54.9 billion revenue and a $132.3 billion AI backlog, and raises its forecast",
+      "dek": "Adjusted EPS of $9.45 beat estimates near $6.59; Dell lifted its full-year revenue guide to $202 billion and its AI-server target to $78 billion. The stock's reaction was not available.",
+      "importance": 4,
+      "depth": "full",
+      "developing": true,
+      "publishedAt": "2026-11-25T06:54:00-05:00",
+      "updatedAt": "2026-11-25T06:54:00-05:00",
+      "readMinutes": 4,
+      "tldr": [
+        "Third-quarter revenue was **$54.9 billion**, up 103%, with non-GAAP EPS of **$9.45** against about $6.59 expected, per Dell's results and CNBC.",
+        "AI backlog hit a record **$132.3 billion** after **$60.2 billion** of new orders; AI-server revenue was $22.0 billion, up 291%.",
+        "Full-year revenue guidance rose to **$202 billion** from $192 billion, the AI-server target to **$78 billion**, and Dell added a $25 billion buyback."
+      ],
+      "whatHappened": [
+        "Dell Technologies reported fiscal third-quarter results on Tuesday after the close. Revenue was $54.9 billion, up 103% from a year earlier, and non-GAAP earnings per share were $9.45 against roughly $6.59 expected, according to Dell's release and market coverage. The company ended the quarter with a record $132.3 billion AI [[backlog]] after booking $60.2 billion of orders in the quarter, and AI-optimized server revenue was $22.0 billion, up 291%.",
+        "Dell raised its full-year fiscal 2027 revenue forecast to $202.0 billion from $192.0 billion and its AI-server revenue target to $78 billion. It guided the fourth quarter to about $56.3 billion of revenue and $8.40 of EPS, and CNBC's headline said it also boosted its share [[buyback]] by $25 billion. Management said no customers have rescheduled orders so far, but flagged data-center readiness, including power availability, as a risk to how fast the backlog converts into sales. I did not find the stock's after-hours or premarket move."
+      ],
+      "background": [
+        "Dell is a read-through on AI spending because it assembles the servers that carry Nvidia's chips for corporate and cloud customers. Its backlog is orders already placed but not yet delivered, so a rising backlog says demand is running ahead of what the supply chain can ship.",
+        "That makes Dell a useful second opinion after Nvidia. Nvidia's own results showed demand is huge; Dell shows it flowing through to systems makers. Both rely on customers building data centers fast enough, which is why power and facilities are the constraint management named."
+      ],
+      "whyItMatters": [
+        "A record backlog and a raised outlook support the case that AI demand is intact, which matters after a week when AI stocks swung 30% in a day and then slid. It could steady the chip group before the holiday. The risk is conversion: backlog only becomes revenue if customers can power and house the machines, and a single quarter does not settle that."
+      ],
+      "grandLine": {
+        "title": "A Coup de Burst needs cola",
+        "body": "The Thousand Sunny's Coup de Burst is a huge jump that burns barrels of cola; it is powerful, expensive and cannot be done all the time. Dell's $132 billion backlog is the ship ready to jump, and power availability is the cola supply. The jump only happens if the fuel is there."
+      },
+      "views": [
+        {
+          "camp": "Demand is durable",
+          "thesis": "A rising backlog and a higher forecast confirm the AI build-out.",
+          "argument": "Orders of $60.2 billion in a quarter, no rescheduling and a $78 billion AI-server target say demand still outruns supply. A second big hardware company beating by this margin supports the group."
+        },
+        {
+          "camp": "Conversion and financing risk",
+          "thesis": "Backlog is a promise, not revenue.",
+          "argument": "Management itself flagged power availability, and a $25 billion buyback can signal confidence or a lack of better uses of cash. If customers slow data-center builds, the backlog can stall."
+        }
+      ],
+      "interview": {
+        "question": "Dell beat by a wide margin and raised guidance. Does it change your view on AI stocks?",
+        "answer": "It helps the demand argument, because a second company in the chain shows orders turning into revenue and a higher forecast. But I'd focus on conversion: the backlog only matters if customers can power and house the servers, and management flagged that risk itself. I'd watch how the stock trades after the first reaction and what happens to Nvidia and the chip group. What would change my mind is a pushout of orders or a cut to the AI-server target, which would say the build-out is slowing.",
+        "followUp": {
+          "question": "What does a rising backlog tell you?",
+          "answer": "It tells you orders are growing faster than shipments, so demand exceeds delivery capacity. It is good for future revenue but depends on supply, power and customer financing to convert."
+        }
+      },
+      "keyTerms": [
+        {
+          "term": "backlog",
+          "definition": "The value of orders a company has received but not yet delivered. A rising backlog means future revenue is already booked, if the orders convert.",
+          "example": "Dell's AI backlog was $132.3 billion."
+        },
+        {
+          "term": "buyback",
+          "definition": "A company repurchasing its own shares, which reduces the share count and returns cash to shareholders.",
+          "example": "CNBC's headline said Dell boosted its buyback by $25 billion."
+        }
+      ],
+      "watchNext": [
+        {
+          "when": "Wed Nov 25, 9:30 AM ET",
+          "what": "Dell's stock reaction and whether chip stocks stabilize."
+        },
+        {
+          "when": "Wed Nov 25, 8:30 AM ET",
+          "what": "October PCE inflation and Q3 GDP, per Kiplinger's preview; jobless claims come a day early."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Dell Technologies: Delivers third quarter fiscal 2027 financial results",
+          "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results"
+        },
+        {
+          "name": "CNBC: Dell earnings report Q3 2027",
+          "url": "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html"
+        },
+        {
+          "name": "Investing.com: Dell Q3 FY27 slides: revenue doubles, AI backlog hits $132B",
+          "url": "https://www.investing.com/news/company-news/dell-q3-fy27-slides-revenue-doubles-ai-backlog-hits-132b-93CH-5049313"
+        },
+        {
+          "name": "24/7 Wall St.: Dell Technologies Q3 2027: a 44% EPS beat backed by a $132B AI backlog",
+          "url": "https://247wallst.com/cards/dell-technologies-q3-2027-earnings-dell-01m87pfs2c9c73wyprgqr5d02e"
         }
       ]
     }
