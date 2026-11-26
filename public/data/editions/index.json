@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-26-am",
+      "number": 79,
+      "editionType": "am",
+      "publishedAt": "2026-11-26T06:53:00-05:00",
+      "lead": "October PCE inflation runs hot, with core at 3.3% against 3.2% expected; a December hike is nearly fully priced",
+      "stories": 4
+    },
+    {
       "id": "2026-11-25-pm",
       "number": 78,
       "editionType": "pm",

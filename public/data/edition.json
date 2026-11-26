@@ -1,22 +1,22 @@
 {
   "version": 2,
-  "id": "2026-11-25-pm",
-  "number": 78,
-  "editionType": "pm",
-  "publishedAt": "2026-11-25T16:53:00-05:00",
-  "checkedAt": "2026-11-25T16:53:00-05:00",
-  "nextRunAt": "2026-11-26T06:52:00-05:00",
-  "lead": "stocks-violent-reversal-nasdaq-4pct-low-recovers-nov-25-2026",
-  "frontLayout": "banner",
+  "id": "2026-11-26-am",
+  "number": 79,
+  "editionType": "am",
+  "publishedAt": "2026-11-26T06:53:00-05:00",
+  "checkedAt": "2026-11-26T06:53:00-05:00",
+  "nextRunAt": "2026-11-26T16:52:00-05:00",
+  "lead": "october-pce-hot-core-3-3-hike-priced-nov-25-2026",
+  "frontLayout": "split",
   "brief": {
     "bullets": [
-      "**Reversal:** the S&P 500 fell as much as 3.2% and one report had the Nasdaq down 4.6% at the low, before a recovery; the Nasdaq 100 briefly neared bear-market territory.",
-      "**Close:** Dow +0.33% to 50,182.95, S&P 500 -0.25% to 7,182.78, Nasdaq about -0.6% to 23,585.80, Russell 2000 +0.78%.",
-      "**Inflation:** October PCE rose 3.8% y/y with core at 3.3% against 3.2% expected; one report priced a 98% chance of a December hike.",
-      "**Tariffs:** reports describe new 20% tariff announcements; Fox Business called them proposals, so details are unconfirmed.",
-      "**Holiday:** US markets are closed Thursday and close at 1:00 PM ET Friday."
+      "**Holiday:** US markets are closed today for Thanksgiving and close at 1:00 PM ET on Friday; I found no overnight coverage for today.",
+      "**Wednesday's close:** Dow +0.33% to 50,182.95, S&P 500 -0.25% to 7,182.78, Nasdaq about -0.6% to 23,585.80 after the Nasdaq fell more than 4% at its low.",
+      "**Inflation:** October PCE rose 3.8% y/y with core at 3.3% against 3.2% expected; one report priced a 98% chance of a quarter-point December hike.",
+      "**Tariffs:** I could not confirm the details of the tariff announcements that reports cited Wednesday; treat them as unconfirmed.",
+      "**Sunday:** OPEC+ meets on Nov. 29."
     ],
-    "mood": "Aqua Laguna hit on schedule: PCE day soaked the fleet, and by the close the city was mostly still standing."
+    "mood": "The fleet is anchored for the holiday: Aqua Laguna passed, and the next current arrives Friday at 1 PM."
   },
   "tape": {
     "asOf": "Wed close",
@@ -49,18 +49,24 @@
   },
   "storylines": [
     {
-      "id": "market-selloff",
-      "title": "The market selloff",
-      "line": "Wednesday's reversal: Nasdaq -4.6% at the low, about -0.6% at the close; Dow and small caps up.",
-      "changed": true,
-      "storyId": "stocks-violent-reversal-nasdaq-4pct-low-recovers-nov-25-2026"
-    },
-    {
       "id": "fed-december",
       "title": "The Fed's December decision",
       "line": "October PCE ran hot; one report priced a 98% chance of a 25bp December hike.",
-      "changed": true,
+      "changed": false,
       "storyId": "october-pce-hot-core-3-3-hike-priced-nov-25-2026"
+    },
+    {
+      "id": "market-selloff",
+      "title": "The market selloff",
+      "line": "Wednesday's reversal: Nasdaq -4.6% at the low, about -0.6% at the close; markets are closed today.",
+      "changed": false,
+      "storyId": "stocks-violent-reversal-nasdaq-4pct-low-recovers-nov-25-2026"
+    },
+    {
+      "id": "tariffs-nov",
+      "title": "New tariff announcements",
+      "line": "Reports cited new tariffs Wednesday, one describing 20%; I could not confirm details.",
+      "changed": true
     },
     {
       "id": "ai-demand",
@@ -70,12 +76,6 @@
       "storyId": "dell-record-quarter-ai-backlog-132b-nov-25-2026"
     },
     {
-      "id": "nvidia-huang",
-      "title": "Nvidia and Jensen Huang",
-      "line": "Nvidia fell about 4.8% Wednesday by one report; the board's investigation continues.",
-      "changed": true
-    },
-    {
       "id": "anthropic-ipo",
       "title": "Anthropic's IPO",
       "line": "No verified update: recent closes were not found; Thursday close $97.17.",
@@ -83,19 +83,19 @@
     }
   ],
   "feature": {
-    "kind": "debate",
-    "date": "2026-11-25",
-    "title": "The debate: is the AI backlog a promise or a bubble?",
+    "kind": "sector-spotlight",
+    "date": "2026-11-26",
+    "title": "Sector spotlight: how to read the energy sector",
     "body": [
-      "**The case that it's real.** Dell booked $60.2 billion of AI orders in one quarter and ended with a $132.3 billion backlog, a number that did not exist two years ago. Nvidia guided to $130 billion for next quarter. Customers have not rescheduled orders, and both companies raised their forecasts. The bulls say hard orders from the biggest buyers are not hype.",
-      "**The case that it's a bubble.** A backlog is orders, not cash. Management said power availability could limit how fast it converts, and data centers need power, land and financing that are scarce. Skeptics also note how much of the AI spending is circular, with the same companies buying and funding each other, and how the stocks fell 8% to 10% in a week even on good news.",
-      "**How to say it in an interview.** 'The backlog proves demand today; the question is conversion and financing. I'd watch power availability, hyperscaler capex and whether the stocks hold their gains on good news.' Pick the camp you believe and say what would change your mind."
+      "Energy is the part of the market that makes and moves oil, gas, power and fuels. It splits into pieces that respond differently: producers earn more when prices rise, refiners earn the spread between crude and the products they sell, pipelines and terminals earn fees on volume, and oilfield service firms depend on drilling budgets. That is why one headline can push producers up and refiners or airlines down.",
+      "Four things do most of the work. Inventories show whether supply exceeds demand. The shape of the futures curve tells you about tightness: backwardation, with near prices above later ones, means buyers are paying up for oil now. The crack spread, the gap between crude and gasoline or diesel prices, drives refining profits. And OPEC+ decisions, such as this Sunday's meeting, set a big part of supply. Geopolitics, such as shipping through the Strait of Hormuz, adds a risk premium on top.",
+      "In an interview, tie the pieces to a view: 'Oil is a supply story right now, so I'd watch inventories, the curve and OPEC+ output, and I'd separate producers from refiners because they respond differently.' I could not verify current oil prices this week, so this is a framework, not a call."
     ]
   },
   "numberOfDay": {
-    "value": "4.6%",
-    "label": "The Nasdaq's reported drop at Wednesday's low, before it recovered to about -0.6%",
-    "why": "The size of the intraday swing, about four points, is the story; one source differs on the exact figures."
+    "value": "1 PM",
+    "label": "ET close for US stocks on Friday, after Thursday's Thanksgiving closure",
+    "why": "Thin, shortened trading after a day when the Nasdaq swung about four points; Black Friday gives a first read on holiday spending."
   },
   "calendar": [
     {
@@ -132,120 +132,6 @@
     }
   ],
   "stories": [
-    {
-      "id": "asia-rallies-us-futures-slip-nvidia-pullback-nov-24-2026",
-      "beat": "markets",
-      "headline": "Asian stocks rally on Huang's Nvidia return while US futures slip as Nvidia gives back part of its jump",
-      "dek": "Seoul and Tokyo led gains, with chip-linked markets strongest. Nvidia was down about 3% premarket after Monday's 31% surge; futures were flat to slightly lower.",
-      "importance": 4,
-      "depth": "full",
-      "developing": true,
-      "publishedAt": "2026-11-24T06:53:00-05:00",
-      "updatedAt": "2026-11-24T06:53:00-05:00",
-      "readMinutes": 4,
-      "tldr": [
-        "Asian stocks rallied, led by chip markets: the **Kospi rose about 6.5% to 7%**, depending on the report, and Japan's **Nikkei rose 3.9%** to 58,654.40.",
-        "US futures were mixed to slightly lower, and CNBC's blog says they gave back part of Monday's rally; Nvidia fell about **3%** premarket after surging about 31.5% Monday.",
-        "Chinese shares made only small gains on worries that tighter US chip-export curbs are in the works."
-      ],
-      "whatHappened": [
-        "Asian markets followed Wall Street's Monday rally. The Kospi in Seoul rose about 6.5% to 5,014.41 in one report and more than 7% in another, Taiwan was up sharply, and Japan's Nikkei 225 rose 3.9% to 58,654.40, according to Yahoo Finance, Business Recorder and Asharq Al-Awsat; the figures differ by outlet and are early readings. Chinese shares gained only modestly because of concerns that tighter curbs on exports of US chips are being prepared.",
-        "In the US, [[futures]] were mixed early Tuesday: one report had S&P 500 and Nasdaq futures up 0.25%, another had the S&P flat and Nasdaq down 0.2%, and CNBC's blog said futures fell as Nvidia pulled back. Nvidia, which jumped about 31.5% on Monday for its biggest one-day percentage gain in 23 years, was down about 3% in [[premarket]] trading."
-      ],
-      "background": [
-        "After a one-day gain this large, some giveback is normal as traders who bought the headline take profits and the market asks whether the move has [[follow-through]]. A pullback of 3% on a 31% day would still leave most of the gain intact, so the question is whether buyers return on weakness.",
-        "Asia matters for the story because chip supply chains run through Korea, Taiwan and Japan, so their markets react most strongly to Nvidia and AI news. The China caution is a reminder that export-control risk is a separate driver from Nvidia's leadership."
-      ],
-      "whyItMatters": [
-        "Today shows whether Monday's rally was the start of a recovery or a one-day relief. If Nvidia holds most of its gain and breadth stays strong into a holiday-shortened week, the correction is likely over for now; if the gains fade through the session, Monday will look like a short-covering spike. Dell's results after the close add the AI-server demand read."
-      ],
-      "marketReaction": [
-        {
-          "asset": "Nikkei 225",
-          "move": "+3.9% to 58,654.40",
-          "direction": "up"
-        },
-        {
-          "asset": "Kospi",
-          "move": "about +6.5% to +7%",
-          "direction": "up"
-        },
-        {
-          "asset": "Nvidia premarket",
-          "move": "about -3%",
-          "direction": "down"
-        }
-      ],
-      "grandLine": {
-        "title": "Nami reads the sky",
-        "body": "Nami commits to a heading only after reading small signs others miss. A 3% premarket giveback after a 31% day is that kind of small sign: not a storm, but a clue about whether the wind behind the rally is steady. A good navigator waits for a second reading before changing course."
-      },
-      "views": [
-        {
-          "camp": "The recovery has begun",
-          "thesis": "The rally broadened beyond one stock and Asia confirmed it.",
-          "argument": "Seoul, Tokyo and Taiwan rallied hard, and a small pullback in Nvidia is healthy after a record one-day gain. With the leadership risk removed, buyers should return on dips."
-        },
-        {
-          "camp": "One-day relief that fades",
-          "thesis": "Overnight giveback after a spike is how bear-market rallies behave.",
-          "argument": "The fundamental pressures remain: a hawkish Fed, an open board investigation, a reported SEC probe and chip-export risk. The first sign of fading is the premarket drop."
-        }
-      ],
-      "interview": {
-        "question": "Nvidia jumped 31.5% on Monday and is down 3% premarket. What do you do?",
-        "answer": "I'd treat the 3% as normal digestion, not a verdict. After a record one-day gain the stock is going to be volatile, so I'd wait for the first hour and look at volume and whether the pullback finds buyers. I'd keep size small. What would change my mind is a break back through Monday's open, which would say the rally has no follow-through, or a hold above it into the close, which would say it does.",
-        "followUp": {
-          "question": "Why did the Kospi move more than the Nikkei?",
-          "answer": "Korea's market is heavily weighted to chipmakers and memory suppliers in the AI supply chain, so it has higher beta to Nvidia news. A 6% to 7% move there and 3.9% in Japan reflects that exposure."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "futures",
-          "definition": "Contracts that track an index's expected level; they trade nearly around the clock and are used as an early read before the stock market opens.",
-          "example": "S&P 500 futures were flat to slightly lower early Tuesday."
-        },
-        {
-          "term": "premarket",
-          "definition": "Trading in a stock before the regular session opens at 9:30 AM ET. Prices can be thin and volatile but show early sentiment.",
-          "example": "Nvidia was down about 3% premarket after Monday's surge."
-        },
-        {
-          "term": "follow-through",
-          "definition": "When a move continues in the following sessions, confirming that it was more than a one-day reaction.",
-          "example": "Traders want to see Monday's rally hold today."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Tue Nov 24, 9:30 AM ET",
-          "what": "Whether Nvidia holds most of Monday's gain at the open."
-        },
-        {
-          "when": "Tue Nov 24, after the close",
-          "what": "Dell's results; consensus per one preview was about $50.6 billion of revenue."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Yahoo Finance: Asian stocks rally as Huang's return to Nvidia revives the AI trade",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-rally-huangs-nvidia-013042563.html"
-        },
-        {
-          "name": "Business Recorder: Asian stocks rally as Huang's Nvidia return revives AI trade",
-          "url": "https://www.brecorder.com/news/40450475/asian-stocks-rally-as-huangs-nvidia-return-revives-ai-trade?v=RP_5T6SgF5N4SmEDrNG5rwSw"
-        },
-        {
-          "name": "CNBC: Stock futures decline as Nvidia pulls back, giving back part of Monday's rally",
-          "url": "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html"
-        },
-        {
-          "name": "Yahoo Finance: US stock futures tick higher after Nvidia-led Wall Street rally",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-steady-nvidia-004836470.html"
-        }
-      ]
-    },
     {
       "id": "dow-tops-50000-chips-tumble-nasdaq-falls-nov-24-2026",
       "beat": "markets",
