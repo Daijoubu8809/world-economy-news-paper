@@ -1,84 +1,53 @@
 {
   "version": 2,
-  "id": "2026-11-27-am",
-  "number": 80,
-  "editionType": "am",
-  "publishedAt": "2026-11-27T06:53:00-05:00",
-  "checkedAt": "2026-11-27T06:53:00-05:00",
-  "nextRunAt": "2026-11-27T16:52:00-05:00",
+  "id": "2026-11-27-pm",
+  "number": 81,
+  "editionType": "pm",
+  "publishedAt": "2026-11-27T16:56:00-05:00",
+  "checkedAt": "2026-11-27T16:56:00-05:00",
+  "nextRunAt": "2026-11-28T11:52:00-05:00",
   "lead": "futures-jump-after-thanksgiving-ai-rebound-nov-27-2026",
-  "frontLayout": "banner",
+  "frontLayout": "split",
   "brief": {
     "bullets": [
-      "**Futures:** Nasdaq-100 futures were up about 2.7% to 2.9% and S&P 500 futures about 1.8% to 2% before the open; Nvidia rose nearly 4% and Micron about 6% premarket.",
-      "**Asia:** the Kospi rose more than 2% on SK Hynix and Samsung and the Nikkei about 1.9%; Taiwan's Taiex slipped 0.3%.",
-      "**Nvidia:** one report says S&P Global Ratings put its AA rating on negative watch over governance concerns; I could not confirm it.",
-      "**Early close:** US stocks close at 1:00 PM ET and bonds at 2:00 PM; Black Friday is the first read on holiday spending.",
-      "**Sunday:** OPEC+ meets on Nov. 29."
+      "**Close:** the Dow was reported up about 1.2% in the half-day, led by chips; I could not verify final S&P 500 or Nasdaq levels.",
+      "**Correction:** no S&P Global watch on Nvidia was found; the verified action is Moody's (Aa1 affirmed, outlook stable).",
+      "**Sunday:** OPEC+ meets on Nov. 29.",
+      "**Monday:** full sessions resume, the first real test of this rally."
     ],
-    "mood": "The Log Pose is still settling: a big gap up on a half-day, and the needle won't point until Monday."
-  },
-  "tape": {
-    "asOf": "Wed close",
-    "items": [
-      {
-        "label": "S&P 500",
-        "value": "7,182.78",
-        "change": "-0.2%",
-        "direction": "down"
-      },
-      {
-        "label": "Nasdaq",
-        "value": "23,585.80",
-        "change": "-0.6%",
-        "direction": "down"
-      },
-      {
-        "label": "Dow",
-        "value": "50,182.95",
-        "change": "+0.3%",
-        "direction": "up"
-      },
-      {
-        "label": "Russell 2000",
-        "value": "2,705.84",
-        "change": "+0.8%",
-        "direction": "up"
-      }
-    ]
+    "mood": "The needle is pointing up after a half-day, but a thin-volume rally is not a full-crew voyage."
   },
   "storylines": [
     {
       "id": "market-selloff",
       "title": "The market selloff",
-      "line": "Futures jumped about 2% to 3% after Wednesday's reversal; today is a shortened session.",
+      "line": "The rebound carried into the Black Friday half-day; Monday's full session is the test.",
       "changed": true,
       "storyId": "futures-jump-after-thanksgiving-ai-rebound-nov-27-2026"
     },
     {
       "id": "nvidia-rating",
       "title": "Nvidia's governance questions",
-      "line": "One report says S&P Global Ratings put its AA rating on negative watch; unconfirmed. Premarket +4%.",
+      "line": "Corrected: Moody's affirmed Aa1 and cut the outlook to stable; no S&P action found.",
       "changed": true,
-      "storyId": "futures-jump-after-thanksgiving-ai-rebound-nov-27-2026"
+      "storyId": "nvidia-moodys-aa1-outlook-stable-nov-27-2026"
     },
     {
       "id": "fed-december",
       "title": "The Fed's December decision",
-      "line": "No change: PCE ran hot; one report priced a 98% chance of a 25bp December hike.",
-      "changed": false,
-      "storyId": "october-pce-hot-core-3-3-hike-priced-nov-25-2026"
+      "line": "No change: PCE ran hot; the next signal is the Dec. 8-9 meeting.",
+      "changed": false
     },
     {
       "id": "tariffs-nov",
       "title": "New tariff announcements",
-      "line": "Still unconfirmed: reports cited new tariffs Wednesday; I found no details.",
+      "line": "Still unconfirmed; I found no details.",
       "changed": false
     },
     {
       "id": "anthropic-ipo",
       "title": "Anthropic's IPO",
-      "line": "No verified update: recent closes were not found; Thursday close $97.17.",
+      "line": "No verified update since the last edition.",
       "changed": false
     }
   ],
@@ -145,9 +114,9 @@
     ]
   },
   "numberOfDay": {
-    "value": "2.7%",
-    "label": "Nasdaq-100 futures' premarket gain on Friday, per one report (2.9% by another)",
-    "why": "The jump follows Wednesday's four-point intraday swing, in a half-day session with thin volume."
+    "value": "50,182.95",
+    "label": "The Dow's Wednesday close, the base for Friday's reported 1.2% gain",
+    "why": "Thursday was a holiday, so Friday's half-day gain is measured from Wednesday's close."
   },
   "calendar": [
     {
@@ -185,279 +154,25 @@
   ],
   "stories": [
     {
-      "id": "dell-record-quarter-ai-backlog-132b-nov-25-2026",
-      "beat": "markets",
-      "headline": "Dell posts record $54.9 billion revenue and a $132.3 billion AI backlog, and raises its forecast",
-      "dek": "Adjusted EPS of $9.45 beat estimates near $6.59; Dell lifted its full-year revenue guide to $202 billion and its AI-server target to $78 billion. The stock's reaction was not available.",
-      "importance": 4,
-      "depth": "full",
-      "developing": true,
-      "publishedAt": "2026-11-25T06:54:00-05:00",
-      "updatedAt": "2026-11-25T06:54:00-05:00",
-      "readMinutes": 4,
-      "tldr": [
-        "Third-quarter revenue was **$54.9 billion**, up 103%, with non-GAAP EPS of **$9.45** against about $6.59 expected, per Dell's results and CNBC.",
-        "AI backlog hit a record **$132.3 billion** after **$60.2 billion** of new orders; AI-server revenue was $22.0 billion, up 291%.",
-        "Full-year revenue guidance rose to **$202 billion** from $192 billion, the AI-server target to **$78 billion**, and Dell added a $25 billion buyback."
-      ],
-      "whatHappened": [
-        "Dell Technologies reported fiscal third-quarter results on Tuesday after the close. Revenue was $54.9 billion, up 103% from a year earlier, and non-GAAP earnings per share were $9.45 against roughly $6.59 expected, according to Dell's release and market coverage. The company ended the quarter with a record $132.3 billion AI [[backlog]] after booking $60.2 billion of orders in the quarter, and AI-optimized server revenue was $22.0 billion, up 291%.",
-        "Dell raised its full-year fiscal 2027 revenue forecast to $202.0 billion from $192.0 billion and its AI-server revenue target to $78 billion. It guided the fourth quarter to about $56.3 billion of revenue and $8.40 of EPS, and CNBC's headline said it also boosted its share [[buyback]] by $25 billion. Management said no customers have rescheduled orders so far, but flagged data-center readiness, including power availability, as a risk to how fast the backlog converts into sales. I did not find the stock's after-hours or premarket move."
-      ],
-      "background": [
-        "Dell is a read-through on AI spending because it assembles the servers that carry Nvidia's chips for corporate and cloud customers. Its backlog is orders already placed but not yet delivered, so a rising backlog says demand is running ahead of what the supply chain can ship.",
-        "That makes Dell a useful second opinion after Nvidia. Nvidia's own results showed demand is huge; Dell shows it flowing through to systems makers. Both rely on customers building data centers fast enough, which is why power and facilities are the constraint management named."
-      ],
-      "whyItMatters": [
-        "A record backlog and a raised outlook support the case that AI demand is intact, which matters after a week when AI stocks swung 30% in a day and then slid. It could steady the chip group before the holiday. The risk is conversion: backlog only becomes revenue if customers can power and house the machines, and a single quarter does not settle that."
-      ],
-      "grandLine": {
-        "title": "A Coup de Burst needs cola",
-        "body": "The Thousand Sunny's Coup de Burst is a huge jump that burns barrels of cola; it is powerful, expensive and cannot be done all the time. Dell's $132 billion backlog is the ship ready to jump, and power availability is the cola supply. The jump only happens if the fuel is there."
-      },
-      "views": [
-        {
-          "camp": "Demand is durable",
-          "thesis": "A rising backlog and a higher forecast confirm the AI build-out.",
-          "argument": "Orders of $60.2 billion in a quarter, no rescheduling and a $78 billion AI-server target say demand still outruns supply. A second big hardware company beating by this margin supports the group."
-        },
-        {
-          "camp": "Conversion and financing risk",
-          "thesis": "Backlog is a promise, not revenue.",
-          "argument": "Management itself flagged power availability, and a $25 billion buyback can signal confidence or a lack of better uses of cash. If customers slow data-center builds, the backlog can stall."
-        }
-      ],
-      "interview": {
-        "question": "Dell beat by a wide margin and raised guidance. Does it change your view on AI stocks?",
-        "answer": "It helps the demand argument, because a second company in the chain shows orders turning into revenue and a higher forecast. But I'd focus on conversion: the backlog only matters if customers can power and house the servers, and management flagged that risk itself. I'd watch how the stock trades after the first reaction and what happens to Nvidia and the chip group. What would change my mind is a pushout of orders or a cut to the AI-server target, which would say the build-out is slowing.",
-        "followUp": {
-          "question": "What does a rising backlog tell you?",
-          "answer": "It tells you orders are growing faster than shipments, so demand exceeds delivery capacity. It is good for future revenue but depends on supply, power and customer financing to convert."
-        }
-      },
-      "keyTerms": [
-        {
-          "term": "backlog",
-          "definition": "The value of orders a company has received but not yet delivered. A rising backlog means future revenue is already booked, if the orders convert.",
-          "example": "Dell's AI backlog was $132.3 billion."
-        },
-        {
-          "term": "buyback",
-          "definition": "A company repurchasing its own shares, which reduces the share count and returns cash to shareholders.",
-          "example": "CNBC's headline said Dell boosted its buyback by $25 billion."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Wed Nov 25, 9:30 AM ET",
-          "what": "Dell's stock reaction and whether chip stocks stabilize."
-        },
-        {
-          "when": "Wed Nov 25, 8:30 AM ET",
-          "what": "October PCE inflation and Q3 GDP, per Kiplinger's preview; jobless claims come a day early."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Dell Technologies: Delivers third quarter fiscal 2027 financial results",
-          "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results"
-        },
-        {
-          "name": "CNBC: Dell earnings report Q3 2027",
-          "url": "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html"
-        },
-        {
-          "name": "Investing.com: Dell Q3 FY27 slides: revenue doubles, AI backlog hits $132B",
-          "url": "https://www.investing.com/news/company-news/dell-q3-fy27-slides-revenue-doubles-ai-backlog-hits-132b-93CH-5049313"
-        },
-        {
-          "name": "24/7 Wall St.: Dell Technologies Q3 2027: a 44% EPS beat backed by a $132B AI backlog",
-          "url": "https://247wallst.com/cards/dell-technologies-q3-2027-earnings-dell-01m87pfs2c9c73wyprgqr5d02e"
-        }
-      ]
-    },
-    {
-      "id": "stocks-violent-reversal-nasdaq-4pct-low-recovers-nov-25-2026",
-      "beat": "markets",
-      "headline": "Stocks stage a violent reversal: the Nasdaq sinks more than 4% at its low, then claws back as the Dow ends higher",
-      "dek": "Hot inflation data, tariff fears and an AI sell-off hit early; buyers returned after the Beige Book. The Dow and Russell 2000 closed higher, the S&P 500 and Nasdaq slightly lower.",
-      "importance": 5,
-      "depth": "full",
-      "developing": true,
-      "publishedAt": "2026-11-25T16:53:00-05:00",
-      "updatedAt": "2026-11-25T16:53:00-05:00",
-      "readMinutes": 4,
-      "tldr": [
-        "Close, per a market table consistent with AP's year-to-date figures: **Dow +0.33% to 50,182.95**, **S&P 500 -0.25% to 7,182.78**, **Nasdaq -0.62% to 23,585.80**, **Russell 2000 +0.78% to 2,705.84**.",
-        "At the low the S&P 500 was down as much as **3.2%**, the Dow about 700 points, and one report had the Nasdaq off **4.6%**; the Nasdaq 100 briefly neared bear-market territory.",
-        "Triggers reported: October PCE inflation hotter than forecast, new tariff announcements, and an AI and chip sell-off; chipmakers were the weakest group."
-      ],
-      "whatHappened": [
-        "U.S. stocks swung violently on Wednesday. The S&P 500 fell as much as 3.2% early and the Dow dropped about 700 points, and one report had the Nasdaq down 4.6% at its low, with a chipmakers ETF off more than 7% at one point, before buyers returned and indexes recovered most of the loss. Benzinga linked the rebound to the Fed's Beige Book. By the close, per a market table consistent with AP's year-to-date figures, the Dow rose 0.33% to 50,182.95, the S&P 500 fell 0.25% to 7,182.78, the Nasdaq Composite fell 0.62% to 23,585.80 and the small-cap Russell 2000 rose 0.78% to 2,705.84. Sources differ on the Nasdaq close, with one putting the loss near 0.56% and others larger, so the figures are approximate.",
-        "Reports cited three triggers: October PCE inflation, which came in hotter than expected; fresh tariff announcements, which Yahoo Finance described as new 20% tariffs while Fox Business called them proposals, so the details are unconfirmed; and an AI and chip sell-off, led by Nvidia, down about 4.8% by one report. The Nasdaq 100 briefly dipped about 20% below its record close, the threshold for a [[bear market]], per one report. The size of the [[intraday reversal]] is the story: the lows and the close were separated by about four percentage points for the Nasdaq."
-      ],
-      "background": [
-        "The market came into the day after a rotation Tuesday and a record Dell quarter. Chip stocks were already the weak spot. When inflation came in hot and new tariffs were announced in thin pre-holiday trading, the selling hit the most crowded group first, and the move overshot.",
-        "Reversals like this happen when forced selling runs out. Prices fall until buyers who have been waiting step in, and a quick recovery shows how much of the drop was positioning and how much was real repricing."
-      ],
-      "whyItMatters": [
-        "A four-point intraday swing in the Nasdaq says volatility is extreme and liquidity is thin, which is a bad setting for holiday trading. The recovery is encouraging, but a close that leaves the Nasdaq lower on a day it nearly entered a bear market is not an all-clear. With markets closed Thursday and open only until 1 PM Friday, positions will be held through a low-liquidity stretch. Watch whether chip stocks stabilize and whether the December hike expectations push yields higher."
-      ],
-      "marketReaction": [
-        {
-          "asset": "Dow",
-          "move": "+0.33% to 50,182.95",
-          "direction": "up"
-        },
-        {
-          "asset": "S&P 500",
-          "move": "-0.25% to 7,182.78",
-          "direction": "down"
-        },
-        {
-          "asset": "Nasdaq Composite",
-          "move": "about -0.6% to 23,585.80",
-          "direction": "down"
-        },
-        {
-          "asset": "Russell 2000",
-          "move": "+0.78% to 2,705.84",
-          "direction": "up"
-        }
-      ],
-      "grandLine": {
-        "title": "Aqua Laguna",
-        "body": "In Water 7 everyone knows the giant tidal wave Aqua Laguna is coming, and the city still has to evacuate. PCE day is that kind of scheduled wave: everyone knew it was coming, and the market still got soaked. What matters is whether the city is still standing once the water recedes, and by the close it mostly was."
-      },
-      "views": [
-        {
-          "camp": "A capitulation low",
-          "thesis": "A four-point intraday reversal is how selloffs end.",
-          "argument": "Forced selling pushed the Nasdaq to an extreme and buyers took it back by the close, with the Dow and small caps up. That kind of reversal on huge volume often marks a low."
-        },
-        {
-          "camp": "Not over until the holiday passes",
-          "thesis": "A recovery inside a thin, rate-hike market is fragile.",
-          "argument": "Inflation is hot, a December hike is nearly fully priced, tariffs are a new unknown and the AI group is still weak. A day that nearly entered a bear market can repeat."
-        }
-      ],
-      "interview": {
-        "question": "The Nasdaq was down more than 4% at the low and ended down 0.6%. What does that tell you?",
-        "answer": "It tells me the selling was forced and the dip found buyers, which is constructive, but the close was still lower, so I'd not call a low. The drivers, a hot PCE and tariffs, are still there, and a holiday-thin market can swing again. I'd watch whether the chip stocks hold up and how the 10-year yield behaves. What would change my mind is a break back to the lows on rising yields, which says the recovery was a bounce, or a clean hold with falling volatility, which says the low is in.",
-        "followUp": {
-          "question": "What does an intraday reversal like this signal?",
-          "answer": "A strong intraday reversal, a deep drop followed by a recovery near the previous close, often signals that forced sellers have been absorbed. It is not a guarantee, and traders look for follow-through the next sessions."
-        }
-      },
-      "trade": {
-        "idea": "Dow versus Nasdaq-100 relative value",
-        "expression": "Long Dow futures, short Nasdaq-100 futures, sized to equal dollar exposure",
-        "rationale": "The day repeated the pattern of recent sessions: AI-heavy indexes fall harder than the Dow. If the AI sell-off and rate-hike pressure continue, the pair pays.",
-        "risks": [
-          "A sharp AI rebound makes the short leg lose.",
-          "Correlations rise in a sell-off and the spread can swing sharply on a single day."
-        ]
-      },
-      "keyTerms": [
-        {
-          "term": "bear market",
-          "definition": "A fall of 20% or more from a recent peak in an index or asset. A fall of 10% is a correction.",
-          "example": "The Nasdaq 100 briefly dipped about 20% below its record close."
-        },
-        {
-          "term": "intraday reversal",
-          "definition": "A large move in one direction during the session followed by a recovery most of the way back, so the open and close are far from the high or low.",
-          "example": "The Nasdaq went from about -4.6% to about -0.6%."
-        }
-      ],
-      "watchNext": [
-        {
-          "when": "Thu Nov 26",
-          "what": "US markets closed for Thanksgiving."
-        },
-        {
-          "when": "Fri Nov 27, 1:00 PM ET",
-          "what": "Early close; whether the recovery holds and what Black Friday signals."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Yahoo Finance: Dow erases losses to end positive, S&P 500 and Nasdaq recover ground",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
-        },
-        {
-          "name": "Fox Business: Dow turns positive, S&P 500 and Nasdaq led lower by AI stocks",
-          "url": "https://www.foxbusiness.com/markets/stocks-11-25-2026"
-        },
-        {
-          "name": "WRAL (AP): How major US stock indexes fared Wednesday 11/25/2026",
-          "url": "https://www.wral.com/news/ap/94fdb-how-major-us-stock-indexes-fared-wednesday-11-25-2026/"
-        },
-        {
-          "name": "Benzinga: S&P 500 pares losses on Beige Book; tech stocks rebound",
-          "url": "https://benzinga.com/markets/equities/26/11/63652957/sp-500-pares-losses-beige-book-nasdaq-100-retest-tech-stocks-bounce"
-        },
-        {
-          "name": "Chip Dispatch: Nasdaq recovers from 4.6% AI selloff to close near flat",
-          "url": "https://chipdispatch.com/articles/nasdaq-clawed-back-from-4-6-ai-selloff-to-close-near-flat"
-        }
-      ]
-    },
-    {
-      "id": "october-pce-hot-core-3-3-hike-priced-nov-25-2026",
-      "beat": "fed-macro",
-      "headline": "October PCE inflation runs hot, with core at 3.3% against 3.2% expected; a December hike is nearly fully priced",
-      "dek": "Headline PCE rose 0.3% on the month and 3.8% from a year earlier. One report had the market pricing a 98% chance of a quarter-point Fed hike in December.",
-      "importance": 4,
-      "depth": "brief",
-      "developing": false,
-      "publishedAt": "2026-11-25T16:53:00-05:00",
-      "updatedAt": "2026-11-25T16:53:00-05:00",
-      "readMinutes": 1,
-      "tldr": [
-        "The BEA reported October PCE up **0.3%** m/m and **3.8%** y/y; core PCE was **3.3%** y/y against a **3.2%** forecast, per reports.",
-        "One report had the market pricing a **98%** chance of a 25bp December hike; I did not find the revised Q3 GDP."
-      ],
-      "whatHappened": [
-        "The Bureau of Economic Analysis reported on Wednesday that the PCE price index, the Fed's preferred inflation gauge, rose 0.3% in October from September and 3.8% from a year earlier. Core PCE, which excludes food and energy, was 3.3% over the year, above the 3.2% forecast, according to reports. One report said markets priced about a 98% chance of a 25 basis point rate hike by the Fed in December. The report arrived the same day as tariff announcements and an AI sell-off, and stocks swung sharply."
-      ],
-      "whyItMatters": [
-        "A hotter core number confirms the Fed has little room to pause and keeps the debate on whether December is 25 or 50 basis points. For desks, hawkish data pushes front-end yields and the dollar up and weighs on long-duration tech, which is part of why the Nasdaq led the sell-off."
-      ],
-      "sources": [
-        {
-          "name": "Yahoo Finance: Dow erases losses to end positive, S&P 500 and Nasdaq recover ground",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
-        },
-        {
-          "name": "Benzinga: Nasdaq 100 drops 2.5% on AI credit fears: stock market today",
-          "url": "https://www.benzinga.com/markets/equities/26/11/63643697/stock-market-today-nvidia-ai-credit-fears-sp-500-worst-month-since-2022"
-        },
-        {
-          "name": "Briefs: Nasdaq slides on AI jitters and hot inflation",
-          "url": "https://www.briefs.co/news/nasdaq-plunges-as-ai-jitters-hot-inflation-and-thin-holiday/"
-        }
-      ]
-    },
-    {
       "id": "futures-jump-after-thanksgiving-ai-rebound-nov-27-2026",
       "beat": "markets",
-      "headline": "US futures jump about 2% to 3% after the Thanksgiving break as AI stocks rebound ahead of Friday's early close",
-      "dek": "Nvidia and Micron led premarket gains, and Korean chipmakers led Asia higher. A reported credit-rating warning on Nvidia and new US chip-curb worries are the counterweights.",
+      "headline": "Stocks rally in the Black Friday half-day as chips lead; Dow reported up about 1.2%, final closes unconfirmed",
+      "dek": "The premarket jump held into the shortened session, with semiconductors the leaders. I could not verify final index levels, so treat the percentages as reported.",
       "importance": 4,
       "depth": "full",
       "developing": true,
       "publishedAt": "2026-11-27T06:53:00-05:00",
-      "updatedAt": "2026-11-27T06:53:00-05:00",
-      "readMinutes": 4,
+      "updatedAt": "2026-11-27T16:56:00-05:00",
+      "updateNote": "Added the Friday session and corrected the Nvidia rating claim.",
+      "readMinutes": 3,
       "tldr": [
-        "Nasdaq-100 futures were up about **2.7% to 2.9%** and S&P 500 futures about **1.8% to 2%** before the open, depending on the report; Nvidia rose nearly **4%** premarket and Micron about **6%**.",
-        "In Asia, Korea's Kospi rose more than 2% on SK Hynix (+6.3%) and Samsung (+4.2%), Japan's Nikkei about 1.9%, while Taiwan's Taiex slipped 0.3%.",
-        "US stocks close at **1:00 PM ET** today; one report says S&P Global Ratings put Nvidia's AA rating on negative watch over governance concerns."
+        "One report has the Dow up about **1.2%** to roughly 50,775 in the half-day; I could not confirm final closes for the S&P 500 or Nasdaq, which were up strongly.",
+        "Chips led: the premarket moves in Nvidia and Micron were the story, and one report put the Philadelphia chip index up more than 4%.",
+        "Correction: my morning edition said S&P Global put Nvidia's rating on negative watch. I could not confirm that; the verified action is Moody's (see the Nvidia brief)."
       ],
       "whatHappened": [
-        "U.S. [[futures]] rebounded sharply on Friday after the Thanksgiving break, led by AI and chip stocks, according to reports from Traders Union, FinanceFeeds and others. Nasdaq-100 futures rose about 2.7% to 2.9% and S&P 500 futures about 1.8% to 2%, the figures differing by outlet. In premarket trading Nvidia rose nearly 4% and Micron about 6%. One report said Nvidia's gain came even though S&P Global Ratings placed its AA rating on negative [[credit watch]] over governance concerns; I could not confirm that from a second outlet.",
-        "In Asia, the Kospi rose more than 2% as SK Hynix gained 6.3% and Samsung Electronics 4.2%, and Japan's Nikkei 225 rose about 1.9%. Taiwan's Taiex slipped 0.3% as investors trimmed a few chipmakers. Analysts flagged new U.S. restrictions on advanced AI chips as a risk for data-center financing in Asia, and oil rose on Middle East tensions. Trading was expected to be thin with no major earnings or data, and equities close at 1:00 PM ET with bonds shutting at 2:00 PM."
+        "The futures jump described this morning carried into the cash session. Reports from the half-day put the Dow up about 1.2% to roughly 50,775, which is consistent with Wednesday's close of 50,182.95, as Thursday was a holiday. The S&P 500 and Nasdaq also rose sharply, led by chip stocks, but I could not verify their final levels, so I am not quoting them. A single report put the Philadelphia Semiconductor Index up more than 4%.",
+        "Earlier this morning, a single report said S&P Global Ratings had put Nvidia's AA rating on negative [[credit outlook]] watch. Follow-up searches found no such action. What is verified is Moody's: it affirmed Nvidia's Aa1 rating on Nov. 18 and cut the outlook to stable from positive. This edition fixes the earlier wording."
       ],
       "background": [
         "The rebound follows a violent Wednesday in which the Nasdaq fell more than 4% at its low before recovering. Futures traded through Thursday's holiday and reflect positioning, not a full market. A gain this size in a half-day session shows how much of Wednesday's selling was forced.",
@@ -505,23 +220,23 @@
         }
       ],
       "interview": {
-        "question": "Futures are up almost 3% on the Nasdaq-100 in a half-day session. Do you trust it?",
-        "answer": "I'd treat it with caution. A move in a thin, shortened session says less than the same move on a normal day, so I'd want to see whether it holds into the 1:00 PM close and whether volume picks up. The drivers are real, with chip names and Asia leading, but the rating warning on Nvidia and chip-export risks are still open. What would change my mind is a fade by the close, which would say it was positioning, or a hold into Monday's full session on rising volume.",
+        "question": "The Nasdaq swung about 4 points on Wednesday and then rallied on a half-day. How do you read a move like that on thin volume?",
+        "answer": "I'd be cautious. A big move on low volume says less than the same move on a full day, because fewer participants are setting the price. The reason is that holiday sessions skip the institutional flow that gives a rally conviction. I'd change my mind if Monday's full session holds the gains on normal volume.",
         "followUp": {
-          "question": "What does a negative watch from a rating agency mean?",
-          "answer": "It means the agency may lower a company's credit rating in the near term, usually within a few months, and is reviewing it. It is a warning, not a downgrade, and it can raise borrowing costs if the rating falls."
+          "question": "What do you do with a claim you can't confirm?",
+          "answer": "Flag it, don't trade it, and correct it publicly if it turns out wrong. A rating action is a primary-source fact: you can check it with the agency."
         }
       },
       "keyTerms": [
         {
           "term": "futures",
-          "definition": "Contracts that track an index's expected level; they trade nearly around the clock and are used as an early read before the stock market opens.",
-          "example": "Nasdaq-100 futures were up about 2.7% to 2.9% before the open."
+          "definition": "Contracts on an index that trade nearly around the clock, so they show where stocks are expected to open.",
+          "example": "If S&P futures are up 2% at 8 AM, the cash market usually opens near that."
         },
         {
-          "term": "credit watch",
-          "definition": "A rating agency's signal that a company's credit rating may be lowered (negative watch) or raised (positive watch) in the near term.",
-          "example": "One report said S&P Global Ratings put Nvidia's AA rating on negative watch."
+          "term": "credit outlook",
+          "definition": "A rating agency's view of where a company's rating is likely to go over the next 12 to 24 months: positive, stable or negative.",
+          "example": "Moody's moved Nvidia's outlook to stable from positive, so an upgrade is no longer expected soon."
         }
       ],
       "watchNext": [
@@ -550,6 +265,76 @@
         {
           "name": "SSBCrack: US stock futures rally as tech shares rebound ahead of early Black Friday close",
           "url": "https://news.ssbcrack.com/us-stock-futures-rally-as-tech-shares-rebound-ahead-of-early-black-friday-close/"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-moodys-aa1-outlook-stable-nov-27-2026",
+      "beat": "markets",
+      "headline": "Correction: Moody's, not S&P, acted on Nvidia: Aa1 affirmed, outlook cut to stable from positive",
+      "dek": "This morning's edition cited an unconfirmed S&P watch. The verified action is Moody's, on Nov. 18, citing the exit of Jensen Huang.",
+      "importance": 3,
+      "depth": "brief",
+      "developing": false,
+      "publishedAt": "2026-11-27T16:56:00-05:00",
+      "updatedAt": "2026-11-27T16:56:00-05:00",
+      "readMinutes": 1,
+      "tldr": [
+        "Moody's affirmed Nvidia's Aa1 rating on Nov. 18 and moved the outlook to stable from positive.",
+        "Moody's cited strategy uncertainty and no formal succession plan; I found no S&P Global action."
+      ],
+      "whatHappened": [
+        "After the close on Nov. 18, Moody's affirmed Nvidia's Aa1 senior unsecured rating and cut the outlook to stable from positive. Reports say Moody's cited uncertainty after Jensen Huang's exit and the lack of a formal succession plan. Sources disagree on the date of his departure (Nov. 11 or 12).",
+        "The earlier claim that S&P Global put the rating on negative watch could not be confirmed in follow-up searches, so I am withdrawing it."
+      ],
+      "whyItMatters": [
+        "The rating is still very high, so this is not a funding problem. A stable outlook means an upgrade is no longer expected soon. It also shows that governance, not earnings, is the open question for Nvidia, and the next signals are the CEO choice and the board's investigation."
+      ],
+      "sources": [
+        {
+          "name": "247WallSt: Moody's says Huang's exit is credit negative for Nvidia",
+          "url": "https://247wallst.com/investing/2026/11/19/moodys-says-jensen-huangs-exit-is-credit-negative-for-nvidia/"
+        },
+        {
+          "name": "Newsquawk: Moody's cuts Nvidia outlook to stable, affirms Aa1",
+          "url": "https://www.newsquawk.com/headlines/moodys-cuts-nvidia-nvda-outlook-to-stable-affirms-aa1-rating"
+        },
+        {
+          "name": "InvestingLive: Moody's cuts Nvidia outlook to stable",
+          "url": "https://investinglive.com/stocks/moody-s-cuts-nvidia-outlook-to-stable-saying-huang-s-exit-clouds-strategy-and-policy/"
+        }
+      ]
+    },
+    {
+      "id": "opec-plus-sunday-2027-quota-test-nov-29-2026",
+      "beat": "energy",
+      "headline": "OPEC+ meets Sunday for the bigger test: 2027 output quotas, after a third straight hold",
+      "dek": "The group held December targets on Nov. 1 while Gulf producers pumped below quota because of the Iran war. Analysts called Sunday's meeting the harder call.",
+      "importance": 3,
+      "depth": "brief",
+      "developing": false,
+      "publishedAt": "2026-11-27T16:56:00-05:00",
+      "updatedAt": "2026-11-27T16:56:00-05:00",
+      "readMinutes": 1,
+      "tldr": [
+        "On Nov. 1, seven core OPEC+ members kept December output targets unchanged for a third month.",
+        "Many Gulf producers are still below their quotas because of Iran war disruption; Sunday's meeting is expected to take up 2027 quotas and a capacity review."
+      ],
+      "whatHappened": [
+        "On Nov. 1, seven core OPEC+ members, including Saudi Arabia and Russia, kept their December production targets unchanged in an online meeting, the third straight hold. Reports say many Gulf producers are still pumping below their quotas because of disruption from the Iran war, even as exports through the Strait of Hormuz have risen.",
+        "One analyst called that decision the easy one and said the bigger test comes at the Nov. 29 meeting, when the group has to negotiate 2027 quotas. A capacity review has to be finished before the end of the year. I could not find a verified preview of what is expected on Sunday."
+      ],
+      "whyItMatters": [
+        "Oil is the input cost behind inflation, which is why the Fed's December decision matters. A quota deal that adds supply would ease that pressure; a hold with Gulf output still disrupted keeps it. Monday's oil open is the first read."
+      ],
+      "sources": [
+        {
+          "name": "Star-Advertiser: OPEC+ keeps December oil output targets steady amid Iran war",
+          "url": "https://www.staradvertiser.com/2026/11/01/breaking-news/opec-keeps-december-oil-output-targets-steady-as-iran-war-disrupt-flows/"
+        },
+        {
+          "name": "World Oil: OPEC+ subgroup keeps oil production quotas unchanged for December",
+          "url": "https://worldoil.com/news/2026/11/1/opec-subgroup-keeps-oil-production-quotas-unchanged-for-december/"
         }
       ]
     }

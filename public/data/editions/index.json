@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "id": "2026-11-27-pm",
+      "number": 81,
+      "editionType": "pm",
+      "publishedAt": "2026-11-27T16:56:00-05:00",
+      "lead": "Stocks rally in the Black Friday half-day as chips lead; Dow reported up about 1.2%, final closes unconfirmed",
+      "stories": 3
+    },
+    {
       "id": "2026-11-27-am",
       "number": 80,
       "editionType": "am",
